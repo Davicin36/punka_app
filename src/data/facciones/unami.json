@@ -1,0 +1,308 @@
+{
+  "id": "unami",
+  "nombre": "Unami",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad de los Unami o Mercenario.",
+    "Un Chamán por cada fracción de 200 puntos.",
+    "No puede haber más Truenos que la suma del resto de integrantes.",
+    "Máximo un Gato parameño.",
+    "Una mente: cada miniatura aporta 2 Puntos de Mojo (PdM) a la reserva común; las Acciones se pagan con PdM (máx. 3 por Fase de activación)."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "porPuntos",
+      "unidad": "chaman",
+      "cada": 200
+    },
+    {
+      "tipo": "noMasQueResto",
+      "unidad": "trueno"
+    }
+  ],
+  "admiteMercenarios": true,
+  "reglasFaccion": [
+    "Una mente",
+    "Don de Majauchsuwi"
+  ],
+  "unidades": [
+    {
+      "id": "chaman",
+      "nombre": "Chamán",
+      "coste": 25,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "-",
+        "combate": "2",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 0,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Hierbas alucinógenas",
+            "coste": 8
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Espíritus"
+      ]
+    },
+    {
+      "id": "sombra",
+      "nombre": "Sombra",
+      "coste": 35,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "-",
+        "combate": "3",
+        "precision": "5",
+        "agilidad": "5",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Tomahawk",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Hierbas alucinógenas",
+            "coste": 8
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Don de Majauchsuwi (2 PdM): doble"
+      ]
+    },
+    {
+      "id": "trueno",
+      "nombre": "Trueno",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "-",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Tomahawk",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Arco",
+            "coste": 10
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Hierbas alucinógenas",
+            "coste": 8
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Don de Majauchsuwi (1 PdM): +2 Blindaje"
+      ]
+    },
+    {
+      "id": "viento",
+      "nombre": "Viento",
+      "coste": 60,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "-",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "6",
+        "fuerza": "5",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Tomahawk",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Arco",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Hierbas alucinógenas",
+            "coste": 8
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Pisoteador (Ímpetu (1), Montada, Raudo)",
+        "Jinete experto",
+        "Don de Majauchsuwi (1 PdM): -2 Precisión contra él"
+      ]
+    },
+    {
+      "id": "elaichik",
+      "nombre": "Elaichik",
+      "coste": 80,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "-",
+        "combate": "5",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "2"
+      },
+      "armasFijas": "3 Afeitadoras (tomahawks; Penetración 5 en cuerpo a cuerpo)",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Unami",
+        "Todoterreno",
+        "Afeitadoras",
+        "Cazador de cabelleras",
+        "Terrorífico",
+        "Don de Majauchsuwi (2 PdM)"
+      ]
+    }
+  ]
+}

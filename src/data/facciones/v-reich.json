@@ -1,0 +1,404 @@
+{
+  "id": "v-reich",
+  "nombre": "V Reich",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Mariscal.",
+    "Máximo un Gato parameño.",
+    "Los Subhumanos no tienen acceso al equipo genérico."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "maxUnidad",
+      "unidades": [
+        "mariscal"
+      ],
+      "max": 1
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "subhumano",
+      "nombre": "Subhumano",
+      "coste": 20,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "-",
+        "agilidad": "2 (1)",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "-"
+      },
+      "armasFijas": "Garras y dientes",
+      "blindaje": {
+        "base": "Pura chapa",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Bersérker",
+        "Mónguer"
+      ],
+      "sinEquipoGenerico": true
+    },
+    {
+      "id": "sanitario",
+      "nombre": "Sanitario",
+      "coste": 35,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Primeros auxilios"
+      ]
+    },
+    {
+      "id": "soldat",
+      "nombre": "Soldat",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "5",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Rifle",
+            "coste": 8
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Walkie-talkie",
+            "coste": 7
+          },
+          {
+            "nombre": "Mastín",
+            "coste": 9
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Mastín"
+      ]
+    },
+    {
+      "id": "ubersoldat",
+      "nombre": "Übersoldat",
+      "coste": 50,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "6",
+        "dureza": "5",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Rifle automático",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Pura chapa",
+            "coste": 15
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Walkie-talkie",
+            "coste": 7
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "mariscal",
+      "nombre": "Mariscal",
+      "coste": 60,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "5",
+        "precision": "5",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Rifle automático",
+            "coste": 10
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 10
+          }
+        ]
+      },
+      "equipo": {
+        "incluido": "Walkie-talkie",
+        "opciones": [
+          {
+            "nombre": "Mastín",
+            "coste": 9
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Cadena de mando"
+      ]
+    },
+    {
+      "id": "ilse-la-loba-del-v-reich",
+      "nombre": "Ilse, la Loba del V Reich",
+      "coste": 45,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "3 (4)",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armasFijas": "Fusta y pistola",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad del V Reich",
+        "Fusta",
+        "Cazadora de Mutardos"
+      ]
+    },
+    {
+      "id": "aaron-schwartzmann",
+      "nombre": "Aaron Schwartzmann",
+      "coste": 80,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "4 (5)",
+        "precision": "5 (4)",
+        "agilidad": "6",
+        "fuerza": "5 (7)",
+        "dureza": "5",
+        "tecnica": "4"
+      },
+      "armasFijas": "Filo medio y pistola",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Walkie-talkie"
+      },
+      "reglasEspeciales": [
+        "Montada",
+        "Personalidad del V Reich",
+        "Raudo",
+        "Cadena de mando",
+        "Maestro estratega",
+        "Amado líder"
+      ],
+      "nota": "Se considera Mariscal (Cadena de mando)."
+    },
+    {
+      "id": "edward-berhart",
+      "nombre": "Edward Berhart",
+      "coste": 100,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "3 (6)",
+        "precision": "6",
+        "agilidad": "5 (4)",
+        "fuerza": "4 (6)",
+        "dureza": "4",
+        "tecnica": "4"
+      },
+      "armasFijas": "Podadora eléctrica y rifle automático",
+      "blindaje": {
+        "base": "Pura chapa",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Walkie-talkie"
+      },
+      "reglasEspeciales": [
+        "Personalidad del V Reich",
+        "Cadena de mando",
+        "Podadora eléctrica",
+        "Ragnar",
+        "Táctico",
+        "Bombona de butano"
+      ],
+      "nota": "Se considera Mariscal (Cadena de mando)."
+    }
+  ]
+}

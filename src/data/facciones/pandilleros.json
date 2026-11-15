@@ -1,0 +1,403 @@
+{
+  "id": "pandilleros",
+  "nombre": "Pandilleros",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Jefe (Lord Homoeroticus cuenta como Jefe).",
+    "No puede haber más Piltrafas que la suma del resto de integrantes.",
+    "Máximo un Gato parameño."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "maxUnidad",
+      "unidades": [
+        "jefe",
+        "lord-homoeroticus"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "noMasQueResto",
+      "unidad": "piltrafa"
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "piltrafa",
+      "nombre": "Piltrafa",
+      "coste": 20,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Arco",
+            "coste": 10
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "machaca",
+      "nombre": "Machaca",
+      "coste": 30,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "5",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Ballesta",
+            "coste": 8
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Arco",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Retraso (1)"
+      ]
+    },
+    {
+      "id": "bruto",
+      "nombre": "Bruto",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "5",
+        "dureza": "4",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Pura chapa",
+            "coste": 15
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Escudo",
+            "coste": 6
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "curtido",
+      "nombre": "Curtido",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "6",
+        "precision": "6",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Rifle",
+            "coste": 8
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Rifle automático",
+            "coste": 10
+          },
+          {
+            "nombre": "Ballesta",
+            "coste": 8
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          },
+          {
+            "nombre": "Armadura metálica",
+            "coste": 15
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Retraso (2)"
+      ]
+    },
+    {
+      "id": "jefe",
+      "nombre": "Jefe",
+      "coste": 70,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "6",
+        "precision": "6",
+        "agilidad": "6",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "5"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Rifle",
+            "coste": 8
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Rifle automático",
+            "coste": 10
+          },
+          {
+            "nombre": "Ballesta",
+            "coste": 8
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Retraso (3)"
+      ]
+    },
+    {
+      "id": "clint-tirofijo",
+      "nombre": "Clint Tirofijo",
+      "coste": 60,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4 (3)",
+        "precision": "7",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armasFijas": "Lucy (pistola)",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Pandilleros",
+        "Retraso (2)",
+        "Imperdonable"
+      ]
+    },
+    {
+      "id": "lord-homoeroticus",
+      "nombre": "Lord Homoeroticus",
+      "coste": 100,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "6 (5)",
+        "precision": "6",
+        "agilidad": "6",
+        "fuerza": "5",
+        "dureza": "5",
+        "tecnica": "4"
+      },
+      "armasFijas": "Alegradías (pistola con mira teléscopica)",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Pandilleros",
+        "Retraso (3)",
+        "Jefe",
+        "Nos mola el cuero",
+        "Discursitos"
+      ],
+      "cuentaComo": "jefe"
+    }
+  ]
+}

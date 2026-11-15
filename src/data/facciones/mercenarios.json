@@ -1,0 +1,252 @@
+{
+  "id": "mercenarios",
+  "nombre": "Mercenarios",
+  "restricciones": [
+    "Pueden unirse a cualquier facción salvo que sus reglas digan lo contrario.",
+    "Máximo un Mercenario por banda (cuenta como Personalidad o Mercenario).",
+    "No usan reglas ni equipo especial de la banda.",
+    "Equipo cerrado: solo se compran balas."
+  ],
+  "unidades": [
+    {
+      "id": "el-viejo-sajarratas",
+      "nombre": "El Viejo Sajarratas",
+      "coste": 15,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3 (1)",
+        "precision": "1",
+        "agilidad": "3",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "5"
+      },
+      "armasFijas": "Ninguna",
+      "blindaje": {
+        "base": "Capa de ratas (cuero endurecido)",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Mónguer",
+        "Chorimangui",
+        "Cansino"
+      ]
+    },
+    {
+      "id": "imperatrix-rabiosa",
+      "nombre": "Imperatrix Rabiosa",
+      "coste": 60,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "3 (4)",
+        "dureza": "4",
+        "tecnica": "5"
+      },
+      "armasFijas": "Rifle con mira telescópica y filo pequeño",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Retraso (2)",
+        "Me quedo con tu cara",
+        "Brazo mecánico"
+      ]
+    },
+    {
+      "id": "mongodrilo-dundee",
+      "nombre": "Mongodrilo Dundee",
+      "coste": 70,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "5",
+        "agilidad": "6",
+        "fuerza": "3 (4)",
+        "dureza": "3",
+        "tecnica": "4"
+      },
+      "armasFijas": "Garrapata (ballesta)",
+      "blindaje": {
+        "base": "Piel de mongolongo",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Inmune al Veneno y Terreno contaminado",
+        "Mercenario",
+        "Garrapata",
+        "Trampero",
+        "Ojo loco",
+        "Escoria mutarda"
+      ],
+      "noPuedeUnirseA": [
+        "v-reich"
+      ]
+    },
+    {
+      "id": "crazy-mel",
+      "nombre": "Crazy Mel",
+      "coste": 75,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5 (6)",
+        "precision": "7 (8)",
+        "agilidad": "5",
+        "fuerza": "4 (6)",
+        "dureza": "4",
+        "tecnica": "5"
+      },
+      "armasFijas": "Escopeta y filo medio",
+      "blindaje": {
+        "base": "Armadura metálica",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Albóndiga"
+      ]
+    },
+    {
+      "id": "capitan-hammerica",
+      "nombre": "Capitán Hammerica",
+      "coste": 80,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "6",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "5 (7)",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armasFijas": "Maza y pistola",
+      "blindaje": {
+        "base": "Armadura metálica",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Escudo"
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Escudo reforzado",
+        "Hammer time",
+        "Odio a Casco Rojo",
+        "Capitán Fascio"
+      ]
+    },
+    {
+      "id": "lizzy-deville",
+      "nombre": "Lizzy Deville",
+      "coste": 80,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "3",
+        "combate": "4 (5)",
+        "precision": "5",
+        "agilidad": "5",
+        "fuerza": "3 (5)",
+        "dureza": "5",
+        "tecnica": "4"
+      },
+      "armasFijas": "Pistola y filo medio",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Retraso (2)",
+        "Charlatana",
+        "Chica de portada",
+        "Tacaña"
+      ]
+    },
+    {
+      "id": "ochodedos",
+      "nombre": "Ochodedos",
+      "coste": 88,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5 (6/4)",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "4 (6)",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armasFijas": "2 filos medios",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "El baile de San Vito",
+        "Doble dolor"
+      ]
+    },
+    {
+      "id": "irina",
+      "nombre": "Irina",
+      "coste": 90,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "3",
+        "agilidad": "6",
+        "fuerza": "4",
+        "dureza": "5",
+        "tecnica": "4"
+      },
+      "armasFijas": "Utacël",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Retraso (3)",
+        "Utacël",
+        "Halálkarma"
+      ]
+    },
+    {
+      "id": "devin-crow",
+      "nombre": "Devin Crow",
+      "coste": 70,
+      "tipo": "mercenario",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "3",
+        "agilidad": "5",
+        "fuerza": "3 (5)",
+        "dureza": "3",
+        "tecnica": "6"
+      },
+      "armasFijas": "Maza",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mercenario",
+        "Monkeys Paw",
+        "Cuervos y azufre"
+      ]
+    }
+  ]
+}

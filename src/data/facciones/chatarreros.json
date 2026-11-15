@@ -1,0 +1,325 @@
+{
+  "id": "chatarreros",
+  "nombre": "Chatarreros",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "No puede haber más Dinamos que la suma del resto de integrantes.",
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Gato parameño."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "noMasQueResto",
+      "unidad": "dinamo"
+    }
+  ],
+  "admiteMercenarios": true,
+  "equipoFaccion": [
+    {
+      "nombre": "Bala apañada",
+      "coste": 10,
+      "porUnidad": true,
+      "nota": "Solo armas de fuego"
+    },
+    {
+      "nombre": "Mira telescópica",
+      "coste": 10,
+      "nota": "Para rifle o pistola"
+    },
+    {
+      "nombre": "Cacharras del oficio",
+      "coste": 3
+    }
+  ],
+  "unidades": [
+    {
+      "id": "dinamo",
+      "nombre": "Dinamo",
+      "coste": 15,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "2",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "7"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Bomba de humo",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Vaporeta",
+            "coste": 8
+          },
+          {
+            "nombre": "Bomba incendiaria",
+            "coste": 7,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Chasqueador y traje voltaico",
+            "coste": 25
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Cacharras del oficio",
+            "coste": 3
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "engranaje",
+      "nombre": "Engranaje",
+      "coste": 16,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Trabuco",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Bombeadora",
+            "coste": 8
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Rifle",
+            "coste": 8
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "piston",
+      "nombre": "Pistón",
+      "coste": 30,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Puño balístico",
+            "coste": 6
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          },
+          {
+            "nombre": "Lanzaarpones",
+            "coste": 18
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "sonda",
+      "nombre": "Sonda",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "5",
+        "fuerza": "2",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Camuflaje",
+        "Infiltración",
+        "Raudo",
+        "Todoterreno"
+      ]
+    },
+    {
+      "id": "caronte",
+      "nombre": "Caronte",
+      "coste": 60,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "3",
+        "agilidad": "3 (2)",
+        "fuerza": "3 (4)",
+        "dureza": "4",
+        "tecnica": "7"
+      },
+      "armasFijas": "Bola de Dragón con 5 bombas incendiarias",
+      "blindaje": {
+        "base": "Carcasa",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Cacharras del oficio"
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Chatarreros",
+        "Carcasa",
+        "Bola de Dragón"
+      ]
+    },
+    {
+      "id": "samantha-o-sullivan",
+      "nombre": "Samantha O’Sullivan",
+      "coste": 80,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "4 (5)",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "3 (5)",
+        "dureza": "4",
+        "tecnica": "7"
+      },
+      "armasFijas": "Rotocañón y filo medio",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Cacharras del oficio"
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Chatarreros",
+        "Rotocañón"
+      ]
+    }
+  ]
+}

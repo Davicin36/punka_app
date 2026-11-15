@@ -1,0 +1,320 @@
+{
+  "id": "idos",
+  "nombre": "Idos",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Un Cosechador por cada fracción de 200 puntos.",
+    "No puede haber más Despojos que la suma del resto de integrantes.",
+    "Máximo un Gato parameño.",
+    "Ambrosía: 1 dosis por cada fracción de 100 puntos."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "porPuntos",
+      "unidad": "cosechador",
+      "cada": 200
+    },
+    {
+      "tipo": "noMasQueResto",
+      "unidad": "despojo"
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "despojo",
+      "nombre": "Despojo",
+      "coste": 15,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Hoz",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          },
+          {
+            "nombre": "Cuero humano",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Escoria"
+      ]
+    },
+    {
+      "id": "aberracion",
+      "nombre": "Aberración",
+      "coste": 35,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "-",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "-"
+      },
+      "armasFijas": "Garras y dientes",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mónguer",
+        "Raudo",
+        "Locura",
+        "Sobredosis",
+        "Mal viaje"
+      ],
+      "sinEquipoGenerico": true
+    },
+    {
+      "id": "cosechador",
+      "nombre": "Cosechador",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "5",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "6"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Hoz",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero humano",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Mal viaje",
+        "Cosecha"
+      ],
+      "armaIncrustada": {
+        "coste": 10
+      }
+    },
+    {
+      "id": "desgarrador",
+      "nombre": "Desgarrador",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "-",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "1"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Hoz",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          },
+          {
+            "nombre": "Cuero humano",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Furia psicópata",
+        "Mal viaje"
+      ],
+      "armaIncrustada": {
+        "coste": 10
+      }
+    },
+    {
+      "id": "gloton",
+      "nombre": "Glotón",
+      "coste": 45,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "4",
+        "dureza": "5",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero humano",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Devorador",
+        "Mal viaje"
+      ]
+    },
+    {
+      "id": "tio",
+      "nombre": "Tío",
+      "coste": 70,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "-",
+        "agilidad": "4",
+        "fuerza": "5 (9)",
+        "dureza": "6",
+        "tecnica": "2"
+      },
+      "armasFijas": "Torbellino (maza pesada)",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Idos",
+        "Torbellino",
+        "Mal viaje"
+      ]
+    },
+    {
+      "id": "madre",
+      "nombre": "Madre",
+      "coste": 90,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "4 (2)",
+        "precision": "3",
+        "agilidad": "5",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "6"
+      },
+      "armasFijas": "Ninguna",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Idos",
+        "Cosechadora",
+        "Presencia perturbadora",
+        "Lucidez",
+        "Mascota"
+      ]
+    }
+  ]
+}

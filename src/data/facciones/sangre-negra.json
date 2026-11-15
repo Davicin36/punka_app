@@ -1,0 +1,377 @@
+{
+  "id": "sangre-negra",
+  "nombre": "Hijos de la Sangre Negra",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Guardián de la Llama.",
+    "Máximo un Gato parameño."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "maxUnidad",
+      "unidades": [
+        "guardian-de-la-llama"
+      ],
+      "max": 1
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "ceniza",
+      "nombre": "Ceniza",
+      "coste": 12,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          },
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": []
+    },
+    {
+      "id": "quemado",
+      "nombre": "Quemado",
+      "coste": 15,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "2",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 0,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mónguer",
+        "¡Por la Sangre Negra!",
+        "Bonzo",
+        "Bajo la mirada llameante"
+      ],
+      "opcionesExtra": [
+        {
+          "nombre": "Bidón de gasofa (Bonzo)",
+          "coste": 15
+        }
+      ]
+    },
+    {
+      "id": "guardian-de-la-llama",
+      "nombre": "Guardián de la Llama",
+      "coste": 20,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "2",
+        "agilidad": "2",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "6"
+      },
+      "armas": {
+        "min": 1,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Pura chapa",
+            "coste": 15
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Mirada llameante"
+      ]
+    },
+    {
+      "id": "ascua",
+      "nombre": "Ascua",
+      "coste": 50,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Cóctel molotov",
+            "coste": 8,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Motosierra",
+            "coste": 10
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Lanzallamas",
+            "coste": 20
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 10
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Escudo",
+            "coste": 6
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Bajo la mirada llameante"
+      ]
+    },
+    {
+      "id": "chispa",
+      "nombre": "Chispa",
+      "coste": 55,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "6",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 10
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Bajo la mirada llameante",
+        "Darle caña"
+      ]
+    },
+    {
+      "id": "momma-nutritora",
+      "nombre": "Momma Nutritora",
+      "coste": 50,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "4 (6)",
+        "dureza": "4",
+        "tecnica": "7"
+      },
+      "armasFijas": "Maza",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Nutritora",
+        "Bomba andante"
+      ]
+    },
+    {
+      "id": "cunnilingus-igni",
+      "nombre": "Cunnilingus Igni",
+      "coste": 100,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "5",
+        "precision": "4",
+        "agilidad": "5 (4)",
+        "fuerza": "5 (7)",
+        "dureza": "5",
+        "tecnica": "5"
+      },
+      "armasFijas": "Va equipado con su inseparable pistola Lechazo y su sierra de mano Chorrazo",
+      "blindaje": {
+        "base": "Pura chapa",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Sumo Guardián de la Llama",
+        "Lechazo",
+        "Chorrazo"
+      ]
+    }
+  ]
+}

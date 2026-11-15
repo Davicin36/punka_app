@@ -1,0 +1,203 @@
+{
+  "id": "comic",
+  "nombre": "La Banda del Cómic",
+  "equipoGenerico": [],
+  "restricciones": [
+    "No puede unirse ningún Mercenario.",
+    "Ningún personaje puede repetirse.",
+    "No puede tener a la vez a Dan novato y a Dan.",
+    "Caronte puede formar parte de la banda.",
+    "Máximo un Gato parameño.",
+    "Equipo cerrado; solo se compran balas."
+  ],
+  "limites": [
+    {
+      "tipo": "unicos"
+    },
+    {
+      "tipo": "excluyentes",
+      "unidades": [
+        "dan",
+        "dan-novato"
+      ]
+    }
+  ],
+  "admiteMercenarios": false,
+  "invitados": [
+    "caronte"
+  ],
+  "unidades": [
+    {
+      "id": "paul",
+      "nombre": "Paul",
+      "coste": 40,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "4 (5)",
+        "dureza": "4",
+        "tecnica": "5"
+      },
+      "armasFijas": "Filo pequeño",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Asco de vida"
+      ]
+    },
+    {
+      "id": "dan-novato",
+      "nombre": "Dan Novato",
+      "coste": 40,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4 (5)",
+        "agilidad": "4",
+        "fuerza": "4 (5)",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armasFijas": "Escopeta",
+      "blindaje": {
+        "base": "Chaleco antibalas",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Demasiado honorable",
+        "Compañerismo"
+      ]
+    },
+    {
+      "id": "nicole",
+      "nombre": "Nicole",
+      "coste": 45,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "5 (7)",
+        "dureza": "5",
+        "tecnica": "7"
+      },
+      "armasFijas": "Maza",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Voluntariosa",
+        "Fuego malo"
+      ]
+    },
+    {
+      "id": "markus",
+      "nombre": "Markus",
+      "coste": 50,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "5 (6)",
+        "agilidad": "4",
+        "fuerza": "4 (5)",
+        "dureza": "4",
+        "tecnica": "5"
+      },
+      "armasFijas": "Escopeta",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mal encarado",
+        "Trucos sucios"
+      ]
+    },
+    {
+      "id": "vale",
+      "nombre": "Vale",
+      "coste": 50,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "4",
+        "agilidad": "3",
+        "fuerza": "3 (4)",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armasFijas": "Rifle con mira telescópica",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Protección contra la contaminación"
+      },
+      "reglasEspeciales": [
+        "Le tengo",
+        "Ocultación"
+      ]
+    },
+    {
+      "id": "dan",
+      "nombre": "Dan",
+      "coste": 65,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5 (4)",
+        "precision": "5",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "4"
+      },
+      "armasFijas": "2 pistolas",
+      "blindaje": {
+        "base": "Chaleco antibalas",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Retraso (2)",
+        "Ensalada de tiros",
+        "Compañerismo"
+      ]
+    },
+    {
+      "id": "rita",
+      "nombre": "Rita",
+      "coste": 80,
+      "tipo": "personaje",
+      "perfil": {
+        "acciones": "2",
+        "combate": "6 (7)",
+        "precision": "6",
+        "agilidad": "5",
+        "fuerza": "4 (6)",
+        "dureza": "4",
+        "tecnica": "4"
+      },
+      "armasFijas": "Filo medio y ballesta",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Retraso (2)",
+        "Molonidad",
+        "Recarga en movimiento"
+      ]
+    }
+  ]
+}

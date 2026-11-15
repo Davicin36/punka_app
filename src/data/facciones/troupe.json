@@ -1,0 +1,370 @@
+{
+  "id": "troupe",
+  "nombre": "Troupe",
+  "equipoGenerico": [
+    {
+      "nombre": "Protección contra la contaminación",
+      "coste": 5
+    }
+  ],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Jefe de pista.",
+    "No puede haber más Domadores (sin fieras), Forzudos y Acróbatas que Pachachos.",
+    "Las fieras cuentan para el máximo de miniaturas.",
+    "Máximo un cañón lanzador y un coche de Pachachos.",
+    "Máximo un Gato parameño."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "maxUnidad",
+      "unidades": [
+        "jefe-de-pista"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "sumaNoMasQue",
+      "unidades": [
+        "domador",
+        "forzudo",
+        "acrobata"
+      ],
+      "referencia": "pachacho"
+    },
+    {
+      "tipo": "repeticionArticulo",
+      "max": 3
+    }
+  ],
+  "admiteMercenarios": true,
+  "extrasBanda": [
+    {
+      "nombre": "Cañón lanzador",
+      "coste": 10,
+      "max": 1
+    },
+    {
+      "nombre": "Coche de Pachachos",
+      "coste": 25,
+      "max": 1
+    }
+  ],
+  "unidades": [
+    {
+      "id": "pachacho",
+      "nombre": "Pachacho",
+      "coste": 18,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Cañón de confeti",
+            "coste": 6
+          },
+          {
+            "nombre": "Guante de boxeo extensible",
+            "coste": 4
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Risa difícil",
+        "Zapatones",
+        "Artículos de coña"
+      ],
+      "opcionesExtra": [
+        {
+          "nombre": "Chismeciclo",
+          "coste": 8
+        }
+      ],
+      "articulosDeCona": 2
+    },
+    {
+      "id": "domador",
+      "nombre": "Domador",
+      "coste": 22,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Látigo",
+            "coste": 4
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Señor de las bestias",
+        "Avivar"
+      ],
+      "fieras": {
+        "max": 2,
+        "coste": 12
+      }
+    },
+    {
+      "id": "acrobata",
+      "nombre": "Acróbata",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "6",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Escurridizo",
+        "Todoterreno",
+        "Raudo",
+        "Catapulta infernal",
+        "Artículos de coña"
+      ],
+      "articulosDeCona": 1
+    },
+    {
+      "id": "forzudo",
+      "nombre": "Forzudo",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "3",
+        "agilidad": "2",
+        "fuerza": "6",
+        "dureza": "5",
+        "tecnica": "2"
+      },
+      "armas": {
+        "min": 1,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Bestia parda",
+        "Lucimiento",
+        "Artículos de coña"
+      ],
+      "articulosDeCona": 1,
+      "ignoraArmatoste": true
+    },
+    {
+      "id": "jefe-de-pista",
+      "nombre": "Jefe de Pista",
+      "coste": 50,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "3",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "6"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": [
+          {
+            "nombre": "Ropas resistentes",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "El mayor espectáculo del mundo"
+      ]
+    },
+    {
+      "id": "francois-el-mimo",
+      "nombre": "François, el Mimo",
+      "coste": 30,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3 (1)",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armasFijas": "Ninguna",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de la Troupe",
+        "¡Matad a eso!",
+        "Mimo",
+        "Muro imaginario"
+      ]
+    },
+    {
+      "id": "madame-destino",
+      "nombre": "Madame Destino",
+      "coste": 50,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2",
+        "precision": "2",
+        "agilidad": "5",
+        "fuerza": "3 (4)",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armasFijas": "Filo pequeño",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de la Troupe",
+        "Retraso (3)",
+        "Levitación",
+        "Vidente",
+        "La Luna"
+      ]
+    }
+  ]
+}

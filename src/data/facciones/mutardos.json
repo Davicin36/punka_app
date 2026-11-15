@@ -1,0 +1,285 @@
+{
+  "id": "mutardos",
+  "nombre": "Mutardos",
+  "equipoGenerico": [],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo dos grupos de Pochos por cada Cabezón.",
+    "Máximo un Gato parameño.",
+    "No más de tres Mutardos con la misma mutación.",
+    "Inmunes al Terreno contaminado."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "porUnidad",
+      "unidad": "pocho",
+      "referencia": "cabezon",
+      "factor": 2
+    },
+    {
+      "tipo": "repeticionMutacion",
+      "max": 3
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "pocho",
+      "nombre": "Grupo de Pochos",
+      "coste": 6,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "1",
+        "combate": "X",
+        "precision": "-",
+        "agilidad": "1",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "-"
+      },
+      "armasFijas": "Garras y dientes",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Mónguer",
+        "Cuerpo escombro",
+        "Grupal"
+      ],
+      "grupo": {
+        "min": 2,
+        "max": 5
+      },
+      "sinEquipoGenerico": true
+    },
+    {
+      "id": "mutante",
+      "nombre": "Mutante",
+      "coste": 12,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 0,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Cuchillos arrojadizos",
+            "coste": 3
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [],
+      "mutaciones": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "id": "perromorfo",
+      "nombre": "Perromorfo",
+      "coste": 20,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "-",
+        "agilidad": "7",
+        "fuerza": "4",
+        "dureza": "3",
+        "tecnica": "-"
+      },
+      "armasFijas": "Garras y dientes",
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Bestia",
+        "Raudo",
+        "Perrete tontico"
+      ],
+      "sinEquipoGenerico": true
+    },
+    {
+      "id": "bestia-del-pozo",
+      "nombre": "Bestia del Pozo",
+      "coste": 70,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "2",
+        "agilidad": "2",
+        "fuerza": "6",
+        "dureza": "6",
+        "tecnica": "1"
+      },
+      "armas": {
+        "min": 0,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Piel dura 3",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Bersérker",
+        "Mónguer"
+      ],
+      "mutaciones": {
+        "min": 0,
+        "max": 1,
+        "permitidas": [
+          "Carga brutal",
+          "Espinas",
+          "Esputo ácido",
+          "Garras envenenadas",
+          "Miembros extra",
+          "Cola afilada",
+          "Extremidad prensil",
+          "Piernas seguras"
+        ]
+      }
+    },
+    {
+      "id": "cabezon",
+      "nombre": "Cabezón",
+      "coste": 80,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "1",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "4"
+      },
+      "armas": {
+        "min": 0,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Poderes psíquicos"
+      ]
+    },
+    {
+      "id": "magmador",
+      "nombre": "Magmador",
+      "coste": 90,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "3",
+        "agilidad": "2",
+        "fuerza": "6",
+        "dureza": "5",
+        "tecnica": "3"
+      },
+      "armasFijas": "Garras y dientes",
+      "blindaje": {
+        "base": "Piel dura 5",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Ignífugo",
+        "Personalidad de los Mutardos",
+        "Cuerpo ardiente",
+        "Charco de magma"
+      ]
+    },
+    {
+      "id": "kim-y-fostiador",
+      "nombre": "Kim y Fostiador",
+      "coste": 125,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "3",
+        "combate": "6 (5)",
+        "precision": "3",
+        "agilidad": "2 (1)",
+        "fuerza": "6 (10)",
+        "dureza": "6",
+        "tecnica": "4"
+      },
+      "armasFijas": "Zasca",
+      "blindaje": {
+        "base": "Piel dura 3",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Mutardos",
+        "Zasca",
+        "Mente ocupada",
+        "Poderes de Kim",
+        "Odio puro"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "armas": [
+    {
+      "nombre": "Maza ligera",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+1",
+          "penetracion": "0"
+        }
+      ],
+      "reglas": [],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Filo pequeño",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+1",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Maza",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+2",
+          "penetracion": "1"
+        }
+      ],
+      "reglas": [],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Maza pesada",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": -1,
+          "fuerza": "+4",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "A dos manos"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Filo pesado",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+3",
+          "penetracion": "4"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Filo medio",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 1,
+          "fuerza": "+2",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Cuchillos arrojadizos",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "5/10/15",
+          "fuerza": "L/L-1/L-2",
+          "penetracion": "2/1/0"
+        }
+      ],
+      "reglas": [],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Pistola",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "15/30/45",
+          "fuerza": "6",
+          "penetracion": "4"
+        }
+      ],
+      "reglas": [
+        "Arma de fuego",
+        "Escasa"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Escopeta",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/20/30",
+          "fuerza": "7/6/5",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Arma de fuego",
+        "Escasa",
+        "Postas"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Ballesta",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "15/30/45",
+          "fuerza": "4",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Lentorra (1)"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Rifle",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "30/60/90",
+          "fuerza": "6",
+          "penetracion": "5"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Arma de fuego",
+        "Escasa"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Arco",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "20/40/60",
+          "fuerza": "3",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Difícil de usar"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Rifle automático",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "30/60/90",
+          "fuerza": "6",
+          "penetracion": "5"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Arma de fuego",
+        "Automático",
+        "Escasa"
+      ],
+      "fuente": "reglamento"
+    },
+    {
+      "nombre": "Chasqueador y traje voltaico",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 2,
+          "fuerza": "6",
+          "penetracion": "Ignora"
+        }
+      ],
+      "reglas": [
+        "Escasa",
+        "Armatoste",
+        "Electrificación",
+        "Ignífugo"
+      ],
+      "nota": "Incluye el traje voltaico (Blindaje 2). Ignora blindajes.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Puño balístico",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 2,
+          "fuerza": "+5",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "Escasa",
+        "Lentorra (2)"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Bomba de humo",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "L×5",
+          "fuerza": "-",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "Bomba",
+        "Escasa"
+      ],
+      "nota": "Deja humo de 5 cm: -2 a la Precisión a través.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Bomba incendiaria",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "L×5",
+          "fuerza": "-",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "Bomba",
+        "Escasa",
+        "Incendiaria (2)"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Bombeadora",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/20/30",
+          "fuerza": "1",
+          "penetracion": "1"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Escasa"
+      ],
+      "nota": "Bombeo: cada Acción da hasta 3 marcadores (+1 F, +1 Pen o +10 cm).",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Lanzaarpones",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "20/40/60",
+          "fuerza": "7",
+          "penetracion": "10"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste",
+        "¡¡¡CATAPUM!!!",
+        "Escasa",
+        "Lentorra (2)",
+        "Mamotreto"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Trabuco",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/15/20",
+          "fuerza": "5/4/3",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Escasa",
+        "Lentorra (1)",
+        "Postas"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Vaporeta",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "20",
+          "fuerza": "Téc",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste",
+        "Escasa",
+        "Plantilla"
+      ],
+      "nota": "Tirada de Técnica: Fuerza = diferencia + 1. Ignora blindajes y coberturas parciales.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Motosierra",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+5",
+          "penetracion": "8"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste",
+        "Combustible (5)",
+        "Escasa"
+      ],
+      "nota": "Gasta 1 carga por Acción; sin cargas es una maza pesada.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Cóctel molotov",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "L×5",
+          "fuerza": "-",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "Bomba",
+        "Escasa",
+        "Incendiaria (3)"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Lanzallamas",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "Lágrima",
+          "fuerza": "Cargas",
+          "penetracion": "Cargas"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste",
+        "Combustible (10)",
+        "Escasa",
+        "Plantilla"
+      ],
+      "nota": "Fuerza y Penetración = cargas de Combustible usadas.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Hoz",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+1",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Botafumeiro tóxico",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": -1,
+          "fuerza": "+3",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Armatoste",
+        "Contaminante",
+        "Escasa"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Lanzarresiduos",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "Lágrima",
+          "fuerza": "3",
+          "penetracion": "7"
+        }
+      ],
+      "reglas": [
+        "A dos manos",
+        "Contaminante",
+        "Escasa",
+        "Lentorra (2)",
+        "Mamotreto",
+        "Plantilla"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Granadas santas",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "L×5",
+          "fuerza": "-",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "Bomba",
+        "Escasa"
+      ],
+      "nota": "El impactado hace tirada de Radiación.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Guante de boxeo extensible",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 2,
+          "fuerza": "+2",
+          "penetracion": "1"
+        }
+      ],
+      "reglas": [
+        "Escasa",
+        "Lentorra (1)"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Látigo",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+1",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Cañón de confeti",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "1d10×5",
+          "fuerza": "3",
+          "penetracion": "5"
+        }
+      ],
+      "reglas": [
+        "Escasa",
+        "Lentorra (1)",
+        "Postas"
+      ],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Tridente",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+2",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Arpón",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/20/30",
+          "fuerza": "L+1/L/L-1",
+          "penetracion": "5"
+        }
+      ],
+      "reglas": [
+        "Usar y tirar"
+      ],
+      "nota": "Hasta 3 arpones; cuentan como una sola arma.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Red",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "5/10/15",
+          "fuerza": "-",
+          "penetracion": "-"
+        }
+      ],
+      "reglas": [
+        "Usar y tirar"
+      ],
+      "nota": "El impactado gasta sus 2 Acciones siguientes en quitársela (-3 Combate si combate antes).",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Cañón de mano",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "30/60/90",
+          "fuerza": "8/7/6",
+          "penetracion": "4"
+        }
+      ],
+      "reglas": [
+        "Armatoste",
+        "Escasa",
+        "Mamotreto"
+      ],
+      "nota": "Solo dispara una vez.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Pistola de mecha",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/15/20",
+          "fuerza": "4/3/2",
+          "penetracion": "2"
+        },
+        {
+          "modo": "cc",
+          "combate": 1,
+          "fuerza": "4",
+          "penetracion": "2"
+        }
+      ],
+      "reglas": [
+        "Lentorra (2)"
+      ],
+      "nota": "Puede dispararse en Combate (queda descargada).",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Tomahawk",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+1",
+          "penetracion": "3"
+        },
+        {
+          "modo": "distancia",
+          "distancia": "10/15/20",
+          "fuerza": "L+1/L/L-1",
+          "penetracion": "3/2/1"
+        }
+      ],
+      "reglas": [],
+      "nota": "Hasta 3; cuentan como una sola arma. Si falla al lanzarse, se pierde.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Garras",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+0",
+          "penetracion": "1"
+        }
+      ],
+      "reglas": [],
+      "nota": "No se combina con otras armas.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Garras envenenadas",
+      "perfiles": [
+        {
+          "modo": "cc",
+          "combate": 0,
+          "fuerza": "+0",
+          "penetracion": "1"
+        }
+      ],
+      "reglas": [
+        "Veneno (2)"
+      ],
+      "nota": "No se combina con otras armas.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Espinas",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/20/30",
+          "fuerza": "2",
+          "penetracion": "3/2/1"
+        }
+      ],
+      "reglas": [],
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Esputo ácido",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "Asalto",
+          "fuerza": "1",
+          "penetracion": "3"
+        }
+      ],
+      "reglas": [],
+      "nota": "Disparo gratuito al Asaltar o ser Asaltado.",
+      "fuente": "libro"
+    },
+    {
+      "nombre": "Proyectil orgánico",
+      "perfiles": [
+        {
+          "modo": "distancia",
+          "distancia": "10/20/-",
+          "fuerza": "3",
+          "penetracion": "4"
+        }
+      ],
+      "reglas": [
+        "Postas",
+        "¡¡¡CATAPUM!!!"
+      ],
+      "fuente": "libro"
+    }
+  ],
+  "blindajes": [
+    {
+      "nombre": "Ninguno",
+      "blindaje": "0",
+      "reglas": []
+    },
+    {
+      "nombre": "Ropas resistentes",
+      "blindaje": "1",
+      "reglas": []
+    },
+    {
+      "nombre": "Cuero endurecido",
+      "blindaje": "3",
+      "reglas": []
+    },
+    {
+      "nombre": "Capa de ratas (cuero endurecido)",
+      "blindaje": "3",
+      "reglas": []
+    },
+    {
+      "nombre": "Armadura metálica",
+      "blindaje": "4",
+      "reglas": []
+    },
+    {
+      "nombre": "Pura chapa",
+      "blindaje": "5",
+      "reglas": [
+        "Armatoste"
+      ]
+    },
+    {
+      "nombre": "Chaleco antibalas",
+      "blindaje": "3",
+      "reglas": [],
+      "nota": "5/6/7 contra Arma de fuego"
+    },
+    {
+      "nombre": "Carcasa",
+      "blindaje": "3",
+      "reglas": [
+        "Ignífugo",
+        "Escurridizo"
+      ]
+    },
+    {
+      "nombre": "Cuero humano",
+      "blindaje": "3",
+      "reglas": [],
+      "nota": "Disparos a distancia corta contra él: -1 Precisión"
+    },
+    {
+      "nombre": "Traje voltaico",
+      "blindaje": "2",
+      "reglas": [
+        "Armatoste",
+        "Electrificación",
+        "Ignífugo"
+      ]
+    },
+    {
+      "nombre": "Armadura quitinosa",
+      "blindaje": "5",
+      "reglas": [],
+      "nota": "Se rompe si el rival saca un 10 en Fuerza contra Dureza"
+    },
+    {
+      "nombre": "Piel dura 3",
+      "blindaje": "3",
+      "reglas": []
+    },
+    {
+      "nombre": "Piel dura 5",
+      "blindaje": "5",
+      "reglas": []
+    },
+    {
+      "nombre": "Piel de mongolongo",
+      "blindaje": "2",
+      "reglas": [],
+      "nota": "5 contra cuerpo a cuerpo"
+    }
+  ],
+  "equipo": [
+    {
+      "nombre": "Escudo",
+      "modificadores": {
+        "combate": -1
+      },
+      "reglas": [],
+      "nota": "+2 Blindaje en cuerpo a cuerpo y Cobertura +2. No se combina con armas A dos manos."
+    }
+  ]
+}

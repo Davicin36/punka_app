@@ -1,0 +1,369 @@
+{
+  "id": "irradiados",
+  "nombre": "Irradiados",
+  "equipoGenerico": [],
+  "restricciones": [
+    "Máximo una Personalidad o Mercenario.",
+    "Máximo un Cardenal Nuclear.",
+    "No puede haber más Mártires que la suma del resto de integrantes.",
+    "Máximo un Gato parameño.",
+    "Balas especiales (irradiada/contaminada): mismo coste que las normales."
+  ],
+  "limites": [
+    {
+      "tipo": "maxTipo",
+      "tipos": [
+        "personalidad",
+        "mercenario"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "maxUnidad",
+      "unidades": [
+        "cardenal-nuclear"
+      ],
+      "max": 1
+    },
+    {
+      "tipo": "noMasQueResto",
+      "unidad": "martir"
+    }
+  ],
+  "admiteMercenarios": true,
+  "unidades": [
+    {
+      "id": "martir",
+      "nombre": "Mártir",
+      "coste": 16,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "1",
+        "precision": "1",
+        "agilidad": "2",
+        "fuerza": "2",
+        "dureza": "2",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ninguno",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Radiado"
+      ]
+    },
+    {
+      "id": "discipulo",
+      "nombre": "Discípulo",
+      "coste": 20,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3",
+        "precision": "3",
+        "agilidad": "3",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Contenedor radiactivo",
+        "Radioinmune"
+      ]
+    },
+    {
+      "id": "penitente",
+      "nombre": "Penitente",
+      "coste": 40,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "4",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "5",
+        "dureza": "5",
+        "tecnica": "-"
+      },
+      "armas": {
+        "min": 1,
+        "max": 1,
+        "opciones": [
+          {
+            "nombre": "Granadas santas",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Botafumeiro tóxico",
+            "coste": 7
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Lanzarresiduos",
+            "coste": 15
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Bersérker",
+        "Contenedor radiactivo",
+        "Mónguer",
+        "Radioinmune"
+      ]
+    },
+    {
+      "id": "cardenal-nuclear",
+      "nombre": "Cardenal Nuclear",
+      "coste": 50,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "3",
+        "combate": "2",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "7"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza ligera",
+            "coste": 3
+          },
+          {
+            "nombre": "Pistola",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pequeño",
+            "coste": 4
+          },
+          {
+            "nombre": "Escopeta",
+            "coste": 6
+          },
+          {
+            "nombre": "Granadas santas",
+            "coste": 5,
+            "porUnidad": true
+          },
+          {
+            "nombre": "Rifle",
+            "coste": 8
+          },
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Rifle automático",
+            "coste": 10
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": [
+          {
+            "nombre": "Cuero endurecido",
+            "coste": 5
+          },
+          {
+            "nombre": "Armadura metálica",
+            "coste": 15
+          },
+          {
+            "nombre": "Chaleco antibalas",
+            "coste": 15
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Contenedor radiactivo",
+        "Radioinmune",
+        "Sermón"
+      ]
+    },
+    {
+      "id": "paladin",
+      "nombre": "Paladín",
+      "coste": 50,
+      "tipo": "tropa",
+      "perfil": {
+        "acciones": "2",
+        "combate": "5",
+        "precision": "3",
+        "agilidad": "5",
+        "fuerza": "4",
+        "dureza": "4",
+        "tecnica": "3"
+      },
+      "armas": {
+        "min": 1,
+        "max": 2,
+        "opciones": [
+          {
+            "nombre": "Maza",
+            "coste": 5
+          },
+          {
+            "nombre": "Filo pesado",
+            "coste": 8
+          },
+          {
+            "nombre": "Maza pesada",
+            "coste": 6
+          },
+          {
+            "nombre": "Filo medio",
+            "coste": 10
+          }
+        ]
+      },
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": [
+          {
+            "nombre": "Armadura metálica",
+            "coste": 10
+          }
+        ]
+      },
+      "equipo": {
+        "opciones": [
+          {
+            "nombre": "Escudo",
+            "coste": 6
+          }
+        ]
+      },
+      "reglasEspeciales": [
+        "Contenedor radiactivo",
+        "Radioinmune",
+        "Todoterreno",
+        "Inspirador"
+      ]
+    },
+    {
+      "id": "el-portador-de-las-reliquias",
+      "nombre": "El Portador de las Reliquias",
+      "coste": 55,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "2 (1)",
+        "precision": "2",
+        "agilidad": "4",
+        "fuerza": "3 (7)",
+        "dureza": "3",
+        "tecnica": "3"
+      },
+      "armasFijas": "Relicario",
+      "blindaje": {
+        "base": "Cuero endurecido",
+        "opciones": []
+      },
+      "reglasEspeciales": [
+        "Bersérker",
+        "Contenedor radiactivo",
+        "Personalidad de los Irradiados",
+        "Radioinmune",
+        "Relicario"
+      ]
+    },
+    {
+      "id": "el-guardian-de-las-llaves",
+      "nombre": "El Guardián de las Llaves",
+      "coste": 60,
+      "tipo": "personalidad",
+      "perfil": {
+        "acciones": "2",
+        "combate": "3 (2)",
+        "precision": "4",
+        "agilidad": "4",
+        "fuerza": "3",
+        "dureza": "3",
+        "tecnica": "5"
+      },
+      "armasFijas": "Pistola de aire comprimido",
+      "blindaje": {
+        "base": "Ropas resistentes",
+        "opciones": []
+      },
+      "equipo": {
+        "incluido": "Protección contra la contaminación, el Maletín"
+      },
+      "reglasEspeciales": [
+        "Personalidad de los Irradiados",
+        "Pistola de aire comprimido"
+      ]
+    }
+  ]
+}

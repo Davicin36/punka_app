@@ -1,0 +1,193 @@
+{
+  "atributos": [
+    {
+      "clave": "acciones",
+      "abreviatura": "Acc",
+      "nombre": "Acciones"
+    },
+    {
+      "clave": "combate",
+      "abreviatura": "Com",
+      "nombre": "Combate"
+    },
+    {
+      "clave": "precision",
+      "abreviatura": "Pre",
+      "nombre": "Precisión"
+    },
+    {
+      "clave": "agilidad",
+      "abreviatura": "Agi",
+      "nombre": "Agilidad"
+    },
+    {
+      "clave": "fuerza",
+      "abreviatura": "Fue",
+      "nombre": "Fuerza"
+    },
+    {
+      "clave": "dureza",
+      "abreviatura": "Dur",
+      "nombre": "Dureza"
+    },
+    {
+      "clave": "tecnica",
+      "abreviatura": "Téc",
+      "nombre": "Técnica"
+    }
+  ],
+  "miniaturasPorCada100Puntos": 3,
+  "gatoParameno": {
+    "nombre": "Gato parameño",
+    "coste": 10,
+    "max": 1
+  },
+  "mutaciones": [
+    {
+      "nombre": "Cachas",
+      "coste": 10,
+      "modificadores": {
+        "fuerza": 2
+      }
+    },
+    {
+      "nombre": "Capacitado",
+      "coste": 25,
+      "modificadores": {
+        "acciones": 1
+      }
+    },
+    {
+      "nombre": "Carga brutal",
+      "coste": 10
+    },
+    {
+      "nombre": "Cola afilada",
+      "coste": 10
+    },
+    {
+      "nombre": "Corredor",
+      "coste": 12
+    },
+    {
+      "nombre": "Espinas",
+      "coste": 6,
+      "arma": "Espinas"
+    },
+    {
+      "nombre": "Esputo ácido",
+      "coste": 5,
+      "arma": "Esputo ácido"
+    },
+    {
+      "nombre": "Extremidad prensil",
+      "coste": 5
+    },
+    {
+      "nombre": "Garras",
+      "coste": 2,
+      "arma": "Garras"
+    },
+    {
+      "nombre": "Garras envenenadas",
+      "coste": 8,
+      "arma": "Garras envenenadas"
+    },
+    {
+      "nombre": "Miembros extra",
+      "coste": 10,
+      "modificadores": {
+        "combate": 2
+      }
+    },
+    {
+      "nombre": "Mimetismo",
+      "coste": 5
+    },
+    {
+      "nombre": "Pegajoso",
+      "coste": 4
+    },
+    {
+      "nombre": "Piel dura 1",
+      "coste": 5,
+      "blindaje": "1"
+    },
+    {
+      "nombre": "Piel dura 3",
+      "coste": 10,
+      "blindaje": "3"
+    },
+    {
+      "nombre": "Piel dura 5",
+      "coste": 20,
+      "blindaje": "5"
+    },
+    {
+      "nombre": "Piernas seguras",
+      "coste": 8
+    },
+    {
+      "nombre": "Proyectil orgánico",
+      "coste": 10,
+      "arma": "Proyectil orgánico"
+    },
+    {
+      "nombre": "Rana",
+      "coste": 16
+    },
+    {
+      "nombre": "Resonancia psíquica",
+      "coste": 20
+    },
+    {
+      "nombre": "Resistente",
+      "coste": 10,
+      "modificadores": {
+        "dureza": 2
+      }
+    },
+    {
+      "nombre": "Sentidos aguzados",
+      "coste": 8,
+      "modificadores": {
+        "agilidad": 2
+      }
+    },
+    {
+      "nombre": "Sónar",
+      "coste": 6
+    }
+  ],
+  "articulosDeCona": [
+    {
+      "nombre": "Bocina",
+      "coste": 6
+    },
+    {
+      "nombre": "Bomba fétida",
+      "coste": 4
+    },
+    {
+      "nombre": "Cojín de pedos",
+      "coste": 5
+    },
+    {
+      "nombre": "Flor escupe agua",
+      "coste": 5
+    },
+    {
+      "nombre": "Globo que flota",
+      "coste": 5
+    },
+    {
+      "nombre": "Guante con descarga",
+      "coste": 5
+    },
+    {
+      "nombre": "Pañuelos infinitos",
+      "coste": 5
+    }
+  ],
+  "costeBala": 15
+}
