@@ -11,6 +11,10 @@ export default function App() {
 
   useEffect(() => { guardar(estado); }, [estado]);
 
+  useEffect(() => {
+    navigator.storage?.persist?.().catch(() => {});
+  }, []);
+
   /** Aplica un cambio a una copia de la banda (estilo "mutable" pero inmutable para React). */
   const cambiarBanda = useCallback((id: string, fn: (b: Banda) => void) => {
     setEstado(e => ({
