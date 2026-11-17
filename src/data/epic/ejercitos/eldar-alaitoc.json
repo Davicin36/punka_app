@@ -389,5 +389,785 @@
     "R: Recibe un Marcador de Explosión y no puede realizar una acción de Mantener. En la práctica, pierde su activación."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Autarch",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autarch Ranged Weapon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    },
+    {
+     "nombre": "Autarch Close Combat Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Inspiring, Invulnerable Save, Supreme Commander."
+  },
+  {
+   "nombre": "Exarch",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Exarch Ranged Weapon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    },
+    {
+     "nombre": "0–1× Exarch Close Combat Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Inspiring. Exarchs added to units of Dire Avengers, Howling Banshees, Shining Spears or Striking Scorpions have an Exarch Close Combat weapon. Exarchs added to a unit of Dark Reapers, Fire Dragons, Swooping Hawks or Warp Spiders have an Exarch Ranged Weapon."
+  },
+  {
+   "nombre": "Dark Reapers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Reaper Missile Launchers",
+     "alcance": "45cm",
+     "potencia": "2× AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Dire Avengers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Shuriken Catapults",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Farseer",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Shuriken Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Witch Blades",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Farsight, Invulnerable Save."
+  },
+  {
+   "nombre": "Fire Dragons",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Fusion Guns",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Fusion Guns",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Guardians",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Shuriken Catapults",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Heavy Weapon Platform",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Howling Banshees",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "2+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Shuriken Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Banshee Masks",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, FS"
+    }
+   ],
+   "notas": "Infiltrator."
+  },
+  {
+   "nombre": "Jetbikes",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Shuriken Catapults",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Mounted, Skimmer."
+  },
+  {
+   "nombre": "Pathfinders",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Long Rifles",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Invulnerable Save, Scout, Sniper, Teleport."
+  },
+  {
+   "nombre": "Rangers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Long Rifles",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Sniper."
+  },
+  {
+   "nombre": "Shining Spears",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Shuriken Catapults",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Lances",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, L"
+    }
+   ],
+   "notas": "Mounted, Skimmer."
+  },
+  {
+   "nombre": "Striking Scorpions",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Shuriken Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Mandiblasters",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Support Weapon Platform",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "D-Cannon",
+     "alcance": "30cm",
+     "potencia": "MW5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Swooping Hawks",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lasblasters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs, Scout, Teleport."
+  },
+  {
+   "nombre": "Warp Spiders",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Death Spinners",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "First Strike, Infiltrator, Jump Packs."
+  },
+  {
+   "nombre": "Wraithguard",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Wraithcannons",
+     "alcance": "15cm",
+     "potencia": "2× MW5+"
+    },
+    {
+     "nombre": "y Wraithcannons",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour."
+  },
+  {
+   "nombre": "Vyper",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "War Walker",
+   "tipo": "LV",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Bright Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    }
+   ],
+   "notas": "Reinforced Armour, Scout, Walker."
+  },
+  {
+   "nombre": "Falcon",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Pulse Laser",
+     "alcance": "45cm",
+     "potencia": "2× AT4+"
+    },
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Fire Prism",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Prism Cannon",
+     "alcance": "60cm",
+     "potencia": "AP4+/AT2+, L"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "Firestorm",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Firestorm Battery",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT5+/AA4+"
+    }
+   ],
+   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Night Spinner",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Night Spinner",
+     "alcance": "45cm",
+     "potencia": "1BP, D, Ind"
+    }
+   ],
+   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Wave Serpent",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Shuriken Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Skimmer, Transport. May transport one Wraithguard unit or two infantry units (except Support Weapon Platforms) without Jump Packs or Mounted; Wraithguard count as two units each."
+  },
+  {
+   "nombre": "Wraithlord",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bright Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    },
+    {
+     "nombre": "Power Fists",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Walker."
+  },
+  {
+   "nombre": "Avatar",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "2+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Wailing Doom",
+     "alcance": "30cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Wailing Doom",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Damage Capacity 3, Fearless, Inspiring, Invulnerable Save, Walker. Critical Hit Effect: The unit is destroyed. All Eldar formations with a unit with a line of fire to the Avatar receive a Blast marker."
+  },
+  {
+   "nombre": "Cobra",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cobra D-Cannon",
+     "alcance": "30cm",
+     "potencia": "3BP, FxF, IC, MW"
+    },
+    {
+     "nombre": "y Cobra D-Cannon",
+     "alcance": "30cm",
+     "potencia": "MW3+, FxF, TK(D6)"
+    },
+    {
+     "nombre": "Eldar Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+/AA6+"
+    },
+    {
+     "nombre": "Shuriken Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Phantom Titan",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "1–2× Titan Pulsar",
+     "alcance": "75cm",
+     "potencia": "2× MW2+, TK"
+    },
+    {
+     "nombre": "0–1× Titan Power Fist",
+     "alcance": "30cm",
+     "potencia": "6× AP4+/AT4+"
+    },
+    {
+     "nombre": "y 0–1× Titan Power Fist",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+3)"
+    },
+    {
+     "nombre": "y y 0–1× Titan Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+    },
+    {
+     "nombre": "2× Twin Eldar Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Holofield, Leader, Reinforced Armour, Walker. Armed with either two Titan Pulsars, or a Titan Pulsar and Power Fist. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+  },
+  {
+   "nombre": "Revenant Titan",
+   "tipo": "WE",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Revenant Pulse Laser",
+     "alcance": "45cm",
+     "potencia": "2× MW3+"
+    },
+    {
+     "nombre": "2× Eldar Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+/AA6+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Holofield, Jump Packs, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits destroy the unit."
+  },
+  {
+   "nombre": "Scorpion",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Scorpion Twin Pulsar",
+     "alcance": "75cm",
+     "potencia": "2× MW2+"
+    },
+    {
+     "nombre": "Shuriken Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Storm Serpent",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Storm Serpent Pulse Laser",
+     "alcance": "45cm",
+     "potencia": "2× AT3+"
+    },
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer, Webway Portal. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the walker ability may use the Storm Serpent’s Webway Portal to enter play. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Warlock Titan",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Psychic Lance",
+     "alcance": "30cm",
+     "potencia": "3BP, D, IC, TK(D3)"
+    },
+    {
+     "nombre": "y Psychic Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2), TK(D3)"
+    },
+    {
+     "nombre": "0–1× Titan Pulsar",
+     "alcance": "75cm",
+     "potencia": "2× MW2+, TK"
+    },
+    {
+     "nombre": "0–1× Titan Power Fist",
+     "alcance": "30cm",
+     "potencia": "6× AP4+/AT4+"
+    },
+    {
+     "nombre": "y 0–1× Titan Power Fist",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+3)"
+    },
+    {
+     "nombre": "y y 0–1× Titan Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+    },
+    {
+     "nombre": "2× Twin Eldar Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    }
+   ],
+   "notas": "Damage Capacity 6, Farsight, Fearless, Holofield, Inspiring, Leader, Reinforced Armour, Walker. Armed with a Psychic Lance, and either a Titan Pulsar or Power Fist. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+  },
+  {
+   "nombre": "Nightwing Interceptor",
+   "tipo": "AC",
+   "velocidad": "Fighter",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Shuriken Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Twin Bright Lance",
+     "alcance": "30cm",
+     "potencia": "AT4+/AA5+, FxF, L"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Phoenix Bomber",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Shuriken Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Pulse Laser",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, FxF"
+    },
+    {
+     "nombre": "Night Spinner",
+     "alcance": "15cm",
+     "potencia": "1BP, FxF, D"
+    }
+   ],
+   "notas": "Reinforced Armour."
+  },
+  {
+   "nombre": "Vampire Raider",
+   "tipo": "AC/WE",
+   "velocidad": "Bomber",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Pulse Laser",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, FxF"
+    },
+    {
+     "nombre": "Scatter Laser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+/AA5+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 2, Planetfall, Reinforced Armour, Transport. May transport eight infantry units without Mounted. Wraithguard count as two units each. Critical Hit Effect: The unit and all units on board are destroyed."
+  },
+  {
+   "nombre": "Dragonship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "8BP, MW"
+    },
+    {
+     "nombre": "0–1× Pin-Point Attacks",
+     "alcance": "n/a",
+     "potencia": "2× MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Transport. May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or Pin-Point Attacks."
+  },
+  {
+   "nombre": "Wraithship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "4BP, MW"
+    },
+    {
+     "nombre": "0–1× Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Armed with either an Orbital Bombardment or Pin-Point Attack."
+  }
  ]
 }

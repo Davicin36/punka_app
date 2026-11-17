@@ -2,6 +2,7 @@ import type { EjercitoEpic, FormacionElegida } from './tipos';
 import { costeFormacion, detalleFormacion, formacionDe, mejorasPermitidas, problemasFormacion } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
+import { gruposEleccion, totalReparto } from './eleccion';
 
 interface Props {
   e: EjercitoEpic; fe: FormacionElegida; i: number; abierta: boolean;
@@ -17,7 +18,14 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
   const problemas = problemasFormacion(e, fe);
   const d = detalleFormacion(e, fe);
   const mejoras = mejorasPermitidas(e, f);
-  const resumen = [d.tamano, ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
+  const grupos = gruposEleccion(e, fe);
+  const resumen = [d.tamano, ...d.reparto.map(r => r.texto), ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
+  /** Cambia la cantidad de una opción dentro de un grupo de reparto */
+  const repartir = (clave: string, unidad: string, valor: number, unico: boolean) => onChange(y => {
+    const r = { ...(unico ? {} : y.reparto?.[clave] ?? {}) };
+    if (valor > 0) r[unidad] = valor; else delete r[unidad];
+    y.reparto = { ...(y.reparto ?? {}), [clave]: r };
+  });
 
   return (
     <article className={`model ${abierta ? 'open' : ''} ${problemas.length ? 'bad' : ''}`}>
@@ -86,6 +94,33 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                 );
               })}
             </div>
+          </>}
+
+          {grupos.length > 0 && <>
+            <h4>Composición</h4>
+            {grupos.map(g => {
+              const t = totalReparto(fe, g.clave);
+              const objetivo = g.min === g.max ? `${g.max}` : `${g.min}–${g.max}`;
+              const ok = t >= g.min && t <= g.max;
+              const unico = g.max === 1;
+              return (
+                <div key={g.clave} className="reparto">
+                  <p className="rtit">
+                    <span>{g.origen === 'Unidades' ? (g.personaje ? 'Personaje' : 'Unidades de la formación') : g.origen}</span>
+                    <b className={ok ? 'ok' : 'falta'}>{unico ? (ok ? '✓' : 'elige 1') : `${t}/${objetivo}`}</b>
+                  </p>
+                  {unico
+                    ? <div className="chips">{g.opciones.map(o => {
+                        const on = (fe.reparto?.[g.clave]?.[o] ?? 0) > 0;
+                        return <button key={o} className={`chip ${on ? 'on' : ''}`} onClick={() => repartir(g.clave, o, on ? 0 : 1, true)}>{o}</button>;
+                      })}</div>
+                    : <div className="opts">{g.opciones.map(o => {
+                        const n = fe.reparto?.[g.clave]?.[o] ?? 0;
+                        return <FilaContador key={o} nombre={o} valor={n} max={n + Math.max(0, g.max - t)} onChange={v => repartir(g.clave, o, v, false)} />;
+                      })}</div>}
+                </div>
+              );
+            })}
           </>}
 
           <div className="mfoot">

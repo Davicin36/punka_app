@@ -408,5 +408,656 @@
     "Señor del Cambio (Lord of Change) · Tzeentch: 8"
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Arch-Heretic",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Icon Bearer",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Daemonic Focus, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Big Mutants",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    },
+    {
+     "nombre": "Big Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Bloodletters",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Hellblades",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Expendable, Invulnerable Save."
+  },
+  {
+   "nombre": "Chaos Hounds",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Marine Aspiring Champion",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Daemon Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Chaos Spawn",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Horrific Mutations",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+D3)"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save. Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Cultists",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Heavy Weapons",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Daemon Prince",
+   "tipo": "INF",
+   "velocidad": "15cm (30cm)",
+   "blindaje": "3+ (4+)",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Warp Blast",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Possessed Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), MW"
+    }
+   ],
+   "notas": "Commander, Fearless, Leader, Reinforced Armour, Teleport. A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+  },
+  {
+   "nombre": "Daemonettes",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Expendable, First Strike, Invulnerable Save."
+  },
+  {
+   "nombre": "Daemonic Beasts",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Expendable, Infiltrator, Invulnerable Save."
+  },
+  {
+   "nombre": "Demagogue",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Weapons",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Arcane Powers",
+     "alcance": "30cm",
+     "potencia": "MW6+"
+    },
+    {
+     "nombre": "Daemon Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Augmented Summoning (+2D3), Invulnerable Save."
+  },
+  {
+   "nombre": "Flamers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Flames of Tzeentch",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Expendable, Invulnerable Save."
+  },
+  {
+   "nombre": "Mutants",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Firearms",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plague Zombies",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Fearless, Infiltrator, Teleport."
+  },
+  {
+   "nombre": "Plaguebearers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Plague of Flies",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Expendable, Invulnerable Save."
+  },
+  {
+   "nombre": "Land Transporter",
+   "tipo": "LV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Heavy Weapons",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Technical",
+   "tipo": "LV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Anti-aircraft Cannon",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+/AA6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Contagion Tower",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Plague Catapult",
+     "alcance": "45cm",
+     "potencia": "1BP, D, Ind"
+    },
+    {
+     "nombre": "Vomit Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+, IC"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save."
+  },
+  {
+   "nombre": "Daemon Assault Engine",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Blood Cannon",
+     "alcance": "30cm",
+     "potencia": "2× AP4+/AT5+"
+    },
+    {
+     "nombre": "Daemon Blades",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+D3)"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour."
+  },
+  {
+   "nombre": "Daemon Knight",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Castigator Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Scout, Walker."
+  },
+  {
+   "nombre": "Defiler",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Twin Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Battle Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Infiltrator, Invulnerable Save, Walker."
+  },
+  {
+   "nombre": "Hellfire Cannon",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Hellfire Cannon",
+     "alcance": "75cm",
+     "potencia": "MW4+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save."
+  },
+  {
+   "nombre": "Silver Tower",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Arcane Cannons",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT4+"
+    },
+    {
+     "nombre": "Beam of Power",
+     "alcance": "60cm",
+     "potencia": "MW5+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Skimmer."
+  },
+  {
+   "nombre": "Bloodthirster",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Axe of Khorne",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+3), TK"
+    }
+   ],
+   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Jump Packs, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+  },
+  {
+   "nombre": "Chaos Altar",
+   "tipo": "WE",
+   "velocidad": "15cm (25cm)",
+   "blindaje": "4+ (5+)",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Arcane Technology",
+     "alcance": "45cm",
+     "potencia": "D3× AP4+/AT4+/AA4+"
+    }
+   ],
+   "notas": "Augmented Summoning (+2), Daemonic Focus, Damage Capacity 3, Fearless, Inspiring, Invulnerable Save, Reinforced Armour. A Chaos Altar may be wheeled, the unit gains a move of 25cm while its armour value is reduced to 5+. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 6+."
+  },
+  {
+   "nombre": "Great Unclean One",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Stream of Corruption",
+     "alcance": "15cm",
+     "potencia": "3BP, IC"
+    },
+    {
+     "nombre": "y Stream of Corruption",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), IC"
+    },
+    {
+     "nombre": "Nurgling Swarm",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Daemonic Focus, Damage Capacity 4, Expendable, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+  },
+  {
+   "nombre": "Keeper of Secrets",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Gaze of Slaanesh",
+     "alcance": "30cm",
+     "potencia": "3× MW4+"
+    },
+    {
+     "nombre": "y Gaze of Slaanesh",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS, MW"
+    },
+    {
+     "nombre": "Lash of Torment",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), FS, MW"
+    }
+   ],
+   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+  },
+  {
+   "nombre": "Lord of Battles",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Chain Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+3), MW"
+    },
+    {
+     "nombre": "Death Storm",
+     "alcance": "45cm",
+     "potencia": "4× AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Invulnerable Save, Reinforced Armour, Thick Rear Armour. Critical Hit Effect: Move the unit 3D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Lord of Change",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Withering Gaze",
+     "alcance": "45cm",
+     "potencia": "2× MW3+"
+    },
+    {
+     "nombre": "y Withering Gaze",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Bedlam Staff",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Jump Packs, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+  },
+  {
+   "nombre": "Plague Tower",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Plague Mortar",
+     "alcance": "60cm",
+     "potencia": "D3+3BP, FxF, D"
+    },
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Rot Cannon",
+     "alcance": "90cm",
+     "potencia": "AP3+/AT5+, FxF, IC"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Invulnerable Save, Reinforced Armour, Transport. May transport sixteen Great Unclean Ones or infantry units without Jump Packs or Mounted; Great Unclean Ones count as two units each. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed."
+  },
+  {
+   "nombre": "Questor Titan",
+   "tipo": "WE",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Castigator Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Subjugator Titan",
+   "tipo": "WE",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Hellblades",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Doomwing",
+   "tipo": "AC",
+   "velocidad": "Fighter",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Flame Cannon",
+     "alcance": "15cm",
+     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+    }
+   ],
+   "notas": "Invulnerable Save."
+  },
+  {
+   "nombre": "Firelord",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Flame Cannon",
+     "alcance": "15cm",
+     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+    },
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Firestorm Bombs",
+     "alcance": "15cm",
+     "potencia": "D3BP, FxF, IC"
+    }
+   ],
+   "notas": "Invulnerable Save."
+  }
  ]
 }

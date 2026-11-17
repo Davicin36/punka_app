@@ -521,5 +521,740 @@
     "✠"
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Grand Warlord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Living Ancestor",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Inspiring. The formation that includes the Living Ancestor may ignore the -1 Action test penalty when it tries to retain the initiative. If added to an infantry unit the Living Ancestor will also have the invulnerable save ability."
+  },
+  {
+   "nombre": "Berserkers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bolt Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Infiltrator."
+  },
+  {
+   "nombre": "Guild Bikers",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lasguns",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Mounted."
+  },
+  {
+   "nombre": "Hearthguard",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heirloom Weapons",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Inspiring, Leader."
+  },
+  {
+   "nombre": "Mole Mortar",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Mole Mortar",
+     "alcance": "30cm",
+     "potencia": "1BP, IC, Ind"
+    }
+   ],
+   "notas": "Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Laser Destroyer",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": "Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Tarantula",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": "Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Thunderers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Warlord",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Inspiring, Leader, Reinforced Armour, Thick Rear Armour. Counts as two units for the purposes of being transported."
+  },
+  {
+   "nombre": "Warriors",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Lasguns",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "One unit in every two has an Missile Launcher."
+  },
+  {
+   "nombre": "Guild Trike",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Guildmaster",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Lance",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, FS, MW"
+    }
+   ],
+   "notas": "Commander, Leader."
+  },
+  {
+   "nombre": "Colossus Class Robot",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    },
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Walker."
+  },
+  {
+   "nombre": "Conqueror Class Robot",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Walker."
+  },
+  {
+   "nombre": "Iron Eagle",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Stub Battle Cannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Rapid Fire Autocannon",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Recon Iron Eagle",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Stub Battle Cannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Rapid Fire Autocannon",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout, Spotter, Support Craft."
+  },
+  {
+   "nombre": "Rhino",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Storm Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Steel Hawk",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Battlehammer Rockets",
+     "alcance": "15cm",
+     "potencia": "1BP"
+    },
+    {
+     "nombre": "Twin Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW4+"
+    },
+    {
+     "nombre": "y Twin Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Termite",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Transport, Tunneler. May transport two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Thunderfire",
+   "tipo": "AV",
+   "velocidad": "Immobile",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Twin Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP3+/AT3+"
+    },
+    {
+     "nombre": "Thunderfire",
+     "alcance": "60cm",
+     "potencia": "AA4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "War Hawk",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Doom Anvil Missiles",
+     "alcance": "45cm",
+     "potencia": "AT3+, MW"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Colossus",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Doomsday Cannon",
+     "alcance": "90cm",
+     "potencia": "3BP, FxF, Dir, MW"
+    },
+    {
+     "nombre": "4× Rapid Fire Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Thunderer",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "4× Plasma Missile",
+     "alcance": "45cm",
+     "potencia": "2BP, FwA, Ind, SS"
+    }
+   ],
+   "notas": "Damage Capacity 5, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields. Critical Hit Effect: The unit takes an extra point of damage and is immobilized. Subsequent critical hits destroy the unit and all units within 5cm of the model suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Cyclops",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Hellfury Cannon",
+     "alcance": "90cm",
+     "potencia": "MW2+, FxF, TK(D6+1)"
+    },
+    {
+     "nombre": "Rapid Fire Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+"
+    },
+    {
+     "nombre": "Melta Cannon",
+     "alcance": "30cm",
+     "potencia": "MW2+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "y Melta Cannon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), TK(D6)"
+    },
+    {
+     "nombre": "6× Doomstorm Missile",
+     "alcance": "45cm",
+     "potencia": "1BP, FwA, Ind, SS"
+    }
+   ],
+   "notas": "Damage Capacity 5, Fearless, Reinforced Armour, Thick Rear Armour, 5 Void Shields. Critical Hit Effect: The unit takes an extra point of damage and will take an extra point of damage whenever the Hellfury Cannon misses. Subsequent critical hits destroy the unit and all units within 5cm of the model suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Goliath",
+   "tipo": "WE",
+   "velocidad": "5cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Mega Cannon",
+     "alcance": "150cm",
+     "potencia": "3BP, IC, Ind"
+    }
+   ],
+   "notas": "Damage Capacity 2. This unit must fire indirectly or not fire at all. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Land Train",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Doomsday Cannon",
+     "alcance": "90cm",
+     "potencia": "3BP, FxF, Dir, MW"
+    },
+    {
+     "nombre": "Rapid Fire Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+"
+    },
+    {
+     "nombre": "Rapid Fire Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Reinforced Armour, Thick Rear Armour, 2 Void Shields. Characters added to this unit add their damage capacity and void shields to the unit’s respective starting values of each. Critical Hit Effect: Choose a random character added to this unit and remove it, remembering to reduce the unit’s starting damage capacity and void shields values. The unit is immobilized for its next activation or withdrawal. If the unit doesn’t have any characters added to it then it is destroyed."
+  },
+  {
+   "nombre": "Leviathan",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Doomsday Cannon",
+     "alcance": "90cm",
+     "potencia": "3BP, FxF, Dir, MW"
+    },
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "3× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+, Left"
+    },
+    {
+     "nombre": "3× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+, Right"
+    }
+   ],
+   "notas": "Damage Capacity 5, Fearless, Reinforced Armour, Transport, Thick Rear Armour, 4 Void Shields. May transport twenty-four infantry units without Jump Packs or Mounted. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed. Subsequent critical hits destroy the unit and all units within 5cm of the model suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Mole",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Damage Capacity 2, Transport, Tunneler. Critical Hit Effect: Destroyed. May transport ten infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Overlord",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Left"
+    },
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Right"
+    },
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, RrA"
+    },
+    {
+     "nombre": "2× Twin Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "Melta Bombs",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": "Damage Capacity 3, Invulnerable Save, Reinforced Armour, Support Craft. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 5+."
+  },
+  {
+   "nombre": "Berserker Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Rapid Fire Autocannon",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+, FwA"
+    }
+   ],
+   "notas": "Damage Capacity 1, Transport, 1 Void Shield. May transport six infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Bomb Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Rad Bomb",
+     "alcance": "Unlimited",
+     "potencia": "6BP, Ind, MW, SS"
+    }
+   ],
+   "notas": "Damage Capacity 1, 1 Void Shield."
+  },
+  {
+   "nombre": "Dragon Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Firethrower",
+     "alcance": "30cm",
+     "potencia": "4× AP4+/AT5+, FwA, IC"
+    }
+   ],
+   "notas": "Damage Capacity 1, 1 Void Shield."
+  },
+  {
+   "nombre": "Fire Shield Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Rapid Fire Autocannon",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+, FwA"
+    }
+   ],
+   "notas": "Damage Capacity 1, 3 Void Shields. The unit can repair one additional void shield in the end phase of each turn."
+  },
+  {
+   "nombre": "Iron Eagle Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Damage Capacity 1, 1 Void Shield."
+  },
+  {
+   "nombre": "Motar Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Siege Mortar",
+     "alcance": "45cm",
+     "potencia": "1BP, Ind, MW"
+    }
+   ],
+   "notas": "Damage Capacity 1, 1 Void Shield."
+  },
+  {
+   "nombre": "Skyhammer Battlecar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Ack-Ack Missiles",
+     "alcance": "45cm",
+     "potencia": "2× AA4+"
+    }
+   ],
+   "notas": "Damage Capacity 1, 1 Void Shield."
+  }
  ]
 }

@@ -332,5 +332,249 @@
     "Los orkos no destacan por su capacidad organizativa, por lo que suelen tener un valor de iniciativa bastante bajo. Sin embargo, si hay algo que galvaniza a una partida de guerra orka es la idea de una buena pelea. Por ello, las formaciones orkas que intentan realizar acciones de Carga (Enfrentarse) o Doble reciben un modificador de +2 a su chequeo de acción."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Warlord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Big Choppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Wyrdboy",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Fist of Gork",
+     "alcance": "45cm",
+     "potencia": "MW5+/AA5+, MW"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Boarboyz",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Infiltrator, Mounted."
+  },
+  {
+   "nombre": "Boyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Grotz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Expendable. Formations that include at least one Ork unit don’t count Grot units that are lost in an assault when working out who has won the combat."
+  },
+  {
+   "nombre": "Madboyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Fearless."
+  },
+  {
+   "nombre": "Nobz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Big Choppas",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Leader."
+  },
+  {
+   "nombre": "Squig Katapult",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Squig Katapult",
+     "alcance": "45cm",
+     "potencia": "1BP, D"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Wildboyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [],
+   "notas": ""
+  },
+  {
+   "nombre": "Junkatrukk",
+   "tipo": "LV",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": "Transport. May transport one of the following units: Boyz, Grotz, Nobz. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+  },
+  {
+   "nombre": "Squiggoth",
+   "tipo": "LV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "2× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Teeth and Horns",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+D3), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport four of the following units: Boyz, Grotz, Nobz, Wildboyz; plus two units of Grotz."
+  },
+  {
+   "nombre": "Orkeosaurus",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "4× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Goring Tusks",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+D3), MW"
+    },
+    {
+     "nombre": "y Goring Tusks",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 6, Reinforced Armour, Thick Rear Armour, Transport. May Transport twelve of the following units: Boyz, Grotz, Nobz, Wildboyz; plus six units of Grotz). Critical Hit Effect: The unit takes a point of damage and moves 3D6cm in a random direction. If it moves into impassable terrain it stops and is destroyed. If it moves into another unit or units, it stops and one of those units suffers a macro-weapon hit."
+  },
+  {
+   "nombre": "Steam Gargant",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–2× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2BP, FxF, MW"
+    },
+    {
+     "nombre": "0–2× Mega Choppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    },
+    {
+     "nombre": "Fist of Gork",
+     "alcance": "45cm",
+     "potencia": "MW5+/AA5+, MW"
+    }
+   ],
+   "notas": "Damage Capacity 4, Fearless, Reinforced Armour, Walker. Armed with any two of the following weapons: Soopagun, Mega-Choppa. Critical Hit Effect: The unit is destroyed. All units within 2D6cm suffer a hit."
+  }
  ]
 }

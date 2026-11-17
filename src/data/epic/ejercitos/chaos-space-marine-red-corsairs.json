@@ -563,5 +563,582 @@
     "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Champion of Chaos",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Daemon Artifact",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), FS"
+    },
+    {
+     "nombre": "Daemon Bolt",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS"
+    }
+   ],
+   "notas": "Augmented Summoning (+2D3), Invulnerable Save. A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon. A unit with this character may be sacrificed (removed from play without its formation receiving a Blast marker) before rolling for summoning points. This changes its Augmented Summoning from (+2D3) to (+6), and a Greater Daemon must be summoned. Place the Greater Daemon within 10cm of the point where the sacrificed unit was removed."
+  },
+  {
+   "nombre": "Chaos Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Daemon Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Chaos Warlord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Icon Bearer",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Daemonic Focus, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Sorcerer Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Warp Bolt",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Berzerkers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bolt Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Fearless."
+  },
+  {
+   "nombre": "Chaos Space Marine Bikes",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Mounted."
+  },
+  {
+   "nombre": "Chaos Space Marine Chosen",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout."
+  },
+  {
+   "nombre": "Chaos Space Marine Terminators",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Reaper",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Autocannon",
+     "alcance": "",
+     "potencia": ""
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Chaos Space Marines",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Daemon Prince",
+   "tipo": "INF",
+   "velocidad": "15cm (30cm)",
+   "blindaje": "3+ (4+)",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Warp Blast",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Possessed Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), MW"
+    }
+   ],
+   "notas": "Commander, Fearless, Leader, Reinforced Armour, Teleport. A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+  },
+  {
+   "nombre": "Havocs",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Minor Daemons",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Fangs",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons"
+    }
+   ],
+   "notas": "Expendable, Invulnerable Save."
+  },
+  {
+   "nombre": "Noise Marines",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Blastmaster",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+, D"
+    }
+   ],
+   "notas": "Fearless."
+  },
+  {
+   "nombre": "Obliterators",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "2+",
+   "armas": [
+    {
+     "nombre": "3× Body Weapons",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+/AA6+"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Plague Marines",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Fearless."
+  },
+  {
+   "nombre": "Raptors",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bolt Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs."
+  },
+  {
+   "nombre": "Thousand Sons",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour."
+  },
+  {
+   "nombre": "Blight Drone",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Maw Cannon",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT5+, IC"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Skimmer."
+  },
+  {
+   "nombre": "Blood Slaughterer",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Cleavers",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), MW"
+    }
+   ],
+   "notas": "Fearless, Infiltrator, Invulnerable Save, Walker."
+  },
+  {
+   "nombre": "Chaos Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Walker."
+  },
+  {
+   "nombre": "Chaos Land Raider",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Chaos Predator",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Rhino",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Combi-Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Chaos Vindicator",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Daemon Knight",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Castigator Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Scout, Walker."
+  },
+  {
+   "nombre": "Defiler",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Twin Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Battle Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Infiltrator, Invulnerable Save, Walker."
+  },
+  {
+   "nombre": "Hunter",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Hunter-Killer",
+     "alcance": "60cm",
+     "potencia": "AT4+/AA4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Silver Tower",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Arcane Cannons",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT4+"
+    },
+    {
+     "nombre": "Beam of Power",
+     "alcance": "60cm",
+     "potencia": "MW5+"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Skimmer."
+  },
+  {
+   "nombre": "Brass Scorpion",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Scorpion Cannon",
+     "alcance": "30cm",
+     "potencia": "2× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Hellmaw Cannon",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    },
+    {
+     "nombre": "Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Infiltrator, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Greater Daemon",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "2× Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Damage Capacity 3, Daemonic Focus, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+  },
+  {
+   "nombre": "Chaos Thunderhawk",
+   "tipo": "AC/",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 2, Planetfall, Reinforced Armour, Transport. May transport"
+  }
  ]
 }

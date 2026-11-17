@@ -327,5 +327,394 @@
     "En la fase final del turno, retira la formación del tablero a la reserva, pero mantenla separada de las unidades destruidas. La formación tirará para reorganizarse en la fase final, gestionando los Marcadores de Explosión según las reglas básicas. Puede volver a entrar teletransportándose o a través de un portal. Si no hay portales suficientes para todas las formaciones fuera de la mesa, la formación debe permanecer fuera de la mesa hasta que haya un portal disponible. Si falla la tirada de reorganización, la formación debe permanecer en la reserva hasta que se reorganice. Ten en cuenta que, con la excepción de los C’tan, ningún ingenio de guerra necrón puede desfasarse."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Necron Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Staff of Light",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    },
+    {
+     "nombre": "y Staff of Light",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Necron Overlord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Destroyers",
+   "tipo": "INF",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Gauss Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    }
+   ],
+   "notas": "Mounted, Necron, Skimmer."
+  },
+  {
+   "nombre": "Flayed Ones",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Infiltrator, Necron, Scout, Teleport."
+  },
+  {
+   "nombre": "Heavy Destroyers",
+   "tipo": "INF",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Heavy Gauss Cannon",
+     "alcance": "30cm",
+     "potencia": "AT3+"
+    }
+   ],
+   "notas": "Mounted, Necron, Skimmer."
+  },
+  {
+   "nombre": "Immortals",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Gauss Blasters",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+"
+    }
+   ],
+   "notas": "Necron."
+  },
+  {
+   "nombre": "Necron Warriors",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Gauss Flayers",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Necron."
+  },
+  {
+   "nombre": "Pariahs",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "War Scythes",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "y War Scythes",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Inspiring."
+  },
+  {
+   "nombre": "Wraiths",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "First Strike, Invulnerable Save, Jump Packs, Necron."
+  },
+  {
+   "nombre": "Monolith",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Particle Whip",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Gauss Flux Arc",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    }
+   ],
+   "notas": "Fearless, Living Metal, Portal, Skimmer, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Obelisk",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Particle Flail",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Skimmer, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Tomb Spyder",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Scarab Swarm",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+, IC"
+    },
+    {
+     "nombre": "y Scarab Swarm",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), IC"
+    },
+    {
+     "nombre": "y y Scarab Swarm",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), IC"
+    },
+    {
+     "nombre": "Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, MW"
+    }
+   ],
+   "notas": "Fearless, Leader, Skimmer, Walker."
+  },
+  {
+   "nombre": "Abattoir",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "3× Scarab Swarm",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+, IC"
+    },
+    {
+     "nombre": "y 3× Scarab Swarm",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), IC"
+    },
+    {
+     "nombre": "y y 3× Scarab Swarm",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), IC"
+    },
+    {
+     "nombre": "Harvesters",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), TK"
+    }
+   ],
+   "notas": "Damage Capacity 8, Fearless, Infiltrator, Living Metal, Portal, Skimmer, Thick Rear Armour. Critical Hit Effect: The unit and all units within 5cm of the unit suffer a titan killer hit on a roll of 4+."
+  },
+  {
+   "nombre": "Aeonic Orb",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Solar Flare",
+     "alcance": "90cm",
+     "potencia": "MW3+, MW, TK(D6)"
+    },
+    {
+     "nombre": "y Solar Flare",
+     "alcance": "90cm",
+     "potencia": "12BP"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Living Metal, Skimmer, Thick Rear Armour. Critical Hit Effect: Center the barrage template that is 12cm across on the unit and resolve the effect as if it were a 3BP macro-weapon barrage."
+  },
+  {
+   "nombre": "Pylon",
+   "tipo": "WE",
+   "velocidad": "Immobile",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Particle Accelerator",
+     "alcance": "120cm",
+     "potencia": "MW4+, TK(D3)"
+    },
+    {
+     "nombre": "y Particle Accelerator",
+     "alcance": "90cm",
+     "potencia": "AA4+, TK"
+    },
+    {
+     "nombre": "Gauss Flux Arc",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Living Metal, Teleport, Thick Rear Armour. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "The Deceiver",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Despair",
+     "alcance": "45cm",
+     "potencia": "4BP, D"
+    },
+    {
+     "nombre": "Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), TK"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Inspiring, Living Metal, Skimmer, Supreme Commander, Teleport, Walker. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+  },
+  {
+   "nombre": "The Nightbringer",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lightning Arc",
+     "alcance": "30cm",
+     "potencia": "MW4+, MW"
+    },
+    {
+     "nombre": "Gaze of Death",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), MW"
+    },
+    {
+     "nombre": "Scythe",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Inspiring, Living Metal, Skimmer, Supreme Commander, Teleport, Walker. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+  },
+  {
+   "nombre": "Warbarque",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Particle Cannon",
+     "alcance": "60cm",
+     "potencia": "AP5+/AT3+"
+    },
+    {
+     "nombre": "2× War Cannon",
+     "alcance": "30cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Gauss Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Gauss Flux Arc",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    }
+   ],
+   "notas": "Commander, Damage Capacity 3, Fearless, Living Metal, Portal, Skimmer, Teleport, Thick Rear Armour. Critical Hit Effect: The unit looses Portal. Subsequent critical hits destroy the unit."
+  },
+  {
+   "nombre": "Scythe Class Harvester",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "4BP, MW"
+    },
+    {
+     "nombre": "2× Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": ""
+  }
  ]
 }

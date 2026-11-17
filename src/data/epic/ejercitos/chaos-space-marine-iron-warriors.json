@@ -594,5 +594,651 @@
     "Sin efecto"
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Iron Warriors Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Daemon Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    },
+    {
+     "nombre": "0–1× Servo Arm",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2)"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader. Armed with either a Daemon Weapon or a Servo Arm."
+  },
+  {
+   "nombre": "Warsmith",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Daemon Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    },
+    {
+     "nombre": "0–1× Servo Arm",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2)"
+    }
+   ],
+   "notas": "Invulnerable Save, Supreme Commander. Armed with either a Daemon Weapon or a Servo Arm."
+  },
+  {
+   "nombre": "Chaos Assault Marines",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Space Marine Chosen",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout."
+  },
+  {
+   "nombre": "Iron Warriors Terminators",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y Heavy Flamer",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, IC"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Teleport, Thick Rear Armour. Counts as a Chaos Space Marine Terminators for the purposes of being transported."
+  },
+  {
+   "nombre": "Chaos Space Marines",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Daemon Prince",
+   "tipo": "INF",
+   "velocidad": "15cm (30cm)",
+   "blindaje": "3+ (4+)",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Warp Blast",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Possessed Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), MW"
+    }
+   ],
+   "notas": "Commander, Fearless, Leader, Reinforced Armour, Teleport. A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+  },
+  {
+   "nombre": "Havocs",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Obliterators",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "2+",
+   "armas": [
+    {
+     "nombre": "3× Body Weapons",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+/AA6+"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Raptors",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bolt Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs."
+  },
+  {
+   "nombre": "Basilisk",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Earthshaker",
+     "alcance": "120cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "y Earthshaker",
+     "alcance": "120cm",
+     "potencia": "1BP, Ind"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Walker."
+  },
+  {
+   "nombre": "Chaos Land Raider",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Chaos Predator",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Rhino",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Combi-Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Chaos Siege Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    },
+    {
+     "nombre": "Siege Drills",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2)"
+    }
+   ],
+   "notas": "Fearless, Walker. Counts as a Chaos Dreadnought for the purposes of being transported."
+  },
+  {
+   "nombre": "Chaos Vindicator",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Daemonic Artillery",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Plague Catapult",
+     "alcance": "45cm",
+     "potencia": "1BP, IC, Ind"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save."
+  },
+  {
+   "nombre": "Defiler",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Twin Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Battle Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Infiltrator, Invulnerable Save, Walker."
+  },
+  {
+   "nombre": "Stalker",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Stalker Autocannon",
+     "alcance": "30cm",
+     "potencia": "2× AP5+/AT6+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Decimator",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Decimator Cannon",
+     "alcance": "45cm",
+     "potencia": "3BP, FxF, IC, MW"
+    },
+    {
+     "nombre": "2× Twin Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT5+, Left"
+    },
+    {
+     "nombre": "2× Twin Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT5+, Right"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour. Critical Hit Effect: Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Ordinatus Medrengard",
+   "tipo": "WE",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Medrengard Siege Cannon",
+     "alcance": "60cm",
+     "potencia": "9BP, FxF, D, Ind"
+    },
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    }
+   ],
+   "notas": "Damage Capacity 4, Reinforced Armour, 4 Void Shields. Critical Hit Effect: Destroyed. All units within 15cm of the model suffer a hit on a roll of 4+."
+  },
+  {
+   "nombre": "Ravager Titan",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Doomburner",
+     "alcance": "45cm",
+     "potencia": "MW2+, FxF, IC, TK(D3)"
+    },
+    {
+     "nombre": "2× Death Storm",
+     "alcance": "45cm",
+     "potencia": "4× AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Battlehead",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    },
+    {
+     "nombre": "Tail",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "y Tail",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Siege Lord Titan",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Hellstrike Cannon",
+     "alcance": "60cm",
+     "potencia": "3BP, FxF, IC, MW"
+    },
+    {
+     "nombre": "Power Claw",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+3), TK(D3)"
+    },
+    {
+     "nombre": "Doomburner",
+     "alcance": "45cm",
+     "potencia": "MW2+, FxF, IC, TK(D3)"
+    },
+    {
+     "nombre": "Tail",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "y Tail",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, Transport, 6 Void Shields, Walker. May transport ten infantry units without Jump Packs or Mounted, Chaos Dreadnoughts; Chaos Terminators, Obliterators and Chaos Dreadnoughts count as two units each. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Harbinger",
+   "tipo": "AC/WE",
+   "velocidad": "Bomber",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Left"
+    },
+    {
+     "nombre": "Reaper Autocannon",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Right"
+    },
+    {
+     "nombre": "Incendiary Bombs",
+     "alcance": "15cm",
+     "potencia": "6BP, FxF, IC"
+    }
+   ],
+   "notas": "Damage Capacity 4, Invulnerable Save, Reinforced Armour. Critical Hit Effect: The unit is destroyed."
+  },
+  {
+   "nombre": "Hell Blade",
+   "tipo": "AC",
+   "velocidad": "Fighter",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Reaper Autocannon",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hell Talon",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombs",
+     "alcance": "15cm",
+     "potencia": "2BP, FxF, IC"
+    },
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "30cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Havoc Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Despoiler Class Battleship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "3× Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Slow and Steady, Transport. May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+  },
+  {
+   "nombre": "Devastation Class Cruiser",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Transport. May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+  },
+  {
+   "nombre": "Dreadclaw",
+   "tipo": "Special",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Planetfall, Transport. May transport one formation of infantry units (except Chaos Space Marine Bikes) and Chaos Dreadnoughts. The Dreadclaw does not scatter 2d6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game (see Planetfall). Any troops carried in the Dreadclaw must disembark within 5cm of the Dreadclaw or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Dreadclaw. Dreadclaw models should be removed from the board once the formation they transport has disembarked."
+  }
  ]
 }

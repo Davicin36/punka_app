@@ -615,5 +615,313 @@
     "R: No."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Archon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Agonizer",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Inspiring, Invulnerable Save, Supreme Commander."
+  },
+  {
+   "nombre": "Dracon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Agonizer",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Sybarite",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Punisher",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Leader."
+  },
+  {
+   "nombre": "Grotesques",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Fearless."
+  },
+  {
+   "nombre": "Haemonculi",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Arcane Terrors",
+     "alcance": "15cm",
+     "potencia": "AP3+, D"
+    }
+   ],
+   "notas": "Fearless, Leader."
+  },
+  {
+   "nombre": "Hellions",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Hellglaives",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs, Scout."
+  },
+  {
+   "nombre": "Incubi",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Tormentor Helms",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Punishers",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Mandrakes",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Splinter Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "First Strike, Infiltrator, Teleport."
+  },
+  {
+   "nombre": "Reavers",
+   "tipo": "INF",
+   "velocidad": "40cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Splinter Rifles",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Mounted, Skimmer."
+  },
+  {
+   "nombre": "Scourges",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Dark Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    },
+    {
+     "nombre": "Splinter Rifles",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    }
+   ],
+   "notas": "Jump Packs, Teleport."
+  },
+  {
+   "nombre": "Warp Beasts",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "(5+)",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Teeth and Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "First Strike, Infiltrator. In an assault the unit counts as having an armour value of 5+."
+  },
+  {
+   "nombre": "Warriors",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Splinter Cannon",
+     "alcance": "15cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Wyches",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "(5+)",
+   "cc": "3+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Splinter Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "First Strike, Infiltrator. In an assault the unit counts as having an armour value of 5+."
+  },
+  {
+   "nombre": "Raider",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Dark Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    },
+    {
+     "nombre": "Horrorfex",
+     "alcance": "15cm",
+     "potencia": "AP6+, D"
+    }
+   ],
+   "notas": "Skimmer, Transport. May transport two infantry units (except Warp Beasts) without Jump Packs or Mounted; plus one unit of Mandrakes. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+  },
+  {
+   "nombre": "Ravager",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Dark Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    },
+    {
+     "nombre": "Disintegrator",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Horrorfex",
+     "alcance": "15cm",
+     "potencia": "AP6+, D"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "Talos",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Paralyzer",
+     "alcance": "15cm",
+     "potencia": "AP5+, D"
+    },
+    {
+     "nombre": "Talos Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, MW"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Walker."
+  },
+  {
+   "nombre": "Barge of Pleasure",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Dark Lance",
+     "alcance": "30cm",
+     "potencia": "AT5+, L"
+    },
+    {
+     "nombre": "Long-Barrel Splinter Cannon",
+     "alcance": "45cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Desolator",
+     "alcance": "30cm",
+     "potencia": "2BP, D"
+    }
+   ],
+   "notas": "Damage Capacity 3, 2 Shadowfields, Skimmer, Transport. May transport four infantry units without Jump Packs or Mounted; plus two units of Mandrakes. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit."
+  }
  ]
 }

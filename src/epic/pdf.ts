@@ -6,6 +6,7 @@ import { costeAliados, costeFormacion, costeLista, detalleFormacion, formacionDe
 import { nombreArchivo } from '../logic/descargar';
 import { es, nom } from './texto';
 import { anexoReglas } from '../logic/pdfReglas';
+import { unidadesDeLista } from './eleccion';
 
 type RGB = [number, number, number];
 const PAPEL: RGB = [243, 234, 211];
@@ -48,6 +49,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
       const d = detalleFormacion(e, fe);
       const lineas = [es(d.formacion.unidadesEs, d.formacion.unidades)];
       if (d.extras.length) lineas.push('Extras: ' + d.extras.join('; '));
+      for (const r of d.reparto) lineas.push(`${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
       if (d.mejoras.length) lineas.push('Mejoras: ' + d.mejoras.join(', '));
       if (fe.nota) lineas.push('Nota: ' + fe.nota);
       return [
@@ -98,6 +100,35 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
     if (y + 6 + partes.length * 3.6 > H - 12) { doc.addPage(); y = M; }
     doc.setFont('helvetica', 'bold'); doc.setTextColor(...OXIDO); doc.text(t.toUpperCase(), M, y + 3); y += 6;
     doc.setFont('helvetica', 'normal'); doc.setTextColor(...TINTA); doc.text(partes, M, y); y += partes.length * 3.6 + 3;
+  }
+
+  // Hojas de datos de las unidades de la lista
+  const fichas = unidadesDeLista(e, l.formaciones);
+  if (fichas.length) {
+    if (y > H - 40) { doc.addPage(); y = M; }
+    autoTable(doc, {
+      startY: y, margin: { left: M, right: M },
+      head: [
+        [{ content: 'HOJAS DE DATOS', colSpan: 10 }],
+        ['Unidad', 'Tipo', 'Vel.', 'Blind.', 'CC', 'FF', 'Armas', 'Alcance', 'Potencia de fuego', 'Notas'],
+      ],
+      body: fichas.map(f => [
+        { content: f.nombre, styles: { fontStyle: 'bold' } },
+        f.tipo, f.velocidad, f.blindaje, f.cc, f.ff,
+        f.armas.map(a => a.nombre || '-').join('\n') || '-',
+        f.armas.map(a => a.alcance || '-').join('\n'),
+        f.armas.map(a => a.potencia || '-').join('\n'),
+        f.notas,
+      ]),
+      theme: 'grid',
+      styles: { font: 'helvetica', fontSize: 6.8, cellPadding: 1.1, textColor: TINTA, lineColor: LINEA, lineWidth: 0.15, fillColor: PAPEL, valign: 'top', overflow: 'linebreak' },
+      headStyles: { fillColor: PAPEL2, textColor: OXIDO, fontStyle: 'bold', fontSize: 7 },
+      columnStyles: {
+        0: { cellWidth: 25 }, 1: { cellWidth: 9 }, 2: { cellWidth: 11 }, 3: { cellWidth: 9 }, 4: { cellWidth: 7 }, 5: { cellWidth: 8 },
+        6: { cellWidth: 30 }, 7: { cellWidth: 12 }, 8: { cellWidth: 28 },
+      },
+      didParseCell: c => { if (c.section === 'head' && c.row.index === 0) c.cell.styles.fontSize = 9; },
+    });
   }
 
   // Anexo: reglas especiales del ejército (Edición Deluxe en castellano)

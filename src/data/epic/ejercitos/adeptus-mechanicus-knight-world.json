@@ -339,5 +339,473 @@
     "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Aspirant",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Inspiring, Leader."
+  },
+  {
+   "nombre": "Seneschal",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Commander, Leader."
+  },
+  {
+   "nombre": "Infantry Levy",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Lasguns",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "One unit in every two has a Heavy Bolter."
+  },
+  {
+   "nombre": "Levy Command",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Commander."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Laser Destroyer",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Rough Riders",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Laspistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Lances",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), FS"
+    }
+   ],
+   "notas": "Infiltrator, Mounted, Scout."
+  },
+  {
+   "nombre": "Snipers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sniper Rifles",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Sniper."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "AA Gun",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "AA Gun",
+     "alcance": "60cm",
+     "potencia": "AP6+/AT5+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Gun Transporter",
+   "tipo": "LV",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transport. May transport one of the following units: AA Gun, Howitzer, Rapier, Thudd Gun."
+  },
+  {
+   "nombre": "Howitzer",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Howitzer",
+     "alcance": "90cm",
+     "potencia": "1BP, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Baron",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Rapid Fire Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "0–1× Power Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS, MW"
+    },
+    {
+     "nombre": "0–1× Power Gauntlet",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK"
+    },
+    {
+     "nombre": "0–1× Shock Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Inspiring, Knight Shield, Reinforced Armour, Supreme Commander, Walker. Critical Hit Effect: Destroyed. Armed with either a Power Gauntlet and Shock Lance, or a Power Lance."
+  },
+  {
+   "nombre": "Knight Castellan",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Knight Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "MW3+, FwA"
+    },
+    {
+     "nombre": "y Knight Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "1BP, FwA"
+    },
+    {
+     "nombre": "Multi-barrelled Autocannon",
+     "alcance": "45cm",
+     "potencia": "3× AP5+/AT6+, FwA"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Knight Crusader",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Knight Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "MW3+, FwA"
+    },
+    {
+     "nombre": "y Knight Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "1BP, FwA"
+    },
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+, FwA"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Knight Errant",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thermal Cannon",
+     "alcance": "30cm",
+     "potencia": "MW4+, FwA"
+    },
+    {
+     "nombre": "y Thermal Cannon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    },
+    {
+     "nombre": "Power Gauntlet",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK"
+    },
+    {
+     "nombre": "Shock Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Knight Lancer",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Power Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS, MW"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Scout, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Knight Paladin",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Chainsword",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    },
+    {
+     "nombre": "Shock Lance",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), FS"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Walker. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Warden",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "0–1× Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "0–1× Heavy Bolters",
+     "alcance": "30cm",
+     "potencia": "2× AP5+, FwA"
+    },
+    {
+     "nombre": "0–1× AA Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+/AA5+"
+    },
+    {
+     "nombre": "0–1× Multilasers",
+     "alcance": "30cm",
+     "potencia": "2× AP5+/AT6+, FwA"
+    },
+    {
+     "nombre": "0–1× Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 2, Knight Shield, Reinforced Armour, Walker. Critical Hit Effect: Destroyed. Armed with either a Demolisher and Heavy Bolters; an AA Missile Launcher and Multilasers; or a Vanquisher."
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Bomb Racks",
+     "alcance": "15cm",
+     "potencia": "3BP, FxF"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderbolt Fighter",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Underwing Rockets",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "Storm Bolters",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "8BP, MW"
+    }
+   ],
+   "notas": "Slow and Steady."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": ""
+  }
  ]
 }

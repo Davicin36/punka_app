@@ -435,5 +435,461 @@
     "Regeneración (Regeneration): Las unidades de ingenio de guerra con regeneración pueden recuperar puntos de capacidad de daño perdidos. Cada unidad con regeneración recupera un punto de capacidad de daño al comienzo de la fase final de cada turno. La regeneración no puede usarla una unidad destruida ni puede aumentar la capacidad de daño de una unidad por encima de su valor inicial."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Brood Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Inspiring, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Symbiote",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Supreme Commander, Synapse (+1). If added to the Dominatrix the unit will additionally loose supreme commander and synapse (+1) on a Critical Hit Effect roll of a 6."
+  },
+  {
+   "nombre": "Gargoyles",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Flamespurts",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, IC"
+    }
+   ],
+   "notas": "Brood (2), Expendable, Jump Packs."
+  },
+  {
+   "nombre": "Genestealers",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "2+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Rending Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, FS"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Hormagaunts",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "-",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Brood (1), Expendable, Infiltrator."
+  },
+  {
+   "nombre": "Raveners",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Twin Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Brood (2), Expendable, Infiltrator, Tunneler."
+  },
+  {
+   "nombre": "Termagants",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Fleshborers",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Brood (1), Expendable."
+  },
+  {
+   "nombre": "Tyranid Warriors",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "2+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Deathspitters",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Fearless, Synapse (1)."
+  },
+  {
+   "nombre": "Biovore",
+   "tipo": "LV",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Spore Mines",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+, D, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Lictor",
+   "tipo": "LV",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Flesh Hooks",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Lictor Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, S"
+    }
+   ],
+   "notas": "First Strike, Infiltrator, Invulnerable Save, Scout, Teleport."
+  },
+  {
+   "nombre": "Zoanthrope",
+   "tipo": "LV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Warp Blast",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    },
+    {
+     "nombre": "y Warp Blast",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": "Invulnerable Save."
+  },
+  {
+   "nombre": "Carnifex",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bio-Plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Large Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour."
+  },
+  {
+   "nombre": "Dactylis",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bile Pods",
+     "alcance": "45cm",
+     "potencia": "1BP, D, Ind"
+    }
+   ],
+   "notas": "Reinforced Armour."
+  },
+  {
+   "nombre": "Exocrine",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bio-Cannon",
+     "alcance": "45cm",
+     "potencia": "2× AP4+/AT5+"
+    }
+   ],
+   "notas": "Reinforced Armour."
+  },
+  {
+   "nombre": "Haruspex",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Acid Jets and Frag Spines",
+     "alcance": "15cm",
+     "potencia": "2× AP5+/AT6+"
+    },
+    {
+     "nombre": "Claws and Mandibles",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour."
+  },
+  {
+   "nombre": "Hive Tyrant",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Venon Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "Lash Whip and Bonesword",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Fearless, Leader, Reinforced Armour, Synapse (2)."
+  },
+  {
+   "nombre": "Malefactor",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Frag Spines",
+     "alcance": "15cm",
+     "potencia": "2× AP5+"
+    },
+    {
+     "nombre": "Arms",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Transport. May transport two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Dominatrix",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bio-Titan Bio-Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "Energy Pulse",
+     "alcance": "60cm",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "y Energy Pulse",
+     "alcance": "45cm",
+     "potencia": "AA5+, MW"
+    },
+    {
+     "nombre": "2× Massive Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK"
+    }
+   ],
+   "notas": "Damage Capacity 4, Commander, Fearless, Invulnerable Save, Leader, Regeneration, Reinforced Armour, Synapse (2). May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses commander, leader and synapse (2)."
+  },
+  {
+   "nombre": "Harridan",
+   "tipo": "WE",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Harridan Bio-Cannon",
+     "alcance": "45cm",
+     "potencia": "2× AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "Large Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, Skimmer, Transport. May transport four Gargoyles. Critical Hit Effect: The unit takes an extra point of damage."
+  },
+  {
+   "nombre": "Trygon",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bio-Electric Field",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Large Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Reinforced Armour, Tunneler. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Hierodule Bio- Titan",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "0–1× Bile Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, FwA"
+    },
+    {
+     "nombre": "0–1× Bio-Titan Bio-Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT5+, FwA"
+    },
+    {
+     "nombre": "0–1× Cluster Spines",
+     "alcance": "45cm",
+     "potencia": "4BP, FwA"
+    },
+    {
+     "nombre": "0–1× Pyro-Acid Spray",
+     "alcance": "15cm",
+     "potencia": "3BP, FwA, IC"
+    },
+    {
+     "nombre": "0–2× Razorclaw",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    },
+    {
+     "nombre": "y 0–2× Razorclaw",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    },
+    {
+     "nombre": "2× Massive Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK"
+    }
+   ],
+   "notas": "Damage Capacity 4, Fearless, Invulnerable Save, Regeneration, Reinforced Armour. May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+  },
+  {
+   "nombre": "Hierophant Bio- Titan",
+   "tipo": "WE",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "0–1× Bile Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, FwA"
+    },
+    {
+     "nombre": "0–1× Bio-Titan Bio-Cannon",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT5+, FwA"
+    },
+    {
+     "nombre": "0–1× Cluster Spines",
+     "alcance": "45cm",
+     "potencia": "4BP, FwA"
+    },
+    {
+     "nombre": "0–1× Pyro-Acid Spray",
+     "alcance": "15cm",
+     "potencia": "3BP, FwA, IC"
+    },
+    {
+     "nombre": "0–2× Razorclaw",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    },
+    {
+     "nombre": "y 0–2× Razorclaw",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    },
+    {
+     "nombre": "Ripper Tentacles",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+2), FS"
+    },
+    {
+     "nombre": "2× Gigantic Scything Talons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Invulnerable Save, Regeneration, Reinforced Armour. May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+  }
  ]
 }

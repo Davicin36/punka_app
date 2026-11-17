@@ -328,14 +328,14 @@
     {
      "coste": 50,
      "porUnidad": false,
-     "texto": "+50 points",
-     "textoEs": "+50 puntos"
+     "texto": "Captain, Chaplain or Librarian (+50 points)",
+     "textoEs": "Captain, Chaplain o Librarian (+50 puntos)"
     },
     {
      "coste": 100,
      "porUnidad": false,
-     "texto": "+100 points",
-     "textoEs": "+100 puntos"
+     "texto": "Supreme Commander (+100 points)",
+     "textoEs": "Comandante supremo (Supreme Commander) (+100 puntos)"
     }
    ],
    "nombreEs": "Comandante",
@@ -604,6 +604,816 @@
     "P: ¿Forman parte de la formación los Emplazamientos de Armas que acompañan a ciertas formaciones?",
     "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Captain",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Chaplain",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Inspiring, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Librarian",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Smite",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Supreme Commander",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Supreme Commander."
+  },
+  {
+   "nombre": "Techmarine",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Leader. If added to a Bastion unit the Bastion gains 1 Void Shield."
+  },
+  {
+   "nombre": "Assault Centurion",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Siege Drills",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    },
+    {
+     "nombre": "Twin Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Meltaguns",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "Hurricane Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    }
+   ],
+   "notas": "Reinforced Armour. Counts as a Terminator unit for the purposes of being transported."
+  },
+  {
+   "nombre": "Devastator",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Devastator Centurion",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "2+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour. Counts as a Terminator unit for the purposes of being transported."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Laser Destroyer",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": "Counts as two infantry units for the purposes of being transported."
+  },
+  {
+   "nombre": "Scout",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Tactical",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Terminator",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": "Counts as two infantry units for the purposes of being transported."
+  },
+  {
+   "nombre": "Thunderfire Cannon",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "y Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hyperios Platform",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Hyperios Launcher",
+     "alcance": "45cm",
+     "potencia": "AT6+/AA5+"
+    }
+   ],
+   "notas": "Automata."
+  },
+  {
+   "nombre": "Land Speeder",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Land Speeder Tornado",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Land Speeder Typhoon",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Typhoon Missile",
+     "alcance": "45cm",
+     "potencia": "AP3+/AT5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Tarantula Platform",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+ (5+)",
+   "armas": [
+    {
+     "nombre": "0–1× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Automata. Armed with either a twin heavy bolter or a twin lascannon. Units armed with a Twin Heavy Bolter have their firefight value increased to 5+."
+  },
+  {
+   "nombre": "Hellfire Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Walker. Counts as a Dreadnought unit for the purposes of being transported."
+  },
+  {
+   "nombre": "Hunter",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Hunter-Killer",
+     "alcance": "60cm",
+     "potencia": "AT4+/AA4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Land Raider",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Land Raider Achilles",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "y Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    },
+    {
+     "nombre": "2× Twin Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW4+"
+    },
+    {
+     "nombre": "y 2× Twin Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Land Raider Crusader",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Hurricane Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    },
+    {
+     "nombre": "Twin Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport three infantry units without Jump Packs or Mounted; Terminator units count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+  },
+  {
+   "nombre": "Predator Annihilator",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Predator Destructor",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Razorback",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+ (4+)",
+   "armas": [
+    {
+     "nombre": "0–1× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
+  },
+  {
+   "nombre": "Rhino",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Storm Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Siege Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Flamestorm Cannon",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "y Flamestorm Cannon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, IC"
+    },
+    {
+     "nombre": "Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y Heavy Flamer",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, IC"
+    },
+    {
+     "nombre": "Siege Drill",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Walker. Counts as a Dreadnought unit for the purposes of being transported."
+  },
+  {
+   "nombre": "Vindicator",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Whirlwind",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Whirlwind",
+     "alcance": "45cm",
+     "potencia": "1BP, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Bastion",
+   "tipo": "WE",
+   "velocidad": "Immobile",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "y Thunderfire Cannon",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    },
+    {
+     "nombre": "Twin Hyperios Launcher",
+     "alcance": "45cm",
+     "potencia": "AT5+/AA4+"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, Thick Rear Armour, Transport. May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support. The unit counts as rubble once it is destroyed. Critical Hit Effect: The unit takes an extra point of damage."
+  },
+  {
+   "nombre": "Fellblade",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Accelerator Cannon",
+     "alcance": "75cm",
+     "potencia": "MW3+"
+    },
+    {
+     "nombre": "Quad Lascannon",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, Left"
+    },
+    {
+     "nombre": "Quad Lascannon",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, Right"
+    },
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 4, Reinforced Armour. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Reaver Class Titan",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Turbo-Laser Destructor",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, FwA"
+    },
+    {
+     "nombre": "Rocket Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Warlord Class Titan",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Deathstrike Missile",
+     "alcance": "Unlimited",
+     "potencia": "MW2+, Ind, SS, TK(D6)"
+    },
+    {
+     "nombre": "Gatling Blaster",
+     "alcance": "60cm",
+     "potencia": "4× AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "Rocket Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, FxF"
+    },
+    {
+     "nombre": "Titan Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+3), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Storm Talon Gunship",
+   "tipo": "AC",
+   "velocidad": "Fighter",
+   "blindaje": "5+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Twin Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+/AA5+, FwA"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderhawk Saturation",
+   "tipo": "AC/",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 2, Reinforced Armour. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Bomber",
+   "tipo": "WE",
+   "velocidad": "2×",
+   "blindaje": "Twin",
+   "cc": "Heavy",
+   "ff": "Bolter",
+   "armas": [
+    {
+     "nombre": "",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Left"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Right"
+    },
+    {
+     "nombre": "Bombs",
+     "alcance": "15cm",
+     "potencia": "2BP, FxF, IC"
+    }
+   ],
+   "notas": ""
   }
  ]
 }

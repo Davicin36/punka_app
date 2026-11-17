@@ -346,14 +346,14 @@
     {
      "coste": 50,
      "porUnidad": false,
-     "texto": "+50 points",
-     "textoEs": "+50 puntos"
+     "texto": "Captain, Chaplain or Librarian (+50 points)",
+     "textoEs": "Captain, Chaplain o Librarian (+50 puntos)"
     },
     {
      "coste": 100,
      "porUnidad": false,
-     "texto": "+100 points",
-     "textoEs": "+100 puntos"
+     "texto": "Supreme Commander (+100 points)",
+     "textoEs": "Comandante supremo (Supreme Commander) (+100 puntos)"
     }
    ],
    "nombreEs": "Comandante",
@@ -525,6 +525,733 @@
     "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
     "R: Uno por unidad."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Captain",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Chaplain",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Inspiring, Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Commissar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Inspiring, Leader."
+  },
+  {
+   "nombre": "Librarian",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Smite",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Leader."
+  },
+  {
+   "nombre": "Ordo Xenos Inquisitor Lord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Smite",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Reinforced Armour, Sniper."
+  },
+  {
+   "nombre": "Supreme Commander",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Supreme Commander."
+  },
+  {
+   "nombre": "Deathwatch Assault",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bolt Pistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Jump Packs."
+  },
+  {
+   "nombre": "Deathwatch Bike",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Mounted."
+  },
+  {
+   "nombre": "Deathwatch Scout",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Stalker Pattern Bolters",
+     "alcance": "30cm",
+     "potencia": "AP4+, D, S"
+    },
+    {
+     "nombre": "y Stalker Pattern Bolters",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, S"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Deathwatch Terminator",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Cyclone Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Power Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Teleport, Thick Rear Armour."
+  },
+  {
+   "nombre": "Deathwatch Veteran",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Hellfire Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "y Hellfire Heavy Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Infantry",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Lasguns",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "One unit in every two has an Autocannon."
+  },
+  {
+   "nombre": "Inquisitorial Storm Troopers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Plasma Guns",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Ordo Xenos Inquisitor",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Commander."
+  },
+  {
+   "nombre": "Rough Riders",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Laspistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Lances",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), FS"
+    }
+   ],
+   "notas": "Infiltrator, Mounted, Scout."
+  },
+  {
+   "nombre": "Land Speeder Tornado",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Land Speeder Typhoon",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Typhoon Missile",
+     "alcance": "45cm",
+     "potencia": "AP3+/AT5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Skimmer."
+  },
+  {
+   "nombre": "Sentinel",
+   "tipo": "LV",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout, Walker."
+  },
+  {
+   "nombre": "Corvus Blackstar",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Twin Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Twin Blackstar Rocket Launcher",
+     "alcance": "30cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "y Twin Blackstar Rocket Launcher",
+     "alcance": "30cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Planetfall, Reinforced Armour, Skimmer, Transport. May transport two infantry units. Terminator units and units with Mounted or Jump Packs count as two units each. May not be transported by a Landing Craft."
+  },
+  {
+   "nombre": "Chimera",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Hydra",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Twin Hydra Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Land Raider",
+   "tipo": "AV",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Leman Russ",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Reinforced Armour."
+  },
+  {
+   "nombre": "Razorback",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+ (4+)",
+   "armas": [
+    {
+     "nombre": "0–1× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
+  },
+  {
+   "nombre": "Rhino",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Storm Bolter",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Valkyrie",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2× Rocket Pod",
+     "alcance": "30cm",
+     "potencia": "1BP, D, SS"
+    }
+   ],
+   "notas": "Scout, Skimmer, Transport. May transport two infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Venerable Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× Missile Launcher",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "0–1× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Assault Cannon",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "0–1× Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Reinforced Armour, Walker. Armed with either a Missile Launcher and Twin Lascannon, or an Assault Cannon and Power Fist. Counts as a Dreadnought for the purposes of being transported."
+  },
+  {
+   "nombre": "Landing Craft",
+   "tipo": "AC/",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Damage Capacity 4, Fearless, Planetfall, Reinforced Armour,"
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Bomb Racks",
+     "alcance": "15cm",
+     "potencia": "3BP, FxF"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderbolt Fighter",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Underwing Rockets",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "Storm Bolters",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "8BP, MW"
+    }
+   ],
+   "notas": "Slow and Steady."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Reaver Class Titan",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Turbo-Laser Destructor",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, FwA"
+    },
+    {
+     "nombre": "Rocket Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Warhound Class Titan",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Plasma Blastgun",
+     "alcance": "45cm",
+     "potencia": "2× MW2+, FwA, Slw"
+    },
+    {
+     "nombre": "Vulcan Mega-Bolter",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+, FwA"
+    }
+   ],
+   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Warlord Class Titan",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Volcano Cannon",
+     "alcance": "90cm",
+     "potencia": "MW2+, FwA, TK(D3)"
+    },
+    {
+     "nombre": "Gatling Blaster",
+     "alcance": "60cm",
+     "potencia": "4× AP4+/AT4+, FwA"
+    },
+    {
+     "nombre": "2× Turbo-Laser Destructor",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
   }
  ]
 }

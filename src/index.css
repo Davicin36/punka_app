@@ -204,3 +204,9 @@ details.regla .rtexto p.faq { color: var(--mut); font-size: 13px; }
 details.rules details.regla { margin-top: 6px; }
 details.rules h4 { margin: 10px 0 2px; }
 .tag { display: inline-block; padding: 3px 8px; border-radius: 8px; background: rgba(255,255,255,.06); font-size: 13px; }
+/* Reparto de unidades y elección de personaje dentro de una formación */
+.reparto { margin: 6px 0 10px; }
+.reparto .rtit { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin: 0 0 4px; font-size: 13px; color: var(--mut); }
+.reparto .rtit b { font: 700 13px var(--f-cond); letter-spacing: .5px; }
+.reparto .rtit b.ok { color: var(--ok); }
+.reparto .rtit b.falta { color: var(--bad); }

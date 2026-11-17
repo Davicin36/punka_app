@@ -93,6 +93,25 @@ export interface EjercitoEpic {
   compras: CompraEpic[];
   /** Reglas especiales del ejército (NetEA Edición Deluxe en castellano) */
   reglas?: ReglaEjercito[];
+  /** Hojas de datos (estadísticas) de las unidades */
+  fichas?: FichaEpic[];
+}
+
+export interface ArmaEpic {
+  nombre: string;
+  alcance: string;
+  potencia: string;
+}
+
+export interface FichaEpic {
+  nombre: string;
+  tipo: string;
+  velocidad: string;
+  blindaje: string;
+  cc: string;
+  ff: string;
+  armas: ArmaEpic[];
+  notas: string;
 }
 
 export interface ReglaEjercito {
@@ -124,6 +143,8 @@ export interface FormacionElegida {
   mejoras: Record<string, number>;
   /** Nombre de la mejora → índice de la variante elegida */
   variantes: Record<string, number>;
+  /** Reparto elegido en cada grupo de opciones («2 Predator Annihilator y 2 Destructor», «Chaplain»…): clave del grupo → unidad → cantidad */
+  reparto?: Record<string, Record<string, number>>;
   nota: string;
 }
 

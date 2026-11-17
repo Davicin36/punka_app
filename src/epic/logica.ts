@@ -1,6 +1,7 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
+import { problemasReparto, textoReparto } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -102,6 +103,7 @@ export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): strin
     const sec = seccionDe(e, sid);
     if (sec?.maxPorFormacion && n > sec.maxPorFormacion) out.push(`Máximo ${sec.maxPorFormacion} mejoras distintas por formación (${nom(sec)}).`);
   }
+  out.push(...problemasReparto(e, fe));
   return out;
 }
 
@@ -166,6 +168,13 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
     if (m?.maxEjercito && n > m.maxEjercito) out.push(`${nom(m)}: máximo ${m.maxEjercito} por ejército.`);
   }
 
+  // «0–1 Supreme Commander per army»: las variantes de Comandante supremo cuentan juntas
+  const supremos = l.formaciones.filter(fe => Object.entries(fe.mejoras).some(([nombre, n]) => {
+    const m = mejoraDe(e, nombre);
+    return n > 0 && !!m && /0–1 (of one of the following options|Supreme Commander) per army/.test(m.texto) && (fe.variantes[nombre] ?? 0) > 0;
+  })).length;
+  if (supremos > 1) out.push(`Comandante supremo (Supreme Commander): máximo 1 por ejército; tienes ${supremos}.`);
+
   // Problemas de cada formación
   l.formaciones.forEach((fe, i) => {
     const p = problemasFormacion(e, fe);
@@ -189,7 +198,8 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
   });
   const t = f.tamanos?.[fe.tamano];
   const tamano = t ? nom(t) : undefined;
-  return { formacion: f, tamano, extras, mejoras };
+  const reparto = textoReparto(e, fe);
+  return { formacion: f, tamano, extras, mejoras, reparto };
 }
 
 export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
@@ -204,6 +214,7 @@ export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
       lineas.push(`   ${es(d.formacion.unidadesEs, d.formacion.unidades)}`);
       if (d.extras.length) lineas.push(`   Extras: ${d.extras.join('; ')}`);
       if (d.mejoras.length) lineas.push(`   Mejoras: ${d.mejoras.join(', ')}`);
+      for (const r of d.reparto) lineas.push(`   ${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
       if (fe.nota) lineas.push(`   Nota: ${fe.nota}`);
     }
     lineas.push('');

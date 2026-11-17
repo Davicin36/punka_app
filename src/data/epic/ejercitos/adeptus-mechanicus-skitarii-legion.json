@@ -583,5 +583,704 @@
     "Todos los Montajes de Arma de una formación de aliados del Mechanicus o de una unidad de Ordinatus Minorus deben llevar un arma montada. Los Montajes de Arma de Ordinatus Minorus deben ser Armas de Titán de Batalla, y pagan recargos adicionales de +50 puntos por una Plataforma de Aterrizaje en el Caparazón y de +25 puntos por un Cañón Sísmico (Quake Cannon)."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Apocalypse Missile Launcher",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Apocalypse Missile Launcher",
+     "alcance": "60cm",
+     "potencia": "3BP, D"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Carapace Landing Pad",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "All weapons with a BP firepower in the formation do not need a line of fire when shooting as part of a sustained fire, advance or double action."
+  },
+  {
+   "nombre": "Carapace Multilasers",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Close Combat Weapon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Close Combat Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+3), TK(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Corvus Assault Pod",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Transport. May transport ten infantry units without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Gatling Blaster",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Gatling Blaster (Mars Pattern)",
+     "alcance": "60cm",
+     "potencia": "6× AP4+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Inferno Gun",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Inferno Gun",
+     "alcance": "30cm",
+     "potencia": "3BP, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Laser Blaster",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Laser Blaster",
+     "alcance": "60cm",
+     "potencia": "6× AP5+/AT3+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Laser Burner",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Laser Burner",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    },
+    {
+     "nombre": "y Laser Burner",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+4)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Magos",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Augmentations",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save, Supreme Commander."
+  },
+  {
+   "nombre": "Melta Cannon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Melta Cannon",
+     "alcance": "30cm",
+     "potencia": "MW2+, TK(D3)"
+    },
+    {
+     "nombre": "y Melta Cannon",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), TK(D6)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Blastgun",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Plasma Blastgun",
+     "alcance": "45cm",
+     "potencia": "2× MW2+, Slw"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Cannon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Plasma Cannon",
+     "alcance": "60cm",
+     "potencia": "3× MW2+, Slw"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Destructor",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Plasma Destructor",
+     "alcance": "75cm",
+     "potencia": "5× MW2+, Slw"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Quake Cannon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "3BP, MW"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Sacred Icon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Inspiring."
+  },
+  {
+   "nombre": "Support Missile",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Barrage Missile",
+     "alcance": "Unlimited",
+     "potencia": "10BP, D, Ind, SS"
+    },
+    {
+     "nombre": "0–1× Deathstrike Missile",
+     "alcance": "Unlimited",
+     "potencia": "MW2+, Ind, SS, TK(D6)"
+    },
+    {
+     "nombre": "0–1× Vortex Missile",
+     "alcance": "Unlimited",
+     "potencia": "3BP, IC, Ind, SS, TK"
+    },
+    {
+     "nombre": "0–1× Warp Missile",
+     "alcance": "Unlimited",
+     "potencia": "MW2+, Ind, SS, TK(D3)"
+    }
+   ],
+   "notas": "Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. A Warp Missile ignores Imperial Void Shields and Power Fields."
+  },
+  {
+   "nombre": "Turbo-Laser Destructor",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Turbo-Laser Destructor",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Veteran Princeps",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Commander, Leader."
+  },
+  {
+   "nombre": "Volcano Cannon",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Volcano Cannon",
+     "alcance": "90cm",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Vulcan Mega-Bolter",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Vulcan Mega-Bolter",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Gun Servitor",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Invulnerable Save."
+  },
+  {
+   "nombre": "Hypaspist",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Praetorian Combat Servitor",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Augmentations",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Invulnerable Save."
+  },
+  {
+   "nombre": "Sagitarii",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Phased Plasma Fusil",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Secutor",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y 2× Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    },
+    {
+     "nombre": "Augmentations",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Commander, Reinforced Armour."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "6+",
+   "cc": "-",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Laser Destroyer",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Crusader Robot",
+   "tipo": "LV",
+   "velocidad": "25cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Multi-melta",
+     "alcance": "15cm",
+     "potencia": "MW5+"
+    },
+    {
+     "nombre": "y Multi-melta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, MW"
+    },
+    {
+     "nombre": "Power Fist",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Automaton, Scout, Walker."
+  },
+  {
+   "nombre": "Chimedon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Conqueror Cannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit without Jump Packs or Mounted, expect for Praetorian Combat Servitor and Rapier units."
+  },
+  {
+   "nombre": "Colossus Robot",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "y 2× Autocannon",
+     "alcance": "30cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Automaton, Walker."
+  },
+  {
+   "nombre": "Hydra",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Twin Hydra Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Imperator Class Titan",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Plasma Annihilator",
+     "alcance": "90cm",
+     "potencia": "4× MW2+, FwA, Slw, TK(D3)"
+    },
+    {
+     "nombre": "Hellstorm Cannon",
+     "alcance": "60cm",
+     "potencia": "10BP, FwA"
+    },
+    {
+     "nombre": "Defense Laser",
+     "alcance": "90cm",
+     "potencia": "MW2+/AA4+, TK(D3)"
+    },
+    {
+     "nombre": "Quake Cannon",
+     "alcance": "90cm",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "4× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Tertitary Arms",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+2)"
+    }
+   ],
+   "notas": "Damage Capacity 12, Fearless, Inspiring, Reinforced Armour, Transport, 8 Void Shields, Walker. May transport ten infantry units without Jump Packs or Mounted. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+  },
+  {
+   "nombre": "Macharius",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Twin Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Damage Capacity 2, Reinforced Armour. Critical Hit Effect: Destroyed."
+  },
+  {
+   "nombre": "Macharius Command",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× 2× Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "0–1× Vulcan Mega-Bolter",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Twin Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Damage Capacity 2, Reinforced Armour. Critical Hit Effect: Destroyed. Armed with either a Vulcan Megabolter or two Vanquisher."
+  },
+  {
+   "nombre": "Ordinatus Majoris",
+   "tipo": "WE",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× Sonic Disruptor",
+     "alcance": "100cm",
+     "potencia": "10BP, FxF, D, IC"
+    },
+    {
+     "nombre": "0–1× Hellfire Missiles",
+     "alcance": "Unlimited",
+     "potencia": "3BP, FxF, Ind, MW, Slw"
+    },
+    {
+     "nombre": "0–1× Nova Cannon",
+     "alcance": "100cm",
+     "potencia": "4× MW3+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    },
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 4, Fearless, Inspiring, Reinforced Armour, 4 Void Shields. Critical Hit Effect: Destroyed. All units within 15cm of the model suffer a hit on a roll of 5+ and all Adeptus Mechanicus formations with a unit with a line of fire to the Ordinatus Majoris receive a Blast marker. Mars Ordinatus are armed with a Sonic Disruptor, Golgotha Ordinatus are armed with Hellfire Missiles (which use the barrage template that is 12cm across), and Armageddon Ordinatus are armed with a Nova Cannon."
+  },
+  {
+   "nombre": "Ordinatus Minorus",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Carapace Weapon Mount",
+     "alcance": "-",
+     "potencia": "FxF, WM"
+    }
+   ],
+   "notas": "Damage Capacity 2, Fearless, Reinforced Armour, 2 Void Shields."
+  }
  ]
 }

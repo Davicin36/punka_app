@@ -368,5 +368,486 @@
     "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Commissar",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Fearless, Inspiring, Leader."
+  },
+  {
+   "nombre": "Commander",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Commander."
+  },
+  {
+   "nombre": "Rapier Laser Destroyer",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "-",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rapier Laser Destroyer",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Rough Riders",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Laspistols",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Power Lances",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), FS"
+    }
+   ],
+   "notas": "Infiltrator, Mounted, Scout."
+  },
+  {
+   "nombre": "Sappers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Flamer",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y Heavy Flamer",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, IC"
+    },
+    {
+     "nombre": "Melta Bombs",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Siege Infantry",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Snipers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sniper Rifles",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Scout, Sniper."
+  },
+  {
+   "nombre": "Supreme Commander",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Power Weapon",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "-",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Blitzen AA Gun",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "-",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Blitzen Cannon",
+     "alcance": "60cm",
+     "potencia": "AP6+/AT5+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Bruenhilde",
+   "tipo": "LV",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "-",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Transport. May transport one of the following units: Blitzen AA Gun, Götterdämmerung Howitzer, Rapier Laser Destroyer, Thudd Gun."
+  },
+  {
+   "nombre": "Götterdämmerung Howitzer",
+   "tipo": "LV",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "-",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Howitzer",
+     "alcance": "90cm",
+     "potencia": "1BP, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Siegfried Light Tank",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Scout."
+  },
+  {
+   "nombre": "Bombard",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Siege Mortar",
+     "alcance": "45cm",
+     "potencia": "2BP, IC, Ind"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Deathstrike",
+   "tipo": "AV",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Deathstrike Missile",
+     "alcance": "Unlimited",
+     "potencia": "MW2+, Ind, SS, TK(D6)"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Griffon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Heavy Mortar",
+     "alcance": "30cm",
+     "potencia": "1BP, Ind"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hellhound",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Inferno Cannon",
+     "alcance": "30cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Ragnarok Heavy Tank",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Ragnarok Battlecannon",
+     "alcance": "60cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Heavy Stubber",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Reinforced Armour, Walker."
+  },
+  {
+   "nombre": "Baneblade",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Baneblade Battle Cannon",
+     "alcance": "75cm",
+     "potencia": "2× AP3+/AT3+"
+    },
+    {
+     "nombre": "Autocannon",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "2× Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "3× Twin Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Reinforced Armour. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Shadowsword",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Volcano Cannon",
+     "alcance": "90cm",
+     "potencia": "MW2+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "2× Heavy Bolter",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Reinforced Armour. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Lascannon",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Bomb Racks",
+     "alcance": "15cm",
+     "potencia": "3BP, FxF"
+    },
+    {
+     "nombre": "2× Twin Heavy Bolter",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderbolt Fighter",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Multilaser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Underwing Rockets",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "Storm Bolters",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "8BP, MW"
+    }
+   ],
+   "notas": "Slow and Steady."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "3BP, MW"
+    },
+    {
+     "nombre": "Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": ""
+  }
  ]
 }

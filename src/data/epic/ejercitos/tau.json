@@ -456,5 +456,551 @@
     "En las formaciones en las que solo algunas unidades tienen retrorreactores tau, las unidades sin ellos no pueden hacer el movimiento adicional."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Ethereal",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Honour Blade",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Invulnerable Save, Leader. All units in a formation joined by an Ethereal gain Fearless. If the Ethereal is killed then all these units lose Fearless and the formation receives an additional D3 Blast markers."
+  },
+  {
+   "nombre": "Shas'el",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [],
+   "notas": "Coordinated Fire, Leader."
+  },
+  {
+   "nombre": "Shas'o",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Experimental Weapons",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Coordinated Fire, Leader. Each Shas’o character in the army allows a player to re-roll one failed initiative test (of any type) once per turn."
+  },
+  {
+   "nombre": "Crisis Battlesuits",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "3+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Twin Plasma Rifles",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Twin Fusion Blasters",
+     "alcance": "15cm",
+     "potencia": "MW4+"
+    }
+   ],
+   "notas": "Invulnerable Save, Tau Jet Packs."
+  },
+  {
+   "nombre": "Fire Warriors",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Pulse Rifles",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "Pulse Carbines",
+     "alcance": "15cm",
+     "potencia": "AP5+, D"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Gun Drones",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Pulse Carbines",
+     "alcance": "15cm",
+     "potencia": "AP4+, D"
+    }
+   ],
+   "notas": "Tau Jet Packs."
+  },
+  {
+   "nombre": "Kroot Hounds",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "-",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Fangs",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Kroot Master Shapers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Kroot Rifles",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    },
+    {
+     "nombre": "Mercenary Weapons",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Infiltrator, Leader, Scout."
+  },
+  {
+   "nombre": "Kroot Warriors",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Kroot Rifles",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Krootox",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Kroot Guns",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Claws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Pathfinders",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rail Rifles",
+     "alcance": "30cm",
+     "potencia": "AP5+, S"
+    },
+    {
+     "nombre": "Pulse Carbines",
+     "alcance": "15cm",
+     "potencia": "AP5+, D"
+    }
+   ],
+   "notas": "Coordinated Fire, Markerlights, Scout."
+  },
+  {
+   "nombre": "Stealth Battlesuits",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Silenced Burst Cannons",
+     "alcance": "15cm",
+     "potencia": "AP4+, D"
+    }
+   ],
+   "notas": "First Strike, Markerlights, Reinforced Armour, Scout, Tau Jet Packs, Teleport."
+  },
+  {
+   "nombre": "Broadside Battlesuit",
+   "tipo": "LV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Railguns",
+     "alcance": "60cm",
+     "potencia": "AT3+"
+    },
+    {
+     "nombre": "Smart Missile System",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    }
+   ],
+   "notas": "Reinforced Armour, Walker."
+  },
+  {
+   "nombre": "Piranha",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Burst Cannon and Drones",
+     "alcance": "15cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Seeker Missiles",
+     "alcance": "90cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "Tetra",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Tetra Pulse Rifles",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Coordinated Fire, Markerlights, Scout, Skimmer."
+  },
+  {
+   "nombre": "Devilfish",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Burst Cannon and Drones",
+     "alcance": "15cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Seeker Missiles",
+     "alcance": "90cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": "Skimmer, Transport. May transport two units of Fire Warriors or Pathfinders."
+  },
+  {
+   "nombre": "Hammerhead",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Smart Missile System",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    },
+    {
+     "nombre": "Seeker Missiles",
+     "alcance": "90cm",
+     "potencia": "AT6+, GM"
+    },
+    {
+     "nombre": "0–1× Railgun",
+     "alcance": "75cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "y 0–1× Railgun",
+     "alcance": "75cm",
+     "potencia": "AT4+, L"
+    },
+    {
+     "nombre": "0–1× Ion Cannon",
+     "alcance": "60cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "0–1× Twin Fusion Cannon",
+     "alcance": "30cm",
+     "potencia": "MW4+"
+    }
+   ],
+   "notas": "Skimmer. Armed with either a Railgun, Ion Cannon or Twin Fusion Cannon."
+  },
+  {
+   "nombre": "Skyray",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Smart Missile System",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    },
+    {
+     "nombre": "2× Hunter Missiles",
+     "alcance": "60cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "2× Seeker Missiles",
+     "alcance": "90cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": "Markerlights, Skimmer."
+  },
+  {
+   "nombre": "Barracuda",
+   "tipo": "AC",
+   "velocidad": "Fighter",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Ion Cannon",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+/AA5+, FxF"
+    },
+    {
+     "nombre": "Twin Burst Cannon",
+     "alcance": "15cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Twin Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Manta",
+   "tipo": "WE",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "-",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Twin Heavy Rail Cannons",
+     "alcance": "90cm",
+     "potencia": "MW2+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "3× Heavy Ion Phalanx",
+     "alcance": "75cm",
+     "potencia": "AP3+/AT4+, FxF"
+    },
+    {
+     "nombre": "4× Twin Manta Burst Cannons",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    },
+    {
+     "nombre": "Twin Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    },
+    {
+     "nombre": "2× Seeker Missiles",
+     "alcance": "90cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": "Damage Capacity 8, Deflector Shield, Fearless, Markerlights, Planetfall, Reinforced Armour, Support Craft, Transport. May transport 20 infantry units or Broadside Battlesuits; plus four armoured vehicle or light vehicle units (except Broadside Battlesuits); Tetra count as one-third of a unit each, rounding up. Crisis Battlesuits count as two units each. Critical Hit Effect: The unit looses Tau deflector shield. Subsequent critical hits cause an extra point of damage."
+  },
+  {
+   "nombre": "Orca",
+   "tipo": "AC/WE",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Twin Burst Cannon",
+     "alcance": "15cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Twin Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Aircraft Seeker Missiles",
+     "alcance": "45cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": "Damage Capacity 2, Planetfall, Transport. May transport twelve infantry units (except Krootox) or Broadside Battlesuits; Crisis Battlesuits count as two units each. Critical Hit Effect: The unit and all units on board are destroyed."
+  },
+  {
+   "nombre": "Tiger Shark",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Ion Cannon",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Twin Burst Cannon",
+     "alcance": "15cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Twin Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    }
+   ],
+   "notas": "Transport. May transport three units of Gun Drones."
+  },
+  {
+   "nombre": "Tiger Shark AX-1-0",
+   "tipo": "AC",
+   "velocidad": "Bomber",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Twin Rail Cannons",
+     "alcance": "45cm",
+     "potencia": "MW3+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "Twin Burst Cannon",
+     "alcance": "15cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Twin Missile Pods",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    },
+    {
+     "nombre": "Aircraft Seeker Missiles",
+     "alcance": "45cm",
+     "potencia": "AT6+, GM"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Custodian Class Battleship",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Gravitic Tracer Salvo",
+     "alcance": "n/a",
+     "potencia": "3× MW4+, GM, IC"
+    },
+    {
+     "nombre": "Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Transport. May transport 18 of the following units and the units being transported on them: Orca, Manta; Mantas count as thee units each. The Gravitic Tracer Salvo may be fired at a marked formation of any type."
+  },
+  {
+   "nombre": "Protector Class Cruiser",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Pin-Point Attack",
+     "alcance": "n/a",
+     "potencia": "MW2+, TK(D3)"
+    }
+   ],
+   "notas": "Transport. May transport six of the following units and the units being transported on them: Orca, Manta; Mantas count as thee units each."
+  }
  ]
 }

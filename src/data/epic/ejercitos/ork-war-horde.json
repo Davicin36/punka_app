@@ -469,5 +469,549 @@
     "Algunos ingenios de guerra orkos están protegidos por baterías de campos de energía. El número que tiene cada ingenio figura en su hoja de datos. Los campos de energía funcionan exactamente igual que los Escudos de Vacío Imperiales (véase 5.4.1), con la única excepción de que no pueden repararse una vez derribados por un impacto, y permanecen caídos el resto de la batalla."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Oddboy",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Supa-Zzap-Gun",
+     "alcance": "60cm",
+     "potencia": "MW3+, TK(D3)"
+    },
+    {
+     "nombre": "0–1× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2BP, MW"
+    }
+   ],
+   "notas": "Replace one Big Gun weapon with either a Supa-Zzap-Gun or a Soopagun, alternatively the unit may be given D3 Power Fields."
+  },
+  {
+   "nombre": "Warlord",
+   "tipo": "CH",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Big Choppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Supreme Commander."
+  },
+  {
+   "nombre": "Big Gunz",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Boyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Grotz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Expendable. Formations that include at least one Ork unit don’t count Grot units that are lost in an assault when working out who has won the combat."
+  },
+  {
+   "nombre": "Kommandos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": "Infiltrator, Scout."
+  },
+  {
+   "nombre": "Nobz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Big Choppas",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Leader."
+  },
+  {
+   "nombre": "Stormboyz",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs, Scout."
+  },
+  {
+   "nombre": "Warbikes",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Twin Sawn-Off Big Shoota",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Mounted."
+  },
+  {
+   "nombre": "Deth Kopta",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "Skorcha",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Skorcha",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Warbuggy",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Battlewagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units without Jump Packs or Mounted; only one of the two units may be a Big Gunz; plus one unit of Grotz."
+  },
+  {
+   "nombre": "Dreadnought",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Kombat Klaws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Flakwagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Flak Gun",
+     "alcance": "30cm",
+     "potencia": "2× AP6+/AT6+/AA6+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Gunwagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Killa Kan",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Kombat Klaws",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Walker."
+  },
+  {
+   "nombre": "Stompa",
+   "tipo": "AV",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2–3× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "0–1× Kombat 'Ammer",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "y 0–1× Kombat 'Ammer",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Reinforced Armour, Walker. Armed with either three Big Guns, or two Big Guns and a kombat ‘ammer."
+  },
+  {
+   "nombre": "Battlefortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "4× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport eight infantry units without Jump Packs or Mounted; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Gargant",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Gaze of Mork",
+     "alcance": "30cm",
+     "potencia": "MW4+, TK"
+    },
+    {
+     "nombre": "2–3× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2BP, FxF, MW"
+    },
+    {
+     "nombre": "0–1× Supa-Zzap-Gun",
+     "alcance": "60cm",
+     "potencia": "MW3+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "0–1× Mega-Choppa",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+, FxF"
+    },
+    {
+     "nombre": "y 0–1× Mega-Choppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 8, Fearless, D3+3 Power Fields, Reinforced Armour, Walker. Armed with either three Soopaguns, or two Soopaguns and one of the following: MegaChoppa, Supa-Zzap-Gun. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5–6 the fire is put out. Any fires not put out cause one point of damage."
+  },
+  {
+   "nombre": "Great Gargant",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Gaze of Mork",
+     "alcance": "30cm",
+     "potencia": "MW4+, TK"
+    },
+    {
+     "nombre": "2× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Soopagun",
+     "alcance": "60cm",
+     "potencia": "2BP, FxF, MW"
+    },
+    {
+     "nombre": "1–2× Twin Soopagun",
+     "alcance": "60cm",
+     "potencia": "3BP, FxF, MW"
+    },
+    {
+     "nombre": "0–1× Lifta-Droppa",
+     "alcance": "60cm",
+     "potencia": "MW3+, FxF, TK(D3)"
+    },
+    {
+     "nombre": "y 0–1× Lifta-Droppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 12, Fearless, D6+6 Power Fields, Reinforced Armour, Walker. Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5–6 the fire is put out. Any fires not put out cause one point of damage."
+  },
+  {
+   "nombre": "Gunfortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "5× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "3× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport four infantry units without Jump Packs or Mounted; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Supa-Stompa",
+   "tipo": "WE",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Gaze of Mork",
+     "alcance": "30cm",
+     "potencia": "MW4+, TK"
+    },
+    {
+     "nombre": "2–3× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2BP, FxF, MW"
+    },
+    {
+     "nombre": "0–1× Mega-Choppa",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+, FxF"
+    },
+    {
+     "nombre": "y 0–1× Mega-Choppa",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+    }
+   ],
+   "notas": "Damage Capacity 4, Fearless, D3 Power Fields, Reinforced Armour, Walker. Armed with either three Soopaguns, or two Soopaguns and a Mega-Choppa. Critical Hit Effect: The unit suffers a -1 to hit modifier for the rest of the game. Subsequent critical hits cause an extra point of damage."
+  },
+  {
+   "nombre": "Fighta Bommer",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Heavy Shootas",
+     "alcance": "15cm",
+     "potencia": "AP5+/AA5+"
+    },
+    {
+     "nombre": "Tankbusta Rokkits",
+     "alcance": "30cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Landa",
+   "tipo": "AC/WE",
+   "velocidad": "Bomber",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Gun Turrets",
+     "alcance": "15cm",
+     "potencia": "D6+3× AP5+/AA6+"
+    },
+    {
+     "nombre": "2× Tankbusta Rokkits",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "Damage Capacity 3, Planetfall, Reinforced Armour, Transport. May transport ten infantry units (except Big Gunz), light vehicle units, Killa Kans or Dreadnoughts; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+  },
+  {
+   "nombre": "Battlekroozer",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "D6+3BP, MW"
+    }
+   ],
+   "notas": "Slow and Steady, Transport. May transport twelve Landas and the units being carried on them."
+  },
+  {
+   "nombre": "Kill Kroozer",
+   "tipo": "SC",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Orbital Bombardment",
+     "alcance": "n/a",
+     "potencia": "D6+1BP, MW"
+    }
+   ],
+   "notas": ""
+  }
  ]
 }

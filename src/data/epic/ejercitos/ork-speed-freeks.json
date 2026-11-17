@@ -362,5 +362,356 @@
     "y reciben un +2 a su chequeo de acción al intentar realizar acciones de Interceptación o Ataque a Tierra (véase 4.2)."
    ]
   }
+ ],
+ "fichas": [
+  {
+   "nombre": "Big Gunz",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Boyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Mekboy Bad Ork Bikerboy",
+   "tipo": "INF",
+   "velocidad": "40cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sawn-Off Custom Blasta",
+     "alcance": "15cm",
+     "potencia": "MW5+, MW"
+    },
+    {
+     "nombre": "y Sawn-Off Custom Blasta",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms, EA(+1), MW"
+    },
+    {
+     "nombre": "Choppa Blades",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1), MW"
+    }
+   ],
+   "notas": "Invulnerable Save, Mounted, Supreme Commander."
+  },
+  {
+   "nombre": "Nob Warbikes",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Big Choppas",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Leader, Mounted."
+  },
+  {
+   "nombre": "Nobz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Big Choppas",
+     "alcance": "(bc)",
+     "potencia": "Assault Weapons, EA(+1)"
+    }
+   ],
+   "notas": "Leader."
+  },
+  {
+   "nombre": "Stormboyz",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Shootas",
+     "alcance": "(15cm)",
+     "potencia": "Small Arms"
+    }
+   ],
+   "notas": "Jump Packs, Scout."
+  },
+  {
+   "nombre": "Warbikes",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Twin Sawn-Off Big Shoota",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Mounted."
+  },
+  {
+   "nombre": "Deth Kopta",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Skimmer."
+  },
+  {
+   "nombre": "Guntrukk",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Skorcha",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Skorcha",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Trukk",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "-",
+   "armas": [],
+   "notas": "Transport. May transport one infantry units without Jump Packs or Mounted. With the exception of Big Gunz, transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support."
+  },
+  {
+   "nombre": "Warbuggy",
+   "tipo": "LV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Battlewagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Transport. May transport two infantry units without Jump Packs or Mounted; only one of the two units may be a Big Gunz; plus one unit of Grotz."
+  },
+  {
+   "nombre": "Flakwagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Flak Gun",
+     "alcance": "30cm",
+     "potencia": "2× AP6+/AT6+/AA6+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Gunwagon",
+   "tipo": "AV",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Transport. May transport one infantry unit without Jump Packs or Mounted."
+  },
+  {
+   "nombre": "Mekboy Speedsta",
+   "tipo": "AV",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Kustom Kannon",
+     "alcance": "45cm",
+     "potencia": "MW4+"
+    }
+   ],
+   "notas": "D3 Power Fields."
+  },
+  {
+   "nombre": "Battlefortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "4× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport eight infantry units without Jump Packs or Mounted; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Gunfortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "5× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "3× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport four infantry units without Jump Packs or Mounted; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Fighta Bommer",
+   "tipo": "AC",
+   "velocidad": "Fighter-Bomber",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Heavy Shootas",
+     "alcance": "15cm",
+     "potencia": "AP5+/AA5+"
+    },
+    {
+     "nombre": "Tankbusta Rokkits",
+     "alcance": "30cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Landa",
+   "tipo": "AC/",
+   "velocidad": "Bomber",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Gun Turrets",
+     "alcance": "15cm",
+     "potencia": "D6+3× AP5+/AA6+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Planetfall, Reinforced Armour, Transport. May transport"
+  }
  ]
 }
