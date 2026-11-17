@@ -242,8 +242,8 @@
      "textoEs": "Añade un personaje Aspirante por +25 puntos"
     }
    ],
-   "nombreEs": "Pelotón de Jinetes Rudos",
-   "unidadesEs": "Seis Jinetes Rudos"
+   "nombreEs": "Pelotón de Rough Riders",
+   "unidadesEs": "Seis Rough Riders"
   },
   {
    "id": "imperial-navy-aircraft-marauder-squadron",
@@ -439,7 +439,6 @@
   },
   {
    "nombre": "Rough Riders",
-   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",

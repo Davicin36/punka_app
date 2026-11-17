@@ -442,7 +442,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Atronadores"
+   "nombreEs": "Thunderers"
   },
   {
    "id": "leman-russ-rare-variants-destroyer-tank-hunter",
@@ -1022,7 +1022,6 @@
   },
   {
    "nombre": "Thunderer",
-   "nombreEs": "Tronador",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",

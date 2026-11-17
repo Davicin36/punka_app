@@ -167,8 +167,8 @@
      "textoEs": "Añade como máximo un Hearthguard por +50 puntos"
     }
    ],
-   "nombreEs": "Tronadores",
-   "unidadesEs": "Cinco Tronadores"
+   "nombreEs": "Thunderers",
+   "unidadesEs": "Cinco Thunderers"
   },
   {
    "id": "brotherhoods-warrior",
@@ -683,7 +683,6 @@
   },
   {
    "nombre": "Thunderers",
-   "nombreEs": "Tronadores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -1021,7 +1020,7 @@
      "potencia": "AP3+/AT4+, FxF, IC"
     },
     {
-     "nombre": "Tronador 4× Misil de plasma",
+     "nombre": "Thunderer 4× Misil de plasma",
      "alcance": "45cm",
      "potencia": "2PA, Fro, Ind, DU"
     }

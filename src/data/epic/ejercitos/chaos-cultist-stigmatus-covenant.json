@@ -278,8 +278,8 @@
    "unidades": "Six Rough Rider units",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón de Jinetes Rudos",
-   "unidadesEs": "Seis unidades de Jinetes Rudos"
+   "nombreEs": "Pelotón de Rough Riders",
+   "unidadesEs": "Seis unidades de Rough Riders"
   },
   {
    "id": "traitor-support-sentinel-squadron",
@@ -870,7 +870,6 @@
   },
   {
    "nombre": "Rough Riders",
-   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",

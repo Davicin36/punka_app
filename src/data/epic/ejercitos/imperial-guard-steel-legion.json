@@ -159,8 +159,8 @@
    "unidades": "Six Rough Riders",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón de Jinetes Rudos",
-   "unidadesEs": "Seis Jinetes Rudos"
+   "nombreEs": "Pelotón de Rough Riders",
+   "unidadesEs": "Seis Rough Riders"
   },
   {
    "id": "steel-legion-support-formations-sentinel-squadron",
@@ -504,7 +504,6 @@
   },
   {
    "nombre": "Rough Riders",
-   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",

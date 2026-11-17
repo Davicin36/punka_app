@@ -202,8 +202,8 @@
    "mejoras": [
     "Commissar"
    ],
-   "nombreEs": "Jinetes Rudos",
-   "unidadesEs": "Seis Jinetes Rudos"
+   "nombreEs": "Rough Riders",
+   "unidadesEs": "Seis Rough Riders"
   },
   {
    "id": "inducted-imperial-guard-and-inquisitorial-support-formations-sentinel",
@@ -802,7 +802,6 @@
   },
   {
    "nombre": "Rough Riders",
-   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",
