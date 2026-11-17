@@ -417,7 +417,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Atronadores"
+   "nombreEs": "Thunderers"
   }
  ],
  "fraccionAliados": 0.3333333333333333,
@@ -914,7 +914,6 @@
   },
   {
    "nombre": "Thunderer",
-   "nombreEs": "Tronador",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
