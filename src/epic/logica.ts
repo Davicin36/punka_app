@@ -26,12 +26,37 @@ export const formacionDe = (e: EjercitoEpic, id: string) => idx(e).f.get(id);
 export const mejoraDe = (e: EjercitoEpic, nombre: string) => idx(e).m.get(nombre);
 export const seccionDe = (e: EjercitoEpic, id: string) => idx(e).s.get(id);
 
-export function costeMejora(m: MejoraEpic, cantidad: number, variante = 0): number {
+/** Coste de n unidades a precio por parejas: cada dos van al precio de pareja y la suelta al de una. */
+export const costeParejas = (cada: number, pareja: number, n: number) => Math.floor(n / 2) * pareja + (n % 2) * cada;
+
+/**
+ * Coste de una mejora. `aparte` son las unidades escogidas que tienen precio propio
+ * (p. ej. Land Raider Helios de los Vástagos del Hierro), que no entran en las parejas.
+ */
+export function costeMejora(m: MejoraEpic, cantidad: number, variante = 0, aparte: Record<string, number> = {}): number {
   if (!cantidad) return 0;
+  if (m.parejas) {
+    let sueltas = 0, coste = 0;
+    for (const [u, precio] of Object.entries(m.parejas.aparte ?? {})) {
+      const k = Math.min(aparte[u] ?? 0, cantidad - sueltas);
+      sueltas += k; coste += k * precio;
+    }
+    return coste + costeParejas(m.parejas.cada, m.parejas.pareja, cantidad - sueltas);
+  }
   const v = m.variantes?.[variante];
   const coste = v ? v.coste : m.coste;
   const porUnidad = v ? v.porUnidad : m.porUnidad;
   return porUnidad ? coste * cantidad : coste;
+}
+
+/** Unidades escogidas en los repartos de una mejora (suma de sus grupos). */
+export function repartoDeMejora(fe: FormacionElegida, nombre: string): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const [clave, r] of Object.entries(fe.reparto ?? {})) {
+    if (!clave.startsWith(`m:${nombre}.`)) continue;
+    for (const [u, n] of Object.entries(r)) out[u] = (out[u] ?? 0) + n;
+  }
+  return out;
 }
 
 export function costeFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
@@ -41,7 +66,7 @@ export function costeFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
   (f.extras ?? []).forEach((x, i) => { const n = fe.extras[i] ?? 0; if (n) c += x.coste * (x.porUnidad ? n : 1); });
   for (const [nombre, n] of Object.entries(fe.mejoras)) {
     const m = mejoraDe(e, nombre);
-    if (m) c += costeMejora(m, n, fe.variantes[nombre]);
+    if (m) c += costeMejora(m, n, fe.variantes[nombre], repartoDeMejora(fe, nombre));
   }
   return c + costeVariantes(e, fe);
 }

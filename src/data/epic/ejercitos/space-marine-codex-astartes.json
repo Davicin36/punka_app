@@ -374,21 +374,11 @@
    "costeTexto": "+75 points each +125 points per pair",
    "porUnidad": true,
    "max": 4,
-   "variantes": [
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points each",
-     "textoEs": "+75 puntos cada uno"
-    },
-    {
-     "coste": 125,
-     "porUnidad": true,
-     "texto": "+125 points per pair",
-     "textoEs": "+125 puntos por pareja"
-    }
-   ],
-   "textoEs": "Añade hasta cuatro Land Raiders"
+   "textoEs": "Añade hasta cuatro Land Raiders",
+   "parejas": {
+    "cada": 75,
+    "pareja": 125
+   }
   },
   {
    "id": "razorbacks",
@@ -433,21 +423,11 @@
    "costeTexto": "+50 points each +75 points per pair",
    "porUnidad": true,
    "max": 2,
-   "variantes": [
-    {
-     "coste": 50,
-     "porUnidad": true,
-     "texto": "+50 points each",
-     "textoEs": "+50 puntos cada uno"
-    },
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points per pair",
-     "textoEs": "+75 puntos por pareja"
-    }
-   ],
-   "textoEs": "Añade hasta dos Vindicators"
+   "textoEs": "Añade hasta dos Vindicators",
+   "parejas": {
+    "cada": 50,
+    "pareja": 75
+   }
   }
  ],
  "compras": [],

@@ -54,6 +54,8 @@ export interface FormacionEpic {
 export interface MejoraEpic {
   id: string;
   nombre: string;
+  /** Precio por parejas que la app aplica sola: +cada c/u o +pareja por cada dos (y unidades con precio aparte) */
+  parejas?: { cada: number; pareja: number; aparte?: Record<string, number> };
   nombreEs?: string;
   seccion: string;
   texto: string;

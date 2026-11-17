@@ -360,21 +360,11 @@
    "costeTexto": "+50 points each +75 points per pair",
    "porUnidad": true,
    "max": 2,
-   "variantes": [
-    {
-     "coste": 50,
-     "porUnidad": true,
-     "texto": "+50 points each",
-     "textoEs": "+50 puntos cada uno"
-    },
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points per pair",
-     "textoEs": "+75 puntos por pareja"
-    }
-   ],
-   "textoEs": "Añade hasta dos Vindicators de las Cicatrices Blancas"
+   "textoEs": "Añade hasta dos Vindicators de las Cicatrices Blancas",
+   "parejas": {
+    "cada": 50,
+    "pareja": 75
+   }
   }
  ],
  "compras": [],
