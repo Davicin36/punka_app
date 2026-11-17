@@ -1,0 +1,485 @@
+{
+ "id": "imperial-guard-death-korps-of-krieg",
+ "nombre": "Imperial Guard – Death Korps of Krieg",
+ "version": "2026-02-05",
+ "estrategia": 2,
+ "iniciativa": "Titan Legion battlegroup formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "death-korps-of-krieg-companies",
+   "nombre": "Death Korps Of Krieg Companies",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Compañías del Cuerpo de la Muerte de Krieg"
+  },
+  {
+   "id": "death-korps-of-krieg-company-upgrades",
+   "nombre": "Death Korps Of Krieg Company Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to three company upgrades may be taken once per company.",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nombreEs": "Mejoras de compañía del Cuerpo de la Muerte de Krieg",
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations",
+   "nombre": "Death Korps Of Krieg Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two support formations may be fielded per each company.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "company"
+   },
+   "nombreEs": "Formaciones de apoyo del Cuerpo de la Muerte de Krieg",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+  },
+  {
+   "id": "leman-russ-variants",
+   "nombre": "Leman Russ Variants",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Variantes de Leman Russ"
+  },
+  {
+   "id": "death-korps-of-krieg-fortified-positions",
+   "nombre": "Death Korps Of Krieg Fortified Positions",
+   "tipo": "apoyo",
+   "nota": "One may be fielded per each each Regimental HQ or Infantry Company.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "Regimental HQ"
+   },
+   "nombreEs": "Posiciones fortificadas del Cuerpo de la Muerte de Krieg",
+   "notaEs": "Se puede desplegar una por cada Regimental HQ o Infantry Company."
+  },
+  {
+   "id": "imperial-navy-aircraft",
+   "nombre": "Imperial Navy Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de la Armada Imperial"
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "death-korps-of-krieg-companies-death-rider-company-per-1500-points",
+   "nombre": "Death Rider Company per 1500 points",
+   "seccion": "death-korps-of-krieg-companies",
+   "unidades": "Twelve Death Riders",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "max": 1,
+   "nombreEs": "Compañía de Death Riders por cada 1500 puntos",
+   "unidadesEs": "Doce Death Riders"
+  },
+  {
+   "id": "death-korps-of-krieg-companies-infantry-company",
+   "nombre": "Infantry Company",
+   "seccion": "death-korps-of-krieg-companies",
+   "unidades": "One Commander unit and nineteen Infantry units",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Compañía de infantería",
+   "unidadesEs": "Una unidad de Commander y diecinueve de infantería"
+  },
+  {
+   "id": "death-korps-of-krieg-companies-regimental-hq",
+   "nombre": "Regimental HQ",
+   "seccion": "death-korps-of-krieg-companies",
+   "unidades": "One Supreme Commander unit and nineteen Infantry units",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "max": 1,
+   "nombreEs": "Cuartel general regimental",
+   "unidadesEs": "Una unidad de Supreme Commander y diecinueve de infantería"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-artillery-support-company",
+   "nombre": "Artillery Support Company",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Nine Earthshaker Platforms and nine of the following: Gun Emplacements, Trojans",
+   "coste": 600,
+   "costeTexto": "600 points",
+   "nombreEs": "Compañía de apoyo de artillería",
+   "unidadesEs": "Nueve Earthshaker Platforms y nueve de estas: Gun Emplacements, Trojans"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-deathstrike-silo",
+   "nombre": "Deathstrike Silo",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "One Deathstrike Silo",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "max": 1,
+   "nombreEs": "Silo Deathstrike",
+   "unidadesEs": "Un Deathstrike Silo"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-death-rider-scout-platoon",
+   "nombre": "Death Rider Scout Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Six Death Riders Note: All units in the formation have Scout",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Pelotón explorador de Death Riders",
+   "unidadesEs": "Seis Death Riders. Nota: todas las unidades de la formación tienen Scout"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-engineers-platoon",
+   "nombre": "Engineers Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Eight Engineers and a Hades Breaching Drill",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Pelotón de ingenieros",
+   "unidadesEs": "Ocho Engineers y un Hades Breaching Drill"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-grenadiers-platoon",
+   "nombre": "Grenadiers Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Eight Grenadiers (add one Gorgon or eight Centaurs) Note: When a Gorgon is added all units in the formation lose Scout",
+   "coste": 225,
+   "costeTexto": "225 points (+75 points)",
+   "extras": [
+    {
+     "texto": "Add one Gorgon or eight Centaurs",
+     "coste": 75,
+     "textoEs": "Añade un Gorgon u ocho Centaurs"
+    }
+   ],
+   "nombreEs": "Pelotón de granaderos",
+   "unidadesEs": "Ocho Grenadiers (añade un Gorgon u ocho Centaurs). Nota: al añadir un Gorgon, todas las unidades de la formación pierden Scout"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-heavy-support-battery",
+   "nombre": "Heavy Support Battery",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Three Gun Emplacements and one of the Any three of the following: Heavy AA Platform, Hydra Platform following options: Three Earthshaker Platforms Three Medusa Platforms (replace three Gun Emplacements with three Trojans)",
+   "coste": 125,
+   "costeTexto": "+125 points +200 points +275 points (+25 points)",
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 125
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 200
+    },
+    {
+     "nombre": "Opción 3",
+     "coste": 275
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Replace three Gun Emplacements with three Trojans",
+     "coste": 25,
+     "textoEs": "Sustituye tres Gun Emplacements por tres Trojans"
+    }
+   ],
+   "nombreEs": "Batería de apoyo pesado",
+   "unidadesEs": "Tres Gun Emplacements y una de estas opciones: tres cualesquiera de Heavy AA Platform o Hydra Platform; tres Earthshaker Platforms; tres Medusa Platforms (sustituye tres Gun Emplacements por tres Trojans)"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-heavy-tank-platoon",
+   "nombre": "Heavy Tank Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "One Macharius Command and two Macharius",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "nombreEs": "Pelotón de tanques pesados",
+   "unidadesEs": "Un Macharius Command y dos Macharius"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-light-support-battery",
+   "nombre": "Light Support Battery",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Four Heavy Mortars or Quad Launchers, and either four Centaurs or 20cm of Trenches",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Batería de apoyo ligero",
+   "unidadesEs": "Cuatro Heavy Mortars o Quad Launchers, y además cuatro Centaurs o 20 cm de trincheras"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-self-propelled-heavy-support",
+   "nombre": "Self-Propelled Heavy Support",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Three Bombards",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Apoyo pesado autopropulsado",
+   "unidadesEs": "Tres Bombards"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-super-heavy-tank-platoon",
+   "nombre": "Super-Heavy Tank Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "One Baneblade, Shadowsword, Stormblade or Stormsword",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Pelotón de tanques superpesados",
+   "unidadesEs": "Un Baneblade, Shadowsword, Stormblade o Stormsword"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-super-heavy-tank-support-company",
+   "nombre": "Super-Heavy Tank Support Company",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Any three of the following units: Baneblade, Shadowsword, Stormblade, Stormsword",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Compañía de apoyo de tanques superpesados",
+   "unidadesEs": "Tres cualesquiera de estas unidades: Baneblade, Shadowsword, Stormblade, Stormsword"
+  },
+  {
+   "id": "death-korps-of-krieg-support-formations-tank-platoon",
+   "nombre": "Tank Platoon",
+   "seccion": "death-korps-of-krieg-support-formations",
+   "unidades": "Add any six Leman Russ variants, up to one of which may be a Leman Russ Vanquisher",
+   "coste": 280,
+   "costeTexto": "280 points",
+   "nombreEs": "Pelotón de tanques",
+   "unidadesEs": "Añade seis variantes de Leman Russ cualesquiera, de las que como máximo una puede ser un Leman Russ Vanquisher"
+  },
+  {
+   "id": "death-korps-of-krieg-fortified-positions-trenchworks",
+   "nombre": "Trenchworks",
+   "seccion": "death-korps-of-krieg-fortified-positions",
+   "unidades": "Four Bunkers and 80cm of Trenches",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Trincheras",
+   "unidadesEs": "Cuatro Bunkers y 80 cm de trincheras"
+  },
+  {
+   "id": "imperial-navy-aircraft-heavy-marauder",
+   "nombre": "Heavy Marauder",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "One Marauder Heavy Bomber",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Marauder pesado",
+   "unidadesEs": "Un Marauder Heavy Bomber"
+  },
+  {
+   "id": "imperial-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "titan-legion-battlegroups-reaver",
+   "nombre": "Reaver",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Reaver Class Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Reaver Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound-pack",
+   "nombre": "Warhound Pack",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "Two Warhound Class Titans",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Manada de Warhounds",
+   "unidadesEs": "Dos Warhound Class Titans"
+  },
+  {
+   "id": "titan-legion-battlegroups-warlord",
+   "nombre": "Warlord",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warlord Class Titan",
+   "coste": 825,
+   "costeTexto": "825 points",
+   "unidadesEs": "Un Warlord Class Titan"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "fire-support-battery",
+   "nombre": "Fire Support Battery",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add four Fire Support units",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Batería de apoyo de fuego",
+   "textoEs": "Añade cuatro unidades de Fire Support"
+  },
+  {
+   "id": "gorgon-siege-transporters",
+   "nombre": "Gorgon Siege Transporters",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add two Gorgons (may not be added to a Death Rider Company) (add one Gorgon Mortars character to each Gorgon)",
+   "coste": 200,
+   "costeTexto": "+200 points (+25 points)",
+   "variantes": [
+    {
+     "coste": 200,
+     "porUnidad": false,
+     "texto": "+200 points",
+     "textoEs": "+200 puntos"
+    },
+    {
+     "coste": 25,
+     "porUnidad": false,
+     "texto": "(+25 points)",
+     "textoEs": "(+25 puntos)"
+    }
+   ],
+   "nombreEs": "Transportes de asedio Gorgon",
+   "textoEs": "Añade dos Gorgons (no en una Death Rider Company) (añade un personaje Gorgon Mortars a cada Gorgon)"
+  },
+  {
+   "id": "heavy-tank",
+   "nombre": "Heavy Tank",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add one Macharius",
+   "coste": 125,
+   "costeTexto": "+125 points",
+   "nombreEs": "Tanque pesado",
+   "textoEs": "Añade un Macharius"
+  },
+  {
+   "id": "hellhound-squadron",
+   "nombre": "Hellhound Squadron",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add three Hellhounds",
+   "coste": 100,
+   "costeTexto": "+100 points",
+   "nombreEs": "Escuadrón de Hellhounds",
+   "textoEs": "Añade tres Hellhounds"
+  },
+  {
+   "id": "infantry-platoon",
+   "nombre": "Infantry Platoon",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add ten Infantry units",
+   "coste": 175,
+   "costeTexto": "+175 points",
+   "nombreEs": "Pelotón de infantería",
+   "textoEs": "Añade diez unidades de infantería"
+  },
+  {
+   "id": "tank-squadron",
+   "nombre": "Tank Squadron",
+   "seccion": "death-korps-of-krieg-company-upgrades",
+   "texto": "Add any three Leman Russ variants, none of which may be a Leman Russ Vanquisher",
+   "coste": 140,
+   "costeTexto": "+140 points",
+   "nombreEs": "Escuadrón de tanques",
+   "textoEs": "Añade tres variantes de Leman Russ cualesquiera, ninguna de ellas Leman Russ Vanquisher"
+  }
+ ],
+ "compras": [
+  {
+   "id": "leman-russ-variants-leman-russ",
+   "nombre": "Leman Russ",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points"
+  },
+  {
+   "id": "leman-russ-variants-leman-russ-demolisher",
+   "nombre": "Leman Russ Demolisher",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points"
+  },
+  {
+   "id": "leman-russ-variants-leman-russ-vanquisher",
+   "nombre": "Leman Russ Vanquisher",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "leman-russ-variants-thunderer",
+   "nombre": "Thunderer",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 0,
+   "costeTexto": "Free",
+   "nombreEs": "Atronadores"
+  }
+ ],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Guardia Imperial – Cuerpo de la Muerte de Krieg",
+ "iniciativaEs": "Las formaciones de grupos de batalla de la Legio Titanicus tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.16",
+   "titulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.16, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio de la Korps de la Muerte de Krieg. Las formaciones de la Korps de la Muerte de Krieg son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Obras de Trincheras. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Puede desplegarse como máximo una Compañía de Jinetes de la Muerte por cada 1.500 puntos completos del ejército.",
+    "Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía.",
+    "Los pelotones y escuadrones de tanques pueden estar compuestos por distintas variantes de Leman Russ. El número de variantes, junto con el número máximo de variantes raras, figura en la columna «unidades». Las variantes se enumeran en las tablas de variantes y variantes raras de Leman Russ. Cada variante adquirida se suma al coste de la formación o mejora. Los ejércitos de la Korps de la Muerte de Krieg pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Las reglas de Comisarios y de Posiciones Fortificadas se aplican a los ejércitos de la Korps de la Muerte de Krieg (véanse 6.4.1 y 6.7.2)."
+   ]
+  },
+  {
+   "id": "5.16.1",
+   "titulo": "Posiciones Fortificadas de la Korps",
+   "parrafos": [
+    "de la Muerte de Krieg",
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Tabla de efectos de las obras de trincheras Terreno",
+    "Infantería",
+    "Vehículo",
+    "Ingenio de Guerra",
+    "Búnker",
+    "Salv. cobertura 3+",
+    "Peligroso",
+    "Peligroso",
+    "Emplazamiento de Armas",
+    "Salv. cobertura 4+",
+    "Salv. cobertura 5+",
+    "Sin efecto",
+    "Trinchera",
+    "Salv. cobertura 4+",
+    "Peligroso",
+    "Sin efecto"
+   ]
+  },
+  {
+   "id": "5.4.1",
+   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "parrafos": [
+    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
+    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "FAQ",
+    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "R: No.",
+    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
+    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "R: Sí.",
+    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
+    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "R: No."
+   ]
+  }
+ ]
+}

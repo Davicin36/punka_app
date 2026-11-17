@@ -1,0 +1,563 @@
+{
+ "id": "chaos-cultist-stigmatus-covenant",
+ "nombre": "Chaos Cultist – Stigmatus Covenant",
+ "version": "2026-07-16",
+ "estrategia": 2,
+ "iniciativa": "All formations have an initiative rating of 3+ but receive a modifier depending on the proximity of other formations (see Factions).",
+ "secciones": [
+  {
+   "id": "stigmatus-covenant-covens",
+   "nombre": "Stigmatus Covenant Covens",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Aquelarres del Pacto Stigmatus"
+  },
+  {
+   "id": "stigmatus-covenant-upgrades",
+   "nombre": "Stigmatus Covenant Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per coven.",
+   "unaVez": true,
+   "nombreEs": "Mejoras del Pacto Stigmatus",
+   "notaEs": "Cada mejora puede tomarse una vez por aquelarre."
+  },
+  {
+   "id": "daemon-engine",
+   "nombre": "Daemon Engine",
+   "tipo": "apoyo",
+   "nota": "Daemon Engine formations must owe allegiance to Chaos Undivided or the same chaos god as this coven. Any one support coven may be fielded per each coven.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "coven"
+   },
+   "grupo": "support-covens",
+   "nombreEs": "Ingenios demoníacos",
+   "notaEs": "Las formaciones de Daemon Engine deben ser aliadas del Caos Absoluto o del mismo dios del Caos que este aquelarre. Se puede desplegar un aquelarre de apoyo por cada aquelarre."
+  },
+  {
+   "id": "traitor-navy-aircraft",
+   "nombre": "Traitor Navy Aircraft",
+   "tipo": "apoyo",
+   "nota": "Any one support coven may be fielded per each coven.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "coven"
+   },
+   "grupo": "support-covens",
+   "nombreEs": "Aeronaves de la Armada traidora",
+   "notaEs": "Se puede desplegar un aquelarre de apoyo por cada aquelarre."
+  },
+  {
+   "id": "plague-zombie-infestations",
+   "nombre": "Plague Zombie Infestations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Infestaciones de zombis de la plaga"
+  },
+  {
+   "id": "traitor-support",
+   "nombre": "Traitor Support",
+   "tipo": "apoyo",
+   "nota": "Any one support coven may be fielded per each coven.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "coven"
+   },
+   "grupo": "support-covens",
+   "nombreEs": "Apoyo traidor",
+   "notaEs": "Se puede desplegar un aquelarre de apoyo por cada aquelarre."
+  },
+  {
+   "id": "daemon-pool",
+   "nombre": "Daemon Pool",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Reserva de demonios"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "stigmatus-covenant-covens-coven",
+   "nombre": "Coven",
+   "seccion": "stigmatus-covenant-covens",
+   "unidades": "One Demagogue or Chaos Marine Aspiring Champion and any eleven of the following units: Cultists, Mutants",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Aquelarre",
+   "unidadesEs": "Un Demagogue o Chaos Marine Aspiring Champion y once cualesquiera de estas: Cultists, Mutants"
+  },
+  {
+   "id": "daemon-engine-chaos-undivided-defilers",
+   "nombre": "Chaos Undivided Defilers",
+   "seccion": "daemon-engine",
+   "unidades": "Four Defilers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Defilers del Caos Absoluto",
+   "unidadesEs": "Cuatro Defilers"
+  },
+  {
+   "id": "daemon-engine-chaos-undivided-hellfire-cannons",
+   "nombre": "Chaos Undivided Hellfire Cannons",
+   "seccion": "daemon-engine",
+   "unidades": "Four Hellfire Cannons",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Cañones del Fuego Infernal del Caos Absoluto",
+   "unidadesEs": "Cuatro Hellfire Cannons"
+  },
+  {
+   "id": "daemon-engine-khorne-daemonic-assault-engines",
+   "nombre": "Khorne Daemonic Assault Engines",
+   "seccion": "daemon-engine",
+   "unidades": "Four Daemonic Assault Engines",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Ingenios de asalto demoníacos de Khorne",
+   "unidadesEs": "Cuatro Daemonic Assault Engines"
+  },
+  {
+   "id": "daemon-engine-khorne-lord-of-battles",
+   "nombre": "Khorne Lord of Battles",
+   "seccion": "daemon-engine",
+   "unidades": "Up to two Lord of Battles",
+   "coste": 400,
+   "costeTexto": "400 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 2 en total)",
+     "coste": 400,
+     "porUnidad": true,
+     "max": 1
+    }
+   ],
+   "nombreEs": "Señor de las Batallas de Khorne",
+   "unidadesEs": "Hasta dos Lords of Battle"
+  },
+  {
+   "id": "daemon-engine-nurgle-contagion-towers",
+   "nombre": "Nurgle Contagion Towers",
+   "seccion": "daemon-engine",
+   "unidades": "Four Contagion Towers",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "nombreEs": "Torres del Contagio de Nurgle",
+   "unidadesEs": "Cuatro Contagion Towers"
+  },
+  {
+   "id": "daemon-engine-nurgle-plague-towers",
+   "nombre": "Nurgle Plague Towers",
+   "seccion": "daemon-engine",
+   "unidades": "Up to three Plague Towers",
+   "coste": 325,
+   "costeTexto": "325 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 3 en total)",
+     "coste": 325,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "nombreEs": "Torres de la Plaga de Nurgle",
+   "unidadesEs": "Hasta tres Plague Towers"
+  },
+  {
+   "id": "daemon-engine-slaanesh-daemon-knights",
+   "nombre": "Slaanesh Daemon Knights",
+   "seccion": "daemon-engine",
+   "unidades": "Four Daemon Knights",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "nombreEs": "Caballeros demoníacos de Slaanesh",
+   "unidadesEs": "Cuatro Daemon Knights"
+  },
+  {
+   "id": "daemon-engine-slaanesh-daemon-scout-titans",
+   "nombre": "Slaanesh Daemon Scout Titans",
+   "seccion": "daemon-engine",
+   "unidades": "Up to any two of the following units: Questor Subjugator",
+   "coste": 275,
+   "costeTexto": "275 points each 225 points each",
+   "nombreEs": "Titanes exploradores demoníacos de Slaanesh",
+   "unidadesEs": "Hasta dos cualesquiera de estas unidades: Questor, Subjugator"
+  },
+  {
+   "id": "daemon-engine-tzeentch-doomwings",
+   "nombre": "Tzeentch Doomwings",
+   "seccion": "daemon-engine",
+   "unidades": "Three Doomwings",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Alas de la Perdición de Tzeentch",
+   "unidadesEs": "Tres Doomwings"
+  },
+  {
+   "id": "daemon-engine-tzeentch-firelords",
+   "nombre": "Tzeentch Firelords",
+   "seccion": "daemon-engine",
+   "unidades": "Up to three Firelords",
+   "coste": 150,
+   "costeTexto": "150 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 3 en total)",
+     "coste": 150,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "nombreEs": "Señores del Fuego de Tzeentch",
+   "unidadesEs": "Hasta tres Firelords"
+  },
+  {
+   "id": "daemon-engine-tzeentch-silver-towers",
+   "nombre": "Tzeentch Silver Towers",
+   "seccion": "daemon-engine",
+   "unidades": "Four Silver Towers",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Torres de Plata de Tzeentch",
+   "unidadesEs": "Cuatro Silver Towers"
+  },
+  {
+   "id": "traitor-navy-aircraft-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "traitor-navy-aircraft",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "traitor-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "traitor-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "plague-zombie-infestations-plague-zombie-infestations",
+   "nombre": "Plague Zombie Infestations",
+   "seccion": "plague-zombie-infestations",
+   "unidades": "3+2D6 Plague Zombies",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "max": 2,
+   "nombreEs": "Infestaciones de zombis de la plaga"
+  },
+  {
+   "id": "traitor-support-armoured-company",
+   "nombre": "Armoured Company",
+   "seccion": "traitor-support",
+   "unidades": "Six Leman Russ",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "nombreEs": "Compañía acorazada",
+   "unidadesEs": "Seis Leman Russ"
+  },
+  {
+   "id": "traitor-support-artillery-battery",
+   "nombre": "Artillery Battery",
+   "seccion": "traitor-support",
+   "unidades": "Four Basilisks",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "nombreEs": "Batería de artillería",
+   "unidadesEs": "Cuatro Basilisks"
+  },
+  {
+   "id": "traitor-support-rough-rider-platoon",
+   "nombre": "Rough Rider Platoon",
+   "seccion": "traitor-support",
+   "unidades": "Six Rough Rider units",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Pelotón de Rough Riders",
+   "unidadesEs": "Seis unidades de Rough Rider"
+  },
+  {
+   "id": "traitor-support-sentinel-squadron",
+   "nombre": "Sentinel Squadron",
+   "seccion": "traitor-support",
+   "unidades": "Four Sentinels",
+   "coste": 100,
+   "costeTexto": "100 points",
+   "nombreEs": "Escuadrón de Sentinels",
+   "unidadesEs": "Cuatro Sentinels"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "big-mutants",
+   "nombre": "Big Mutants",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Replace up to six Mutants with an equal number of Big Mutants",
+   "coste": 20,
+   "costeTexto": "+20 points each",
+   "porUnidad": true,
+   "max": 6,
+   "nombreEs": "Mutantes grandes",
+   "textoEs": "Sustituye hasta seis Mutants por el mismo número de Big Mutants"
+  },
+  {
+   "id": "chaos-altar",
+   "nombre": "Chaos Altar",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add one Chaos Altar",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Altar del Caos",
+   "textoEs": "Añade un Chaos Altar"
+  },
+  {
+   "id": "chaos-hounds",
+   "nombre": "Chaos Hounds",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to three Chaos Hounds",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Sabuesos del Caos",
+   "textoEs": "Añade hasta tres Chaos Hounds"
+  },
+  {
+   "id": "chaos-spawn",
+   "nombre": "Chaos Spawn",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add one Chaos Spawn unit",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Engendro del Caos",
+   "textoEs": "Añade una unidad de Chaos Spawn"
+  },
+  {
+   "id": "cultists-or-mutants",
+   "nombre": "Cultists or Mutants",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to eight of any of the following units: Cultists, Mutants",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "porUnidad": true,
+   "max": 8,
+   "nombreEs": "Cultistas o mutantes",
+   "textoEs": "Añade hasta ocho de cualquiera de estas unidades: Cultists, Mutants"
+  },
+  {
+   "id": "daemon-prince-per-allegiance",
+   "nombre": "Daemon Prince per allegiance",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Replace a Demagogue or Chaos Marine Aspiring Champion with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Príncipe demonio por alianza",
+   "textoEs": "Sustituye un Demagogue o Chaos Marine Aspiring Champion por un Daemon Prince"
+  },
+  {
+   "id": "daemonic-pact",
+   "nombre": "Daemonic Pact",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "The formation may summon daemons from the Daemon Pool",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Pacto demoníaco",
+   "textoEs": "La formación puede invocar demonios de la reserva de demonios"
+  },
+  {
+   "id": "icon-bearer",
+   "nombre": "Icon Bearer",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add one Icon Bearer character",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Portaestandarte",
+   "textoEs": "Añade un personaje Icon Bearer"
+  },
+  {
+   "id": "traitor-fire-support",
+   "nombre": "Traitor Fire Support",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to four Support Squad units",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Apoyo de fuego traidor",
+   "textoEs": "Añade hasta cuatro unidades de Support Squad"
+  },
+  {
+   "id": "traitor-flak",
+   "nombre": "Traitor Flak",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to two Hydras",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 2,
+   "nombreEs": "Antiaéreo traidor",
+   "textoEs": "Añade hasta dos Hydras"
+  },
+  {
+   "id": "traitor-griffon-battery",
+   "nombre": "Traitor Griffon Battery",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to three Griffons",
+   "coste": 35,
+   "costeTexto": "+35 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Batería de Griffons traidora",
+   "textoEs": "Añade hasta tres Griffons"
+  },
+  {
+   "id": "traitor-hellhound-squadron",
+   "nombre": "Traitor Hellhound Squadron",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to three Hellhounds",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Escuadrón de Hellhounds traidor",
+   "textoEs": "Añade hasta tres Hellhounds"
+  },
+  {
+   "id": "traitor-tank-squadron",
+   "nombre": "Traitor Tank Squadron",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add up to any three of the following units: Leman Russ, Leman Russ Demolishers",
+   "coste": 70,
+   "costeTexto": "+70 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Escuadrón de tanques traidor",
+   "textoEs": "Añade hasta tres cualesquiera de estas unidades: Leman Russ, Leman Russ Demolishers"
+  },
+  {
+   "id": "transports",
+   "nombre": "Transports",
+   "seccion": "stigmatus-covenant-upgrades",
+   "texto": "Add just enough of any of the following units to transport the entire formation: Land Transporter Chimera",
+   "coste": 10,
+   "costeTexto": "+10 points each +25 points each",
+   "porUnidad": true,
+   "max": 20,
+   "variantes": [
+    {
+     "coste": 10,
+     "porUnidad": true,
+     "texto": "+10 points each",
+     "textoEs": "+10 puntos cada uno"
+    },
+    {
+     "coste": 25,
+     "porUnidad": true,
+     "texto": "+25 points each",
+     "textoEs": "+25 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Transportes",
+   "textoEs": "Añade justo las unidades necesarias de entre estas para transportar toda la formación: Land Transporter, Chimera"
+  }
+ ],
+ "compras": [
+  {
+   "id": "daemon-pool-greater-daemon",
+   "nombre": "Greater Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "nombreEs": "Demonio mayor"
+  },
+  {
+   "id": "daemon-pool-lesser-daemon",
+   "nombre": "Lesser Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points each",
+   "nombreEs": "Demonio menor"
+  }
+ ],
+ "fraccionAliados": null,
+ "nombreEs": "Cultistas del Caos – Pacto Stigmatus",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 3+, pero reciben un modificador según la proximidad de otras formaciones (ver Factions).",
+ "reglas": [
+  {
+   "id": "6.12",
+   "titulo": "Lista de ejército de los Cultistas del Caos del Pacto de Stigmatus (Stigmatus Covenant)",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.12 y 5.3.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Culto del Caos basado en el Culto del Pacto de Stigmatus, surgido en el sistema Mackan durante la 13.ª Cruzada de Abaddon. También puede usarse como lista «sustituta» para otros ejércitos de Cultos.",
+    "Las formaciones de Cultistas del Caos son de dos tipos: aquelarres (covens) y aquelarres de apoyo. Cada aquelarre que incluyas en el ejército te permite desplegar un aquelarre de apoyo cualquiera. Aunque solo puedes llevar un aquelarre de apoyo si antes llevas un aquelarre, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntos. Además, los aquelarres de apoyo de Ingenios Demoníacos del Caos deben lealtad al Caos Indiviso o al mismo dios del Caos que el aquelarre de Cultistas asociado. Por ejemplo, si el ejército incluyera dos aquelarres de Cultistas de Stigmatus de Khorne, podría incluir dos aquelarres de ingenios demoníacos de Khorne, o uno de Khorne y otro indiviso.",
+    "Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejo‐",
+    "ras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Por último, cada ejército de Cultistas del Caos del Pacto de Stigmatus puede desplegar hasta dos Infestaciones de Zombis de Plaga.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+   ]
+  },
+  {
+   "id": "6.12.1",
+   "titulo": "Reglas especiales de torneo del Pacto",
+   "parrafos": [
+    "de Stigmatus",
+    "Archihereje: Todo ejército de Cultistas del Caos del Pacto de Stigmatus debe incluir un personaje Archihereje. Es gratuito, no tienes que pagar puntos por él, y puede añadirse a cualquier unidad de Príncipe Demonio, Demagogo o Aspirante a Campeón de los Marines del Caos.",
+    "Lealtad de la formación: Cada formación de un ejército de Cultistas del Pacto de Stigmatus debe lealtad al Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
+    "Zombis de Plaga: Las formaciones de Infestación de Zombis de Plaga deben desplegarse mediante teletransporte. Tras colocar la primera unidad, tira 3+2D6 para ver cuántas unidades tiene la formación. Las formaciones de Infestación de Zombis de Plaga pueden disputar objetivos, pero no controlarlos.",
+    "Costes en puntos de invocación: Son los mismos que en la Legión Negra (véase 6.11.1): Bestias Demoníacas 1 (cualquier lealtad); Desangradores, Portadores de Plaga, Diablillas e Incineradores 1 (2 para formaciones del Caos Indiviso), cada uno de su dios correspondiente; y cada Demonio Mayor (Devorador de Almas, Gran Inmundicia, Guardián de los Secretos y Señor del Cambio) 8."
+   ]
+  },
+  {
+   "id": "6.12.2",
+   "titulo": "Facciones (Factions)",
+   "parrafos": [
+    "Las formaciones que deben lealtad a uno de los cuatro dioses del Caos (Khorne, Nurgle, Slaanesh o Tzeentch) odian a las formaciones que deben lealtad a cualquier otro dios del Caos. Las formaciones que deben lealtad al Caos Indiviso no odian a ninguna otra formación, ni ninguna otra las odia a ellas. Una formación que no tenga ninguna unidad a 15 cm o menos de unidades de una formación odiada recibe un modificador de +1 a sus chequeos de Acción y de Reorganización. Las formaciones con lealtad que están fuera del tablero reciben siempre este modificador de +1."
+   ]
+  },
+  {
+   "id": "5.11.1",
+   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "parrafos": [
+    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+   ]
+  },
+  {
+   "id": "5.11.2",
+   "titulo": "Foco Demoníaco (Daemonic Focus)",
+   "parrafos": [
+    "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
+   ]
+  },
+  {
+   "id": "6.11.1",
+   "titulo": "Reglas especiales de torneo de la Legión Negra de la 13.ª Cruzada Negra",
+   "parrafos": [
+    "Lealtad de la formación: Cada formación de un ejército de la Legión Negra de la 13.ª Cruzada Negra debe lealtad al Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
+    "Costes en puntos de invocación: A continuación se indican los costes en puntos de invocación de un ejército de la Legión Negra de la 13.ª Cruzada Negra. Si una fila contiene un coste entre paréntesis, ese es el coste para las formaciones que deben lealtad al Caos Indiviso.",
+    "Costes de invocación de Demonios Menores Puntos de invocación",
+    "Demonio",
+    "Lealtad",
+    "Bestias Demoníacas (Daemonic Beasts) · Cualquiera: 1",
+    "Desangradores (Bloodletters) · Khorne: 1 (2)",
+    "Portadores de Plaga (Plaguebearers) · Nurgle: 1 (2)",
+    "Diablillas (Daemonettes) · Slaanesh: 1 (2)",
+    "Incineradores (Flamers) · Tzeentch: 1 (2)",
+    "Costes de invocación de Demonios Mayores",
+    "Demonio",
+    "Lealtad",
+    "Puntos de invocación",
+    "Devorador de Almas (Bloodthirster) · Khorne: 8",
+    "Gran Inmundicia (Great Unclean One) · Nurgle: 8",
+    "Guardián de los Secretos (Keeper of Secrets) · Slaanesh: 8",
+    "Señor del Cambio (Lord of Change) · Tzeentch: 8"
+   ]
+  }
+ ]
+}

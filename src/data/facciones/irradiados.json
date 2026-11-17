@@ -66,7 +66,10 @@
       },
       "reglasEspeciales": [
         "Radiado"
-      ]
+      ],
+      "reglasTexto": {
+        "Radiado": "Los Mártires se consideran una fuente de Radiación para las reglas de Radiación, tanto antes como después de ser"
+      }
     },
     {
       "id": "discipulo",
@@ -120,7 +123,11 @@
       "reglasEspeciales": [
         "Contenedor radiactivo",
         "Radioinmune"
-      ]
+      ],
+      "reglasTexto": {
+        "Contenedor radiactivo": "La mayoría de los Irradiados tienen en sus cuerpos una cantidad de radiación que mataría a la mayor parte de las criaturas. Aunque durante cortos periodos de tiempo el contacto con ellos puede ser inocuo, cuando un Irradiado con esta regla es Abatido esa radiación deja de estar contenida. Todo Irradiado con esta regla que resulte Abatido contará como una fuente de Radiación. Además, cualquier miniatura que interaccione de alguna forma con los Irradiados Abatidos (devorando, cosechando, rapiñando, etc.) deberá hacer en ese momento una tirada de Radiación.",
+        "Radioinmune": "Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación."
+      }
     },
     {
       "id": "penitente",
@@ -173,7 +180,13 @@
         "Contenedor radiactivo",
         "Mónguer",
         "Radioinmune"
-      ]
+      ],
+      "reglasTexto": {
+        "Bersérker": "Algunos luchadores son tan agresivos o fanáticos que parecen no darse cuenta de que están muertos hasta que es demasiado tarde para el bienestar de sus rivales. La miniatura puede completar la Fase de activación propia tras resultar Abatida. Al final de esa Fase de activación, si acaba el último Turno de la partida o si resulta Abatida de nuevo (lo que antes suceda), se considerará una baja definitiva.",
+        "Contenedor radiactivo": "La mayoría de los Irradiados tienen en sus cuerpos una cantidad de radiación que mataría a la mayor parte de las criaturas. Aunque durante cortos periodos de tiempo el contacto con ellos puede ser inocuo, cuando un Irradiado con esta regla es Abatido esa radiación deja de estar contenida. Todo Irradiado con esta regla que resulte Abatido contará como una fuente de Radiación. Además, cualquier miniatura que interaccione de alguna forma con los Irradiados Abatidos (devorando, cosechando, rapiñando, etc.) deberá hacer en ese momento una tirada de Radiación.",
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "Radioinmune": "Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación."
+      }
     },
     {
       "id": "cardenal-nuclear",
@@ -249,7 +262,12 @@
         "Contenedor radiactivo",
         "Radioinmune",
         "Sermón"
-      ]
+      ],
+      "reglasTexto": {
+        "Contenedor radiactivo": "La mayoría de los Irradiados tienen en sus cuerpos una cantidad de radiación que mataría a la mayor parte de las criaturas. Aunque durante cortos periodos de tiempo el contacto con ellos puede ser inocuo, cuando un Irradiado con esta regla es Abatido esa radiación deja de estar contenida. Todo Irradiado con esta regla que resulte Abatido contará como una fuente de Radiación. Además, cualquier miniatura que interaccione de alguna forma con los Irradiados Abatidos (devorando, cosechando, rapiñando, etc.) deberá hacer en ese momento una tirada de Radiación.",
+        "Radioinmune": "Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación.",
+        "Sermón": "Los cardenales arengan a los Irradiados antes de entrar en combate con distintos sermones con los que los Verdaderos Herederos afrontan aún con más fe las vicisitudes que les aguardan. Después de que las tropas desplieguen, pero antes de comenzar la partida, debes seleccionar UNO de los siguiente sermones que podrás utilizar a lo largo de la partida: • Parábola de cómo el Nuevo Hombre salió de un Huevo: una vez durante la partida, puedes repetir la tirada enfrentada de Fuerza contra Dureza de una miniatura propia que haya sido impactada. • Parábola de cómo la Inteligencia Suprema escogió a los Verdaderos Herederos: una vez durante la partida, puedes repetir una tirada de Precisión. • Parábola de cómo el Maná Sagrado nos ha hecho mejores: una vez durante la partida, puedes obligar a repetir al rival una tirada de Radiación."
+      }
     },
     {
       "id": "paladin",
@@ -309,7 +327,13 @@
         "Radioinmune",
         "Todoterreno",
         "Inspirador"
-      ]
+      ],
+      "reglasTexto": {
+        "Contenedor radiactivo": "La mayoría de los Irradiados tienen en sus cuerpos una cantidad de radiación que mataría a la mayor parte de las criaturas. Aunque durante cortos periodos de tiempo el contacto con ellos puede ser inocuo, cuando un Irradiado con esta regla es Abatido esa radiación deja de estar contenida. Todo Irradiado con esta regla que resulte Abatido contará como una fuente de Radiación. Además, cualquier miniatura que interaccione de alguna forma con los Irradiados Abatidos (devorando, cosechando, rapiñando, etc.) deberá hacer en ese momento una tirada de Radiación.",
+        "Radioinmune": "Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación.",
+        "Todoterreno": "Una miniatura con esta regla considera el Terreno pila chungo como Terreno chungo y el Terreno chungo como Terreno chachi.",
+        "Inspirador": "Si un paladín Abate a un enemigo en Combate, todo Discípulo de la banda que se encuentre 20 cm o menos, con Línea de visión hacia el Paladín y que no esté trabado en Combate, puede realizar inmediatamente una Acción gratuita."
+      }
     },
     {
       "id": "el-portador-de-las-reliquias",
@@ -336,7 +360,14 @@
         "Personalidad de los Irradiados",
         "Radioinmune",
         "Relicario"
-      ]
+      ],
+      "reglasTexto": {
+        "Bersérker": "Algunos luchadores son tan agresivos o fanáticos que parecen no darse cuenta de que están muertos hasta que es demasiado tarde para el bienestar de sus rivales. La miniatura puede completar la Fase de activación propia tras resultar Abatida. Al final de esa Fase de activación, si acaba el último Turno de la partida o si resulta Abatida de nuevo (lo que antes suceda), se considerará una baja definitiva.",
+        "Contenedor radiactivo": "La mayoría de los Irradiados tienen en sus cuerpos una cantidad de radiación que mataría a la mayor parte de las criaturas. Aunque durante cortos periodos de tiempo el contacto con ellos puede ser inocuo, cuando un Irradiado con esta regla es Abatido esa radiación deja de estar contenida. Todo Irradiado con esta regla que resulte Abatido contará como una fuente de Radiación. Además, cualquier miniatura que interaccione de alguna forma con los Irradiados Abatidos (devorando, cosechando, rapiñando, etc.) deberá hacer en ese momento una tirada de Radiación.",
+        "Personalidad de los Irradiados": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Radioinmune": "Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación.",
+        "Relicario": "A modo de estandarte, el Portador de las Reliquias lleva algunas de las reliquias encontradas por los Irradiados a lo largo de los años. En combate puede ser usado con las estadísticas de una maza pesada. Además, el Portador puede usar Acciones (si es más de una deben ser consecutivas, aunque no obligatoriamente en la misma Fase de activación) para alentar a sus compañeros o desmotivar a sus enemigos tal y como se indica en la siguiente tabla. Nº DE"
+      }
     },
     {
       "id": "el-guardian-de-las-llaves",
@@ -363,7 +394,11 @@
       "reglasEspeciales": [
         "Personalidad de los Irradiados",
         "Pistola de aire comprimido"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Irradiados": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Pistola de aire comprimido": "El Guardián de las Llaves encontró por ahí una pistola de aire comprimido cargada con bolitas de acero y fue su fiel aliada para cazar cucarratas y demás alimañas que le servían de alimento. Se trata de un arma a distancia con las siguientes estadísticas. Distancia: 10/20/30. Fuerza 4 y Penetración 1."
+      }
     }
   ]
 }

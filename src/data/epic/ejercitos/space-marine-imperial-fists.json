@@ -1,0 +1,609 @@
+{
+ "id": "space-marine-imperial-fists",
+ "nombre": "Space Marine – Imperial Fists",
+ "version": "2026-02-05",
+ "estrategia": 5,
+ "iniciativa": "Imperial Fist static defence formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "imperial-fist-detachments",
+   "nombre": "Imperial Fist Detachments",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Destacamentos de los Puños Imperiales"
+  },
+  {
+   "id": "imperial-fist-upgrades",
+   "nombre": "Imperial Fist Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per detachment.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Puños Imperiales",
+   "notaEs": "Cada mejora puede tomarse una vez por destacamento."
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  },
+  {
+   "id": "imperial-fist-aircraft",
+   "nombre": "Imperial Fist Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de los Puños Imperiales"
+  },
+  {
+   "id": "imperial-fist-static-defences",
+   "nombre": "Imperial Fist Static Defences",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Defensas estáticas de los Puños Imperiales"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "imperial-fist-detachments-bastion",
+   "nombre": "Bastion",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "One Bastion",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Support Battery",
+    "Tarantulas",
+    "Techmarine"
+   ],
+   "unidadesEs": "Un Bastion"
+  },
+  {
+   "id": "imperial-fist-detachments-centurion",
+   "nombre": "Centurion",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Any four of the following units: Assault Centurion, Devastator Centurion",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Land Raiders",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Assault Centurion, Devastator Centurion"
+  },
+  {
+   "id": "imperial-fist-detachments-devastator",
+   "nombre": "Devastator",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Devastator units plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Achilles",
+    "Commander",
+    "Dreadnoughts",
+    "Hunter",
+    "Land Raiders",
+    "Razorbacks",
+    "Support Battery",
+    "Vindicators"
+   ],
+   "nombreEs": "Devastadores",
+   "unidadesEs": "Cuatro unidades de Devastator más transporte"
+  },
+  {
+   "id": "imperial-fist-detachments-land-raider",
+   "nombre": "Land Raider",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Any four of the following units: Land Raider, Land Raider Crusader",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Achilles",
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Land Raider, Land Raider Crusader"
+  },
+  {
+   "id": "imperial-fist-detachments-land-speeder",
+   "nombre": "Land Speeder",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Typhoons"
+   ],
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado"
+  },
+  {
+   "id": "imperial-fist-detachments-predator",
+   "nombre": "Predator",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Any four of the following units: Predator Annihilator, Predator Destructor",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Predator Annihilator, Predator Destructor"
+  },
+  {
+   "id": "imperial-fist-detachments-fellblade",
+   "nombre": "Fellblade",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "One Fellblade",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [],
+   "unidadesEs": "Un Fellblade"
+  },
+  {
+   "id": "imperial-fist-detachments-scout",
+   "nombre": "Scout",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Scout units plus transport",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "mejoras": [
+    "Commander",
+    "Razorbacks",
+    "Snipers"
+   ],
+   "nombreEs": "Exploradores",
+   "unidadesEs": "Cuatro unidades de Scout más transporte"
+  },
+  {
+   "id": "imperial-fist-detachments-tactical",
+   "nombre": "Tactical",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Six Tactical units plus transport",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Achilles",
+    "Commander",
+    "Dreadnoughts",
+    "Hunter",
+    "Land Raiders",
+    "Razorbacks",
+    "Support Battery",
+    "Vindicators"
+   ],
+   "nombreEs": "Tácticos",
+   "unidadesEs": "Seis unidades de Tactical más transporte"
+  },
+  {
+   "id": "imperial-fist-detachments-terminator",
+   "nombre": "Terminator",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Terminator units",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Commander",
+    "Dreadnoughts",
+    "Land Raiders",
+    "Vindicators"
+   ],
+   "nombreEs": "Exterminadores",
+   "unidadesEs": "Cuatro unidades de Terminator"
+  },
+  {
+   "id": "imperial-fist-detachments-thunderfire",
+   "nombre": "Thunderfire",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Thunderfire Cannons",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Dreadnoughts",
+    "Techmarine"
+   ],
+   "unidadesEs": "Cuatro Thunderfire Cannons"
+  },
+  {
+   "id": "imperial-fist-detachments-vindicator",
+   "nombre": "Vindicator",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Vindicators",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro Vindicators"
+  },
+  {
+   "id": "imperial-fist-detachments-whirlwind",
+   "nombre": "Whirlwind",
+   "seccion": "imperial-fist-detachments",
+   "unidades": "Four Whirlwinds",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Whirlwinds"
+   ],
+   "unidadesEs": "Cuatro Whirlwinds"
+  },
+  {
+   "id": "titan-legion-battlegroups-reaver",
+   "nombre": "Reaver",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Reaver Class Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Reaver Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warlord",
+   "nombre": "Warlord",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Deathstrike pattern Warlord Class Titan",
+   "coste": 825,
+   "costeTexto": "825 points",
+   "unidadesEs": "Un Warlord Class Titan patrón Deathstrike"
+  },
+  {
+   "id": "imperial-fist-aircraft-storm-talon-squadron",
+   "nombre": "Storm Talon Squadron",
+   "seccion": "imperial-fist-aircraft",
+   "unidades": "Two Storm Talons",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Escuadrón Storm Talon",
+   "unidadesEs": "Dos Storm Talons"
+  },
+  {
+   "id": "imperial-fist-aircraft-thunderhawk-sb",
+   "nombre": "Thunderhawk SB",
+   "seccion": "imperial-fist-aircraft",
+   "unidades": "One Thunderhawk Saturation Bomber",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "unidadesEs": "Un Thunderhawk Saturation Bomber"
+  },
+  {
+   "id": "imperial-fist-static-defences-fortified-positions",
+   "nombre": "Fortified Positions",
+   "seccion": "imperial-fist-static-defences",
+   "unidades": "Two Bunkers and 52cm of Trenches or Minefields",
+   "coste": 50,
+   "costeTexto": "50 points",
+   "nombreEs": "Posiciones fortificadas",
+   "unidadesEs": "Dos Bunkers y 52 cm de trincheras o campos de minas"
+  },
+  {
+   "id": "imperial-fist-static-defences-hyperios-per-scout-detachment",
+   "nombre": "Hyperios per Scout detachment",
+   "seccion": "imperial-fist-static-defences",
+   "unidades": "Three Hyperios Platforms",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "max": 1,
+   "nombreEs": "Hyperios por destacamento de exploradores",
+   "unidadesEs": "Tres Hyperios Platforms"
+  },
+  {
+   "id": "imperial-fist-static-defences-tarantulas-per-scout-detachment",
+   "nombre": "Tarantulas per Scout detachment",
+   "seccion": "imperial-fist-static-defences",
+   "unidades": "Four Tarantula Platforms and four Gun Emplacements",
+   "coste": 100,
+   "costeTexto": "100 points",
+   "max": 1,
+   "nombreEs": "Tarántulas por destacamento de exploradores",
+   "unidadesEs": "Cuatro Tarantula Platforms y cuatro Gun Emplacements"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "achilles",
+   "nombre": "Achilles",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Replace up to two Land Raiders with an equal number of Land Raider Achilles",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 2,
+   "textoEs": "Sustituye hasta dos Land Raiders por el mismo número de Land Raider Achilles"
+  },
+  {
+   "id": "commander",
+   "nombre": "Commander",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add any one of the following characters to any unit in the formation: Captain, Chaplain, Librarian 0–1 Supreme Commander per army",
+   "coste": 50,
+   "costeTexto": "+50 points +100 points",
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "+50 points",
+     "textoEs": "+50 puntos"
+    },
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "+100 points",
+     "textoEs": "+100 puntos"
+    }
+   ],
+   "nombreEs": "Comandante",
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Captain, Chaplain, Librarian; 0–1 Supreme Commander por ejército"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add up to two of any of the following units: Hellfire Dreadnought, Siege Dreadnought",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 2,
+   "textoEs": "Añade hasta dos de cualquiera de estas unidades: Hellfire Dreadnought, Siege Dreadnought"
+  },
+  {
+   "id": "hunter",
+   "nombre": "Hunter",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add one Hunter",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade un Hunter"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add up to four of any of the following units: Land Raider, Land Raider Crusader",
+   "coste": 75,
+   "costeTexto": "+75 points each +125 points per pair",
+   "porUnidad": true,
+   "max": 4,
+   "variantes": [
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points each",
+     "textoEs": "+75 puntos cada uno"
+    },
+    {
+     "coste": 125,
+     "porUnidad": true,
+     "texto": "+125 points per pair",
+     "textoEs": "+125 puntos por pareja"
+    }
+   ],
+   "textoEs": "Añade hasta cuatro de cualquiera de estas unidades: Land Raider, Land Raider Crusader"
+  },
+  {
+   "id": "razorbacks",
+   "nombre": "Razorbacks",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add any number of Razorbacks, up to the number required to transport the formation",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+  },
+  {
+   "id": "snipers",
+   "nombre": "Snipers",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Give up to four Scout units Sniper",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Francotiradores",
+   "textoEs": "Da Sniper a hasta cuatro unidades de Scout"
+  },
+  {
+   "id": "support-battery",
+   "nombre": "Support Battery",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add up to four of any of the following units: Thudd Gun, Rapier",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Batería de apoyo",
+   "textoEs": "Añade hasta cuatro de cualquiera de estas unidades: Thudd Gun, Rapier"
+  },
+  {
+   "id": "tarantulas",
+   "nombre": "Tarantulas",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add up to four Tarantula Platforms each with a Gun Emplacement",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Tarántulas",
+   "textoEs": "Añade hasta cuatro Tarantula Platforms, cada una con un Gun Emplacement"
+  },
+  {
+   "id": "techmarine",
+   "nombre": "Techmarine",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add one Techmarine character to any unit in the formation",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Tecnomarine",
+   "textoEs": "Añade un personaje Techmarine a cualquier unidad de la formación"
+  },
+  {
+   "id": "typhoons",
+   "nombre": "Typhoons",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 5,
+   "textoEs": "Sustituye hasta cinco Land Speeders por el mismo número de Land Speeder Typhoons"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add up to two Vindicators",
+   "coste": 50,
+   "costeTexto": "+50 points each +75 points per pair",
+   "porUnidad": true,
+   "max": 2,
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": true,
+     "texto": "+50 points each",
+     "textoEs": "+50 puntos cada uno"
+    },
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points per pair",
+     "textoEs": "+75 puntos por pareja"
+    }
+   ],
+   "textoEs": "Añade hasta dos Vindicators"
+  },
+  {
+   "id": "whirlwinds",
+   "nombre": "Whirlwinds",
+   "seccion": "imperial-fist-upgrades",
+   "texto": "Add two Whirlwinds",
+   "coste": 125,
+   "costeTexto": "+125 points",
+   "textoEs": "Añade dos Whirlwinds"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales – Puños Imperiales",
+ "iniciativaEs": "Las formaciones de defensa estática de los Imperial Fists tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.25",
+   "titulo": "Lista de ejército de Marines Espaciales de los Puños Imperiales (Imperial Fists)",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.25.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en los Puños Imperiales. También puede usarse como lista «sustituta» para cualquiera de los Capítulos sucesores de los Puños Imperiales. Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
+    "Los ejércitos de los Puños Imperiales pueden recibir apoyo de grupos de batalla de la Legión de Titanes y de formaciones de aeronaves y de defensa estática de los Puños Imperiales. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento, aeronaves y defensa estática de los Puños Imperiales (véase 5.1.1). La regla de Posiciones Fortificadas se aplica a los ejércitos de los Puños Imperiales (véase 6.7.2)."
+   ]
+  },
+  {
+   "id": "6.25.1",
+   "titulo": "Transporte de los Puños Imperiales",
+   "parrafos": [
+    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes Rhinos para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos",
+    "que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades. Además, antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, puedes sustituir los Rhinos de un destacamento Devastador o Táctico por dos Búnkeres y 52 cm de Trincheras o Campos de minas."
+   ]
+  },
+  {
+   "id": "5.25.1",
+   "titulo": "Maestros del Asedio (Masters of Siege)",
+   "parrafos": [
+    "Los Puños Imperiales tienen una especial pericia en la guerra de asedio y los asaltos de choque masivos. Esto se representa con las siguientes reglas:",
+    "• Un ejército de Puños Imperiales puede empezar con tres formaciones de guarnición en vigilancia en lugar de dos.",
+    "• Todas las unidades cuentan como si tuvieran Bípode al hacer un chequeo de terreno peligroso por entrar o empezar a mover en campos de minas adquiridos como parte del ejército.",
+    "• Todas las unidades de infantería obtienen Primer Golpe cuando están dentro de trincheras adquiridas como parte del ejército.",
+    "• Todas las unidades de infantería obtienen una salvación de 4+ con Blindaje Reforzado cuando están dentro de búnkeres adquiridos como parte del ejército. Esta sustituye tanto su salvación normal como la salvación por cobertura de 3+ del búnker. Se pierde si la unidad sufre un impacto que Ignora Cobertura."
+   ]
+  },
+  {
+   "id": "5.25.2",
+   "titulo": "Posiciones Fortificadas de los Puños",
+   "parrafos": [
+    "Imperiales",
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Campo de minas: Las unidades enemigas con Retrorreactores o Aerodeslizador deben hacer chequeos de terreno peligroso por los campos de minas. Las unidades enemigas no pueden repetir los chequeos de terreno peligroso fallidos por campos de minas.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Terreno",
+    "Infantería",
+    "Vehículo",
+    "Ingenio de Guerra",
+    "Búnker",
+    "Salv. cobertura 3+",
+    "Peligroso",
+    "Peligroso",
+    "Emplazamiento de Armas",
+    "Salv. cobertura 4+",
+    "Salv. cobertura 5+",
+    "Sin efecto",
+    "Campo de minas Peligroso",
+    "Peligroso",
+    "Peligroso",
+    "Trinchera",
+    "Peligroso",
+    "Sin efecto",
+    "Salv. cobertura 4+"
+   ]
+  },
+  {
+   "id": "5.25.3",
+   "titulo": "Autómatas (Automata)",
+   "parrafos": [
+    "Las formaciones compuestas íntegramente por unidades con Autómatas solo pueden realizar acciones de Organizarse, Vigilancia y Fuego Sostenido. Además, no pueden capturar objetivos en las reglas de juego de torneo de Epic. Las formaciones que incluyen al menos una unidad sin Autómatas no reciben un Marcador de Explosión cuando se destruye una unidad con Autómatas; esto incluye el Marcador adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Además, si una unidad con Autómatas es impactada por un arma con Disruptor, no inflige Marcador de Explosión. Por último, no cuentes las unidades con Autómatas perdidas en un asalto al calcular quién ha ganado el combate."
+   ]
+  },
+  {
+   "id": "6.3.1",
+   "titulo": "Transportes de los Marines Espaciales",
+   "parrafos": [
+    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte Rhino para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario para transportar la formación: ¡no puedes llevar de más para cubrir pérdidas!",
+    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como guarnición o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
+    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída Planetaria (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
+    "FAQ",
+    "P: Si una formación incluye Rhinos y además puede llevar Land Raiders y Razorbacks mediante mejoras, ¿cómo se determina cuántos Rhinos recibe?",
+    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para",
+    "transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
+   ]
+  },
+  {
+   "id": "5.1.1",
+   "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
+   "parrafos": [
+    "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
+    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
+    "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "FAQ",
+    "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
+    "R: Uno por unidad."
+   ]
+  },
+  {
+   "id": "6.7.2",
+   "titulo": "Posiciones Fortificadas",
+   "parrafos": [
+    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las guarniciones. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte.",
+    "Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
+    "Una vez desplegadas, las posiciones fortificadas pueden ser usadas por cualquier unidad (incluidas las enemigas).",
+    "FAQ",
+    "P: ¿Hay que desplegar todas las Posiciones Fortificadas adquiridas?",
+    "R: No.",
+    "P: ¿Se cuentan las Posiciones Fortificadas en el desempate?",
+    "R: No.",
+    "P: ¿Los Emplazamientos de Armas que acompañan a ciertas formaciones se despliegan al mismo tiempo que las Posiciones Fortificadas?",
+    "R: No; se despliegan con la formación de la que forman parte.",
+    "P: ¿Forman parte de la formación los Emplazamientos de Armas que acompañan a ciertas formaciones?",
+    "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
+   ]
+  }
+ ]
+}

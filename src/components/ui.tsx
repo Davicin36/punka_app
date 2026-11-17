@@ -14,7 +14,7 @@ export function Contador({ valor, min = 0, max = 99, onChange }: { valor: number
 }
 
 export function Check({ activo, nombre, coste, nota, onChange, radio, grupo }: {
-  activo: boolean; nombre: string; coste: string; nota?: string; onChange: (v: boolean) => void; radio?: boolean; grupo?: string;
+  activo: boolean; nombre: ReactNode; coste: string; nota?: string; onChange: (v: boolean) => void; radio?: boolean; grupo?: string;
 }) {
   return (
     <label className={`opt ${activo ? 'on' : ''}`}>
@@ -26,7 +26,7 @@ export function Check({ activo, nombre, coste, nota, onChange, radio, grupo }: {
 }
 
 export function FilaContador({ nombre, nota, valor, min, max, onChange }: {
-  nombre: string; nota?: string; valor: number; min?: number; max?: number; onChange: (v: number) => void;
+  nombre: ReactNode; nota?: string; valor: number; min?: number; max?: number; onChange: (v: number) => void;
 }) {
   return (
     <div className={`opt ${valor ? 'on' : ''}`}>
@@ -60,5 +60,15 @@ export function Modal({ titulo, onClose, children, alto }: { titulo: string; onC
         {children}
       </div>
     </div>
+  );
+}
+
+/** Regla especial desplegable: el nombre siempre visible y el texto al pulsar. */
+export function Regla({ nombre, nota, children }: { nombre: ReactNode; nota?: string; children: ReactNode }) {
+  return (
+    <details className="regla">
+      <summary><b>{nombre}</b>{nota && <small> {nota}</small>}</summary>
+      <div className="rtexto">{children}</div>
+    </details>
   );
 }

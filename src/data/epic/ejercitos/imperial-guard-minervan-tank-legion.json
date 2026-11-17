@@ -1,0 +1,524 @@
+{
+ "id": "imperial-guard-minervan-tank-legion",
+ "nombre": "Imperial Guard – Minervan Tank Legion",
+ "version": "2026-02-03",
+ "estrategia": 2,
+ "iniciativa": "Titan Legion battlegroup formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "minervan-tank-legion-companies",
+   "nombre": "Minervan Tank Legion Companies",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Compañías de la Legión Acorazada de Minerva"
+  },
+  {
+   "id": "minervan-tank-legion-company-upgrades",
+   "nombre": "Minervan Tank Legion Company Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to three company upgrades may be taken once per company.",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nombreEs": "Mejoras de compañía de la Legión Acorazada de Minerva",
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+  },
+  {
+   "id": "minervan-tank-legion-support-formations",
+   "nombre": "Minervan Tank Legion Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two support formations may be fielded per each company.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "company"
+   },
+   "nombreEs": "Formaciones de apoyo de la Legión Acorazada de Minerva",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+  },
+  {
+   "id": "leman-russ-variants",
+   "nombre": "Leman Russ Variants",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Variantes de Leman Russ"
+  },
+  {
+   "id": "leman-russ-rare-variants",
+   "nombre": "Leman Russ Rare Variants",
+   "tipo": "compras",
+   "nota": "One in five Leman Russ variants may be rare per formation.",
+   "nombreEs": "Variantes raras de Leman Russ",
+   "notaEs": "Por formación, una de cada cinco variantes de Leman Russ puede ser rara."
+  },
+  {
+   "id": "imperial-navy-assets",
+   "nombre": "Imperial Navy Assets",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Medios de la Armada Imperial"
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "minervan-tank-legion-companies-artillery-company",
+   "nombre": "Artillery Company",
+   "seccion": "minervan-tank-legion-companies",
+   "unidades": "Any nine of the following units: Basilisk, Manticore",
+   "coste": 550,
+   "costeTexto": "550 points",
+   "nombreEs": "Compañía de artillería",
+   "unidadesEs": "Nueve cualesquiera de estas unidades: Basilisk, Manticore"
+  },
+  {
+   "id": "minervan-tank-legion-companies-super-heavy-tank-company",
+   "nombre": "Super-heavy Tank Company",
+   "seccion": "minervan-tank-legion-companies",
+   "unidades": "Any three of the following units: Baneblade, Shadowsword, Stormblade, Stormhammer, Stormsword",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Compañía de tanques superpesados",
+   "unidadesEs": "Tres cualesquiera de estas unidades: Baneblade, Shadowsword, Stormblade, Stormhammer, Stormsword"
+  },
+  {
+   "id": "minervan-tank-legion-companies-tank-company",
+   "nombre": "Tank Company",
+   "seccion": "minervan-tank-legion-companies",
+   "unidades": "Any six Leman Russ variants (Add any four Leman Russ variants)",
+   "coste": 280,
+   "costeTexto": "280 points (+145 points)",
+   "extras": [
+    {
+     "texto": "Add any four Leman Russ variants",
+     "coste": 145,
+     "textoEs": "Añade cuatro variantes de Leman Russ cualesquiera"
+    }
+   ],
+   "nombreEs": "Compañía de tanques",
+   "unidadesEs": "Seis variantes de Leman Russ cualesquiera (añade cuatro variantes de Leman Russ cualesquiera)"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-artillery-battery",
+   "nombre": "Artillery Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Bombards or Manticores",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Batería de artillería",
+   "unidadesEs": "Tres Bombards o Manticores"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-assault-gun-battery",
+   "nombre": "Assault Gun Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Medusas (add three Medusas)",
+   "coste": 150,
+   "costeTexto": "150 points (+100 points)",
+   "extras": [
+    {
+     "texto": "Add three Medusas",
+     "coste": 100,
+     "textoEs": "Añade tres Medusas"
+    }
+   ],
+   "nombreEs": "Batería de cañones de asalto",
+   "unidadesEs": "Tres Medusas (añade tres Medusas)"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-basilisk-battery",
+   "nombre": "Basilisk Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Basilisks",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "nombreEs": "Batería de Basilisks",
+   "unidadesEs": "Tres Basilisks"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-deathstrike-battery",
+   "nombre": "Deathstrike Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Two Deathstrikes",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "nombreEs": "Batería Deathstrike",
+   "unidadesEs": "Dos Deathstrikes"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-destroyer-squadron",
+   "nombre": "Destroyer Squadron",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Destroyer Tank Hunters",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Escuadrón de Destructores",
+   "unidadesEs": "Tres Destroyer Tank Hunters"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-flak-battery",
+   "nombre": "Flak Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Hydras",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Batería antiaérea",
+   "unidadesEs": "Tres Hydras"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-griffon-battery",
+   "nombre": "Griffon Battery",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Six Griffons",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Batería de Griffons",
+   "unidadesEs": "Seis Griffons"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-hellhound-platoon",
+   "nombre": "Hellhound Platoon",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Six Hellhounds",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Pelotón de Hellhounds",
+   "unidadesEs": "Seis Hellhounds"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-mechanised-platoon",
+   "nombre": "Mechanised Platoon",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Ten Infantry units and five Chimera (add one Salamander Command)",
+   "coste": 300,
+   "costeTexto": "300 points (+25 points)",
+   "extras": [
+    {
+     "texto": "Add one Salamander Command",
+     "coste": 25,
+     "textoEs": "Añade un Salamander Command"
+    }
+   ],
+   "nombreEs": "Pelotón mecanizado",
+   "unidadesEs": "Diez unidades de infantería y cinco Chimera (añade un Salamander Command)"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-salamander-scout-platoon",
+   "nombre": "Salamander Scout Platoon",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Three Salamander Scouts (add one Salamander Command)",
+   "coste": 100,
+   "costeTexto": "100 points (+25 points)",
+   "extras": [
+    {
+     "texto": "Add one Salamander Command",
+     "coste": 25,
+     "textoEs": "Añade un Salamander Command"
+    }
+   ],
+   "nombreEs": "Pelotón explorador Salamandra",
+   "unidadesEs": "Tres Salamander Scouts (añade un Salamander Command)"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-storm-trooper-platoon",
+   "nombre": "Storm Trooper Platoon",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Eight Storm Troopers (add four Chimera or Valkyries)",
+   "coste": 200,
+   "costeTexto": "200 points (+100 or +150 points)",
+   "extras": [
+    {
+     "texto": "Add four Chimera or Valkyries (+100)",
+     "coste": 100,
+     "textoEs": "Añade cuatro Chimera o Valkyries (+100)"
+    },
+    {
+     "texto": "Add four Chimera or Valkyries (+150)",
+     "coste": 150,
+     "textoEs": "Añade cuatro Chimera o Valkyries (+150)"
+    }
+   ],
+   "nombreEs": "Pelotón de Tropas de Asalto",
+   "unidadesEs": "Ocho Storm Troopers (añade cuatro Chimera o Valkyries)"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-super-heavy-tank-platoon",
+   "nombre": "Super-heavy Tank Platoon",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "One Baneblade, Shadowsword, Stormblade, Stormhammer or Stormsword",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Pelotón de tanques superpesados",
+   "unidadesEs": "Un Baneblade, Shadowsword, Stormblade, Stormhammer o Stormsword"
+  },
+  {
+   "id": "minervan-tank-legion-support-formations-vulture-squadron",
+   "nombre": "Vulture Squadron",
+   "seccion": "minervan-tank-legion-support-formations",
+   "unidades": "Four Vultures",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Escuadrón de Vultures",
+   "unidadesEs": "Cuatro Vultures"
+  },
+  {
+   "id": "imperial-navy-assets-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "imperial-navy-assets",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "imperial-navy-assets-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-assets",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "imperial-navy-assets-orbital-support",
+   "nombre": "Orbital Support",
+   "seccion": "imperial-navy-assets",
+   "unidades": "Lunar Class Cruiser or Emperor Class Battleship",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "max": 1,
+   "nombreEs": "Apoyo orbital",
+   "unidadesEs": "Lunar Class Cruiser o Emperor Class Battleship"
+  },
+  {
+   "id": "titan-legion-battlegroups-reaver",
+   "nombre": "Reaver",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Reaver Class Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Reaver Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound",
+   "nombre": "Warhound",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warhound Class Titan",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "unidadesEs": "Un Warhound Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound-pack",
+   "nombre": "Warhound Pack",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "Two Warhound Class Titans",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Manada de Warhounds",
+   "unidadesEs": "Dos Warhound Class Titans"
+  },
+  {
+   "id": "titan-legion-battlegroups-warlord",
+   "nombre": "Warlord",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warlord Class Titan",
+   "coste": 825,
+   "costeTexto": "825 points",
+   "unidadesEs": "Un Warlord Class Titan"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "flak",
+   "nombre": "Flak",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add up to two Hydra",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 2,
+   "nombreEs": "Antiaéreo",
+   "textoEs": "Añade hasta dos Hydra"
+  },
+  {
+   "id": "griffon-battery",
+   "nombre": "Griffon Battery",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add three Griffons",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Batería de Griffons",
+   "textoEs": "Añade tres Griffons"
+  },
+  {
+   "id": "hellhound-squadron",
+   "nombre": "Hellhound Squadron",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add up to three Hellhounds",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Escuadrón de Hellhounds",
+   "textoEs": "Añade hasta tres Hellhounds"
+  },
+  {
+   "id": "salamander-command",
+   "nombre": "Salamander Command",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add one Salamander Command",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Mando Salamandra",
+   "textoEs": "Añade un Salamander Command"
+  },
+  {
+   "id": "supreme-commander",
+   "nombre": "Supreme Commander",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add one Supreme Commander character to any unit in the formation",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "maxEjercito": 1,
+   "nombreEs": "Comandante supremo",
+   "textoEs": "Añade un personaje Supreme Commander a cualquier unidad de la formación"
+  },
+  {
+   "id": "tank-squadron",
+   "nombre": "Tank Squadron",
+   "seccion": "minervan-tank-legion-company-upgrades",
+   "texto": "Add any three Leman Russ variants",
+   "coste": 140,
+   "costeTexto": "+140 points",
+   "nombreEs": "Escuadrón de tanques",
+   "textoEs": "Añade tres variantes de Leman Russ cualesquiera"
+  }
+ ],
+ "compras": [
+  {
+   "id": "leman-russ-variants-leman-russ",
+   "nombre": "Leman Russ",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points"
+  },
+  {
+   "id": "leman-russ-variants-leman-russ-conqueror",
+   "nombre": "Leman Russ Conqueror",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 10,
+   "costeTexto": "+10 points"
+  },
+  {
+   "id": "leman-russ-variants-leman-russ-demolisher",
+   "nombre": "Leman Russ Demolisher",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points"
+  },
+  {
+   "id": "leman-russ-variants-leman-russ-exterminator",
+   "nombre": "Leman Russ Exterminator",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 10,
+   "costeTexto": "+10 points"
+  },
+  {
+   "id": "leman-russ-variants-thunderer",
+   "nombre": "Thunderer",
+   "seccion": "leman-russ-variants",
+   "texto": "",
+   "coste": 0,
+   "costeTexto": "Free",
+   "nombreEs": "Atronadores"
+  },
+  {
+   "id": "leman-russ-rare-variants-destroyer-tank-hunter",
+   "nombre": "Destroyer Tank Hunter",
+   "seccion": "leman-russ-rare-variants",
+   "texto": "",
+   "coste": 10,
+   "costeTexto": "+10 points",
+   "nombreEs": "Cazacarros Destroyer"
+  },
+  {
+   "id": "leman-russ-rare-variants-leman-russ-executioner",
+   "nombre": "Leman Russ Executioner",
+   "seccion": "leman-russ-rare-variants",
+   "texto": "",
+   "coste": 20,
+   "costeTexto": "+20 points"
+  },
+  {
+   "id": "leman-russ-rare-variants-leman-russ-vanquisher",
+   "nombre": "Leman Russ Vanquisher",
+   "seccion": "leman-russ-rare-variants",
+   "texto": "",
+   "coste": 45,
+   "costeTexto": "+45 points"
+  }
+ ],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Guardia Imperial – Legión Acorazada de Minerva",
+ "iniciativaEs": "Las formaciones de grupos de batalla de la Legio Titanicus tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.14",
+   "titulo": "Lista de ejército de la Guardia Imperial de la Legión Acorazada de Minerva",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.14, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de la Legión Acorazada de Minerva. También puede usarse como lista «sustituta» para otros regimientos acorazados de la Guardia Imperial, como el Cuerpo de Tanques de Dniepr, el Acorazado de Konig o los Tanques Pesados Teutonianos, entre muchos otros.",
+    "Las formaciones de la Legión Acorazada de Minerva son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Las compañías y escuadrones de tanques pueden estar compuestos por distintas variantes de Leman Russ. El número de variantes figura en la columna «unidades». Las variantes se enumeran en las tablas de variantes de Leman Russ y de variantes raras de Leman Russ. Cada variante adquirida se suma al",
+    "coste de la formación o mejora, y no más de una de cada cinco variantes de Leman Russ por formación puede ser rara. Los ejércitos de la Legión Acorazada de Minerva pueden recibir apoyo de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de la Legión Acorazada de Minerva (véase 6.4.1)."
+   ]
+  },
+  {
+   "id": "6.14.1",
+   "titulo": "Anfibios (Amphibious)",
+   "parrafos": [
+    "Las Legiones Acorazadas de Minerva pueden adaptar sobre la marcha muchos de sus vehículos para uso anfibio. Por cada 1.000 puntos, una Compañía de Tanques puede designarse como anfibia antes de desplegarse en la mesa. Las compañías anfibias cuentan los pantanos como «Sin efecto» y los ríos como «Peligroso»."
+   ]
+  },
+  {
+   "id": "5.4.1",
+   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "parrafos": [
+    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
+    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "FAQ",
+    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "R: No.",
+    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
+    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "R: Sí.",
+    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
+    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "R: No."
+   ]
+  },
+  {
+   "id": "6.4.1",
+   "titulo": "Comisarios (Commissars)",
+   "parrafos": [
+    "Un ejército de la Guardia Imperial puede incluir un personaje Comisario por cada 500 puntos, o fracción, del ejército. Los Comisarios no cuestan puntos.",
+    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
+   ]
+  }
+ ]
+}

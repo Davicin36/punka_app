@@ -1,0 +1,690 @@
+{
+ "id": "ork-gargant-mob",
+ "nombre": "Ork – Gargant Mob",
+ "version": "2026-07-16",
+ "estrategia": 3,
+ "iniciativa": "All formations have an initiative rating of 3+, but receive modifiers depending on the action chosen when activating (see Power of the Waaagh!), or the size of the formation when rallying (see Mob Rule).",
+ "secciones": [
+  {
+   "id": "gargant-mob-core-formations",
+   "nombre": "Gargant Mob Core Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones principales de la Banda Gargant"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "nombre": "Gargant Mob Support And Aircraft Formations / Gargant Mob Support",
+   "tipo": "apoyo",
+   "nota": "Any three support or aircraft formations may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 3,
+    "base": "core formation"
+   },
+   "nombreEs": "Apoyo y aeronaves de la Banda Gargant / Apoyo",
+   "notaEs": "Se pueden desplegar tres formaciones de apoyo o de aeronaves cualesquiera por cada formación principal."
+  },
+  {
+   "id": "gargant-mob-aircraft",
+   "nombre": "Gargant Mob Aircraft",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Aeronaves de la Banda Gargant",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  },
+  {
+   "id": "gargant-weapons",
+   "nombre": "Gargant Weapons",
+   "tipo": "mejoras",
+   "nota": "Each weapon mount in the formation must be mounted with a weapon.",
+   "unaVez": false,
+   "nombreEs": "Armas de Gargant",
+   "notaEs": "Cada montaje de armas de la formación debe llevar un arma."
+  },
+  {
+   "id": "supa-stompa-weapons",
+   "nombre": "Supa-Stompa Weapons",
+   "tipo": "mejoras",
+   "nota": "Each weapon mount in the formation must be mounted with a weapon.",
+   "unaVez": false,
+   "nombreEs": "Armas de Supa-Stompa",
+   "notaEs": "Cada montaje de armas de la formación debe llevar un arma."
+  },
+  {
+   "id": "kustom-upgrades",
+   "nombre": "Kustom Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be added to a Great Gargant, Gargant or Supa-Stompa once.",
+   "unaVez": false,
+   "nombreEs": "Mejoras kustom",
+   "notaEs": "Cada mejora puede añadirse una vez a un Great Gargant, Gargant o Supa-Stompa."
+  },
+  {
+   "id": "support-upgrades",
+   "nombre": "Support Upgrades",
+   "tipo": "mejoras",
+   "nota": "",
+   "unaVez": false,
+   "nombreEs": "Mejoras de apoyo"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "gargant-mob-core-formations-gargant",
+   "nombre": "Gargant",
+   "seccion": "gargant-mob-core-formations",
+   "unidades": "One Gargant and three Gargant or Supa-Stompa Weapons",
+   "coste": 475,
+   "costeTexto": "Normal 475",
+   "mejoras": [
+    "Banna",
+    "Big Gun or Skorcha Head",
+    "'Eavy Armour",
+    "Flak Gunz",
+    "Gork or Mork Head",
+    "Kart",
+    "Ordz Duruk",
+    "Deth Kannon",
+    "Krooz Missiles (Arm weapon mount only)",
+    "Krusha (Arm weapon mount only)",
+    "Lifta-Droppa (Arm weapon mount only)",
+    "Supa-Lifta-Droppa (Arm weapon mount only)",
+    "Twin Soopagun",
+    "Ultra-Lobba (Arm weapon mount only)",
+    "Gatling Cannon",
+    "Loadz o' Guns",
+    "Mega-Choppa (Arm weapon mount only)",
+    "Mega-Lobba (Arm weapon mount only)",
+    "Soopagun",
+    "Snappa (Belly weapon mount only)",
+    "Supa-Zzap-Gun"
+   ],
+   "unidadesEs": "Un Gargant y tres armas de Gargant o Supa-Stompa"
+  },
+  {
+   "id": "gargant-mob-core-formations-great-gargant",
+   "nombre": "Great Gargant",
+   "seccion": "gargant-mob-core-formations",
+   "unidades": "One Great Gargant and three Gargant or Supa-Stompa Weapons",
+   "coste": 650,
+   "costeTexto": "Normal 650",
+   "mejoras": [
+    "Banna",
+    "Big Gun or Skorcha Head",
+    "'Eavy Armour",
+    "Flak Gunz",
+    "Gork or Mork Head",
+    "Kart",
+    "Ordz Duruk",
+    "Deth Kannon",
+    "Krooz Missiles (Arm weapon mount only)",
+    "Krusha (Arm weapon mount only)",
+    "Lifta-Droppa (Arm weapon mount only)",
+    "Supa-Lifta-Droppa (Arm weapon mount only)",
+    "Twin Soopagun",
+    "Ultra-Lobba (Arm weapon mount only)",
+    "Gatling Cannon",
+    "Loadz o' Guns",
+    "Mega-Choppa (Arm weapon mount only)",
+    "Mega-Lobba (Arm weapon mount only)",
+    "Soopagun",
+    "Snappa (Belly weapon mount only)",
+    "Supa-Zzap-Gun"
+   ],
+   "nombreEs": "Gran Gargant",
+   "unidadesEs": "Un Great Gargant y tres armas de Gargant o Supa-Stompa"
+  },
+  {
+   "id": "gargant-mob-core-formations-mega-gargant",
+   "nombre": "Mega Gargant",
+   "seccion": "gargant-mob-core-formations",
+   "unidades": "One Mega Gargant with a Gork or Mork Head",
+   "coste": 1000,
+   "costeTexto": "Normal 1000",
+   "mejoras": [],
+   "unidadesEs": "Un Mega Gargant con Gork or Mork Head"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support-kan-mob",
+   "nombre": "Kan Mob",
+   "seccion": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "unidades": "Eight Killa Kans",
+   "coste": 200,
+   "costeTexto": "Normal 200 / Big 350 / 'Uge 500",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 200
+    },
+    {
+     "nombre": "Big",
+     "coste": 350,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 500,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "mejoras": [
+    "Dreadnought",
+    "Flakwagon",
+    "Killa Kan",
+    "Stompa"
+   ],
+   "nombreEs": "Mob de Kanz",
+   "unidadesEs": "Ocho Killa Kans"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support-kill-kroozer",
+   "nombre": "Kill Kroozer",
+   "seccion": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "unidades": "One Kill Kroozer",
+   "coste": 150,
+   "costeTexto": "Normal 150",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Replace the Kill Kroozer with a Battlekroozer for +50 points",
+     "coste": 50,
+     "textoEs": "Sustituye el Kill Kroozer por un Battlekroozer por +50 puntos"
+    }
+   ],
+   "nombreEs": "Krucero asesino",
+   "unidadesEs": "Un Kill Kroozer"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support-loota-warband",
+   "nombre": "Loota Warband",
+   "seccion": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "unidades": "Six Boyz, two Grotz and one Big Gunz or Killa Kan",
+   "coste": 150,
+   "costeTexto": "Normal 150 / Big 275 / 'Uge 375",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 150
+    },
+    {
+     "nombre": "Big",
+     "coste": 275,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 375,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "mejoras": [
+    "Battlefortress",
+    "Big Gunz",
+    "Boyz",
+    "Deth Kopta",
+    "Dreadnought",
+    "Flakwagon",
+    "Gunfortress",
+    "Killa Kan",
+    "Nobz",
+    "Oddboy",
+    "Stompa"
+   ],
+   "nombreEs": "Banda de saqueadores",
+   "unidadesEs": "Seis Boyz, dos Grotz y un Big Gunz o Killa Kan"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support-mekboy-stompamob",
+   "nombre": "Mekboy Stompamob",
+   "seccion": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "unidades": "Three Stompas",
+   "coste": 175,
+   "costeTexto": "Normal 175 / Big 300 / 'Uge 425",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 175
+    },
+    {
+     "nombre": "Big",
+     "coste": 300,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 425,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "mejoras": [
+    "Dreadnought",
+    "Flakwagon",
+    "Killa Kan",
+    "Oddboy",
+    "Stompa"
+   ],
+   "nombreEs": "Stompamob del Mekániko",
+   "unidadesEs": "Tres Stompas"
+  },
+  {
+   "id": "gargant-mob-support-and-aircraft-formations-gargant-mob-support-supa-stompa-mob",
+   "nombre": "Supa-Stompa Mob",
+   "seccion": "gargant-mob-support-and-aircraft-formations-gargant-mob-support",
+   "unidades": "One Supa-Stompa and three Supa-Stompa Weapons",
+   "coste": 150,
+   "costeTexto": "Normal 150",
+   "mejoras": [
+    "Dreadnought",
+    "Flakwagon",
+    "Killa Kan",
+    "Banna",
+    "Big Gun or Skorcha Head",
+    "'Eavy Armour",
+    "Flak Gunz",
+    "Gork or Mork Head",
+    "Kart",
+    "Ordz Duruk",
+    "Stompa",
+    "Gatling Cannon",
+    "Loadz o' Guns",
+    "Mega-Choppa (Arm weapon mount only)",
+    "Mega-Lobba (Arm weapon mount only)",
+    "Soopagun",
+    "Snappa (Belly weapon mount only)",
+    "Supa-Zzap-Gun"
+   ],
+   "nombreEs": "Mob de Supa-Stompa",
+   "unidadesEs": "Un Supa-Stompa y tres armas de Supa-Stompa"
+  },
+  {
+   "id": "gargant-mob-aircraft-fighta-sqwadron",
+   "nombre": "Fighta Sqwadron",
+   "seccion": "gargant-mob-aircraft",
+   "unidades": "Three Fighta Bommers",
+   "coste": 150,
+   "costeTexto": "Normal 150",
+   "extras": [
+    {
+     "texto": "Add up to six Fighta Bommers for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 6,
+     "textoEs": "Añade hasta seis Fighta Bommers por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Eskuadrón de kazas",
+   "unidadesEs": "Tres Fighta Bommers"
+  },
+  {
+   "id": "gargant-mob-aircraft-bommer",
+   "nombre": "Bommer",
+   "seccion": "gargant-mob-aircraft",
+   "unidades": "One Bommer",
+   "coste": 175,
+   "costeTexto": "Normal 175",
+   "mejoras": [],
+   "unidadesEs": "Un Bommer"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "deth-kannon",
+   "nombre": "Deth Kannon",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Kañón de la muerte"
+  },
+  {
+   "id": "krooz-missiles-arm-weapon-mount-only",
+   "nombre": "Krooz Missiles (Arm weapon mount only)",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Misiles de krucero (solo brazo)"
+  },
+  {
+   "id": "krusha-arm-weapon-mount-only",
+   "nombre": "Krusha (Arm weapon mount only)",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Aplastador (solo brazo)"
+  },
+  {
+   "id": "lifta-droppa-arm-weapon-mount-only",
+   "nombre": "Lifta-Droppa (Arm weapon mount only)",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Levanta-tira (solo brazo)"
+  },
+  {
+   "id": "supa-lifta-droppa-arm-weapon-mount-only",
+   "nombre": "Supa-Lifta-Droppa (Arm weapon mount only)",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Supa-levanta-tira (solo brazo)"
+  },
+  {
+   "id": "twin-soopagun",
+   "nombre": "Twin Soopagun",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Superkañón doble"
+  },
+  {
+   "id": "ultra-lobba-arm-weapon-mount-only",
+   "nombre": "Ultra-Lobba (Arm weapon mount only)",
+   "seccion": "gargant-weapons",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Ultra-lanzadora (solo brazo)"
+  },
+  {
+   "id": "gatling-cannon",
+   "nombre": "Gatling Cannon",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Kañón gatling"
+  },
+  {
+   "id": "loadz-o-guns",
+   "nombre": "Loadz o' Guns",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Montón de kañones"
+  },
+  {
+   "id": "mega-choppa-arm-weapon-mount-only",
+   "nombre": "Mega-Choppa (Arm weapon mount only)",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Mega-rebanadora (solo brazo)"
+  },
+  {
+   "id": "mega-lobba-arm-weapon-mount-only",
+   "nombre": "Mega-Lobba (Arm weapon mount only)",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Mega-lanzadora (solo brazo)"
+  },
+  {
+   "id": "soopagun",
+   "nombre": "Soopagun",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Superkañón"
+  },
+  {
+   "id": "snappa-belly-weapon-mount-only",
+   "nombre": "Snappa (Belly weapon mount only)",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Mordedora (solo vientre)"
+  },
+  {
+   "id": "supa-zzap-gun",
+   "nombre": "Supa-Zzap-Gun",
+   "seccion": "supa-stompa-weapons",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "banna",
+   "nombre": "Banna",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Estandarte"
+  },
+  {
+   "id": "big-gun-or-skorcha-head",
+   "nombre": "Big Gun or Skorcha Head",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 0,
+   "costeTexto": "Free",
+   "nombreEs": "Cabeza con kañón grande o achicharrador"
+  },
+  {
+   "id": "eavy-armour",
+   "nombre": "'Eavy Armour",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Armadura pesada"
+  },
+  {
+   "id": "flak-gunz",
+   "nombre": "Flak Gunz",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Kañones antiaéreos"
+  },
+  {
+   "id": "gork-or-mork-head",
+   "nombre": "Gork or Mork Head",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Cabeza de Gork o Mork"
+  },
+  {
+   "id": "kart",
+   "nombre": "Kart",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 25,
+   "costeTexto": "+25 points per 4 DC",
+   "porUnidad": true,
+   "max": 10,
+   "nombreEs": "Karro"
+  },
+  {
+   "id": "ordz-duruk",
+   "nombre": "Ordz Duruk",
+   "seccion": "kustom-upgrades",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "battlefortress",
+   "nombre": "Battlefortress",
+   "seccion": "support-upgrades",
+   "texto": "Add one Battlefortress",
+   "coste": 115,
+   "costeTexto": "+115 points",
+   "textoEs": "Añade una Battlefortress"
+  },
+  {
+   "id": "big-gunz",
+   "nombre": "Big Gunz",
+   "seccion": "support-upgrades",
+   "texto": "Add one unit of Big Gunz",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Kañones grandes",
+   "textoEs": "Añade una unidad de Big Gunz"
+  },
+  {
+   "id": "boyz",
+   "nombre": "Boyz",
+   "seccion": "support-upgrades",
+   "texto": "Add one unit of Boyz and Grotz",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Chikoz",
+   "textoEs": "Añade una unidad de Boyz y Grotz"
+  },
+  {
+   "id": "deth-kopta",
+   "nombre": "Deth Kopta",
+   "seccion": "support-upgrades",
+   "texto": "Add one Deth Kopta",
+   "coste": 35,
+   "costeTexto": "+35 points",
+   "textoEs": "Añade un Deth Kopta"
+  },
+  {
+   "id": "dreadnought",
+   "nombre": "Dreadnought",
+   "seccion": "support-upgrades",
+   "texto": "Add one Dreadnought, or Replace one Killa Kan with one Dreadnought",
+   "coste": 35,
+   "costeTexto": "+35 points +10 points",
+   "variantes": [
+    {
+     "coste": 35,
+     "porUnidad": false,
+     "texto": "+35 points",
+     "textoEs": "+35 puntos"
+    },
+    {
+     "coste": 10,
+     "porUnidad": false,
+     "texto": "+10 points",
+     "textoEs": "+10 puntos"
+    }
+   ],
+   "textoEs": "Añade un Dreadnought, o sustituye un Killa Kan por un Dreadnought"
+  },
+  {
+   "id": "flakwagon",
+   "nombre": "Flakwagon",
+   "seccion": "support-upgrades",
+   "texto": "Add one Flakwagon",
+   "coste": 35,
+   "costeTexto": "+35 points",
+   "textoEs": "Añade un Flakwagon"
+  },
+  {
+   "id": "gunfortress",
+   "nombre": "Gunfortress",
+   "seccion": "support-upgrades",
+   "texto": "Add one Gunfortress",
+   "coste": 125,
+   "costeTexto": "+125 points",
+   "textoEs": "Añade una Gunfortress"
+  },
+  {
+   "id": "killa-kan",
+   "nombre": "Killa Kan",
+   "seccion": "support-upgrades",
+   "texto": "Add one Killa Kan",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "textoEs": "Añade un Killa Kan"
+  },
+  {
+   "id": "nobz",
+   "nombre": "Nobz",
+   "seccion": "support-upgrades",
+   "texto": "Add one unit of Nobz",
+   "coste": 35,
+   "costeTexto": "+35 points",
+   "textoEs": "Añade una unidad de Nobz"
+  },
+  {
+   "id": "oddboy",
+   "nombre": "Oddboy",
+   "seccion": "support-upgrades",
+   "texto": "Add one Oddboy character to a Battlefortress, Big Gunz, Gunfortress or Stompa",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Chiko raro",
+   "textoEs": "Añade un personaje Oddboy a una Battlefortress, Big Gunz, Gunfortress o Stompa"
+  },
+  {
+   "id": "stompa",
+   "nombre": "Stompa",
+   "seccion": "support-upgrades",
+   "texto": "Add one Stompa",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade un Stompa"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Orkos – Banda Gargant",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 3+, pero reciben modificadores según la acción elegida al activarse (ver Power of the Waaagh!) o según el tamaño de la formación al reagruparse (ver Mob Rule).",
+ "reglas": [
+  {
+   "id": "6.34",
+   "titulo": "Lista de ejército de la Gran Turba de Gargantes de Orkimedes",
+   "parrafos": [
+    "— Kaudillo Dragnatz",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.34.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército orko basado en la Gran Turba de Gargantes de Orkimedes que combatió en la Tercera Guerra por Armageddon. También puede usarse como lista «sustituta» para otras turbas de Gargantes.",
+    "Las formaciones de la Gran Turba de Gargantes de Orkimedes son de tres tipos: principales, de apoyo y de aeronaves. Cada formación principal que incluyas en el ejército te permite desplegar tres formaciones de apoyo o de aeronaves cualesquiera. Además, no puede gastarse en formaciones de aeronaves más de un tercio de los puntos disponibles. Aunque solo puedes llevar una formación de apoyo o de aeronaves si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "A diferencia de las rígidas formaciones del Imperio, las formaciones orkas varían mucho en tamaño y composición, y las reglas para crearlas lo reflejan. Los tipos de formación orka que puedes elegir se muestran en la lista que sigue, con la siguiente información:",
+    "• Tipo: El nombre de la formación.",
+    "• Unidades principales: Las unidades que componen la formación. El jugador orko puede duplicar o triplicar el nú‐",
+    "mero de unidades; una formación con el doble de unidades se denomina grande y con el triple, enorme.",
+    "• Coste: La mayoría de las formaciones orkas tienen tres valores: el coste de la formación básica, el de la grande y el de la enorme. Si solo tiene un coste, no puede aumentarse de tamaño.",
+    "• Mejoras: Una formación orka puede incluir mejoras. Las mejoras que puede recibir figuran en la columna «Mejoras». Cada mejora adquirida se suma al coste de la formación, según las tablas de Armas y Mejoras de la Turba de Gargantes. Puedes incluir cualquier número de mejoras salvo que se indique lo contrario. Si hay un límite, se duplica en una formación grande y se triplica en una enorme. Por ejemplo, una Partida de Saqueadores (Loota Warband) normal puede incluir 0–1 Oddboy; una grande, 0–2; y una enorme, 0–3. Todas las unidades principales y mejoras de una formación orka cuentan como parte de una única gran formación y no pueden separarse por su cuenta.",
+    "Cada Gargante, Gran Gargante y Soopa-Stompa lleva exactamente tres Armas de Gargante y/o de Supa-Stompa. Su coste figura en las tablas de Armas de Gargante y de Soopa-Stompa y no está incluido en el coste de la formación. Son mejoras obligatorias que la formación debe adquirir y pagar.",
+    "Reglas especiales: Las reglas Ley de la Turba (véase 5.34.1) y El Poder del ¡Waaagh! (véase 5.5.2) se aplican a todas las formaciones."
+   ]
+  },
+  {
+   "id": "6.34.1",
+   "titulo": "Reglas especiales de torneo de la Gran Turba de Gargantes de Orkimedes",
+   "parrafos": [
+    "Todo ejército de la Gran Turba de Gargantes de Orkimedes debe incluir un personaje comandante supremo llamado Gran Jefe Mekániko (Mekboy Big Boss). Es gratuito; no tienes que pagar puntos por él. Se unirá a la formación de Gargante más cara del ejército.",
+    "Todos los Montajes de Arma de las formaciones de Turba de Supa-Stompas y de Gargantes deben llevar un arma montada."
+   ]
+  },
+  {
+   "id": "6.34.2",
+   "titulo": "¡Ahí vamoz! (’Ere We Go!)",
+   "parrafos": [
+    "Antes de superar un chequeo de acción, una formación de Gargante, Gran Gargante o Mega Gargante puede declarar que usa «¡Ahí vamoz!». Las formaciones que lo usan aumentan en +5 cm el valor de Velocidad de todas sus unidades de Ingenio de Guerra hasta el final de su acción. Sin embargo, por cada movimiento de la acción, cada unidad de Ingenio de Guerra sufre su efecto de impacto crítico. Por ejemplo, si una formación de Gran Gargante realiza una acción Doble, la unidad de Gran Gargante se incendia dos veces y resuelve los efectos de esos incendios en la fase final. No importa si la unidad mueve 0 cm o menos que su Velocidad aumentada: sigue considerándose un movimiento a efectos de esta regla."
+   ]
+  },
+  {
+   "id": "5.34.1",
+   "titulo": "Ley de la Turba (Mob Rule)",
+   "parrafos": [
+    "Los orkos creen que, mientras haya un montón de ellos luchando juntos, siempre existe la posibilidad de imponerse, por desfavorables que sean las circunstancias. Para representarlo, las formaciones orkas con más de cinco unidades, sin contar las unidades de Gretchin o Big Gunz, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de diez unidades de ese tipo reciben un +2. A efectos de esta regla, los Gargantes cuentan como si tuvieran más de diez unidades y los Supa-Stompas como si tuvieran más de cinco. Todos los demás ingenios de guerra cuentan cada punto de capacidad de daño inicial como una unidad."
+   ]
+  },
+  {
+   "id": "5.5.2",
+   "titulo": "El Poder del ¡Waaagh! (Power of the Waaagh!)",
+   "parrafos": [
+    "Los orkos no destacan por su capacidad organizativa, por lo que suelen tener un valor de iniciativa bastante bajo. Sin embargo, si hay algo que galvaniza a una partida de guerra orka es la idea de una buena pelea. Por ello, las formaciones orkas que intentan realizar acciones de Enfrentarse o Doble reciben un modificador de +2 a su chequeo de acción. Los pilotos orkos (flyboyz) disfrutan igualmente de la ocasión de acribillarlo todo",
+    "y reciben un +2 a su chequeo de acción al intentar realizar acciones de Interceptación o Ataque a Tierra (véase 4.2)."
+   ]
+  }
+ ]
+}

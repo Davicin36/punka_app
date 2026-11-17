@@ -127,7 +127,12 @@
           "coste": 8
         }
       ],
-      "articulosDeCona": 2
+      "articulosDeCona": 2,
+      "reglasTexto": {
+        "Risa difícil": "Al igual que los típicos payasos de toda la vida, los Pachachos de la Hermandad de la Risa Floja suelen causar emociones polarizadas, o te hacen mucha gracia o los odias a muerte. Luchar contra Pachachos es como tirar una moneda. Cuando una miniatura Dispare o Combata contra un Pachacho tendrá que ver si su tirada de Precisión o Combate (lo que tenga que utilizar) es par o impar. Si fuera par se sumará 2 a la tirada (hasta un resultado máximo de 10) pero con un resultado impar se restará 2 (hasta un mínimo de 1).",
+        "Zapatones": "Si un Pachacho desea Asaltar a una miniatura enemiga y no llega por una distancia de 2,5 cm o menos, gracias a los zapatones podrá adelantarse esa distancia de manera automática y por tanto podrá Asaltar. Pero cuidado, eso mismo sucederá si le Asaltan a él.",
+        "Artículos de coña": "Un Pachacho puede equiparse con hasta dos Artículos de coña."
+      }
     },
     {
       "id": "domador",
@@ -168,6 +173,10 @@
       "fieras": {
         "max": 2,
         "coste": 12
+      },
+      "reglasTexto": {
+        "Señor de las bestias": "Un Domador puede adquirir hasta 2 fieras por +12 puntos cada una. Estas fieras, aunque de diferentes formas y tamaños, deben ir siempre en peana de 40 mm, están armadas con garras y dientes y, chorprecha, tienen la Regla especial Bestia. 2 4 - 4 3 3 - Las fieras siempre deben tratar de estar como máximo a 15 cm de su Domador, no pudiendo alejarse más voluntariamente. Si no estuvieran a esa distancia, cuando sea el momento de actuar de las fieras deben usar todas las Acciones necesarias en",
+        "Avivar": "Un domador puede usar su látigo para avivar a una fiera. Si está en contacto con una de sus fieras puede usar una Acción y la bestia obtendrá un bonificador de +1 a la Fuerza y Dureza durante lo que queda de ese Turno de juego."
       }
     },
     {
@@ -217,7 +226,14 @@
         "Catapulta infernal",
         "Artículos de coña"
       ],
-      "articulosDeCona": 1
+      "articulosDeCona": 1,
+      "reglasTexto": {
+        "Escurridizo": "La miniatura no necesita realizar la tirada enfrentada de Agilidad para Separarse del Combate. La supera automáticamente.",
+        "Todoterreno": "Una miniatura con esta regla considera el Terreno pila chungo como Terreno chungo y el Terreno chungo como Terreno chachi.",
+        "Raudo": "Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla puede Mover 15 cm en lugar de 10 cm por Acción de Movimiento.",
+        "Catapulta infernal": "Los Acróbatas entrenan en pareja una técnica especial para poder saltar más alto y así evitar obstáculos o abalanzarse contra el enemigo. Al empezar la partida puedes emparejar a tus Acróbatas. Obviamente si no son pares, por lo menos un Acróbata deberá estar sin emparejar. Mientras un Acróbata esté en contacto con su pareja (y solo con ella), pasará a tener la Regla especial Salto. Usar uno de estos saltos para Asaltar a un enemigo es siempre peligroso, y la miniatura que lo haga deberá superar una tirada de Agilidad. Si la supera se considerará que la miniatura asaltada está de espaldas (vale, técnicamente estará debajo), pero si la falla, perderá todos los bonificadores del Asalto.",
+        "Artículos de coña": "Un Acróbata puede equiparse con hasta un Artículo de coña."
+      }
     },
     {
       "id": "forzudo",
@@ -266,7 +282,12 @@
         "Artículos de coña"
       ],
       "articulosDeCona": 1,
-      "ignoraArmatoste": true
+      "ignoraArmatoste": true,
+      "reglasTexto": {
+        "Bestia parda": "El Forzudo trabaja literalmente levantando pesos, así que ignora el penalizador de -1 a la Agilidad de la Regla especial Armatoste.",
+        "Lucimiento": "El Forzudo puede llevar a cabo grandes hazañas de fuerza. Una vez por partida, al comienzo de un Turno de juego, podrá hacer que su Atributo de Fuerza tenga un bonificador de +2 que durará hasta el final de ese Turno de juego.",
+        "Artículos de coña": "Un Forzudo puede equiparse con hasta un Artículo de coña."
+      }
     },
     {
       "id": "jefe-de-pista",
@@ -311,7 +332,10 @@
       },
       "reglasEspeciales": [
         "El mayor espectáculo del mundo"
-      ]
+      ],
+      "reglasTexto": {
+        "El mayor espectáculo del mundo": "El Jefe de pista es un maestro de ceremonias experto, capaz de encandilar a niños y mayores por igual, dejándolos boquiabiertos mientras su Troupe hace de las suyas. Durante su Fase de activación, el Jefe de pista puede utilizar su altavoz y gastar 1 Acción para lograr uno de los siguientes efectos, no pudiendo repetir el mismo dos veces durante la partida. • Reclamar la atención: todas las miniaturas enemigas que no están trabadas en Combate deberán girarse inmediatamente para mirar de frente al Jefe de pista. • Presentar a los Pachachos: durante este Turno de juego, la Regla especial Risa difícil de los Pachachos restará o sumará 4 en lugar de 2. • Presentar a los Acróbatas: la próxima vez que utilices la Regla especial Catapulta infernal de un Acróbata, podrá sumar 10 cm a un súper salto (por lo que podría ser de hasta 40 cm). • Presentar a los Forzudos: la próxima vez que utilices la Regla especial Lucimiento de un Forzudo, el bonificador de +2 se aplicará también al Combate. • Presentar a los Domadores: durante este Turno de juego las fieras podrán alejarse hasta 30 cm de los Domadores en lugar de los 15 cm habituales."
+      }
     },
     {
       "id": "francois-el-mimo",
@@ -337,7 +361,13 @@
         "¡Matad a eso!",
         "Mimo",
         "Muro imaginario"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de la Troupe": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "¡Matad a eso!": "Es imposible concentrarse en liquidar a nadie más si François está cerca. Si un enemigo quiere Asaltar o Disparar a una miniatura de la banda de François, y este pudiera ser también blanco de esos ataques, está obligado a hacerlo contra François.",
+        "Mimo": "François se puede poner en plan pesado imitando a alguien hasta el mínimo detalle. Si François está a 30 cm o menos de una miniatura enemiga no Abatida en peana de 25 mm y forma humana en Línea de visión, puede gastar una Acción y pasará a tener todos los Atributos y equipo de esa miniatura. Será como un clon, vamos. Podrá mantenerse así mientras se sigan manteniendo todas las condiciones anteriores.",
+        "Muro imaginario": "A François le mola mucho hacer gestitos con las manos como si tuviera un muro delante hasta el punto de que realmente funciona. François puede gastar una Acción en crear un muro que le proporciona a él y solo él un bonificador de Cobertura de +6 por el frente (en su Línea de visión). Sin embargo, en cuanto se mueva de ese lugar el muro perderá su efecto. , 30 PUNTOS"
+      }
     },
     {
       "id": "madame-destino",
@@ -362,9 +392,14 @@
         "Personalidad de la Troupe",
         "Retraso (3)",
         "Levitación",
-        "Vidente",
-        "La Luna"
-      ]
+        "Vidente"
+      ],
+      "reglasTexto": {
+        "Personalidad de la Troupe": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Retraso (3)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Levitación": "A Madame Destino le da por ir por ahí levitando aunque sin despegarse mucho del suelo. Ignora cualquier tipo de terreno que esté a ras de suelo, incluso el impasable, ya que realmente nunca llega a posarse sobre él.",
+        "Vidente": "Madame Destino es capaz de leer el destino a través de las cartas del Tarot. Puede revelar una carta a una miniatura enemiga en Línea de visión y hasta 45 cm durante el Turno de juego 1 o 2, otra durante el 3 o 4 y otra durante el 5 o 6, gastando 1"
+      }
     }
   ]
 }

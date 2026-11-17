@@ -1,0 +1,567 @@
+{
+ "id": "chaos-space-marine-red-corsairs",
+ "nombre": "Chaos Space Marine – Red Corsairs",
+ "version": "2026-07-16",
+ "estrategia": 4,
+ "iniciativa": "Chaos Navy, Blight Drone, Blood Slaughterer, Brass Scorpion, Daemon Knight, Defiler and Silver Tower formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "red-corsair-core-formations",
+   "nombre": "Red Corsair Core Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones principales de los Corsarios Rojos"
+  },
+  {
+   "id": "red-corsair-support-formations",
+   "nombre": "Red Corsair Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two support formations may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "core formation"
+   },
+   "nombreEs": "Formaciones de apoyo de los Corsarios Rojos",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal."
+  },
+  {
+   "id": "red-corsair-upgrades",
+   "nombre": "Red Corsair Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to four upgrades may be taken once per formation.",
+   "maxPorFormacion": 4,
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Corsarios Rojos",
+   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación."
+  },
+  {
+   "id": "chaos-navy-formations",
+   "nombre": "Chaos Navy Formations",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Formaciones de la Armada del Caos",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  },
+  {
+   "id": "daemon-pool",
+   "nombre": "Daemon Pool",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Reserva de demonios"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "red-corsair-core-formations-hounds-squadron",
+   "nombre": "Hounds Squadron",
+   "seccion": "red-corsair-core-formations",
+   "unidades": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Daemonic Pact",
+    "Icon Bearer"
+   ],
+   "nombreEs": "Escuadrón de Hounds",
+   "unidadesEs": "Ocho Chaos Space Marine Bikes, una con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "red-corsair-core-formations-renegade-warbard",
+   "nombre": "Renegade Warbard",
+   "seccion": "red-corsair-core-formations",
+   "unidades": "Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Battle Barge",
+    "Chaos Champion",
+    "Chaos Warlord",
+    "Cult Marines",
+    "Daemon Prince",
+    "Daemonic Pact",
+    "Defilers",
+    "Dreadnoughts",
+    "Drop Pods",
+    "Havocs",
+    "Hunter",
+    "Icon Bearer",
+    "Land Raiders",
+    "Obliterators",
+    "Rhinos",
+    "Vindicators"
+   ],
+   "nombreEs": "Bardo de guerra renegado",
+   "unidadesEs": "Ocho Chaos Space Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "red-corsair-core-formations-terminator-retinue",
+   "nombre": "Terminator Retinue",
+   "seccion": "red-corsair-core-formations",
+   "unidades": "Between four and six Chaos Space Marine Terminators, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 300,
+   "costeTexto": "300 points for four +50 points per extra",
+   "mejoras": [
+    "Battle Barge",
+    "Chaos Champion",
+    "Chaos Warlord",
+    "Daemon Prince",
+    "Daemonic Pact",
+    "Defilers",
+    "Dreadnoughts",
+    "Hunter",
+    "Icon Bearer",
+    "Land Raiders",
+    "Obliterators",
+    "Vindicators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Séquito de Exterminadores",
+   "unidadesEs": "Entre cuatro y seis Chaos Space Marine Terminators, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "red-corsair-support-formations-armoured-company",
+   "nombre": "Armoured Company",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Between four and eight of any of the following units: Chaos Predator, Chaos Land Raider",
+   "coste": 0,
+   "costeTexto": "50 points each per Chaos Predator 75 points each per Chaos Land Raider",
+   "mejoras": [
+    "Defilers",
+    "Hunter",
+    "Vindicators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (por chaos predator)",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Predator)"
+    },
+    {
+     "texto": "Unidad adicional (por chaos land raider)",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Land Raider)"
+    }
+   ],
+   "nombreEs": "Compañía acorazada",
+   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Chaos Predator, Chaos Land Raider"
+  },
+  {
+   "id": "red-corsair-support-formations-blight-drones",
+   "nombre": "Blight Drones",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Six Blight Drones",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [],
+   "nombreEs": "Drones de la Plaga",
+   "unidadesEs": "Seis Blight Drones"
+  },
+  {
+   "id": "red-corsair-support-formations-blood-slaughterers",
+   "nombre": "Blood Slaughterers",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Five Blood Slaughterers",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [],
+   "nombreEs": "Matarifes de Sangre",
+   "unidadesEs": "Cinco Blood Slaughterers"
+  },
+  {
+   "id": "red-corsair-support-formations-brass-scorpions",
+   "nombre": "Brass Scorpions",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Two Brass Scorpions",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [],
+   "nombreEs": "Escorpiones de Bronce",
+   "unidadesEs": "Dos Brass Scorpions"
+  },
+  {
+   "id": "red-corsair-support-formations-chosen",
+   "nombre": "Chosen",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Six Chaos Space Marine Chosen",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "mejoras": [
+    "Chaos Champion",
+    "Daemonic Pact",
+    "Drop Pods",
+    "Rhinos"
+   ],
+   "nombreEs": "Elegidos",
+   "unidadesEs": "Seis Chaos Space Marine Chosen"
+  },
+  {
+   "id": "red-corsair-support-formations-cult-marines",
+   "nombre": "Cult Marines",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "One Chaos Lord or Sorcerer Lord character and eight Berzerkers or six Noise Marines, Plague Marines or Thousand Sons",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Chaos Champion",
+    "Daemonic Pact",
+    "Defilers",
+    "Dreadnoughts",
+    "Drop Pods",
+    "Rhinos"
+   ],
+   "nombreEs": "Marines de culto",
+   "unidadesEs": "Un personaje Chaos Lord o Sorcerer Lord y ocho Berzerkers, o seis Noise Marines, Plague Marines o Thousand Sons"
+  },
+  {
+   "id": "red-corsair-support-formations-daemon-knights",
+   "nombre": "Daemon Knights",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Four Daemon Knights",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [],
+   "nombreEs": "Caballeros demoníacos",
+   "unidadesEs": "Cuatro Daemon Knights"
+  },
+  {
+   "id": "red-corsair-support-formations-defilers",
+   "nombre": "Defilers",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Four Defilers",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [],
+   "unidadesEs": "Cuatro Defilers"
+  },
+  {
+   "id": "red-corsair-support-formations-raptor-cult",
+   "nombre": "Raptor Cult",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Between four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 175,
+   "costeTexto": "175 points for four +35 points per extra",
+   "mejoras": [
+    "Daemonic Pact"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Culto de raptores",
+   "unidadesEs": "Entre cuatro y ocho Raptors, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "red-corsair-support-formations-silver-towers",
+   "nombre": "Silver Towers",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "Four Silver Towers",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [],
+   "nombreEs": "Torres de Plata",
+   "unidadesEs": "Cuatro Silver Towers"
+  },
+  {
+   "id": "red-corsair-support-formations-strike-cruiser",
+   "nombre": "Strike Cruiser",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "One Strike Cruiser",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "mejoras": [
+    "Battle Barge"
+   ],
+   "nombreEs": "Crucero de asalto",
+   "unidadesEs": "Un Strike Cruiser"
+  },
+  {
+   "id": "red-corsair-support-formations-thunderhawk",
+   "nombre": "Thunderhawk",
+   "seccion": "red-corsair-support-formations",
+   "unidades": "One Chaos Thunderhawk",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [],
+   "unidadesEs": "Un Chaos Thunderhawk"
+  },
+  {
+   "id": "chaos-navy-formations-harbinger",
+   "nombre": "Harbinger",
+   "seccion": "chaos-navy-formations",
+   "unidades": "One Harbinger",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "unidadesEs": "Un Harbinger"
+  },
+  {
+   "id": "chaos-navy-formations-hell-blades",
+   "nombre": "Hell Blades",
+   "seccion": "chaos-navy-formations",
+   "unidades": "Three Hell Blades",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Tres Hell Blades"
+  },
+  {
+   "id": "chaos-navy-formations-hell-talons",
+   "nombre": "Hell Talons",
+   "seccion": "chaos-navy-formations",
+   "unidades": "Two Hell Talons",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "unidadesEs": "Dos Hell Talons"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "battle-barge",
+   "nombre": "Battle Barge",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Replace the Strike Cruiser with a Battle Barge",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Barcaza de batalla",
+   "textoEs": "Sustituye el Strike Cruiser por una Battle Barge"
+  },
+  {
+   "id": "chaos-champion",
+   "nombre": "Chaos Champion",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Champion of Chaos character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Campeón del Caos",
+   "textoEs": "Añade un personaje Champion of Chaos"
+  },
+  {
+   "id": "chaos-warlord",
+   "nombre": "Chaos Warlord",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Chaos Warlord character to a unit with a Chaos Lord character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Señor de la Guerra del Caos",
+   "textoEs": "Añade un personaje Chaos Warlord a una unidad con un personaje Chaos Lord"
+  },
+  {
+   "id": "cult-marines",
+   "nombre": "Cult Marines",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Replace four Chaos Space Marines with four Berzerkers, Noise Marines, Plague Marines or Thousand Sons",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Marines de culto",
+   "textoEs": "Sustituye cuatro Chaos Space Marines por cuatro Berzerkers, Noise Marines, Plague Marines o Thousand Sons"
+  },
+  {
+   "id": "daemon-prince",
+   "nombre": "Daemon Prince",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Príncipe demonio",
+   "textoEs": "Sustituye una unidad con un personaje Chaos Lord por un Daemon Prince"
+  },
+  {
+   "id": "daemonic-pact",
+   "nombre": "Daemonic Pact",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Minor Daemon to the Daemon Pool. The formation may summon daemons.",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Pacto demoníaco",
+   "textoEs": "Añade un Minor Daemon a la reserva de demonios. La formación puede invocar demonios."
+  },
+  {
+   "id": "defilers",
+   "nombre": "Defilers",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add up to three Defilers",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Defilers"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add up to three Chaos Dreadnoughts",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Dreadnoughts"
+  },
+  {
+   "id": "drop-pods",
+   "nombre": "Drop Pods",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Chaos Drop Pods",
+   "coste": 10,
+   "costeTexto": "+10 points per unit",
+   "porUnidad": true,
+   "max": 10,
+   "nombreEs": "Cápsulas de desembarco",
+   "textoEs": "Transporta en Chaos Drop Pods una formación formada solo por infantería y Chaos Dreadnoughts"
+  },
+  {
+   "id": "havocs",
+   "nombre": "Havocs",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Replace four Chaos Space Marines with four Havocs",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Sustituye cuatro Chaos Space Marines por cuatro Havocs"
+  },
+  {
+   "id": "hunter",
+   "nombre": "Hunter",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Hunter",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade un Hunter"
+  },
+  {
+   "id": "icon-bearer",
+   "nombre": "Icon Bearer",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Icon Bearer character",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Portaestandarte",
+   "textoEs": "Añade un personaje Icon Bearer"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add up to four Chaos Land Raiders",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 4,
+   "textoEs": "Añade hasta cuatro Chaos Land Raiders"
+  },
+  {
+   "id": "obliterators",
+   "nombre": "Obliterators",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add up to three Obliterators",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Obliteradores",
+   "textoEs": "Añade hasta tres Obliterators"
+  },
+  {
+   "id": "rhinos",
+   "nombre": "Rhinos",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add one Chaos Rhino for every two infantry units not being transported in Chaos Land Raiders",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería que no vayan transportadas en Chaos Land Raiders"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "red-corsair-upgrades",
+   "texto": "Add up to three Chaos Vindicators",
+   "coste": 35,
+   "costeTexto": "+35 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Vindicators"
+  }
+ ],
+ "compras": [
+  {
+   "id": "daemon-pool-greater-daemon",
+   "nombre": "Greater Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "nombreEs": "Demonio mayor"
+  },
+  {
+   "id": "daemon-pool-minor-daemon",
+   "nombre": "Minor Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "nombreEs": "Demonio menor"
+  }
+ ],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales del Caos – Corsarios Rojos",
+ "iniciativaEs": "Las formaciones de Chaos Navy, Blight Drone, Blood Slaughterer, Brass Scorpion, Daemon Knight, Defiler y Silver Tower tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.29",
+   "titulo": "Lista de ejército de los Corsarios Rojos (Red Corsairs)",
+   "parrafos": [
+    "— El Tirano de Badab",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.29.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Marines Espaciales renegados basado en los Corsarios Rojos. También puede usarse como lista «sustituta» para otros Capítulos renegados, como los Ángeles del Éxtasis, la Masacre Carmesí, la Muerte Gris y los Azotados.",
+    "Las formaciones de los Corsarios Rojos son de dos tipos: formaciones principales y formaciones de apoyo. Cada formación principal que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "Además, las formaciones pueden recibir hasta cuatro mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Los ejércitos de los Corsarios Rojos pueden recibir apoyo de formaciones de la Armada del Caos. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+   ]
+  },
+  {
+   "id": "6.29.1",
+   "titulo": "Reglas especiales de torneo de los Corsarios Rojos",
+   "parrafos": [
+    "Lealtad de la formación: Cada formación de un ejército de los Corsarios Rojos debe lealtad al Caos Indiviso.",
+    "Costes en puntos de invocación:",
+    "Demonios",
+    "Puntos de invocación",
+    "Demonios Menores (Minor Daemons): 1 · Demonio Mayor (Greater Daemon): 6"
+   ]
+  },
+  {
+   "id": "5.11.1",
+   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "parrafos": [
+    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+   ]
+  },
+  {
+   "id": "5.11.2",
+   "titulo": "Foco Demoníaco (Daemonic Focus)",
+   "parrafos": [
+    "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "id": "ork-feral-orks",
+ "nombre": "Ork – Feral Orks",
+ "version": "2026-02-04",
+ "estrategia": 3,
+ "iniciativa": "All formations have an initiative rating of 3+, but receive modifiers depending on the action chosen when taking an action test (see Power of the Waaagh!), or the size of the formation when rallying (see Mob Rule).",
+ "secciones": [
+  {
+   "id": "ork-formations",
+   "nombre": "Ork Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones orkas"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "ork-formations-boarboyz-horde",
+   "nombre": "Boarboyz Horde",
+   "seccion": "ork-formations",
+   "unidades": "Five Boarboyz",
+   "coste": 100,
+   "costeTexto": "Normal 100 / Big 175 / 'Uge 250",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 100
+    },
+    {
+     "nombre": "Big",
+     "coste": 175,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 250,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Boarboyz for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Boarboyz por +25 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Wyrdboy character to any unit for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un personaje Wyrdboy a cualquier unidad por +50 puntos"
+    }
+   ],
+   "nombreEs": "Horda de jinetes de jabalí",
+   "unidadesEs": "Cinco Boarboyz"
+  },
+  {
+   "id": "ork-formations-junka-brigade",
+   "nombre": "Junka Brigade",
+   "seccion": "ork-formations",
+   "unidades": "Six Boyz and six Junkatrukks",
+   "coste": 175,
+   "costeTexto": "Normal 175 / Big 300",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 175
+    },
+    {
+     "nombre": "Big",
+     "coste": 300,
+     "nombreEs": "Grande"
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Boyz with a Junkatrukk for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Boyz con un Junkatrukk por +25 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Nobz with a Junkatrukk for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo unos Nobz con un Junkatrukk por +50 puntos"
+    },
+    {
+     "texto": "Add up to one Wyrdboy character to any unit for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un personaje Wyrdboy a cualquier unidad por +50 puntos"
+    }
+   ],
+   "nombreEs": "Brigada chatarrera",
+   "unidadesEs": "Seis Boyz y seis Junkatrukks"
+  },
+  {
+   "id": "ork-formations-madboyz-horde",
+   "nombre": "Madboyz Horde",
+   "seccion": "ork-formations",
+   "unidades": "Six Madboyz",
+   "coste": 100,
+   "costeTexto": "Normal 100",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Add up to six Madboyz for +15 points each",
+     "coste": 15,
+     "porUnidad": true,
+     "max": 6,
+     "textoEs": "Añade hasta seis Madboyz por +15 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Wyrdboy characters to any unit(s) for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres personajes Wyrdboy a cualquier unidad por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Horda de Chikoz Lokos",
+   "unidadesEs": "Seis Madboyz"
+  },
+  {
+   "id": "ork-formations-steam-gargant",
+   "nombre": "Steam Gargant",
+   "seccion": "ork-formations",
+   "unidades": "One Steam Gargant",
+   "coste": 200,
+   "costeTexto": "Normal 200 / Big 350 / 'Uge 500",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 200
+    },
+    {
+     "nombre": "Big",
+     "coste": 350,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 500,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "nombreEs": "Gargant de vapor",
+   "unidadesEs": "Un Steam Gargant"
+  },
+  {
+   "id": "ork-formations-trappas",
+   "nombre": "Trappas",
+   "seccion": "ork-formations",
+   "unidades": "Six Wildboyz",
+   "coste": 150,
+   "costeTexto": "Normal 150",
+   "nota": "All units in the formation have Scout",
+   "extras": [
+    {
+     "texto": "Add up to one Nobz for +35 points",
+     "coste": 35,
+     "textoEs": "Añade como máximo unos Nobz por +35 puntos"
+    }
+   ],
+   "nombreEs": "Tramperos",
+   "unidadesEs": "Seis Wildboyz",
+   "notaEs": "Todas las unidades de la formación tienen Scout"
+  },
+  {
+   "id": "ork-formations-warband",
+   "nombre": "Warband",
+   "seccion": "ork-formations",
+   "unidades": "Two Nobz, six Boyz and two Grotz",
+   "coste": 200,
+   "costeTexto": "Normal 200 / Big 350 / 'Uge 500",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 200
+    },
+    {
+     "nombre": "Big",
+     "coste": 350,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 500,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of the following units for +25 points each: Boarboyz, Boyz with an optional Grotz, two Wildboyz",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Boarboyz, Boyz con Grotz opcional, dos Wildboyz"
+    },
+    {
+     "texto": "Add any number of Squiggoths for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Squiggoths por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Squig Katapults for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Squig Katapults por +25 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Nobz for +35 points",
+     "coste": 35,
+     "textoEs": "Añade como máximo unos Nobz por +35 puntos"
+    },
+    {
+     "texto": "Add up to one Wyrdboy character to any unit for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un personaje Wyrdboy a cualquier unidad por +50 puntos"
+    },
+    {
+     "texto": "Add up to one Orkeosaurus for +175 points",
+     "coste": 175,
+     "textoEs": "Añade como máximo un Orkeosaurus por +175 puntos"
+    }
+   ],
+   "nombreEs": "Banda de guerra",
+   "unidadesEs": "Dos Nobz, seis Boyz y dos Grotz"
+  },
+  {
+   "id": "ork-formations-wildboyz",
+   "nombre": "Wildboyz",
+   "seccion": "ork-formations",
+   "unidades": "Two Nobz and six Wildboyz",
+   "coste": 125,
+   "costeTexto": "Normal 125 / Big 225 / 'Uge 325",
+   "tamanos": [
+    {
+     "nombre": "Normal",
+     "coste": 125
+    },
+    {
+     "nombre": "Big",
+     "coste": 225,
+     "nombreEs": "Grande"
+    },
+    {
+     "nombre": "'Uge",
+     "coste": 325,
+     "nombreEs": "Enorme"
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of the following units for +25 points each: Boarboyz, two Wildboyz",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Boarboyz, dos Wildboyz"
+    },
+    {
+     "texto": "Add any number of Squiggoths for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Squiggoths por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Squig Katapults for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Squig Katapults por +25 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Nobz for +35 points",
+     "coste": 35,
+     "textoEs": "Añade como máximo unos Nobz por +35 puntos"
+    },
+    {
+     "texto": "Add up to one Wyrdboy character to any unit for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un personaje Wyrdboy a cualquier unidad por +50 puntos"
+    },
+    {
+     "texto": "Add up to one Orkeosaurus for +175 points",
+     "coste": 175,
+     "textoEs": "Añade como máximo un Orkeosaurus por +175 puntos"
+    }
+   ],
+   "nombreEs": "Chikoz salvajes",
+   "unidadesEs": "Dos Nobz y seis Wildboyz"
+  }
+ ],
+ "mejoras": [],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Orkos – Orkos salvajes",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 3+, pero reciben modificadores según la acción elegida al hacer un chequeo de acción (ver Power of the Waaagh!) o según el tamaño de la formación al reagruparse (ver Mob Rule).",
+ "reglas": [
+  {
+   "id": "6.8",
+   "titulo": "Lista de ejército de la Horda Orka Salvaje del Kaudillo Snagga Snagga",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.8.",
+    "Uso de la lista de ejército: A diferencia de las rígidas formaciones del Imperio, las formaciones orkas varían mucho en tamaño y composición, y las reglas para crearlas lo reflejan. Los tipos de formación orka que puedes elegir se muestran en la lista que sigue, con la misma información (Tipo, Unidades principales, Coste y Unidades adicionales) y las mismas reglas de formaciones grandes y enormes descritas en 6.5. Puede gastarse en aeronaves y Gargantes hasta un tercio de los puntos disponibles de un ejército orko.",
+    "Reglas especiales: Las reglas Ley de la Turba (véase 5.8.1) y El Poder del ¡Waaagh! (véase 5.8.2) se aplican a todas las formaciones orkas."
+   ]
+  },
+  {
+   "id": "6.8.1",
+   "titulo": "Reglas especiales de torneo de los Orkos Salvajes",
+   "parrafos": [
+    "Todo ejército orko debe incluir un personaje de Mando Supremo llamado Kaudillo. El Kaudillo es gratuito; no tienes que pagar puntos por él. El Kaudillo se unirá a la formación del ejército con más unidades. Los ingenios de guerra cuentan su Capacidad de Daño inicial para el tamaño de la formación. En caso de empate, puedes elegir a qué partida de guerra se une el Kaudillo. Los Orkeosaurios que formen parte de una partida de guerra solo pueden transportar unidades de su propia formación. Los ejércitos de Orkos Salvajes pueden desplegar una formación de Trampaz (Trappa). Esta formación representa a Wildboyz orkos que usan sus habilidades para explorar por delante del ejército principal. Por ello, todas las unidades de la formación tienen Explorador."
+   ]
+  },
+  {
+   "id": "5.8.1",
+   "titulo": "Ley de la Turba (Mob Rule)",
+   "parrafos": [
+    "Los orkos creen que, mientras haya un montón de ellos luchando juntos, siempre existe la posibilidad de imponerse, por desfavorables que sean las circunstancias. Para representarlo, las formaciones orkas con más de cinco unidades, sin contar las unidades de Grotz o Squig Katapultz, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de 10 unidades de ese tipo reciben un +2. A efectos de esta regla, los ingenios de guerra cuentan cada punto de capacidad de daño inicial como una unidad."
+   ]
+  },
+  {
+   "id": "5.8.2",
+   "titulo": "El Poder del ¡Waaagh!",
+   "parrafos": [
+    "Los orkos no destacan por su capacidad organizativa, por lo que suelen tener un valor de iniciativa bastante bajo. Sin embargo, si hay algo que galvaniza a una partida de guerra orka es la idea de una buena pelea. Por ello, las formaciones orkas que intentan realizar acciones de Carga (Enfrentarse) o Doble reciben un modificador de +2 a su chequeo de acción."
+   ]
+  }
+ ]
+}

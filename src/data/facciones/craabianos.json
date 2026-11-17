@@ -210,7 +210,10 @@
       },
       "reglasEspeciales": [
         "El mar siempre reclama"
-      ]
+      ],
+      "reglasTexto": {
+        "El mar siempre reclama": "El mar da dones, pero no gratis. Cada miniatura Craabiana de la banda excepto los Grumetes, puede repetir una sola tirada, una vez por partida, siempre que involucre a un Atributo. Sin embargo, tras hacer esto, perderá 1 punto permanente de ese Atributo."
+      }
     },
     {
       "id": "arponero",
@@ -276,7 +279,10 @@
       },
       "reglasEspeciales": [
         "El mar siempre reclama"
-      ]
+      ],
+      "reglasTexto": {
+        "El mar siempre reclama": "El mar da dones, pero no gratis. Cada miniatura Craabiana de la banda excepto los Grumetes, puede repetir una sola tirada, una vez por partida, siempre que involucre a un Atributo. Sin embargo, tras hacer esto, perderá 1 punto permanente de ese Atributo."
+      }
     },
     {
       "id": "capitan",
@@ -348,7 +354,11 @@
         "El mar siempre reclama",
         "Reliquias abisales (1)"
       ],
-      "reliquias": 1
+      "reliquias": 1,
+      "reglasTexto": {
+        "El mar siempre reclama": "El mar da dones, pero no gratis. Cada miniatura Craabiana de la banda excepto los Grumetes, puede repetir una sola tirada, una vez por partida, siempre que involucre a un Atributo. Sin embargo, tras hacer esto, perderá 1 punto permanente de ese Atributo.",
+        "Reliquias abisales (1)": "Un Capitán puede equiparse con hasta una Reliquia abisal."
+      }
     },
     {
       "id": "custodio-del-abismo",
@@ -410,7 +420,14 @@
         "Plegarias inmundas",
         "Reliquias abisales (2)"
       ],
-      "reliquias": 2
+      "reliquias": 2,
+      "reglasTexto": {
+        "El mar siempre reclama": "El mar da dones, pero no gratis. Cada miniatura Craabiana de la banda excepto los Grumetes, puede repetir una sola tirada, una vez por partida, siempre que involucre a un Atributo. Sin embargo, tras hacer esto, perderá 1 punto permanente de ese Atributo.",
+        "Arrastrados al fondo": "En las cercanías de un Custodio del abismo la presión aumenta y el aire se hace más denso. Cualquier miniatura enemiga a 15 cm o menos de un Custodio del abismo tendrá que seguir las mismas reglas que si atravesara Terreno chungo, pero teniendo que tirar Fuerza en lugar de Agilidad. Ten en cuenta que realmente no es Terreno chungo, por lo que cualquier regla que lo ignore, aquí no servirá de nada.",
+        "Ofrenda a las profundidades": "Los Señores de las Profundidades gustan de recibir ofrendas valiosas para otorgar sus dones. Un Custodio del abismo en contacto con una miniatura enemiga Abatida puede gastar 1 Acción en ungir ese cuerpo y ofrecerlo a sus dioses. Cada miniatura enemiga ungida (sólo puede hacerse una vez por miniatura) hará que una miniatura aliada a su elección pueda decidir lanzar el segundo dado tras hacer la tirada cuando usa la Regla especial El mar siempre reclama.",
+        "Plegarias inmundas": "Los Custodios del abismo pueden lanzar terribles plegarias sobre sus enemigos. Un Custodio del abismo que gaste 1 Acción puede a eligir una miniatura enemiga a 15 cm y en Línea de Visión. Esa miniatura tendrá un penalizador de -1 al Combate o Precisión, que se perderá tras usar por primera vez cualquiera de esos dos Atributos.",
+        "Reliquias abisales (2)": "Un Custodio del Abismo puede equiparse con hasta dos Reliquias abisales."
+      }
     },
     {
       "id": "bloody-mary",
@@ -437,7 +454,14 @@
         "Mirada de la fosa",
         "Voz del Abismo",
         "El filo de la herejía"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Craabianos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Colmillo de Leviatán": "El colmillo curvo de un leviatán marino, tallado y afilado por los Custodios del Abismo hasta convertirlo en una hoja de hueso capaz de partir el casco de un bote. Tiene las estadísticas de un filo pesado, pero ignora blindajes y no tendrá la Regla especial Armatoste.",
+        "Mirada de la fosa": "Quien sostiene la mirada de Mary se enfrenta al vacío de las aguas abisales. Cualquier miniatura enemiga que declare un Asalto contra Bloody Mary debe superar primero una tirada de Dureza. Si no la supera, deberá realizar otra Acción en su lugar. Ninguna miniatura sufrirá este efecto más de una vez por partida.",
+        "Voz del Abismo": "Mary canaliza los susurros de los Custodios. Una vez por Turno de juego, Mary puede gastar 1 Acción para permitir que todos los Custodios del Abismo aliados a 20 cm o menos utilicen su regla Plegarias inmundas con un alcance extendido a 25 cm hasta el final de ese Turno de juego.",
+        "El filo de la herejía": "Para los craabianos, desobedecer a Mary es tentar un destino peor que el fondo del océano. Si una miniatura aliada a 10 cm o menos de Mary saca un resultado de 10 en una tirada de Atributo o de 1 en una Tirada enfrentada, Mary le echará tal mirada gélida y asesina que podrá repetir la tirada."
+      }
     },
     {
       "id": "davinnie-jones",
@@ -464,7 +488,18 @@
         "Fusil arponero",
         "Tentáculos vivos",
         "Cargado de mala hostia"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Craabianos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Cisma en cubierta": "Los jerifaltes no soportan que les robe protagonismo. Ninguna miniatura con el rango de Capitán o Custodio del Abismo puede gastar Acciones de Movimiento para acercarse a menos de 15 cm de Davinnie (él si puede acercarse a ellos, que se jodan). Si estuvieran a esa distancia, deben gastar las Acciones necesarias hasta alejarse.",
+        "Fusil arponero": "Davinnie porta un trabuco modificado para ser capaz de lanzar arpones. Es un arma a distancia de Fuerza 4, Penetración 5, Distancia 10/30/40 cm y las Reglas especiales A dos manos y Lentorra (1).",
+        "Tentáculos vivos": "Davinnie lleva puesta una tétrica máscara de bronce con tentáculos que parece respirar con vida propia, mientras que la poca carne que asoma parece haber dejado atrás cualquier atisbo de humanidad. Además de las reglas habituales de la Reliquia abisal Máscara tentacular, también ganará cualquier empate en las tiradas de Fuerza contra Dureza del Combate, aunque no fuera su Turno activo.",
+        "Cargado de mala hostia": "El hecho de que lo arrojaran al mar no ha conseguido calmar el carácter de Davinnie, incapaz de soportar la inutilidad de los demás. Cada vez que una miniatura de su banda falle un tirada de Atributo o pierda una tirada Enfrentada, Davinnie ganará un marcador de Mala hostia. Puede gastar 3 de estos marcadores en ignorar la Regla especial Sangre salada en un Asalto o para cargar su fusil arponero sin necesidad de gastar 1 Acción."
+      }
     }
-  ]
+  ],
+  "reglasFaccionTexto": {
+    "El mar siempre reclama": "El mar da dones, pero no gratis. Cada miniatura Craabiana de la banda excepto los Grumetes, puede repetir una sola tirada, una vez por partida, siempre que involucre a un Atributo. Sin embargo, tras hacer esto, perderá 1 punto permanente de ese Atributo.",
+    "Sangre salada": "Los Craabianos están acostumbrados a luchar en sus embarcaciones, y estar en tierra les resulta desagradable e inquietante, con sus cuerpos intentando compensar un bamboleo que ya no existe. Las miniaturas de Craabianos no obtienen ningún bonificador por las Acciones de movimiento que utilicen al Asaltar."
+  }
 }

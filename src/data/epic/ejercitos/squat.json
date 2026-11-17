@@ -1,0 +1,525 @@
+{
+ "id": "squat",
+ "nombre": "Squat",
+ "version": "2026-02-03",
+ "estrategia": 2,
+ "iniciativa": "All formations have an initiative rating of 2+, but may receive a modifier to their Rally tests (see Iron Willed).",
+ "secciones": [
+  {
+   "id": "squat-individuals",
+   "nombre": "Squat Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos squat",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  },
+  {
+   "id": "brotherhoods",
+   "nombre": "Brotherhoods",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Hermandades"
+  },
+  {
+   "id": "support-formations",
+   "nombre": "Support Formations",
+   "tipo": "apoyo",
+   "nota": "Each brotherhood you include in the army allows you to field any two support formations.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "brotherhood"
+   },
+   "nombreEs": "Formaciones de apoyo",
+   "notaEs": "Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera."
+  },
+  {
+   "id": "war-engines",
+   "nombre": "War Engines",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Máquinas de guerra",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "squat-individuals-grand-warlord",
+   "nombre": "Grand Warlord",
+   "seccion": "squat-individuals",
+   "unidades": "Add one Grand Warlord character to a Warlord, Guildmaster or a unit in a War Engine formation.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Gran Señor de la Guerra",
+   "unidadesEs": "Añade un personaje Grand Warlord a un Warlord, un Guildmaster o una unidad de una formación de War Engine."
+  },
+  {
+   "id": "squat-individuals-living-ancestor",
+   "nombre": "Living Ancestor",
+   "seccion": "squat-individuals",
+   "unidades": "Add one Living Ancestor character to a Warlord or a unit in a War Engine formation.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Ancestro viviente",
+   "unidadesEs": "Añade un personaje Living Ancestor a un Warlord o a una unidad de una formación de War Engine."
+  },
+  {
+   "id": "brotherhoods-berserker",
+   "nombre": "Berserker",
+   "seccion": "brotherhoods",
+   "unidades": "One Hearthguard and five Berserkers",
+   "coste": 175,
+   "costeTexto": "Pequeña (S) 175 / Mediana (M) 300 / Grande (L) 425",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 175
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 300
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 425
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add the number of Rhinos required to transport the formation for +10 points each",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Rhinos necesarios para transportar la formación por +10 puntos cada uno"
+    },
+    {
+     "texto": "Add the number of Termites or Moles required to transport the formation for +10 or +25 points each, respectively",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Termites o Moles necesarios para transportar la formación por +10 o +25 puntos cada uno, respectivamente"
+    },
+    {
+     "texto": "Add any number of Berserkers for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Berserkers por +20 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Berserkers",
+   "unidadesEs": "Un Hearthguard y cinco Berserkers"
+  },
+  {
+   "id": "brotherhoods-thunderer",
+   "nombre": "Thunderer",
+   "seccion": "brotherhoods",
+   "unidades": "Five Thunderers",
+   "coste": 225,
+   "costeTexto": "Pequeña (S) 225 / Mediana (M) 400 / Grande (L) 575",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 225
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 400
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 575
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add the number of Rhinos required to transport the formation for +10 points each",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Rhinos necesarios para transportar la formación por +10 puntos cada uno"
+    },
+    {
+     "texto": "Add the number of Termites or Moles required to transport the formation for +10 or +25 points each, respectively",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Termites o Moles necesarios para transportar la formación por +10 o +25 puntos cada uno, respectivamente"
+    },
+    {
+     "texto": "Add up to three Rapiers for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Rapiers por +25 puntos cada uno"
+    },
+    {
+     "texto": "Add any number of Thunderers for +40 points each",
+     "coste": 40,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Thunderers por +40 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Hearthguard for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un Hearthguard por +50 puntos"
+    }
+   ],
+   "nombreEs": "Atronadores",
+   "unidadesEs": "Cinco Thunderers"
+  },
+  {
+   "id": "brotherhoods-warrior",
+   "nombre": "Warrior",
+   "seccion": "brotherhoods",
+   "unidades": "One Hearthguard and nine Warriors",
+   "coste": 250,
+   "costeTexto": "Pequeña (S) 250 / Mediana (M) 450 / Grande (L) 650",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 250
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 450
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 650
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add the number of Rhinos required to transport the formation for +10 points each",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Rhinos necesarios para transportar la formación por +10 puntos cada uno"
+    },
+    {
+     "texto": "Add the number of Termites or Moles required to transport the formation for +10 or +25 points each, respectively",
+     "coste": 10,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Añade los Termites o Moles necesarios para transportar la formación por +10 o +25 puntos cada uno, respectivamente"
+    },
+    {
+     "texto": "Add any number of Warriors for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Warriors por +20 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Rapiers for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Rapiers por +25 puntos cada uno"
+    },
+    {
+     "texto": "Replace one Hearthguard with a Warlord for +25 points",
+     "coste": 25,
+     "textoEs": "Sustituye un Hearthguard por un Warlord por +25 puntos"
+    }
+   ],
+   "nombreEs": "Guerreros",
+   "unidadesEs": "Un Hearthguard y nueve Warriors"
+  },
+  {
+   "id": "support-formations-air-attack-corps",
+   "nombre": "Air Attack Corps",
+   "seccion": "support-formations",
+   "unidades": "One Overlord",
+   "coste": 250,
+   "costeTexto": "Pequeña (S) 250 / Mediana (M) 450 / Grande (L) 650",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 250
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 450
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 650
+    }
+   ],
+   "nombreEs": "Cuerpo de ataque aéreo",
+   "unidadesEs": "Un Overlord"
+  },
+  {
+   "id": "support-formations-artillery-battery",
+   "nombre": "Artillery Battery",
+   "seccion": "support-formations",
+   "unidades": "Any five of the following units: Mole Mortar, Tarantula, Thudd Gun",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150 / Mediana (M) 275 / Grande (L) 375",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 150
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 275
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 375
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of the following units for +25 points each: Mole Mortar, Tarantula, Thudd Gun",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Mole Mortar, Tarantula, Thudd Gun"
+    }
+   ],
+   "nombreEs": "Batería de artillería",
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Mole Mortar, Tarantula, Thudd Gun"
+  },
+  {
+   "id": "support-formations-guild-robot-squadron",
+   "nombre": "Guild Robot Squadron",
+   "seccion": "support-formations",
+   "unidades": "Any five of the following units: Colossus Class Robot, Conqueror Class Robot",
+   "coste": 200,
+   "costeTexto": "Pequeña (S) 200",
+   "nombreEs": "Escuadrón de robots del Gremio",
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Colossus Class Robot, Conqueror Class Robot"
+  },
+  {
+   "id": "support-formations-guild-squadron",
+   "nombre": "Guild Squadron",
+   "seccion": "support-formations",
+   "unidades": "One Guildmaster and five Guild Bikers",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150 / Mediana (M) 250 / Grande (L) 350",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 150
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 250
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 350
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Guild Bikers for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Guild Bikers por +20 puntos cada uno"
+    },
+    {
+     "texto": "Replace any number of Guild Bikers with an equal number of Guild Trikes for +5 points each",
+     "coste": 5,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Sustituye cualquier número de Guild Bikers por el mismo número de Guild Trikes por +5 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Escuadrón del Gremio",
+   "unidadesEs": "Un Guildmaster y cinco Guild Bikers"
+  },
+  {
+   "id": "support-formations-gyrocopter-wing",
+   "nombre": "Gyrocopter Wing",
+   "seccion": "support-formations",
+   "unidades": "Any three of the following units: Iron Eagle, Steel Hawk, War Hawk",
+   "coste": 225,
+   "costeTexto": "Pequeña (S) 225 / Mediana (M) 375 / Grande (L) 525",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 225
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 375
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 525
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of the following units for +50 points each: Iron Eagle, Steel Hawk, War Hawk",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +50 puntos cada una: Iron Eagle, Steel Hawk, War Hawk"
+    }
+   ],
+   "nombreEs": "Ala de girocópteros",
+   "unidadesEs": "Tres cualesquiera de estas unidades: Iron Eagle, Steel Hawk, War Hawk"
+  },
+  {
+   "id": "support-formations-super-heavy-artillery-battery",
+   "nombre": "Super-Heavy Artillery Battery",
+   "seccion": "support-formations",
+   "unidades": "One Goliath",
+   "coste": 200,
+   "costeTexto": "Pequeña (S) 200 / Mediana (M) 300 / Grande (L) 400",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 200
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 300
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 400
+    }
+   ],
+   "nombreEs": "Batería de artillería superpesada",
+   "unidadesEs": "Un Goliath"
+  },
+  {
+   "id": "support-formations-thunderfire-battery",
+   "nombre": "Thunderfire Battery",
+   "seccion": "support-formations",
+   "unidades": "Two Thunderfires",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150",
+   "extras": [
+    {
+     "texto": "Add up to one Thunderfire for +25 points",
+     "coste": 25,
+     "textoEs": "Añade como máximo un Thunderfire por +25 puntos"
+    }
+   ],
+   "nombreEs": "Batería Thunderfire",
+   "unidadesEs": "Dos Thunderfires"
+  },
+  {
+   "id": "war-engines-colossus",
+   "nombre": "Colossus",
+   "seccion": "war-engines",
+   "unidades": "One Colossus and one Recon Iron Eagle",
+   "coste": 600,
+   "costeTexto": "Pequeña (S) 600",
+   "unidadesEs": "Un Colossus y un Recon Iron Eagle"
+  },
+  {
+   "id": "war-engines-cyclops",
+   "nombre": "Cyclops",
+   "seccion": "war-engines",
+   "unidades": "One Cyclops",
+   "coste": 600,
+   "costeTexto": "Pequeña (S) 600",
+   "unidadesEs": "Un Cyclops"
+  },
+  {
+   "id": "war-engines-land-train",
+   "nombre": "Land Train",
+   "seccion": "war-engines",
+   "unidades": "One Land Train with a Berserker Battlecar character",
+   "coste": 275,
+   "costeTexto": "Pequeña (S) 275",
+   "extras": [
+    {
+     "texto": "Add up to three Berserker Battlecar characters for +50 points each.",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres personajes Berserker Battlecar por +50 puntos cada uno."
+    },
+    {
+     "texto": "Replace between one and four Berserker Battlecar characters with any of the following characters: Dragon, Skyhammer or Mortar Battlecar for +25 points Iron Eagle Battlecar (and one Recon Iron Eagle), or Fire Shield for +50 points Bomb Battlecar for +75 points",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Sustituye entre uno y cuatro personajes Berserker Battlecar por cualquiera de estos: Dragon, Skyhammer o Mortar Battlecar por +25 puntos; Iron Eagle Battlecar (y un Recon Iron Eagle) o Fire Shield por +50 puntos; Bomb Battlecar por +75 puntos"
+    }
+   ],
+   "nombreEs": "Tren terrestre",
+   "unidadesEs": "Un Land Train con un personaje Berserker Battlecar"
+  },
+  {
+   "id": "war-engines-leviathan",
+   "nombre": "Leviathan",
+   "seccion": "war-engines",
+   "unidades": "One Leviathan",
+   "coste": 400,
+   "costeTexto": "Pequeña (S) 400",
+   "unidadesEs": "Un Leviathan"
+  }
+ ],
+ "mejoras": [],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Squats",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 2+, pero pueden recibir un modificador a sus chequeos de reagrupamiento (ver Iron Willed).",
+ "reglas": [
+  {
+   "id": "6.36",
+   "titulo": "Lista de ejército squat de la Fortaleza de Grindel",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.36.",
+    "Uso de la lista de ejército: Las formaciones squats de la Fortaleza de Grindel son de tres tipos: hermandades, formaciones de apoyo e ingenios de guerra. Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo. Aunque solo puedes llevar una formación de apoyo si antes llevas una hermandad, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Puedes llevar cualquier número de formaciones de ingenios de guerra siempre que no gastes en ellas más de un tercio de los puntos disponibles. Por último, los Individuos Squats son personajes especiales que solo pueden adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas».",
+    "• Tipo: El nombre de la formación.",
+    "• Unidades principales: Las unidades que componen la formación. Pueden duplicarse o triplicarse. Una formación con el número normal de unidades principales se denomina pequeña (S); con el doble, mediana (M); y con el triple, grande (L).",
+    "• Coste: Los costes figuran bajo S, M y L (pequeña, mediana o grande, respectivamente).",
+    "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse o sustituirse, se duplica en las formaciones medianas y se triplica en las grandes.",
+    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta."
+   ]
+  },
+  {
+   "id": "6.36.1",
+   "titulo": "Voluntad de Hierro (Iron-willed)",
+   "parrafos": [
+    "Todas las formaciones, salvo los Escuadrones de Robots del Gremio, reciben un modificador de +1 a sus chequeos de Reorganización."
+   ]
+  },
+  {
+   "id": "6.36.2",
+   "titulo": "Transportes squats",
+   "parrafos": [
+    "Si una Hermandad Squat adquiere mejoras de Rhino, debe ser el número mínimo necesario para transportar a toda la formación una vez añadidas todas las demás mejoras. Lo mismo se aplica a las mejoras de Termita (Termite) y Topo (Mole). Las Termitas y los Topos pueden adquirirse juntos, pero los Rhinos no pueden adquirirse junto con Termitas y Topos."
+   ]
+  },
+  {
+   "id": "6.36.3",
+   "titulo": "Reglas especiales de torneo del ejército squat de la Fortaleza de Grindel",
+   "parrafos": [
+    "Escuadrón de Robots del Gremio (Guild Robot Squadron): Las unidades de las formaciones de Escuadrón de Robots del Gremio no pueden capturar objetivos.",
+    "Topos (Moles): En las partidas de torneo, los Topos solo pueden transportar unidades de su propia formación (las reglas de 3.1.3 no se les aplican).",
+    "✠"
+   ]
+  },
+  {
+   "id": "5.36.1",
+   "titulo": "Dirigido (Directed)",
+   "parrafos": [
+    "Las armas Dirigidas no requieren línea de fuego hacia las unidades enemigas hacia las que tenga línea de fuego un Observador (véase 5.36.2) de la formación de su unidad. Si disparan sin línea de fuego contra una de esas unidades, el arma tiene un alcance mínimo de 30 cm."
+   ]
+  },
+  {
+   "id": "5.36.2",
+   "titulo": "Observador (Spotter)",
+   "parrafos": [
+    "Un Observador permite a las armas Dirigidas (véase 5.36.1) de las unidades de su formación disparar a las unidades enemigas hacia las que él tenga línea de fuego.",
+    "✠"
+   ]
+  }
+ ]
+}

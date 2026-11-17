@@ -55,7 +55,11 @@
         "Bersérker",
         "Mónguer"
       ],
-      "sinEquipoGenerico": true
+      "sinEquipoGenerico": true,
+      "reglasTexto": {
+        "Bersérker": "Algunos luchadores son tan agresivos o fanáticos que parecen no darse cuenta de que están muertos hasta que es demasiado tarde para el bienestar de sus rivales. La miniatura puede completar la Fase de activación propia tras resultar Abatida. Al final de esa Fase de activación, si acaba el último Turno de la partida o si resulta Abatida de nuevo (lo que antes suceda), se considerará una baja definitiva.",
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato."
+      }
     },
     {
       "id": "sanitario",
@@ -104,7 +108,10 @@
       },
       "reglasEspeciales": [
         "Primeros auxilios"
-      ]
+      ],
+      "reglasTexto": {
+        "Primeros auxilios": "Un Sanitario puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. Tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y tirar en la siguiente tabla. No puede volver a usarse Primeros auxilios en una miniatura que ya hubiera sido parcheada."
+      }
     },
     {
       "id": "soldat",
@@ -164,7 +171,10 @@
       },
       "reglasEspeciales": [
         "Mastín"
-      ]
+      ],
+      "reglasTexto": {
+        "Mastín": "El V Reich adora a los animales mucho más que a los Mutardos, sobre todo a los perros fieros y poderosos que pueda entrenar para labores de vigilancia, rastreo o incluso combate. Un Soldat puede llevar UN mastín, que irá sujeto por una correa, moviéndose con ella, como un elemento de equipo más. El mastín otorga un bonificador de +1 al Combate. Además si la miniatura resulta Abatida, el mastín vigilará, evitando que cualquier miniatura enemiga pueda Rapiñar el cadáver del Soldat."
+      }
     },
     {
       "id": "ubersoldat",
@@ -309,7 +319,10 @@
       },
       "reglasEspeciales": [
         "Cadena de mando"
-      ]
+      ],
+      "reglasTexto": {
+        "Cadena de mando": "El Mariscal puede impartir órdenes con su walkie-talkie a cualquier otra miniatura de su banda que esté equipada también con uno de estos artilugios y no esté trabada en Combate. Al hacerlo, le cederá una de sus Acciones para esa Fase de activación, que esa miniatura deberá realizar de inmediato nada más recibir la orden. La Acción de activar el walkietalkie es la misma que se cede a la otra miniatura, por lo que el Mariscal podrá utilizar esta Regla especial hasta tres veces en su"
+      }
     },
     {
       "id": "ilse-la-loba-del-v-reich",
@@ -334,7 +347,12 @@
         "Personalidad del V Reich",
         "Fusta",
         "Cazadora de Mutardos"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad del V Reich": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Fusta": "Ilse siempre lleva consigo una fusta de montar, que utiliza en combate para humillar y sacar de sus casillas a los rivales más que para eliminarlos. Tiene las estadísticas de un filo pequeño, pero por cada vez que impacte y no consiga Abatir al rival éste perderá 1 punto a Combate de forma acumulativa, ya que la ira y la vergüenza de ser fustigado en público lo harán perder los estribos.",
+        "Cazadora de Mutardos": "La loba del V Reich tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Mutardos, contará con las Reglas especiales Bersérker y Sed de sangre."
+      }
     },
     {
       "id": "aaron-schwartzmann",
@@ -366,7 +384,15 @@
         "Maestro estratega",
         "Amado líder"
       ],
-      "nota": "Se considera Mariscal (Cadena de mando)."
+      "nota": "Se considera Mariscal (Cadena de mando).",
+      "reglasTexto": {
+        "Montada": "Algunos parameños que seguro son unos vagos, se desplazan sobre animales o pequeños vehículos. Estas miniaturas no pueden controlar ni interaccionar con objetivos, no pueden Atravesar obstáculos y son incapaces de Trepar, ni siquiera por una escalerilla. Ya que es difícil Disparar mientras se monta, cualquier arma con la que dispare tendrá un penalizador de -1 a la Precisión.",
+        "Personalidad del V Reich": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Raudo": "Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla puede Mover 15 cm en lugar de 10 cm por Acción de Movimiento.",
+        "Cadena de mando": "Aaron se considera Mariscal en su banda del V Reich, por lo que podrá usar la Regla especial Cadena de mando.",
+        "Maestro estratega": "Aaron no sólo se considera Mariscal en su banda del V Reich, por lo que podrá usar la regla especial Cadena de Mando, si no que además, una vez por Turno de juego, una de sus órdenes a través del Walkie-talkie servirá para que la miniatura receptora pueda utilizar dos Acciones en lugar de una.",
+        "Amado líder": "Aaron es el líder del V Reich y defraudarlo es algo impensable. Si Aaron es Abatido y un Sanitario intenta usar su Regla especial Primeros auxilios sobre él tendrá un bonificador de +3 en la tirada de la tabla."
+      }
     },
     {
       "id": "edward-berhart",
@@ -398,7 +424,15 @@
         "Táctico",
         "Bombona de butano"
       ],
-      "nota": "Se considera Mariscal (Cadena de mando)."
+      "nota": "Se considera Mariscal (Cadena de mando).",
+      "reglasTexto": {
+        "Personalidad del V Reich": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Cadena de mando": "Edward Berhart se considera Mariscal en su banda del V Reich, por lo que podrá usar la Regla especial Cadena de mando.",
+        "Podadora eléctrica": "En un momento de locura, Ragnar pegó a Edward un tirón tan fuerte que le arrancó su brazo izquierdo. Para suplir esto, se instaló un brazo mecánico de fabricación propia al que colocó en su extremo una podadora eléctrica, que funciona a todos los efectos como un filo medio. Si se emplea al menos dos veces en el mismo Turno de juego, la batería que lo alimenta se descargará momentáneamente, con lo que pasará reducir su bonificador de Fuerza a +1 durante el Turno de juego posterior mientras se recarga.",
+        "Ragnar": "El gran danés completamente loco que lo acompaña permanentemente actúa como un mastín normal, salvo que el bonificador al Combate pasa a ser de +2. En caso de que Edward participara en un Combate múltiple con presencia de alguna miniatura del V Reich en él, antes de resolver el combate, tira 1d10. Con 1-2 Ragnar atacará a la miniatura de su propio bando, con lo que los ataques se realizarán contra ella. Si hay más de una, será a elección del jugador propio contra qué miniatura serán los ataques.",
+        "Táctico": "Edward Berhart tiene una gran memoria sobre los combates de la Segunda Guerra Mundial que tanto estudió en su anterior vida. Por ello tiene unos conocimientos de táctica militar por encima de la media, que emplea con sus hombres en el campo de batalla. Una vez terminados los despliegues de los dos jugadores, puede recolocar hasta dos miniaturas de su banda, siempre dentro de su zona de despliegue.",
+        "Bombona de butano": "Edward lleva a su espalda una bombona de butano para poder respirar, debido a sus lesiones del sistema respiratorio. Si Berhart resulta Abatido, la bombona estallará. Pon una plantilla circular de 5 cm de radio centrada en la posición de la miniatura Abatida. Todas las miniaturas tocadas aunque sea parcialmente por la plantilla, sufren un impacto de Penetración 3 y Fuerza 3 de inmediato, sin bonificaciones por Cobertura."
+      }
     }
   ]
 }

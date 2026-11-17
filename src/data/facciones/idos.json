@@ -86,7 +86,10 @@
       },
       "reglasEspeciales": [
         "Escoria"
-      ]
+      ],
+      "reglasTexto": {
+        "Escoria": "Los Despojos no pueden utilizar dosis de Ambrosía ni utilizar armas incrustadas."
+      }
     },
     {
       "id": "aberracion",
@@ -114,7 +117,14 @@
         "Sobredosis",
         "Mal viaje"
       ],
-      "sinEquipoGenerico": true
+      "sinEquipoGenerico": true,
+      "reglasTexto": {
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "Raudo": "Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla puede Mover 15 cm en lugar de 10 cm por Acción de Movimiento.",
+        "Locura": "Mirar a la cara de las Aberraciones es mirar a una locura más allá de la humanidad, que difícilmente no te puede afectar. Las miniaturas que las Asalten perderán todos sus bonificadores por el Asalto.",
+        "Sobredosis": "Las Aberraciones tienen más problemas para tolerar la Ambrosía y parten con un -2 en la tirada para ver si la droga hace efecto.",
+        "Mal viaje": "La Aberración moverá de manera aleatoria siguiendo la dirección de 1d10. Si hay algún obstáculo se parará."
+      }
     },
     {
       "id": "cosechador",
@@ -167,6 +177,10 @@
       ],
       "armaIncrustada": {
         "coste": 10
+      },
+      "reglasTexto": {
+        "Mal viaje": "El Cosechador tiene la mente demasiado dispersa y no podrá cosechar.",
+        "Cosecha": "Un Cosechador puede gastar 1 Acción en cosechar a un enemigo Abatido (ningún Abatido puede ser cosechado más de una vez), extrayendo el líquido de su hipotálamo. La cantidad de Ambrosía cosechada dependerá del grado de terror de la víctima. Deberás tirar en la siguiente tabla para comprobar cuantas dosis de Ambrosía ha cosechado para la banda, que podrá utilizar de manera habitual: 1D10 DOSIS 1 Ninguna 2-5 1 6-9 2 10 3"
       }
     },
     {
@@ -220,6 +234,10 @@
       ],
       "armaIncrustada": {
         "coste": 10
+      },
+      "reglasTexto": {
+        "Furia psicópata": "Los Desgarradores sólo piensan en ir a rajar a sus enemigos. Avanzarán hacia el enemigo al que lleguen más rápidamente (independientemente de la Línea de visión). Normalmente esto es el más cercano, pero habrá casos donde puede tener un enemigo cerca encima de un edificio, o tras Terreno pila chungo, y sin embargo puede cubrir más terreno avanzando hacia otro enemigo.",
+        "Mal viaje": "En caso de tener a distancia de Asalto a alguna miniatura, el Desgarrador la Asaltará independientemente de que sea amiga o enemiga."
       }
     },
     {
@@ -262,7 +280,11 @@
       "reglasEspeciales": [
         "Devorador",
         "Mal viaje"
-      ]
+      ],
+      "reglasTexto": {
+        "Devorador": "Los Glotones pueden devorar partes de los cuerpos de los Abatidos para conseguir volverse más poderosos. Un Glotón puede gastar una Acción en Devorar a una miniatura Abatida en contacto (amiga o enemiga) para conseguir un bonificador de +1 al Combate, Fuerza y Dureza. Se podrá utilizar máximo una Acción de devorar por miniatura Abatida, tras lo que se retirará el marcador de la mesa y por lo tanto no podrá ser rapiñada, cosechada, curada por un Sanitario, etc.",
+        "Mal viaje": "El Glotón se deja llevar por su glotonería y avanzará hacia la miniatura Abatida, y no devorada ya, más cercana (en caso de haber alguna), devorándola si llega a ella. Si estaba ya en contacto con una miniatura devorada, no se moverá recordando su maravilloso sabor."
+      }
     },
     {
       "id": "tio",
@@ -287,7 +309,12 @@
         "Personalidad de los Idos",
         "Torbellino",
         "Mal viaje"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Idos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Torbellino": "Tío tiene dos enormes mazas incrustadas en lugar de sus brazos, sujetas por unas cadenas (su bonificador por incrustada se contrarresta al de usar maza pesada). A la hora de atacar, puede hacerlo normalmente, o gastar una Fase de activación completa (usar sus 2 Acciones) en hacer un ataque Torbellino. Puede realizarlo incluso estando trabado en Combate. Si hace esto, toda miniatura en un radio de 5 cm de distancia (amiga o enemiga) deberá superar una tirada de Agilidad o resultará impactada automáticamente (como si lo hubiera sido en Combate).",
+        "Mal viaje": "Tío pierde el impulso para utilizar Torbellino y no podrá utilizarlo durante esta Fase de activación."
+      }
     },
     {
       "id": "madre",
@@ -314,7 +341,14 @@
         "Presencia perturbadora",
         "Lucidez",
         "Mascota"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Idos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Cosechadora": "Madre puede cosechar al igual que un Cosechador. Hay que tener en cuenta que Madre contará como un Cosechador más para las restricciones de creación de la banda.",
+        "Presencia perturbadora": "Es difícil explicar la sensación de ver a Madre. Es como contemplar a una diosa oscura caminando entre nosotros. Cualquier miniatura enemiga que desee Disparar, Asaltar o utilizar cualquier tipo de Acción que pueda dañar a Madre, o a cualquiera de sus miniaturas aliadas a 15 cm o menos de ella, deberá realizar una tirada de Dureza y en caso de fallarla perderá esa Acción.",
+        "Lucidez": "Cualquier Ido de su banda que consuma Ambrosía a 20 cm o menos de Madre no deberá tirar en la Tabla de efecto, consiguiendo siempre que funcione perfectamente. Sin embargo la propia Madre no podrá utilizar nunca Ambrosía.",
+        "Mascota": "Madre siempre lleva a alguna de sus mascotas a la batalla. Antiguos enemigos a los que ha torturado física y mentalmente hasta convertirlos en perturbadas criaturas sumisas. La mascota no actúa de manera individual, sino que se mueve siempre con Madre. Hasta que la mascota sea Abatida, será esta la que Combata y reciba los impactos de disparos, utilizando sus Atributos. Está armada con garras y dientes. - 4 - - 4 4 -"
+      }
     }
   ]
 }

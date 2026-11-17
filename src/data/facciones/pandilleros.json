@@ -155,7 +155,10 @@
       },
       "reglasEspeciales": [
         "Retraso (1)"
-      ]
+      ],
+      "reglasTexto": {
+        "Retraso (1)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad."
+      }
     },
     {
       "id": "bruto",
@@ -279,7 +282,10 @@
       },
       "reglasEspeciales": [
         "Retraso (2)"
-      ]
+      ],
+      "reglasTexto": {
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad."
+      }
     },
     {
       "id": "jefe",
@@ -344,7 +350,10 @@
       },
       "reglasEspeciales": [
         "Retraso (3)"
-      ]
+      ],
+      "reglasTexto": {
+        "Retraso (3)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad."
+      }
     },
     {
       "id": "clint-tirofijo",
@@ -369,7 +378,12 @@
         "Personalidad de los Pandilleros",
         "Retraso (2)",
         "Imperdonable"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Pandilleros": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Imperdonable": "A Clint no le gusta que Lucy tenga competencia. Si llevas a Clint, ninguna otra miniatura de la banda puede estar equipada con un arma con la Regla especial Arma de fuego."
+      }
     },
     {
       "id": "lord-homoeroticus",
@@ -397,7 +411,14 @@
         "Nos mola el cuero",
         "Discursitos"
       ],
-      "cuentaComo": "jefe"
+      "cuentaComo": "jefe",
+      "reglasTexto": {
+        "Personalidad de los Pandilleros": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Retraso (3)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Jefe": "Lord Homoeroticus es un Jefe Pandillero, por lo que no podrás tener otro en tu banda.",
+        "Nos mola el cuero": "La banda de la Ostra Azul tiene una obsesión por el cuero que salta a la vista, siendo sin lugar a dudas uno de sus rasgos más distintivos. Los Piltrafas, Machacas y los Curtidos de la banda llevan cuero endurecido por defecto en lugar de ropas resistentes, sin coste adicional.",
+        "Discursitos": "Lord Homoeroticus tiene una cierta manía a coger un altavoz y soltar discursos bastante insufribles antes de entablar combate. Posiblemente sea que le guste su propia voz, o crea que así es más molón, pero es un auténtico plasta. Los discursos son variados, desde su decepción por el rival, hasta sus habilidades como tapicero. El caso es que a veces hacen mella en el enemigo, a veces todo lo contrario. Justo antes de comenzar el primer Turno de juego debes hacer una tirada en la siguiente tabla para averiguar el efecto que tienen."
+      }
     }
   ]
 }

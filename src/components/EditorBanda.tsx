@@ -4,7 +4,8 @@ import { COMUN, MERCENARIOS, faccionPorId, unidadPorId } from '../data';
 import { bandaComoTexto, costeBanda, maxMiniaturas, nuevaMiniatura, nuevoId, numMiniaturas, problemasBanda } from '../logic/banda';
 import { exportarBanda } from '../logic/almacen';
 import { descargar, nombreArchivo } from '../logic/descargar';
-import { Check, Modal, PerfilUnidad } from './ui';
+import { Check, Modal, PerfilUnidad, Regla } from './ui';
+import { reglasDeBanda } from '../logic/reglas';
 import { TarjetaMiniatura } from './TarjetaMiniatura';
 
 interface Props {
@@ -96,6 +97,19 @@ export function EditorBanda({ banda, ajustes, onCambiar, onVolver, onBorrar, onD
             ))}
           </div>
         </section>
+
+        <details className="rules">
+          <summary>Reglas especiales de la banda</summary>
+          {(() => {
+            const r = reglasDeBanda(banda);
+            if (!r.faccion.length && !r.miniaturas.length && !r.equipo.length) return <p className="hint">Añade miniaturas para ver sus reglas.</p>;
+            return <>
+              {r.faccion.length > 0 && <><h4>De la facción</h4>{r.faccion.map(x => <Regla key={x.nombre} nombre={x.nombre}><p>{x.texto}</p></Regla>)}</>}
+              {r.miniaturas.length > 0 && <><h4>De las miniaturas</h4>{r.miniaturas.map(x => <Regla key={x.nombre + x.quien.join()} nombre={x.nombre} nota={`· ${x.quien.join(', ')}`}><p>{x.texto}</p></Regla>)}</>}
+              {r.equipo.length > 0 && <><h4>Del equipo</h4>{r.equipo.map(x => <Regla key={x.nombre} nombre={x.nombre} nota={`· ${x.quien.join(', ')}`}><p>{x.texto}</p></Regla>)}</>}
+            </>;
+          })()}
+        </details>
 
         <details className="rules">
           <summary>Restricciones de {f.nombre}</summary>

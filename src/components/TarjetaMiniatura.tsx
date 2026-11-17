@@ -2,7 +2,8 @@ import type { Ajustes, Banda, Miniatura } from '../types';
 import { COMUN, blindajePorNombre, faccionPorId, unidadPorId } from '../data';
 import { costeMiniatura, equipoFaccionDisponible, equipoGenericoDisponible, problemasMiniatura } from '../logic/banda';
 import { armasDeMiniatura, blindajeEfectivo, llevaArmaDeFuego, perfilEfectivo, perfilesArmaTexto } from '../logic/perfil';
-import { Check, FilaContador } from './ui';
+import { Check, FilaContador, Regla } from './ui';
+import { textoReglaUnidad } from '../logic/reglas';
 
 const TIPO: Record<string, string> = { personalidad: 'Personalidad', mercenario: 'Mercenario', personaje: 'Personaje' };
 
@@ -194,7 +195,11 @@ export function TarjetaMiniatura({ m, i, banda, ajustes, abierta, onToggle, onCh
 
           {u.reglasEspeciales.length > 0 && <>
             <h4>Reglas especiales</h4>
-            <div className="tags">{u.reglasEspeciales.map(r => <span key={r}>{r}</span>)}</div>
+            <p className="hint">Pulsa una regla para leerla.</p>
+            <div className="reglas">{u.reglasEspeciales.map(r => {
+              const t = textoReglaUnidad(u, r);
+              return t ? <Regla key={r} nombre={r}><p>{t}</p></Regla> : <span key={r} className="tag">{r}</span>;
+            })}</div>
           </>}
           {u.nota && <p className="hint">{u.nota}</p>}
 

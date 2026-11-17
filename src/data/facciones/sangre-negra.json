@@ -129,7 +129,13 @@
           "nombre": "Bidón de gasofa (Bonzo)",
           "coste": 15
         }
-      ]
+      ],
+      "reglasTexto": {
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "¡Por la Sangre Negra!": "Siempre que esté a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto con la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Fuerza contra Dureza. Será el Quemado quien use su Dureza para esta tirada, y obviamente, será la miniatura retirada como baja si resulta Abatida. Si el impacto proviniese de un arma de Plantilla o que no necesite tirada para Impactar el Quemado no podrá aplicar esta regla. Si el impacto llega de un Combate cuerpo a cuerpo y el Quemado sobrevive, se considerará en contacto con la miniatura atacante como si hubiera sufrido el Asalto de esta.",
+        "Bonzo": "Por +15 puntos un Quemado puede equiparse con un bidón de gasofa con el que realizará un ataque a lo bonzo contra sus enemigos. Si un Quemado con el bidón queda en contacto peana con peana con un enemigo se prenderá fuego inmediatamente, resultando Abatido al inmolarse y causando un impacto de Fuerza 5 y Penetración 5. Si hubiera quedado en contacto con varias figuras, o un Combate múltiple, todas las miniaturas implicadas sufrirán ese impacto. Tras inmolarse se retirará el marcador de la mesa y por lo tanto no podrá ser rapiñada, cosechada, curada por un Sanitario, etc.",
+        "Bajo la mirada llameante": "Siempre que el Quemado esté en la Línea de visión de su Guardián de la Llama, la miniatura contará con la Regla especial Todoterreno."
+      }
     },
     {
       "id": "guardian-de-la-llama",
@@ -186,7 +192,10 @@
       },
       "reglasEspeciales": [
         "Mirada llameante"
-      ]
+      ],
+      "reglasTexto": {
+        "Mirada llameante": "El Guardián de la Llama es capaz de motivar a sus cultistas con su mera mirada. Algunas opciones de tropa tienen una ventaja cuando se encuentran bajo su Línea de visión. Estas se explican en sus respectivas entradas de la Regla especial Bajo la mirada llameante."
+      }
     },
     {
       "id": "ascua",
@@ -264,7 +273,10 @@
       },
       "reglasEspeciales": [
         "Bajo la mirada llameante"
-      ]
+      ],
+      "reglasTexto": {
+        "Bajo la mirada llameante": "Siempre que el Ascua esté en la Línea de visión de su Guardián de la Llama, la miniatura contará con un bonificador de +1 a la Dureza."
+      }
     },
     {
       "id": "chispa",
@@ -322,7 +334,11 @@
       "reglasEspeciales": [
         "Bajo la mirada llameante",
         "Darle caña"
-      ]
+      ],
+      "reglasTexto": {
+        "Bajo la mirada llameante": "Una vez durante la partida, si el Chispa está en la Línea de visión de su Guardián de la Llama, la miniatura podrá utilizar 1 carga de Combustible extra. Debe decirse claramente que se ha utilizado la carga que le proporciona Bajo la mirada llameante.",
+        "Darle caña": "Un Chispa va montado en una motocicleta, que le confiere las Reglas especiales Combustible (2), Montada y"
+      }
     },
     {
       "id": "momma-nutritora",
@@ -346,7 +362,11 @@
       "reglasEspeciales": [
         "Nutritora",
         "Bomba andante"
-      ]
+      ],
+      "reglasTexto": {
+        "Nutritora": "Si está en contacto con una miniatura amiga con un arma de Combustible o una motocicleta, Momma puede gastar una Acción en rellenar todos los puntos de Combustible (excepto el proporcionado por el Guardián de la Llama con la regla de Bajo la mirada llameante).",
+        "Bomba andante": "Momma va cargando con una enorme cantidad de combustible. Si después de ser impactada, en la tirada enfrentada de Fuerza contra Dureza el atacante saca una tirada de 1, Momma explotará. No sólo resultará Abatida automáticamente, si no que será como si hubiera impactado un arma con la Regla especial Incendiaria (6)."
+      }
     },
     {
       "id": "cunnilingus-igni",
@@ -371,7 +391,12 @@
         "Sumo Guardián de la Llama",
         "Lechazo",
         "Chorrazo"
-      ]
+      ],
+      "reglasTexto": {
+        "Sumo Guardián de la Llama": "Cunnilingus actúa como un Guardián de la Llama, por lo que podrá usar la Regla especial Mirada llameante sobre sus hombres. Además, su presencia es tan imponente, que las miniaturas no tendrán que estar en su Línea de visión, y se beneficiarán de la regla hasta que Cunnilingus sea Abatido. Por otra parte, puesto que sólo puede haber un Guardián de la Llama en la banda, si incluyes a Cunnilingus no podrás incluir a otro.",
+        "Lechazo": "Es una pistola de gran calibre fabricada especialmente para Cunnilingus y capaz de disparar munición incendiaria. Sus disparos se resuelven de la forma habitual, pero además cada vez que impacten seguirán la Regla especial Incendiaria (3), centrando el marcador de Fuego en la miniatura impactada, tanto si ha sido Abatida como si no.",
+        "Chorrazo": "Se trata de una sierra mecánica de tamaño reducido acoplada a su antebrazo con la Regla especial Combustible (5). Posee Fuerza +2, Penetración 5 si se gasta 1 carga de Combustible por cada Acción en que esté encendida. Si decide usarla sin utilizar el Combustible (o se ha quedado sin él) el arma pasará a considerarse un filo pequeño."
+      }
     }
   ]
 }

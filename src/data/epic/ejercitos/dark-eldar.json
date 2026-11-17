@@ -1,0 +1,619 @@
+{
+ "id": "dark-eldar",
+ "nombre": "Dark Eldar",
+ "version": "2026-02-05",
+ "estrategia": 3,
+ "iniciativa": "Dark Eldar Kabals, Tormentor and Executor formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "dark-eldar-individuals",
+   "nombre": "Dark Eldar Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos de los Eldar Oscuros",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  },
+  {
+   "id": "dark-eldar-kabals",
+   "nombre": "Dark Eldar Kabals",
+   "tipo": "nucleo",
+   "nota": "Each formation may never exceed more than eight infantry units.",
+   "nombreEs": "Kábalas de los Eldar Oscuros",
+   "notaEs": "Ninguna formación puede superar nunca las ocho unidades de infantería."
+  },
+  {
+   "id": "dark-eldar-partisans",
+   "nombre": "Dark Eldar Partisans",
+   "tipo": "apoyo",
+   "nota": "Each kabal you include in the army allows you to field any two partisans. Each formation may never exceed more than eight infantry units.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "kabal"
+   },
+   "nombreEs": "Partisanos de los Eldar Oscuros",
+   "notaEs": "Cada kábala que incluyas en el ejército te permite desplegar dos partisanos cualesquiera. Ninguna formación puede superar nunca las ocho unidades de infantería."
+  },
+  {
+   "id": "dark-eldar-upgrades",
+   "nombre": "Dark Eldar Upgrades",
+   "tipo": "mejoras",
+   "nota": "",
+   "unaVez": false,
+   "nombreEs": "Mejoras de los Eldar Oscuros"
+  },
+  {
+   "id": "dark-eldar-transport",
+   "nombre": "Dark Eldar Transport",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Transportes de los Eldar Oscuros"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "nombre": "Dark Eldar Aircraft, Spacecraft And Other Horrors",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Aeronaves, naves espaciales y otros horrores de los Eldar Oscuros",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "dark-eldar-individuals-archon",
+   "nombre": "Archon",
+   "seccion": "dark-eldar-individuals",
+   "unidades": "Replace one Dracon character with an Archon. The Archon must be placed in the Kabal Coterie formation if there is one in the army.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "unidadesEs": "Sustituye un personaje Dracon por un Archon. El Archon debe ir en la formación Kabal Coterie si hay una en el ejército."
+  },
+  {
+   "id": "dark-eldar-individuals-kashnarak",
+   "nombre": "Kashnarak",
+   "seccion": "dark-eldar-individuals",
+   "unidades": "In the Strategy Phase of any turn place the Kashnarak within 5cm of a Webway Portal, it behaves according to the Kashnarak rule (see Kashnarak).",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "unidadesEs": "En la fase de estrategia de cualquier turno, coloca el Kashnarak a 5 cm o menos de un Webway Portal; actúa según su regla (ver Kashnarak)."
+  },
+  {
+   "id": "dark-eldar-individuals-webway-portal",
+   "nombre": "Webway Portal",
+   "seccion": "dark-eldar-individuals",
+   "unidades": "At the start of the game nominate one objective on your half of the table as a Webway Portal before setting up spacecraft and garrisons. The objective functions both as a Webway Portal and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the Walker ability may use the Webway Portal to enter play.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Portal de la Telaraña",
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Webway Portal antes de desplegar naves y guarniciones. Funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Webway Portal para entrar en juego."
+  },
+  {
+   "id": "dark-eldar-kabals-kabal-coterie",
+   "nombre": "Kabal Coterie",
+   "seccion": "dark-eldar-kabals",
+   "unidades": "Four Incubi, one with a Dracon character, plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "max": 1,
+   "mejoras": [
+    "Haemonculi",
+    "Incubi",
+    "Mandrakes",
+    "Ravager",
+    "Scourges",
+    "Sybarite",
+    "Warriors",
+    "Wyches"
+   ],
+   "nombreEs": "Coterie de la Kábala",
+   "unidadesEs": "Cuatro Incubi, uno con un personaje Dracon, más transporte"
+  },
+  {
+   "id": "dark-eldar-kabals-kabal-flotilla",
+   "nombre": "Kabal Flotilla",
+   "seccion": "dark-eldar-kabals",
+   "unidades": "Four or six Ravagers",
+   "coste": 250,
+   "costeTexto": "250 or 350 points",
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 250
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 350
+    }
+   ],
+   "mejoras": [
+    "Dracon",
+    "Sybarite",
+    "Vessel of Pain"
+   ],
+   "nombreEs": "Flotilla de la Kábala",
+   "unidadesEs": "Cuatro o seis Ravagers"
+  },
+  {
+   "id": "dark-eldar-kabals-kabal-syndicate",
+   "nombre": "Kabal Syndicate",
+   "seccion": "dark-eldar-kabals",
+   "unidades": "Six Warriors plus transport",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Dracon",
+    "Haemonculi",
+    "Mandrakes",
+    "Ravager",
+    "Scourges",
+    "Sybarite",
+    "Warriors",
+    "Wyches"
+   ],
+   "nombreEs": "Sindicato de la Kábala",
+   "unidadesEs": "Seis Warriors más transporte"
+  },
+  {
+   "id": "dark-eldar-partisans-haemonculi-coven",
+   "nombre": "Haemonculi Coven",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Two Haemonculi and four Grotesques, plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Haemonculi",
+    "Perditors",
+    "Sybarite",
+    "Talos"
+   ],
+   "nombreEs": "Aquelarre de Haemonculi",
+   "unidadesEs": "Dos Haemonculi y cuatro Grotesques, más transporte"
+  },
+  {
+   "id": "dark-eldar-partisans-heavy-barges",
+   "nombre": "Heavy Barges",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Up to two Vessels of Pain",
+   "coste": 250,
+   "costeTexto": "250 points each",
+   "mejoras": [],
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 2 en total)",
+     "coste": 250,
+     "porUnidad": true,
+     "max": 1
+    }
+   ],
+   "nombreEs": "Barcazas pesadas",
+   "unidadesEs": "Hasta dos Vessels of Pain"
+  },
+  {
+   "id": "dark-eldar-partisans-hellion-murder",
+   "nombre": "Hellion Murder",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Six Hellions",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hellions",
+    "Sybarite"
+   ],
+   "nombreEs": "Bandada de Hellions",
+   "unidadesEs": "Seis Hellions"
+  },
+  {
+   "id": "dark-eldar-partisans-mandrake-throng",
+   "nombre": "Mandrake Throng",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Six Mandrakes",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Mandrakes"
+   ],
+   "nombreEs": "Turba de Mandrakes",
+   "unidadesEs": "Seis Mandrakes"
+  },
+  {
+   "id": "dark-eldar-partisans-reaver-gang",
+   "nombre": "Reaver Gang",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Six Reavers",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Reavers",
+    "Sybarite"
+   ],
+   "nombreEs": "Banda de Reavers",
+   "unidadesEs": "Seis Reavers"
+  },
+  {
+   "id": "dark-eldar-partisans-scourge-flight",
+   "nombre": "Scourge Flight",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Six Scourges",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Scourges",
+    "Sybarite"
+   ],
+   "nombreEs": "Vuelo de Azotes",
+   "unidadesEs": "Seis Scourges"
+  },
+  {
+   "id": "dark-eldar-partisans-talos-swarm",
+   "nombre": "Talos Swarm",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Four Talos plus transport",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Perditors",
+    "Talos"
+   ],
+   "nombreEs": "Enjambre de Talos",
+   "unidadesEs": "Cuatro Talos más transporte"
+  },
+  {
+   "id": "dark-eldar-partisans-wych-cult",
+   "nombre": "Wych Cult",
+   "seccion": "dark-eldar-partisans",
+   "unidades": "Six Wyches plus transport",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hellions",
+    "Reavers",
+    "Sybarite",
+    "Warp Beasts",
+    "Wyches"
+   ],
+   "nombreEs": "Culto de Brujas",
+   "unidadesEs": "Seis Wyches más transporte"
+  },
+  {
+   "id": "dark-eldar-transport-barge-of-pleasure",
+   "nombre": "Barge of Pleasure",
+   "seccion": "dark-eldar-transport",
+   "unidades": "Add up to two Barge of Pleasures",
+   "coste": 0,
+   "costeTexto": "+125 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 2)",
+     "coste": 125,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "nombreEs": "Barcaza del placer",
+   "unidadesEs": "Añade hasta dos Barges of Pleasure"
+  },
+  {
+   "id": "dark-eldar-transport-raider",
+   "nombre": "Raider",
+   "seccion": "dark-eldar-transport",
+   "unidades": "Add up to four Raiders",
+   "coste": 0,
+   "costeTexto": "Free",
+   "unidadesEs": "Añade hasta cuatro Raiders"
+  },
+  {
+   "id": "dark-eldar-transport-slavebringer",
+   "nombre": "Slavebringer",
+   "seccion": "dark-eldar-transport",
+   "unidades": "One Slavebringer Assault Boat",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Un Slavebringer Assault Boat"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-executor",
+   "nombre": "Executor",
+   "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "unidades": "One Executor Landing Module",
+   "coste": 750,
+   "costeTexto": "750 points",
+   "unidadesEs": "Un Executor Landing Module"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-ravens",
+   "nombre": "Ravens",
+   "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "unidades": "Two to three Raven Fighters",
+   "coste": 100,
+   "costeTexto": "100 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 10 en total)",
+     "coste": 100,
+     "porUnidad": true,
+     "max": 9
+    }
+   ],
+   "unidadesEs": "De dos a tres Raven Fighters"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-razorwings",
+   "nombre": "Razorwings",
+   "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "unidades": "Two to three Razorwing Bombers",
+   "coste": 125,
+   "costeTexto": "125 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 10 en total)",
+     "coste": 125,
+     "porUnidad": true,
+     "max": 9
+    }
+   ],
+   "unidadesEs": "De dos a tres Razorwing Bombers"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "unidades": "One Torture Class Cruiser or up to three Corsair Class Escorts",
+   "coste": 300,
+   "costeTexto": "300 points or 150 points each",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 300
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 150
+    }
+   ],
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Un Torture Class Cruiser o hasta tres Corsair Class Escorts"
+  },
+  {
+   "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-tormentor",
+   "nombre": "Tormentor",
+   "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
+   "unidades": "One Tormentor Titan",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "unidadesEs": "Un Tormentor Titan"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "dracon",
+   "nombre": "Dracon",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add a maximum of one Dracon character to any unit in the formation",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade como máximo un personaje Dracon a cualquier unidad de la formación"
+  },
+  {
+   "id": "haemonculi",
+   "nombre": "Haemonculi",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add one Haemonculi unit and one Grotesques unit, plus transport",
+   "coste": 100,
+   "costeTexto": "+100 points",
+   "textoEs": "Añade una unidad de Haemonculi y una de Grotesques, más transporte"
+  },
+  {
+   "id": "hellions",
+   "nombre": "Hellions",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Hellions",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade dos Hellions"
+  },
+  {
+   "id": "incubi",
+   "nombre": "Incubi",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Incubi plus transport",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade dos Incubi más transporte"
+  },
+  {
+   "id": "mandrakes",
+   "nombre": "Mandrakes",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Mandrakes",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade dos Mandrakes"
+  },
+  {
+   "id": "perditors",
+   "nombre": "Perditors",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add up to two Perditors",
+   "coste": 150,
+   "costeTexto": "+150 points each",
+   "porUnidad": true,
+   "max": 2,
+   "textoEs": "Añade hasta dos Perditors"
+  },
+  {
+   "id": "ravager",
+   "nombre": "Ravager",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add one Ravager",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade un Ravager"
+  },
+  {
+   "id": "reavers",
+   "nombre": "Reavers",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Reavers",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade dos Reavers"
+  },
+  {
+   "id": "scourges",
+   "nombre": "Scourges",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Scourges",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Azotes",
+   "textoEs": "Añade dos Scourges"
+  },
+  {
+   "id": "sybarite",
+   "nombre": "Sybarite",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add a maximum of one Sybarite character to any unit in the formation",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "textoEs": "Añade como máximo un personaje Sybarite a cualquier unidad de la formación"
+  },
+  {
+   "id": "talos",
+   "nombre": "Talos",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add up to two Talos",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 2,
+   "textoEs": "Añade hasta dos Talos"
+  },
+  {
+   "id": "vessel-of-pain",
+   "nombre": "Vessel of Pain",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add a maximum of one Vessel of Pain",
+   "coste": 250,
+   "costeTexto": "+250 points",
+   "nombreEs": "Recipiente del dolor",
+   "textoEs": "Añade como máximo un Vessel of Pain"
+  },
+  {
+   "id": "warp-beasts",
+   "nombre": "Warp Beasts",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Warp Beasts",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Bestias disformes",
+   "textoEs": "Añade dos Warp Beasts"
+  },
+  {
+   "id": "warriors",
+   "nombre": "Warriors",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Warriors plus transport",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Guerreros",
+   "textoEs": "Añade dos Warriors más transporte"
+  },
+  {
+   "id": "wyches",
+   "nombre": "Wyches",
+   "seccion": "dark-eldar-upgrades",
+   "texto": "Add two Wyches plus transport",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Brujas",
+   "textoEs": "Añade dos Wyches más transporte"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Eldar Oscuros",
+ "iniciativaEs": "Las formaciones de Kábalas, Tormentor y Executor de los Eldar Oscuros tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.13",
+   "titulo": "Lista de ejército de los Eldars Oscuros de la Kábala del Camino del Dolor (Kabal of Pain’s Way)",
+   "parrafos": [
+    "En las profundidades de la Ciudad Oscura, en los oscuros vacíos del abismo entre las estrellas y en los recovecos de la Telaraña, los Señores de los Parientes Oscuros atienden sus cortes. Flanqueados por los insidiosos Íncubos, los Señores cumplen sus deberes. El deleite de los coros de almas torturadas, el festín sobre innumerables esclavos, la matanza de poblaciones enteras: su empeño es incansable.",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.13.",
+    "Uso de la lista de ejército: Las formaciones de la Kábala del",
+    "Camino del Dolor son de dos tipos: kábalas y partisanos. Cada kábala que incluyas en el ejército te permite desplegar dos formaciones de partisanos cualesquiera. Aunque solo puedes llevar una formación de partisanos si antes llevas una kábala, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "Además, las formaciones pueden recibir mejoras. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Ten en cuenta que nunca puedes superar las ocho unidades de infantería en una formación. Los ejércitos de Eldars Oscuros pueden recibir apoyo de formaciones de Aeronaves, Naves Espaciales y Otros Horrores Eldars Oscuros. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Por último, los Individuos Eldars Oscuros incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas».",
+    "Reglas especiales: Las reglas Tácticas de Golpear y Huir (véase 5.13.1) y Pies Ligeros (véase 5.13.2) se aplican a todas las formaciones eldars oscuras. Además, ciertas unidades y armas tienen capacidades especiales descritas en Tecnología Eldar Oscura (véase 5.13.3)."
+   ]
+  },
+  {
+   "id": "6.13.1",
+   "titulo": "Reglas especiales de torneo de la Kábala del Camino del Dolor",
+   "parrafos": [
+    "Las fuerzas eldars oscuras son saqueadoras por naturaleza y rara vez les interesa mantener terreno. La rapidez de sus vehículos y la letalidad de sus ataques se revelan de golpe a sus víctimas, que ven desaparecer a los Eldars Oscuros tan rápido como llegaron. Para representar estas tácticas, los Eldars Oscuros tienen prohibido desplegar ninguna formación como guarnición en el escenario de juego de torneo de Epic.",
+    "Las Escoltas de clase Corsario forman un único escuadrón y actúan igual que una sola nave espacial. Pueden combinar sus",
+    "Bombardeos Orbitales en un único ataque o disparar por separado (las plantillas no pueden solaparse)."
+   ]
+  },
+  {
+   "id": "6.13.2",
+   "titulo": "Transporte Eldar Oscuro",
+   "parrafos": [
+    "Cualquier formación eldar oscura que incluya «más transporte» puede elegir en la sección de Transporte Eldar Oscuro. Solo puedes llevar tantas unidades de transporte como sean necesarias para transportar a toda la formación, incluidas las mejoras, sin plazas sobrantes si es posible. Si lo deseas, puedes no llevar ningún transporte.",
+    "El Slavebringer es un ingenio de guerra independiente que debe asignarse a una formación eldar oscura concreta al crear el ejército."
+   ]
+  },
+  {
+   "id": "6.13.3",
+   "titulo": "El Kashnarak",
+   "parrafos": [
+    "El Kashnarak es un animal enorme y enfurecido que se cuela por un portal de la Telaraña y se suelta en el campo de batalla al comienzo del turno que deseen los Eldars Oscuros (antes de la tirada de estrategia), y actúa como un «tercer» jugador. Siempre intentará un asalto de combate cuerpo a cuerpo, apartando a empujones, contra la formación o formaciones más cercanas, ¡incluso formaciones eldars oscuras! Si no puede llegar al contacto peana con peana, la bestia marchará hacia la formación más cercana hasta su movimiento máximo. Si llega a una zona de control enemiga, la bestia detiene su movimiento. Los movimientos de consolidación también se dirigen hacia la formación más cercana. A partir de entonces, es la primera activación de los turnos siguientes, antes de la tirada de estrategia o del teletransporte, siguiendo el patrón anterior. Un Kashnarak desmoralizado permanecerá en su sitio sobre el tablero y no intentará moverse hasta que se reorganice. Las excepciones se dan en presencia de una unidad de Brujas (Wyches). Si al comienzo de la activación del Kashnarak (véase arriba) hay una unidad de Brujas a 15 cm o menos, el jugador eldar oscuro puede dirigir su asalto o movimiento. Esto incluye una unidad de Brujas a 15 cm o menos del portal de la Telaraña del Kashnarak. Además, el Kashnarak nunca se moverá hacia una formación de Brujas ni la asaltará; en su lugar, elegirá la siguiente formación más cercana. Estas acciones dirigidas siguen teniendo lugar antes de la tirada de estrategia del turno. Independientemente de sus acciones, el Kashnarak no se considera parte de la fuerza eldar oscura a efectos de colocar formaciones, mantener objetivos, calcular fuego cruzado, ni determinar las condiciones de victoria y el desempate. No cuenta para las activaciones eldars oscuras ni para el uso de los Portales de la Telaraña. No se beneficia de las Tácticas de Golpear y Huir. El Kashnarak puede disputar objetivos tanto a los Eldars Oscuros (salvo cuando está a 15 cm o menos de una unidad de Brujas) como a sus oponentes.",
+    "FAQ",
+    "P: ¿Necesita el Kashnarak superar un chequeo de acción?",
+    "R: Sí; tiene un valor de iniciativa de 2+.",
+    "P: ¿Qué ocurre si el Kashnarak falla un chequeo de acción?",
+    "R: Realiza una acción de Mantener y se mueve según lo descrito.",
+    "P: ¿Evita el Kashnarak el terreno peligroso?",
+    "R: Solo si su movimiento lo dirige un jugador eldar oscuro.",
+    "P: ¿Evita el Kashnarak el terreno infranqueable?",
+    "R: Sí; toma el camino más corto para rodearlo. Si hay varios caminos igual de cortos, el jugador hacia cuya formación se mueve puede elegir cuál toma.",
+    "P: ¿Evita el Kashnarak el fuego de vigilancia?",
+    "R: Solo si su movimiento lo dirige un jugador eldar oscuro.",
+    "P: ¿Puede el Kashnarak declarar que hay formaciones entremezcladas?",
+    "R: Solo si su movimiento lo dirige un jugador eldar oscuro. En caso contrario, las formaciones solo se consideran entremezcladas si el Kashnarak se pone en contacto peana con peana con cada una de ellas.",
+    "P: ¿Puede una unidad de Brujas que forma parte de una formación desmoralizada dirigir al Kashnarak?",
+    "R: Sí."
+   ]
+  },
+  {
+   "id": "5.13.1",
+   "titulo": "Tácticas de Golpear y Huir",
+   "parrafos": [
+    "Los Eldars Oscuros son piratas saqueadores procedentes de las profundidades de la Ciudad Oscura y de las traicioneras extensiones del espacio. Debido a su limitada población, no pueden permitirse pérdidas prolongadas. Por ello han desarrollado tácticas que, combinadas con su tecnología muy avanzada, les permiten atacar al enemigo y retirarse rápidamente para evitar el fuego de respuesta. Esta capacidad se refleja con las siguientes reglas especiales, que se aplican a todas las formaciones de un ejército eldar oscuro:",
+    "Las formaciones eldars oscuras que realizan acciones de Avanzar o Doble pueden elegir disparar antes o después de cada movimiento. Sin embargo, siguen pudiendo disparar una sola vez durante la acción. Por ejemplo, una formación que realice una acción de Avanzar podría disparar y luego mover, o mover y luego disparar, mientras que una que realice una acción Doble podría disparar y mover dos veces, mover dos veces y luego disparar, o mover, disparar y volver a mover. Además, una formación eldar oscura que gana un asalto puede mover hasta su movimiento completo al consolidar, en lugar de estar limitada a 5 cm como sería normal."
+   ]
+  },
+  {
+   "id": "5.13.2",
+   "titulo": "Pies Ligeros (Fleet of Foot)",
+   "parrafos": [
+    "Tras eones practicando técnicas de piratería contra los monkeigh de la galaxia, los Parientes Oscuros han perfeccionado el arte de exprimir hasta la última ventaja de un ataque relámpago. Para representarlo, las formaciones eldars oscuras no sufren las penalizaciones habituales que sufrirían otras razas tras realizar una acción de Marcha. Las formaciones eldars oscuras que han marchado pueden prestar apoyo en asaltos, ayudar a reclamar la bonificación por fuego cruzado e incluso hacer disparos de flak."
+   ]
+  },
+  {
+   "id": "5.13.3",
+   "titulo": "Tecnología Eldar Oscura (Dark Eldar Technology)",
+   "parrafos": [
+    "Portales de la Telaraña: Los Eldars Oscuros usan estos pequeños portales tanto como los eldars. Permiten viajar con seguridad por la Disformidad; cada Portal de la Telaraña incluido en el ejército permite al jugador eldar oscuro mantener hasta tres formaciones en Commorragh. Cualquiera de estas formaciones en reserva puede entrar en juego a través de un Portal realizando una acción que le permita mover, midiendo su primer movimiento desde el portal sobre la mesa. No puede pasar más de una formación por un mismo portal en cada turno. El uso de las Puertas Espectrales (Wraithgate) está limitado a formaciones compuestas exclusivamente por infantería, vehículos ligeros y vehículos blindados con la capacidad de Bípode (el temido Kashnarak es la excepción a la regla).",
+    "Campos de Sombras (Shadowfields): Los ingenios de guerra eldars oscuros están envueltos en campos de energía que absorben la luz y les sirven de poderosa defensa contra los cañones masivos de sus presas acorraladas. Cada campo de sombras absorbe un impacto con éxito antes de caer; este impacto no causa Marcadores de Explosión (esto incluye el tiroteo, pero no el combate cuerpo a cuerpo). Un ingenio de guerra al que le quede al menos un campo de sombras recupera automáticamente un campo adicional al final de la fase de reorganización de cada turno. Si los campos de sombras quedan completamente anulados, no volverán durante el resto de la partida. El ingenio de guerra nunca puede tener más campos de sombras de los asignados originalmente. Además, un Campo de Sombras activo siempre cuenta como a cubierto (aplica el modificador de -1 por cobertura). Esto no tiene efecto en sus combates, ni en combate cuerpo a cuerpo ni en tiroteo.",
+    "FAQ",
+    "P: ¿Cuentan las Brujas y las Bestias Disformes como si tuvieran blindaje 5+ cuando reciben fuego de vigilancia al hacer un movimiento de carga?",
+    "R: No."
+   ]
+  }
+ ]
+}

@@ -264,7 +264,13 @@
         "Infiltración",
         "Raudo",
         "Todoterreno"
-      ]
+      ],
+      "reglasTexto": {
+        "Camuflaje": "Algunos combatientes son difíciles de distinguir del entorno. Los Disparos realizados contra esta miniatura sufren un penalizador -2 adicional a la Precisión en las tiradas para Evitar Cobertura (lo que hace un total de -5 a la Precisión).",
+        "Infiltración": "Una miniatura con esta regla, no tiene por qué ser desplegada en la zona de despliegue con el resto de miniaturas. En su lugar puedes decidir que avanza secretamente 10 cm por Turno de juego desde el borde de la zona de despliegue propia más cercano al centro de la mesa, pudiendo aparecer en cualquier Turno posterior al primero hasta un máximo del cuarto Turno. Desplegará dentro de esa distancia en cualquier lugar de la mesa, a no menos de 15 cm de cualquier miniatura enemiga, y en un lugar donde ninguna miniatura enemiga tenga Línea de visión sobre ella. En el Turno en que se quiera desplegar la miniatura, debe indicársele al rival al principio de la Ronda de Agilidad que le corresponda y actuará de la misma manera que el resto de miniaturas de esa Ronda de Agilidad.",
+        "Raudo": "Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla puede Mover 15 cm en lugar de 10 cm por Acción de Movimiento.",
+        "Todoterreno": "Una miniatura con esta regla considera el Terreno pila chungo como Terreno chungo y el Terreno chungo como Terreno chachi."
+      }
     },
     {
       "id": "caronte",
@@ -292,7 +298,12 @@
         "Personalidad de los Chatarreros",
         "Carcasa",
         "Bola de Dragón"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Chatarreros": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Carcasa": "A Caronte le gusta quemar, pero no es tan tonto como para no preocuparse de abrasarse él mismo en el intento. Caronte lleva una protección con un cuero recubierto de un compuesto que él mismo ha preparado (no dice a nadie como hacerlo, y algunos ya se piensan que es alguna cosa vergonzosa como semen de mongolongo tratado). A esta “armadura” la llama Carcasa, y además de Blindaje 3, tiene las Reglas especiales Ignífugo y Escurridizo (no sólo es muy viscoso, es que además huele fatal).",
+        "Bola de Dragón": "La genialidad de Caronte tomó forma el día que terminó su prototipo de vaporeta lanzabombas, a la que bautizó como Bola de Dragón por las leyendas del Mundo de Antaño de un reino fantástico llamado “Televisión”. Se trata de una vaporeta, pero que además de lanzar vapor también le permite poder utilizarla para impulsar sus bombas incendiarias a presión (debe decidir su función antes de Disparar). De este modo, Caronte puede decidir gastar 1 Acción en aumentar la presión del lanzabombas, colocando hasta 3 marcadores (a elección del jugador). Cada marcador aumenta +5 cm la distancia a la que se pueden lanzar las bombas, pero aumentando también +2,5 cm la desviación del Tiro parabólico. Cada marcador también aumenta +5 cm la distancia del chorro de la vaporeta, pero sufriendo un penalizador de -1 la Técnica. En sucesivas Acciones puede aumentar la presión de nuevo y añadir más marcadores. Estos marcadores permanecerán activos hasta que Caronte utilice Bola de Dragón (ya sea para lanzar vapor o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si Caronte es Abatido y aún le quedan bombas, estas detonarán siguiendo las reglas habituales de Incendiaria, pero añadiendo un bonificador de +1 a la Fuerza por cada marcador de presión que tuviera Caronte."
+      }
     },
     {
       "id": "samantha-o-sullivan",
@@ -319,7 +330,11 @@
       "reglasEspeciales": [
         "Personalidad de los Chatarreros",
         "Rotocañón"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Chatarreros": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Rotocañón": "El Rotocañón es un prototipo de pistola que puede ser disparada en 3 modos distintos, gastando balas de la manera habitual. Antes de Disparar, el jugador debe decidir el modo entre los siguientes: • Cazahombres. Fuerza 5, Penetración 5 - 20/40/60 cm • Cazabestias: Fuerza 7, Penetración 7 - 5/10/15 cm - Difícil de usar • Cazaalimañas: Fuerza 5/4/3, Penetración 5/4/3 - 10/20/30 cm - Postas"
+      }
     }
   ]
 }

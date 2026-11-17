@@ -32,7 +32,13 @@
         "Mónguer",
         "Chorimangui",
         "Cansino"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "Chorimangui": "Sajarratas huele las balas a leguas, y a veces pedir sólo es una distracción para mangar. Mientras está en contacto con una miniatura enemiga, puede realizar una tirada de Técnica, y robarle 1 bala si esta poseía alguna.",
+        "Cansino": "Nadie sabe cómo puede ser que Sajarratas aún siga vivo. Es una piltrafa humana a la que le ha pasado de todo, pero aún así, cuando parecía que la había diñado va y vuelve a andar por ahí. Si Sajarratas es Abatido, gastará sus siguientes 2 Acciones en recuperarse, para luego volver a estar ahí listo para incordiar al enemigo."
+      }
     },
     {
       "id": "imperatrix-rabiosa",
@@ -58,7 +64,13 @@
         "Retraso (2)",
         "Me quedo con tu cara",
         "Brazo mecánico"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Me quedo con tu cara": "A Rabiosa le dará especial tiña una miniatura de la banda rival. El jugador deberá apuntar en secreto antes de comenzar la partida cuál es esa miniatura. Al final de la partida lo mostrará, y si ha conseguido abatirla, su banda conseguirá 1 punto adicional en el escenario, pero si no lo ha conseguido, será el rival el que tenga 1 punto más.",
+        "Brazo mecánico": "Rabiosa puede utilizar su brazo mecánico para protegerse de los ataques cuerpo a cuerpo. En Combate, Rabiosa obtendrá un bonificador de +2 al Blindaje."
+      }
     },
     {
       "id": "mongodrilo-dundee",
@@ -89,7 +101,15 @@
       ],
       "noPuedeUnirseA": [
         "v-reich"
-      ]
+      ],
+      "reglasTexto": {
+        "Inmune al Veneno y Terreno contaminado": "Es inmune a los efectos de la Regla especial Veneno y del Terreno contaminado.",
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Garrapata": "Se trata de una ballesta normal y corriente... pero son sus virotes lo que es distinto a lo habitual. Cuando comienza la batalla, y cada vez que recargue la ballesta, Mongodrilo debe elegir entre los siguientes virotes: • Envenenado: la punta del virote se ha untado con una mezcla de semen de mongolongo y glándula de psicosapo. Los virotes tienen la Regla especial Veneno (4). • Volador: el virote lleva unas plumas de halcón cafetero que hace que la distancia del arma aumente 15 cm en todos sus rangos. • Penetrador: la punta del virote está hecha con dientes de terraburón, capaz de penetrar en los mejores blindajes. Los virotes tienen Penetración 5.",
+        "Trampero": "Mongodrilo es un experto en crear cepos trampa para capturar a sus presas. En el momento en el que se despliega Mongodrilo, el jugador debe colocar 6 marcadores de 25 mm en cualquier lugar de la mesa excepto la zona de despliegue del rival y a una distancia mínima de 20 cm entre ellos. Sin que el jugador rival lo sepa, tres de estos marcadores contendrán una trampa y otros tres no. Puedes apuntarlo en una hoja, o que los marcadores se den la vuelta para revelar si tienen trampa. Cualquier miniatura excepto Mongodrilo (amiga o enemiga) que pase a una distancia de 2,5 cm o menos de un marcador hará que se descubra. Si este tenía trampa, la miniatura habrá caído en ella, y sufrirá un impacto de Fuerza 2 y Penetración 3. Además, si no resulta Abatida, no podrá realizar Acciones de Movimiento, incluido Separarse del Combate, y deberá gastar su siguiente Acción únicamente en librarse del cepo, cuando no esté trabado en Combate cuerpo a cuerpo..",
+        "Ojo loco": "El enorme ojo de Mongodrilo es bueno para apuntar, pero a veces le juega malas pasadas cuando se concentra demasiado y se le va para sitios nada previstos. Si gastas una Acción en Apuntar con Mongodrilo, debes tirar 1d10. Con un resultado de 1-2 en lugar del bonificador de +3 a la Precisión, tendrá un penalizador de -2.",
+        "Escoria mutarda": "Mongodrilo no puede unirse a ninguna banda del V Reich, ya que con su mutardofobia sería complicado."
+      }
     },
     {
       "id": "crazy-mel",
@@ -113,7 +133,11 @@
       "reglasEspeciales": [
         "Mercenario",
         "Albóndiga"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Albóndiga": "Crazy Mel siempre va acompañado por su fiel perro Albóndiga. Este lo avisa de los enemigos cercanos, por lo que Crazy Mel podrá utilizar todos los bonificadores de haber movido para Asaltar, incluso aunque al principio de algún Movimiento no tuviera Línea de visión sobre su enemigo. Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo que cuando esté en Combate podrá eliminar el bonificador de apoyo de UNA miniatura enemiga a su elección."
+      }
     },
     {
       "id": "capitan-hammerica",
@@ -143,7 +167,14 @@
         "Hammer time",
         "Odio a Casco Rojo",
         "Capitán Fascio"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Escudo reforzado": "El Capitán Hammerica tiene un escudo muy fardón, de aspecto corriente pero fabricado según él con una aleación de vibra...noséquépollas. La verdad es que aguanta más de lo normal, por lo que concede una bonificación al Blindaje de +3 en lugar de +2. Y como el Capi está tan entrenado en su uso, no sufre el penalizador de -1 al Combate por usarlo en cuerpo a cuerpo. También probó a lanzarlo contra los enemigos, pero no es nada aerodinámico y no da una, así que no lo usa así.",
+        "Hammer time": "Pocas cosas le gustan tanto a Hammerica como abrir cabezas de villanos con su fiel martillo. Si es abatido en un Combate disfrutará de los beneficios de la regla especial Bersérker, por lo que aunque caiga peleando podrá llevarse por delante a su enemigo.",
+        "Odio a Casco Rojo": "El líder de Kraken, Casco Rojo (ver el suplemento de El ascenso del V Reich), mató al científico que se había convertido en su amigo delante de él, y fíjate tú que el Capi no se lo ha tomado nada bien. Si el Capi se enfrenta una banda del V Reich con Casco Rojo y consigue Abatirlo, conseguirá 3 puntos de victoria extra para su banda.",
+        "Capitán Fascio": "Al ser mercenario y de acuerdo a las reglas, el Capitán Hammerica podría jugar con la facción del V Reich. Si es así, supondremos que se ha revelado realmente como el Capitán Fascio, un traidor a las cosas guays y molonas."
+      }
     },
     {
       "id": "lizzy-deville",
@@ -170,7 +201,14 @@
         "Charlatana",
         "Chica de portada",
         "Tacaña"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Charlatana": "Lizzy tiene un pico de oro que la ayuda a salir de las situaciones más inverosímiles. Lizzy podrá Separarse del Combate automáticamente como si tuviera la Regla especial Escurridizo, pero no podrá emplear esta jugada con la misma miniatura enemiga más de una vez en la misma partida.",
+        "Chica de portada": "Lizzy es la imagen icónica de todos nuestros posters y portadas, así que se merece destacar porque lo decimos nosotros y ya está. Lizzy posee una capacidad casi comiquera para eludir la bala, desviar el cuchillo, sobrevivir al yunque de 1 tonelada que le cae en la cabeza. Cada vez que vaya a ser Abatida, podrá evitarlo con un resultado de 6 o más en 1d10. Así es, un 50% de probabilidades de seguir viva porque sí.",
+        "Tacaña": "La vida es muy chunga en el Páramo y no está la cosa como para desperdiciar balas en cualquier mindundi que te cruces por el camino, pudiendo partirle la cara a la manera tradicional. Lizzy no Disparará a ninguna miniatura cuyo coste total sea igual o inferior a una bala (15 puntos)."
+      }
     },
     {
       "id": "ochodedos",
@@ -195,7 +233,12 @@
         "Mercenario",
         "El baile de San Vito",
         "Doble dolor"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "El baile de San Vito": "Ochodedos parece no empezar a emplearse a fondo en combate hasta que recibe una buena cantidad de daño. Entonces mueve todo su cuerpo como si realizara una especie de baile, y con una mirada de locura, se abalanza sobre sus enemigos. En el momento en el que Ochodedos resulte Abatido por primera vez, en lugar de ser sustituido por un marcador de Abatido y considerado fuera de la partida, ignorará este resultado y además obtendrá un bonificador de +2 a sus Atributos de Agilidad, Fuerza y Dureza. Si a lo largo de la partida volviera a resultar Abatido, se considerará fuera de la partida de la manera habitual.",
+        "Doble dolor": "Ochodedos ha perfeccionado el combate con dos armas de tal manera que es capaz de coordinar sus ataques con ellas a la vez, aunque a riesgo de perder algo de habilidad. Cuando Ochodedos está en una Acción de Combate puede, o bien atacar normalmente con una de sus armas, o bien utilizar las dos, lo que le da la posibilidad de tirar un dado más, pudiendo elegir el que obtenga un resultado más alto de los dos, pero a costa de un penalizador de -2 al Atributo de Combate."
+      }
     },
     {
       "id": "irina",
@@ -221,7 +264,13 @@
         "Retraso (3)",
         "Utacël",
         "Halálkarma"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Retraso (3)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Utacël": "Irina va equipada con un gran arma de asta acabada en un filo y adornada con cabezas de muñecas al que llama por el extraño nombre de Utacël, que al parecer en su idioma significa Destino. En una Acción de Asaltar, este arma tiene unas estadísticas de Combate +1, Fuerza +3 y Penetración 5. Durante el resto de Acciones en que Combata tendrá unas estadísticas de Combate -1, Fuerza +2 y Penetración 3.",
+        "Halálkarma": "Irina va montada en un enorme felino al que llama Halálkarma. Es una criatura impresionante a la que nadie excepto Irina puede acercarse sin correr el riesgo de quedarse sin algún miembro. Halálkarma le confiere a Irina las Reglas especiales Montada, Raudo y Todoterreno. Además, su enorme cuerpo lleno de piezas blindadas otorga a Irina una Cobertura de Blindaje +3. Por supuesto, esa enorme montaña de músculos también es capaz de atacar a sus enemigos, aunque llevar a Irina y un montón de trastos encima hace que le resulte bastante agotador. En lugar de Combatir con Irina, puedes decidir que lo haga Halálkarma usando estas estadísticas: Combate 7, Fuerza 8 y Penetración 5. Sin embargo, deberá descansar para volver a atacar, lo que a efectos prácticos es como si tuviera la Regla especial Lentorra (2)."
+      }
     },
     {
       "id": "devin-crow",
@@ -246,7 +295,12 @@
         "Mercenario",
         "Monkeys Paw",
         "Cuervos y azufre"
-      ]
+      ],
+      "reglasTexto": {
+        "Mercenario": "Puede unirse a cualquier facción salvo que sus reglas digan lo contrario. Máximo un Mercenario por banda. No usa ni se beneficia de reglas o equipo especial de la banda (balas apañadas, poderes, inmunidad al Terreno contaminado, walkie-talkie…). Su equipo es cerrado y ya está incluido en su coste, salvo las balas, que se compran de la forma habitual. No puede Rapiñar equipo, excepto balas si lleva algún arma con la Regla especial Arma de fuego.",
+        "Monkeys Paw": "Gastando 1 Acción Devin puede realizar uno de los siguientes deseos hasta un máximo de 3 veces por partida sin repetir ninguno. Para ello deberá superar una tirada de Técnica, con consecuencias sobre una miniatura aliada a elección sin Línea de visión ni límites de distancia. Cada vez que se lance uno se obtendrá un penalizador de -1 a la Técnica para el siguiente (0/-1/-2). • Shot in the dark: la tirada se hace la siguiente vez que la miniatura vaya a Disparar. Éxito: el Disparo impacta automáticamente. Fallo: impacta automáticamente, pero la Fuerza y Penetración del arma se consideran 0 y el arma se descarta para el resto de la partida. • Pet Sematary: la miniatura vuelve de entre los muertos. Éxito: regresa a la partida como si no hubiera sido Abatida. Fallo: vuelve enajenada y pasa a formar parte de la banda del rival. • Killed by death: entra en un frenesí sangriento. Éxito: +1 a Combate y Fuerza permanente por cada baja que cause. Fallo: -1 a Combate y Fuerza permanente por cada Fase de activación que termine sin haber combatido. • Don't stop me now: Éxito: adquiere la regla Raudo. Fallo: adquiere Raudo, pero si en una Fase de activación no realiza al menos una Acción de Movimiento debe superar una tirada de Dureza o quedará Abatida. • We are not gonna take it: pon un contador de suerte en la figura; puede consumirlo para lanzar dos dados en vez de uno en cualquier tirada. Éxito: el jugador escoge el dado. Fallo: lo escoge el rival.",
+        "Cuervos y azufre": "Cuando Devin es Abatido desaparece en una nube de cuervos y azufre, por lo que ni siquiera se deja un marcador de Abatido."
+      }
     }
   ]
 }
