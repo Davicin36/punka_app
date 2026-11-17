@@ -10,7 +10,7 @@
    "nombre": "Baran Siegemaster Companies",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Compañías de los Maestros del Asedio de Baran"
   },
   {
    "id": "baran-siegemaster-company-upgrades",
@@ -20,7 +20,7 @@
    "maxPorFormacion": 3,
    "unaVez": true,
    "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía.",
-   "nombreEs": "Mejoras de compañía de los Maestros de Asedio de Baran"
+   "nombreEs": "Mejoras de compañía de los Maestros del Asedio de Baran"
   },
   {
    "id": "baran-siegemaster-support-formations",
@@ -32,7 +32,7 @@
     "base": "company"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo de los Maestros del Asedio de Baran"
   },
   {
    "id": "baran-siegemaster-fortified-positions",
@@ -44,7 +44,7 @@
     "base": "company"
    },
    "notaEs": "Se puede desplegar una por cada compañía.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Posiciones fortificadas de los Maestros del Asedio de Baran"
   },
   {
    "id": "imperial-navy-aircraft",
@@ -52,7 +52,7 @@
    "tipo": "tercio",
    "nota": "Up to a fourth of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aeronaves de la Armada Imperial"
   }
  ],
  "formaciones": [
@@ -74,7 +74,7 @@
    "coste": 225,
    "costeTexto": "225 points",
    "nombreEs": "1 Cuartel General Regimental",
-   "unidadesEs": "Una unidad de Comandante en jefe y nueve unidades de Infantería de Asedio"
+   "unidadesEs": "Una unidad de Comandante Supremo y nueve unidades de Infantería de Asedio"
   },
   {
    "id": "baran-siegemaster-support-formations-artillery-battery",
@@ -371,7 +371,7 @@
    "titulo": "Comisarios (Commissars)",
    "parrafos": [
     "Un ejército de la Guardia Imperial puede incluir un personaje Comisario por cada 500 puntos, o fracción, del ejército. Los Comisarios no cuestan puntos.",
-    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante en jefe, el primer Comisario debe asignarse a la formación del Comandante en jefe. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
+    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
    ]
   }
  ],
@@ -511,25 +511,20 @@
   },
   {
    "nombre": "Supreme Commander",
-   "nombreEs": "Comandante en jefe",
-   "tipo": "INF",
-   "velocidad": "15cm",
-   "blindaje": "5+",
-   "cc": "4+",
-   "ff": "5+",
+   "nombreEs": "Comandante Supremo",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
    "armas": [
-    {
-     "nombre": "Autocañón",
-     "alcance": "45cm",
-     "potencia": "AP5+/AT6+"
-    },
     {
      "nombre": "Arma de energía",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Thudd Gun",

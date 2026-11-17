@@ -1,0 +1,404 @@
+[
+ {
+  "id": "2.1.1",
+  "titulo": "Personajes (Characters)",
+  "claves": [
+   "PJ"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como personajes. Estas unidades representan a individuos importantes en lugar de grupos de soldados o la tripulación de un vehículo o Máquina de Guerra. Por ello, no se representan con una miniatura independiente sobre la mesa, sino que se añaden a otra unidad del ejército. La unidad a la que se añade el personaje recibe todas las armas y capacidades indicadas en el perfil de atributos del personaje. Por ejemplo, los Capellanes de los Marines Espaciales son personajes armados con un Arma de Energía (arma de asalto, macro-arma, ataques adicionales (+1)) y tienen las capacidades de salvación invulnerable e Inspirador. Cualquier unidad a la que se añadan contará como si tuviera todo eso además de sus armas y capacidades normales. Ten en cuenta que los personajes pueden añadirse a cualquier tipo de unidad, incluidos vehículos e Máquinas de Guerra. La unidad y el personaje deben actuar juntos durante toda la batalla. El personaje puede ser transportado en cualquier vehículo que pueda transportar a la unidad a la que se une, y no ocupa espacio adicional. El personaje debe representarse con una miniatura adecuada o un estandarte de mando añadido a la unidad a la que se une. Los personajes adquiridos como mejora de una formación deben añadirse a una unidad de la formación para la que se adquirieron."
+  ]
+ },
+ {
+  "id": "2.1.2",
+  "titulo": "Comandantes (Commanders)",
+  "claves": [
+   "Comandante"
+  ],
+  "parrafos": [
+   "Algunas unidades y personajes se indican como comandantes. Los comandantes pueden ordenar que hasta tres formaciones de tropas les sigan cuando realizan un asalto, siempre que todas las formaciones tengan al menos una unidad a 5 cm o menos de una unidad de la formación del comandante.",
+   "Haz una sola tirada de iniciativa para todas las formaciones, aplicando un modificador de -1 si alguna tiene Marcadores de Explosión. Si se falla el chequeo, la formación del comandante recibe un Marcador de Explosión y debe realizar una acción de Aguantar, pero las demás formaciones no se ven afectadas (y pueden realizar una acción más adelante en el turno). Si se supera el chequeo, las tres formaciones pueden realizar una acción de Atacar. Trata las tres formaciones como si fueran una sola a todos los efectos de reglas mientras dure el asalto. Se usa una tirada de 2D6 para resolver un asalto combinado. Si los atacantes pierden, cada formación queda desmoralizada. Si ganan, cada formación recibe un número de Marcadores de Explosión igual a las bajas que sufrió en el combate."
+  ]
+ },
+ {
+  "id": "2.1.3",
+  "titulo": "Coraje (Fearless)",
+  "claves": [
+   "Coraje"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como Coraje. Estas unidades son excepcionalmente valientes o están tan enloquecidas que nunca huirán, ni siquiera desmoralizadas (aunque puedes elegir que hagan un movimiento de retirada si quieres).",
+   "Las unidades con Coraje son inmunes al daño por perder un asalto (tanto los impactos adicionales como ser aniquiladas si ya estaban desmoralizadas) y al daño infligido por Marcadores de Explosión estando desmoralizadas. Cuando están desmoralizadas o se ven obligadas de otro modo a hacer un movimiento de retirada, las unidades con Coraje pueden elegir no retirarse, y si eligen retirarse solo serán destruidas si terminan su movimiento a 5 cm o menos del enemigo, en lugar de 15 cm. Las unidades con Coraje que permanecen paradas no sufren daño adicional. Ten en cuenta que las demás unidades de la formación que no tengan Coraje se verán afectadas normalmente por los impactos adicionales por Marcadores de Explosión, por perder un asalto o lo que sea; simplemente no asignes ninguno de esos impactos a las unidades inmunes, sino repártelos normalmente entre las que no lo son. Las unidades con Coraje siguen contando como parte de una formación, así que a veces se verán «arrastradas» cuando su formación se retire aunque no tengan por qué, simplemente para mantenerse en formación (véase 1.2.1). Por último, ten en cuenta que no tener que retirarse puede hacer que unidades con Coraje terminen un asalto todavía en una zona de control enemiga, o incluso en contacto peana con peana con el enemigo (véase 1.7.3 para saber cómo resolver situaciones en que unidades empiezan una acción en una zona de control enemiga)."
+  ]
+ },
+ {
+  "id": "2.1.4",
+  "titulo": "Infiltradores (Infiltrators)",
+  "claves": [
+   "Infiltrador"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como infiltradores. Pueden duplicar su velocidad al hacer un movimiento de carga (¡y solo cuando cargan!), y también pueden ignorar las zonas de control enemigas de la formación contra la que cargan. Estas dos capacidades les permiten escabullirse entre las unidades enemigas al cargar para atacar a unidades enemigas situadas más atrás. Ten en cuenta que las reglas de cohesión de unidad siguen aplicándose a los infiltradores."
+  ]
+ },
+ {
+  "id": "2.1.5",
+  "titulo": "Inspirador (Inspiring)",
+  "claves": [
+   "Inspirador"
+  ],
+  "parrafos": [
+   "Algunas unidades o personajes se indican como inspiradores. Cada unidad inspiradora implicada en un asalto suma +1 a la tirada de resultado (¡siempre que sobreviva al combate, claro!)."
+  ]
+ },
+ {
+  "id": "2.1.6",
+  "titulo": "Salvaciones invulnerables (Invulnerable Saves)",
+  "claves": [
+   "Salvación Invulnerable"
+  ],
+  "parrafos": [
+   "(Invulnerable Saves) 37 Ciertas unidades o personajes reciben una salvación invulnerable especial. Estas unidades tienen dispositivos protectores o una vitalidad sobrenatural que les permite sobrevivir a un ataque que mataría a cualquier otra criatura. Para representarlo, las unidades con salvación invulnerable reciben una segunda salvación de 6+ si fallan la primera por cualquier motivo. Pueden hacer esta segunda salvación contra cualquier tipo de ataque, incluso contra ataques que normalmente no permitirían salvación. Nunca se aplican modificadores a esta segunda salvación."
+  ]
+ },
+ {
+  "id": "2.1.7",
+  "titulo": "Retrorreactores (Jump Packs)",
+  "claves": [
+   "Retrorreactores"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como equipadas con retrorreactores. Estas unidades llevan dispositivos especiales que les permiten volar distancias cortas, normalmente mediante una serie de largos «saltos».",
+   "Las unidades con retrorreactores pueden ignorar el terreno peligroso o infranqueable al moverse (lo saltan). No pueden aterrizar en terreno infranqueable, y si aterrizan en terreno peligroso deben hacer un chequeo de terreno peligroso. También pueden moverse por encima de otras unidades amigas, pero no aterrizar sobre ellas. Las unidades enemigas y las zonas de control afectan normalmente a las unidades con retrorreactores, que no pueden saltar por encima de formaciones enemigas."
+  ]
+ },
+ {
+  "id": "2.1.8",
+  "titulo": "Líderes (Leaders)",
+  "claves": [
+   "Líder"
+  ],
+  "parrafos": [
+   "Algunas unidades o personajes se indican como líderes. Una formación que incluya algún líder puede quitar un Marcador de Explosión adicional por cada líder siempre que se reagrupe o se reorganice con éxito."
+  ]
+ },
+ {
+  "id": "2.1.9",
+  "titulo": "Vehículos ligeros (Light Vehicles, VL)",
+  "claves": [
+   "VL"
+  ],
+  "parrafos": [
+   "38",
+   "Los vehículos ligeros incluyen cualquier vehículo sin blindaje en el que la tripulación esté expuesta al fuego enemigo, como los buggies orkos y los Land Speeders de los Marines Espaciales. La única diferencia entre los vehículos ligeros y los blindados es que los ligeros pueden verse afectados tanto por fuego AP como por fuego AT; en la práctica, cuentan como objetivos de infantería frente al fuego AP y como objetivos blindados frente al fuego AT.",
+   "Los vehículos ligeros confían en su velocidad y agilidad para protegerse del fuego enemigo, y por ello su tirada de salvación se basa en esos factores en lugar de en el grosor de su blindaje. Aparte de esto, su tirada de salvación funciona exactamente igual que la de cualquier otra unidad: las macro-armas la ignoran, puede usarse contra disparos de artillería, etc."
+  ]
+ },
+ {
+  "id": "2.1.10",
+  "titulo": "Montados (Mounted)",
+  "claves": [
+   "Montado"
+  ],
+  "parrafos": [
+   "Algunas unidades de infantería se indican como montadas, y van en motos o sobre criaturas vivas como caballos. Las unidades montadas cuentan como vehículos a efectos del terreno, y como unidades de infantería a todos los demás efectos."
+  ]
+ },
+ {
+  "id": "2.1.11",
+  "titulo": "Blindaje Reforzado (Reinforced Armour)",
+  "claves": [
+   "Blindaje Reforzado"
+  ],
+  "parrafos": [
+   "Las unidades con Blindaje Reforzado están protegidas por un blindaje muchas veces más grueso que el de la mayoría de vehículos blindados y tienen además una estructura interna extremadamente robusta. Por ello, siguen haciendo su tirada de salvación cuando son impactadas por macro-armas (véase 2.2.6). Además, pueden repetir una salvación fallida contra cualquier impacto que no sea de macro-arma, incluidos los infligidos durante un asalto."
+  ]
+ },
+ {
+  "id": "2.1.12",
+  "titulo": "Exploradores (Scouts)",
+  "claves": [
+   "Explorador"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como exploradores. Estas unidades están entrenadas para operar por su cuenta, adelantándose a su formación para localizar al enemigo. Las unidades de exploradores solo tienen que permanecer a 20 cm o menos de otra unidad de su formación, en lugar de a 5 cm como sería normal. Además, los exploradores están entrenados para dispersarse y cubrir un área amplia, por lo que tienen una zona de control de 10 cm. Ten en cuenta que estas capacidades solo se aplican a las unidades de exploradores y no pueden transferirse a otras unidades de la misma formación ni a las unidades de transporte que lleven a los exploradores."
+  ]
+ },
+ {
+  "id": "2.1.13",
+  "titulo": "Gravitatorios (Skimmers)",
+  "claves": [
+   "Gravitatorio"
+  ],
+  "parrafos": [
+   "Algunas unidades se indican como gravitatorios. Estas unidades están equipadas con dispositivos que les permiten flotar a poca distancia del suelo, de modo que pueden sobrevolar el terreno que ralentizaría a otras unidades. Ten en cuenta que los gravitatorios no siguen ninguna de las reglas de aeronaves de la Sección 4.0.",
+   "Los gravitatorios pueden ignorar el terreno peligroso o infranqueable al moverse. No pueden detenerse en terreno infranqueable, y si se detienen en terreno peligroso deben hacer un chequeo de terreno peligroso. También pueden moverse por encima de otras unidades amigas, pero no detenerse sobre ellas. Las unidades enemigas y las zonas de control afectan normalmente a los gravitatorios. Un gravitatorio puede declarar que se eleva (pops up) al comienzo de cualquier acción que realice, incluso cuando entra en Fuego de Supresión. Un gravitatorio no puede elevarse como parte de una acción de Fuego Sostenido o de Mando, pero sí puede hacerlo cuando entra en Fuego de Supresión. Elevarse cuenta como movimiento a efectos de desencadenar el disparo de unidades enemigas en Fuego de Supresión.",
+   "Un gravitatorio que se ha elevado «desciende» al terminar la acción. Los gravitatorios en Fuego de Supresión no descienden hasta después de hacer su ataque de Fuego de Supresión. Los gravitatorios con capacidad de transporte no pueden embarcar ni desembarcar unidades mientras están elevados, y si son destruidos mientras están elevados, todas las unidades a bordo son destruidas sin salvación.",
+   "Se supone que un gravitatorio elevado vuela lo bastante alto como para que el terreno interpuesto cercano que esté más próximo al gravitatorio que al objetivo no bloquee la línea de fuego. Para comprobar si la línea de fuego está bloqueada, mide la distancia entre el gravitatorio y el terreno, y luego la distancia entre el terreno y la unidad objetivo. Si el gravitatorio está más cerca del terreno interpuesto, la línea de fuego no está bloqueada. Si está más lejos, determina la línea de fuego normalmente. Si la distancia es igual, tanto el gravitatorio como la unidad objetivo pueden dispararse mutuamente, pero ambos cuentan como a cubierto y se aplica el modificador al impacto por cobertura. Los gravitatorios siempre pueden elegir usar su valor de tiroteo en un asalto, aunque haya unidades enemigas en contacto peana con peana con ellos. Si lo hacen, el enemigo también debe usar su valor de tiroteo. Esto representa al gravitatorio elevándose del suelo fuera del alcance de las unidades terrestres enemigas."
+  ]
+ },
+ {
+  "id": "2.1.14",
+  "titulo": "Francotirador (Sniper)",
+  "claves": [
+   "Francotirador",
+   "FT/S"
+  ],
+  "parrafos": [
+   "Algunas unidades de infantería se indican como francotiradores. Tira por separado al atacar con una unidad de francotiradores. Si impactan, el atacante puede elegir qué unidad enemiga es impactada entre las que estén a alcance y en la línea de fuego de la unidad de francotiradores. Además, el objetivo sufre un modificador de -1 a la salvación."
+  ]
+ },
+ {
+  "id": "2.1.15",
+  "titulo": "Comandantes Supremos (Supreme Commanders)",
+  "claves": [
+   "Comandante en jefe"
+  ],
+  "parrafos": [
+   "Los Comandantes Supremos representan unidades de mando de alto nivel. Cuentan como comandantes y líderes (véanse",
+   "2.1.2 y 2.1.8, respectivamente). Además, cada unidad de Comandante Supremo del ejército permite al jugador repetir un chequeo de iniciativa fallido (de cualquier tipo) una vez por turno."
+  ]
+ },
+ {
+  "id": "2.1.16",
+  "titulo": "Blindaje adicional posterior (Thick Rear Armour)",
+  "claves": [
+   "Blindaje adicional posterior"
+  ],
+  "parrafos": [
+   "Algunas unidades blindadas se indican como con Blindaje adicional posterior. Estos vehículos tienen un blindaje igual de grueso por todos lados, por lo que ignoran el modificador de -1 a la salvación cuando quedan atrapados en fuego cruzado."
+  ]
+ },
+ {
+  "id": "2.1.17",
+  "titulo": "Teletransporte (Teleport)",
+  "claves": [
+   "Teletransporte"
+  ],
+  "parrafos": [
+   "Las unidades con la capacidad de Teletransporte pueden aparecer de repente en el campo de batalla, ya sea porque tienen acceso a dispositivos tecnológicos o arcanos que les permiten desplazarse instantáneamente de un lugar a otro, o porque son capaces de ocultarse extremadamente bien y aparecer de pronto «como de la nada».",
+   "Las formaciones en las que todas las unidades tengan esta capacidad pueden mantenerse fuera de la mesa y aparecer al comienzo de cualquier turno. Simplemente coloca la unidad donde quieras de la mesa al comienzo de cualquier turno, antes de determinar quién gana la tirada de estrategia. La unidad debe colocarse a 5 cm o menos de otra unidad de su propia formación si ya hay alguna en juego. Así, por ejemplo, si toda una formación se teletransporta, la primera unidad podría colocarse en cualquier lugar, pero las demás tendrían que colocarse a 5 cm o menos de una unidad ya colocada. Todas las unidades deben colocarse fuera de las zonas de control enemigas. Si se colocan en terreno peligroso, deben hacer un chequeo de terreno peligroso al colocarse en la mesa.",
+   "Teletransportarse es un asunto intrínsecamente peligroso y no siempre sale según lo previsto. Para representarlo, tira un D6 por cada unidad que se teletransporte al juego. Con un 1, la formación a la que pertenece la unidad recibe un Marcador de Explosión."
+  ]
+ },
+ {
+  "id": "2.1.18",
+  "titulo": "Bípodes (Walkers)",
+  "claves": [
+   "Bípode"
+  ],
+  "parrafos": [
+   "Algunas unidades de vehículo se indican como bípodes (walkers). Pueden atravesar el terreno peligroso con más facilidad que otros vehículos. Para representarlo, pueden repetir cualquier chequeo de terreno peligroso fallido."
+  ]
+ },
+ {
+  "id": "2.1.19",
+  "titulo": "Lenta y tediosa (Slow and Steady)",
+  "claves": [
+   "Lenta y tediosa"
+  ],
+  "parrafos": [
+   "Algunas unidades de nave espacial se indican como Lentas y Seguras. No pueden usarse en los dos primeros turnos de una batalla, salvo que el escenario indique específicamente lo contrario."
+  ]
+ },
+ {
+  "id": "2.1.20",
+  "titulo": "Naves de Apoyo (Support Craft)",
+  "claves": [
+   "Nave de Apoyo"
+  ],
+  "parrafos": [
+   "Las naves de apoyo son una especie de híbrido entre gravitatorio y aeronave. Permanecen en lo alto, flotando sobre el campo de batalla y disparando por encima del terreno interpuesto cuando es posible. Las naves de apoyo funcionan exactamente igual que un gravitatorio que está siempre «elevado». Disparan y reciben disparos normalmente (es decir, no se requiere la capacidad antiaérea). En un asalto, las naves de apoyo fuerzan automáticamente un tiroteo, del mismo modo que los gravitatorios pueden elegir hacerlo. Se supone que las naves de apoyo de transporte o las tropas que llevan están equipadas adecuadamente para embarcar y desembarcar tropas normalmente."
+  ]
+ },
+ {
+  "id": "2.1.21",
+  "titulo": "Auto-caída orbital (Self Planetfall)",
+  "claves": [
+   "Auto-caída orbital"
+  ],
+  "parrafos": [
+   "La Auto-caída orbital se planifica exactamente igual que la Caída orbital (véase 4.4). Se planifican tanto el turno en que llega la formación como el punto de aterrizaje. La única excepción es que, como estas unidades son mucho más pequeñas que las naves espaciales en órbita, pueden planificarse para llegar en el mismo turno en que esté presente una nave espacial enemiga.",
+   "En el turno designado, la unidad con Auto-caída orbital se activa en la secuencia normal de activación, igual que las naves espaciales. Declara la acción de la formación y tira para activarla. Si la unidad no se activa, su llegada se retrasa al turno siguiente. Si la activación tiene éxito, coloca la formación en la zona de aterrizaje planificada y determina la desviación según 4.4, como si fuera una caída orbital normal, incluido el desembarco de las unidades cargadas a hasta 5 cm. A partir de ese momento, la acción de la formación transcurre con normalidad en todos los aspectos. Es decir, la formación obtiene el «movimiento gra‐",
+   "tuito» de la colocación por caída orbital al comienzo de su acción, pero en todo lo demás se activa normalmente.",
+   "Nota: La acción se elige al activar, antes de determinar la desviación. Elige la acción con cuidado, ya que una mala tirada de desviación podría hacer ineficaces algunas acciones."
+  ]
+ },
+ {
+  "id": "2.1.22",
+  "titulo": "Prescindible (Expendable)",
+  "claves": [
+   "Prescindible"
+  ],
+  "parrafos": [
+   "Algunas unidades son vistas por sus aliados como carne de cañón o, simplemente, desechables. Esto puede deberse a que han sido creadas específicamente para sacrificarse o a que simplemente no se las valora. Una formación no recibe un Marcador de Explosión cuando se destruye una unidad con Prescindible; esto incluye el Marcador de Explosión adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Si una unidad prescindible es impactada por un arma con Disrupción (Disrupt), no inflige Marcador de Explosión. Si una formación está compuesta íntegramente por unidades prescindibles, no se beneficia de ninguna de las reglas anteriores. Las unidades prescindibles muertas en un asalto cuentan a efectos de calcular su resultado (véase 1.12.7)."
+  ]
+ },
+ {
+  "id": "2.1.23",
+  "titulo": "Tunelador (Tunneler)",
+  "claves": [
+   "Tunelador"
+  ],
+  "parrafos": [
+   "Las formaciones en las que todas las unidades tengan Tunelador (o vayan transportadas en unidades que tengan esa capacidad) pueden mantenerse fuera de la mesa y aparecer al comienzo del segundo turno o posteriores. Coloca las unidades tocando el borde de mesa de su propio bando antes de que empiece la batalla, al mismo tiempo que se despliegan las naves espaciales (véase 4.3.1). Cualquier unidad transportada en el excavador debe colocarse también aparte en ese momento. Anota en secreto el lugar en el que emergerá el excavador, en el mismo momento y de la misma forma que anotas las coordenadas de una zona de caída (véase 4.3.1). También debes anotar en secreto cuándo emergerá. Si va a emerger en tu mitad de la mesa, puede llegar a partir del segundo turno. Si va a emerger en la mitad contraria, puede llegar a partir del turno tres. Coloca el excavador al comienzo del turno indicado, antes de colocar las unidades con Teletransporte, en el lugar que anotaste. Las unidades transportadas pueden desembarcar inmediatamente al emerger. Emerger no cuenta como movimiento a efectos de desencadenar fuego de Fuego de Supresión. Desembarcar desencadena fuego de Fuego de Supresión normalmente. Si el excavador emerge en terreno infranqueable para él, debajo de una unidad amiga o en una zona de control enemiga, se su‐",
+   "pone que sus sensores de a bordo lo desviarán hacia otro punto de entrada. El jugador contrario debe mover la unidad a la zona más cercana donde pueda emerger.",
+   "Las formaciones de varios excavadores solo necesitan anotar un lugar en el que emergerán. Coloca una unidad en ese lugar, o a 5 cm o menos de otra unidad ya colocada, siempre que todas las unidades se coloquen a 15 cm o menos del lugar y en la mitad de mesa correspondiente. Los excavadores, y las unidades transportadas en ellos, pueden realizar una acción en el turno en que aparecen."
+  ]
+ },
+ {
+  "id": "2.1.24",
+  "titulo": "Autosuficiente (Self-Reliant)",
+  "claves": [
+   "Autosuficiente"
+  ],
+  "parrafos": [
+   "Algunas unidades o personajes se indican como autosuficientes. Una formación que incluya una o más unidades autosuficientes puede quitar un Marcador de Explosión adicional siempre que se reagrupe o se reorganice con éxito. Tener varias unidades autosuficientes en una formación no le permite quitar varios Marcadores de Explosión: simplemente comprueba si hay una o más unidades autosuficientes y, si las hay, quita un Marcador de Explosión.",
+   "Algunas unidades autosuficientes pueden tener un número entre paréntesis (p. ej., Autosuficiente (x)). En ese caso, quita un número de Marcadores de Explosión igual a «x» (p. ej., una formación de unidades con Autosuficiente (2) quitaría dos Marcadores de Explosión en lugar de uno). Si una unidad tiene varias capacidades de Autosuficiente, usa la de mayor número e ignora el resto. Del mismo modo, si una formación contiene unidades con distintas capacidades de Autosuficiente, usa la de mayor número e ignora el resto."
+  ]
+ },
+ {
+  "id": "2.2.1",
+  "titulo": "Antiaérea (Anti-aircraft Weapons)",
+  "claves": [
+   "AA"
+  ],
+  "parrafos": [
+   "Algunas de las armas usadas en Epic se emplean en combates aéreos o para defenderse de las aeronaves. En las reglas se denominan colectivamente armas antiaéreas. Las armas antiaéreas tienen un valor de potencia de fuego «AA» y además pueden tener valores AP o AT. Por ejemplo, el Hunter de los Marines Espaciales tiene una potencia de fuego de AT4+/AA4+. Las reglas para realizar disparos AA se describen completas en las reglas de Operaciones Aeroespaciales (véase 4.0)."
+  ]
+ },
+ {
+  "id": "2.2.2",
+  "titulo": "Disrupción (Disrupt)",
+  "claves": [
+   "D"
+  ],
+  "parrafos": [
+   "Ciertas armas están diseñadas tanto para desorganizar a las formaciones enemigas como para matar tropas. Para representarlo, las armas con la capacidad Disruptor infligen un Marcador de Explosión a la formación enemiga por cada impacto que causen, en lugar de por cada baja. Ten en cuenta que los impactos",
+   "de las armas disruptoras se salvan normalmente. Las unidades que fallen su salvación se quitan como bajas, pero no provocan que se coloque un segundo Marcador de Explosión sobre la formación objetivo."
+  ]
+ },
+ {
+  "id": "2.2.3",
+  "titulo": "Ataques extra (Extra Attacks)",
+  "claves": [
+   "AE"
+  ],
+  "parrafos": [
+   "Algunas armas de asalto y de combate cuerpo a cuerpo se indican como con Ataques extra (+x). Las unidades armadas con estas armas reciben un número de ataques adicionales igual a «x» durante un asalto. Por ejemplo, un arma de asalto con «Ataques extra (+2)» permitiría a la unidad que la usa hacer dos ataques adicionales de combate cuerpo a cuerpo en un asalto. A veces la entrada especifica una tirada de dados en lugar de un número fijo. Por ejemplo, un arma con «Ataques extra (D3)» atacaría D3 veces cada vez que atacara. Los Ataques extra pueden aplicarse a ataques de disparo, de combate cuerpo a cuerpo y de tiroteo."
+  ]
+ },
+ {
+  "id": "2.2.4",
+  "titulo": "Daña primero (First Strike)",
+  "claves": [
+   "DP",
+   "Daña primero"
+  ],
+  "parrafos": [
+   "Las armas con la capacidad Daña primero atacan primero en un asalto. Resuelve el ataque e inflige el daño del arma antes de que cualquier unidad enemiga haga sus ataques. Esto puede hacer que algunas unidades enemigas sean destruidas antes de poder atacar. Si la capacidad figura en un arma con Ataques extra (véase 2.2.3), solo los ataques adicionales tienen Daña primero; en caso contrario, se aplica a todos los ataques de combate cuerpo a cuerpo si figura en un arma de asalto, o a todos los ataques de tiroteo si figura en armas ligeras. Si unidades de ambos bandos tienen armas con Daña primero, todos los ataques con Daña primero se resuelven simultáneamente y sus resulta‐",
+   "dos se aplican a ambos bandos antes de resolver los demás ataques."
+  ]
+ },
+ {
+  "id": "2.2.5",
+  "titulo": "Ignora Cobertura (Ignore Cover)",
+  "claves": [
+   "IC"
+  ],
+  "parrafos": [
+   "Algunas armas se indican como capaces de ignorar la cobertura. Estas armas están diseñadas para anular los efectos de la cobertura, ya sea haciéndola pedazos o sorteándola por completo. Ignoran los modificadores al impacto por cobertura y anulan las salvaciones por cobertura de la infantería."
+  ]
+ },
+ {
+  "id": "2.2.6",
+  "titulo": "Macro-armas (Macro-Weapons)",
+  "claves": [
+   "MA"
+  ],
+  "parrafos": [
+   "Algunas de las armas usadas en Epic son absolutamente enormes. En las reglas se denominan colectivamente macro-armas. Solo las unidades con Blindaje Reforzado o salvación invulnerable reciben tirada de salvación contra los impactos de una macro-arma (véanse 2.1.6 y 2.1.11). Cualquier otro tipo de objetivo impactado no tiene tirada de salvación en absoluto. Las reglas siguientes explican en detalle cómo funciona, pero mientras tengas presente el principio de que las macro-armas anulan las salvaciones, no te equivocarás mucho.",
+   "Ataques de disparo: Las macro-armas que pueden usarse en ataques de disparo no tienen valores de potencia de fuego AP ni AT. En su lugar tienen un valor de «macro-arma» (abreviado MA). Por ejemplo, el cañón volcán montado en un Titán Warlord imperial tiene un valor de fuego de MA2+. Debes tirar para impactar normalmente al disparar una macro-arma. Las macro-armas pueden afectar a cualquier tipo de objetivo, así que el cañón volcán mencionado impactaría a cualquier tipo de objetivo con 2+. Solo las unidades con Blindaje Reforzado o salvación invulnerable reciben tirada de salvación contra los impactos de una macro-arma (véanse 2.1.6 y 2.1.11). Cualquier otro tipo de objetivo impactado no tiene tirada de salvación. Las salvaciones por cobertura también quedan anuladas, aunque sí se aplica el modificador de -1 al impacto. Las unidades a bordo de un vehículo de transporte destruido por una macroarma solo reciben salvación si la tendrían en caso de ser impactadas directamente por la macro-arma.",
+   "Disparos de artillería: Resuelve el disparo de artillería de la macro-arma normalmente, salvo que las unidades impactadas no reciben tirada de salvación a menos que tengan Blindaje Reforzado o salvación invulnerable.",
+   "Asaltos: En un asalto, algunas armas ligeras y armas de asalto con Ataques extra pueden tener también la capacidad de macro-arma. En ese caso, la capacidad de macro-arma solo se aplica a los ataques adicionales.",
+   "Asignación de impactos: Si una formación atacante consigue impactos tanto con armas normales como con armas con la capacidad de macro-arma, el jugador contrario debe asignar y salvar primero los impactos normales y después asignar y salvar los impactos de macro-arma. Los impactos de macro-arma solo pueden aplicarse a unidades que estén en posición de ser impactadas por una macro-arma."
+  ]
+ },
+ {
+  "id": "2.2.7",
+  "titulo": "Disparo Único (Single Shot)",
+  "claves": [
+   "DU"
+  ],
+  "parrafos": [
+   "Algunas armas se indican como de Disparo Único. Estas armas pueden usarse una vez por batalla y después no pueden volver a dispararse. Quizá quieras anotar en un papel qué armas de disparo único se han disparado."
+  ]
+ },
+ {
+  "id": "2.2.8",
+  "titulo": "Baja cadencia (Slow Firing)",
+  "claves": [
+   "Baj"
+  ],
+  "parrafos": [
+   "Algunas armas se indican como de Baja cadencia. Estas armas necesitan un turno para recargar después de disparar. Esto significa que si disparan en un turno, no pueden disparar en el siguiente. Hemos comprobado que la mejor forma de recordarlo es girar la unidad de espaldas al enemigo cuando dispara y volver a girarla cuando la formación se active de nuevo el turno siguiente, pero puedes usar el método que prefieras."
+  ]
+ },
+ {
+  "id": "2.2.9",
+  "titulo": "Matatitanes (Titan Killers)",
+  "claves": [
+   "MT"
+  ],
+  "parrafos": [
+   "Algunas armas se indican como Matatitanes. Las unidades enemigas impactadas por estas armas no pueden hacer salvación por cobertura ni por blindaje, aunque tengan Blindaje Reforzado. Además, se aplican reglas especiales adicionales si la unidad objetivo es una Máquina de Guerra (véase 3.0). En todo lo demás, las armas Matatitanes se tratan como macro-armas."
+  ]
+ },
+ {
+  "id": "2.2.10",
+  "titulo": "Fuego Indirecto (Indirect Fire)",
+  "claves": [
+   "Ind"
+  ],
+  "parrafos": [
+   "Algunas armas que pueden disparar disparos de artillería se indican como con la capacidad de Fuego Indirecto. Las unidades armadas con armas de fuego indirecto pueden disparar indirectamente si su formación realiza una acción de Fuego Sostenido. Las unidades de una formación que falle el chequeo de acción pueden disparar normalmente como parte de su acción de Aguantar, pero no indirectamente. Las unidades que disparan un disparo de artillería indirecta reciben el modificador de +1 por realizar una acción de Fuego Sostenido. Además, un disparo de artillería indirecta no requiere línea de fuego, ya que se supone que se dispara muy alto para que los proyectiles caigan sobre el objetivo ignorando el terreno interpuesto. Las coordenadas del disparo de artillería las proporcionan «observadores» situados en otras formaciones amigas que sí tienen línea de fuego, o satélites espía en órbita o aviones. Por último, la trayectoria elevada de las armas que disparan indirectamente aumenta mucho su alcance, pero les impide disparar a objetivos demasiado cercanos. Para representarlo, las armas que disparan indirectamente duplican su alcance, pero tienen un alcance mínimo de 30 cm."
+  ]
+ },
+ {
+  "id": "3.1.3",
+  "titulo": "Máquinas de Guerra de transporte",
+  "claves": [
+   "Transporte"
+  ],
+  "parrafos": [
+   "Algunos Máquinas de Guerra pueden transportar otras unidades. Estas Máquinas de Guerra son una excepción a la regla de que los vehículos de transporte solo pueden llevar unidades de su propia formación. Una Máquina de Guerra de transporte puede llevar unidades de otra formación, siempre que toda la formación quepa dentro de la Máquina de Guerra y que toda la formación embarque en el mismo movimiento. Ten en cuenta que una Máquina de Guerra puede llevar otras unidades de su propia formación usando las reglas normales (véase 1.7.5). Para que una formación embarque de esta forma, las unidades que suben a bordo deben poder ponerse en contacto peana con peana con la Máquina de Guerra durante su acción. La Máquina de Guerra puede haber realizado una acción antes de que la otra formación embarque, pero no puede realizar una acción después. Mientras son transportadas, las unidades no pueden disparar ni realizar ninguna otra acción salvo reorganizarse en la fase de finalización (véase 1.14.1).",
+   "Una vez embarcadas las unidades transportadas, la Máquina de Guerra puede ponerse en marcha con ellas dentro como parte de una de sus propias acciones en un turno posterior. Puede desembarcar a las unidades transportadas al final de un movimiento igual que un vehículo de transporte normal (es decir, las unidades se colocan a 5 cm o menos del transporte al final de un movimiento).",
+   "Las formaciones que desembarcan de esta forma no pueden realizar una acción en el turno en que desembarcan, pero pueden disparar o combatir en un asalto si la Máquina de Guerra que las transportaba puede disparar o asaltar. En ambos casos, la Máquina de Guerra y las unidades transportadas se tratan como una sola formación hasta que se haya resuelto el ataque de disparo o el asalto. La Máquina de Guerra y la formación que desembarcó se tratan como formaciones independientes",
+   "una vez que la Máquina de Guerra ha resuelto por completo su acción.",
+   "Por ejemplo, una Máquina de Guerra podría realizar una acción Doble y desembarcar a las tropas que llevaba al final de su movimiento. La Máquina de Guerra y las unidades desembarcadas podrían entonces disparar juntos a una formación objetivo, pero todos los disparos sufrirían el modificador de -1 por disparar durante una acción Doble. Alternativamente, una Máquina de Guerra podría realizar una acción de Atacar y desembarcar a las unidades transportadas al final de su movimiento de carga. Él y las unidades que desembarcan se tratarían como una sola formación a efectos de resolver el asalto, como si realizaran un asalto combinado (véase 2.1.2, párrafo 3)."
+  ]
+ },
+ {
+  "id": "3.2.2",
+  "titulo": "Factor de daños de las Máquinas de Guerra",
+  "claves": [
+   "Factor de Daños"
+  ],
+  "parrafos": [
+   "A diferencia de los vehículos normales, las Máquinas de Guerra pueden absorber más de un impacto antes de ser destruidas. El número de impactos que puede recibir una Máquina de Guerra lo indica su factor de daños. Cada impacto no salvado reduce el factor de daños de la Máquina de Guerra en 1 punto, y la Máquina solo es destruida cuando su factor de daños se reduce a 0. Coloca un Marcador de Explosión sobre la formación de la Máquina de Guerra por cada punto de daño que sufra."
+  ]
+ },
+ {
+  "id": "4.4",
+  "titulo": "Caída orbital (Planetfall)",
+  "claves": [
+   "Caída orbital"
+  ],
+  "parrafos": [
+   "Algunos ejércitos pueden hacer aterrizar unidades terrestres desde naves espaciales en órbita en vehículos especialmente modificados. Estos vehículos se usan principalmente para llevar tropas desde las naves en órbita hasta el planeta. La mayoría se parecen más a misiles tripulados que a aeronaves, y están diseñados para dispararse a velocidades altísimas hacia la atmósfera del planeta. En el último momento, potentes retrocohetes frenan el descenso del vehículo, permitiéndole aterrizar con su carga sin percances en la superficie. Las altas velocidades a las que viajan estos vehículos hacen casi imposible que las armas",
+   "los alcancen antes de aterrizar. Esto se conoce como caída orbital. Cualquier unidad capaz de hacer una caída orbital lo tendrá indicado en su perfil de atributos. Las perfiles de atributos de las naves espaciales indican el tipo y número de unidades con caída orbital que pueden llevar. Se supone que una nave espacial también puede llevar la carga que vaya a transportarse en la unidad con capacidad de caída orbital. Las unidades que entran en juego por caída orbital y su carga (si la hay) deben mantenerse fuera de la mesa hasta que aterricen. Puedes hacer una caída orbital en el turno en que entra en juego la nave espacial que transporta las unidades. Haz la caída orbital después de realizar los bombardeos y/o ataques localizados. Toma una de las unidades con capacidad de caída orbital y colócala en cualquier lugar de la mesa a 15 cm o menos de las coordenadas de la zona de caída anotadas al comienzo de la partida (véase 4.3.1). La unidad se desvía entonces 2D6 cm en una dirección aleatoria (recomendamos usar un dado de dispersión de Games Workshop para determinar la dirección, pero vale cualquier método de mutuo acuerdo). Las unidades transportadas pueden desembarcar inmediatamente al aterrizar, o quedarse a bordo y desembarcar más tarde. Aterrizar no cuenta como movimiento a efectos de desencadenar fuego de Fuego de Supresión enemigo. Desembarcar desencadena fuego de Fuego de Supresión normalmente.",
+   "Continúa así hasta que hayan aterrizado todas las unidades con capacidad de caída orbital que lleve la nave espacial. Las unidades que queden fuera de formación por la desviación al aterrizar deben volver a una formación legal la próxima vez que realicen una acción (véanse 1.2.1 y 1.6.1). Las unidades que entran en juego por caída orbital son destruidas si aterrizan fuera de la mesa. Si la unidad aterriza en terreno infranqueable o peligroso para ella, encima de cualquier tipo de unidad (amiga o enemiga) o en una zona de control enemiga, se supone que los sistemas de guiado automático de a bordo la desviarán hacia un punto de aterrizaje seguro, y el jugador contrario moverá la unidad a la zona despejada más cercana donde pueda aterrizar.",
+   "Las unidades que aterrizan por caída orbital pueden realizar una acción más tarde en ese turno. En la práctica, las unidades aterrizan desde la nave espacial cuando esta realiza su acción, y pueden realizar una acción propia más tarde en el mismo turno. Recuerda que las formaciones que hayan aterrizado por caída orbital y quedado fuera de formación por la desviación deben volver a una formación legal cuando realicen una acción. Las aeronaves que aterrizan por caída orbital se tratan igual que una aeronave en tierra (véase 4.2.5) y pueden volver a despegar más adelante en la partida."
+  ]
+ }
+]

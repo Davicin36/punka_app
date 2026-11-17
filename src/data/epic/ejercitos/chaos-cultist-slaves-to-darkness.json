@@ -10,7 +10,7 @@
    "nombre": "Slaves To Darkness Covens",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aquelarres de los Esclavos de la Oscuridad"
   },
   {
    "id": "slaves-to-darkness-upgrades",
@@ -31,7 +31,7 @@
     "base": "coven"
    },
    "notaEs": "Se pueden desplegar dos aquelarres de apoyo por cada aquelarre. Deben ser aliados del Caos Absoluto o del mismo dios del Caos que este aquelarre.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aquelarres de apoyo de los Esclavos de la Oscuridad"
   },
   {
    "id": "plague-zombie-infestations",
@@ -66,8 +66,8 @@
    "unidades": "Four Defilers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Defilers del Caos Indiviso",
-   "unidadesEs": "Cuatro Defilers"
+   "nombreEs": "Profanadores del Caos Indiviso",
+   "unidadesEs": "Cuatro Profanadores del Caos"
   },
   {
    "id": "slaves-to-darkness-support-covens-chaos-undivided-hellfire-cannons",
@@ -353,7 +353,6 @@
    "id": "6.33",
    "titulo": "Lista de ejército de los Cultistas del Caos Esclavos de la Oscuridad (Slaves to Darkness)",
    "parrafos": [
-    "del Emperador. Las estrellas temblarán a su paso y las poderosas armadas del Señor de la Guerra Abaddon traerán la aniquilación a cien mundos. Sabedlo, pues estas cosas sucederán.» — Constanze la Profetisa",
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.33.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Culto del Caos basado en el Culto de los Esclavos de la Oscuridad, que ha surgido incontables veces a lo largo de los milenios en toda la galaxia. También puede usarse como lista «sustituta» para otros ejércitos de Cultos.",
     "Las formaciones de Cultistas del Caos son de dos tipos: aquelarres y aquelarres de apoyo. Cada aquelarre que incluyas en el ejército te permite desplegar dos aquelarres de apoyo cualesquiera. Aunque solo puedes llevar un aquelarre de apoyo si antes llevas un aquelarre, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntos. Además, los aquelarres de apoyo de Máquinas Demoníacas del Caos deben lealtad al Caos Indiviso o al mismo dios del Caos que el aquelarre de Cultistas asociado. Por ejemplo, si el ejército incluyera dos aquelarres de Cultistas de Khorne, podría incluir dos aquelarres de máquinas demoníacas de Khorne, o uno de Khorne y otro indiviso.",
@@ -436,7 +435,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Icon Bearer",
@@ -814,6 +813,7 @@
   },
   {
    "nombre": "Defiler",
+   "nombreEs": "Profanador del Caos",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",

@@ -10,7 +10,7 @@
    "nombre": "Tau Cadres",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Cuerpos tau"
   },
   {
    "id": "tau-support-formations",
@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar tres formaciones de apoyo cualesquiera por cada formación principal.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo tau"
   },
   {
    "id": "tau-upgrades",
@@ -40,7 +40,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de la Casta del Aire"
   }
  ],
  "formaciones": [
@@ -56,7 +56,7 @@
     "Crisis Suits",
     "Gun Drones"
    ],
-   "nombreEs": "Cuadro de Armaduras Crisis",
+   "nombreEs": "Cuerpo de Armaduras Crisis",
    "unidadesEs": "Cuatro Armaduras de Combate Crisis y un personaje Shas’el"
   },
   {
@@ -77,8 +77,8 @@
     "Piranhas",
     "Skyray"
    ],
-   "nombreEs": "Cuadro de Guerreros del Fuego",
-   "unidadesEs": "Ocho Guerreros del Fuego, o seis Guerreros del Fuego y tres Devilfish"
+   "nombreEs": "Cuerpo de Guerreros de la Casta del Fuego",
+   "unidadesEs": "Ocho Guerreros de la Casta del Fuego, o seis Guerreros de la Casta del Fuego y tres Mantarrayas"
   },
   {
    "id": "tau-support-formations-armour-support-group",
@@ -91,8 +91,8 @@
     "Hammerheads",
     "Skyray"
    ],
-   "nombreEs": "Grupo de Apoyo Acorazado",
-   "unidadesEs": "Cuatro Hammerheads. Nota: uno o más Hammerheads con Cañón de Riel cuestan +25 puntos"
+   "nombreEs": "Grupo de Apoyo Blindado",
+   "unidadesEs": "Cuatro Cabezamartillos. Nota: uno o más Cabezamartillos con Acelerador Lineal cuestan +25 puntos"
   },
   {
    "id": "tau-support-formations-broadside-group",
@@ -104,8 +104,8 @@
    "mejoras": [
     "Gun Drones"
    ],
-   "nombreEs": "Grupo Broadside",
-   "unidadesEs": "Seis Armaduras de Combate Broadside"
+   "nombreEs": "Grupo Apocalipsis",
+   "unidadesEs": "Seis Armaduras de Combate Apocalipsis"
   },
   {
    "id": "tau-support-formations-kroot-kindred",
@@ -119,8 +119,8 @@
     "Kroot Hounds",
     "Krootox"
    ],
-   "nombreEs": "Linaje Kroot",
-   "unidadesEs": "Una unidad de Maestros Moldeadores Kroot y nueve Guerreros Kroot"
+   "nombreEs": "Hermandad Kroot",
+   "unidadesEs": "Una unidad de Maestros del Camuflaje Kroot y nueve Guerreros Kroot"
   },
   {
    "id": "tau-support-formations-pathfinder-group",
@@ -133,8 +133,8 @@
     "Gun Drones",
     "Piranhas"
    ],
-   "nombreEs": "Grupo de Rastreadores",
-   "unidadesEs": "Cuatro Rastreadores y dos Devilfish"
+   "nombreEs": "Grupo Rastreador",
+   "unidadesEs": "Cuatro Rastreadores y dos Mantarrayas"
   },
   {
    "id": "tau-support-formations-recon-skimmer-group",
@@ -147,8 +147,8 @@
     "Gun Drones",
     "Piranhas"
    ],
-   "nombreEs": "Grupo de Gravitatorios de Reconocimiento",
-   "unidadesEs": "Seis cualesquiera de: Piranha, Tetra"
+   "nombreEs": "Grupo Gravitatorio de Reconocimiento",
+   "unidadesEs": "Seis cualesquiera de: Piraña, Tetra"
   },
   {
    "id": "tau-support-formations-skysweep-support-group",
@@ -158,8 +158,8 @@
    "coste": 250,
    "costeTexto": "250 points",
    "mejoras": [],
-   "nombreEs": "Grupo de Apoyo Antiaéreo",
-   "unidadesEs": "Tres Skyrays"
+   "nombreEs": "Grupo de Apoyo de Barrido del Cielo",
+   "unidadesEs": "Tres Cañoneras Skyray"
   },
   {
    "id": "tau-support-formations-stealth-group",
@@ -171,8 +171,8 @@
    "mejoras": [
     "Gun Drones"
    ],
-   "nombreEs": "Grupo Sigilo",
-   "unidadesEs": "Seis Armaduras de Combate Stealth"
+   "nombreEs": "Grupo Sombra",
+   "unidadesEs": "Seis Armaduras Sombra"
   },
   {
    "id": "air-caste-formations-barracuda-squadron",
@@ -191,7 +191,7 @@
    "unidades": "One Manta",
    "coste": 650,
    "costeTexto": "650 points",
-   "nombreEs": "Nave de Desembarco Manta",
+   "nombreEs": "Nave de Despliegue Manta",
    "unidadesEs": "Una Manta"
   },
   {
@@ -201,19 +201,31 @@
    "unidades": "One Orca",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Nave de Desembarco Orca",
+   "nombreEs": "Nave de Despliegue Orca",
    "unidadesEs": "Una Orca"
   },
   {
    "id": "air-caste-formations-spacecraft",
    "nombre": "Spacecraft",
    "seccion": "air-caste-formations",
-   "unidades": "Any one of the following units: Protector Class Cruiser Custodian Class Battleship",
+   "unidades": "Any one of the following units: Protector Class Cruiser, Custodian Class Battleship",
    "coste": 200,
    "costeTexto": "200 points 225 points",
    "max": 1,
    "nombreEs": "Nave Espacial",
-   "unidadesEs": "Una de: Crucero clase Protector (200), Acorazado clase Custodio (225)"
+   "unidadesEs": "Elige una: un Crucero clase Protector …o una Nave de Batalla clase Custodio",
+   "tamanos": [
+    {
+     "nombre": "Protector Class Cruiser",
+     "coste": 200,
+     "nombreEs": "Crucero clase Protector"
+    },
+    {
+     "nombre": "Custodian Class Battleship",
+     "coste": 225,
+     "nombreEs": "Nave de Batalla clase Custodio"
+    }
+   ]
   },
   {
    "id": "air-caste-formations-tiger-shark-squadron",
@@ -230,7 +242,7 @@
     }
    ],
    "nombreEs": "Escuadrón Tiburón Tigre",
-   "unidadesEs": "Dos Tiburones Tigre (añadir una formación de seis Drones Armados: +100 puntos)"
+   "unidadesEs": "Dos Tiburones Tigre (añadir una formación de seis Drones de Armas: +100 puntos)"
   },
   {
    "id": "air-caste-formations-tiger-shark-ax-1-0-squadron",
@@ -251,8 +263,8 @@
    "texto": "Give all units in the formation Self-Reliant",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Equipo Vinculado",
-   "textoEs": "Da Autosuficiente a todas las unidades de la formación"
+   "nombreEs": "Ritual Ta’lissera",
+   "textoEs": "Da Autosuficiente (Self-Reliant) a todas las unidades de la formación"
   },
   {
    "id": "broadsides",
@@ -261,7 +273,8 @@
    "texto": "Add three Broadside Battlesuits",
    "coste": 150,
    "costeTexto": "+150 points",
-   "textoEs": "Añade tres Armaduras de Combate Broadside"
+   "textoEs": "Añade tres Armaduras de Combate Apocalipsis",
+   "nombreEs": "Apocalipsis"
   },
   {
    "id": "crisis-suits",
@@ -270,7 +283,7 @@
    "texto": "Add two Crisis Battlesuits",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Armaduras Crisis",
+   "nombreEs": "Crisis",
    "textoEs": "Añade dos Armaduras de Combate Crisis"
   },
   {
@@ -284,7 +297,7 @@
    "max": 10,
    "maxEjercito": 1,
    "nombreEs": "Etéreo",
-   "textoEs": "Añade un personaje Etéreo por ejército a una unidad de Guerreros del Fuego"
+   "textoEs": "Añade un personaje Etéreo por ejército a una unidad de Guerreros de la Casta del Fuego"
   },
   {
    "id": "fire-warriors",
@@ -298,17 +311,17 @@
      "coste": 100,
      "porUnidad": false,
      "texto": "+100 points",
-     "textoEs": "+100 puntos"
+     "textoEs": "Cuatro Guerreros de la Casta del Fuego (+100)"
     },
     {
      "coste": 125,
      "porUnidad": false,
      "texto": "+125 points",
-     "textoEs": "+125 puntos"
+     "textoEs": "Cuatro Guerreros de la Casta del Fuego y dos Mantarrayas (+125)"
     }
    ],
-   "nombreEs": "Guerreros del Fuego",
-   "textoEs": "Una opción: cuatro Guerreros del Fuego …o cuatro Guerreros del Fuego y dos Devilfish"
+   "nombreEs": "Guerreros de la Casta del Fuego",
+   "textoEs": "Una opción: cuatro Guerreros de la Casta del Fuego …o cuatro Guerreros de la Casta del Fuego y dos Mantarrayas"
   },
   {
    "id": "gun-drones",
@@ -317,8 +330,8 @@
    "texto": "Add two Gun Drones",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Drones Armados",
-   "textoEs": "Añade dos Drones Armados"
+   "nombreEs": "Drones de Armas",
+   "textoEs": "Añade dos Drones de Armas"
   },
   {
    "id": "hammerheads",
@@ -332,16 +345,18 @@
      "coste": 75,
      "porUnidad": false,
      "texto": "+75 points",
-     "textoEs": "+75 puntos"
+     "textoEs": "Añade dos Cabezamartillos con Cañones Iónicos (+75)"
     },
     {
      "coste": 50,
      "porUnidad": true,
      "texto": "+50 points each",
-     "textoEs": "+50 puntos cada uno"
+     "textoEs": "Añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados (+50 c/u)"
     }
    ],
-   "textoEs": "Una opción: añade dos Hammerheads con Cañones de Iones …o añade hasta dos Hammerheads con Cañón de Riel o Cañones de Fusión Dobles"
+   "textoEs": "Una de estas opciones: añade dos Cabezamartillos con Cañones Iónicos …o añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados",
+   "nombreEs": "Cabezamartillos",
+   "max": 2
   },
   {
    "id": "kroot",
@@ -359,8 +374,8 @@
    "texto": "Add three Kroot Hounds",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Sabuesos Kroot",
-   "textoEs": "Añade tres Sabuesos Kroot"
+   "nombreEs": "Mastines Kroot",
+   "textoEs": "Añade tres Mastines Kroot"
   },
   {
    "id": "krootox",
@@ -379,7 +394,7 @@
    "coste": 100,
    "costeTexto": "+100 points",
    "nombreEs": "Rastreadores",
-   "textoEs": "Añade dos Rastreadores y un Devilfish"
+   "textoEs": "Añade dos Rastreadores y una Mantarraya"
   },
   {
    "id": "piranhas",
@@ -388,7 +403,8 @@
    "texto": "Add three Piranhas",
    "coste": 75,
    "costeTexto": "+75 points",
-   "textoEs": "Añade tres Piranhas"
+   "textoEs": "Añade tres Pirañas",
+   "nombreEs": "Pirañas"
   },
   {
    "id": "shaso",
@@ -407,12 +423,13 @@
    "texto": "Add one Skyray",
    "coste": 100,
    "costeTexto": "+100 points",
-   "textoEs": "Añade un Skyray"
+   "textoEs": "Añade una Cañonera Skyray",
+   "nombreEs": "Cañonera Skyray"
   }
  ],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
- "iniciativaEs": "Las formaciones de Cuadro de Armaduras Crisis y de Nave de Desembarco Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+ "iniciativaEs": "Las formaciones de Cuerpo de Armaduras Crisis y de Nave de Despliegue Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.19",
@@ -421,25 +438,26 @@
     "vizaros, sino para daros la bienvenida a nuestro imperio, el imperio de los Tau.»",
     "— Por’vre Dal’yth Jishu’iro, dirigiéndose a la población humana de Goron Minor",
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.19.",
-    "Uso de la lista de ejército: Las formaciones tau son de dos tipos: cuadros (cadres) y formaciones de apoyo. Cada cuadro que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un cuadro, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Las formaciones que puede incluir un ejército de la Expansión de la Tercera Fase Tau se muestran en la tabla siguiente, que indica también las unidades que las componen, las mejoras permitidas y su coste en puntos.",
+    "Uso de la lista de ejército: Las formaciones tau son de dos tipos: cuerpos (cadres) y formaciones de apoyo. Cada cuerpo que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un cuerpo, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Las formaciones que puede incluir un ejército de la Expansión de la Tercera Fase Tau se muestran en la tabla siguiente, que indica también las unidades que las componen, las mejoras permitidas y su coste en puntos.",
     "Además, las formaciones pueden recibir hasta tres mejoras. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras, que también indica las unidades que la componen. Cada mejora puede adquirirse una vez por formación. Los ejércitos de la Expansión de la Tercera Fase Tau pueden recibir apoyo de formaciones de la Casta del Aire. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: Ciertas unidades y armas tienen capacidades especiales descritas en Fuego Coordinado (véase 5.19.1) y Tecnología Tau (véase 5.19.2).",
     "I N I C I AT I VA FACTOR DE E STRATEGIA: 3",
-    "Las formaciones de Cuadro de Armaduras Crisis y de Nave de Desembarco Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Las formaciones de Cuerpo Crisis y de Nave de Despliegue Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
-    "• Uno o más Hammerheads con Cañón de Riel cuestan +25 puntos en total (Grupo de Apoyo Acorazado).",
+    "• Uno o más Cabezamartillos con Acelerador Lineal cuestan +25 puntos en total (Grupo de Apoyo Blindado).",
     "• 0–1 Etéreo, 0–1 Shas’o y 0–1 Nave Espacial por ejército.",
     "• Hasta tres mejoras por formación, una de cada tipo. Cada formación principal permite tres formaciones de apoyo.",
-    "• El Escuadrón Tiburón Tigre puede añadir una formación de seis Drones Armados (+100)."
+    "• Mejora Cabezamartillos: dos Cabezamartillos con Cañones Iónicos (+75 puntos por los dos) o hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados (+50 puntos cada uno).",
+    "• El Escuadrón Tiburón Tigre puede añadir una formación de seis Drones de Armas (+100)."
    ]
   },
   {
    "id": "6.19.1",
-   "titulo": "Drones Armados de los Tiburón Tigre",
+   "titulo": "Drones de Armas de los Tiburón Tigre",
    "parrafos": [
     "(Tiburón Tigre Gun Drones)",
-    "Los Escuadrones de Tiburón Tigre pueden recibir una formación de Drones Armados para transportarla. Las formaciones de Drones Armados transportadas pueden repartirse entre varios Tiburones Tigre, como excepción a las reglas normales de transporte en aeronaves. Los Tiburones Tigre no pueden ate‐",
-    "rrizar, realizar una acción de Atacar ni embarcar unidades, pero pueden desembarcar a los Drones Armados transportados tras un movimiento de aproximación. La formación de Drones Armados puede disparar al desembarcar con normalidad (véase 4.2.5), y cuenta como si se hubiera activado ese turno. Tras este despliegue inicial, los Drones Armados son una formación completamente independiente. Los Drones Armados transportados por Tiburones Tigre no generan Marcadores de Explosión al ser destruidos hasta después de haber desembarcado."
+    "Los Escuadrones de Tiburón Tigre pueden recibir una formación de Drones de Armas para transportarla. Las formaciones",
+    "de Drones de Armas transportadas pueden repartirse entre varios Tiburones Tigre, como excepción a las reglas normales de transporte en aeronaves. Los Tiburones Tigre no pueden aterrizar, realizar una acción de Atacar ni embarcar unidades, pero pueden desembarcar a los Drones de Armas transportados tras un movimiento de aproximación. La formación de Drones de Armas puede disparar al desembarcar con normalidad (véase 4.2.5), y cuenta como si se hubiera activado ese turno. Tras este despliegue inicial, los Drones de Armas son una formación completamente independiente. Los Drones de Armas transportados por Tiburones Tigre no generan Marcadores de Explosión al ser destruidos hasta después de haber desembarcado."
    ]
   },
   {
@@ -447,7 +465,7 @@
    "titulo": "Fuego Coordinado (Coordinated Fire)",
    "parrafos": [
     "Algunas unidades pueden solicitar fuego coordinado. Estas unidades pueden ordenar a hasta otras dos formaciones situadas a 15 cm o menos, que no hayan realizado una acción este turno y no estén desmoralizadas, que sigan a su propia formación cuando esta realice una acción de Avanzar, Doble o Fuego Sostenido.",
-    "Haz una sola tirada de iniciativa para todas las formaciones, aplicando un único modificador de -1 si alguna tiene Marcadores de Explosión. Si se falla el chequeo, la formación original (la que contiene la unidad que solicita el fuego coordinado) recibe un Marcador de Explosión y debe realizar una acción de Aguantar, pero las demás formaciones no se ven afectadas (y pueden realizar una acción más adelante en el turno). Si se supera, todas las formaciones implicadas pueden realizar una acción de Avanzar, Doble o Fuego Sostenido. No es obligatorio que todas las formaciones realicen la misma acción, y estas pueden resolverse en cualquier orden, pero todas deben disparar a la misma formación objetivo. Las formaciones no tienen que permanecer a una distancia determinada entre sí y completarán sus acciones una tras otra. La acción de cada formación se declara y resuelve (incluida la comprobación de si la formación objetivo queda desmoralizada) antes de pasar a la siguiente formación tau. Ten en cuenta que las unidades con esta capacidad la otorgan a cualquier formación a la que se unan. Por ejemplo, una mejora de Rastreadores (Pathfinders) adquirida para añadirse a un Cuadro de Guerreros del Fuego otorga la capacidad de fuego coordinado a todas las unidades del Cuadro."
+    "Haz una sola tirada de iniciativa para todas las formaciones, aplicando un único modificador de -1 si alguna tiene Marcadores de Explosión. Si se falla el chequeo, la formación original (la que contiene la unidad que solicita el fuego coordinado) recibe un Marcador de Explosión y debe realizar una acción de Aguantar, pero las demás formaciones no se ven afectadas (y pueden realizar una acción más adelante en el turno). Si se supera, todas las formaciones implicadas pueden realizar una acción de Avanzar, Doble o Fuego Sostenido. No es obligatorio que todas las formaciones realicen la misma acción, y estas pueden resolverse en cualquier orden, pero todas deben disparar a la misma formación objetivo. Las formaciones no tienen que permanecer a una distancia determinada entre sí y completarán sus acciones una tras otra. La acción de cada formación se declara y resuelve (incluida la comprobación de si la formación objetivo queda desmoralizada) antes de pasar a la siguiente formación tau. Ten en cuenta que las unidades con esta capacidad la otorgan a cualquier formación a la que se unan. Por ejemplo, una mejora de Rastreadores (Pathfinders) adquirida para añadirse a un Cuerpo de Guerreros de la Casta del Fuego otorga la capacidad de fuego coordinado a todas las unidades del Cuerpo."
    ]
   },
   {
@@ -473,7 +491,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Hoja de honor",
+     "nombre": "Espada del Honor",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1)"
     }
@@ -494,7 +512,8 @@
      "potencia": ""
     }
    ],
-   "notas": "Fuego Coordinado, Líder."
+   "notas": "Fuego Coordinado, Líder.",
+   "nombreEs": "Shas'el"
   },
   {
    "nombre": "Shas'o",
@@ -510,7 +529,8 @@
      "potencia": "AP4+"
     }
    ],
-   "notas": "Fuego Coordinado, Líder. Cada personaje Shas'o del ejército permite al jugador repetir un chequeo de iniciativa fallido (de cualquier tipo) una vez por turno."
+   "notas": "Fuego Coordinado, Líder. Cada personaje Shas'o del ejército permite al jugador repetir un chequeo de iniciativa fallido (de cualquier tipo) una vez por turno.",
+   "nombreEs": "Shas'o"
   },
   {
    "nombre": "Crisis Battlesuits",
@@ -522,17 +542,17 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Vainas de misiles",
+     "nombre": "Módulo lanzamisiles",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Rifles de plasma dobles",
+     "nombre": "Rifles de plasma acoplados",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
     {
-     "nombre": "Blásters de fusión dobles",
+     "nombre": "Blásters de fusión acoplados",
      "alcance": "15cm",
      "potencia": "MA4+"
     }
@@ -541,7 +561,7 @@
   },
   {
    "nombre": "Fire Warriors",
-   "nombreEs": "Guerreros del Fuego",
+   "nombreEs": "Guerreros de la Casta del Fuego",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -549,12 +569,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Rifles de pulsos",
+     "nombre": "Rifles de inducción",
      "alcance": "30cm",
      "potencia": "AP4+"
     },
     {
-     "nombre": "Carabinas de pulsos",
+     "nombre": "Carabinas de inducción",
      "alcance": "15cm",
      "potencia": "AP5+, D"
     }
@@ -563,7 +583,7 @@
   },
   {
    "nombre": "Gun Drones",
-   "nombreEs": "Drones Armados",
+   "nombreEs": "Drones de Armas",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "5+",
@@ -571,7 +591,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Carabinas de pulsos dobles",
+     "nombre": "Carabinas de inducción acopladas",
      "alcance": "15cm",
      "potencia": "AP4+, D"
     }
@@ -580,7 +600,7 @@
   },
   {
    "nombre": "Kroot Hounds",
-   "nombreEs": "Sabuesos Kroot",
+   "nombreEs": "Mastines Kroot",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "-",
@@ -597,7 +617,7 @@
   },
   {
    "nombre": "Kroot Master Shapers",
-   "nombreEs": "Maestros Moldeadores Kroot",
+   "nombreEs": "Maestros del Camuflaje Kroot",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -605,12 +625,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Rifles kroot",
+     "nombre": "Rifles Kroot",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Armas mercenarias",
+     "nombre": "Armas de mercenario",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1)"
     }
@@ -627,7 +647,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Rifles kroot",
+     "nombre": "Rifles Kroot",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras"
     }
@@ -643,7 +663,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Armas kroot",
+     "nombre": "Cañón Kroot",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
@@ -665,12 +685,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Rifles de riel",
+     "nombre": "Rifles aceleradores",
      "alcance": "30cm",
      "potencia": "AP5+, S"
     },
     {
-     "nombre": "Carabinas de pulsos",
+     "nombre": "Carabinas de inducción",
      "alcance": "15cm",
      "potencia": "AP5+, D"
     }
@@ -679,7 +699,7 @@
   },
   {
    "nombre": "Stealth Battlesuits",
-   "nombreEs": "Armaduras de Combate Sigilosas",
+   "nombreEs": "Armaduras Sombra",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "5+",
@@ -687,7 +707,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Cañones de ráfagas silencia dos",
+     "nombre": "Cañones de inducción silen ciados",
      "alcance": "15cm",
      "potencia": "AP4+, D"
     }
@@ -696,7 +716,7 @@
   },
   {
    "nombre": "Broadside Battlesuit",
-   "nombreEs": "Armadura de Combate Broadside",
+   "nombreEs": "Armadura de Combate Apocalipsis",
    "tipo": "VL",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -704,12 +724,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Cañones de riel dobles",
+     "nombre": "Aceleradores lineales acoplados",
      "alcance": "60cm",
      "potencia": "AT3+"
     },
     {
-     "nombre": "Sistema de misiles inteligen tes",
+     "nombre": "Sistema de misiles inteligentes",
      "alcance": "30cm",
      "potencia": "AP5+, IC"
     }
@@ -718,6 +738,7 @@
   },
   {
    "nombre": "Piranha",
+   "nombreEs": "Piraña",
    "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -725,7 +746,7 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Cañón de ráfagas y drones",
+     "nombre": "Cañón de inducción y drones",
      "alcance": "15cm",
      "potencia": "AP5+"
     },
@@ -746,7 +767,7 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Rifles de pulsos del Tetra",
+     "nombre": "Rifles de inducción Tetra",
      "alcance": "30cm",
      "potencia": "AP6+"
     }
@@ -755,6 +776,7 @@
   },
   {
    "nombre": "Devilfish",
+   "nombreEs": "Mantarraya",
    "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
@@ -762,7 +784,7 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Cañón de ráfagas y drones",
+     "nombre": "Cañón de inducción y drones",
      "alcance": "15cm",
      "potencia": "AP5+"
     },
@@ -772,10 +794,11 @@
      "potencia": "AT6+, Guía"
     }
    ],
-   "notas": "Gravitatorio, Transporte. Puede transportar dos unidades de Guerreros del Fuego o Rastreadores."
+   "notas": "Gravitatorio, Transporte. Puede transportar dos unidades de Guerreros de la Casta del Fuego o Rastreadores."
   },
   {
    "nombre": "Hammerhead",
+   "nombreEs": "Cabezamartillo",
    "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
@@ -783,40 +806,41 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Sistema de misiles inteligen ‐",
+     "nombre": "Sistema de misiles inteligentes",
      "alcance": "30cm",
      "potencia": "AP5+, IC"
     },
     {
-     "nombre": "tes",
+     "nombre": "Misiles buscadores",
      "alcance": "90cm",
      "potencia": "AT6+, Guía"
     },
     {
-     "nombre": "Misiles buscadores",
+     "nombre": "0–1× Acelerador lineal",
      "alcance": "75cm",
      "potencia": "AP5+"
     },
     {
-     "nombre": "0–1× Cañón de riel",
+     "nombre": "",
      "alcance": "75cm",
      "potencia": "AT4+, L"
     },
     {
-     "nombre": "o",
+     "nombre": "o 0–1× Cañón iónico",
      "alcance": "60cm",
      "potencia": "AP4+/AT5+"
     },
     {
-     "nombre": "0–1× Cañón de iones 0–1× Cañón de fusión do ble",
+     "nombre": "o 0–1× Cañones de fusión acoplados",
      "alcance": "30cm",
      "potencia": "MA4+"
     }
    ],
-   "notas": "Gravitatorio. Armado con un Cañón de riel, un Cañón de iones o un Cañón de fusión doble."
+   "notas": "Gravitatorio. Armado con un Acelerador lineal, un Cañón iónico o un Cañones de fusión acoplados."
   },
   {
    "nombre": "Skyray",
+   "nombreEs": "Cañonera Skyray",
    "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
@@ -824,17 +848,17 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Sistema de misiles inteligen ‐",
+     "nombre": "Sistema de misiles inteligentes",
      "alcance": "30cm",
      "potencia": "AP5+, IC"
     },
     {
-     "nombre": "tes",
+     "nombre": "2× Misiles cazadores",
      "alcance": "60cm",
      "potencia": "AA5+"
     },
     {
-     "nombre": "2× Misiles cazadores 2× Misiles buscadores",
+     "nombre": "2× Misiles buscadores",
      "alcance": "90cm",
      "potencia": "AT6+, Guía"
     }
@@ -850,17 +874,17 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Cañón de iones",
+     "nombre": "Cañón iónico",
      "alcance": "30cm",
      "potencia": "AP4+/AT5+/AA5+, FxF"
     },
     {
-     "nombre": "Cañón de ráfagas doble",
+     "nombre": "Cañones de inducción acoplados",
      "alcance": "15cm",
      "potencia": "AA6+"
     },
     {
-     "nombre": "Vainas de misiles dobles",
+     "nombre": "Módulos lanzamisiles acoplados",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+, FxF"
     }
@@ -876,32 +900,32 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Cañones de riel pesados do ‐",
+     "nombre": "Aceleradores lineales pesados acoplados",
      "alcance": "90cm",
      "potencia": "MA2+, FxF, MT(D3)"
     },
     {
-     "nombre": "bles",
+     "nombre": "3× Falanges pesadas de iones",
      "alcance": "75cm",
      "potencia": "AP3+/AT4+, FxF"
     },
     {
-     "nombre": "3× Falange de iones pesada",
+     "nombre": "4× Cañones de inducción acoplados del Manta",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     },
     {
-     "nombre": "4× Cañones de ráfagas do ‐",
+     "nombre": "Módulos lanzamisiles acoplados",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+, FxF"
     },
     {
-     "nombre": "bles del Manta Vainas de misiles dobles 2× Misiles buscadores",
+     "nombre": "2× Misiles buscadores",
      "alcance": "90cm",
      "potencia": "AT6+, Guía"
     }
    ],
-   "notas": "Factor de Daños 8, Escudo Deflector, Coraje, Marcadores Láser, Caída orbital, Blindaje Reforzado, Nave de Apoyo, Transporte. Puede transportar 20 unidades de infantería o Armaduras de Combate Broadside; más cuatro unidades de vehículo blindado o ligero (excepto Broadside); los Tetra cuentan como un tercio de unidad cada uno, redondeando hacia arriba. Las Armaduras de Combate Crisis cuentan como dos unidades cada una. Efecto de Impacto Crítico: la unidad pierde el escudo deflector tau. Los daños críticos posteriores causan un punto de daño adicional."
+   "notas": "Factor de Daños 8, Escudo Deflector, Coraje, Marcadores Láser, Caída orbital, Blindaje Reforzado, Nave de Apoyo, Transporte. Puede transportar 20 unidades de infantería o Armaduras de Combate Apocalipsis; más cuatro unidades de vehículo blindado o ligero (excepto Apocalipsis); los Tetra cuentan como un tercio de unidad cada uno, redondeando hacia arriba. Las Armaduras de Combate Crisis cuentan como dos unidades cada una. Efecto de Impacto Crítico: la unidad pierde el escudo deflector tau. Los daños críticos posteriores causan un punto de daño adicional."
   },
   {
    "nombre": "Orca",
@@ -912,83 +936,85 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Cañón de ráfagas doble",
+     "nombre": "Cañones de inducción acoplados",
      "alcance": "15cm",
      "potencia": "AA6+"
     },
     {
-     "nombre": "Vainas de misiles dobles",
+     "nombre": "Módulos lanzamisiles acoplados",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Misiles buscadores antiaé reos",
+     "nombre": "Misiles buscadores de aeronave",
      "alcance": "45cm",
      "potencia": "AT6+, Guía"
     }
    ],
-   "notas": "Factor de Daños 2, Caída orbital, Transporte. Puede transportar doce unidades de infantería (excepto Krootox) o Armaduras de Combate Broadside; las Armaduras de Combate Crisis cuentan como dos unidades cada una. Efecto de Impacto Crítico: la unidad y todas las unidades a bordo quedan destruidas."
+   "notas": "Factor de Daños 2, Caída orbital, Transporte. Puede transportar doce unidades de infantería (excepto Krootox) o Armaduras de Combate Apocalipsis; las Armaduras de Combate Crisis cuentan como dos unidades cada una. Efecto de Impacto Crítico: la unidad y todas las unidades a bordo quedan destruidas."
   },
   {
    "nombre": "Tiger Shark",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Tiburón Tigre",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Ion Cannon",
+     "nombre": "Cañones de iones acoplados",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Twin Burst Cannon",
+     "nombre": "Cañones de inducción acoplados",
      "alcance": "15cm",
      "potencia": "AA6+"
     },
     {
-     "nombre": "Twin Missile Pods",
+     "nombre": "Módulos lanzamisiles acoplados",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+, FxF"
     }
    ],
-   "notas": "Transport. May transport three units of Gun Drones."
+   "notas": "Transporte. Puede transportar tres unidades de Drones de Armas."
   },
   {
    "nombre": "Tiger Shark AX-1-0",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Tiburón Tigre AX-1-0",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Rail Cannons",
+     "nombre": "Aceleradores lineales acoplados",
      "alcance": "45cm",
-     "potencia": "MW3+, FxF, TK(D3)"
+     "potencia": "MA3+, FxF, MT(D3)"
     },
     {
-     "nombre": "Twin Burst Cannon",
+     "nombre": "Cañones de inducción acoplados",
      "alcance": "15cm",
      "potencia": "AA6+"
     },
     {
-     "nombre": "Twin Missile Pods",
+     "nombre": "Módulos lanzamisiles acoplados",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+, FxF"
     },
     {
-     "nombre": "Aircraft Seeker Missiles",
+     "nombre": "Misiles buscadores de aeronave",
      "alcance": "45cm",
-     "potencia": "AT6+, GM"
+     "potencia": "AT6+, Guía"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Custodian Class Battleship",
-   "nombreEs": "Acorazado clase Custodio",
+   "nombreEs": "Nave de Batalla clase Custodio",
    "tipo": "NE",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -1024,63 +1050,6 @@
     }
    ],
    "notas": "Transporte. Puede transportar seis de las siguientes unidades y las unidades que lleven: Orca, Manta; los Manta cuentan como tres unidades cada uno."
-  },
-  {
-   "nombre": "Tiburón Tigre",
-   "tipo": "AN",
-   "velocidad": "Bombardero",
-   "blindaje": "4+",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [
-    {
-     "nombre": "Cañón de iones dobles",
-     "alcance": "30cm",
-     "potencia": "AP3+/AT4+/AA4+, FxF"
-    },
-    {
-     "nombre": "Cañón de ráfagas doble",
-     "alcance": "15cm",
-     "potencia": "AA6+"
-    },
-    {
-     "nombre": "Vainas de misiles dobles",
-     "alcance": "45cm",
-     "potencia": "AP5+/AT6+, FxF"
-    }
-   ],
-   "notas": "Transporte. Puede transportar tres unidades de Drones Armados."
-  },
-  {
-   "nombre": "Tiburón Tigre AX-1-0",
-   "tipo": "AN",
-   "velocidad": "Bombardero",
-   "blindaje": "4+",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [
-    {
-     "nombre": "Cañones de riel dobles",
-     "alcance": "45cm",
-     "potencia": "MA3+, FxF, MT(D3)"
-    },
-    {
-     "nombre": "Cañón de ráfagas doble",
-     "alcance": "15cm",
-     "potencia": "AA6+"
-    },
-    {
-     "nombre": "Vainas de misiles dobles",
-     "alcance": "45cm",
-     "potencia": "AP5+/AT6+, FxF"
-    },
-    {
-     "nombre": "Misiles buscadores antiaé reos",
-     "alcance": "45cm",
-     "potencia": "AT6+, Guía"
-    }
-   ],
-   "notas": ""
   }
  ]
 }

@@ -11,14 +11,14 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos necrones"
   },
   {
    "id": "necron-phalanxes",
    "nombre": "Necron Phalanxes",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos necrones"
   },
   {
    "id": "necron-support-formations",
@@ -30,7 +30,7 @@
     "base": "phalanx"
    },
    "notaEs": "Cada falange que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo necronas"
   },
   {
    "id": "necron-harvesters",
@@ -38,7 +38,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Cosechadores necrones"
   }
  ],
  "formaciones": [
@@ -251,8 +251,8 @@
    "unidades": "One Pylon",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Un Pilón",
-   "nombreEs": "Pilón"
+   "nombreEs": "Pilón",
+   "unidadesEs": "Un Pilón"
   },
   {
    "id": "necron-harvesters-warbarque",
@@ -261,8 +261,8 @@
    "unidades": "One Warbarque",
    "coste": 300,
    "costeTexto": "300 points",
-   "unidadesEs": "Una Barca de Guerra",
-   "nombreEs": "Barca de Guerra"
+   "nombreEs": "Barca de Guerra",
+   "unidadesEs": "Una Barca de Guerra"
   }
  ],
  "mejoras": [],
@@ -279,7 +279,7 @@
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.15.",
     "Uso de la lista de ejército: Las formaciones necronas del conflicto de Scarab son de tres tipos; los dos primeros son falanges y formaciones de apoyo. Cada falange que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una falange, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. El tercer tipo son las formaciones de Cosechadores (Harvestor). Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
     "Por último, los Individuos Necrones incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista».",
-    "trario; todas las unidades principales y adicionales cuentan como parte de una única formación y no pueden separarse por su cuenta) y Coste (el valor en puntos de la formación).",
+    "esa columna, en cualquier número salvo que se indique lo contrario; todas las unidades principales y adicionales cuentan como parte de una única formación y no pueden separarse por su cuenta) y Coste (el valor en puntos de la formación).",
     "Reglas especiales: La regla Avance Implacable se aplica a todas las formaciones necronas (véase 5.15.2) y la regla Desmaterialización se aplica a ciertas formaciones (véase 5.15.3). Además, ciertas unidades y armas tienen capacidades especiales descritas en Tecnología Necrona (véase 5.15.1).",
     "FACTOR DE E STRATEGIA: 2",
     "I N I C I AT I VA",
@@ -375,7 +375,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Destroyers",
@@ -673,7 +673,7 @@
      "potencia": "Armas de asalto, AE(+2), MT"
     }
    ],
-   "notas": "Factor de Daños 3, Coraje, Inspirador, Metal Viviente, Gravitatorio, Comandante en jefe, Teletransporte, Bípode. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 4+."
+   "notas": "Factor de Daños 3, Coraje, Inspirador, Metal Viviente, Gravitatorio, Comandante Supremo, Teletransporte, Bípode. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 4+."
   },
   {
    "nombre": "The Nightbringer",
@@ -700,7 +700,7 @@
      "potencia": "Armas de asalto, AE(+2), MT(D3)"
     }
    ],
-   "notas": "Factor de Daños 3, Coraje, Inspirador, Metal Viviente, Gravitatorio, Comandante en jefe, Teletransporte, Bípode. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 4+."
+   "notas": "Factor de Daños 3, Coraje, Inspirador, Metal Viviente, Gravitatorio, Comandante Supremo, Teletransporte, Bípode. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 4+."
   },
   {
    "nombre": "Warbarque",

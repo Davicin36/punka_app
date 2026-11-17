@@ -11,14 +11,14 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos squats"
   },
   {
    "id": "brotherhoods",
    "nombre": "Brotherhoods",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Hermandades"
   },
   {
    "id": "support-formations",
@@ -30,7 +30,7 @@
     "base": "brotherhood"
    },
    "notaEs": "Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo"
   },
   {
    "id": "war-engines",
@@ -38,7 +38,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Máquinas de Guerra"
   }
  ],
  "formaciones": [
@@ -426,8 +426,8 @@
    "unidades": "One Cyclops",
    "coste": 600,
    "costeTexto": "Pequeña (S) 600",
-   "unidadesEs": "Un Cyclops",
-   "nombreEs": "Cíclope"
+   "nombreEs": "Cíclope",
+   "unidadesEs": "Un Cyclops"
   },
   {
    "id": "war-engines-land-train",
@@ -462,8 +462,8 @@
    "unidades": "One Leviathan",
    "coste": 400,
    "costeTexto": "Pequeña (S) 400",
-   "unidadesEs": "Un Leviatán",
-   "nombreEs": "Leviatán"
+   "nombreEs": "Leviatán",
+   "unidadesEs": "Un Leviatán"
   }
  ],
  "mejoras": [],
@@ -482,8 +482,7 @@
     "• Unidades principales: Las unidades que componen la formación. Pueden duplicarse o triplicarse. Una formación con el número normal de unidades principales se denomina pequeña (S); con el doble, mediana (M); y con el triple, grande (L).",
     "• Coste: Los costes figuran bajo S, M y L (pequeña, mediana o grande, respectivamente).",
     "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse o sustituirse, se duplica en las formaciones medianas y se triplica en las grandes.",
-    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta.",
-    "FACTOR DE E STRATEGIA: 2",
+    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta. FACTOR DE E STRATEGIA: 2",
     "I N I C I AT I VA",
     "Todas las formaciones tienen un valor de iniciativa de 2+, pero pueden recibir un modificador en sus tiradas de reorganización (véase Voluntad de Hierro).",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
@@ -547,7 +546,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Living Ancestor",
@@ -1010,12 +1009,12 @@
      "potencia": "3PA, FxF, Dir, MA"
     },
     {
-     "nombre": "4× Cañón de batalla de fue ‐",
+     "nombre": "4× Cañón de batalla de fuego",
      "alcance": "75cm",
      "potencia": "2× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "go rápido",
+     "nombre": "rápido",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, FxF, IC"
     },
@@ -1056,7 +1055,7 @@
      "potencia": "Armas ligeras, AE(+1), MT(D6)"
     },
     {
-     "nombre": "y 6× Misil Tormenta del Des tino",
+     "nombre": "y 6× Misil Tormenta del Destino",
      "alcance": "45cm",
      "potencia": "1PA, Fro, Ind, DU"
     }

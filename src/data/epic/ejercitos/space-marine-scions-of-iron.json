@@ -10,7 +10,7 @@
    "nombre": "Scions Of Iron Detachments",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones aliadas imperiales y restringidas"
   },
   {
    "id": "scions-of-iron-upgrades",
@@ -292,8 +292,8 @@
    "unidades": "One Thunderhawk Close Air Support",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Una Thunderhawk de Apoyo Aéreo Cercano",
-   "nombreEs": "Thunderhawk de Apoyo Aéreo Cercano"
+   "nombreEs": "Thunderhawk de Apoyo Aéreo Cercano",
+   "unidadesEs": "Una Thunderhawk de Apoyo Aéreo Cercano"
   },
   {
    "id": "scions-of-iron-aircraft-formations-thunderhawk-sb",
@@ -302,8 +302,8 @@
    "unidades": "One Thunderhawk Saturation Bomber",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Bombardero de Saturación Thunderhawk",
-   "nombreEs": "Thunderhawk de Saturación"
+   "nombreEs": "Thunderhawk de Saturación",
+   "unidadesEs": "Un Bombardero de Saturación Thunderhawk"
   }
  ],
  "mejoras": [
@@ -375,7 +375,7 @@
     }
    ],
    "nombreEs": "Comandante",
-   "textoEs": "Elige una opción: añade a cualquier unidad de la formación uno de estos personajes: Capitán, Capellán, Bibliotecario 0–1 por ejército de una de estas opciones: dar Comandante en jefe a un Land Raider …sustituir un Land Raider por un Land Raider Prometheus con Comandante en jefe …sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante en jefe"
+   "textoEs": "Elige una opción: añade a cualquier unidad de la formación uno de estos personajes: Capitán, Capellán, Bibliotecario 0–1 por ejército de una de estas opciones: dar Comandante Supremo a un Land Raider …sustituir un Land Raider por un Land Raider Prometheus con Comandante Supremo …sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante Supremo"
   },
   {
    "id": "hunter",
@@ -395,14 +395,14 @@
    "costeTexto": "+75 points each or +125 points per pair +100 points each",
    "porUnidad": true,
    "max": 4,
-   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider, Land Raider Crusader, Land Raider Helios",
    "parejas": {
     "cada": 75,
     "pareja": 125,
     "aparte": {
      "Land Raider Helios": 100
     }
-   }
+   },
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider o Land Raider Crusader …Land Raider Helios"
   },
   {
    "id": "land-speeders",
@@ -485,7 +485,7 @@
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Cada mejora puede adquirirse una vez por destacamento. 0–1 Crucero de Asalto.",
     "• Comandante: añade un Capitán, Capellán o Bibliotecario (+50); o, 0–1 por ejército, una de estas opciones: dar Co‐",
-    "mandante en jefe a un Land Raider (+100), sustituir un Land Raider por un Land Raider Prometheus con Comandante en jefe (+100) o sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante en jefe (+125).",
+    "mandante Supremo a un Land Raider (+100), sustituir un Land Raider por un Land Raider Prometheus con Comandante Supremo (+100) o sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante Supremo (+125).",
     "• Como aliados: 0–2 formaciones de aeronaves de la Armada Imperial y 0–2 grupos de batalla de la Legión de Titanes."
    ]
   },

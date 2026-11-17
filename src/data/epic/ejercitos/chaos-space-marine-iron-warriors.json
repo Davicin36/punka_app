@@ -10,7 +10,7 @@
    "nombre": "Iron Warrior Core Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones básicas de los Guerreros de Hierro"
   },
   {
    "id": "iron-warrior-siege-support-formations",
@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo de asedio por cada formación principal.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones básicas de los Guerreros de Hierro"
   },
   {
    "id": "iron-warrior-siege-assault-formations",
@@ -34,7 +34,7 @@
     "base": "core formation"
    },
    "notaEs": "Se puede desplegar una formación de asalto de asedio por cada formación principal.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de asalto de asedio"
   },
   {
    "id": "iron-warrior-upgrades",
@@ -51,7 +51,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Mejoras de los Guerreros de Hierro"
   },
   {
    "id": "chaos-war-engines",
@@ -95,8 +95,8 @@
     "Dreadnoughts",
     "Siege Dreadnought"
    ],
-   "nombreEs": "Jauría de Asalto Defiler",
-   "unidadesEs": "Seis Defilers"
+   "nombreEs": "Jauría de Asalto de Profanadores del Caos",
+   "unidadesEs": "Seis Profanadores del Caos"
   },
   {
    "id": "iron-warrior-core-formations-grand-battery",
@@ -328,8 +328,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger",
-   "nombreEs": "Herrero de Guerra"
+   "nombreEs": "Herrero de Guerra",
+   "unidadesEs": "Un Harbinger"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
@@ -359,12 +359,14 @@
    "max": 1,
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 150
+     "nombre": "Devastation Class Cruiser",
+     "coste": 150,
+     "nombreEs": "Crucero clase Devastación"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 250
+     "nombre": "Despoiler Class Battleship",
+     "coste": 250,
+     "nombreEs": "Acorazado clase Despoiler"
     }
    ],
    "nombreEs": "Nave espacial",
@@ -455,7 +457,8 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Defilers"
+   "textoEs": "Añade hasta tres Profanadores del Caos",
+   "nombreEs": "Profanadores del Caos"
   },
   {
    "id": "dreadclaws",
@@ -466,8 +469,8 @@
    "costeTexto": "+5 points per unit",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos",
-   "nombreEs": "Garras del Terror"
+   "nombreEs": "Garras del Terror",
+   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos"
   },
   {
    "id": "dreadnoughts",
@@ -576,8 +579,7 @@
     "— Grito de batalla de los Guerreros de Hierro",
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.31.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de los Guerreros de Hierro.",
-    "Las formaciones de los Guerreros de Hierro son de tres tipos: formaciones principales, formaciones de apoyo de asedio y formaciones de asalto de asedio. Cada formación principal que incluyas en el ejército te permite desplegar dos formaciones",
-    "de apoyo de asedio cualesquiera y una formación de asalto de asedio cualquiera. Aunque solo puedes llevar una formación de apoyo o de asalto de asedio si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Las formaciones de los Guerreros de Hierro son de tres tipos: formaciones principales, formaciones de apoyo de asedio y formaciones de asalto de asedio. Cada formación principal que incluyas en el ejército te permite desplegar dos formaciones de apoyo de asedio cualesquiera y una formación de asalto de asedio cualquiera. Aunque solo puedes llevar una formación de apoyo o de asalto de asedio si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
     "Los ejércitos de los Guerreros de Hierro pueden recibir apoyo de formaciones de la Armada del Caos y de Máquinas de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército. Por último, los Individuos de los Guerreros de Hierro incluyen el personaje especial del Herrero de Guerra (Warsmith). Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista». FACTOR DE E STRATEGIA: 4",
     "I N I C I AT I VA",
     "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
@@ -644,7 +646,7 @@
      "potencia": "Armas de asalto, AE(+2)"
     }
    ],
-   "notas": "Salvación Invulnerable, Comandante en jefe. Armado con un Arma Demoníaca o un Servobrazo."
+   "notas": "Salvación Invulnerable, Comandante Supremo. Armado con un Arma Demoníaca o un Servobrazo."
   },
   {
    "nombre": "Chaos Assault Marines",
@@ -968,6 +970,7 @@
   },
   {
    "nombre": "Defiler",
+   "nombreEs": "Profanador del Caos",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
@@ -1027,12 +1030,12 @@
      "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "2× Autocañón Segador do ‐",
+     "nombre": "2× Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Izq."
     },
     {
-     "nombre": "ble 2× Autocañón Segador do ble",
+     "nombre": "2× Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Der."
     }
@@ -1048,12 +1051,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Cañón de asedio Medren ‐",
+     "nombre": "Cañón de asedio Medrengard",
      "alcance": "60cm",
      "potencia": "9PA, FxF, D, Ind"
     },
     {
-     "nombre": "gard",
+     "nombre": "",
      "alcance": "45cm",
      "potencia": "AT5+"
     },

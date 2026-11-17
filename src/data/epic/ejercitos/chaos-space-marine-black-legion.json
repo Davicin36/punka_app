@@ -10,7 +10,7 @@
    "nombre": "Black Legion Core Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones básicas de la Legión Negra"
   },
   {
    "id": "black-legion-elite-formations",
@@ -22,7 +22,7 @@
     "base": "retinue"
    },
    "notaEs": "Se puede desplegar una formación de élite por cada séquito (no compañía acorazada).",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de élite de la Legión Negra"
   },
   {
    "id": "black-legion-support-formations",
@@ -34,7 +34,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo de la Legión Negra"
   },
   {
    "id": "black-legion-upgrades",
@@ -195,8 +195,8 @@
    "coste": 275,
    "costeTexto": "275 points",
    "mejoras": [],
-   "nombreEs": "Jauría de Asalto Defiler",
-   "unidadesEs": "Cuatro Defilers"
+   "nombreEs": "Jauría de Asalto de Profanadores del Caos",
+   "unidadesEs": "Cuatro Profanadores del Caos"
   },
   {
    "id": "black-legion-support-formations-havocs",
@@ -253,8 +253,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger",
-   "nombreEs": "Demonio Mayor"
+   "nombreEs": "Demonio Mayor",
+   "unidadesEs": "Un Harbinger"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
@@ -263,8 +263,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Tres Hell Blades",
-   "nombreEs": "Demonio Menor"
+   "nombreEs": "Demonio Menor",
+   "unidadesEs": "Tres Hell Blades"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -273,8 +273,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Hasta tres Decimators",
-   "nombreEs": "Decimators"
+   "nombreEs": "Decimators",
+   "unidadesEs": "Hasta tres Decimators"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
@@ -286,12 +286,14 @@
    "max": 1,
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 150
+     "nombre": "Devastation Class Cruiser",
+     "coste": 150,
+     "nombreEs": "Crucero clase Devastación"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 250
+     "nombre": "Despoiler Class Battleship",
+     "coste": 250,
+     "nombreEs": "Acorazado clase Despoiler"
     }
    ],
    "nombreEs": "Nave espacial",
@@ -347,8 +349,8 @@
    "unidades": "One Feral Titan",
    "coste": 275,
    "costeTexto": "275 points",
-   "unidadesEs": "Un Titán Salvaje",
-   "nombreEs": "Salvaje"
+   "nombreEs": "Salvaje",
+   "unidadesEs": "Un Titán Salvaje"
   },
   {
    "id": "chaos-war-engines-ravager",
@@ -390,7 +392,7 @@
    "coste": 150,
    "costeTexto": "+150 points",
    "nombreEs": "Marines de Culto",
-   "textoEs": "Añade cuatro Berzerkers, Marines del Ruido, Marines de Plaga o Mil Hijos a una formación que deba lealtad a Khorne, Slaanesh, Nurgle o Tzeentch, respectivamente"
+   "textoEs": "Añade cuatro Berzerkers, Marines Ruidosos, Marines de Plaga o Mil Hijos a una formación que deba lealtad a Khorne, Slaanesh, Nurgle o Tzeentch, respectivamente"
   },
   {
    "id": "daemon-prince-per-allegiance",
@@ -422,7 +424,8 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Defilers"
+   "textoEs": "Añade hasta tres Profanadores del Caos",
+   "nombreEs": "Profanadores del Caos"
   },
   {
    "id": "dreadclaws",
@@ -433,8 +436,8 @@
    "costeTexto": "+5 points per unit",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos",
-   "nombreEs": "Garras del Terror"
+   "nombreEs": "Garras del Terror",
+   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos"
   },
   {
    "id": "dreadnoughts",
@@ -671,7 +674,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Icon Bearer",
@@ -904,7 +907,7 @@
   },
   {
    "nombre": "Noise Marines",
-   "nombreEs": "Marines del Ruido",
+   "nombreEs": "Marines Ruidosos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -1106,6 +1109,7 @@
   },
   {
    "nombre": "Defiler",
+   "nombreEs": "Profanador del Caos",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
@@ -1244,12 +1248,12 @@
      "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "2× Autocañón Segador do ‐",
+     "nombre": "2× Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Izq."
     },
     {
-     "nombre": "ble 2× Autocañón Segador do ble",
+     "nombre": "2× Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Der."
     }
