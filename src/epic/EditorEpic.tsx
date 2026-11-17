@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic } from './tipos';
 import { cargarEjercito, nombreEjercito } from './datos';
-import { costeAliados, costeLista, formacionDe, listaComoTexto, nuevaFormacion, nuevoUid, problemasLista } from './logica';
+import { comprasSueltas, costeAliados, costeLista, formacionDe, listaComoTexto, nuevaFormacion, nuevoUid, problemasLista } from './logica';
 import { exportarListaEpic } from '../logic/almacen';
 import { descargar, nombreArchivo } from '../logic/descargar';
 import { FilaContador, Modal, Regla } from '../components/ui';
@@ -139,11 +139,11 @@ export function EditorEpic({ lista, onCambiar, onVolver, onBorrar, onDuplicar }:
 
         <button className="big" onClick={() => setModal('anadir')}>+ Añadir formación</button>
 
-        {e.compras.length > 0 && (
+        {comprasSueltas(e).length > 0 && (
           <section className="bandx">
             <h4>Compras del ejército</h4>
             <div className="opts">
-              {e.compras.map(c => (
+              {comprasSueltas(e).map(c => (
                 <FilaContador key={c.id} nombre={<Bi es={c.nombreEs} en={c.nombre} />} nota={`(${c.costeTexto || `+${c.coste}`}${c.texto ? ' · ' + (c.textoEs ?? c.texto) : ''} · ${nom(e.secciones.find(s => s.id === c.seccion) ?? { nombre: '' })})`}
                   valor={lista.compras[c.id] ?? 0} max={20}
                   onChange={v => onCambiar(l => { if (v > 0) l.compras[c.id] = v; else delete l.compras[c.id]; })} />

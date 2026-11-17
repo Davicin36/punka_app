@@ -1,7 +1,7 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
-import { problemasReparto, textoReparto } from './eleccion';
+import { costeVariantes, esVarianteLeman, problemasReparto, textoReparto } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -43,11 +43,14 @@ export function costeFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
     const m = mejoraDe(e, nombre);
     if (m) c += costeMejora(m, n, fe.variantes[nombre]);
   }
-  return c;
+  return c + costeVariantes(e, fe);
 }
 
+/** Compras sueltas del ejército (las variantes de Leman Russ se eligen dentro de cada formación). */
+export const comprasSueltas = (e: EjercitoEpic) => e.compras.filter(c => !esVarianteLeman(c.seccion));
+
 export const costeCompras = (e: EjercitoEpic, l: ListaEpic) =>
-  e.compras.reduce((s, c) => s + c.coste * (l.compras[c.id] ?? 0), 0);
+  comprasSueltas(e).reduce((s, c) => s + c.coste * (l.compras[c.id] ?? 0), 0);
 
 export const costeLista = (e: EjercitoEpic, l: ListaEpic) =>
   l.formaciones.reduce((s, f) => s + costeFormacion(e, f), 0) + costeCompras(e, l);
@@ -219,7 +222,7 @@ export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
     }
     lineas.push('');
   }
-  const compras = e.compras.filter(c => l.compras[c.id]);
+  const compras = comprasSueltas(e).filter(c => l.compras[c.id]);
   if (compras.length) lineas.push('COMPRAS: ' + compras.map(c => `${nom(c)} ×${l.compras[c.id]}`).join(', '));
   return lineas.join('\n').trim();
 }
