@@ -1,0 +1,6 @@
+# core-js (dependencia de jsPDF) trae un script de postinstall que solo muestra un mensaje.
+# pnpm 10+ no lo ejecuta y pnpm 12 (el que usa Render) falla si no se indica qué hacer con él.
+ignoredBuiltDependencies:
+  - core-js
+allowBuilds:
+  core-js: false
