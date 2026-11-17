@@ -10,7 +10,7 @@
    "nombre": "Slaves To Darkness Covens",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Aquelarres de los Esclavos de la Oscuridad"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "slaves-to-darkness-upgrades",
@@ -18,8 +18,8 @@
    "tipo": "mejoras",
    "nota": "Each upgrade may be taken once per coven. Nurgle Plague Towers may only be taken if its formation owes allegiance to Nurgle and counts as one of the two support coven choices for the coven.",
    "unaVez": true,
-   "nombreEs": "Mejoras de los Esclavos de la Oscuridad",
-   "notaEs": "Cada mejora puede tomarse una vez por aquelarre. Las Nurgle Plague Towers solo pueden tomarse si su formación es aliada de Nurgle, y cuentan como una de las dos elecciones de aquelarre de apoyo del aquelarre."
+   "notaEs": "Cada mejora puede tomarse una vez por aquelarre. Las Nurgle Plague Towers solo pueden tomarse si su formación es aliada de Nurgle, y cuentan como una de las dos elecciones de aquelarre de apoyo del aquelarre.",
+   "nombreEs": "Mejoras de los Esclavos de la Oscuridad"
   },
   {
    "id": "slaves-to-darkness-support-covens",
@@ -30,15 +30,15 @@
     "cantidad": 2,
     "base": "coven"
    },
-   "nombreEs": "Aquelarres de apoyo de los Esclavos de la Oscuridad",
-   "notaEs": "Se pueden desplegar dos aquelarres de apoyo por cada aquelarre. Deben ser aliados del Caos Absoluto o del mismo dios del Caos que este aquelarre."
+   "notaEs": "Se pueden desplegar dos aquelarres de apoyo por cada aquelarre. Deben ser aliados del Caos Absoluto o del mismo dios del Caos que este aquelarre.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "plague-zombie-infestations",
    "nombre": "Plague Zombie Infestations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Infestaciones de zombis de la plaga"
+   "nombreEs": "Infestaciones de Zombis de Plaga"
   },
   {
    "id": "daemon-pool",
@@ -57,7 +57,7 @@
    "coste": 200,
    "costeTexto": "200 points",
    "nombreEs": "Aquelarre",
-   "unidadesEs": "Un Demagogue o Chaos Marine Aspiring Champion y once cualesquiera de estas: Cultists, Mutants. Esta formación tiene Daemonic Pact y añade un demonio menor a la reserva de demonios."
+   "unidadesEs": "Un Demagogo o Aspirante a Campeón de los Marines del Caos y once cualesquiera de: Cultistas, Mutantes. Esta formación tiene Pacto Demoníaco y añade un Demonio Menor a la Reserva Demoníaca"
   },
   {
    "id": "slaves-to-darkness-support-covens-chaos-undivided-defilers",
@@ -66,7 +66,7 @@
    "unidades": "Four Defilers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Defilers del Caos Absoluto",
+   "nombreEs": "Defilers del Caos Indiviso",
    "unidadesEs": "Cuatro Defilers"
   },
   {
@@ -76,8 +76,8 @@
    "unidades": "Four Hellfire Cannons",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Cañones del Fuego Infernal del Caos Absoluto",
-   "unidadesEs": "Cuatro Hellfire Cannons"
+   "nombreEs": "Cañones Hellfire del Caos Indiviso",
+   "unidadesEs": "Cuatro Cañones Hellfire"
   },
   {
    "id": "slaves-to-darkness-support-covens-khorne-daemonic-assault-engines",
@@ -95,8 +95,8 @@
      "textoEs": "Unidad adicional (cada una)"
     }
    ],
-   "nombreEs": "Ingenios de asalto demoníacos de Khorne",
-   "unidadesEs": "Cuatro Daemonic Assault Engines (añade hasta dos Daemonic Assault Engines)"
+   "nombreEs": "Máquinas Demoníacas de Asalto de Khorne",
+   "unidadesEs": "Cuatro Máquinas Demoníacas de Asalto (añadir hasta dos más: +75 puntos c/u)"
   },
   {
    "id": "slaves-to-darkness-support-covens-khorne-lord-of-battles",
@@ -113,8 +113,8 @@
      "max": 1
     }
    ],
-   "nombreEs": "Señor de las Batallas de Khorne",
-   "unidadesEs": "Hasta dos Lords of Battle"
+   "nombreEs": "Señores de las Batallas de Khorne",
+   "unidadesEs": "Hasta dos Señores de las Batallas"
   },
   {
    "id": "slaves-to-darkness-support-covens-nurgle-contagion-towers",
@@ -124,7 +124,7 @@
    "coste": 325,
    "costeTexto": "325 points",
    "nombreEs": "Torres del Contagio de Nurgle",
-   "unidadesEs": "Cuatro Contagion Towers"
+   "unidadesEs": "Cuatro Torres del Contagio"
   },
   {
    "id": "slaves-to-darkness-support-covens-nurgle-plague-towers",
@@ -141,8 +141,8 @@
      "max": 1
     }
    ],
-   "nombreEs": "Torres de la Plaga de Nurgle",
-   "unidadesEs": "Hasta dos Plague Towers"
+   "nombreEs": "Torres de Plaga de Nurgle",
+   "unidadesEs": "Hasta dos Torres de Plaga"
   },
   {
    "id": "slaves-to-darkness-support-covens-slaanesh-daemon-knights",
@@ -151,8 +151,8 @@
    "unidades": "Four Daemon Knights",
    "coste": 275,
    "costeTexto": "275 points",
-   "nombreEs": "Caballeros demoníacos de Slaanesh",
-   "unidadesEs": "Cuatro Daemon Knights"
+   "nombreEs": "Caballeros Demonio de Slaanesh",
+   "unidadesEs": "Cuatro Caballeros Demonio"
   },
   {
    "id": "slaves-to-darkness-support-covens-slaanesh-daemon-scout-titans",
@@ -161,8 +161,8 @@
    "unidades": "Up to any two of the following units: Questor Subjugator",
    "coste": 275,
    "costeTexto": "275 points each 225 points each",
-   "nombreEs": "Titanes exploradores demoníacos de Slaanesh",
-   "unidadesEs": "Hasta dos cualesquiera de estas unidades: Questor, Subjugator"
+   "nombreEs": "Titanes Demonio de Exploración de Slaanesh",
+   "unidadesEs": "Hasta dos cualesquiera de: Questor (275 c/u), Subyugador (225 c/u)"
   },
   {
    "id": "slaves-to-darkness-support-covens-tzeentch-doomwings",
@@ -171,7 +171,7 @@
    "unidades": "Three Doomwings",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Alas de la Perdición de Tzeentch",
+   "nombreEs": "Doomwings de Tzeentch",
    "unidadesEs": "Tres Doomwings"
   },
   {
@@ -189,7 +189,7 @@
     }
    ],
    "nombreEs": "Señores del Fuego de Tzeentch",
-   "unidadesEs": "Dos Firelords (añade como máximo un Firelord)"
+   "unidadesEs": "Dos Señores del Fuego (añadir uno más: +100 puntos)"
   },
   {
    "id": "slaves-to-darkness-support-covens-tzeentch-silver-towers",
@@ -199,7 +199,7 @@
    "coste": 300,
    "costeTexto": "300 points",
    "nombreEs": "Torres de Plata de Tzeentch",
-   "unidadesEs": "Cuatro Silver Towers"
+   "unidadesEs": "Cuatro Torres de Plata"
   },
   {
    "id": "plague-zombie-infestations-plague-zombie-infestations",
@@ -209,7 +209,8 @@
    "coste": 175,
    "costeTexto": "175 points",
    "max": 2,
-   "nombreEs": "Infestaciones de zombis de la plaga"
+   "nombreEs": "Infestaciones de Zombis de Plaga",
+   "unidadesEs": "3+2D6 Zombis de Plaga"
   }
  ],
  "mejoras": [
@@ -222,8 +223,8 @@
    "costeTexto": "+20 points each",
    "porUnidad": true,
    "max": 6,
-   "nombreEs": "Mutantes grandes",
-   "textoEs": "Sustituye hasta seis Mutants por el mismo número de Big Mutants"
+   "nombreEs": "Grandes Mutantes",
+   "textoEs": "Sustituye hasta seis Mutantes por el mismo número de Grandes Mutantes"
   },
   {
    "id": "chaos-altar",
@@ -233,7 +234,7 @@
    "coste": 150,
    "costeTexto": "+150 points",
    "nombreEs": "Altar del Caos",
-   "textoEs": "Añade un Chaos Altar"
+   "textoEs": "Añade un Altar del Caos"
   },
   {
    "id": "chaos-hounds",
@@ -245,7 +246,7 @@
    "porUnidad": true,
    "max": 3,
    "nombreEs": "Sabuesos del Caos",
-   "textoEs": "Añade hasta tres Chaos Hounds"
+   "textoEs": "Añade hasta tres Sabuesos del Caos"
   },
   {
    "id": "chaos-spawn",
@@ -254,8 +255,8 @@
    "texto": "Add one Chaos Spawn unit",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Engendro del Caos",
-   "textoEs": "Añade una unidad de Chaos Spawn"
+   "nombreEs": "Engendros del Caos",
+   "textoEs": "Añade una unidad de Engendros del Caos"
   },
   {
    "id": "cultists-or-mutants",
@@ -266,8 +267,8 @@
    "costeTexto": "+15 points each",
    "porUnidad": true,
    "max": 8,
-   "nombreEs": "Cultistas o mutantes",
-   "textoEs": "Añade hasta ocho de cualquiera de estas unidades: Cultists, Mutants"
+   "nombreEs": "Cultistas o Mutantes",
+   "textoEs": "Añade hasta ocho cualesquiera de: Cultistas, Mutantes"
   },
   {
    "id": "daemon-prince",
@@ -276,8 +277,8 @@
    "texto": "Replace a Demagogue or Chaos Marine Aspiring Champion with a Daemon Prince",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Príncipe demonio",
-   "textoEs": "Sustituye un Demagogue o Chaos Marine Aspiring Champion por un Daemon Prince"
+   "nombreEs": "Príncipe Demonio",
+   "textoEs": "Sustituye un Demagogo o Aspirante a Campeón por un Príncipe Demonio"
   },
   {
    "id": "icon-bearer",
@@ -287,7 +288,7 @@
    "coste": 25,
    "costeTexto": "+25 points",
    "nombreEs": "Portaestandarte",
-   "textoEs": "Añade un personaje Icon Bearer"
+   "textoEs": "Añade un personaje Portaestandarte"
   },
   {
    "id": "technicals",
@@ -299,7 +300,7 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Técnicos",
-   "textoEs": "Añade hasta dos Technicals"
+   "textoEs": "Añade hasta dos Técnicos"
   },
   {
    "id": "transports",
@@ -311,7 +312,7 @@
    "porUnidad": true,
    "max": 20,
    "nombreEs": "Transportes",
-   "textoEs": "Añade justo los Land Transporters necesarios para transportar toda la formación"
+   "textoEs": "Añade los Transportes Terrestres justos para transportar toda la formación"
   },
   {
    "id": "nurgle-plague-tower",
@@ -320,8 +321,8 @@
    "texto": "Add one Plague Tower",
    "coste": 300,
    "costeTexto": "+300 points",
-   "nombreEs": "Torre de la Plaga de Nurgle",
-   "textoEs": "Añade una Plague Tower"
+   "nombreEs": "Torre de Plaga de Nurgle",
+   "textoEs": "Añade una Torre de Plaga"
   }
  ],
  "compras": [
@@ -346,24 +347,33 @@
  ],
  "fraccionAliados": null,
  "nombreEs": "Cultistas del Caos – Esclavos de la Oscuridad",
- "iniciativaEs": "Todas las formaciones tienen iniciativa 2+.",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.33",
    "titulo": "Lista de ejército de los Cultistas del Caos Esclavos de la Oscuridad (Slaves to Darkness)",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.33.",
+    "del Emperador. Las estrellas temblarán a su paso y las poderosas armadas del Señor de la Guerra Abaddon traerán la aniquilación a cien mundos. Sabedlo, pues estas cosas sucederán.» — Constanze la Profetisa",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.33.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Culto del Caos basado en el Culto de los Esclavos de la Oscuridad, que ha surgido incontables veces a lo largo de los milenios en toda la galaxia. También puede usarse como lista «sustituta» para otros ejércitos de Cultos.",
-    "Las formaciones de Cultistas del Caos son de dos tipos: aquelarres y aquelarres de apoyo. Cada aquelarre que incluyas en el ejército te permite desplegar dos aquelarres de apoyo cualesquiera. Aunque solo puedes llevar un aquelarre de apoyo si antes llevas un aquelarre, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntos. Además, los aquelarres de apoyo de Ingenios Demoníacos del Caos deben lealtad al Caos Indiviso o al mismo dios del Caos que el aquelarre de Cultistas asociado. Por ejemplo, si el ejército incluyera dos aquelarres de Cultistas de Khorne, podría incluir dos aquelarres de ingenios demoníacos de Khorne, o uno de Khorne y otro indiviso. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. La Torre de Plaga de Nurgle es una mejora especial que solo puede adquirirse si la formación debe lealtad al dios del Caos Nurgle y, si se adquiere, cuenta como una de las dos elecciones de aquelarre de apoyo del aquelarre. Por último, cada ejército de Cultistas del Caos Esclavos de la Oscuridad puede desplegar hasta dos Infestaciones de Zombis de Plaga y contar con una Reserva de Demonios.",
-    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+    "Las formaciones de Cultistas del Caos son de dos tipos: aquelarres y aquelarres de apoyo. Cada aquelarre que incluyas en el ejército te permite desplegar dos aquelarres de apoyo cualesquiera. Aunque solo puedes llevar un aquelarre de apoyo si antes llevas un aquelarre, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntos. Además, los aquelarres de apoyo de Máquinas Demoníacas del Caos deben lealtad al Caos Indiviso o al mismo dios del Caos que el aquelarre de Cultistas asociado. Por ejemplo, si el ejército incluyera dos aquelarres de Cultistas de Khorne, podría incluir dos aquelarres de máquinas demoníacas de Khorne, o uno de Khorne y otro indiviso.",
+    "Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. La Torre de Plaga de Nurgle es una mejora especial que solo puede adquirirse si la formación debe lealtad al dios del Caos Nurgle y, si se adquiere, cuenta como una de las dos elecciones de aquelarre de apoyo del aquelarre. Por último, cada ejército de Cultistas del Caos Esclavos de la Oscuridad puede desplegar hasta dos Infestaciones de Zombis de Plaga y contar con una Reserva Demoníaca.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación mejorada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2).",
+    "FACTOR DE E STRATEGIA: 1",
+    "I N I C I AT I VA",
+    "Todas las formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Cada mejora puede adquirirse una vez por aquelarre. El Aquelarre tiene Pacto Demoníaco y añade un Demonio Menor a la Reserva Demoníaca.",
+    "• La Torre de Plaga de Nurgle como mejora solo puede añadirse si la formación debe lealtad a Nurgle, y cuenta como una de las dos elecciones de aquelarre de apoyo.",
+    "• 0–2 Infestaciones de Zombis de Plaga. Los aquelarres de apoyo deben lealtad al Caos Indiviso o al mismo dios que el aquelarre.",
+    "• Reserva Demoníaca (Daemon Pool): Demonio Mayor +50 puntos c/u; Demonio Menor +15 puntos c/u."
    ]
   },
   {
    "id": "6.33.1",
    "titulo": "Reglas especiales de torneo de los Esclavos de la Oscuridad",
    "parrafos": [
-    "Archihereje: Todo ejército de Cultistas del Caos Esclavos de la Oscuridad debe incluir un personaje Archihereje. Es gratuito, no tienes que pagar puntos por él, y puede añadirse a cualquier",
-    "unidad de Príncipe Demonio, Demagogo o Aspirante a Campeón de los Marines del Caos.",
+    "Archihereje: Todo ejército de Cultistas del Caos Esclavos de la Oscuridad debe incluir un personaje Archihereje. Es gratuito, no tienes que pagar puntos por él, y puede añadirse a cualquier unidad de Príncipe Demonio, Demagogo o Aspirante a Campeón de los Marines del Caos.",
     "Lealtad de la formación: Cada formación debe lealtad al",
     "Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
     "Zombis de Plaga: Las formaciones de Infestación de Zombis de Plaga deben desplegarse mediante teletransporte. Tras colocar la primera unidad, tira 3+2D6 para ver cuántas unidades tiene la formación. Pueden disputar objetivos, pero no controlarlos.",
@@ -372,9 +382,10 @@
   },
   {
    "id": "5.11.1",
-   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "titulo": "Invocación mejorada (Augmented Summoning)",
    "parrafos": [
-    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+    "Algunas unidades del Caos tienen Invocación mejorada (+x). Las unidades con esta capacidad suman un número de puntos",
+    "de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación mejorada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
    ]
   },
   {
@@ -407,6 +418,725 @@
     "Guardián de los Secretos (Keeper of Secrets) · Slaanesh: 8",
     "Señor del Cambio (Lord of Change) · Tzeentch: 8"
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Arch-Heretic",
+   "nombreEs": "Archihereje",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Icon Bearer",
+   "nombreEs": "Portaestandarte",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Foco Demoníaco, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Big Mutants",
+   "nombreEs": "Grandes Mutantes",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Ametralladora pesada",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    },
+    {
+     "nombre": "Armas grandes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Bloodletters",
+   "nombreEs": "Desangradores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Espadas infernales",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
+    }
+   ],
+   "notas": "Prescindible, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Chaos Hounds",
+   "nombreEs": "Sabuesos del Caos",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Chaos Marine Aspiring Champion",
+   "nombreEs": "Aspirante a Campeón de los Marines del Caos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Arma demoníaca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Chaos Spawn",
+   "nombreEs": "Engendros del Caos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Mutaciones horribles",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+D3)"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable. Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Cultists",
+   "nombreEs": "Cultistas",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Armas pesadas",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Daemon Prince",
+   "nombreEs": "Príncipe Demonio",
+   "tipo": "INF",
+   "velocidad": "15cm (30cm)",
+   "blindaje": "3+ (4+)",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Explosión disforme",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    },
+    {
+     "nombre": "Arma poseída",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MA"
+    }
+   ],
+   "notas": "Comandante, Coraje, Líder, Blindaje Reforzado, Teletransporte. Un Príncipe Demonio puede tener alas: la unidad obtiene Retrorreactores y un movimiento de 30 cm, y su blindaje se reduce a 4+."
+  },
+  {
+   "nombre": "Daemonettes",
+   "nombreEs": "Diablillas",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Daña primero, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Daemonic Beasts",
+   "nombreEs": "Bestias Demoníacas",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Infiltrador, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Demagogue",
+   "nombreEs": "Demagogo",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Armas pesadas",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Poderes arcanos",
+     "alcance": "30cm",
+     "potencia": "MA6+"
+    },
+    {
+     "nombre": "Arma demoníaca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Invocación mejorada (+2D3), Salvación Invulnerable."
+  },
+  {
+   "nombre": "Flamers",
+   "nombreEs": "Incineradores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Llamas de Tzeentch",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Prescindible, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Mutants",
+   "nombreEs": "Mutantes",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Armas de fuego",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plague Zombies",
+   "nombreEs": "Zombis de Plaga",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Coraje, Infiltrador, Teletransporte."
+  },
+  {
+   "nombre": "Plaguebearers",
+   "nombreEs": "Portadores de Plaga",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Plaga de moscas",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Prescindible, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Land Transporter",
+   "nombreEs": "Transporte Terrestre",
+   "tipo": "VL",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Armas pesadas",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Technical",
+   "tipo": "VL",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Cañón antiaéreo",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+/AA6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Contagion Tower",
+   "nombreEs": "Torre del Contagio",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Catapulta de plaga",
+     "alcance": "45cm",
+     "potencia": "1PA, D, Ind"
+    },
+    {
+     "nombre": "Cañón de vómito",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+, IC"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Daemon Assault Engine",
+   "nombreEs": "Máquina Demoníaco de Asalto",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón de sangre",
+     "alcance": "30cm",
+     "potencia": "2× AP4+/AT5+"
+    },
+    {
+     "nombre": "Hojas demoníacas",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+D3)"
+    }
+   ],
+   "notas": "Coraje, Blindaje Reforzado."
+  },
+  {
+   "nombre": "Daemon Knight",
+   "nombreEs": "Caballero Demonio",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Castigator",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable, Explorador, Bípode."
+  },
+  {
+   "nombre": "Defiler",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+"
+    },
+    {
+     "nombre": "Lanzallamas pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Garras de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Infiltrador, Salvación Invulnerable, Bípode."
+  },
+  {
+   "nombre": "Hellfire Cannon",
+   "nombreEs": "Cañón Hellfire",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Hellfire",
+     "alcance": "75cm",
+     "potencia": "MA4+"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Silver Tower",
+   "nombreEs": "Torre de Plata",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañones arcanos",
+     "alcance": "45cm",
+     "potencia": "3× AP4+/AT4+"
+    },
+    {
+     "nombre": "Haz de poder",
+     "alcance": "60cm",
+     "potencia": "MA5+"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable, Gravitatorio."
+  },
+  {
+   "nombre": "Bloodthirster",
+   "nombreEs": "Devorador de Almas",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Hacha de Khorne",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MT"
+    }
+   ],
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Retrorreactores, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
+  },
+  {
+   "nombre": "Chaos Altar",
+   "nombreEs": "Altar del Caos",
+   "tipo": "MG",
+   "velocidad": "15cm (25cm)",
+   "blindaje": "4+ (5+)",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Tecnología arcana",
+     "alcance": "45cm",
+     "potencia": "D3× AP4+/AT4+/ AA4+"
+    }
+   ],
+   "notas": "Invocación mejorada (+2), Foco Demoníaco, Factor de Daños 3, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado. Un Altar del Caos puede ir sobre ruedas: la unidad obtiene un movimiento de 25 cm y su blindaje se reduce a 5+. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 6+."
+  },
+  {
+   "nombre": "Great Unclean One",
+   "nombreEs": "Gran Inmundicia",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Torrente de corrupción",
+     "alcance": "15cm",
+     "potencia": "3PA, IC"
+    },
+    {
+     "nombre": "y Torrente de corrupción",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), IC"
+    },
+    {
+     "nombre": "Enjambre de nurglings",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
+    }
+   ],
+   "notas": "Foco Demoníaco, Factor de Daños 4, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
+  },
+  {
+   "nombre": "Keeper of Secrets",
+   "nombreEs": "Guardián de los Secretos",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Mirada de Slaanesh",
+     "alcance": "30cm",
+     "potencia": "3× MA4+"
+    },
+    {
+     "nombre": "y Mirada de Slaanesh",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP, MA"
+    },
+    {
+     "nombre": "Látigo del Tormento",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP, MA"
+    }
+   ],
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
+  },
+  {
+   "nombre": "Lord of Battles",
+   "nombreEs": "Señor de las Batallas",
+   "tipo": "MG",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Puño sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MA"
+    },
+    {
+     "nombre": "Tormenta de muerte",
+     "alcance": "45cm",
+     "potencia": "4× AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Factor de Daños 6, Coraje, Salvación Invulnerable, Blindaje Reforzado, Blindaje adicional posterior. Efecto de Impacto Crítico: mueve la unidad 3D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 4+."
+  },
+  {
+   "nombre": "Lord of Change",
+   "nombreEs": "Señor del Cambio",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Mirada marchitadora",
+     "alcance": "45cm",
+     "potencia": "2× MA3+"
+    },
+    {
+     "nombre": "y Mirada marchitadora",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    },
+    {
+     "nombre": "Báculo del Caos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Retrorreactores, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
+  },
+  {
+   "nombre": "Plague Tower",
+   "nombreEs": "Torre de Plaga",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Mortero de plaga",
+     "alcance": "60cm",
+     "potencia": "D3+3PA, FxF, D"
+    },
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Cañón de podredumbre",
+     "alcance": "90cm",
+     "potencia": "AP3+/AT5+, FxF, IC"
+    }
+   ],
+   "notas": "Factor de Daños 6, Coraje, Salvación Invulnerable, Blindaje Reforzado, Transporte. Puede transportar dieciséis Grandes Inmundicias o unidades de infantería sin Retrorreactores ni Montado; las Grandes Inmundicias cuentan como dos unidades cada una. Efecto de Impacto Crítico: la unidad sufre un punto de daño y D3 unidades transportadas, a elección del jugador, quedan destruidas."
+  },
+  {
+   "nombre": "Questor Titan",
+   "nombreEs": "Titán Questor",
+   "tipo": "MG",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Cañón Castigator",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Subjugator Titan",
+   "nombreEs": "Titán Subyugador",
+   "tipo": "MG",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Espadas infernales",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Doomwing",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón lanzallamas",
+     "alcance": "15cm",
+     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+    }
+   ],
+   "notas": "Salvación Invulnerable."
+  },
+  {
+   "nombre": "Firelord",
+   "nombreEs": "Señor del Fuego",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón lanzallamas",
+     "alcance": "15cm",
+     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Bombas Tormenta de Fuego",
+     "alcance": "15cm",
+     "potencia": "D3PA, FxF, IC"
+    }
+   ],
+   "notas": "Salvación Invulnerable."
   }
  ]
 }

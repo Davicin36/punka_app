@@ -10,7 +10,7 @@
    "nombre": "Emperor's Children Retinues",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Séquitos de los Hijos del Emperador"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "emperors-children-elite-formations",
@@ -21,8 +21,8 @@
     "cantidad": 1,
     "base": "retinue"
    },
-   "nombreEs": "Formaciones de élite de los Hijos del Emperador",
-   "notaEs": "Se puede desplegar una formación de élite por cada séquito."
+   "notaEs": "Se puede desplegar una formación de élite por cada séquito.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "emperors-children-support-formations",
@@ -33,8 +33,8 @@
     "cantidad": 1,
     "base": "retinue"
    },
-   "nombreEs": "Formaciones de apoyo de los Hijos del Emperador",
-   "notaEs": "Se puede desplegar una formación de apoyo por cada séquito."
+   "notaEs": "Se puede desplegar una formación de apoyo por cada séquito.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "emperors-children-upgrades",
@@ -43,23 +43,23 @@
    "nota": "Up to four upgrades may be taken once per formation.",
    "maxPorFormacion": 4,
    "unaVez": true,
-   "nombreEs": "Mejoras de los Hijos del Emperador",
-   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación."
+   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación.",
+   "nombreEs": "Mejoras de los Hijos del Emperador"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy",
    "nombre": "Chaos Navy And War Engine Formations / Chaos Navy",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Armada del Caos y máquinas de guerra / Armada del Caos",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Máquinas de Guerra del Caos"
   },
   {
    "id": "chaos-war-engines",
    "nombre": "Chaos War Engines",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Máquinas de guerra del Caos"
+   "nombreEs": "Máquinas de Guerra del Caos"
   },
   {
    "id": "daemon-pool",
@@ -93,7 +93,7 @@
     "Stalker"
    ],
    "nombreEs": "Séquito",
-   "unidadesEs": "Seis Chaos Space Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "unidadesEs": "Seis Marines Espaciales del Caos, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "emperors-children-elite-formations-chosen",
@@ -109,7 +109,7 @@
     "Rhinos"
    ],
    "nombreEs": "Elegidos",
-   "unidadesEs": "Cuatro Chaos Space Marine Chosen"
+   "unidadesEs": "Cuatro Elegidos de los Marines del Caos"
   },
   {
    "id": "emperors-children-elite-formations-emperors-children-terminators",
@@ -134,11 +134,11 @@
      "coste": 60,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Unidad adicional (por cada extra)"
+     "textoEs": "Campeón del Caos, Señor de la Guerra del Caos, Príncipe Demonio, Pacto Demoníaco, Garras del Terror, Dreadnoughts, Portaestandarte, Land Raiders"
     }
    ],
    "nombreEs": "Exterminadores de los Hijos del Emperador",
-   "unidadesEs": "Entre cuatro y seis Emperor's Children Terminators, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "unidadesEs": "Entre cuatro y seis Exterminadores de los Hijos del Emperador, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "emperors-children-elite-formations-noise-marines",
@@ -162,11 +162,11 @@
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Unidad adicional (por cada extra)"
+     "textoEs": "Campeón del Caos, Pacto Demoníaco, Garras del Terror, Dreadnoughts, Portaestandarte, Land Raiders, Rhinos"
     }
    ],
    "nombreEs": "Marines del Ruido",
-   "unidadesEs": "Entre seis y diez Noise Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "unidadesEs": "Entre seis y diez Marines del Ruido, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "emperors-children-support-formations-armoured-company",
@@ -178,8 +178,8 @@
    "mejoras": [
     "Stalker"
    ],
-   "nombreEs": "Compañía acorazada",
-   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Emperor's Children Predator, Emperor's Children Land Raider"
+   "nombreEs": "Compañía Acorazada",
+   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator de los Hijos del Emperador, Land Raider de los Hijos del Emperador"
   },
   {
    "id": "emperors-children-support-formations-bike-company",
@@ -192,8 +192,8 @@
     "Daemonic Pact",
     "Icon Bearer"
    ],
-   "nombreEs": "Compañía de motocicletas",
-   "unidadesEs": "Ocho Chaos Space Marine Bikes, una con un personaje Chaos Lord o Sorcerer Lord"
+   "nombreEs": "Compañía de Motocicletas",
+   "unidadesEs": "Ocho Motocicletas de Marines del Caos, una con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "emperors-children-support-formations-raptor-cult",
@@ -211,11 +211,11 @@
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Unidad adicional (por cada extra)"
+     "textoEs": "Pacto Demoníaco"
     }
    ],
-   "nombreEs": "Culto de raptores",
-   "unidadesEs": "Entre cuatro y ocho Raptors, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "nombreEs": "Culto Raptor",
+   "unidadesEs": "Entre cuatro y ocho Raptores, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-harbinger",
@@ -224,7 +224,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger"
+   "unidadesEs": "Un Harbinger",
+   "nombreEs": "Demonio Mayor"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
@@ -233,7 +234,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Tres Hell Blades"
+   "unidadesEs": "Una Thunderhawk del Caos",
+   "nombreEs": "Thunderhawk"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -242,7 +244,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Dos Hell Talons"
+   "unidadesEs": "Entre cuatro y seis cualesquiera de: Caminante Infernal (50 c/u), Caballero Infernal (75 c/u), Azote Infernal (90 c/u)",
+   "nombreEs": "Manada de Caballeros"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
@@ -272,7 +275,7 @@
    "unidades": "One Questor Titan",
    "coste": 300,
    "costeTexto": "300 points",
-   "unidadesEs": "Un Questor Titan"
+   "unidadesEs": "Un Titán Questor"
   },
   {
    "id": "chaos-war-engines-subjugator",
@@ -281,7 +284,8 @@
    "unidades": "One Subjugator Titan",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Subjugator Titan"
+   "unidadesEs": "Un Titán Subyugador",
+   "nombreEs": "Subyugador"
   },
   {
    "id": "chaos-war-engines-thunderhawk",
@@ -313,7 +317,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "nombreEs": "Campeón del Caos",
-   "textoEs": "Añade un personaje Champion of Chaos"
+   "textoEs": "Añade un personaje Campeón del Caos"
   },
   {
    "id": "chaos-marines",
@@ -325,7 +329,7 @@
    "porUnidad": true,
    "max": 6,
    "nombreEs": "Marines del Caos",
-   "textoEs": "Añade hasta seis Chaos Space Marines"
+   "textoEs": "Añade hasta seis Marines Espaciales del Caos"
   },
   {
    "id": "chaos-warlord",
@@ -336,7 +340,7 @@
    "costeTexto": "+50 points",
    "maxEjercito": 1,
    "nombreEs": "Señor de la Guerra del Caos",
-   "textoEs": "Añade un personaje Chaos Warlord por ejército a un Daemon Prince o a una unidad con un personaje Chaos Lord"
+   "textoEs": "Añade un personaje Señor de la Guerra del Caos por ejército a un Príncipe Demonio o a una unidad con un personaje Señor del Caos"
   },
   {
    "id": "daemon-prince",
@@ -346,8 +350,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "nombreEs": "Príncipe demonio",
-   "textoEs": "Sustituye una unidad con un personaje Chaos Lord por un Daemon Prince"
+   "nombreEs": "Príncipe Demonio",
+   "textoEs": "Sustituye una unidad con un personaje Señor del Caos por un Príncipe Demonio"
   },
   {
    "id": "daemonic-pact",
@@ -356,8 +360,8 @@
    "texto": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Pacto demoníaco",
-   "textoEs": "Añade un Lesser Daemon a la reserva de demonios. La formación puede invocar demonios."
+   "nombreEs": "Pacto Demoníaco",
+   "textoEs": "Añade un Demonio Menor a la Reserva Demoníaca. La formación puede invocar demonios"
   },
   {
    "id": "dreadclaws",
@@ -368,7 +372,8 @@
    "costeTexto": "+5 points per unit",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Transporta en Dreadclaws una formación formada solo por infantería y Chaos Dreadnoughts"
+   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos",
+   "nombreEs": "Garras del Terror"
   },
   {
    "id": "dreadnoughts",
@@ -379,7 +384,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Emperor's Children Dreadnoughts"
+   "textoEs": "Añade hasta tres Dreadnoughts de los Hijos del Emperador"
   },
   {
    "id": "havocs",
@@ -388,7 +393,7 @@
    "texto": "Replace two or four Chaos Space Marines with an equal number of Havocs",
    "coste": 25,
    "costeTexto": "+25 or +50 points",
-   "textoEs": "Sustituye dos o cuatro Chaos Space Marines por el mismo número de Havocs"
+   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Havocs"
   },
   {
    "id": "icon-bearer",
@@ -398,7 +403,7 @@
    "coste": 25,
    "costeTexto": "+25 points",
    "nombreEs": "Portaestandarte",
-   "textoEs": "Añade un personaje Icon Bearer"
+   "textoEs": "Añade un personaje Portaestandarte"
   },
   {
    "id": "land-raiders",
@@ -409,7 +414,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 4,
-   "textoEs": "Añade hasta cuatro Emperor's Children Land Raiders"
+   "textoEs": "Añade hasta cuatro Land Raiders de los Hijos del Emperador"
   },
   {
    "id": "noise-marines",
@@ -419,7 +424,7 @@
    "coste": 25,
    "costeTexto": "+25 or +50 points",
    "nombreEs": "Marines del Ruido",
-   "textoEs": "Sustituye dos o cuatro Chaos Space Marines por el mismo número de Noise Marines"
+   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Marines del Ruido"
   },
   {
    "id": "rhinos",
@@ -430,7 +435,7 @@
    "costeTexto": "+10 points each",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería"
+   "textoEs": "Añade un Rhino del Caos por cada dos unidades de infantería"
   },
   {
    "id": "stalker",
@@ -464,18 +469,23 @@
  ],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Marines Espaciales del Caos – Hijos del Emperador",
- "iniciativaEs": "Las formaciones de Chaos Navy, Questor, Subjugator y Knight Pack tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "iniciativaEs": "Las formaciones de la Armada del Caos, Questor, Subyugador y Manada de Caballeros tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
  "reglas": [
   {
    "id": "6.27",
    "titulo": "Lista de ejército de Marines Espaciales del Caos de los Hijos del Emperador (Emperor’s Children)",
    "parrafos": [
     "— Hermano Hedonis",
-    "Fuerzas: Esta lista usa las hojas de datos de 5.27.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.27.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de los Hijos del Emperador.",
-    "Las formaciones de los Hijos del Emperador son de tres tipos: séquitos (retinues), formaciones de élite y formaciones de apoyo. Cada séquito que incluyas en el ejército te permite desplegar una formación de élite y una formación de apoyo cualesquiera. Aunque solo puedes llevar una formación de élite o de apoyo si antes llevas un séquito, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras; cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación inde‐",
-    "pendiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de los Hijos del Emperador pueden recibir apoyo de formaciones de la Armada del Caos y de Ingenios de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
-    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+    "Las formaciones de los Hijos del Emperador son de tres tipos: séquitos (retinues), formaciones de élite y formaciones de apoyo. Cada séquito que incluyas en el ejército te permite desplegar una formación de élite y una formación de apoyo cualesquiera. Aunque solo puedes llevar una formación de élite o de apoyo si antes llevas un séquito, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras; cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de los Hijos del Emperador pueden recibir apoyo de formaciones de la Armada del Caos y de Máquinas de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación mejorada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2).",
+    "I N I C I AT I VA FACTOR DE E STRATEGIA: 4",
+    "Las formaciones de la Armada del Caos, Questor, Subyugador y Manada de Caballeros tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Una formación de élite y una formación de apoyo por cada séquito. Hasta cuatro mejoras por formación, una de cada tipo.",
+    "• 0–1 Señor de la Guerra del Caos, 0–1 Príncipe Demonio, 0–1 Manada de Caballeros y 0–1 Nave Espacial por ejército.",
+    "• Reserva Demoníaca (Daemon Pool): Demonio Mayor +50 puntos c/u; Demonio Menor +15 puntos c/u."
    ]
   },
   {
@@ -494,9 +504,10 @@
   },
   {
    "id": "5.11.1",
-   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "titulo": "Invocación mejorada (Augmented Summoning)",
    "parrafos": [
-    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+    "Algunas unidades del Caos tienen Invocación mejorada (+x). Las unidades con esta capacidad suman un número de puntos",
+    "de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación mejorada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
    ]
   },
   {
@@ -505,6 +516,696 @@
    "parrafos": [
     "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Champion of Chaos",
+   "nombreEs": "Campeón del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Artefacto demoníaco",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP"
+    },
+    {
+     "nombre": "Proyectil demoníaco",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP"
+    }
+   ],
+   "notas": "Invocación mejorada (+2D3), Salvación Invulnerable. Un Campeón del Caos añadido a una formación de Khorne, Nurgle o del Caos Indiviso tiene el arma Artefacto Demoníaco. Un Campeón del Caos añadido a una formación de Slaanesh o Tzeentch tiene el arma Proyectil Demoníaco. Una unidad con este personaje puede sacrificarse (se quita del juego sin que su formación reciba un Marcador de Explosión) antes de tirar los puntos de invocación. Esto cambia su Invocación mejorada de (+2D3) a (+6), y debe invocarse un Demonio Mayor. Coloca el Demonio Mayor a 10 cm o menos del punto donde se retiró la unidad sacrificada."
+  },
+  {
+   "nombre": "Chaos Lord",
+   "nombreEs": "Señor del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma demoníaca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Chaos Warlord",
+   "nombreEs": "Señor de la Guerra del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Icon Bearer",
+   "nombreEs": "Portaestandarte",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Foco Demoníaco, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Sorcerer Lord",
+   "nombreEs": "Señor Hechicero",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Rayo disforme",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Chaos Space Marine Bikes",
+   "nombreEs": "Motocicletas de Marines del Caos",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Bólters dobles",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Montado."
+  },
+  {
+   "nombre": "Chaos Space Marine Chosen",
+   "nombreEs": "Elegidos de los Marines del Caos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Explorador."
+  },
+  {
+   "nombre": "Chaos Space Marines",
+   "nombreEs": "Marines Espaciales del Caos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Daemon Prince",
+   "nombreEs": "Príncipe Demonio",
+   "tipo": "INF",
+   "velocidad": "15cm (30cm)",
+   "blindaje": "3+ (4+)",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Explosión disforme",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    },
+    {
+     "nombre": "Arma poseída",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MA"
+    }
+   ],
+   "notas": "Comandante, Coraje, Líder, Blindaje Reforzado, Teletransporte. Un Príncipe Demonio puede tener alas: la unidad obtiene Retrorreactores y un movimiento de 30 cm, y su blindaje se reduce a 4+."
+  },
+  {
+   "nombre": "Daemonettes",
+   "nombreEs": "Diablillas",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Daña primero, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Emperor's Children Terminators",
+   "nombreEs": "Exterminadores de los Hijos del Emperador",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Blastmaster",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+, D"
+    },
+    {
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Teletransporte, Blindaje adicional posterior. Cuenta como Exterminadores de los Marines del Caos a efectos de transporte."
+  },
+  {
+   "nombre": "Fiends of Slaanesh",
+   "nombreEs": "Demonios de Slaanesh",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Infiltrador, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Havocs",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Noise Marines",
+   "nombreEs": "Marines del Ruido",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Blastmaster",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+, D"
+    }
+   ],
+   "notas": "Coraje."
+  },
+  {
+   "nombre": "Raptors",
+   "nombreEs": "Raptores",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Pistolas bólter",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Retrorreactores."
+  },
+  {
+   "nombre": "Steeds of Slaanesh",
+   "nombreEs": "Corceles de Slaanesh",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Daña primero, Infiltrador, Salvación Invulnerable, Montado."
+  },
+  {
+   "nombre": "Chaos Rhino",
+   "nombreEs": "Rhino del Caos",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Combibólter",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Transporte. Puede transportar dos unidades de infantería (excepto Exterminadores de los Marines del Caos, Príncipes Demonio y Obliteradores) sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Emperor's Children Dreadnought",
+   "nombreEs": "Dreadnought de los Hijos del Emperador",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Blastmaster doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+, D"
+    },
+    {
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Bípode. Cuenta como Dreadnought del Caos a efectos de transporte."
+  },
+  {
+   "nombre": "Emperor's Children Land Raider",
+   "nombreEs": "Land Raider de los Hijos del Emperador",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Blastmaster doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+, D"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores de los Marines del Caos u Obliteradores, o dos unidades de infantería (excepto Príncipes Demonio) sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Emperor's Children Predator",
+   "nombreEs": "Predator de los Hijos del Emperador",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Blastmaster",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+, D"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hell Strider",
+   "nombreEs": "Caminante Infernal",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable, Bípode."
+  },
+  {
+   "nombre": "Stalker",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Autocañón Acechador",
+     "alcance": "30cm",
+     "potencia": "2× AP5+/AT6+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Keeper of Secrets",
+   "nombreEs": "Guardián de los Secretos",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Mirada de Slaanesh",
+     "alcance": "30cm",
+     "potencia": "3× MA4+"
+    },
+    {
+     "nombre": "y Mirada de Slaanesh",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP, MA"
+    },
+    {
+     "nombre": "Látigo del Tormento",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP, MA"
+    }
+   ],
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
+  },
+  {
+   "nombre": "Hell-Knight",
+   "nombreEs": "Caballero Infernal",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lanza térmica",
+     "alcance": "30cm",
+     "potencia": "MA4+, Fro"
+    },
+    {
+     "nombre": "y Lanza térmica",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Factor de Daños 2, Coraje, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Hell-Scourge",
+   "nombreEs": "Azote Infernal",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Castigator",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 2, Coraje, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Questor Titan",
+   "nombreEs": "Titán Questor",
+   "tipo": "MG",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Cañón Castigator",
+     "alcance": "45cm",
+     "potencia": "3× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Subjugator Titan",
+   "nombreEs": "Titán Subyugador",
+   "tipo": "MG",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Espadas infernales",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Chaos Thunderhawk",
+   "nombreEs": "Thunderhawk del Caos",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Izq."
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Der."
+    }
+   ],
+   "notas": "Factor de Daños 2, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar ocho unidades de infantería o Dreadnoughts del Caos; los Exterminadores de los Marines del Caos, los Dreadnoughts del Caos y los Obliteradores cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas. Cuenta como una Cañonera Thunderhawk a efectos de transporte."
+  },
+  {
+   "nombre": "Harbinger",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Izq."
+    },
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Der."
+    },
+    {
+     "nombre": "Bombas incendiarias",
+     "alcance": "15cm",
+     "potencia": "6PA, FxF, IC"
+    }
+   ],
+   "notas": "Factor de Daños 4, Salvación Invulnerable, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida."
+  },
+  {
+   "nombre": "Hell Blade",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hell Talon",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombas",
+     "alcance": "15cm",
+     "potencia": "2PA, FxF, IC"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "30cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Lanzador Havoc",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Despoiler Class Battleship",
+   "nombreEs": "Acorazado clase Despoiler",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "3× Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": "Lenta y tediosa, Transporte. Puede transportar 40 unidades de infantería o Dreadnoughts del Caos; más nueve Thunderhawks del Caos y suficientes Garras del Terror para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Devastation Class Cruiser",
+   "nombreEs": "Crucero clase Devastación",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": "Transporte. Puede transportar 20 unidades de infantería o Dreadnoughts del Caos; más seis Thunderhawks del Caos y suficientes Garras del Terror para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Dreadclaw",
+   "nombreEs": "Garra del Terror",
+   "tipo": "Especial",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Caída orbital, Transporte. Puede transportar una formación de unidades de infantería (excepto Motocicletas de Marines del Caos) y Dreadnoughts del Caos. La Garra del Terror no se desvía 2D6 cm tras colocarse a 15 cm o menos de las coordenadas de la zona de caída anotadas al comienzo de la partida (véase Caída orbital). Las tropas transportadas en la Garra del Terror deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la Garra del Terror. Las miniaturas de Garra del Terror se quitan del tablero cuando la formación que transportan ha desembarcado."
   }
  ]
 }

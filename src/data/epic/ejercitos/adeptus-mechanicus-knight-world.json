@@ -10,7 +10,7 @@
    "nombre": "Knight Households",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Casas de Caballeros"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "support-households",
@@ -21,8 +21,8 @@
     "cantidad": 1,
     "base": "knight household"
    },
-   "nombreEs": "Casas de apoyo",
-   "notaEs": "Se puede desplegar como máximo una casa de apoyo por cada casa de caballeros."
+   "notaEs": "Se puede desplegar como máximo una casa de apoyo por cada casa de caballeros.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "support-levy",
@@ -33,16 +33,16 @@
     "cantidad": 1,
     "base": "knight household"
    },
-   "nombreEs": "Levas de apoyo",
-   "notaEs": "Se puede desplegar como máximo una leva de apoyo por cada casa de caballeros."
+   "notaEs": "Se puede desplegar como máximo una leva de apoyo por cada casa de caballeros.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "imperial-navy-aircraft",
    "nombre": "Imperial Navy Aircraft",
    "tipo": "tercio",
    "nota": "Up to a fourth of the points available may be spent on these formations.",
-   "nombreEs": "Aeronaves de la Armada Imperial",
-   "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Lista de ejército"
   }
  ],
  "formaciones": [
@@ -59,25 +59,25 @@
      "coste": 90,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres Knight Paladins por +90 puntos cada uno"
+     "textoEs": "Añade hasta tres Caballeros Paladín por +90 puntos c/u"
     },
     {
      "texto": "Replace any number of Knight Paladins with an equal number of Knight Errants for +10 points each",
      "coste": 10,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Knight Paladins por el mismo número de Knight Errants por +10 puntos cada uno"
+     "textoEs": "Sustituye cualquier número de Caballeros Paladín por el mismo número de Caballeros Errantes por +10 puntos c/u"
     },
     {
      "texto": "Add one Seneschal character for +25 points or one Baron per army for +200 points",
      "coste": 25,
      "porUnidad": true,
      "max": 10,
-     "textoEs": "Añade un personaje Seneschal por +25 puntos o un Baron por ejército por +200 puntos"
+     "textoEs": "Añade un personaje Senescal por +25 puntos o un Barón por ejército por +200 puntos"
     }
    ],
    "nombreEs": "Casa de Caballeros",
-   "unidadesEs": "Tres Knight Paladins"
+   "unidadesEs": "Tres Caballeros Paladín"
   },
   {
    "id": "support-households-custodian-household",
@@ -90,16 +90,16 @@
     {
      "texto": "Add one Knight Castellan or Knight Crusader for +115 points",
      "coste": 115,
-     "textoEs": "Añade un Knight Castellan o Knight Crusader por +115 puntos"
+     "textoEs": "Añade un Caballero Castellano o Caballero Cruzado por +115 puntos"
     },
     {
      "texto": "Add one Seneschal character for +25 points",
      "coste": 25,
-     "textoEs": "Añade un personaje Seneschal por +25 puntos"
+     "textoEs": "Añade un personaje Senescal por +25 puntos"
     }
    ],
-   "nombreEs": "Casa custodia",
-   "unidadesEs": "Tres cualesquiera de estas unidades: Knight Castellan, Knight Crusader"
+   "nombreEs": "Casa Custodia",
+   "unidadesEs": "Tres cualesquiera de: Caballero Castellano, Caballero Cruzado"
   },
   {
    "id": "support-households-lancer-household",
@@ -114,18 +114,18 @@
      "coste": 90,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres Knight Lancers por +90 puntos cada uno"
+     "textoEs": "Añade hasta tres Caballeros Lanceros por +90 puntos c/u"
     },
     {
      "texto": "Add one Seneschal character for +25 points or one Baron per army for +200 points",
      "coste": 25,
      "porUnidad": true,
      "max": 10,
-     "textoEs": "Añade un personaje Seneschal por +25 puntos o un Baron por ejército por +200 puntos"
+     "textoEs": "Añade un personaje Senescal por +25 puntos o un Barón por ejército por +200 puntos"
     }
    ],
-   "nombreEs": "Casa de lanceros",
-   "unidadesEs": "Tres Knight Lancers"
+   "nombreEs": "Casa de Lanceros",
+   "unidadesEs": "Tres Caballeros Lanceros"
   },
   {
    "id": "support-households-warden-household",
@@ -140,16 +140,16 @@
      "coste": 85,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres Wardens por +85 puntos cada uno"
+     "textoEs": "Añade hasta tres Guardianes por +85 puntos c/u"
     },
     {
      "texto": "Add one Seneschal character for +25 points",
      "coste": 25,
-     "textoEs": "Añade un personaje Seneschal por +25 puntos"
+     "textoEs": "Añade un personaje Senescal por +25 puntos"
     }
    ],
-   "nombreEs": "Casa de guardianes",
-   "unidadesEs": "Tres Wardens"
+   "nombreEs": "Casa de Guardianes",
+   "unidadesEs": "Tres Guardianes"
   },
   {
    "id": "support-levy-aa-gun-battery",
@@ -162,11 +162,11 @@
     {
      "texto": "Replace three Gun Transporters with three Gun Emplacements for free",
      "coste": 0,
-     "textoEs": "Sustituye gratis tres Gun Transporters por tres Gun Emplacements"
+     "textoEs": "Sustituye los tres Transportes de Armas por tres Emplazamientos de Armas gratis"
     }
    ],
-   "nombreEs": "Batería antiaérea",
-   "unidadesEs": "Tres AA Guns y tres Gun Transporters"
+   "nombreEs": "Batería Antiaérea",
+   "unidadesEs": "Tres Cañones antiaéreos y tres Transportes de Armas"
   },
   {
    "id": "support-levy-howitzer-battery",
@@ -179,11 +179,11 @@
     {
      "texto": "Replace three Gun Transporters with three Gun Emplacements for free",
      "coste": 0,
-     "textoEs": "Sustituye gratis tres Gun Transporters por tres Gun Emplacements"
+     "textoEs": "Sustituye los tres Transportes de Armas por tres Emplazamientos de Armas gratis"
     }
    ],
-   "nombreEs": "Batería de obuses",
-   "unidadesEs": "Tres Howitzers y tres Gun Transporters"
+   "nombreEs": "Batería de Obuses",
+   "unidadesEs": "Tres Obuses y tres Transportes de Armas"
   },
   {
    "id": "support-levy-infantry-platoon",
@@ -198,35 +198,35 @@
      "coste": 25,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Añade hasta cuatro Infantry Levy, por +25 puntos cada dos"
+     "textoEs": "Añade hasta cuatro Levas de Infantería por +25 puntos cada dos"
     },
     {
      "texto": "Add up to three of any of the following units for +25 points each: Rapier, Thudd Gun",
      "coste": 25,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres de cualquiera de estas unidades por +25 puntos cada una: Rapier, Thudd Gun"
+     "textoEs": "Añade hasta tres unidades cualesquiera de Rapier, Thudd Gun por +25 puntos c/u"
     },
     {
      "texto": "Add up to two Snipers for +25 points each",
      "coste": 25,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos Snipers por +25 puntos cada uno"
+     "textoEs": "Añade hasta dos Francotiradores por +25 puntos c/u"
     },
     {
      "texto": "Add one Aspirant character for +25 points",
      "coste": 25,
-     "textoEs": "Añade un personaje Aspirant por +25 puntos"
+     "textoEs": "Añade un personaje Aspirante por +25 puntos"
     },
     {
      "texto": "Add up to 52cm of Trench and 52cm of Razor Wire for +50 points",
      "coste": 50,
-     "textoEs": "Añade hasta 52 cm de trinchera y 52 cm de alambre de espino por +50 puntos"
+     "textoEs": "Añade hasta 52 cm de trinchera y 52 cm de alambrada de espino por +50 puntos"
     }
    ],
-   "nombreEs": "Pelotón de infantería",
-   "unidadesEs": "Un Levy Command y ocho Infantry Levy"
+   "nombreEs": "Pelotón de Infantería",
+   "unidadesEs": "Un Mando de la Leva y ocho Levas de Infantería"
   },
   {
    "id": "support-levy-rough-rider-platoon",
@@ -239,11 +239,11 @@
     {
      "texto": "Add one Aspirant character for +25 points",
      "coste": 25,
-     "textoEs": "Añade un personaje Aspirant por +25 puntos"
+     "textoEs": "Añade un personaje Aspirante por +25 puntos"
     }
    ],
-   "nombreEs": "Pelotón de Rough Riders",
-   "unidadesEs": "Seis Rough Riders"
+   "nombreEs": "Pelotón de Jinetes Rudos",
+   "unidadesEs": "Seis Jinetes Rudos"
   },
   {
    "id": "imperial-navy-aircraft-marauder-squadron",
@@ -252,8 +252,8 @@
    "unidades": "Two Marauder Bombers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Escuadrón de Marauders",
-   "unidadesEs": "Dos Marauder Bombers"
+   "nombreEs": "Escuadrón Marauder",
+   "unidadesEs": "Dos Bombarderos Marauder"
   },
   {
    "id": "imperial-navy-aircraft-thunderbolt-squadron",
@@ -262,48 +262,56 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   }
  ],
  "mejoras": [],
  "compras": [],
  "fraccionAliados": 0.25,
- "nombreEs": "Adeptus Mechanicus – Mundo Caballero",
- "iniciativaEs": "Todas las formaciones tienen iniciativa 2+, pero las formaciones Knight Household y Support Household reciben modificadores (ver Bravery).",
+ "nombreEs": "Adeptus Mechanicus – Mundo Caballero (Casa Lakar)",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+, pero las formaciones de Casa de Caballeros y de Casa de Apoyo reciben modificadores (véase Valor de Caballero).",
  "reglas": [
   {
    "id": "6.23",
-   "titulo": "Lista de ejército de la Fuerza de Defensa del Mundo Caballeresco de la Casa Lakar",
+   "titulo": "Lista de ejército de la Fuerza de Defensa del Mundo Caballero de la Casa Lakar",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.23 y 5.3.",
-    "Uso de la lista de ejército: Las formaciones de la Fuerza de Defensa del Mundo Caballeresco de la Casa Lakar son de tres tipos: Casas de Caballeros (Knight Households), Casas de Apoyo (Support Households) y Levas de Apoyo (Support Levy). Cada Casa de Caballeros que incluyas en el ejército te permite desplegar una Casa de Apoyo y una Leva de Apoyo. Los ejércitos de la Casa Lakar pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
-    "Reglas especiales: La regla de Posiciones Fortificadas se aplica a los ejércitos de la Casa Lakar (véase 6.7.2)."
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.23 y 5.3.",
+    "Uso de la lista de ejército: Las formaciones de la Fuerza de Defensa del Mundo Caballero de la Casa Lakar son de tres tipos: Casas de Caballeros (Knight Households), Casas de Apoyo (Support Households) y Levas de Apoyo (Support Levy). Cada Casa de Caballeros que incluyas en el ejército te permite desplegar una Casa de Apoyo y una Leva de Apoyo. Los ejércitos de la Casa Lakar pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla de Posiciones Fortificadas se aplica a los ejércitos de la Casa Lakar (véase 6.7.2).",
+    "I N I C I AT I VA FACTOR DE E STRATEGIA: 2",
+    "Todas las formaciones tienen un valor de iniciativa de 2+, pero las formaciones de Casa de Caballeros y de Casa de Apoyo reciben modificadores (véase Valor de Caballero).",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Barón por ejército (+200).",
+    "• Casa de Caballeros: puede sustituir cualquier número de Caballeros Paladín por Caballeros Errantes, a +10 puntos cada uno.",
+    "• Hasta una casa de apoyo y una leva de apoyo por cada Casa de Caballeros.",
+    "• El Pelotón de Infantería puede añadir hasta 52 cm de trinchera y 52 cm de alambrada de espino (+50)."
    ]
   },
   {
    "id": "6.23.1",
-   "titulo": "Valentía (Bravery)",
+   "titulo": "Valor de Caballero (Bravery)",
    "parrafos": [
-    "Las formaciones de Casa de Caballeros y de Casa de Apoyo reciben un modificador de +1 a su chequeo de acción al realizar una acción de Enfrentarse, y un +1 a su chequeo de reorganización."
+    "Las formaciones de Casa de Caballeros y de Casa de Apoyo reciben un modificador de +1 a su chequeo de acción al realizar una acción de Atacar, y un +1 a su chequeo de reorganización."
    ]
   },
   {
    "id": "5.23.1",
-   "titulo": "Tecnología Caballeresca (Knight Technology)",
+   "titulo": "Tecnología de los Caballeros",
    "parrafos": [
-    "Escudo de Caballero (Knight Shield): Las unidades con Escudo de Caballero pueden hacer una tirada de salvación de 4+ cuando son impactadas, en lugar de usar su valor de blindaje. Nunca se aplican modificadores a esta tirada y no le afectan los impactos de macroarma, lanza ni Mata-Titanes. Sin embargo, cada punto de daño de un impacto Mata-Titanes debe salvarse por separado. Si la unidad tiene además Blindaje Reforzado, puede repetir una salvación fallida usando su valor de blindaje, salvo que el impacto sea de macroarma, lanza o Mata-Titanes. Por último, ninguna de estas ventajas se aplica a unidades en fuego cruzado ni a impactos de fuego de apoyo.",
+    "(Knight Technology)",
+    "Escudo de Caballero (Knight Shield): Las unidades con Escudo de Caballero pueden hacer una tirada de salvación de 4+ cuando son impactadas, en lugar de usar su valor de blindaje. Nunca se aplican modificadores a esta tirada y no le afectan los impactos de macro-arma, lanza ni Matatitanes. Sin embargo, cada punto de daño de un impacto Matatitanes debe salvarse por separado. Si la unidad tiene además Blindaje Reforzado, puede repetir una salvación fallida usando su valor de blindaje, salvo que el impacto sea de macro-arma, lanza o Matatitanes. Por último, ninguna de estas ventajas se aplica a unidades en fuego cruzado ni a impactos de fuego de apoyo.",
     "Lanza de Energía y Lanza de Choque (Power Lance /",
-    "Shock Lance): Solo pueden usarse si la formación de la unidad ha realizado una acción de Enfrentarse."
+    "Shock Lance): Solo pueden usarse si la formación de la unidad ha realizado una acción de Atacar."
    ]
   },
   {
    "id": "5.23.2",
-   "titulo": "Posiciones Fortificadas de los Mundos Caballerescos",
+   "titulo": "Posiciones Fortificadas de los Mundos Caballero",
    "parrafos": [
-    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Ingenio de Guerra",
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento de armas no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Tabla de efectos de las posiciones fortificadas Máquina de Guerra",
     "Terreno",
     "Infantería",
     "Vehículo",
@@ -325,8 +333,7 @@
    "id": "6.7.2",
    "titulo": "Posiciones Fortificadas",
    "parrafos": [
-    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las guarniciones. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte.",
-    "Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
+    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las patrullas. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte. Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
     "Una vez desplegadas, las posiciones fortificadas pueden ser usadas por cualquier unidad (incluidas las enemigas).",
     "FAQ",
     "P: ¿Hay que desplegar todas las Posiciones Fortificadas adquiridas?",
@@ -338,6 +345,500 @@
     "P: ¿Forman parte de la formación los Emplazamientos de Armas que acompañan a ciertas formaciones?",
     "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Aspirant",
+   "nombreEs": "Aspirante",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Inspirador, Líder."
+  },
+  {
+   "nombre": "Seneschal",
+   "nombreEs": "Senescal",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante, Líder."
+  },
+  {
+   "nombre": "Infantry Levy",
+   "nombreEs": "Leva de Infantería",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Una de cada dos unidades tiene un Bólter pesado."
+  },
+  {
+   "nombre": "Levy Command",
+   "nombreEs": "Mando de la Leva",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Comandante."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Rough Riders",
+   "nombreEs": "Jinetes Rudos",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Pistolas láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Lanzas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP"
+    }
+   ],
+   "notas": "Infiltrador, Montado, Explorador."
+  },
+  {
+   "nombre": "Snipers",
+   "nombreEs": "Francotiradores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Francotirador."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "AA Gun",
+   "nombreEs": "Cañón antiaéreo",
+   "tipo": "VL",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Cañón antiaéreo",
+     "alcance": "60cm",
+     "potencia": "AP6+/AT5+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Gun Transporter",
+   "nombreEs": "Transporte de Armas",
+   "tipo": "VL",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una de las siguientes unidades: Cañón antiaéreo, Obús, Rapier, Thudd Gun."
+  },
+  {
+   "nombre": "Howitzer",
+   "nombreEs": "Obús",
+   "tipo": "VL",
+   "velocidad": "0cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Obús",
+     "alcance": "90cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Baron",
+   "nombreEs": "Barón",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla de fuego",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "rápido",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP, MA"
+    },
+    {
+     "nombre": "0–1× Lanza de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT"
+    },
+    {
+     "nombre": "0–1× Guantelete de energía 0–1× Lanza de choque",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP"
+    }
+   ],
+   "notas": "Factor de Daños 2, Coraje, Inspirador, Escudo de Caballero, Blindaje Reforzado, Comandante en jefe, Bípode. Efecto de Impacto Crítico: destruida. Armado con un Guantelete de Energía y una Lanza de Choque, o con una Lanza de Energía."
+  },
+  {
+   "nombre": "Knight Castellan",
+   "nombreEs": "Caballero Castellano",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón sísmico de Caballero",
+     "alcance": "90cm",
+     "potencia": "MA3+, Fro"
+    },
+    {
+     "nombre": "o",
+     "alcance": "90cm",
+     "potencia": "1PA, Fro"
+    },
+    {
+     "nombre": "Autocañón multitubo",
+     "alcance": "45cm",
+     "potencia": "3× AP5+/AT6+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Knight Crusader",
+   "nombreEs": "Caballero Cruzado",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón sísmico de Caballero",
+     "alcance": "90cm",
+     "potencia": "MA3+, Fro"
+    },
+    {
+     "nombre": "o",
+     "alcance": "90cm",
+     "potencia": "1PA, Fro"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Knight Errant",
+   "nombreEs": "Caballero Errante",
+   "tipo": "MG",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón térmico",
+     "alcance": "30cm",
+     "potencia": "MA4+, Fro"
+    },
+    {
+     "nombre": "y Cañón térmico",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    },
+    {
+     "nombre": "Guantelete de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT"
+    },
+    {
+     "nombre": "Lanza de choque",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Knight Lancer",
+   "nombreEs": "Caballero Lancero",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "Lanza de energía",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP, MA"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Explorador, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Knight Paladin",
+   "nombreEs": "Caballero Paladín",
+   "tipo": "MG",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "Espada sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    },
+    {
+     "nombre": "Lanza de choque",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), DP"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Warden",
+   "nombreEs": "Guardián",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "0–1× Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "0–1× Bólters pesados",
+     "alcance": "30cm",
+     "potencia": "2× AP5+, Fro"
+    },
+    {
+     "nombre": "0–1× Lanzamisiles antiaéreo",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+/AA5+"
+    },
+    {
+     "nombre": "0–1× Multiláseres",
+     "alcance": "30cm",
+     "potencia": "2× AP5+/AT6+, Fro"
+    },
+    {
+     "nombre": "0–1× Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida. Armado con un Demolisher y Bólters pesados; un Lanzamisiles antiaéreo y Multiláseres; o un Vanquisher."
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Soportes de bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderbolt Fighter",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "Bólters de asalto",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": ""
   }
  ]
 }

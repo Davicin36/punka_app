@@ -10,7 +10,7 @@
    "nombre": "Imperial Fist Detachments",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Destacamentos de los Puños Imperiales"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "imperial-fist-upgrades",
@@ -18,15 +18,15 @@
    "tipo": "mejoras",
    "nota": "Each upgrade may be taken once per detachment.",
    "unaVez": true,
-   "nombreEs": "Mejoras de los Puños Imperiales",
-   "notaEs": "Cada mejora puede tomarse una vez por destacamento."
+   "notaEs": "Cada mejora puede tomarse una vez por destacamento.",
+   "nombreEs": "Mejoras de los Puños Imperiales"
   },
   {
    "id": "titan-legion-battlegroups",
    "nombre": "Titan Legion Battlegroups",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+   "nombreEs": "Grupos de batalla de la Legión de Titanes"
   },
   {
    "id": "imperial-fist-aircraft",
@@ -40,7 +40,7 @@
    "nombre": "Imperial Fist Static Defences",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Defensas estáticas de los Puños Imperiales"
+   "nombreEs": "Defensas estáticas de los Puños Imperia les"
   }
  ],
  "formaciones": [
@@ -56,7 +56,8 @@
     "Tarantulas",
     "Techmarine"
    ],
-   "unidadesEs": "Un Bastion"
+   "unidadesEs": "Un Bastión",
+   "nombreEs": "Bastión"
   },
   {
    "id": "imperial-fist-detachments-centurion",
@@ -69,7 +70,8 @@
     "Land Raiders",
     "Vindicators"
    ],
-   "unidadesEs": "Cuatro cualesquiera de estas unidades: Assault Centurion, Devastator Centurion"
+   "unidadesEs": "Cuatro cualesquiera de: Centurión de Asalto, Centurión Devastador",
+   "nombreEs": "Centuriones"
   },
   {
    "id": "imperial-fist-detachments-devastator",
@@ -89,7 +91,7 @@
     "Vindicators"
    ],
    "nombreEs": "Devastadores",
-   "unidadesEs": "Cuatro unidades de Devastator más transporte"
+   "unidadesEs": "Cuatro unidades de Devastadores más transporte"
   },
   {
    "id": "imperial-fist-detachments-land-raider",
@@ -104,7 +106,7 @@
     "Hunter",
     "Vindicators"
    ],
-   "unidadesEs": "Cuatro cualesquiera de estas unidades: Land Raider, Land Raider Crusader"
+   "unidadesEs": "Cuatro cualesquiera de: Land Raider, Land Raider Crusader"
   },
   {
    "id": "imperial-fist-detachments-land-speeder",
@@ -117,7 +119,7 @@
     "Commander",
     "Typhoons"
    ],
-   "unidadesEs": "Cinco cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado"
+   "unidadesEs": "Cinco cualesquiera de: Land Speeder, Land Speeder Tornado"
   },
   {
    "id": "imperial-fist-detachments-predator",
@@ -131,7 +133,7 @@
     "Hunter",
     "Vindicators"
    ],
-   "unidadesEs": "Cuatro cualesquiera de estas unidades: Predator Annihilator, Predator Destructor"
+   "unidadesEs": "Cuatro cualesquiera de: Predator Annihilator, Predator Destructor"
   },
   {
    "id": "imperial-fist-detachments-fellblade",
@@ -156,7 +158,7 @@
     "Snipers"
    ],
    "nombreEs": "Exploradores",
-   "unidadesEs": "Cuatro unidades de Scout más transporte"
+   "unidadesEs": "Cuatro unidades de Exploradores más transporte"
   },
   {
    "id": "imperial-fist-detachments-tactical",
@@ -176,7 +178,7 @@
     "Vindicators"
    ],
    "nombreEs": "Tácticos",
-   "unidadesEs": "Seis unidades de Tactical más transporte"
+   "unidadesEs": "Seis unidades Tácticas más transporte"
   },
   {
    "id": "imperial-fist-detachments-terminator",
@@ -192,7 +194,7 @@
     "Vindicators"
    ],
    "nombreEs": "Exterminadores",
-   "unidadesEs": "Cuatro unidades de Terminator"
+   "unidadesEs": "Cuatro unidades de Exterminadores"
   },
   {
    "id": "imperial-fist-detachments-thunderfire",
@@ -205,7 +207,7 @@
     "Dreadnoughts",
     "Techmarine"
    ],
-   "unidadesEs": "Cuatro Thunderfire Cannons"
+   "unidadesEs": "Cuatro Cañones Thunderfire"
   },
   {
    "id": "imperial-fist-detachments-vindicator",
@@ -242,7 +244,7 @@
    "unidades": "One Reaver Class Titan",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "titan-legion-battlegroups-warlord",
@@ -251,7 +253,7 @@
    "unidades": "One Deathstrike pattern Warlord Class Titan",
    "coste": 825,
    "costeTexto": "825 points",
-   "unidadesEs": "Un Warlord Class Titan patrón Deathstrike"
+   "unidadesEs": "Un Titán clase Warlord patrón Deathstrike"
   },
   {
    "id": "imperial-fist-aircraft-storm-talon-squadron",
@@ -270,7 +272,8 @@
    "unidades": "One Thunderhawk Saturation Bomber",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Thunderhawk Saturation Bomber"
+   "unidadesEs": "Un Bombardero de Saturación Thunderhawk",
+   "nombreEs": "Thunderhawk de Saturación"
   },
   {
    "id": "imperial-fist-static-defences-fortified-positions",
@@ -279,8 +282,8 @@
    "unidades": "Two Bunkers and 52cm of Trenches or Minefields",
    "coste": 50,
    "costeTexto": "50 points",
-   "nombreEs": "Posiciones fortificadas",
-   "unidadesEs": "Dos Bunkers y 52 cm de trincheras o campos de minas"
+   "nombreEs": "Posiciones Fortificadas",
+   "unidadesEs": "Dos Búnkeres y 52 cm de Trincheras o Campos de minas"
   },
   {
    "id": "imperial-fist-static-defences-hyperios-per-scout-detachment",
@@ -290,8 +293,8 @@
    "coste": 125,
    "costeTexto": "125 points",
    "max": 1,
-   "nombreEs": "Hyperios por destacamento de exploradores",
-   "unidadesEs": "Tres Hyperios Platforms"
+   "nombreEs": "Hyperios por destacamento de Exploradores",
+   "unidadesEs": "Tres Plataformas Hyperios"
   },
   {
    "id": "imperial-fist-static-defences-tarantulas-per-scout-detachment",
@@ -301,8 +304,8 @@
    "coste": 100,
    "costeTexto": "100 points",
    "max": 1,
-   "nombreEs": "Tarántulas por destacamento de exploradores",
-   "unidadesEs": "Cuatro Tarantula Platforms y cuatro Gun Emplacements"
+   "nombreEs": "Tarántulas por destacamento de Exploradores",
+   "unidadesEs": "Cuatro Plataformas Tarántula y cuatro Emplazamientos de Armas"
   }
  ],
  "mejoras": [
@@ -328,18 +331,18 @@
     {
      "coste": 50,
      "porUnidad": false,
-     "texto": "+50 points",
-     "textoEs": "+50 puntos"
+     "texto": "Captain, Chaplain or Librarian (+50 points)",
+     "textoEs": "Capitán, Capellán o Bibliotecario (+50 puntos)"
     },
     {
      "coste": 100,
      "porUnidad": false,
-     "texto": "+100 points",
-     "textoEs": "+100 puntos"
+     "texto": "Supreme Commander (+100 points)",
+     "textoEs": "Comandante en jefe (+100 puntos)"
     }
    ],
    "nombreEs": "Comandante",
-   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Captain, Chaplain, Librarian; 0–1 Supreme Commander por ejército"
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Capitán, Capellán, Bibliotecario 0–1 Comandante en jefe por ejército"
   },
   {
    "id": "dreadnoughts",
@@ -350,7 +353,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 2,
-   "textoEs": "Añade hasta dos de cualquiera de estas unidades: Hellfire Dreadnought, Siege Dreadnought"
+   "textoEs": "Añade hasta dos unidades cualesquiera de: Dreadnought Hellfire, Dreadnought de Asedio"
   },
   {
    "id": "hunter",
@@ -384,7 +387,7 @@
      "textoEs": "+125 puntos por pareja"
     }
    ],
-   "textoEs": "Añade hasta cuatro de cualquiera de estas unidades: Land Raider, Land Raider Crusader"
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider, Land Raider Crusader"
   },
   {
    "id": "razorbacks",
@@ -395,7 +398,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 20,
-   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+   "textoEs": "Añade Razorbacks, hasta el número necesario para transportar la formación"
   },
   {
    "id": "snipers",
@@ -407,7 +410,7 @@
    "porUnidad": true,
    "max": 4,
    "nombreEs": "Francotiradores",
-   "textoEs": "Da Sniper a hasta cuatro unidades de Scout"
+   "textoEs": "Da Francotirador a hasta cuatro unidades de Exploradores"
   },
   {
    "id": "support-battery",
@@ -418,8 +421,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 4,
-   "nombreEs": "Batería de apoyo",
-   "textoEs": "Añade hasta cuatro de cualquiera de estas unidades: Thudd Gun, Rapier"
+   "nombreEs": "Batería de Apoyo",
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Thudd Gun, Rapier"
   },
   {
    "id": "tarantulas",
@@ -431,7 +434,7 @@
    "porUnidad": true,
    "max": 4,
    "nombreEs": "Tarántulas",
-   "textoEs": "Añade hasta cuatro Tarantula Platforms, cada una con un Gun Emplacement"
+   "textoEs": "Añade hasta cuatro Plataformas Tarántula, cada una con un Emplazamiento de Armas"
   },
   {
    "id": "techmarine",
@@ -441,7 +444,7 @@
    "coste": 25,
    "costeTexto": "+25 points",
    "nombreEs": "Tecnomarine",
-   "textoEs": "Añade un personaje Techmarine a cualquier unidad de la formación"
+   "textoEs": "Añade un personaje Tecnomarine a cualquier unidad de la formación"
   },
   {
    "id": "typhoons",
@@ -452,7 +455,7 @@
    "costeTexto": "+10 points each",
    "porUnidad": true,
    "max": 5,
-   "textoEs": "Sustituye hasta cinco Land Speeders por el mismo número de Land Speeder Typhoons"
+   "textoEs": "Sustituye hasta cinco Land Speeders por el mismo número de Land Speeder Typhoon"
   },
   {
    "id": "vindicators",
@@ -492,24 +495,29 @@
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Marines Espaciales – Puños Imperiales",
- "iniciativaEs": "Las formaciones de defensa estática de los Imperial Fists tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "iniciativaEs": "Las formaciones de defensa estática de los Puños Imperiales tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
  "reglas": [
   {
    "id": "6.25",
    "titulo": "Lista de ejército de Marines Espaciales de los Puños Imperiales (Imperial Fists)",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.25.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.25.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en los Puños Imperiales. También puede usarse como lista «sustituta» para cualquiera de los Capítulos sucesores de los Puños Imperiales. Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
     "Los ejércitos de los Puños Imperiales pueden recibir apoyo de grupos de batalla de la Legión de Titanes y de formaciones de aeronaves y de defensa estática de los Puños Imperiales. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
-    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento, aeronaves y defensa estática de los Puños Imperiales (véase 5.1.1). La regla de Posiciones Fortificadas se aplica a los ejércitos de los Puños Imperiales (véase 6.7.2)."
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento, aeronaves y defensa estática de los Puños Imperiales (véase 5.1.1). La regla de Posiciones Fortificadas se aplica a los ejércitos de los Puños Imperiales (véase 6.7.2).",
+    "FACTOR DE E STRATEGIA: 5",
+    "I N I C I AT I VA",
+    "Las formaciones de defensa estática de los Puños Imperiales tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Cada mejora puede adquirirse una vez por destacamento. 0–1 Comandante en jefe por ejército.",
+    "• Defensas estáticas: 0–1 Hyperios y 0–1 Tarántulas por cada destacamento de Exploradores."
    ]
   },
   {
    "id": "6.25.1",
    "titulo": "Transporte de los Puños Imperiales",
    "parrafos": [
-    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes Rhinos para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos",
-    "que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades. Además, antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, puedes sustituir los Rhinos de un destacamento Devastador o Táctico por dos Búnkeres y 52 cm de Trincheras o Campos de minas."
+    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes Rhinos para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades. Además, antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, puedes sustituir los Rhinos de un destacamento Devastador o Táctico por dos Búnkeres y 52 cm de Trincheras o Campos de minas."
    ]
   },
   {
@@ -517,9 +525,9 @@
    "titulo": "Maestros del Asedio (Masters of Siege)",
    "parrafos": [
     "Los Puños Imperiales tienen una especial pericia en la guerra de asedio y los asaltos de choque masivos. Esto se representa con las siguientes reglas:",
-    "• Un ejército de Puños Imperiales puede empezar con tres formaciones de guarnición en vigilancia en lugar de dos.",
+    "• Un ejército de Puños Imperiales puede empezar con tres formaciones de patrulla en Fuego de Supresión en lugar de dos.",
     "• Todas las unidades cuentan como si tuvieran Bípode al hacer un chequeo de terreno peligroso por entrar o empezar a mover en campos de minas adquiridos como parte del ejército.",
-    "• Todas las unidades de infantería obtienen Primer Golpe cuando están dentro de trincheras adquiridas como parte del ejército.",
+    "• Todas las unidades de infantería obtienen Daña primero cuando están dentro de trincheras adquiridas como parte del ejército.",
     "• Todas las unidades de infantería obtienen una salvación de 4+ con Blindaje Reforzado cuando están dentro de búnkeres adquiridos como parte del ejército. Esta sustituye tanto su salvación normal como la salvación por cobertura de 3+ del búnker. Se pierde si la unidad sufre un impacto que Ignora Cobertura."
    ]
   },
@@ -528,14 +536,14 @@
    "titulo": "Posiciones Fortificadas de los Puños",
    "parrafos": [
     "Imperiales",
-    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Campo de minas: Las unidades enemigas con Retrorreactores o Aerodeslizador deben hacer chequeos de terreno peligroso por los campos de minas. Las unidades enemigas no pueden repetir los chequeos de terreno peligroso fallidos por campos de minas.",
-    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Terreno",
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. Las unidades en un búnker no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento de armas no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Campo de minas: Las unidades enemigas con Retrorreactores o Gravitatorio deben hacer chequeos de terreno peligroso por los campos de minas. Las unidades enemigas no pueden repetir los chequeos de terreno peligroso fallidos por campos de minas.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Tabla de efectos de las posiciones fortificadas Terreno",
     "Infantería",
     "Vehículo",
-    "Ingenio de Guerra",
+    "Máquina de Guerra",
     "Búnker",
     "Salv. cobertura 3+",
     "Peligroso",
@@ -557,7 +565,7 @@
    "id": "5.25.3",
    "titulo": "Autómatas (Automata)",
    "parrafos": [
-    "Las formaciones compuestas íntegramente por unidades con Autómatas solo pueden realizar acciones de Organizarse, Vigilancia y Fuego Sostenido. Además, no pueden capturar objetivos en las reglas de juego de torneo de Epic. Las formaciones que incluyen al menos una unidad sin Autómatas no reciben un Marcador de Explosión cuando se destruye una unidad con Autómatas; esto incluye el Marcador adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Además, si una unidad con Autómatas es impactada por un arma con Disruptor, no inflige Marcador de Explosión. Por último, no cuentes las unidades con Autómatas perdidas en un asalto al calcular quién ha ganado el combate."
+    "Las formaciones compuestas íntegramente por unidades con Autómatas solo pueden realizar acciones de Mando, Fuego de Supresión y Fuego Sostenido. Además, no pueden capturar objetivos en las reglas de juego de torneo de Epic. Las formaciones que incluyen al menos una unidad sin Autómatas no reciben un Marcador de Explosión cuando se destruye una unidad con Autómatas; esto incluye el Marcador adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Además, si una unidad con Autómatas es impactada por un arma con Disruptor, no inflige Marcador de Explosión. Por último, no cuentes las unidades con Autómatas perdidas en un asalto al calcular quién ha ganado el combate."
    ]
   },
   {
@@ -565,12 +573,12 @@
    "titulo": "Transportes de los Marines Espaciales",
    "parrafos": [
     "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte Rhino para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario para transportar la formación: ¡no puedes llevar de más para cubrir pérdidas!",
-    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como guarnición o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
-    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída Planetaria (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
+    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por",
+    "ejemplo para que actúe como patrulla o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
+    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída orbital (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
     "FAQ",
     "P: Si una formación incluye Rhinos y además puede llevar Land Raiders y Razorbacks mediante mejoras, ¿cómo se determina cuántos Rhinos recibe?",
-    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para",
-    "transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
+    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
    ]
   },
   {
@@ -578,10 +586,11 @@
    "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
    "parrafos": [
     "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
-    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "•",
+    "Hacen falta 2 Marcadores de Explosión para acobardar una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
     "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
     "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
-    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder quitan 2 Marcadores de Explosión en lugar de 1.",
     "FAQ",
     "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
     "R: Uno por unidad."
@@ -591,8 +600,7 @@
    "id": "6.7.2",
    "titulo": "Posiciones Fortificadas",
    "parrafos": [
-    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las guarniciones. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte.",
-    "Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
+    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las patrullas. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte. Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
     "Una vez desplegadas, las posiciones fortificadas pueden ser usadas por cualquier unidad (incluidas las enemigas).",
     "FAQ",
     "P: ¿Hay que desplegar todas las Posiciones Fortificadas adquiridas?",
@@ -604,6 +612,826 @@
     "P: ¿Forman parte de la formación los Emplazamientos de Armas que acompañan a ciertas formaciones?",
     "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Captain",
+   "nombreEs": "Capitán",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Chaplain",
+   "nombreEs": "Capellán",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Inspirador, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Librarian",
+   "nombreEs": "Bibliotecario",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Golpe psíquico",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    },
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Supreme Commander",
+   "nombreEs": "Comandante en jefe",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Salvación Invulnerable, Comandante en jefe."
+  },
+  {
+   "nombre": "Techmarine",
+   "nombreEs": "Tecnomarine",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Líder. Si se añade a una unidad de Bastión, el Bastión obtiene 1 Escudo de Vacío."
+  },
+  {
+   "nombre": "Assault Centurion",
+   "nombreEs": "Centurión de Asalto",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Taladros de asedio",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    },
+    {
+     "nombre": "Lanzallamas pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Rifles de fusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "Bólters Huracán",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1)"
+    }
+   ],
+   "notas": "Blindaje Reforzado. Cuenta como una unidad de Exterminadores a efectos de transporte."
+  },
+  {
+   "nombre": "Devastator",
+   "nombreEs": "Devastadores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Devastator Centurion",
+   "nombreEs": "Centurión Devastador",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "2+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Blindaje Reforzado. Cuenta como una unidad de Exterminadores a efectos de transporte."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": "Cuenta como dos unidades de infantería a efectos de transporte."
+  },
+  {
+   "nombre": "Scout",
+   "nombreEs": "Exploradores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Infiltrador, Explorador."
+  },
+  {
+   "nombre": "Tactical",
+   "nombreEs": "Tácticos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Terminator",
+   "nombreEs": "Exterminadores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de asalto",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Teletransporte, Blindaje adicional posterior."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": "Cuenta como dos unidades de infantería a efectos de transporte."
+  },
+  {
+   "nombre": "Thunderfire Cannon",
+   "nombreEs": "Cañón Thunderfire",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Thunderfire",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "o",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hyperios Platform",
+   "nombreEs": "Plataforma Hyperios",
+   "tipo": "VL",
+   "velocidad": "0cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Lanzador Hyperios",
+     "alcance": "45cm",
+     "potencia": "AT6+/AA5+"
+    }
+   ],
+   "notas": "Autómatas."
+  },
+  {
+   "nombre": "Land Speeder",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Land Speeder Tornado",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón de asalto",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Land Speeder Typhoon",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Misil Tifón doble",
+     "alcance": "45cm",
+     "potencia": "AP3+/AT5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Tarantula Platform",
+   "nombreEs": "Plataforma Tarántula",
+   "tipo": "VL",
+   "velocidad": "0cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+ (5+)",
+   "armas": [
+    {
+     "nombre": "0–1× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Autómatas. Armado con un Bólter pesado doble o un Cañón láser doble. Las unidades armadas con un Bólter pesado doble aumentan su tiroteo a 5+."
+  },
+  {
+   "nombre": "Hellfire Dreadnought",
+   "nombreEs": "Dreadnought Hellfire",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Bípode. Cuenta como una unidad de Dreadnought a efectos de transporte."
+  },
+  {
+   "nombre": "Hunter",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Misil Cazador-Asesino",
+     "alcance": "60cm",
+     "potencia": "AT4+/AA4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Land Raider",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores o dos unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Land Raider Achilles",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Thunderfire",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "o",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    },
+    {
+     "nombre": "2× Multifusión doble",
+     "alcance": "15cm",
+     "potencia": "MA4+"
+    },
+    {
+     "nombre": "y 2× Multifusión doble",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores o dos unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Land Raider Crusader",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Bólters Huracán",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1)"
+    },
+    {
+     "nombre": "Cañón de asalto doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar tres unidades de infantería sin Retrorreactores ni Montado; los Exterminadores cuentan como una unidad y media cada uno, redondeando hacia arriba. Cuenta como un Land Raider a efectos de transporte."
+  },
+  {
+   "nombre": "Predator Annihilator",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Predator Destructor",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Razorback",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+ (4+)",
+   "armas": [
+    {
+     "nombre": "0–1× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "0–1× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una unidad de infantería (excepto Exterminadores) sin Retrorreactores ni Montado. Armado con un Cañón láser doble o un Bólter pesado doble. Los Razorbacks armados con un Bólter pesado doble aumentan su tiroteo a 4+."
+  },
+  {
+   "nombre": "Rhino",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólter de asalto",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Transporte. Puede transportar dos unidades de infantería (excepto Exterminadores) sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Siege Dreadnought",
+   "nombreEs": "Dreadnought de Asedio",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Tormenta de Llamas",
+     "alcance": "15cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "y Cañón Tormenta de Llamas",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, IC"
+    },
+    {
+     "nombre": "Lanzallamas pesado",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y Lanzallamas pesado",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, IC"
+    },
+    {
+     "nombre": "Taladro de asedio",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Bípode. Cuenta como una unidad de Dreadnought a efectos de transporte."
+  },
+  {
+   "nombre": "Vindicator",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    }
+   ],
+   "notas": "Bípode."
+  },
+  {
+   "nombre": "Whirlwind",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles Whirlwind",
+     "alcance": "45cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Bastion",
+   "nombreEs": "Bastión",
+   "tipo": "MG",
+   "velocidad": "Inmóvil",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Thunderfire",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, D"
+    },
+    {
+     "nombre": "o",
+     "alcance": "60cm",
+     "potencia": "2× AP4+/AT6+, IC"
+    },
+    {
+     "nombre": "Lanzador Hyperios dobles",
+     "alcance": "45cm",
+     "potencia": "AT5+/AA4+"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar ocho unidades de infantería o Dreadnoughts; los Exterminadores y los Dreadnoughts cuentan como dos unidades cada uno. Las unidades transportadas no tienen que desembarcar para disparar o usar su tiroteo si esta unidad puede disparar, asaltar o prestar apoyo. La unidad cuenta como escombros una vez destruida. Efecto de Impacto Crítico: la unidad sufre un punto de daño adicional."
+  },
+  {
+   "nombre": "Fellblade",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón Acelerador",
+     "alcance": "75cm",
+     "potencia": "MA3+"
+    },
+    {
+     "nombre": "Cañón láser cuádruple",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, Izq."
+    },
+    {
+     "nombre": "Cañón láser cuádruple",
+     "alcance": "45cm",
+     "potencia": "2× AT4+, Der."
+    },
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 4, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Reaver Class Titan",
+   "nombreEs": "Titán clase Reaver",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Destructor turboláser",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, Fro"
+    },
+    {
+     "nombre": "Lanzacohetes",
+     "alcance": "60cm",
+     "potencia": "3PA, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Warlord Class Titan",
+   "nombreEs": "Titán clase Warlord",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Misil Deathstrike",
+     "alcance": "Unlimited",
+     "potencia": "MA2+, Ind, DU, MT(D6)"
+    },
+    {
+     "nombre": "Bláster Gatling",
+     "alcance": "60cm",
+     "potencia": "4× AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "Lanzacohetes",
+     "alcance": "60cm",
+     "potencia": "3PA, FxF"
+    },
+    {
+     "nombre": "Puño de combate de Titán",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Storm Talon Gunship",
+   "nombreEs": "Cañonera Storm Talon",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "5+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Cañón de asalto doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+/AA5+, Fro"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderhawk Saturation Bomber",
+   "nombreEs": "Bombardero de Saturación Thunderhawk",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Izq."
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Der."
+    },
+    {
+     "nombre": "Bombas",
+     "alcance": "15cm",
+     "potencia": "2PA, FxF, IC"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida."
   }
  ]
 }

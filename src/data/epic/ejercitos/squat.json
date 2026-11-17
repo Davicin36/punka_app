@@ -10,15 +10,15 @@
    "nombre": "Squat Individuals",
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
-   "nombreEs": "Individuos squat",
-   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "brotherhoods",
    "nombre": "Brotherhoods",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Hermandades"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "support-formations",
@@ -29,16 +29,16 @@
     "cantidad": 2,
     "base": "brotherhood"
    },
-   "nombreEs": "Formaciones de apoyo",
-   "notaEs": "Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera."
+   "notaEs": "Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "war-engines",
    "nombre": "War Engines",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Máquinas de guerra",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Lista de ejército"
   }
  ],
  "formaciones": [
@@ -61,7 +61,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "nombreEs": "Ancestro viviente",
+   "nombreEs": "Ancestro Viviente",
    "unidadesEs": "Añade un personaje Living Ancestor a un Warlord o a una unidad de una formación de War Engine."
   },
   {
@@ -109,7 +109,7 @@
     }
    ],
    "nombreEs": "Berserkers",
-   "unidadesEs": "Un Hearthguard y cinco Berserkers"
+   "unidadesEs": "Una Guardia del Hogar y cinco Berserkers"
   },
   {
    "id": "brotherhoods-thunderer",
@@ -167,8 +167,8 @@
      "textoEs": "Añade como máximo un Hearthguard por +50 puntos"
     }
    ],
-   "nombreEs": "Atronadores",
-   "unidadesEs": "Cinco Thunderers"
+   "nombreEs": "Tronadores",
+   "unidadesEs": "Cinco Tronadores"
   },
   {
    "id": "brotherhoods-warrior",
@@ -227,7 +227,7 @@
     }
    ],
    "nombreEs": "Guerreros",
-   "unidadesEs": "Un Hearthguard y nueve Warriors"
+   "unidadesEs": "Una Guardia del Hogar y nueve Guerreros"
   },
   {
    "id": "support-formations-air-attack-corps",
@@ -250,7 +250,7 @@
      "coste": 650
     }
    ],
-   "nombreEs": "Cuerpo de ataque aéreo",
+   "nombreEs": "Cuerpo de Ataque Aéreo",
    "unidadesEs": "Un Overlord"
   },
   {
@@ -280,11 +280,11 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Mole Mortar, Tarantula, Thudd Gun"
+     "textoEs": "+25 c/u: Mortero Topo, Tarántula, Thudd Gun"
     }
    ],
-   "nombreEs": "Batería de artillería",
-   "unidadesEs": "Cinco cualesquiera de estas unidades: Mole Mortar, Tarantula, Thudd Gun"
+   "nombreEs": "Batería de Artillería",
+   "unidadesEs": "Cinco cualesquiera de: Mortero Topo, Tarántula, Thudd Gun"
   },
   {
    "id": "support-formations-guild-robot-squadron",
@@ -293,8 +293,8 @@
    "unidades": "Any five of the following units: Colossus Class Robot, Conqueror Class Robot",
    "coste": 200,
    "costeTexto": "Pequeña (S) 200",
-   "nombreEs": "Escuadrón de robots del Gremio",
-   "unidadesEs": "Cinco cualesquiera de estas unidades: Colossus Class Robot, Conqueror Class Robot"
+   "nombreEs": "Escuadrón de Robots del Gremio",
+   "unidadesEs": "Cinco cualesquiera de: Robot clase Colossus, Robot clase Conqueror"
   },
   {
    "id": "support-formations-guild-squadron",
@@ -323,18 +323,18 @@
      "coste": 20,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Guild Bikers por +20 puntos cada uno"
+     "textoEs": "+20 c/u: Motoristas del Gremio"
     },
     {
      "texto": "Replace any number of Guild Bikers with an equal number of Guild Trikes for +5 points each",
      "coste": 5,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Guild Bikers por el mismo número de Guild Trikes por +5 puntos cada uno"
+     "textoEs": "Sustituye cualquier número de Motoristas por el mismo número de Triciclos del Gremio por +5 c/u"
     }
    ],
    "nombreEs": "Escuadrón del Gremio",
-   "unidadesEs": "Un Guildmaster y cinco Guild Bikers"
+   "unidadesEs": "Un Maestro del Gremio y cinco Motoristas del Gremio"
   },
   {
    "id": "support-formations-gyrocopter-wing",
@@ -363,11 +363,11 @@
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +50 puntos cada una: Iron Eagle, Steel Hawk, War Hawk"
+     "textoEs": "+50 c/u: Águila de Hierro, Halcón de Acero, Halcón de Guerra"
     }
    ],
-   "nombreEs": "Ala de girocópteros",
-   "unidadesEs": "Tres cualesquiera de estas unidades: Iron Eagle, Steel Hawk, War Hawk"
+   "nombreEs": "Ala de Girocópteros",
+   "unidadesEs": "Tres cualesquiera de: Águila de Hierro, Halcón de Acero, Halcón de Guerra"
   },
   {
    "id": "support-formations-super-heavy-artillery-battery",
@@ -390,7 +390,7 @@
      "coste": 400
     }
    ],
-   "nombreEs": "Batería de artillería superpesada",
+   "nombreEs": "Batería de Artillería Superpesada",
    "unidadesEs": "Un Goliath"
   },
   {
@@ -404,7 +404,7 @@
     {
      "texto": "Add up to one Thunderfire for +25 points",
      "coste": 25,
-     "textoEs": "Añade como máximo un Thunderfire por +25 puntos"
+     "textoEs": "Hasta un Thunderfire por +25"
     }
    ],
    "nombreEs": "Batería Thunderfire",
@@ -417,7 +417,7 @@
    "unidades": "One Colossus and one Recon Iron Eagle",
    "coste": 600,
    "costeTexto": "Pequeña (S) 600",
-   "unidadesEs": "Un Colossus y un Recon Iron Eagle"
+   "unidadesEs": "Un Colossus y un Águila de Hierro de Reconocimiento"
   },
   {
    "id": "war-engines-cyclops",
@@ -426,7 +426,8 @@
    "unidades": "One Cyclops",
    "coste": 600,
    "costeTexto": "Pequeña (S) 600",
-   "unidadesEs": "Un Cyclops"
+   "unidadesEs": "Un Cyclops",
+   "nombreEs": "Cíclope"
   },
   {
    "id": "war-engines-land-train",
@@ -441,18 +442,18 @@
      "coste": 50,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres personajes Berserker Battlecar por +50 puntos cada uno."
+     "textoEs": "Hasta tres personajes Carro de Batalla Berserker por +50 c/u"
     },
     {
      "texto": "Replace between one and four Berserker Battlecar characters with any of the following characters: Dragon, Skyhammer or Mortar Battlecar for +25 points Iron Eagle Battlecar (and one Recon Iron Eagle), or Fire Shield for +50 points Bomb Battlecar for +75 points",
      "coste": 25,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Sustituye entre uno y cuatro personajes Berserker Battlecar por cualquiera de estos: Dragon, Skyhammer o Mortar Battlecar por +25 puntos; Iron Eagle Battlecar (y un Recon Iron Eagle) o Fire Shield por +50 puntos; Bomb Battlecar por +75 puntos"
+     "textoEs": "Sustituye entre uno y cuatro Carros de Batalla Berserker por cualquiera de: Carro Dragón, Skyhammer o Mortero (+25); Carro Águila de Hierro (y un Águila de Hierro de Reconocimiento) o Escudo de Fuego (+50); Carro Bomba (+75)"
     }
    ],
-   "nombreEs": "Tren terrestre",
-   "unidadesEs": "Un Land Train con un personaje Berserker Battlecar"
+   "nombreEs": "Tren Terrestre",
+   "unidadesEs": "Un Tren Terrestre con un personaje Carro de Batalla Berserker"
   },
   {
    "id": "war-engines-leviathan",
@@ -461,26 +462,34 @@
    "unidades": "One Leviathan",
    "coste": 400,
    "costeTexto": "Pequeña (S) 400",
-   "unidadesEs": "Un Leviathan"
+   "unidadesEs": "Un Leviatán",
+   "nombreEs": "Leviatán"
   }
  ],
  "mejoras": [],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Squats",
- "iniciativaEs": "Todas las formaciones tienen iniciativa 2+, pero pueden recibir un modificador a sus chequeos de reagrupamiento (ver Iron Willed).",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+, pero pueden recibir un modificador en sus tiradas de reorganización (véase Voluntad de Hierro).",
  "reglas": [
   {
    "id": "6.36",
    "titulo": "Lista de ejército squat de la Fortaleza de Grindel",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.36.",
-    "Uso de la lista de ejército: Las formaciones squats de la Fortaleza de Grindel son de tres tipos: hermandades, formaciones de apoyo e ingenios de guerra. Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo. Aunque solo puedes llevar una formación de apoyo si antes llevas una hermandad, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Puedes llevar cualquier número de formaciones de ingenios de guerra siempre que no gastes en ellas más de un tercio de los puntos disponibles. Por último, los Individuos Squats son personajes especiales que solo pueden adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas».",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.36.",
+    "Uso de la lista de ejército: Las formaciones squats de la Fortaleza de Grindel son de tres tipos: hermandades, formaciones de apoyo e Máquinas de Guerra. Cada hermandad que incluyas en el ejército te permite desplegar dos formaciones de apoyo. Aunque solo puedes llevar una formación de apoyo si antes llevas una hermandad, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Puedes llevar cualquier número de formaciones de Máquinas de Guerra siempre que no gastes en ellas más de un tercio de los puntos disponibles. Por último, los Individuos Squats son personajes especiales que solo pueden adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista».",
     "• Tipo: El nombre de la formación.",
     "• Unidades principales: Las unidades que componen la formación. Pueden duplicarse o triplicarse. Una formación con el número normal de unidades principales se denomina pequeña (S); con el doble, mediana (M); y con el triple, grande (L).",
     "• Coste: Los costes figuran bajo S, M y L (pequeña, mediana o grande, respectivamente).",
     "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse o sustituirse, se duplica en las formaciones medianas y se triplica en las grandes.",
-    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta."
+    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta.",
+    "FACTOR DE E STRATEGIA: 2",
+    "I N I C I AT I VA",
+    "Todas las formaciones tienen un valor de iniciativa de 2+, pero pueden recibir un modificador en sus tiradas de reorganización (véase Voluntad de Hierro).",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Gran Señor de la Guerra (+50): se añade a un Señor de la Guerra, a un Maestro del Gremio o a una unidad de una formación de Máquina de Guerra.",
+    "• 0–1 Ancestro Viviente (+50): se añade a un Señor de la Guerra o a una unidad de una formación de Máquina de Guerra.",
+    "• Cada hermandad permite dos formaciones de apoyo; puede gastarse hasta un tercio de los puntos en Máquinas de Guerra."
    ]
   },
   {
@@ -520,6 +529,790 @@
     "Un Observador permite a las armas Dirigidas (véase 5.36.1) de las unidades de su formación disparar a las unidades enemigas hacia las que él tenga línea de fuego.",
     "✠"
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Grand Warlord",
+   "nombreEs": "Gran Señor de la Guerra",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Living Ancestor",
+   "nombreEs": "Ancestro Viviente",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Inspirador. La formación que incluye al Ancestro Viviente puede ignorar la penalización de -1 al chequeo de acción cuando intenta retener la iniciativa. Si se añade a una unidad de infantería, el Ancestro Viviente tiene además Salvación Invulnerable."
+  },
+  {
+   "nombre": "Berserkers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Pistolas bólter",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Infiltrador."
+  },
+  {
+   "nombre": "Guild Bikers",
+   "nombreEs": "Motoristas del Gremio",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Montado."
+  },
+  {
+   "nombre": "Hearthguard",
+   "nombreEs": "Guardia del Hogar",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Armas heredadas",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Inspirador, Líder."
+  },
+  {
+   "nombre": "Mole Mortar",
+   "nombreEs": "Mortero Topo",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Mortero Topo",
+     "alcance": "30cm",
+     "potencia": "1PA, IC, Ind"
+    }
+   ],
+   "notas": "Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": "Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Tarantula",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Thudd Gun",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Thudd Gun",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT6+, Ind"
+    }
+   ],
+   "notas": "Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Thunderers",
+   "nombreEs": "Tronadores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Warlord",
+   "nombreEs": "Kaudillo",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólters",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Inspirador, Líder, Blindaje Reforzado, Blindaje adicional posterior. Cuenta como dos unidades a efectos de transporte."
+  },
+  {
+   "nombre": "Warriors",
+   "nombreEs": "Guerreros",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Una de cada dos unidades tiene un Lanzamisiles."
+  },
+  {
+   "nombre": "Guild Trike",
+   "nombreEs": "Triciclo del Gremio",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Guildmaster",
+   "nombreEs": "Maestro del Gremio",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólters",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Lanza de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, DP, MA"
+    }
+   ],
+   "notas": "Comandante, Líder."
+  },
+  {
+   "nombre": "Colossus Class Robot",
+   "nombreEs": "Robot clase Colossus",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    },
+    {
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Bípode."
+  },
+  {
+   "nombre": "Conqueror Class Robot",
+   "nombreEs": "Robot clase Conqueror",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Bípode."
+  },
+  {
+   "nombre": "Iron Eagle",
+   "nombreEs": "Águila de Hierro",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla corto",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Autocañón de fuego rápido",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Recon Iron Eagle",
+   "nombreEs": "Águila de Hierro de Reconocimiento",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla corto",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Autocañón de fuego rápido",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+"
+    }
+   ],
+   "notas": "Explorador, Observador, Nave de Apoyo."
+  },
+  {
+   "nombre": "Rhino",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólter de asalto",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Transporte. Puede transportar dos unidades de infantería (excepto Exterminadores) sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Steel Hawk",
+   "nombreEs": "Halcón de Acero",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cohetes Battlehammer",
+     "alcance": "15cm",
+     "potencia": "1PA"
+    },
+    {
+     "nombre": "Multifusión doble",
+     "alcance": "15cm",
+     "potencia": "MA4+"
+    },
+    {
+     "nombre": "y Multifusión doble",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Termite",
+   "nombreEs": "Termita",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Transporte, Tunelador. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Thunderfire",
+   "tipo": "VB",
+   "velocidad": "Inmóvil",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla doble",
+     "alcance": "75cm",
+     "potencia": "AP3+/AT3+"
+    },
+    {
+     "nombre": "Thunderfire",
+     "alcance": "60cm",
+     "potencia": "AA4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "War Hawk",
+   "nombreEs": "Halcón de Guerra",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Misiles Yunque del Destino",
+     "alcance": "45cm",
+     "potencia": "AT3+, MA"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Colossus",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón del Juicio Final",
+     "alcance": "90cm",
+     "potencia": "3PA, FxF, Dir, MA"
+    },
+    {
+     "nombre": "4× Cañón de batalla de fue ‐",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "go rápido",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, FxF, IC"
+    },
+    {
+     "nombre": "Tronador 4× Misil de plasma",
+     "alcance": "45cm",
+     "potencia": "2PA, Fro, Ind, DU"
+    }
+   ],
+   "notas": "Factor de Daños 5, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío. Efecto de Impacto Crítico: la unidad sufre un punto de daño adicional y queda inmovilizada. Los daños críticos posteriores destruyen la unidad y todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 4+."
+  },
+  {
+   "nombre": "Cyclops",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Hellfury",
+     "alcance": "90cm",
+     "potencia": "MA2+, FxF, MT(D6+1)"
+    },
+    {
+     "nombre": "Cañón de batalla de fuego",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+"
+    },
+    {
+     "nombre": "rápido",
+     "alcance": "30cm",
+     "potencia": "MA2+, FxF, MT(D3)"
+    },
+    {
+     "nombre": "Cañón de fusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MT(D6)"
+    },
+    {
+     "nombre": "y 6× Misil Tormenta del Des tino",
+     "alcance": "45cm",
+     "potencia": "1PA, Fro, Ind, DU"
+    }
+   ],
+   "notas": "Factor de Daños 5, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 5 Pantallas de Vacío. Efecto de Impacto Crítico: la unidad sufre un punto de daño adicional y sufrirá otro punto de daño adicional cada vez que falle el Cañón Hellfury. Los daños críticos posteriores destruyen la unidad y todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 4+."
+  },
+  {
+   "nombre": "Goliath",
+   "tipo": "MG",
+   "velocidad": "5cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Megacañón",
+     "alcance": "150cm",
+     "potencia": "3PA, IC, Ind"
+    }
+   ],
+   "notas": "Factor de Daños 2. Esta unidad debe disparar indirectamente o no disparar. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 4+."
+  },
+  {
+   "nombre": "Land Train",
+   "nombreEs": "Tren Terrestre",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón del Juicio Final",
+     "alcance": "90cm",
+     "potencia": "3PA, FxF, Dir, MA"
+    },
+    {
+     "nombre": "Cañón de batalla de fuego",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+"
+    },
+    {
+     "nombre": "rápido Cañón de batalla de fuego rápido",
+     "alcance": "75cm",
+     "potencia": "2× AP4+/AT4+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 2, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 2 Pantallas de Vacío. Los personajes añadidos a esta unidad suman su factor de daños y sus pantallas de vacío a los valores iniciales respectivos de la unidad. Efecto de Impacto Crítico: elige al azar un personaje añadido a esta unidad y retíralo, reduciendo en consecuencia el factor de daños y las pantallas de vacío iniciales de la unidad. La unidad queda inmovilizada durante su siguiente activación o retirada. Si la unidad no tiene personajes añadidos, queda destruida."
+  },
+  {
+   "nombre": "Leviathan",
+   "nombreEs": "Leviatán",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón del Juicio Final",
+     "alcance": "90cm",
+     "potencia": "3PA, FxF, Dir, MA"
+    },
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "3× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+, Izq."
+    },
+    {
+     "nombre": "3× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+, Der."
+    }
+   ],
+   "notas": "Factor de Daños 5, Coraje, Blindaje Reforzado, Transporte, Blindaje adicional posterior, 4 Pantallas de Vacío. Puede transportar veinticuatro unidades de infantería sin Retrorreactores ni Montado. Efecto de Impacto Crítico: la unidad sufre un punto de daño y D3 unidades transportadas, a elección del jugador, quedan destruidas. Los daños críticos posteriores destruyen la unidad y todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 4+."
+  },
+  {
+   "nombre": "Mole",
+   "nombreEs": "Topo",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Factor de Daños 2, Transporte, Tunelador. Efecto de Impacto Crítico: destruida. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Overlord",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Izq."
+    },
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Der."
+    },
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, Pos"
+    },
+    {
+     "nombre": "2× Autocañón doble",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "Bombas de fusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Factor de Daños 3, Salvación Invulnerable, Blindaje Reforzado, Nave de Apoyo. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 5+."
+  },
+  {
+   "nombre": "Berserker Battlecar",
+   "nombreEs": "Carro de Batalla Berserker",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón de fuego rápido",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 1, Transporte, 1 Escudo de Vacío. Puede transportar seis unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Bomb Battlecar",
+   "nombreEs": "Carro de Batalla Bombardero",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bomba radiactiva",
+     "alcance": "Unlimited",
+     "potencia": "6PA, Ind, MA, DU"
+    }
+   ],
+   "notas": "Factor de Daños 1, 1 Escudo de Vacío."
+  },
+  {
+   "nombre": "Dragon Battlecar",
+   "nombreEs": "Carro de Batalla Dragón",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Lanzallamas",
+     "alcance": "30cm",
+     "potencia": "4× AP4+/AT5+, Fro, IC"
+    }
+   ],
+   "notas": "Factor de Daños 1, 1 Escudo de Vacío."
+  },
+  {
+   "nombre": "Fire Shield Battlecar",
+   "nombreEs": "Carro de Batalla Escudo de Fuego",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón de fuego rápido",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT6+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 1, 3 Pantallas de Vacío. La unidad puede reparar una pantalla de vacío adicional en la fase de finalización de cada turno."
+  },
+  {
+   "nombre": "Iron Eagle Battlecar",
+   "nombreEs": "Carro de Batalla Águila de Hierro",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Factor de Daños 1, 1 Escudo de Vacío."
+  },
+  {
+   "nombre": "Motar Battlecar",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Mortero de asedio",
+     "alcance": "45cm",
+     "potencia": "1PA, Ind, MA"
+    }
+   ],
+   "notas": "Factor de Daños 1, 1 Escudo de Vacío."
+  },
+  {
+   "nombre": "Skyhammer Battlecar",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Misiles antiaéreos",
+     "alcance": "45cm",
+     "potencia": "2× AA4+"
+    }
+   ],
+   "notas": "Factor de Daños 1, 1 Escudo de Vacío."
   }
  ]
 }

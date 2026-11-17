@@ -10,7 +10,7 @@
    "nombre": "Death Korps Of Krieg Companies",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Compañías del Cuerpo de la Muerte de Krieg"
+   "nombreEs": "Formaciones de apoyo de la Legión Acorazada de Minerva"
   },
   {
    "id": "death-korps-of-krieg-company-upgrades",
@@ -19,8 +19,8 @@
    "nota": "Up to three company upgrades may be taken once per company.",
    "maxPorFormacion": 3,
    "unaVez": true,
-   "nombreEs": "Mejoras de compañía del Cuerpo de la Muerte de Krieg",
-   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía.",
+   "nombreEs": "Mejoras de compañía del Cuerpo de la Muerte de Krieg"
   },
   {
    "id": "death-korps-of-krieg-support-formations",
@@ -31,8 +31,8 @@
     "cantidad": 2,
     "base": "company"
    },
-   "nombreEs": "Formaciones de apoyo del Cuerpo de la Muerte de Krieg",
-   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía.",
+   "nombreEs": "Formaciones de apoyo de la Legión Acorazada de Minerva"
   },
   {
    "id": "leman-russ-variants",
@@ -50,8 +50,8 @@
     "cantidad": 1,
     "base": "Regimental HQ"
    },
-   "nombreEs": "Posiciones fortificadas del Cuerpo de la Muerte de Krieg",
-   "notaEs": "Se puede desplegar una por cada Regimental HQ o Infantry Company."
+   "notaEs": "Se puede desplegar una por cada Regimental HQ o Infantry Company.",
+   "nombreEs": "Formaciones de apoyo de la Legión Acorazada de Minerva"
   },
   {
    "id": "imperial-navy-aircraft",
@@ -65,7 +65,7 @@
    "nombre": "Titan Legion Battlegroups",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+   "nombreEs": "Grupos de batalla de la Legión de Titanes"
   }
  ],
  "formaciones": [
@@ -77,8 +77,8 @@
    "coste": 250,
    "costeTexto": "250 points",
    "max": 1,
-   "nombreEs": "Compañía de Death Riders por cada 1500 puntos",
-   "unidadesEs": "Doce Death Riders"
+   "nombreEs": "Compañía de Jinetes de la Muerte por cada 1500 puntos",
+   "unidadesEs": "Doce Jinetes de la Muerte"
   },
   {
    "id": "death-korps-of-krieg-companies-infantry-company",
@@ -87,8 +87,8 @@
    "unidades": "One Commander unit and nineteen Infantry units",
    "coste": 300,
    "costeTexto": "300 points",
-   "nombreEs": "Compañía de infantería",
-   "unidadesEs": "Una unidad de Commander y diecinueve de infantería"
+   "nombreEs": "Compañía de Infantería",
+   "unidadesEs": "Una unidad de Comandante y diecinueve unidades de Infantería"
   },
   {
    "id": "death-korps-of-krieg-companies-regimental-hq",
@@ -98,8 +98,8 @@
    "coste": 400,
    "costeTexto": "400 points",
    "max": 1,
-   "nombreEs": "Cuartel general regimental",
-   "unidadesEs": "Una unidad de Supreme Commander y diecinueve de infantería"
+   "nombreEs": "Cuartel General Regimental",
+   "unidadesEs": "Una unidad de Comandante en jefe y diecinueve unidades de Infantería"
   },
   {
    "id": "death-korps-of-krieg-support-formations-artillery-support-company",
@@ -108,8 +108,8 @@
    "unidades": "Nine Earthshaker Platforms and nine of the following: Gun Emplacements, Trojans",
    "coste": 600,
    "costeTexto": "600 points",
-   "nombreEs": "Compañía de apoyo de artillería",
-   "unidadesEs": "Nueve Earthshaker Platforms y nueve de estas: Gun Emplacements, Trojans"
+   "nombreEs": "Compañía de Apoyo de Artillería",
+   "unidadesEs": "Nueve Plataformas Earthshaker y nueve cualesquiera de: Emplazamientos de Armas, Trojans"
   },
   {
    "id": "death-korps-of-krieg-support-formations-deathstrike-silo",
@@ -120,7 +120,7 @@
    "costeTexto": "250 points",
    "max": 1,
    "nombreEs": "Silo Deathstrike",
-   "unidadesEs": "Un Deathstrike Silo"
+   "unidadesEs": "Un Silo Deathstrike"
   },
   {
    "id": "death-korps-of-krieg-support-formations-death-rider-scout-platoon",
@@ -129,8 +129,8 @@
    "unidades": "Six Death Riders Note: All units in the formation have Scout",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón explorador de Death Riders",
-   "unidadesEs": "Seis Death Riders. Nota: todas las unidades de la formación tienen Scout"
+   "nombreEs": "Pelotón de Exploradores Jinetes de la Muerte",
+   "unidadesEs": "Seis Jinetes de la Muerte. Nota: todas las unidades de la formación tienen Explorador"
   },
   {
    "id": "death-korps-of-krieg-support-formations-engineers-platoon",
@@ -139,8 +139,8 @@
    "unidades": "Eight Engineers and a Hades Breaching Drill",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Pelotón de ingenieros",
-   "unidadesEs": "Ocho Engineers y un Hades Breaching Drill"
+   "nombreEs": "Pelotón de Ingenieros",
+   "unidadesEs": "Ocho Ingenieros y una Taladro de Brecha Hades"
   },
   {
    "id": "death-korps-of-krieg-support-formations-grenadiers-platoon",
@@ -156,8 +156,8 @@
      "textoEs": "Añade un Gorgon u ocho Centaurs"
     }
    ],
-   "nombreEs": "Pelotón de granaderos",
-   "unidadesEs": "Ocho Grenadiers (añade un Gorgon u ocho Centaurs). Nota: al añadir un Gorgon, todas las unidades de la formación pierden Scout"
+   "nombreEs": "Pelotón de Granaderos",
+   "unidadesEs": "Ocho Granaderos (añadir un Gorgon u ocho Centaurs: +75 puntos). Nota: si se añade un Gorgon, todas las unidades de la formación pierden Explorador"
   },
   {
    "id": "death-korps-of-krieg-support-formations-heavy-support-battery",
@@ -187,8 +187,8 @@
      "textoEs": "Sustituye tres Gun Emplacements por tres Trojans"
     }
    ],
-   "nombreEs": "Batería de apoyo pesado",
-   "unidadesEs": "Tres Gun Emplacements y una de estas opciones: tres cualesquiera de Heavy AA Platform o Hydra Platform; tres Earthshaker Platforms; tres Medusa Platforms (sustituye tres Gun Emplacements por tres Trojans)"
+   "nombreEs": "Batería de Apoyo Pesado",
+   "unidadesEs": "Tres Emplazamientos de Armas y una opción: tres cualesquiera de Plataforma AA Pesada / Plataforma Hydra (+125); tres Plataformas Earthshaker (+200); tres Plataformas Medusa (+275). Sustituir los tres Emplazamientos por tres Trojans: +25"
   },
   {
    "id": "death-korps-of-krieg-support-formations-heavy-tank-platoon",
@@ -197,8 +197,8 @@
    "unidades": "One Macharius Command and two Macharius",
    "coste": 325,
    "costeTexto": "325 points",
-   "nombreEs": "Pelotón de tanques pesados",
-   "unidadesEs": "Un Macharius Command y dos Macharius"
+   "nombreEs": "Pelotón de Tanques Pesados",
+   "unidadesEs": "Un Macharius de Mando y dos Macharius"
   },
   {
    "id": "death-korps-of-krieg-support-formations-light-support-battery",
@@ -207,8 +207,8 @@
    "unidades": "Four Heavy Mortars or Quad Launchers, and either four Centaurs or 20cm of Trenches",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Batería de apoyo ligero",
-   "unidadesEs": "Cuatro Heavy Mortars o Quad Launchers, y además cuatro Centaurs o 20 cm de trincheras"
+   "nombreEs": "Batería de Apoyo Ligero",
+   "unidadesEs": "Cuatro Morteros Pesados o Lanzadores Cuádruples, y cuatro Centaurs o 20 cm de trincheras"
   },
   {
    "id": "death-korps-of-krieg-support-formations-self-propelled-heavy-support",
@@ -217,7 +217,7 @@
    "unidades": "Three Bombards",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Apoyo pesado autopropulsado",
+   "nombreEs": "Apoyo Pesado Autopropulsado",
    "unidadesEs": "Tres Bombards"
   },
   {
@@ -227,7 +227,7 @@
    "unidades": "One Baneblade, Shadowsword, Stormblade or Stormsword",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Pelotón de tanques superpesados",
+   "nombreEs": "Pelotón de Tanques Superpesados",
    "unidadesEs": "Un Baneblade, Shadowsword, Stormblade o Stormsword"
   },
   {
@@ -237,8 +237,8 @@
    "unidades": "Any three of the following units: Baneblade, Shadowsword, Stormblade, Stormsword",
    "coste": 500,
    "costeTexto": "500 points",
-   "nombreEs": "Compañía de apoyo de tanques superpesados",
-   "unidadesEs": "Tres cualesquiera de estas unidades: Baneblade, Shadowsword, Stormblade, Stormsword"
+   "nombreEs": "Compañía de Apoyo de Tanques Superpesados",
+   "unidadesEs": "Tres cualesquiera de: Baneblade, Shadowsword, Stormblade, Stormsword"
   },
   {
    "id": "death-korps-of-krieg-support-formations-tank-platoon",
@@ -247,8 +247,8 @@
    "unidades": "Add any six Leman Russ variants, up to one of which may be a Leman Russ Vanquisher",
    "coste": 280,
    "costeTexto": "280 points",
-   "nombreEs": "Pelotón de tanques",
-   "unidadesEs": "Añade seis variantes de Leman Russ cualesquiera, de las que como máximo una puede ser un Leman Russ Vanquisher"
+   "nombreEs": "Pelotón de Tanques",
+   "unidadesEs": "Seis variantes de Leman Russ cualesquiera, de las que hasta una puede ser un Leman Russ Vanquisher"
   },
   {
    "id": "death-korps-of-krieg-fortified-positions-trenchworks",
@@ -257,7 +257,7 @@
    "unidades": "Four Bunkers and 80cm of Trenches",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Trincheras",
+   "nombreEs": "Red de Trincheras",
    "unidadesEs": "Cuatro Bunkers y 80 cm de trincheras"
   },
   {
@@ -267,8 +267,8 @@
    "unidades": "One Marauder Heavy Bomber",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Marauder pesado",
-   "unidadesEs": "Un Marauder Heavy Bomber"
+   "nombreEs": "Marauder Pesado",
+   "unidadesEs": "Un Bombardero Pesado Marauder"
   },
   {
    "id": "imperial-navy-aircraft-thunderbolt-squadron",
@@ -277,8 +277,8 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   },
   {
    "id": "titan-legion-battlegroups-reaver",
@@ -287,7 +287,7 @@
    "unidades": "One Reaver Class Titan",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "titan-legion-battlegroups-warhound-pack",
@@ -296,8 +296,8 @@
    "unidades": "Two Warhound Class Titans",
    "coste": 500,
    "costeTexto": "500 points",
-   "nombreEs": "Manada de Warhounds",
-   "unidadesEs": "Dos Warhound Class Titans"
+   "nombreEs": "Manada Warhound",
+   "unidadesEs": "Dos Titanes clase Warhound"
   },
   {
    "id": "titan-legion-battlegroups-warlord",
@@ -306,7 +306,7 @@
    "unidades": "One Warlord Class Titan",
    "coste": 825,
    "costeTexto": "825 points",
-   "unidadesEs": "Un Warlord Class Titan"
+   "unidadesEs": "Un Titán clase Warlord"
   }
  ],
  "mejoras": [
@@ -317,8 +317,8 @@
    "texto": "Add four Fire Support units",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Batería de apoyo de fuego",
-   "textoEs": "Añade cuatro unidades de Fire Support"
+   "nombreEs": "Batería de Apoyo de Fuego",
+   "textoEs": "Añade cuatro unidades de Apoyo de Fuego"
   },
   {
    "id": "gorgon-siege-transporters",
@@ -341,8 +341,8 @@
      "textoEs": "(+25 puntos)"
     }
    ],
-   "nombreEs": "Transportes de asedio Gorgon",
-   "textoEs": "Añade dos Gorgons (no en una Death Rider Company) (añade un personaje Gorgon Mortars a cada Gorgon)"
+   "nombreEs": "Transportes de Asedio Gorgon",
+   "textoEs": "Añade dos Gorgons (no puede añadirse a una Compañía de Jinetes de la Muerte) …añadir un personaje Morteros Gorgon a cada Gorgon"
   },
   {
    "id": "heavy-tank",
@@ -351,7 +351,7 @@
    "texto": "Add one Macharius",
    "coste": 125,
    "costeTexto": "+125 points",
-   "nombreEs": "Tanque pesado",
+   "nombreEs": "Tanque Pesado",
    "textoEs": "Añade un Macharius"
   },
   {
@@ -361,7 +361,7 @@
    "texto": "Add three Hellhounds",
    "coste": 100,
    "costeTexto": "+100 points",
-   "nombreEs": "Escuadrón de Hellhounds",
+   "nombreEs": "Escuadrón Hellhound",
    "textoEs": "Añade tres Hellhounds"
   },
   {
@@ -371,8 +371,8 @@
    "texto": "Add ten Infantry units",
    "coste": 175,
    "costeTexto": "+175 points",
-   "nombreEs": "Pelotón de infantería",
-   "textoEs": "Añade diez unidades de infantería"
+   "nombreEs": "Pelotón de Infantería",
+   "textoEs": "Añade diez unidades de Infantería"
   },
   {
    "id": "tank-squadron",
@@ -381,8 +381,8 @@
    "texto": "Add any three Leman Russ variants, none of which may be a Leman Russ Vanquisher",
    "coste": 140,
    "costeTexto": "+140 points",
-   "nombreEs": "Escuadrón de tanques",
-   "textoEs": "Añade tres variantes de Leman Russ cualesquiera, ninguna de ellas Leman Russ Vanquisher"
+   "nombreEs": "Escuadrón de Tanques",
+   "textoEs": "Añade tres variantes de Leman Russ cualesquiera, ninguna de las cuales puede ser un Leman Russ Vanquisher"
   }
  ],
  "compras": [
@@ -421,18 +421,27 @@
   }
  ],
  "fraccionAliados": 0.3333333333333333,
- "nombreEs": "Guardia Imperial – Cuerpo de la Muerte de Krieg",
- "iniciativaEs": "Las formaciones de grupos de batalla de la Legio Titanicus tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "nombreEs": "Guardia Imperial – Korps de la Muerte de Krieg",
+ "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.16",
    "titulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.16, 5.3 y 5.4.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.16, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio de la Korps de la Muerte de Krieg. Las formaciones de la Korps de la Muerte de Krieg son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Obras de Trincheras. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Puede desplegarse como máximo una Compañía de Jinetes de la Muerte por cada 1.500 puntos completos del ejército.",
-    "Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía.",
-    "Los pelotones y escuadrones de tanques pueden estar compuestos por distintas variantes de Leman Russ. El número de variantes, junto con el número máximo de variantes raras, figura en la columna «unidades». Las variantes se enumeran en las tablas de variantes y variantes raras de Leman Russ. Cada variante adquirida se suma al coste de la formación o mejora. Los ejércitos de la Korps de la Muerte de Krieg pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
-    "Reglas especiales: Las reglas de Comisarios y de Posiciones Fortificadas se aplican a los ejércitos de la Korps de la Muerte de Krieg (véanse 6.4.1 y 6.7.2)."
+    "Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Los pelotones y escuadrones de tanques pueden estar compuestos por distintas variantes de Leman Russ. El número de variantes, junto con el número máximo de variantes raras, figura en la columna «unidades». Las variantes se enumeran en las tablas de variantes y variantes raras de Leman Russ. Cada variante adquirida se suma al coste de la formación o mejora. Los ejércitos de la Korps de la Muerte de Krieg pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Las reglas de Comisarios y de Posiciones Fortificadas se aplican a los ejércitos de la Korps de la Muerte de Krieg (véanse 6.4.1 y 6.7.2).",
+    "FACTOR DE E STRATEGIA: 2",
+    "I N I C I AT I VA",
+    "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Compañía de Jinetes de la Muerte por cada 1500 puntos; 0–1 Cuartel General Regimental; 0–1 Silo Deathstrike.",
+    "• Los Transportes de Asedio Gorgon no pueden añadirse a una Compañía de Jinetes de la Muerte.",
+    "• Pelotón de Exploradores Jinetes de la Muerte: todas las unidades tienen Explorador. Pelotón de Granaderos: si se",
+    "añade un Gorgon, todas las unidades de la formación pierden Explorador.",
+    "• La mejora Escuadrón de Tanques no puede incluir un Leman Russ Vanquisher; el Pelotón de Tanques puede incluir hasta uno.",
+    "• Obras de Trincheras (cuatro Búnkeres y 80 cm de trincheras, +75): una por cada Cuartel General Regimental o Compañía de Infantería."
    ]
   },
   {
@@ -440,13 +449,13 @@
    "titulo": "Posiciones Fortificadas de la Korps",
    "parrafos": [
     "de la Muerte de Krieg",
-    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. Las unidades en un búnker no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento de armas no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por una Máquina de Guerra.",
     "Tabla de efectos de las obras de trincheras Terreno",
     "Infantería",
     "Vehículo",
-    "Ingenio de Guerra",
+    "Máquina de Guerra",
     "Búnker",
     "Salv. cobertura 3+",
     "Peligroso",
@@ -463,23 +472,1781 @@
   },
   {
    "id": "5.4.1",
-   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "titulo": "Pantallas de Vacío Imperiales (Imperial Void Shields)",
    "parrafos": [
-    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
-    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
-    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "Los Titanes imperiales están protegidos por generadores de pantallas de vacío. El número de pantallas de vacío de cada Titán figura en su perfil de atributos. Cada pantalla de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por las pantallas de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran las pantallas de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Las pantallas de vacío derribadas pueden repararse. Cada Titán puede reparar una pantalla de vacío caída en la fase de finalización de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o quitar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, quitar 2 Marcadores de Explosión, o reparar 1 escudo y quitar 1 Marcador).",
     "FAQ",
-    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "P: ¿Detienen las pantallas de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
     "R: No.",
-    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "P: ¿Cuántas pantallas de vacío caen si una Máquina de Guerra es impactada por un arma Matatitanes que causa varios puntos de daño?",
     "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
-    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "P: ¿Puede una formación reagruparse para reparar pantallas de vacío caídas si no tiene Marcadores de Explosión?",
     "R: Sí.",
-    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "P: Si una formación con varias unidades con pantallas de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
     "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
-    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "P: ¿Se tienen en cuenta las pantallas de vacío al determinar cuántos impactos deben asignarse a una Máquina de Guerra?",
     "R: No."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Commissar",
+   "nombreEs": "Comisario",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Inspirador, Líder."
+  },
+  {
+   "nombre": "Gorgon Mortars",
+   "nombreEs": "Morteros Gorgon",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Gorgon Mortars",
+     "alcance": "30cm",
+     "potencia": "2PA, Fro, Ind, DU"
+    }
+   ],
+   "notas": "Sustituye los 2× Bólter pesado doble por Morteros Gorgon y reduce el tiroteo de la unidad a 6+."
+  },
+  {
+   "nombre": "Commander",
+   "nombreEs": "Comandante",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Comandante."
+  },
+  {
+   "nombre": "Death Riders",
+   "nombreEs": "Jinetes de la Muerte",
+   "tipo": "INF",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Pistolas láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Lanzas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, DP"
+    }
+   ],
+   "notas": "Infiltrador, Montado, Bípode."
+  },
+  {
+   "nombre": "Engineers",
+   "nombreEs": "Ingenieros",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lanzador Topo",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Fire Support",
+   "nombreEs": "Apoyo de Fuego",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Grenadiers",
+   "nombreEs": "Granaderos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzallamas pesado",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y Lanzallamas pesado",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, IC"
+    }
+   ],
+   "notas": "Explorador."
+  },
+  {
+   "nombre": "Heavy Mortar",
+   "nombreEs": "Mortero Pesado",
+   "tipo": "INF",
+   "velocidad": "5cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Mortero pesado",
+     "alcance": "30cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Infantry",
+   "nombreEs": "Infantería",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Quad Launcher",
+   "nombreEs": "Lanzador Cuádruple",
+   "tipo": "INF",
+   "velocidad": "5cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Lanzador cuádruple",
+     "alcance": "45cm",
+     "potencia": "2× AP4+, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Supreme Commander",
+   "nombreEs": "Comandante en jefe",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Centaur",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Ametralladora pesada",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una unidad de infantería con Retrorreactores o Montado. Si transporta un Mortero Pesado o un Lanzador Cuádruple, la velocidad de la unidad se reduce a 20 cm."
+  },
+  {
+   "nombre": "Earthshaker Platform",
+   "nombreEs": "Plataforma Earthshaker",
+   "tipo": "VL",
+   "velocidad": "Inmóvil",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Cañón Earthshaker",
+     "alcance": "120cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "o",
+     "alcance": "120cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Heavy AA Platform",
+   "nombreEs": "Plataforma Antiaérea Pesada",
+   "tipo": "VL",
+   "velocidad": "Inmóvil",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Cañón antiaéreo pesado",
+     "alcance": "60cm",
+     "potencia": "AP5+/AT5+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hydra Platform",
+   "nombreEs": "Plataforma Hydra",
+   "tipo": "VL",
+   "velocidad": "Inmóvil",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "2× Autocañón doble Hydra",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Medusa Platform",
+   "nombreEs": "Plataforma Medusa",
+   "tipo": "VL",
+   "velocidad": "Inmóvil",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Cañón de asedio Medusa",
+     "alcance": "60cm",
+     "potencia": "1PA, D, IC, Ind"
+    },
+    {
+     "nombre": "o",
+     "alcance": "30cm",
+     "potencia": "MA4+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Bombard",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Mortero de asedio",
+     "alcance": "45cm",
+     "potencia": "2PA, IC, Ind"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hellhound",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Inferno",
+     "alcance": "30cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Leman Russ",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado."
+  },
+  {
+   "nombre": "Leman Russ Demolisher",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Cañón de plasma",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+, Baj"
+    }
+   ],
+   "notas": "Blindaje Reforzado."
+  },
+  {
+   "nombre": "Leman Russ Vanquisher",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado."
+  },
+  {
+   "nombre": "Thunderer",
+   "nombreEs": "Tronador",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior."
+  },
+  {
+   "nombre": "Trojan",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una de las siguientes unidades: Plataforma Earthshaker, Plataforma Antiaérea Pesada, Plataforma Hydra, Plataforma Medusa."
+  },
+  {
+   "nombre": "Baneblade",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla Baneblade",
+     "alcance": "75cm",
+     "potencia": "2× AP3+/AT3+"
+    },
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: explosión del polvorín; el Baneblade sufre un punto de daño adicional."
+  },
+  {
+   "nombre": "Deathstrike Silo",
+   "nombreEs": "Silo Deathstrike",
+   "tipo": "MG",
+   "velocidad": "Inmóvil",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Misiles Deathstrike",
+     "alcance": "Unlimited",
+     "potencia": "2× MA2+, Ind, DU, MT(D6)"
+    }
+   ],
+   "notas": "Factor de Daños 2. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos sufren un impacto MA4+."
+  },
+  {
+   "nombre": "Gorgon",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Ametralladora pesada",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "doble 2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Factor de Daños 3, Blindaje Reforzado, Transporte, Bípode. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado. Efecto de Impacto Crítico: inmovilizada, y D6 unidades transportadas sufren un impacto. Los daños críticos posteriores destruyen la unidad."
+  },
+  {
+   "nombre": "Macharius",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Macharius Command",
+   "nombreEs": "Macharius de Mando",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× 2× Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "0–1× Megabólter Vulcan",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Armado con un Megabólter Vulcan o dos Vanquisher."
+  },
+  {
+   "nombre": "Shadowsword",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Volcán",
+     "alcance": "90cm",
+     "potencia": "MA2+, MT(D3), FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: estallan las bobinas de energía del cañón Volcán; el Shadowsword queda destruido y toda unidad a 5 cm o menos sufre un impacto con un 6 en 1D6."
+  },
+  {
+   "nombre": "Stormblade",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón bláster de plasma",
+     "alcance": "45cm",
+     "potencia": "3× MA2+, Baj, FxF"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: estallan las bobinas de energía del cañón bláster de plasma; el Stormblade queda destruido y toda unidad a 5 cm o menos sufre un impacto con un 6 en 1D6."
+  },
+  {
+   "nombre": "Stormsword",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de asedio",
+     "alcance": "45cm",
+     "potencia": "3PA, FxF, D, IC"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2× Lanzallamas pesado",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    },
+    {
+     "nombre": "y 2× Lanzallamas pesado",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, IC"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    }
+   ],
+   "notas": "Factor de Daños 3, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Marauder Heavy Bomber",
+   "nombreEs": "Bombardero Pesado Marauder",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Soportes de bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+"
+    }
+   ],
+   "notas": "Factor de Daños 2. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Hades Breaching Drill",
+   "nombreEs": "Taladro de Brecha Hades",
+   "tipo": "Especial",
+   "velocidad": "Inmóvil",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Transporte, Tunelador. Puede llevar 8 unidades de Ingenieros de la Korps de la Muerte. Ten en cuenta que el Taladro de Brecha Hades no es una unidad, así que no se le puede disparar ni asignar impactos. A todos los efectos es simplemente un marcador. No se genera Marcador de Explosión cuando su Taladro de Brecha Hades de origen deja atrás a la formación durante la partida."
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "3+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Soportes de bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Thunderbolt Fighter",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bólters de asalto",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa: no puede usarse en los turnos uno y dos salvo que el escenario indique lo contrario."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Reaver Class Titan",
+   "nombreEs": "Titán clase Reaver",
+   "tipo": "MG",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Destructor turboláser",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, Fro"
+    },
+    {
+     "nombre": "Lanzacohetes",
+     "alcance": "60cm",
+     "potencia": "3PA, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Warhound Class Titan",
+   "nombreEs": "Titán clase Warhound",
+   "tipo": "MG",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón bláster de plasma",
+     "alcance": "45cm",
+     "potencia": "2× MA2+, Fro, Baj"
+    },
+    {
+     "nombre": "Megabólter Vulcan",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+, Fro"
+    }
+   ],
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño y se mueve D6 cm en una dirección aleatoria. Si este movimiento lleva al Titán a terreno infranqueable o contra una unidad sobre la que no puede pasar, se detiene inmediatamente y queda destruido. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
+  },
+  {
+   "nombre": "Warlord Class Titan",
+   "nombreEs": "Titán clase Warlord",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "2+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Volcán",
+     "alcance": "90cm",
+     "potencia": "MA2+, Fro, MT(D3)"
+    },
+    {
+     "nombre": "Bláster Gatling",
+     "alcance": "60cm",
+     "potencia": "4× AP4+/AT4+, Fro"
+    },
+    {
+     "nombre": "2× Destructor turboláser",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Ulani HQ Command Tank",
+   "nombreEs": "Tanque de Mando del CG Ulani",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Arma de afuste",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Blitzkrieg, Blindaje Reforzado, Comandante en jefe."
+  },
+  {
+   "nombre": "Ulani Command Tank",
+   "nombreEs": "Tanque de Mando Ulani",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blitzkrieg, Comandante, Blindaje Reforzado."
+  },
+  {
+   "nombre": "Leman Russ Executioner",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Destructor de plasma",
+     "alcance": "60cm",
+     "potencia": "MA4+, Baj"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado."
+  },
+  {
+   "nombre": "Ulani Leman Russ Conqueror",
+   "nombreEs": "Leman Russ Conqueror Ulani",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Conqueror",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Blitzkrieg, Blindaje Reforzado."
+  },
+  {
+   "nombre": "Leman Russ Tank Destroyer",
+   "nombreEs": "Leman Russ Destructor de Tanques",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "75cm",
+     "potencia": "AT2+, S"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Explorador."
+  },
+  {
+   "nombre": "Tank Rider Infantry",
+   "nombreEs": "Infantería Jinete de Tanque",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autorrifles",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Ametralladora pesada",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Jinetes de Tanque."
+  },
+  {
+   "nombre": "Salamander Scout Tank",
+   "nombreEs": "Tanque Explorador Salamandra",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador."
+  },
+  {
+   "nombre": "Leman Russ Battle Tank",
+   "nombreEs": "Tanque de Batalla Leman Russ",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado."
+  },
+  {
+   "nombre": "Hydra",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Autocañón doble Hydra",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Griffon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Mortero pesado",
+     "alcance": "30cm",
+     "potencia": "1PA, Ind"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Basilisk",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Earthshaker",
+     "alcance": "120cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "o",
+     "alcance": "120cm",
+     "potencia": "1PA, Ind"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Puede disparar normalmente o hacer un disparo de artillería; solo puede usar Fuego Indirecto cuando dispara un disparo de artillería."
+  },
+  {
+   "nombre": "Vanaheim Supreme Commander",
+   "nombreEs": "Comandante en jefe de Vanaheim",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Vanaheim Commander",
+   "nombreEs": "Comandante de Vanaheim",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Espadas sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto"
+    }
+   ],
+   "notas": "Comandante."
+  },
+  {
+   "nombre": "Vanaheim Infantry",
+   "nombreEs": "Infantería de Vanaheim",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Vanaheim Fire Support",
+   "nombreEs": "Apoyo de Fuego de Vanaheim",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Mortar Support",
+   "nombreEs": "Apoyo de Morteros",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Morteros",
+     "alcance": "30cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Light Sentinel",
+   "nombreEs": "Sentinel Ligero",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Bípode."
+  },
+  {
+   "nombre": "Support Sentinel",
+   "nombreEs": "Sentinel de Apoyo",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Explorador, Bípode."
+  },
+  {
+   "nombre": "Vendetta",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "3× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante en jefe de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Francotiradores, Apoyo de Morteros)."
+  },
+  {
+   "nombre": "Snipers",
+   "nombreEs": "Francotiradores",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+, S"
+    }
+   ],
+   "notas": "Explorador."
+  },
+  {
+   "nombre": "Storm Troopers",
+   "nombreEs": "Tropas de Asalto",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Rifles infernales",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Explorador."
+  },
+  {
+   "nombre": "Valkyrie",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2× Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante en jefe de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Apoyo de Morteros, Francotiradores, Sentinel Ligero o Sentinel de Apoyo)."
+  },
+  {
+   "nombre": "Vulture",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Autocañón doble",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "2× Misil Hellstrike",
+     "alcance": "120cm",
+     "potencia": "AT2+, DU"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio."
+  },
+  {
+   "nombre": "Lightning Strike Fighter",
+   "nombreEs": "Caza de Ataque Lightning",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+/AA5+, FxF"
+    },
+    {
+     "nombre": "2× Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Marauder Destroyer",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "3+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañón de asalto doble",
+     "alcance": "15cm",
+     "potencia": "AA4+, Pos"
+    },
+    {
+     "nombre": "3× Autocañón doble",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "2× Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Elysian Supreme Commander",
+   "nombreEs": "Comandante en jefe Elysian",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifle láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante en jefe, Teletransporte."
+  },
+  {
+   "nombre": "Elysian Commander",
+   "nombreEs": "Comandante Elysian",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifle láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Espadas sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto"
+    }
+   ],
+   "notas": "Comandante, Líder, Teletransporte."
+  },
+  {
+   "nombre": "Imperial Commissar",
+   "nombreEs": "Comisario Imperial",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Líder, Coraje, Inspirador."
+  },
+  {
+   "nombre": "Drop Troop Infantry",
+   "nombreEs": "Infantería de Desembarco",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifle láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Teletransporte. Una pistola de plasma por cada dos unidades."
+  },
+  {
+   "nombre": "Hardened Veterans",
+   "nombreEs": "Veteranos Curtidos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Escopetas",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Infiltrador, Francotirador, Teletransporte."
+  },
+  {
+   "nombre": "Elysian Support Squad",
+   "nombreEs": "Escuadra de Apoyo Elysian",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Teletransporte."
+  },
+  {
+   "nombre": "Elysian Mortar Squad",
+   "nombreEs": "Escuadra de Morteros Elysian",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Mortero",
+     "alcance": "30cm",
+     "potencia": "AP5+, Ind"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Teletransporte."
+  },
+  {
+   "nombre": "Drop Sentinel",
+   "nombreEs": "Sentinel de Desembarco",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Bípode, Teletransporte."
+  },
+  {
+   "nombre": "Cyclops",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Carga de demolición",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT4+, DU"
+    }
+   ],
+   "notas": "Infiltrador, Teletransporte. El Cyclops se quita del juego (sin causar Marcador de Explosión) si se usa en un ataque."
+  },
+  {
+   "nombre": "Tauros",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzallamas pesado",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    }
+   ],
+   "notas": "Bípode, Explorador."
+  },
+  {
+   "nombre": "Tauros Venator",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "o Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Bípode, Explorador. Con el láser doble su Fuego de Tiroteo (TT) es 6+."
+  },
+  {
+   "nombre": "Valkyrie / Vendetta",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2× Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    },
+    {
+     "nombre": "o 3× Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Gravitatorio, Explorador, Transporte (puede llevar dos unidades que no sean Sentinel o un Tauros). La Vendetta sustituye el multiláser, los bólteres pesados y las cápsulas de cohetes por 3 láseres dobles."
+  },
+  {
+   "nombre": "Valkyrie Sky Talon",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2× Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    }
+   ],
+   "notas": "Gravitatorio, Transporte (puede llevar dos Sentinels de Desembarco, o un Tauros, o un Tauros Venator)."
+  },
+  {
+   "nombre": "Lightning Fighter",
+   "nombreEs": "Caza Lightning",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón Lightning",
+     "alcance": "30cm",
+     "potencia": "AA5+, FxF"
+    },
+    {
+     "nombre": "Cañones láser de punta de ala",
+     "alcance": "30cm",
+     "potencia": "AT6+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
   }
  ]
 }

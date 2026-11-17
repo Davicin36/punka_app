@@ -10,15 +10,15 @@
    "nombre": "Ork Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones orkas"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "ork-aircraft-and-gargant-formations",
    "nombre": "Ork Aircraft And Gargant Formations",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Formaciones de aeronaves y gargants orkas",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Lista de ejército"
   }
  ],
  "formaciones": [
@@ -51,28 +51,28 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Skorcha, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Skorcha, Warbikes, Warbuggy"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +35 puntos cada una: Deth Kopta, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Deth Kopta, Flakwagon, Gunwagon"
     },
     {
      "texto": "Add up to one Gunfortress for +125 points",
      "coste": 125,
-     "textoEs": "Añade como máximo una Gunfortress por +125 puntos"
+     "textoEs": "Hasta una Fortaleza Kañonera por +125"
     },
     {
      "texto": "Add up to one Oddboy character to a Gunfortress or Gunwagon unit for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo un personaje Oddboy a una unidad de Gunfortress o Gunwagon por +50 puntos"
+     "textoEs": "Hasta un personaje Oddboy en una Fortaleza Kañonera o Gunwagon por +50"
     }
    ],
-   "nombreEs": "Brigada relámpago",
-   "unidadesEs": "Cuatro cualesquiera de estas unidades: Deth Kopta, Flakwagon, Gunwagon"
+   "nombreEs": "Brigada Blitz",
+   "unidadesEs": "Cuatro cualesquiera de: Deth Kopta, Flakwagon, Gunwagon"
   },
   {
    "id": "ork-formations-kill-kroozer",
@@ -86,10 +86,9 @@
     {
      "texto": "Replace the Kill Kroozer with a Battlekroozer for +50 points",
      "coste": 50,
-     "textoEs": "Sustituye el Kill Kroozer por un Battlekroozer por +50 puntos"
+     "textoEs": "Sustituir el Kill Kroozer por un Battlekroozer por +50"
     }
    ],
-   "nombreEs": "Krucero asesino",
    "unidadesEs": "Un Kill Kroozer"
   },
   {
@@ -105,17 +104,17 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
     },
     {
      "texto": "Add any number of Deth Koptas for +35 points each",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Deth Koptas por +35 puntos cada uno"
+     "textoEs": "+35 c/u: Deth Kopta"
     }
    ],
-   "nombreEs": "Horda de Komandos",
+   "nombreEs": "Horda Kommando",
    "unidadesEs": "Seis Kommandos"
   },
   {
@@ -147,23 +146,23 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Skorcha, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Skorcha, Warbikes, Warbuggy"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +35 puntos cada una: Deth Kopta, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Deth Kopta, Flakwagon, Gunwagon"
     },
     {
      "texto": "Add up to one Oddboy character to a Gunwagon unit for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo un personaje Oddboy a una unidad de Gunwagon por +50 puntos"
+     "textoEs": "Hasta un personaje Oddboy en un Gunwagon por +50"
     }
    ],
-   "nombreEs": "Kulto a la Velocidad",
-   "unidadesEs": "Ocho cualesquiera de estas unidades: Skorcha, Warbikes, Warbuggy"
+   "nombreEs": "Kulto de la Velocidad",
+   "unidadesEs": "Ocho cualesquiera de: Skorcha, Warbikes, Warbuggy"
   },
   {
    "id": "ork-formations-mekboy-gunzmob",
@@ -194,27 +193,27 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Battlewagon, Big Gunz"
+     "textoEs": "+25 c/u: Battlewagon, Big Gunz"
     },
     {
      "texto": "Add any number of Flakwagons for +35 points each",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Flakwagons por +35 puntos cada uno"
+     "textoEs": "+35 c/u: Flakwagon"
     },
     {
      "texto": "Add up to one Nobz for +35 points",
      "coste": 35,
-     "textoEs": "Añade como máximo unos Nobz por +35 puntos"
+     "textoEs": "Hasta un Nobz por +35"
     },
     {
      "texto": "Add up to one Oddboy character to a Big Gunz unit for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo un personaje Oddboy a una unidad de Big Gunz por +50 puntos"
+     "textoEs": "Hasta un personaje Oddboy en una unidad de Big Gunz por +50"
     }
    ],
-   "nombreEs": "Akribillamob del Mekániko",
+   "nombreEs": "Gunzmob del Mekániko",
    "unidadesEs": "Cinco Big Gunz"
   },
   {
@@ -246,26 +245,26 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Kill Kans por +25 puntos cada uno"
+     "textoEs": "+25 c/u: Killa Kan"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Dreadnought, Flakwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +35 puntos cada una: Dreadnought, Flakwagon"
+     "textoEs": "+35 c/u: Dreadnought, Flakwagon"
     },
     {
      "texto": "Add any number of Stompas for +50 points each",
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Stompas por +50 puntos cada uno"
+     "textoEs": "+50 c/u: Stompa"
     },
     {
      "texto": "Add up to one Supa-Stompa for +275 points",
      "coste": 275,
-     "textoEs": "Añade como máximo un Supa-Stompa por +275 puntos"
+     "textoEs": "Hasta un Supa-Stompa por +275"
     }
    ],
    "nombreEs": "Stompamob del Mekániko",
@@ -284,17 +283,17 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
     },
     {
      "texto": "Add any number of Deth Koptas for +35 points each",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Deth Koptas por +35 puntos cada uno"
+     "textoEs": "+35 c/u: Deth Kopta"
     }
    ],
-   "nombreEs": "Horda de Stormboyz",
+   "nombreEs": "Horda Stormboyz",
    "unidadesEs": "Seis Stormboyz"
   },
   {
@@ -326,50 +325,50 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Battlewagon, Big Gunz, Boyz con Grotz opcional, Killa Kan, Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Battlewagon, Big Gunz, Boyz con un Grotz opcional, Killa Kan, Kommandos, Skorcha, Stormboyz, Warbikes, Warbuggy"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Deth Kopta, Dreadnought, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +35 puntos cada una: Deth Kopta, Dreadnought, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Deth Kopta, Dreadnought, Flakwagon, Gunwagon"
     },
     {
      "texto": "Add up to two Nobz for +35 points each",
      "coste": 35,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos Nobz por +35 puntos cada uno"
+     "textoEs": "Hasta dos Nobz por +35 c/u"
     },
     {
      "texto": "Add any number of Stompas for +50 points each",
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Stompas por +50 puntos cada uno"
+     "textoEs": "+50 c/u: Stompa"
     },
     {
      "texto": "Add any number of Battlefortresses for +115 points each",
      "coste": 115,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Battlefortresses por +115 puntos cada uno"
+     "textoEs": "+115 c/u: Fortaleza Rodante"
     },
     {
      "texto": "Add any number of Gunfortresses for +125 points each",
      "coste": 125,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Gunfortresses por +125 puntos cada uno"
+     "textoEs": "+125 c/u: Fortaleza Kañonera"
     },
     {
      "texto": "Add up to one Oddboy character to a Battlefortresses, Big Gunz, Gunfortress or Gunwagon unit for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo un personaje Oddboy a una unidad de Battlefortress, Big Gunz, Gunfortress o Gunwagon por +50 puntos"
+     "textoEs": "Hasta un personaje Oddboy en una Fortaleza Rodante, Big Gunz, Fortaleza Kañonera o Gunwagon por +50"
     }
    ],
-   "nombreEs": "Banda de guerra",
+   "nombreEs": "Partida de Guerra",
    "unidadesEs": "Dos Nobz, seis Boyz y dos Grotz"
   },
   {
@@ -379,7 +378,7 @@
    "unidades": "Three Fighta Bommers",
    "coste": 150,
    "costeTexto": "Normal 150",
-   "nombreEs": "Eskuadrón de kazas",
+   "nombreEs": "Eskuadrón Fighta",
    "unidadesEs": "Tres Fighta Bommers"
   },
   {
@@ -389,7 +388,8 @@
    "unidades": "One Gargant",
    "coste": 650,
    "costeTexto": "Normal 650",
-   "unidadesEs": "Un Gargant"
+   "unidadesEs": "Un Gargante",
+   "nombreEs": "Gargante"
   },
   {
    "id": "ork-aircraft-and-gargant-formations-great-gargant",
@@ -398,8 +398,8 @@
    "unidades": "One Great Gargant",
    "coste": 850,
    "costeTexto": "Normal 850",
-   "nombreEs": "Gran Gargant",
-   "unidadesEs": "Un Great Gargant"
+   "nombreEs": "Gran Gargante",
+   "unidadesEs": "Un Gran Gargante"
   },
   {
    "id": "ork-aircraft-and-gargant-formations-landa",
@@ -414,27 +414,33 @@
  "mejoras": [],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
- "nombreEs": "Orkos – Horda de guerra",
- "iniciativaEs": "Todas las formaciones tienen iniciativa 3+, pero reciben modificadores según la acción elegida al hacer un chequeo de acción (ver Power of the Waaagh!) o según el tamaño de la formación al reagruparse (ver Mob Rule).",
+ "nombreEs": "Orkos – Horda de Guerra",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor).",
  "reglas": [
   {
    "id": "6.5",
    "titulo": "Lista de ejército de la Horda de Guerra Orka de Ghazghkull Mag Uruk Thraka",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.5.",
-    "Uso de la lista de ejército: A diferencia de las rígidas formaciones del Imperio, las formaciones orkas varían mucho en tamaño y composición, y las reglas para crearlas lo reflejan. El tipo de formación orka más común es la partida de guerra (warband). Existen otras formaciones más especializadas, como los Kults de la Velocidad y las Brigadas Blitz. Los distintos tipos de formación orka que puedes elegir se muestran en la lista que sigue, que incluye la siguiente información:",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.5.",
+    "Uso de la lista de ejército: A diferencia de las rígidas formaciones del Imperio, las formaciones orkas varían mucho en tamaño y composición, y las reglas para crearlas lo reflejan. El tipo de formación orka más común es la Partida de Guerra (warband). Existen otras formaciones más especializadas, como los Kultos de la Velocidad y las Brigadas Blitz. Los distintos tipos de formación orka que puedes elegir se muestran en la lista que sigue, que incluye la siguiente información:",
     "• Tipo: El nombre de la formación.",
     "• Unidades principales (Core Units): Las unidades que componen la formación. El jugador orko puede elegir duplicar o triplicar el número de unidades de la formación si lo desea. Una formación con el doble de unidades normales se denomina formación grande (big), y una con el triple, formación enorme (’uge).",
     "• Coste: La mayoría de las formaciones orkas tienen tres valores: el primero es el coste de la formación básica, el segundo su coste como formación grande y el tercero como formación enorme. Si la formación solo tiene un coste, no puede aumentarse de tamaño. Puede gastarse en aeronaves y Gargantes hasta un tercio de los puntos disponibles de un ejército orko.",
-    "• Unidades adicionales (Extras): Una formación orka puede incluir cualquiera de las unidades adicionales de la columna «Extras». Puedes incluir cualquier número de unidades adicionales salvo que se indique específicamente lo contrario. Si hay un límite, se duplica en una formación grande y se triplica en una enorme. Por ejemplo, un Kult de la Velocidad normal puede incluir 0–1 Oddboy, uno grande 0–2 y uno enorme 0–3. Todas las unidades principales, adicionales y gratuitas de una formación orka cuentan como parte de una única gran formación. Las distintas unidades no pueden separarse por su cuenta.",
-    "Reglas especiales: Las reglas Ley de la Turba (véase 5.5.1) y El Poder del ¡Waaagh! (véase 5.5.2) se aplican a todas las formaciones orkas."
+    "• Unidades adicionales (Extras): Una formación orka puede incluir cualquiera de las unidades adicionales de la co‐",
+    "lumna «Extras». Puedes incluir cualquier número de unidades adicionales salvo que se indique específicamente lo contrario. Si hay un límite, se duplica en una formación grande y se triplica en una enorme. Por ejemplo, un Kulto de la Velocidad normal puede incluir 0–1 Oddboy, uno grande 0–2 y uno enorme 0–3. Todas las unidades principales, adicionales y gratuitas de una formación orka cuentan como parte de una única gran formación. Las distintas unidades no pueden separarse por su cuenta.",
+    "Reglas especiales: Las reglas Cuantoz máz mejor (véase 5.5.1) y El Poder del ¡Waaagh! (véase 5.5.2) se aplican a todas las formaciones orkas. I N I C I AT I VA FACTOR DE E STRATEGIA: 3",
+    "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor).",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Kill Kroozer por ejército (puede sustituirse por un Battlekroozer por +50 puntos).",
+    "• Oddboy: como máximo uno por formación (límite que se dobla o triplica en formaciones grandes o enormes), y solo en las unidades indicadas: en una Fortaleza Kañonera o Gunwagon (Brigada Blitz), en un Gunwagon (Kulto de la Velocidad), en un Big Gunz (Gunzmob), o en una Fortaleza Rodante, Big Gunz, Fortaleza Kañonera o Gunwagon (Partida de Guerra).",
+    "• El Stompamob del Mekániko puede añadir hasta un SupaStompa (+275 puntos)."
    ]
   },
   {
    "id": "6.5.1",
    "titulo": "Kaudillos Orkos (Ork Warlords)",
    "parrafos": [
-    "Todo ejército orko debe incluir un personaje de Mando Supremo llamado Kaudillo (Warlord). El personaje Kaudillo es gratuito; no tienes que pagar puntos por él. Si el ejército incluye algún Gran Gargante, el Kaudillo debe colocarse en uno de ellos. Si no hay Grandes Gargantes en el ejército, el Kaudillo se unirá a una unidad de Nobz o de Gargante.",
+    "Todo ejército orko debe incluir un personaje Comandante en jefe llamado Kaudillo (Warlord). El personaje Kaudillo es gratuito; no tienes que pagar puntos por él. Si el ejército incluye algún Gran Gargante, el Kaudillo debe colocarse en uno de ellos. Si no hay Grandes Gargantes en el ejército, el Kaudillo se unirá a una unidad de Nobz o de Gargante.",
     "FAQ",
     "P: ¿Puede un Kaudillo Orko unirse a cualquier unidad si no hay Grandes Gargantes, Nobz ni unidades de Gargante en el ejército?",
     "R: Sí."
@@ -442,32 +448,581 @@
   },
   {
    "id": "6.5.2",
-   "titulo": "Battlefortresses y Gunfortresses",
+   "titulo": "Fortalezas Rodantes y Fortalezas",
    "parrafos": [
-    "En las partidas de torneo, estas unidades solo pueden transportar unidades de su propia formación (es decir, las reglas de ingenios de guerra de transporte no se les aplican al usar las listas de ejército de torneo)."
+    "Kañoneraz En las partidas de torneo, estas unidades solo pueden transportar unidades de su propia formación (es decir, las reglas de Má‐",
+    "quinas de Guerra de transporte no se les aplican al usar las listas de ejército de torneo)."
    ]
   },
   {
    "id": "5.5.1",
-   "titulo": "Ley de la Turba (Mob Rule)",
+   "titulo": "Cuantoz máz mejor (Mob Rule)",
    "parrafos": [
-    "Los orkos creen que, mientras haya un montón de ellos luchando juntos (algo más de los que saben contar es lo ideal), siempre existe la posibilidad de imponerse, por desfavorables que sean las circunstancias. Para representarlo, las formaciones orkas con más de cinco unidades (es decir, demasiadas para contarlas con los dedos de una mano), sin contar las unidades de Gretchin o Big Gunz, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de 10 unidades de ese tipo reciben un +2. A efectos de esta regla, los ingenios de guerra cuentan cada punto de capacidad de daño inicial como una unidad."
+    "Los orkos creen que, mientras haya un montón de ellos luchando juntos (algo más de los que saben contar es lo ideal), siempre existe la posibilidad de imponerse, por desfavorables que sean las circunstancias. Para representarlo, las formaciones orkas con más de cinco unidades (es decir, demasiadas para contarlas con los dedos de una mano), sin contar las unidades",
+    "de Gretchin o Big Gunz, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de 10 unidades de ese tipo reciben un +2. A efectos de esta regla, las Máquinas de Guerra cuentan cada punto de factor de daños inicial como una unidad."
    ]
   },
   {
    "id": "5.5.2",
    "titulo": "El Poder del ¡Waaagh! (Power of the Waaagh!)",
    "parrafos": [
-    "Los orkos no destacan por su capacidad organizativa, por lo que suelen tener un valor de iniciativa bastante bajo. Sin embargo, si hay algo que galvaniza a una partida de guerra orka es la idea de una buena pelea. Por ello, las formaciones orkas que intentan realizar acciones de Enfrentarse o Doble reciben un modificador de +2 a su chequeo de acción. Los pilotos orkos (flyboyz) disfrutan igualmente de la ocasión de acribillarlo todo",
-    "y reciben un +2 a su chequeo de acción al intentar realizar acciones de Interceptación o Ataque a Tierra (véase 4.2)."
+    "Los orkos no destacan por su capacidad organizativa, por lo que suelen tener un valor de iniciativa bastante bajo. Sin embargo, si hay algo que galvaniza a una Partida de Guerra orka es la idea de una buena pelea. Por ello, las formaciones orkas que intentan realizar acciones de Atacar o Doble reciben un modificador de +2 a su chequeo de acción. Los pilotos orkos (flyboyz) disfrutan igualmente de la ocasión de acribillarlo todo y reciben un +2 a su chequeo de acción al intentar realizar acciones de Intercepción o Ataque a Tierra (véase 4.2)."
    ]
   },
   {
    "id": "5.5.3",
-   "titulo": "Campos de Energía (Power Fields)",
+   "titulo": "Pantallas de Energía (Power Fields)",
    "parrafos": [
-    "Algunos ingenios de guerra orkos están protegidos por baterías de campos de energía. El número que tiene cada ingenio figura en su hoja de datos. Los campos de energía funcionan exactamente igual que los Escudos de Vacío Imperiales (véase 5.4.1), con la única excepción de que no pueden repararse una vez derribados por un impacto, y permanecen caídos el resto de la batalla."
+    "Algunos Máquinas de Guerra orkas están protegidas por baterías de pantallas de energía. El número que tiene cada Máquina figura en su perfil de atributos. Las pantallas de energía funcionan exactamente igual que los Pantallas de Vacío Imperiales (véase 5.4.1), con la única excepción de que no pueden repararse una vez derribadas por un impacto, y permanecen caídas el resto de la batalla."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Oddboy",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Supa-Zzap-Gun",
+     "alcance": "60cm",
+     "potencia": "MA3+, MT(D3)"
+    },
+    {
+     "nombre": "0–1× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2PA, MA"
+    }
+   ],
+   "notas": "Sustituye un Big Gun por un Supa-Zzap-Gun o un Soopagun; alternativamente, la unidad puede recibir D3 Pantallas de Energía."
+  },
+  {
+   "nombre": "Warlord",
+   "nombreEs": "Kaudillo",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Gran rebanadora (Big Choppa)",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Big Gunz",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Boyz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Grotz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Akribilladorez",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Prescindible. Las formaciones que incluyen al menos una unidad orka no cuentan las unidades de Grots perdidas en un asalto al determinar quién ha ganado el combate."
+  },
+  {
+   "nombre": "Kommandos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    }
+   ],
+   "notas": "Infiltrador, Explorador."
+  },
+  {
+   "nombre": "Nobz",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Grandes rebanadoras (Big Choppas)",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
+    }
+   ],
+   "notas": "Líder."
+  },
+  {
+   "nombre": "Stormboyz",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Akribilladorez",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Retrorreactores, Explorador."
+  },
+  {
+   "nombre": "Warbikes",
+   "nombreEs": "Motos de Guerra",
+   "tipo": "INF",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota recortado doble",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Montado."
+  },
+  {
+   "nombre": "Deth Kopta",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Shoota doble",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Gravitatorio."
+  },
+  {
+   "nombre": "Skorcha",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Skorcha",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Warbuggy",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Shoota doble",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Battlewagon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota doble",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado (solo una de ellas puede ser Big Gunz); más una unidad de Grotz."
+  },
+  {
+   "nombre": "Dreadnought",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Garraz de kombate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Bípode."
+  },
+  {
+   "nombre": "Flakwagon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón antiaéreo",
+     "alcance": "30cm",
+     "potencia": "2× AP6+/AT6+/AA6+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Gunwagon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Killa Kan",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP6+/AT6+"
+    },
+    {
+     "nombre": "Garraz de kombate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Bípode."
+  },
+  {
+   "nombre": "Stompa",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2–3× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "0–1× Martillo de kombate",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "y 0–1× Martillo de kombate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Bípode. Armado con tres Big Guns, o con dos Big Guns y un martillo de kombate."
+  },
+  {
+   "nombre": "Battlefortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "4× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport eight infantry units without Jump Packs or Mounted; only one of the eight units may be a Big Gunz; plus four units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Gargant",
+   "nombreEs": "Gargante",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Mirada de Mork",
+     "alcance": "30cm",
+     "potencia": "MA4+, MT"
+    },
+    {
+     "nombre": "2–3× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2PA, FxF, MA"
+    },
+    {
+     "nombre": "0–1× Supa-Zzap-Gun",
+     "alcance": "60cm",
+     "potencia": "MA3+, FxF, MT(D3)"
+    },
+    {
+     "nombre": "0–1× Mega rebanadora",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+, FxF"
+    },
+    {
+     "nombre": "y 0–1× Mega rebanadora",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 8, Coraje, D3+3 Pantallas de Energía, Blindaje Reforzado, Bípode. Armado con tres Soopaguns, o con dos Soopaguns y una de las siguientes: Mega rebanadora, Supa-Zzap- Gun. Efecto de Impacto Crítico: la unidad se incendia. Tira un D6 por cada incendio activo en la unidad en la fase de finalización de cada turno. Con un 1 se inicia un segundo incendio, y con un 5–6 el incendio se apaga. Cada incendio no apagado causa un punto de daño."
+  },
+  {
+   "nombre": "Great Gargant",
+   "nombreEs": "Gran Gargante",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Mirada de Mork",
+     "alcance": "30cm",
+     "potencia": "MA4+, MT"
+    },
+    {
+     "nombre": "2× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Soopagun",
+     "alcance": "60cm",
+     "potencia": "2PA, FxF, MA"
+    },
+    {
+     "nombre": "1–2× Soopagun doble",
+     "alcance": "60cm",
+     "potencia": "3PA, FxF, MA"
+    },
+    {
+     "nombre": "0–1× Lifta-Droppa",
+     "alcance": "60cm",
+     "potencia": "MA3+, FxF, MT(D3)"
+    },
+    {
+     "nombre": "y 0–1× Lifta-Droppa",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 12, Coraje, D6+6 Pantallas de Energía, Blindaje Reforzado, Bípode. Armado con dos Soopaguns dobles, o con un Soopagun doble y un Lifta-Droppa. Efecto de Impacto Crítico: la unidad se incendia. Tira un D6 por cada incendio activo en la unidad en la fase de finalización de cada turno. Con un 1 se inicia un segundo incendio, y con un 5–6 el incendio se apaga. Cada incendio no apagado causa un punto de daño."
+  },
+  {
+   "nombre": "Gunfortress",
+   "tipo": "WE",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "5× Twin Big Shoota",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "3× Big Gun",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Damage Capacity 3, Transport. May transport four infantry units without Jump Packs or Mounted; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+."
+  },
+  {
+   "nombre": "Supa-Stompa",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Mirada de Mork",
+     "alcance": "30cm",
+     "potencia": "MA4+, MT"
+    },
+    {
+     "nombre": "2–3× Soopagun",
+     "alcance": "60cm",
+     "potencia": "2PA, FxF, MA"
+    },
+    {
+     "nombre": "0–1× Mega rebanadora",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+, FxF"
+    },
+    {
+     "nombre": "y 0–1× Mega rebanadora",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
+    }
+   ],
+   "notas": "Factor de Daños 4, Coraje, D3 Pantallas de Energía, Blindaje Reforzado, Bípode. Armado con tres Soopaguns, o con dos Soopaguns y una Mega rebanadora. Efecto de Impacto Crítico: la unidad sufre un -1 para impactar durante el resto de la partida. Los daños críticos posteriores causan un punto de daño adicional."
+  },
+  {
+   "nombre": "Fighta Bommer",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Akribilladorez pesadoz",
+     "alcance": "15cm",
+     "potencia": "AP5+/AA5+"
+    },
+    {
+     "nombre": "Kohetez Revientatankez",
+     "alcance": "30cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Landa",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Torretas",
+     "alcance": "15cm",
+     "potencia": "D6+3× AP5+/AA6+"
+    },
+    {
+     "nombre": "2× Kohetez Revientatankez",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 3, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar diez unidades de infantería (excepto Big Gunz), unidades de vehículo ligero, Killa Kans o Dreadnoughts; más cuatro unidades de Grotz. Los vehículos ligeros y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
+  },
+  {
+   "nombre": "Battlekroozer",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "D6+3PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa, Transporte. Puede transportar doce Landas y las unidades que lleven."
+  },
+  {
+   "nombre": "Kill Kroozer",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "D6+1PA, MA"
+    }
+   ],
+   "notas": ""
   }
  ]
 }

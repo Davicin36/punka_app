@@ -8,7 +8,7 @@ import { INDICE_EPIC, cargarEjercito, nombreEjercito } from '../epic/datos';
 import { costeLista, problemasLista } from '../epic/logica';
 import { Modal } from './ui';
 import { descargar } from '../logic/descargar';
-import logo from '../assets/logoPunka.webp';
+import logo from '../assets/logoTacticode.webp';
 
 type Juego = 'punka' | 'epic';
 
@@ -27,6 +27,8 @@ export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, o
   const [juego, setJuego] = useState<Juego>('punka');
   const [aviso, setAviso] = useState('');
   const [datosEpic, setDatosEpic] = useState<Record<string, EjercitoEpic>>({});
+  const [ejSel, setEjSel] = useState(INDICE_EPIC[0]?.id ?? '');
+  const sel = INDICE_EPIC.find(e => e.id === ejSel);
   const fichero = useRef<HTMLInputElement>(null);
 
   // Carga los ejércitos de Epic que se usan en las listas guardadas, para mostrar sus puntos
@@ -58,7 +60,7 @@ export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, o
     <>
       <header className="top">
         <div className="brand">
-          <img src={logo} alt="" className="logo-img" />
+          <img src={logo} alt="TacticoDE" className="logo-img" />
           <div><h1>Creador de listas</h1><p>Punkapocalyptic · Epic Armageddon</p></div>
         </div>
       </header>
@@ -124,13 +126,19 @@ export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, o
               </label>
             ) : (
               <label>Ejército (NetEA)
-                <select name="ejercito">
+                <select name="ejercito" value={ejSel} onChange={ev => setEjSel(ev.target.value)}>
                   {familias.map(fam => (
                     <optgroup key={fam} label={INDICE_EPIC.find(e => e.familia === fam)?.familiaEs ?? fam}>
                       {INDICE_EPIC.filter(e => e.familia === fam).map(e => <option key={e.id} value={e.id}>{e.nombreEs ? `${e.nombreEs} (${e.nombre})` : e.nombre}</option>)}
                     </optgroup>
                   ))}
                 </select>
+                {sel && (
+                  <span className="ejinfo">
+                    <span><small>Factor de estrategia</small><b>{sel.estrategia ?? '–'}</b></span>
+                    <span><small>Iniciativa</small>{sel.iniciativaEs}</span>
+                  </span>
+                )}
               </label>
             )}
             <label>Puntos de la partida

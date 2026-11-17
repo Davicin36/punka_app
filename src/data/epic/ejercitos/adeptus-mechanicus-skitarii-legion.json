@@ -10,7 +10,7 @@
    "nombre": "Demi-Century Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones de demi-centuria"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "ordinatus-formations",
@@ -21,8 +21,8 @@
     "cantidad": 1,
     "base": "demi-century"
    },
-   "nombreEs": "Formaciones Ordinatus",
-   "notaEs": "Se puede desplegar una formación ordinatus por cada demi-centuria."
+   "notaEs": "Se puede desplegar una formación ordinatus por cada demi-centuria.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "support-formations",
@@ -33,8 +33,8 @@
     "cantidad": 2,
     "base": "demi-century"
    },
-   "nombreEs": "Formaciones de apoyo",
-   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada demi-centuria."
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada demi-centuria.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "demi-century-upgrades",
@@ -43,16 +43,16 @@
    "nota": "Up to three demi-century upgrades may be taken once per demi-century.",
    "maxPorFormacion": 3,
    "unaVez": true,
-   "nombreEs": "Mejoras de demi-centuria",
-   "notaEs": "Se pueden tomar hasta tres mejoras de demi-centuria, cada una una vez por demi-centuria."
+   "notaEs": "Se pueden tomar hasta tres mejoras de demi-centuria, cada una una vez por demi-centuria.",
+   "nombreEs": "Mejoras de demi-centuria"
   },
   {
    "id": "mechanicus-allies",
    "nombre": "Mechanicus Allies",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Aliados del Mechanicus",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "battle-titan-weapons",
@@ -60,8 +60,8 @@
    "tipo": "mejoras",
    "nota": "Mount each weapon mount in the formation with one of the following upgrades.",
    "unaVez": false,
-   "nombreEs": "Armas de titán de batalla",
-   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras."
+   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras.",
+   "nombreEs": "Armas de titán de batalla"
   },
   {
    "id": "scout-titan-weapons",
@@ -69,8 +69,8 @@
    "tipo": "mejoras",
    "nota": "Mount each weapon mount in the formation with one of the following upgrades.",
    "unaVez": false,
-   "nombreEs": "Armas de titán explorador",
-   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras."
+   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras.",
+   "nombreEs": "Armas de titán explorador"
   },
   {
    "id": "titan-upgrades",
@@ -78,8 +78,8 @@
    "tipo": "mejoras",
    "nota": "Add any of the following upgrades to a unit up to once per formation.",
    "unaVez": true,
-   "nombreEs": "Mejoras de titán",
-   "notaEs": "Añade cualquiera de estas mejoras a una unidad, como máximo una vez por formación."
+   "notaEs": "Añade cualquiera de estas mejoras a una unidad, como máximo una vez por formación.",
+   "nombreEs": "Mejoras de titán"
   }
  ],
  "formaciones": [
@@ -90,7 +90,7 @@
    "unidades": "Five Sagitarii units and five Gun Servitor units (Replace five Gun Servitor units with three Rapier units)",
    "coste": 250,
    "costeTexto": "250 points (Free)",
-   "unidadesEs": "Cinco unidades de Sagitarii y cinco de Gun Servitor (sustituye cinco Gun Servitors por tres Rapiers)"
+   "unidadesEs": "Cinco unidades de Sagitarii y cinco unidades de Servidores de Combate (sustituir las cinco de Servidores por tres unidades de Rapier: gratis)"
   },
   {
    "id": "demi-century-formations-skitarii",
@@ -106,7 +106,7 @@
      "textoEs": "Sustituye tres unidades de Hypaspist por tres de Secutor"
     }
    ],
-   "unidadesEs": "Tres unidades de Hypaspist, dos de Secutor y cinco Hypaspist o Gun Servitor adicionales (sustituye tres Hypaspist por tres Secutor)"
+   "unidadesEs": "Tres unidades de Hipaspistas, dos unidades de Secutores y cinco unidades adicionales de Hipaspistas o Servidores de Combate (sustituir tres Hipaspistas por tres Secutores: +125 puntos)"
   },
   {
    "id": "ordinatus-formations-majoris",
@@ -115,7 +115,7 @@
    "unidades": "One of the following Mars Ordinatus Majoris: Golgotha Armageddon",
    "coste": 450,
    "costeTexto": "450 points 550 points 500 points",
-   "unidadesEs": "Uno de estos Mars Ordinatus Majoris: Golgotha, Armageddon"
+   "unidadesEs": "Un Ordinatus Majoris a elegir: Mars (450), Golgotha (550) o Armageddon (500)"
   },
   {
    "id": "ordinatus-formations-minorus",
@@ -131,7 +131,7 @@
      "textoEs": "Añade un Ordinatus Minorus"
     }
    ],
-   "unidadesEs": "Dos Ordinatus Minorus (añade un Ordinatus Minorus)"
+   "unidadesEs": "Dos Ordinatus Minorus (añadir un Ordinatus Minorus: +100 puntos; puede adquirirse dos veces)"
   },
   {
    "id": "support-formations-assault-maniple",
@@ -140,8 +140,8 @@
    "unidades": "Four Colossus Robots",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Manípulo de asalto",
-   "unidadesEs": "Cuatro Colossus Robots"
+   "nombreEs": "Manípulo de Asalto",
+   "unidadesEs": "Cuatro Robots Colossus"
   },
   {
    "id": "support-formations-avengers",
@@ -150,8 +150,7 @@
    "unidades": "Two Avenger Strike Fighters",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Vengadores",
-   "unidadesEs": "Dos Avenger Strike Fighters"
+   "unidadesEs": "Dos Cazas de Ataque Avenger"
   },
   {
    "id": "support-formations-orbital-support",
@@ -161,7 +160,8 @@
    "coste": 200,
    "costeTexto": "200 points",
    "max": 1,
-   "nombreEs": "Apoyo orbital"
+   "nombreEs": "Apoyo Orbital",
+   "unidadesEs": "Acorazado Arca Mechanicus"
   },
   {
    "id": "support-formations-praetorian-maniple",
@@ -177,8 +177,8 @@
      "textoEs": "Añade un Ordinatus Minorus"
     }
    ],
-   "nombreEs": "Manípulo pretoriano",
-   "unidadesEs": "Cinco unidades de Praetorian Combat Servitor (da Self-Reliant a todas las unidades de infantería de la formación) (añade un Ordinatus Minorus)"
+   "nombreEs": "Manípulo Pretoriano",
+   "unidadesEs": "Cinco unidades de Servidores de Combate Pretorianos (dar Autosuficiente a todas las unidades de infantería de la formación: +25 puntos)"
   },
   {
    "id": "support-formations-scout-maniple",
@@ -187,8 +187,8 @@
    "unidades": "Four Crusader Robots",
    "coste": 125,
    "costeTexto": "125 points",
-   "nombreEs": "Manípulo explorador",
-   "unidadesEs": "Cuatro Crusader Robots"
+   "nombreEs": "Manípulo de Exploración",
+   "unidadesEs": "Cuatro Robots Crusader"
   },
   {
    "id": "mechanicus-allies-cataphractii",
@@ -198,7 +198,7 @@
    "coste": 350,
    "costeTexto": "350 points",
    "mejoras": [],
-   "unidadesEs": "Un Macharius Command y dos Macharius"
+   "unidadesEs": "Un Macharius de Mando y dos Macharius"
   },
   {
    "id": "mechanicus-allies-emperor",
@@ -213,7 +213,7 @@
     "Veteran Princeps"
    ],
    "nombreEs": "Emperador",
-   "unidadesEs": "Un Imperator o Warmonger Class Titan"
+   "unidadesEs": "Un Titán clase Imperator o Warmonger"
   },
   {
    "id": "mechanicus-allies-reaver",
@@ -244,7 +244,7 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "mechanicus-allies-warhound",
@@ -260,7 +260,7 @@
     "Vulcan Mega-Bolter",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Warhound Class Titan"
+   "unidadesEs": "Un Titán clase Warhound"
   },
   {
    "id": "mechanicus-allies-warhound-pack",
@@ -276,8 +276,8 @@
     "Vulcan Mega-Bolter",
     "Veteran Princeps"
    ],
-   "nombreEs": "Manada de Warhounds",
-   "unidadesEs": "Dos Warhound Class Titans"
+   "nombreEs": "Manada Warhound",
+   "unidadesEs": "Dos Titanes clase Warhound"
   },
   {
    "id": "mechanicus-allies-warlord",
@@ -308,7 +308,7 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Warlord Class Titan"
+   "unidadesEs": "Un Titán clase Warlord"
   }
  ],
  "mejoras": [
@@ -338,8 +338,8 @@
    "texto": "Give all infantry units in the formation Self-Reliant",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Red neuronal enlazada",
-   "textoEs": "Da Self-Reliant a todas las unidades de infantería de la formación"
+   "nombreEs": "Red Neural Enlazada",
+   "textoEs": "Da Autosuficiente a todas las unidades de infantería de la formación"
   },
   {
    "id": "magos",
@@ -349,7 +349,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "textoEs": "Añade un personaje Magos a una unidad de Secutor"
+   "textoEs": "Añade un personaje Magos a una unidad de Secutores"
   },
   {
    "id": "ordinatus",
@@ -369,7 +369,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Lanzamisiles Apocalypse"
+   "nombreEs": "Lanzamisiles Apocalipsis"
   },
   {
    "id": "carapace-landing-pad",
@@ -378,7 +378,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Plataforma de aterrizaje en caparazón"
+   "nombreEs": "Plataforma de Aterrizaje en el Caparazón"
   },
   {
    "id": "close-combat-weapon",
@@ -398,7 +398,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cápsula de asalto Corvus"
+   "nombreEs": "Cápsula de Asalto Corvus"
   },
   {
    "id": "gatling-blaster",
@@ -409,7 +409,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Desintegrador Gatling"
+   "nombreEs": "Bláster Gatling"
   },
   {
    "id": "laser-blaster",
@@ -420,7 +420,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Desintegrador láser"
+   "nombreEs": "Bláster Láser"
   },
   {
    "id": "laser-burner",
@@ -429,7 +429,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Quemador láser"
+   "nombreEs": "Quemador Láser"
   },
   {
    "id": "melta-cannon",
@@ -440,7 +440,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón melta"
+   "nombreEs": "Cañón Melta"
   },
   {
    "id": "plasma-cannon",
@@ -451,7 +451,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón de plasma"
+   "nombreEs": "Cañón de Plasma"
   },
   {
    "id": "plasma-destructor-carapace-weapon-mount-only",
@@ -462,7 +462,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Destructor de plasma (solo montaje de caparazón)"
+   "nombreEs": "Destructor de Plasma (Carapace weapon mount only)"
   },
   {
    "id": "quake-cannon",
@@ -473,7 +473,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón sísmico"
+   "nombreEs": "Cañón Sísmico"
   },
   {
    "id": "support-missile-carapace-weapon-mount-only",
@@ -484,7 +484,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Misil de apoyo (solo montaje de caparazón)"
+   "nombreEs": "Misil de Apoyo (Carapace weapon mount only)"
   },
   {
    "id": "volcano-cannon",
@@ -495,7 +495,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón volcánico"
+   "nombreEs": "Cañón Volcán"
   },
   {
    "id": "inferno-gun",
@@ -504,7 +504,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón infernal"
+   "nombreEs": "Cañón Inferno"
   },
   {
    "id": "plasma-blastgun",
@@ -513,7 +513,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón desintegrador de plasma"
+   "nombreEs": "Cañón Bláster de Plasma"
   },
   {
    "id": "turbo-laser-destructor",
@@ -524,7 +524,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Destructor turboláser"
+   "nombreEs": "Destructor Turboláser"
   },
   {
    "id": "vulcan-mega-bolter",
@@ -542,7 +542,7 @@
    "texto": "",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Multiláseres de caparazón"
+   "nombreEs": "Multiláseres de Caparazón"
   },
   {
    "id": "sacred-icon",
@@ -551,7 +551,7 @@
    "texto": "",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Icono sagrado"
+   "nombreEs": "Icono Sagrado"
   },
   {
    "id": "veteran-princeps",
@@ -560,28 +560,816 @@
    "texto": "",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Princeps veterano"
+   "nombreEs": "Princeps Veterano"
   }
  ],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Adeptus Mechanicus – Legión Skitarii",
- "iniciativaEs": "Todas las formaciones aliadas del Mechanicus, salvo Cataphractii, tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "iniciativaEs": "Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.32",
    "titulo": "Lista de ejército de la Legión Skitarii de Gryphonne IV",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.32.",
-    "Uso de la lista de ejército: Esta lista permite desplegar un ejército del Adeptus Mechanicus basado en una Legión Skitarii de Gryphonne IV. También puede usarse como lista «sustituta» para otras Legiones Skitarii. Las formaciones de la Legión Skitarii de Gryphonne IV son de tres tipos: semicenturias (demi-century), ordinatus y formaciones de apoyo. Cada semicenturia que incluyas en el ejército te permite desplegar una formación ordinatus cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación ordinatus o de apoyo si antes llevas una semicenturia, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las semicenturias pueden recibir hasta tres mejoras. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones ordinatus y de apoyo no pueden recibir mejoras de compañía (aunque las formaciones de Ordinatus Minorus deben recibir Mejoras de Armas de Titán de Batalla). Cada mejora adquirida se suma al coste de la semicenturia, según la tabla de mejoras. Los ejércitos del Adeptus Mechanicus de la Legión Skitarii de Gryphonne IV pueden recibir apoyo de aliados del Mechanicus. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. Además, ciertas formaciones de aliados del Mechanicus pueden recibir mejoras de Titán. Las mejoras de Titán que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora de Titán adquirida se suma al coste de la formación, según la tabla de mejoras de Titán."
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.32.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército del Adeptus Mechanicus basado en una Legión Skitarii de Gryphonne IV. También puede usarse como lista «sustituta» para otras Legiones Skitarii. Las formaciones de la Legión Skitarii de Gryphonne IV son de tres tipos: semicenturias (demi-century), ordinatus y formaciones de apoyo. Cada semicenturia que incluyas en el ejército te permite desplegar una formación ordinatus cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación ordinatus o de apoyo si antes llevas una",
+    "semicenturia, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las semicenturias pueden recibir hasta tres mejoras. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones ordinatus y de apoyo no pueden recibir mejoras de compañía (aunque las formaciones de Ordinatus Minorus deben recibir Mejoras de Armas de Titán de Batalla). Cada mejora adquirida se suma al coste de la semicenturia, según la tabla de mejoras. Los ejércitos del Adeptus Mechanicus de la Legión Skitarii de Gryphonne IV pueden recibir apoyo de aliados del Mechanicus. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. Además, ciertas formaciones de aliados del Mechanicus pueden recibir mejoras de Titán. Las mejoras de Titán que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora de Titán adquirida se suma al coste de la formación, según la tabla de mejoras de Titán.",
+    "I N I C I AT I VA FACTOR DE E STRATEGIA: 2",
+    "Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Magos y 0–1 Apoyo Orbital por ejército. Una formación Ordinatus y dos de apoyo por cada semicenturia; hasta tres mejoras por semicenturia, una de cada tipo.",
+    "• Los Titanes aliados usan las armas y mejoras de Titán de la Legión de Titanes (6.22), sin la mejora de Legado."
    ]
   },
   {
    "id": "6.32.1",
    "titulo": "Reglas especiales de torneo de la Legión Skitarii de Gryphonne IV",
    "parrafos": [
-    "Todos los Montajes de Arma de una formación de aliados del Mechanicus o de una unidad de Ordinatus Minorus deben llevar un arma montada. Los Montajes de Arma de Ordinatus Minorus deben ser Armas de Titán de Batalla, y pagan recargos adicionales de +50 puntos por una Plataforma de Aterrizaje en el Caparazón y de +25 puntos por un Cañón Sísmico (Quake Cannon)."
+    "Todos los Monturas de armas de una formación de aliados del Mechanicus o de una unidad de Ordinatus Minorus deben llevar un arma montada. Los Monturas de armas de Ordinatus Minorus deben ser Armas de Titán de Batalla, y pagan recargos adicionales de +50 puntos por una Plataforma de Aterrizaje en el Caparazón y de +25 puntos por un Cañón Sísmico (Quake Cannon)."
    ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Apocalypse Missile Launcher",
+   "nombreEs": "Lanzamisiles Apocalipsis",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Lanzamisiles Apocalipsis",
+     "alcance": "60cm",
+     "potencia": "3PA, D"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Carapace Landing Pad",
+   "nombreEs": "Plataforma de Aterrizaje en el Caparazón",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Las armas de la formación con potencia de fuego en PA no necesitan línea de fuego al disparar en una acción de Fuego Sostenido, Avanzar o Doble."
+  },
+  {
+   "nombre": "Carapace Multilasers",
+   "nombreEs": "Multiláseres de Caparazón",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Close Combat Weapon",
+   "nombreEs": "Arma de combate cuerpo a cuerpo",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de combate cuerpo a cuerpo",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MT(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Corvus Assault Pod",
+   "nombreEs": "Cápsula de Asalto Corvus",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Transporte. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Gatling Blaster",
+   "nombreEs": "Bláster Gatling",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bláster Gatling (patrón Marte)",
+     "alcance": "60cm",
+     "potencia": "6× AP4+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Inferno Gun",
+   "nombreEs": "Cañón Inferno",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón Inferno",
+     "alcance": "30cm",
+     "potencia": "3PA, IC"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Laser Blaster",
+   "nombreEs": "Bláster Láser",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bláster láser",
+     "alcance": "60cm",
+     "potencia": "6× AP5+/AT3+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Laser Burner",
+   "nombreEs": "Quemador Láser",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Quemador láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+2)"
+    },
+    {
+     "nombre": "o",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+4)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Magos",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Aumentos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable, Comandante en jefe."
+  },
+  {
+   "nombre": "Melta Cannon",
+   "nombreEs": "Cañón Melta",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón de fusión",
+     "alcance": "30cm",
+     "potencia": "MA2+, MT(D3)"
+    },
+    {
+     "nombre": "y Cañón de fusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MT(D6)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Blastgun",
+   "nombreEs": "Cañón Bláster de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón bláster de plasma",
+     "alcance": "45cm",
+     "potencia": "2× MA2+, Baj"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Cannon",
+   "nombreEs": "Cañón de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón de plasma",
+     "alcance": "60cm",
+     "potencia": "3× MA2+, Baj"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Plasma Destructor",
+   "nombreEs": "Destructor de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Destructor de plasma",
+     "alcance": "75cm",
+     "potencia": "5× MA2+, Baj"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Quake Cannon",
+   "nombreEs": "Cañón Sísmico",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón sísmico",
+     "alcance": "90cm",
+     "potencia": "3PA, MA"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Sacred Icon",
+   "nombreEs": "Icono Sagrado",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Inspirador."
+  },
+  {
+   "nombre": "Support Missile",
+   "nombreEs": "Misil de Apoyo",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1× Misil de artillería",
+     "alcance": "Unlimited",
+     "potencia": "10PA, D, Ind, DU"
+    },
+    {
+     "nombre": "0–1× Misil Deathstrike",
+     "alcance": "Unlimited",
+     "potencia": "MA2+, Ind, DU, MT(D6)"
+    },
+    {
+     "nombre": "0–1× Misil de vórtice",
+     "alcance": "Unlimited",
+     "potencia": "3PA, IC, Ind, DU, MT"
+    },
+    {
+     "nombre": "0–1× Misil disforme",
+     "alcance": "Unlimited",
+     "potencia": "MA2+, Ind, DU, MT(D3)"
+    }
+   ],
+   "notas": "Puede armarse con uno de los siguientes: Misil de artillería, Misil Deathstrike, Misil de vórtice o Misil disforme. Un Misil Disforme ignora los Pantallas de Vacío Imperiales y los Pantallas de Energía."
+  },
+  {
+   "nombre": "Turbo-Laser Destructor",
+   "nombreEs": "Destructor Turboláser",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Destructor turboláser",
+     "alcance": "60cm",
+     "potencia": "4× AP5+/AT3+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Veteran Princeps",
+   "nombreEs": "Princeps Veterano",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante, Líder."
+  },
+  {
+   "nombre": "Volcano Cannon",
+   "nombreEs": "Cañón Volcán",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón Volcán",
+     "alcance": "90cm",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Vulcan Mega-Bolter",
+   "nombreEs": "Megabólter Vulcan",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Megabólter Vulcan",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Gun Servitor",
+   "nombreEs": "Servidor de Combate",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Salvación Invulnerable."
+  },
+  {
+   "nombre": "Hypaspist",
+   "nombreEs": "Hipaspista",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Praetorian Combat Servitor",
+   "nombreEs": "Servidor de Combate Pretoriano",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Aumentos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Salvación Invulnerable."
+  },
+  {
+   "nombre": "Sagitarii",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Fusil de plasma en fase",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Secutor",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "2× Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y 2× Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    },
+    {
+     "nombre": "Aumentos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Blindaje Reforzado."
+  },
+  {
+   "nombre": "Rapier",
+   "tipo": "INF",
+   "velocidad": "10cm",
+   "blindaje": "6+",
+   "cc": "-",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "45cm",
+     "potencia": "AP6+/AT4+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Crusader Robot",
+   "nombreEs": "Robot Crusader",
+   "tipo": "VL",
+   "velocidad": "25cm",
+   "blindaje": "6+",
+   "cc": "4+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    },
+    {
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Autómata, Explorador, Bípode."
+  },
+  {
+   "nombre": "Chimedon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Conqueror",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado, excepto Servidores de Combate Pretorianos y Rapier."
+  },
+  {
+   "nombre": "Colossus Robot",
+   "nombreEs": "Robot Colossus",
+   "tipo": "VB",
+   "velocidad": "15cm",
+   "blindaje": "3+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "o",
+     "alcance": "30cm",
+     "potencia": "AA6+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Autómata, Bípode."
+  },
+  {
+   "nombre": "Hydra",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Autocañón doble Hydra",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Imperator Class Titan",
+   "nombreEs": "Titán clase Imperator",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "4+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Aniquilador de plasma",
+     "alcance": "90cm",
+     "potencia": "4× MA2+, Fro, Baj, MT(D3)"
+    },
+    {
+     "nombre": "Cañón Tormenta Infernal",
+     "alcance": "60cm",
+     "potencia": "10PA, Fro"
+    },
+    {
+     "nombre": "Láser de defensa",
+     "alcance": "90cm",
+     "potencia": "MA2+/AA4+, MT(D3)"
+    },
+    {
+     "nombre": "Cañón sísmico",
+     "alcance": "90cm",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "4× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Brazos terciarios",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+2)"
+    }
+   ],
+   "notas": "Factor de Daños 12, Coraje, Inspirador, Blindaje Reforzado, Transporte, 8 Pantallas de Vacío, Bípode. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Macharius",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2× Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Macharius Command",
+   "nombreEs": "Macharius de Mando",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× 2× Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "0–1× Megabólter Vulcan",
+     "alcance": "45cm",
+     "potencia": "4× AP3+/AT5+"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Ametralladora pesada doble",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Armado con un Megabólter Vulcan o dos Vanquisher."
+  },
+  {
+   "nombre": "Ordinatus Majoris",
+   "tipo": "MG",
+   "velocidad": "10cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "0–1× Disruptor sónico",
+     "alcance": "100cm",
+     "potencia": "10PA, FxF, D, IC"
+    },
+    {
+     "nombre": "0–1× Misiles Hellfire",
+     "alcance": "Unlimited",
+     "potencia": "3PA, FxF, Ind, MA, Baj"
+    },
+    {
+     "nombre": "0–1× Cañón nova",
+     "alcance": "100cm",
+     "potencia": "4× MA3+, FxF, MT(D3)"
+    },
+    {
+     "nombre": "2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Factor de Daños 4, Coraje, Inspirador, Blindaje Reforzado, 4 Pantallas de Vacío. Efecto de Impacto Crítico: destruida. Todas las unidades a 15 cm o menos de la miniatura sufren un impacto con 5+ y todas las formaciones del Adeptus Mechanicus con una unidad con línea de fuego hacia el Ordinatus Majoris reciben un Marcador de Explosión. Los Ordinatus de Marte van armados con un Disruptor Sónico; los Ordinatus de Golgotha, con Misiles Hellfire (que usan la plantilla de 12 cm); y los Ordinatus de Armageddon, con un Cañón Nova."
+  },
+  {
+   "nombre": "Ordinatus Minorus",
+   "tipo": "MG",
+   "velocidad": "15cm (25cm)",
+   "blindaje": "5+",
+   "cc": "6+ (3+)",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Montura de armas de capa ‐",
+     "alcance": "-",
+     "potencia": "FxF, WM"
+    },
+    {
+     "nombre": "razón 2× Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+/AA6+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío. Efecto de Impacto Crítico: destruida. Todas las unidades a 15 cm o menos de la miniatura sufren un impacto con 5+. Si se monta un Arma de combate cuerpo a cuerpo o un Quemador láser en el Montura de armas de caparazón, la unidad tiene un valor de combate cuerpo a cuerpo de 3+. Si se monta una Cápsula de Asalto Corvus en el Montura de armas de caparazón, la unidad tiene una velocidad de 25 cm."
+  },
+  {
+   "nombre": "Avenger Strike Fighter",
+   "nombreEs": "Caza de Ataque Avenger",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón bólter Avenger",
+     "alcance": "30cm",
+     "potencia": "2× AP3+/AT5+, FxF"
+    },
+    {
+     "nombre": "2× Cañón láser",
+     "alcance": "30cm",
+     "potencia": "AT5+/AA5+, FxF"
+    },
+    {
+     "nombre": "Ametralladora pesada",
+     "alcance": "15cm",
+     "potencia": "AA6+, Pos"
+    }
+   ],
+   "notas": ""
   }
  ]
 }
