@@ -92,10 +92,14 @@ export function EditorEpic({ lista, onCambiar, onVolver, onBorrar, onDuplicar }:
           ? <div className="issues"><b>⚠ Revisa el ejército</b><ul>{problemas.map(p => <li key={p}>{p}</li>)}</ul></div>
           : lista.formaciones.length > 0 && <div className="okbox">✔ Ejército válido</div>}
 
+        <div className="ejinfo">
+          <span><small>Factor de estrategia</small><b>{e.estrategia ?? '–'}</b></span>
+          <span><small>Iniciativa</small>{e.iniciativaEs ?? e.iniciativa}</span>
+        </div>
+
         <details className="rules">
-          <summary>Reglas de <Bi es={e.nombreEs} en={e.nombre} /></summary>
-          <p className="hint">Versión NetEA {e.version} · Estrategia {e.estrategia ?? '-'}</p>
-          <p className="hint"><Bi es={e.iniciativaEs} en={e.iniciativa} /></p>
+          <summary>Notas de la lista de <Bi es={e.nombreEs} en={e.nombre} /></summary>
+          <p className="hint">Lista NetEA versión {e.version}</p>
           <ul>{e.secciones.filter(s => s.nota).map(s => <li key={s.id}><b><Bi es={s.nombreEs} en={s.nombre} />:</b> <Bi es={s.notaEs} en={s.nota} /></li>)}</ul>
         </details>
 

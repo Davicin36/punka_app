@@ -60,6 +60,9 @@ export function unidadesEnTexto(e: EjercitoEpic, texto: string): Encontrada[] {
 
 export const fichaDe = (e: EjercitoEpic, nombre: string): FichaEpic | undefined => e.fichas?.find(f => f.nombre === nombre);
 
+/** Nombre en castellano de una unidad (según su perfil de atributos) */
+export const nombreUnidad = (e: EjercitoEpic, nombre: string) => fichaDe(e, nombre)?.nombreEs ?? nombre;
+
 /** Grupos de alternativas («A, B or C») dentro de un texto, con cuántas hay que escoger. */
 function gruposEnTexto(e: EjercitoEpic, texto: string): { opciones: string[]; min: number; max: number; personaje: boolean }[] {
   const us = unidadesEnTexto(e, texto);
@@ -91,7 +94,7 @@ function gruposEnTexto(e: EjercitoEpic, texto: string): { opciones: string[]; mi
         if (/up to/.test(previo)) min = 0;
         const entre = previo.match(/between (\w+) and$/);
         if (entre) { const a = numero(entre[1]); if (a !== undefined) min = a; }
-        const personaje = opciones.every(o => fichaDe(e, o)?.tipo === 'CH');
+        const personaje = opciones.every(o => ['CH', 'PJ'].includes(fichaDe(e, o)?.tipo ?? ''));
         out.push({ opciones, min, max, personaje });
       }
     }
@@ -142,8 +145,9 @@ export function problemasReparto(e: EjercitoEpic, fe: FormacionElegida): string[
   return gruposEleccion(e, fe).flatMap(g => {
     const t = totalReparto(fe, g.clave);
     const que = g.personaje ? 'personaje' : 'unidades';
-    if (t < g.min) return [`${g.origen}: elige ${g.min === g.max ? g.min : `al menos ${g.min}`} ${que} (${g.opciones.join(' / ')}); llevas ${t}.`];
-    if (t > g.max) return [`${g.origen}: máximo ${g.max} ${que}; llevas ${t}.`];
+    const origen = g.origen === 'Unidades' ? 'Unidades de la formación' : g.origen;
+    if (t < g.min) return [`${origen}: elige ${g.min === g.max ? g.min : `al menos ${g.min}`} ${que} (${g.opciones.map(o => nombreUnidad(e, o)).join(' / ')}); llevas ${t}.`];
+    if (t > g.max) return [`${origen}: máximo ${g.max} ${que}; llevas ${t}.`];
     return [];
   });
 }
@@ -153,7 +157,7 @@ export function textoReparto(e: EjercitoEpic, fe: FormacionElegida): { origen: s
   return gruposEleccion(e, fe).flatMap(g => {
     const r = Object.entries(fe.reparto?.[g.clave] ?? {}).filter(([o, n]) => n > 0 && g.opciones.includes(o));
     if (!r.length) return [];
-    return [{ origen: g.origen, texto: r.map(([o, n]) => (g.max === 1 ? o : `${n} ${o}`)).join(', ') }];
+    return [{ origen: g.origen, texto: r.map(([o, n]) => (g.max === 1 ? nombreUnidad(e, o) : `${n} ${nombreUnidad(e, o)}`)).join(', ') }];
   });
 }
 

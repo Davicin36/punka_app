@@ -173,7 +173,7 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
     const m = mejoraDe(e, nombre);
     return n > 0 && !!m && /0–1 (of one of the following options|Supreme Commander) per army/.test(m.texto) && (fe.variantes[nombre] ?? 0) > 0;
   })).length;
-  if (supremos > 1) out.push(`Comandante supremo (Supreme Commander): máximo 1 por ejército; tienes ${supremos}.`);
+  if (supremos > 1) out.push(`Comandante en jefe (Supreme Commander): máximo 1 por ejército; tienes ${supremos}.`);
 
   // Problemas de cada formación
   l.formaciones.forEach((fe, i) => {
@@ -203,7 +203,7 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
 }
 
 export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
-  const lineas = [`${l.nombre} — ${nom(e)} (NetEA ${e.version})`, `${costeLista(e, l)}/${l.puntos} puntos · Estrategia ${e.estrategia ?? '-'}`, ''];
+  const lineas = [`${l.nombre} — ${nom(e)} (NetEA ${e.version})`, `${costeLista(e, l)}/${l.puntos} puntos · Factor de estrategia ${e.estrategia ?? '-'}`, `Iniciativa: ${es(e.iniciativaEs, e.iniciativa)}`, ''];
   for (const s of e.secciones) {
     const fs = l.formaciones.filter(fe => formacionDe(e, fe.formacion)?.seccion === s.id);
     if (!fs.length) continue;

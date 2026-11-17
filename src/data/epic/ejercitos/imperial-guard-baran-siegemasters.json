@@ -10,7 +10,7 @@
    "nombre": "Baran Siegemaster Companies",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Compañías de los Maestros de Asedio de Baran"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "baran-siegemaster-company-upgrades",
@@ -19,8 +19,8 @@
    "nota": "Up to three company upgrades may be taken once per company.",
    "maxPorFormacion": 3,
    "unaVez": true,
-   "nombreEs": "Mejoras de compañía de los Maestros de Asedio de Baran",
-   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía.",
+   "nombreEs": "Mejoras de compañía de los Maestros de Asedio de Baran"
   },
   {
    "id": "baran-siegemaster-support-formations",
@@ -31,8 +31,8 @@
     "cantidad": 2,
     "base": "company"
    },
-   "nombreEs": "Formaciones de apoyo de los Maestros de Asedio de Baran",
-   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "baran-siegemaster-fortified-positions",
@@ -43,16 +43,16 @@
     "cantidad": 1,
     "base": "company"
    },
-   "nombreEs": "Posiciones fortificadas de los Maestros de Asedio de Baran",
-   "notaEs": "Se puede desplegar una por cada compañía."
+   "notaEs": "Se puede desplegar una por cada compañía.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "imperial-navy-aircraft",
    "nombre": "Imperial Navy Aircraft",
    "tipo": "tercio",
    "nota": "Up to a fourth of the points available may be spent on these formations.",
-   "nombreEs": "Aeronaves de la Armada Imperial",
-   "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Lista de ejército"
   }
  ],
  "formaciones": [
@@ -63,8 +63,8 @@
    "unidades": "One Commander unit and nine Siege Infantry units",
    "coste": 175,
    "costeTexto": "175 points",
-   "nombreEs": "Compañía de infantería",
-   "unidadesEs": "Una unidad de Commander y nueve de Siege Infantry"
+   "nombreEs": "Compañía de Infantería",
+   "unidadesEs": "Una unidad de Comandante y nueve unidades de Infantería de Asedio"
   },
   {
    "id": "baran-siegemaster-companies-1-regimental-hq",
@@ -73,8 +73,8 @@
    "unidades": "One Supreme Commander unit and nine Siege Infantry units",
    "coste": 225,
    "costeTexto": "225 points",
-   "nombreEs": "1 Cuartel general regimental",
-   "unidadesEs": "Una unidad de Supreme Commander y nueve de Siege Infantry"
+   "nombreEs": "1 Cuartel General Regimental",
+   "unidadesEs": "Una unidad de Comandante en jefe y nueve unidades de Infantería de Asedio"
   },
   {
    "id": "baran-siegemaster-support-formations-artillery-battery",
@@ -83,8 +83,8 @@
    "unidades": "Three Götterdämmerung Howitzers and three Bruenhilde",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Batería de artillería",
-   "unidadesEs": "Tres Götterdämmerung Howitzers y tres Bruenhilde"
+   "nombreEs": "Batería de Artillería",
+   "unidadesEs": "Tres Obuses Götterdämmerung y tres Bruenhilde"
   },
   {
    "id": "baran-siegemaster-support-formations-artillery-company",
@@ -93,8 +93,8 @@
    "unidades": "Nine Götterdämmerung Howitzers and nine Gun Emplacements",
    "coste": 425,
    "costeTexto": "425 points",
-   "nombreEs": "Compañía de artillería",
-   "unidadesEs": "Nueve Götterdämmerung Howitzers y nueve Gun Emplacements"
+   "nombreEs": "Compañía de Artillería",
+   "unidadesEs": "Nueve Obuses Götterdämmerung y nueve Emplazamientos de Armas"
   },
   {
    "id": "baran-siegemaster-support-formations-bombard-battery",
@@ -103,7 +103,7 @@
    "unidades": "Three Bombards",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Batería de Bombards",
+   "nombreEs": "Batería Bombard",
    "unidadesEs": "Tres Bombards"
   },
   {
@@ -124,8 +124,8 @@
    "unidades": "Three Blitzen AA Guns and either three Bruenhilde or three Gun Emplacements",
    "coste": 125,
    "costeTexto": "125 points",
-   "nombreEs": "Batería antiaérea",
-   "unidadesEs": "Tres Blitzen AA Guns y además tres Bruenhilde o tres Gun Emplacements"
+   "nombreEs": "Batería Antiaérea",
+   "unidadesEs": "Tres Cañones Antiaéreos Blitzen y tres Bruenhilde o tres Emplazamientos de Armas"
   },
   {
    "id": "baran-siegemaster-support-formations-heavy-tank-platoon",
@@ -134,8 +134,8 @@
    "unidades": "Six Ragnarok Heavy Tanks",
    "coste": 300,
    "costeTexto": "300 points",
-   "nombreEs": "Pelotón de tanques pesados",
-   "unidadesEs": "Seis Ragnarok Heavy Tanks"
+   "nombreEs": "Pelotón de Tanques Pesados",
+   "unidadesEs": "Seis Tanques Pesados Ragnarok"
   },
   {
    "id": "baran-siegemaster-support-formations-light-tank-platoon",
@@ -144,8 +144,8 @@
    "unidades": "Six Siegfried Light Tanks",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón de tanques ligeros",
-   "unidadesEs": "Seis Siegfried Light Tanks"
+   "nombreEs": "Pelotón de Tanques Ligeros",
+   "unidadesEs": "Seis Tanques Ligeros Siegfried"
   },
   {
    "id": "baran-siegemaster-support-formations-rough-rider-platoon",
@@ -154,8 +154,8 @@
    "unidades": "Six Rough Rider units",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón de Rough Riders",
-   "unidadesEs": "Seis unidades de Rough Rider"
+   "nombreEs": "Pelotón de Jinetes Rudos",
+   "unidadesEs": "Seis unidades de Jinetes Rudos"
   },
   {
    "id": "baran-siegemaster-support-formations-sapper-platoon",
@@ -165,8 +165,8 @@
    "coste": 250,
    "costeTexto": "250 points",
    "max": 1,
-   "nombreEs": "Pelotón de zapadores",
-   "unidadesEs": "Ocho Sappers (pueden repartirse entre una o más compañías del ejército, o desplegarse como una formación propia)."
+   "nombreEs": "Pelotón de Zapadores",
+   "unidadesEs": "Ocho Zapadores (pueden repartirse y añadirse a una o más compañías del ejército, o desplegarse como formación propia)"
   },
   {
    "id": "baran-siegemaster-support-formations-super-heavy-tank-platoon",
@@ -175,7 +175,7 @@
    "unidades": "One Baneblade or Shadowsword",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Pelotón de tanques superpesados",
+   "nombreEs": "Pelotón de Tanques Superpesados",
    "unidadesEs": "Un Baneblade o Shadowsword"
   },
   {
@@ -185,7 +185,7 @@
    "unidades": "Up to 52cm of trenches and 52cm of razor wire, plus up to six of the following: Gun Emplacements, Bunkers",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Posiciones fortificadas",
+   "nombreEs": "Posiciones Fortificadas",
    "unidadesEs": "Hasta 52 cm de trincheras y 52 cm de alambre de espino, más hasta seis de estas: Gun Emplacements, Bunkers"
   },
   {
@@ -195,8 +195,8 @@
    "unidades": "Two Marauder Bombers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Escuadrón de Marauders",
-   "unidadesEs": "Dos Marauder Bombers"
+   "nombreEs": "Escuadrón Marauder",
+   "unidadesEs": "Dos Bombarderos Marauder"
   },
   {
    "id": "imperial-navy-aircraft-thunderbolt-squadron",
@@ -205,8 +205,8 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   }
  ],
  "mejoras": [
@@ -217,7 +217,7 @@
    "texto": "Add three Griffons",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Batería de Griffons",
+   "nombreEs": "Batería Griffon",
    "textoEs": "Añade tres Griffons"
   },
   {
@@ -229,7 +229,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 3,
-   "nombreEs": "Escuadrón de Hellhounds",
+   "nombreEs": "Escuadrón Hellhound",
    "textoEs": "Añade hasta tres Hellhounds"
   },
   {
@@ -239,8 +239,8 @@
    "texto": "Add three Rapier Laser Destroyer units",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Pelotón de Rapiers",
-   "textoEs": "Añade tres unidades de Rapier Laser Destroyer"
+   "nombreEs": "Pelotón Rapier",
+   "textoEs": "Añade tres unidades de Destructor Láser Rapier"
   },
   {
    "id": "siege-infantry-platoon",
@@ -249,8 +249,8 @@
    "texto": "Add six Siege Infantry units",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Pelotón de infantería de asedio",
-   "textoEs": "Añade seis unidades de Siege Infantry"
+   "nombreEs": "Pelotón de Infantería de Asedio",
+   "textoEs": "Añade seis unidades de Infantería de Asedio"
   },
   {
    "id": "snipers",
@@ -262,7 +262,7 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Francotiradores",
-   "textoEs": "Añade hasta dos Snipers"
+   "textoEs": "Añade hasta dos Francotiradores"
   },
   {
    "id": "thudd-gun-platoon",
@@ -271,43 +271,49 @@
    "texto": "Add three Thudd Gun units",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Pelotón de Thudd Guns",
+   "nombreEs": "Pelotón Thudd Gun",
    "textoEs": "Añade tres unidades de Thudd Gun"
   }
  ],
  "compras": [],
  "fraccionAliados": 0.25,
- "nombreEs": "Guardia Imperial – Maestros de Asedio de Baran",
- "iniciativaEs": "Todas las formaciones tienen iniciativa 2+.",
+ "nombreEs": "Guardia Imperial – Maestros del Asedio de Baran",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.7",
-   "titulo": "Lista de ejército de la Guardia Imperial de los Asediadores de Baran",
+   "titulo": "Lista de ejército de la Guardia Imperial de los Maestros del Asedio de Baran",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.7 y 5.3.",
-    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio del tipo de los Asediadores de Baran. También puede usarse como lista «sustituta» para otros regimientos de asedio de la Guardia Imperial y otros tipos de regimientos de defensa estática, y es además una lista excelente para representar las fuerzas de defensa planetaria que despliegan los Gobernadores Imperiales por todo el Imperio. Las formaciones de los Asediadores de Baran son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Posiciones Fortificadas. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
-    "Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Los ejércitos de los Asediadores de Baran pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
-    "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de los Asediadores de Baran (véase 6.4.1).",
+    "de decirles a esos malditos orkos que se largaran de nuestra maldita tierra!» — Anónimo",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.7 y 5.3.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio del tipo de los Maestros del Asedio de Baran. También puede usarse como lista «sustituta» para otros regimientos de asedio de la Guardia Imperial y otros tipos de regimientos de defensa estática, y es además una lista excelente para representar las fuerzas de defensa planetaria que despliegan los Gobernadores Imperiales por todo el Imperio. Las formaciones de los Maestros del Asedio de Baran son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Posiciones Fortificadas. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Los ejércitos de los Maestros del Asedio de Baran pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de los Maestros del Asedio de Baran (véase 6.4.1).",
     "FAQ",
-    "P: Si un Pelotón de Zapadores se divide y se añade a una o más compañías, ¿se ven afectados la meta Quebrar su Moral o el desempate?",
-    "R: Sí; cada unidad de Zapadores suma +30 puntos a la compañía a la que se añade."
+    "P: Si un Pelotón de Zapadores se divide y se añade a una o más compañías, ¿se ven afectados el éxito Romper su espíritu o el desempate?",
+    "R: Sí; cada unidad de Zapadores suma +30 puntos a la compañía a la que se añade.",
+    "FACTOR DE E STRATEGIA: 1",
+    "I N I C I AT I VA",
+    "Todas las formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Cuartel General Regimental: el ejército incluye uno.",
+    "• Posiciones Fortificadas (una por compañía, +75 puntos): hasta 52 cm de trincheras y 52 cm de alambrada de espino, más hasta seis cualesquiera de: Emplazamientos de Armas, Búnkeres.",
+    "• 0–1 Pelotón de Zapadores: sus ocho Zapadores pueden repartirse y añadirse a una o más compañías del ejército, o desplegarse como formación propia. 0–1 Batería Deathstrike.",
+    "• Cada compañía puede llevar hasta tres mejoras, una de cada tipo, y permite desplegar dos formaciones de apoyo. Puede gastarse hasta una cuarta parte de los puntos en aeronaves de la Armada Imperial."
    ]
   },
   {
    "id": "6.7.1",
-   "titulo": "Cuarteles Generales de Regimiento",
+   "titulo": "Cuarteles Generales Regimentales",
    "parrafos": [
     "(Regimental HQs)",
-    "En las partidas de torneo de Epic, un ejército de Asediadores debe incluir un Cuartel General de Regimiento. El enemigo cuenta como si hubiera conseguido la meta «Quebrar su Mo‐",
-    "ral» destruyendo esta formación o destruyendo la formación más cara del ejército (véase 6.1.7)."
+    "En las partidas de torneo de Epic, un ejército de Maestros del Asedio debe incluir un Cuartel General Regimental. El enemigo cuenta como si hubiera conseguido el éxito «Romper su espíritu» destruyendo esta formación o destruyendo la formación más cara del ejército (véase 6.1.7)."
    ]
   },
   {
    "id": "6.7.2",
    "titulo": "Posiciones Fortificadas",
    "parrafos": [
-    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las guarniciones. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte.",
-    "Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
+    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las patrullas. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte. Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
     "Una vez desplegadas, las posiciones fortificadas pueden ser usadas por cualquier unidad (incluidas las enemigas).",
     "FAQ",
     "P: ¿Hay que desplegar todas las Posiciones Fortificadas adquiridas?",
@@ -322,15 +328,15 @@
   },
   {
    "id": "5.7.1",
-   "titulo": "Posiciones Fortificadas de los Asediadores de Baran",
+   "titulo": "Posiciones Fortificadas de los Maestros del Asedio de Baran",
    "parrafos": [
-    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. Las unidades en un búnker no pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Emplazamiento de Armas (Gun Emplacement): Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento no pueden ser apartadas a empujones por un ingenio de guerra.",
-    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. Las unidades en un búnker no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Emplazamiento de Armas (Gun Emplacement): Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento no pueden ser apartadas a empujones por una Máquina de Guerra.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por una Máquina de Guerra.",
     "Tabla de efectos de las posiciones fortificadas Terreno",
     "Infantería",
     "Vehículo",
-    "Ingenio de Guerra",
+    "Máquina de Guerra",
     "Búnker",
     "Salv. cobertura 3+",
     "Peligroso",
@@ -365,29 +371,31 @@
    "titulo": "Comisarios (Commissars)",
    "parrafos": [
     "Un ejército de la Guardia Imperial puede incluir un personaje Comisario por cada 500 puntos, o fracción, del ejército. Los Comisarios no cuestan puntos.",
-    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
+    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante en jefe, el primer Comisario debe asignarse a la formación del Comandante en jefe. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
    ]
   }
  ],
  "fichas": [
   {
    "nombre": "Commissar",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Comisario",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Inspiring, Leader."
+   "notas": "Coraje, Inspirador, Líder."
   },
   {
    "nombre": "Commander",
+   "nombreEs": "Comandante",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -395,15 +403,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Commander."
+   "notas": "Comandante."
   },
   {
    "nombre": "Rapier Laser Destroyer",
+   "nombreEs": "Destructor Láser Rapier",
    "tipo": "INF",
    "velocidad": "10cm",
    "blindaje": "-",
@@ -411,7 +420,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Rapier Laser Destroyer",
+     "nombre": "Destructor láser Rapier",
      "alcance": "45cm",
      "potencia": "AP6+/AT4+"
     }
@@ -420,6 +429,7 @@
   },
   {
    "nombre": "Rough Riders",
+   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",
@@ -427,20 +437,21 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Laspistols",
+     "nombre": "Pistolas láser",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Power Lances",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), FS"
+     "nombre": "Lanzas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP"
     }
    ],
-   "notas": "Infiltrator, Mounted, Scout."
+   "notas": "Infiltrador, Montado, Explorador."
   },
   {
    "nombre": "Sappers",
+   "nombreEs": "Zapadores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -448,25 +459,26 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Flamer",
+     "nombre": "Lanzallamas pesado",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
     {
-     "nombre": "y Heavy Flamer",
+     "nombre": "y Lanzallamas pesado",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, IC"
+     "potencia": "Armas ligeras, IC"
     },
     {
-     "nombre": "Melta Bombs",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Bombas de fusión",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Walker."
+   "notas": "Bípode."
   },
   {
    "nombre": "Siege Infantry",
+   "nombreEs": "Infantería de Asedio",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -474,7 +486,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Stubber",
+     "nombre": "Ametralladora pesada",
      "alcance": "30cm",
      "potencia": "AP6+"
     }
@@ -483,6 +495,7 @@
   },
   {
    "nombre": "Snipers",
+   "nombreEs": "Francotiradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -490,15 +503,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Sniper Rifles",
+     "nombre": "Rifles de francotirador",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Scout, Sniper."
+   "notas": "Explorador, Francotirador."
   },
   {
    "nombre": "Supreme Commander",
+   "nombreEs": "Comandante en jefe",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -506,17 +520,17 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Supreme Commander."
+   "notas": "Comandante en jefe."
   },
   {
    "nombre": "Thudd Gun",
@@ -536,14 +550,15 @@
   },
   {
    "nombre": "Blitzen AA Gun",
-   "tipo": "LV",
+   "nombreEs": "Cañón antiaéreo Blitzen",
+   "tipo": "VL",
    "velocidad": "0cm",
    "blindaje": "-",
    "cc": "-",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Blitzen Cannon",
+     "nombre": "Cañón Blitzen",
      "alcance": "60cm",
      "potencia": "AP6+/AT5+/AA5+"
     }
@@ -552,67 +567,68 @@
   },
   {
    "nombre": "Bruenhilde",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "15cm",
    "blindaje": "6+",
    "cc": "-",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Heavy Stubber",
+     "nombre": "Ametralladora pesada",
      "alcance": "30cm",
      "potencia": "AP6+"
     }
    ],
-   "notas": "Transport. May transport one of the following units: Blitzen AA Gun, Götterdämmerung Howitzer, Rapier Laser Destroyer, Thudd Gun."
+   "notas": "Transporte. Puede transportar una de las siguientes unidades: Cañón antiaéreo Blitzen, Obús Götterdämmerung, Destructor Láser Rapier, Thudd Gun."
   },
   {
    "nombre": "Götterdämmerung Howitzer",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "0cm",
    "blindaje": "-",
    "cc": "-",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Howitzer",
+     "nombre": "Obús",
      "alcance": "90cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Siegfried Light Tank",
-   "tipo": "AV",
+   "nombreEs": "Tanque Ligero Siegfried",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Scout."
+   "notas": "Explorador."
   },
   {
    "nombre": "Bombard",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Siege Mortar",
+     "nombre": "Mortero de asedio",
      "alcance": "45cm",
-     "potencia": "2BP, IC, Ind"
+     "potencia": "2PA, IC, Ind"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -621,19 +637,19 @@
   },
   {
    "nombre": "Deathstrike",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Deathstrike Missile",
+     "nombre": "Misil Deathstrike",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D6)"
+     "potencia": "MA2+, Ind, DU, MT(D6)"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -642,19 +658,19 @@
   },
   {
    "nombre": "Griffon",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Mortar",
+     "nombre": "Mortero pesado",
      "alcance": "30cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -663,19 +679,19 @@
   },
   {
    "nombre": "Hellhound",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Inferno Cannon",
+     "nombre": "Cañón Inferno",
      "alcance": "30cm",
      "potencia": "AP3+, IC"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -684,102 +700,104 @@
   },
   {
    "nombre": "Ragnarok Heavy Tank",
-   "tipo": "AV",
+   "nombreEs": "Tanque Pesado Ragnarok",
+   "tipo": "VB",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Ragnarok Battlecannon",
+     "nombre": "Cañón de batalla Ragnarok",
      "alcance": "60cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "2× Heavy Stubber",
+     "nombre": "2× Ametralladora pesada",
      "alcance": "30cm",
      "potencia": "AP6+"
     }
    ],
-   "notas": "Reinforced Armour, Walker."
+   "notas": "Blindaje Reforzado, Bípode."
   },
   {
    "nombre": "Baneblade",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Baneblade Battle Cannon",
+     "nombre": "Cañón de batalla Baneblade",
      "alcance": "75cm",
      "potencia": "2× AP3+/AT3+"
     },
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Demolisher",
+     "nombre": "Cañón Demolisher",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, FxF, IC"
     },
     {
-     "nombre": "2× Lascannon",
+     "nombre": "2× Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     },
     {
-     "nombre": "3× Twin Heavy Bolter",
+     "nombre": "3× Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 6+."
   },
   {
    "nombre": "Shadowsword",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Volcano Cannon",
+     "nombre": "Cañón Volcán",
      "alcance": "90cm",
-     "potencia": "MW2+, FxF, TK(D3)"
+     "potencia": "MA2+, FxF, MT(D3)"
     },
     {
-     "nombre": "2× Heavy Bolter",
+     "nombre": "2× Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado. Efecto de Impacto Crítico: destruida. Todas las unidades a 5 cm o menos de la miniatura sufren un impacto con 6+."
   },
   {
    "nombre": "Marauder Bomber",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Bomb Racks",
+     "nombre": "Soportes de bombas",
      "alcance": "15cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Twin Heavy Bolter",
+     "nombre": "2× Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }
@@ -788,24 +806,25 @@
   },
   {
    "nombre": "Thunderbolt Fighter",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+, FxF"
     },
     {
-     "nombre": "Underwing Rockets",
+     "nombre": "Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     },
     {
-     "nombre": "Storm Bolters",
+     "nombre": "Bólters de asalto",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+, FxF"
     }
@@ -814,37 +833,39 @@
   },
   {
    "nombre": "Emperor Class Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "8BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
     }
    ],
-   "notas": "Slow and Steady."
+   "notas": "Lenta y tediosa."
   },
   {
    "nombre": "Lunar Class Cruiser",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
    "notas": ""

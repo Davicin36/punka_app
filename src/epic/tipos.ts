@@ -105,6 +105,8 @@ export interface ArmaEpic {
 
 export interface FichaEpic {
   nombre: string;
+  /** Nombre en castellano (compendio) */
+  nombreEs?: string;
   tipo: string;
   velocidad: string;
   blindaje: string;
@@ -127,6 +129,10 @@ export interface EntradaIndice {
   nombreEs?: string;
   familia: string;
   familiaEs?: string;
+  /** Factor de estrategia */
+  estrategia?: number | null;
+  /** Texto de iniciativa en castellano */
+  iniciativaEs?: string;
   version: string;
 }
 

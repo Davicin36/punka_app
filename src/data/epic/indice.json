@@ -4,21 +4,30 @@
   "nombre": "Adeptus Mechanicus – Knight World",
   "familia": "Adeptus Mechanicus",
   "version": "2026-02-05",
-  "nombreEs": "Adeptus Mechanicus – Mundo Caballero"
+  "nombreEs": "Adeptus Mechanicus – Mundo Caballero (Casa Lakar)",
+  "familiaEs": "Adeptus Mechanicus",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+, pero las formaciones de Casa de Caballeros y de Casa de Apoyo reciben modificadores (véase Valor de Caballero)."
  },
  {
   "id": "adeptus-mechanicus-skitarii-legion",
   "nombre": "Adeptus Mechanicus – Skitarii Legion",
   "familia": "Adeptus Mechanicus",
   "version": "2026-02-05",
-  "nombreEs": "Adeptus Mechanicus – Legión Skitarii"
+  "nombreEs": "Adeptus Mechanicus – Legión Skitarii",
+  "familiaEs": "Adeptus Mechanicus",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "adeptus-mechanicus-titan-legion",
   "nombre": "Adeptus Mechanicus – Titan Legion",
   "familia": "Adeptus Mechanicus",
   "version": "2026-02-05",
-  "nombreEs": "Adeptus Mechanicus – Legio Titanicus"
+  "nombreEs": "Adeptus Mechanicus – Legión de Titanes",
+  "familiaEs": "Adeptus Mechanicus",
+  "estrategia": 3,
+  "iniciativaEs": "Las formaciones de Titanes de batalla y de exploración tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "chaos-cultist-slaves-to-darkness",
@@ -26,15 +35,19 @@
   "familia": "Chaos Cultist",
   "version": "2026-07-16",
   "nombreEs": "Cultistas del Caos – Esclavos de la Oscuridad",
-  "familiaEs": "Cultistas del Caos"
+  "familiaEs": "Cultistas del Caos",
+  "estrategia": 1,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "chaos-cultist-stigmatus-covenant",
   "nombre": "Chaos Cultist – Stigmatus Covenant",
   "familia": "Chaos Cultist",
   "version": "2026-07-16",
-  "nombreEs": "Cultistas del Caos – Pacto Stigmatus",
-  "familiaEs": "Cultistas del Caos"
+  "nombreEs": "Cultistas del Caos – Culto Stigmatus",
+  "familiaEs": "Cultistas del Caos",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben un modificador según la proximidad de otras formaciones (véase Facciones)."
  },
  {
   "id": "chaos-space-marine-black-legion",
@@ -42,7 +55,9 @@
   "familia": "Chaos Space Marine",
   "version": "2026-07-16",
   "nombreEs": "Marines Espaciales del Caos – Legión Negra",
-  "familiaEs": "Marines Espaciales del Caos"
+  "familiaEs": "Marines Espaciales del Caos",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "chaos-space-marine-emperors-children",
@@ -50,7 +65,9 @@
   "familia": "Chaos Space Marine",
   "version": "2026-07-16",
   "nombreEs": "Marines Espaciales del Caos – Hijos del Emperador",
-  "familiaEs": "Marines Espaciales del Caos"
+  "familiaEs": "Marines Espaciales del Caos",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de la Armada del Caos, Questor, Subyugador y Manada de Caballeros tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "chaos-space-marine-iron-warriors",
@@ -58,7 +75,9 @@
   "familia": "Chaos Space Marine",
   "version": "2026-07-16",
   "nombreEs": "Marines Espaciales del Caos – Guerreros de Hierro",
-  "familiaEs": "Marines Espaciales del Caos"
+  "familiaEs": "Marines Espaciales del Caos",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "chaos-space-marine-red-corsairs",
@@ -66,55 +85,79 @@
   "familia": "Chaos Space Marine",
   "version": "2026-07-16",
   "nombreEs": "Marines Espaciales del Caos – Corsarios Rojos",
-  "familiaEs": "Marines Espaciales del Caos"
+  "familiaEs": "Marines Espaciales del Caos",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de la Armada del Caos, Drones de la Plaga, Matarifes de Sangre, Escorpiones de Bronce, Caballeros Demonio, Defilers y Torres de Plata tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "dark-eldar",
   "nombre": "Dark Eldar",
   "familia": "Dark Eldar",
   "version": "2026-02-05",
-  "nombreEs": "Eldar Oscuros",
-  "familiaEs": "Eldar Oscuros"
+  "nombreEs": "Eldars Oscuros",
+  "familiaEs": "Eldars Oscuros",
+  "estrategia": 3,
+  "iniciativaEs": "Las formaciones de Cábalas eldars oscuras, Atormentador y Executor tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "eldar-alaitoc",
   "nombre": "Eldar – Alaitoc",
   "familia": "Eldar",
-  "version": "2026-02-03"
+  "version": "2026-02-03",
+  "nombreEs": "Eldars – Mundo Astronave Alaitoc",
+  "familiaEs": "Eldars",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "eldar-biel-tan",
   "nombre": "Eldar – Biel-Tan",
   "familia": "Eldar",
-  "version": "2026-02-03"
+  "version": "2026-02-03",
+  "nombreEs": "Eldars – Mundo Astronave Biel-Tan",
+  "familiaEs": "Eldars",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "eldar-iyanden",
   "nombre": "Eldar – Iyanden",
   "familia": "Eldar",
-  "version": "2026-02-03"
+  "version": "2026-02-03",
+  "nombreEs": "Eldars – Mundo Astronave Iyanden",
+  "familiaEs": "Eldars",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo, así como la formación que incluya al Vidente Espectral, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "eldar-saim-hann",
   "nombre": "Eldar – Saim-Hann",
   "familia": "Eldar",
-  "version": "2026-02-03"
+  "version": "2026-02-03",
+  "nombreEs": "Eldars – Mundo Astronave Saim-Hann",
+  "familiaEs": "Eldars",
+  "estrategia": 4,
+  "iniciativaEs": "Las formaciones de Avatar, Lanzas Brillantes, Guerreros Aspecto y Revenants tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-baran-siegemasters",
   "nombre": "Imperial Guard – Baran Siegemasters",
   "familia": "Imperial Guard",
   "version": "2026-02-05",
-  "nombreEs": "Guardia Imperial – Maestros de Asedio de Baran",
-  "familiaEs": "Guardia Imperial"
+  "nombreEs": "Guardia Imperial – Maestros del Asedio de Baran",
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 1,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-death-korps-of-krieg",
   "nombre": "Imperial Guard – Death Korps of Krieg",
   "familia": "Imperial Guard",
   "version": "2026-02-05",
-  "nombreEs": "Guardia Imperial – Cuerpo de la Muerte de Krieg",
-  "familiaEs": "Guardia Imperial"
+  "nombreEs": "Guardia Imperial – Korps de la Muerte de Krieg",
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-minervan-tank-legion",
@@ -122,7 +165,9 @@
   "familia": "Imperial Guard",
   "version": "2026-02-03",
   "nombreEs": "Guardia Imperial – Legión Acorazada de Minerva",
-  "familiaEs": "Guardia Imperial"
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-steel-legion",
@@ -130,7 +175,9 @@
   "familia": "Imperial Guard",
   "version": "2026-02-03",
   "nombreEs": "Guardia Imperial – Legión de Acero",
-  "familiaEs": "Guardia Imperial"
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "inquisition-ordo-xenos",
@@ -138,7 +185,9 @@
   "familia": "Inquisition",
   "version": "2026-02-03",
   "nombreEs": "Inquisición – Ordo Xenos",
-  "familiaEs": "Inquisición"
+  "familiaEs": "Inquisición",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales y las de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "necron",
@@ -146,39 +195,49 @@
   "familia": "Necron",
   "version": "2026-02-04",
   "nombreEs": "Necrones",
-  "familiaEs": "Necrones"
+  "familiaEs": "Necrones",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 1+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase Avance Implacable)."
  },
  {
   "id": "ork-feral-orks",
   "nombre": "Ork – Feral Orks",
   "familia": "Ork",
   "version": "2026-02-04",
-  "nombreEs": "Orkos – Orkos salvajes",
-  "familiaEs": "Orkos"
+  "nombreEs": "Orkos – Orkos Zalvajez",
+  "familiaEs": "Orkos",
+  "estrategia": 3,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "ork-gargant-mob",
   "nombre": "Ork – Gargant Mob",
   "familia": "Ork",
   "version": "2026-07-16",
-  "nombreEs": "Orkos – Banda Gargant",
-  "familiaEs": "Orkos"
+  "nombreEs": "Orkos – Gran Turba de Gargantes",
+  "familiaEs": "Orkos",
+  "estrategia": 3,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al activarse (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "ork-speed-freeks",
   "nombre": "Ork – Speed Freeks",
   "familia": "Ork",
   "version": "2026-02-05",
-  "nombreEs": "Orkos – Speed Freeks",
-  "familiaEs": "Orkos"
+  "nombreEs": "Orkos – Lokoz de la Velozidad",
+  "familiaEs": "Orkos",
+  "estrategia": 3,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "ork-war-horde",
   "nombre": "Ork – War Horde",
   "familia": "Ork",
   "version": "2026-02-04",
-  "nombreEs": "Orkos – Horda de guerra",
-  "familiaEs": "Orkos"
+  "nombreEs": "Orkos – Horda de Guerra",
+  "familiaEs": "Orkos",
+  "estrategia": 3,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "space-marine-codex-astartes",
@@ -186,7 +245,9 @@
   "familia": "Space Marine",
   "version": "2026-02-04",
   "nombreEs": "Marines Espaciales – Codex Astartes",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-imperial-fists",
@@ -194,7 +255,9 @@
   "familia": "Space Marine",
   "version": "2026-02-05",
   "nombreEs": "Marines Espaciales – Puños Imperiales",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de defensa estática de los Puños Imperiales tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-raven-guard",
@@ -202,7 +265,9 @@
   "familia": "Space Marine",
   "version": "2026-02-04",
   "nombreEs": "Marines Espaciales – Guardia del Cuervo",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-salamanders",
@@ -210,15 +275,19 @@
   "familia": "Space Marine",
   "version": "2026-02-04",
   "nombreEs": "Marines Espaciales – Salamandras",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-scions-of-iron",
   "nombre": "Space Marine – Scions of Iron",
   "familia": "Space Marine",
   "version": "2026-07-15",
-  "nombreEs": "Marines Espaciales – Scions of Iron",
-  "familiaEs": "Marines Espaciales"
+  "nombreEs": "Marines Espaciales – Vástagos del Hierro",
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-space-wolves",
@@ -226,7 +295,9 @@
   "familia": "Space Marine",
   "version": "2026-02-04",
   "nombreEs": "Marines Espaciales – Lobos Espaciales",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de Garras Sangrientas, Lobos de Fenris, Garras Celestes, Garras Veloces y aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+ (véase Sin sangrar). Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "space-marine-white-scars",
@@ -234,7 +305,9 @@
   "familia": "Space Marine",
   "version": "2026-02-09",
   "nombreEs": "Marines Espaciales – Cicatrices Blancas",
-  "familiaEs": "Marines Espaciales"
+  "familiaEs": "Marines Espaciales",
+  "estrategia": 5,
+  "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+."
  },
  {
   "id": "squat",
@@ -242,13 +315,19 @@
   "familia": "Squat",
   "version": "2026-02-03",
   "nombreEs": "Squats",
-  "familiaEs": "Squats"
+  "familiaEs": "Squats",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 2+, pero pueden recibir un modificador en sus tiradas de reorganización (véase Voluntad de Hierro)."
  },
  {
   "id": "tau",
   "nombre": "Tau",
   "familia": "Tau",
-  "version": "2026-02-04"
+  "version": "2026-02-04",
+  "nombreEs": "Tau",
+  "familiaEs": "Tau",
+  "estrategia": 3,
+  "iniciativaEs": "Las formaciones de Cuadro de Armaduras Crisis y de Nave de Desembarco Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "tyranid",
@@ -256,6 +335,8 @@
   "familia": "Tyranid",
   "version": "2026-07-15",
   "nombreEs": "Tiránidos",
-  "familiaEs": "Tiránidos"
+  "familiaEs": "Tiránidos",
+  "estrategia": 1,
+  "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre)."
  }
 ]

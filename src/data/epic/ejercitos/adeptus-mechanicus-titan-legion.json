@@ -10,7 +10,7 @@
    "nombre": "Battle Titan Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones de titanes de batalla"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "scout-titan-formations",
@@ -21,8 +21,8 @@
     "cantidad": 2,
     "base": "battle titan"
    },
-   "nombreEs": "Formaciones de titanes exploradores",
-   "notaEs": "Se pueden desplegar dos formaciones de titanes exploradores por cada titán de batalla."
+   "notaEs": "Se pueden desplegar dos formaciones de titanes exploradores por cada titán de batalla.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "battle-titan-weapons",
@@ -30,8 +30,8 @@
    "tipo": "mejoras",
    "nota": "Mount each weapon mount in the formation with one of the following upgrades.",
    "unaVez": false,
-   "nombreEs": "Armas de titán de batalla",
-   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras."
+   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras.",
+   "nombreEs": "Armas de titán de batalla"
   },
   {
    "id": "scout-titan-weapons",
@@ -39,8 +39,8 @@
    "tipo": "mejoras",
    "nota": "Mount each weapon mount in the formation with one of the following upgrades.",
    "unaVez": false,
-   "nombreEs": "Armas de titán explorador",
-   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras."
+   "notaEs": "Equipa cada montaje de armas de la formación con una de estas mejoras.",
+   "nombreEs": "Armas de titán explorador"
   },
   {
    "id": "titan-upgrades",
@@ -48,8 +48,8 @@
    "tipo": "mejoras",
    "nota": "Add any of the following upgrades to a unit up to once per formation.",
    "unaVez": true,
-   "nombreEs": "Mejoras de titán",
-   "notaEs": "Añade cualquiera de estas mejoras a una unidad, como máximo una vez por formación."
+   "notaEs": "Añade cualquiera de estas mejoras a una unidad, como máximo una vez por formación.",
+   "nombreEs": "Mejoras de titán"
   },
   {
    "id": "support-formations",
@@ -60,8 +60,8 @@
     "cantidad": 1,
     "base": "battle"
    },
-   "nombreEs": "Formaciones de apoyo",
-   "notaEs": "Se puede desplegar una formación de apoyo por cada formación de titán de batalla o explorador."
+   "notaEs": "Se puede desplegar una formación de apoyo por cada formación de titán de batalla o explorador.",
+   "nombreEs": "Lista de ejército"
   }
  ],
  "formaciones": [
@@ -79,7 +79,7 @@
     "Veteran Princeps"
    ],
    "nombreEs": "Emperador",
-   "unidadesEs": "Un Imperator o Warmonger Class Titan"
+   "unidadesEs": "Un Titán clase Imperator o Warmonger"
   },
   {
    "id": "battle-titan-formations-reaver",
@@ -111,7 +111,7 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "battle-titan-formations-warlord",
@@ -143,7 +143,7 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Warlord Class Titan"
+   "unidadesEs": "Un Titán clase Warlord"
   },
   {
    "id": "scout-titan-formations-warhound",
@@ -159,7 +159,7 @@
     "Vulcan Mega-Bolter",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Warhound Class Titan"
+   "unidadesEs": "Un Titán clase Warhound"
   },
   {
    "id": "scout-titan-formations-warhound-pack",
@@ -175,8 +175,8 @@
     "Vulcan Mega-Bolter",
     "Veteran Princeps"
    ],
-   "nombreEs": "Manada de Warhounds",
-   "unidadesEs": "Dos Warhound Class Titans"
+   "nombreEs": "Manada Warhound",
+   "unidadesEs": "Dos Titanes clase Warhound"
   },
   {
    "id": "support-formations-crusader-scout-maniple",
@@ -185,8 +185,8 @@
    "unidades": "Four Crusader Robots",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Manípulo explorador Crusader",
-   "unidadesEs": "Cuatro Crusader Robots"
+   "nombreEs": "Manípulo de Exploración Crusader",
+   "unidadesEs": "Cuatro Robots Crusader"
   },
   {
    "id": "support-formations-forge-knight-maniple",
@@ -196,7 +196,7 @@
    "coste": 250,
    "costeTexto": "250 points",
    "nombreEs": "Manípulo de Caballeros de la Forja",
-   "unidadesEs": "Cinco Forge Knights"
+   "unidadesEs": "Cinco Caballeros de la Forja"
   },
   {
    "id": "support-formations-lysander-fighter-per-warmonger-class-titan",
@@ -206,8 +206,8 @@
    "coste": 75,
    "costeTexto": "75 points",
    "max": 1,
-   "nombreEs": "Caza Lysander por titán clase Warmonger",
-   "unidadesEs": "Un Lysander Fighter"
+   "nombreEs": "Caza Lysander por cada Titán clase Warmonger",
+   "unidadesEs": "Un Caza Lysander"
   },
   {
    "id": "support-formations-marauder-squadron",
@@ -216,8 +216,8 @@
    "unidades": "Two Marauder Bombers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Escuadrón de Marauders",
-   "unidadesEs": "Dos Marauder Bombers"
+   "nombreEs": "Escuadrón Marauder",
+   "unidadesEs": "Dos Bombarderos Marauder"
   },
   {
    "id": "support-formations-orbital-support",
@@ -227,8 +227,8 @@
    "coste": 200,
    "costeTexto": "200 points",
    "max": 1,
-   "nombreEs": "Apoyo orbital",
-   "unidadesEs": "Un Ark Mechanicus Battleship"
+   "nombreEs": "Apoyo Orbital",
+   "unidadesEs": "Un Acorazado Arca Mechanicus"
   },
   {
    "id": "support-formations-skitarii-demi-century",
@@ -237,8 +237,8 @@
    "unidades": "Eight Hypaspist units and two Secutor units",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Demi-centuria Skitarii",
-   "unidadesEs": "Ocho unidades de Hypaspist y dos de Secutor"
+   "nombreEs": "Semicenturia Skitarii",
+   "unidadesEs": "Ocho unidades de Hipaspistas y dos unidades de Secutores"
   },
   {
    "id": "support-formations-thunderbolt-squadron",
@@ -247,8 +247,8 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   }
  ],
  "mejoras": [
@@ -261,7 +261,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Lanzamisiles Apocalypse"
+   "nombreEs": "Lanzamisiles Apocalipsis"
   },
   {
    "id": "carapace-landing-pad",
@@ -270,7 +270,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Plataforma de aterrizaje en caparazón"
+   "nombreEs": "Plataforma de Aterrizaje de Caparazón"
   },
   {
    "id": "close-combat-weapon",
@@ -290,7 +290,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cápsula de asalto Corvus"
+   "nombreEs": "Cápsula de Asalto Corvus"
   },
   {
    "id": "gatling-blaster",
@@ -301,7 +301,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Desintegrador Gatling"
+   "nombreEs": "Bláster Gatling"
   },
   {
    "id": "laser-blaster",
@@ -312,7 +312,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Desintegrador láser"
+   "nombreEs": "Bláster láser"
   },
   {
    "id": "laser-burner",
@@ -332,7 +332,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón melta"
+   "nombreEs": "Cañón de fusión"
   },
   {
    "id": "plasma-cannon",
@@ -354,7 +354,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Destructor de plasma (solo montaje de caparazón)"
+   "nombreEs": "Destructor de plasma (solo montura de caparazón)"
   },
   {
    "id": "quake-cannon",
@@ -376,7 +376,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Misil de apoyo (solo montaje de caparazón)"
+   "nombreEs": "Misil de Apoyo (solo montura de caparazón)"
   },
   {
    "id": "volcano-cannon",
@@ -387,7 +387,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón volcánico"
+   "nombreEs": "Cañón Volcán"
   },
   {
    "id": "inferno-gun",
@@ -396,7 +396,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón infernal"
+   "nombreEs": "Cañón Inferno"
   },
   {
    "id": "plasma-blastgun",
@@ -405,7 +405,7 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón desintegrador de plasma"
+   "nombreEs": "Cañón bláster de plasma"
   },
   {
    "id": "turbo-laser-destructor",
@@ -434,7 +434,7 @@
    "texto": "",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Multiláseres de caparazón"
+   "nombreEs": "Multiláseres de Caparazón"
   },
   {
    "id": "legate",
@@ -444,7 +444,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "nombreEs": "Legado"
+   "nombreEs": "Legado por ejército"
   },
   {
    "id": "sacred-icon",
@@ -453,7 +453,7 @@
    "texto": "",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Icono sagrado"
+   "nombreEs": "Icono Sagrado"
   },
   {
    "id": "veteran-princeps",
@@ -462,84 +462,98 @@
    "texto": "",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Princeps veterano"
+   "nombreEs": "Princeps Veterano"
   }
  ],
  "compras": [],
  "fraccionAliados": null,
- "nombreEs": "Adeptus Mechanicus – Legio Titanicus",
- "iniciativaEs": "Las formaciones de titanes de batalla y exploradores tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "nombreEs": "Adeptus Mechanicus – Legión de Titanes",
+ "iniciativaEs": "Las formaciones de Titanes de batalla y de exploración tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.22",
    "titulo": "Lista de ejército de la Legión de Titanes de los Grifos de Guerra (War Griffons)",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.22 y 5.3.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.22 y 5.3.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en la Legión de Titanes de los Grifos de Guerra. También puede usarse como lista «sustituta» para otras Legiones de Titanes.",
-    "Las formaciones de los Grifos de Guerra son de tres tipos: titanes de batalla, titanes exploradores y formaciones de apoyo. Cada titán de batalla que incluyas en el ejército te permite desplegar dos formaciones de titanes exploradores cualesquiera. Cada formación de titán de batalla o de titán explorador te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de titán explorador o de apoyo si antes llevas una formación de titán de batalla, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, ciertas formaciones pueden recibir mejoras. Las mejoras que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Nota: las mejoras elegidas pueden conllevar un recargo adicional (véase 6.22.1)."
+    "Las formaciones de los Grifos de Guerra son de tres tipos: titanes de batalla, titanes exploradores y formaciones de apoyo. Cada titán de batalla que incluyas en el ejército te permite desplegar dos formaciones de titanes exploradores cualesquiera. Cada formación de titán de batalla o de titán explorador te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de titán explorador o de apoyo si antes llevas una formación de titán de batalla, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, ciertas formaciones pueden recibir mejoras. Las mejoras que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Nota: las mejoras elegidas pueden conllevar un recargo adicional (véase 6.22.1). FACTOR DE E STRATEGIA: 3",
+    "I N I C I AT I VA",
+    "Las formaciones de Titanes de batalla y de exploración tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Legado por ejército; 0–1 Caza Lysander por cada Titán clase Warmonger; 0–1 Apoyo Orbital.",
+    "• El Destructor de plasma y el Misil de Apoyo solo pueden ir en montura de caparazón.",
+    "• Cada montura de armas debe equiparse con un arma. Se pueden desplegar dos formaciones de Titán Explorador por cada Titán de Batalla, y una formación de apoyo por cada formación de Titán."
    ]
   },
   {
    "id": "6.22.1",
    "titulo": "Reglas especiales de torneo de los Grifos de Guerra",
    "parrafos": [
-    "Todos los Montajes de Arma de una formación de Titán Explorador o de Batalla deben llevar un arma montada. Además, cada formación de Titán Explorador o de Batalla debe elegir al menos dos armas distintas o pagar un recargo adicional de +25 puntos."
+    "Todos los Monturas de armas de una formación de Titán Explorador o de Batalla deben llevar un arma montada. Además, cada formación de Titán Explorador o de Batalla debe elegir al menos dos armas distintas o pagar un recargo adicional de +25 puntos."
    ]
   },
   {
    "id": "5.22.1",
    "titulo": "Autómata (Automaton)",
    "parrafos": [
-    "Una formación no recibe un Marcador de Explosión cuando se destruye una unidad con Autómata; esto incluye el Marcador de Explosión adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Sin embargo, las unidades Autómata im‐",
-    "pactadas por un arma con Disruptor sí reciben un Marcador de Explosión.",
+    "Una formación no recibe un Marcador de Explosión cuando se destruye una unidad con Autómata; esto incluye el Marcador de Explosión adicional por la primera baja de un fuego cruzado y por las unidades destruidas por quedar fuera de formación tras un movimiento. Sin embargo, las unidades Autómata impactadas por un arma con Disruptor sí reciben un Marcador de Explosión.",
     "Si se inflige un impacto a una unidad Autómata porque está en una formación desmoralizada que recibe un Marcador de Explosión (véase 1.13.4), puede intentar salvarlo normalmente. Las unidades Autómata muertas en un asalto cuentan a efectos de calcular su resultado (véase 1.12.7)."
    ]
   },
   {
    "id": "5.22.2",
-   "titulo": "Montaje de Arma (Weapon Mount)",
+   "titulo": "Montura de armas (Weapon Mount)",
    "parrafos": [
-    "Los Montajes de Arma son zonas de una unidad en las que pueden instalarse sistemas de armas. Cuando se monta un arma (una unidad «personaje») en un montaje de arma, este obtiene todas las capacidades y reglas especiales del arma, conservando las suyas propias. En un montaje de arma solo puede instalarse un arma."
+    "Los Monturas de armas son zonas de una unidad en las que pueden instalarse sistemas de armas. Cuando se monta un arma (una unidad «personaje») en un montura de armas, este obtiene todas las capacidades y reglas especiales del arma, conservando las suyas propias. En un montura de armas solo puede instalarse un arma."
    ]
   }
  ],
  "fichas": [
   {
    "nombre": "Apocalypse Missile Launcher",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Lanzamisiles Apocalipsis",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Apocalypse Missile Launcher",
+     "nombre": "Lanzamisiles Apocalipsis",
      "alcance": "60cm",
-     "potencia": "3BP, D"
+     "potencia": "3PA, D"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Carapace Landing Pad",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "All weapons with a BP firepower in the formation do not need a line of fire when shooting as part of a sustained fire, advance or double action."
-  },
-  {
-   "nombre": "Carapace Multilasers",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Plataforma de Aterrizaje en el Caparazón",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Multilaser",
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Las armas de la formación con potencia de fuego en PA no necesitan línea de fuego al disparar en una acción de Fuego Sostenido, Avanzar o Doble."
+  },
+  {
+   "nombre": "Carapace Multilasers",
+   "nombreEs": "Multiláseres de Caparazón",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2× Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+"
     }
@@ -548,40 +562,49 @@
   },
   {
    "nombre": "Close Combat Weapon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Arma de combate cuerpo a cuerpo",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Close Combat Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+3), TK(D3)"
+     "nombre": "Arma de combate cuerpo a cuerpo",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MT(D3)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Corvus Assault Pod",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "Transport. May transport ten infantry units without Jump Packs or Mounted."
-  },
-  {
-   "nombre": "Gatling Blaster",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Cápsula de Asalto Corvus",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Gatling Blaster (Mars Pattern)",
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Transporte. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado."
+  },
+  {
+   "nombre": "Gatling Blaster",
+   "nombreEs": "Bláster Gatling",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bláster Gatling (patrón Marte)",
      "alcance": "60cm",
      "potencia": "6× AP4+/AT4+"
     }
@@ -590,30 +613,32 @@
   },
   {
    "nombre": "Inferno Gun",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Cañón Inferno",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Inferno Gun",
+     "nombre": "Cañón Inferno",
      "alcance": "30cm",
-     "potencia": "3BP, IC"
+     "potencia": "3PA, IC"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Laser Blaster",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Bláster Láser",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Laser Blaster",
+     "nombre": "Bláster láser",
      "alcance": "60cm",
      "potencia": "6× AP5+/AT3+"
     }
@@ -622,171 +647,193 @@
   },
   {
    "nombre": "Laser Burner",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Quemador Láser",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Laser Burner",
+     "nombre": "Quemador láser",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "y Laser Burner",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+4)"
+     "nombre": "o",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+4)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Legate",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "Supreme Commander."
-  },
-  {
-   "nombre": "Melta Cannon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Legado",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Melta Cannon",
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Melta Cannon",
+   "nombreEs": "Cañón Melta",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón de fusión",
      "alcance": "30cm",
-     "potencia": "MW2+, TK(D3)"
+     "potencia": "MA2+, MT(D3)"
     },
     {
-     "nombre": "y Melta Cannon",
+     "nombre": "y Cañón de fusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), TK(D6)"
+     "potencia": "Armas ligeras, AE(+1), MT(D6)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Plasma Blastgun",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Cañón Bláster de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Plasma Blastgun",
+     "nombre": "Cañón bláster de plasma",
      "alcance": "45cm",
-     "potencia": "2× MW2+, Slw"
+     "potencia": "2× MA2+, Baj"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Plasma Cannon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Cañón de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Plasma Cannon",
+     "nombre": "Cañón de plasma",
      "alcance": "60cm",
-     "potencia": "3× MW2+, Slw"
+     "potencia": "3× MA2+, Baj"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Plasma Destructor",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Destructor de Plasma",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Plasma Destructor",
+     "nombre": "Destructor de plasma",
      "alcance": "75cm",
-     "potencia": "5× MW2+, Slw"
+     "potencia": "5× MA2+, Baj"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Quake Cannon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Cañón Sísmico",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Quake Cannon",
+     "nombre": "Cañón sísmico",
      "alcance": "90cm",
-     "potencia": "3BP, MW"
+     "potencia": "3PA, MA"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Sacred Icon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Icono Sagrado",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
-   "armas": [],
-   "notas": "Inspiring."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Inspirador."
   },
   {
    "nombre": "Support Missile",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Misil de Apoyo",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Barrage Missile",
+     "nombre": "0–1× Misil de artillería",
      "alcance": "Unlimited",
-     "potencia": "10BP, D, Ind, SS"
+     "potencia": "10PA, D, Ind, DU"
     },
     {
-     "nombre": "0–1× Deathstrike Missile",
+     "nombre": "0–1× Misil Deathstrike",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D6)"
+     "potencia": "MA2+, Ind, DU, MT(D6)"
     },
     {
-     "nombre": "0–1× Vortex Missile",
+     "nombre": "0–1× Misil de vórtice",
      "alcance": "Unlimited",
-     "potencia": "3BP, IC, Ind, SS, TK"
+     "potencia": "3PA, IC, Ind, DU, MT"
     },
     {
-     "nombre": "0–1× Warp Missile",
+     "nombre": "0–1× Misil disforme",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D3)"
+     "potencia": "MA2+, Ind, DU, MT(D3)"
     }
    ],
-   "notas": "Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. A Warp Missile ignores Imperial Void Shields and Power Fields."
+   "notas": "Puede armarse con uno de los siguientes: Misil de artillería, Misil Deathstrike, Misil de vórtice o Misil disforme. Un Misil Disforme ignora los Pantallas de Vacío Imperiales y los Pantallas de Energía."
   },
   {
    "nombre": "Turbo-Laser Destructor",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Destructor Turboláser",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Turbo-Laser Destructor",
+     "nombre": "Destructor turboláser",
      "alcance": "60cm",
      "potencia": "4× AP5+/AT3+"
     }
@@ -795,40 +842,49 @@
   },
   {
    "nombre": "Veteran Princeps",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "Commander, Leader."
-  },
-  {
-   "nombre": "Volcano Cannon",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Princeps Veterano",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Volcano Cannon",
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante, Líder."
+  },
+  {
+   "nombre": "Volcano Cannon",
+   "nombreEs": "Cañón Volcán",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón Volcán",
      "alcance": "90cm",
-     "potencia": "MW2+, TK(D3)"
+     "potencia": "MA2+, MT(D3)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Vulcan Mega-Bolter",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Megabólter Vulcan",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Vulcan Mega-Bolter",
+     "nombre": "Megabólter Vulcan",
      "alcance": "45cm",
      "potencia": "4× AP3+/AT5+"
     }
@@ -837,6 +893,7 @@
   },
   {
    "nombre": "Hypaspist",
+   "nombreEs": "Hipaspista",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -844,7 +901,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -860,240 +917,248 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Multi-melta",
+     "nombre": "2× Multifusión",
      "alcance": "15cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y 2× Multi-melta",
+     "nombre": "y 2× Multifusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     },
     {
-     "nombre": "Augmentations",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Aumentos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Reinforced Armour."
+   "notas": "Comandante, Blindaje Reforzado."
   },
   {
    "nombre": "Crusader Robot",
-   "tipo": "LV",
+   "nombreEs": "Robot Crusader",
+   "tipo": "VL",
    "velocidad": "25cm",
    "blindaje": "6+",
    "cc": "4+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     },
     {
-     "nombre": "Multi-melta",
+     "nombre": "Multifusión",
      "alcance": "15cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y Multi-melta",
+     "nombre": "y Multifusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     },
     {
-     "nombre": "Power Fist",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Automaton, Scout, Walker."
+   "notas": "Autómata, Explorador, Bípode."
   },
   {
    "nombre": "Forge Knight",
-   "tipo": "AV",
+   "nombreEs": "Caballero de la Forja",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Arc Lance",
+     "nombre": "Lanza de arco",
      "alcance": "30cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "Manipulators",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Manipuladores",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Infiltrator, Invulnerable Save, Reinforced Armour, Walker."
+   "notas": "Infiltrador, Salvación Invulnerable, Blindaje Reforzado, Bípode."
   },
   {
    "nombre": "Imperator Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Imperator",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Plasma Annihilator",
+     "nombre": "Aniquilador de plasma",
      "alcance": "90cm",
-     "potencia": "4× MW2+, FwA, Slw, TK(D3)"
+     "potencia": "4× MA2+, Fro, Baj, MT(D3)"
     },
     {
-     "nombre": "Hellstorm Cannon",
+     "nombre": "Cañón Tormenta Infernal",
      "alcance": "60cm",
-     "potencia": "10BP, FwA"
+     "potencia": "10PA, Fro"
     },
     {
-     "nombre": "Defense Laser",
+     "nombre": "Láser de defensa",
      "alcance": "90cm",
-     "potencia": "MW2+/AA4+, TK(D3)"
+     "potencia": "MA2+/AA4+, MT(D3)"
     },
     {
-     "nombre": "Quake Cannon",
+     "nombre": "Cañón sísmico",
      "alcance": "90cm",
-     "potencia": "3BP, MW"
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "4× Battle Cannon",
+     "nombre": "4× Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "Tertitary Arms",
+     "nombre": "Brazos terciarios",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     }
    ],
-   "notas": "Damage Capacity 12, Fearless, Inspiring, Reinforced Armour, Transport, 8 Void Shields, Walker. May transport ten infantry units without Jump Packs or Mounted. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 12, Coraje, Inspirador, Blindaje Reforzado, Transporte, 8 Pantallas de Vacío, Bípode. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Reaver Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Reaver",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Carapace Weapon Mount",
+     "nombre": "Montura de armas de capa ‐",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "2× Arm Weapon Mount",
+     "nombre": "razón 2× Montura de armas de brazo",
      "alcance": "-",
-     "potencia": "FwA, WM"
+     "potencia": "Fro, WM"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Warhound Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warhound",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Arm Weapon Mount",
+     "nombre": "2× Montura de armas de brazo",
      "alcance": "-",
-     "potencia": "FwA, WM"
+     "potencia": "Fro, WM"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño y se mueve D6 cm en una dirección aleatoria. Si este movimiento lleva al Titán a terreno infranqueable o contra una unidad sobre la que no puede pasar, se detiene inmediatamente y queda destruido. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
   },
   {
    "nombre": "Warlord Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warlord",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "2+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Carapace Weapon Mount",
+     "nombre": "2× Montura de armas de ca ‐",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "2× Arm Weapon Mount",
+     "nombre": "parazón 2× Montura de armas de brazo",
      "alcance": "-",
-     "potencia": "FwA, WM"
+     "potencia": "Fro, WM"
     }
    ],
-   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Warmonger Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warmonger",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Vengeance Cannon",
+     "nombre": "Cañón Venganza",
      "alcance": "90cm",
-     "potencia": "2× MW2+, FwA, TK(D3)"
+     "potencia": "2× MA2+, Fro, MT(D3)"
     },
     {
-     "nombre": "0–8× Barrage Missile",
+     "nombre": "0–8× Misil de artillería",
      "alcance": "Unlimited",
-     "potencia": "10BP, D, Ind, SS"
+     "potencia": "10PA, D, Ind, DU"
     },
     {
-     "nombre": "0–8× Deathstrike Missile",
+     "nombre": "0–8× Misil Deathstrike",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D6)"
+     "potencia": "MA2+, Ind, DU, MT(D6)"
     },
     {
-     "nombre": "0–8× Vortex Missile",
+     "nombre": "0–8× Misil de vórtice",
      "alcance": "Unlimited",
-     "potencia": "3BP, IC, Ind, SS, TK"
+     "potencia": "3PA, IC, Ind, DU, MT"
     },
     {
-     "nombre": "0–8× Warp Missile",
+     "nombre": "0–8× Misil disforme",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D3)"
+     "potencia": "MA2+, Ind, DU, MT(D3)"
     },
     {
-     "nombre": "4× Twin Hydra Autocannon",
+     "nombre": "4× Autocañón doble Hydra",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     },
     {
-     "nombre": "Head Gun",
+     "nombre": "Arma de cabeza",
      "alcance": "45cm",
      "potencia": "AP4+/AT4+, FxF"
     },
     {
-     "nombre": "Tertitary Arms",
+     "nombre": "Brazos terciarios",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     }
    ],
-   "notas": "Damage Capacity 12, Fearless, Inspiring, Reinforced Armour, Transport, 8 Void Shields, Walker. May transport ten infantry units without Jump Packs or Mounted. Armed with any eight of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. Only one missile may be fired per turn. Warp Missiles ignore Imperial Void Shields and Power Fields. The unit’s fire control center allows it to re-roll one failed to-hit roll per turn. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 12, Coraje, Inspirador, Blindaje Reforzado, Transporte, 8 Pantallas de Vacío, Bípode. Puede transportar diez unidades de infantería sin Retrorreactores ni Montado. Armado con ocho cualesquiera de los siguientes: Misil de artillería, Misil Deathstrike, Misil de vórtice o Misil disforme. Solo puede dispararse un misil por turno. Los Misiles Disformes ignoran los Pantallas de Vacío Imperiales y los Pantallas de Energía. El centro de control de tiro de la unidad le permite repetir una tirada para impactar fallida por turno. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Lysander Fighter",
-   "tipo": "AC",
-   "velocidad": "Fighter",
+   "nombreEs": "Caza Lysander",
+   "tipo": "AN",
+   "velocidad": "Caza",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Storm Bolters",
+     "nombre": "Bólters de asalto",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+, FxF"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+, FxF"
     }
@@ -1102,45 +1167,47 @@
   },
   {
    "nombre": "Ark Mechanicus Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado Arca Mechanicus",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "5BP, MW"
+     "nombre": "0–1× Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "5PA, MA"
     },
     {
-     "nombre": "0–1× Pin-Point Attacks",
-     "alcance": "n/a",
-     "potencia": "2× MW2+, TK(D3)"
+     "nombre": "0–1× Ataques localizados",
+     "alcance": "—",
+     "potencia": "2× MA2+, MT(D3)"
     }
    ],
-   "notas": "Armed with either Pin-point Attacks or Orbital Bombardment."
+   "notas": "Armado con Ataques de Precisión o con Bombardeo Orbital."
   },
   {
    "nombre": "Marauder Bomber",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Bomb Racks",
+     "nombre": "Soportes de bombas",
      "alcance": "15cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Twin Heavy Bolter",
+     "nombre": "2× Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }
@@ -1149,24 +1216,25 @@
   },
   {
    "nombre": "Thunderbolt Fighter",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+, FxF"
     },
     {
-     "nombre": "Underwing Rockets",
+     "nombre": "Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     },
     {
-     "nombre": "Storm Bolters",
+     "nombre": "Bólters de asalto",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+, FxF"
     }
@@ -1175,37 +1243,39 @@
   },
   {
    "nombre": "Emperor Class Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "8BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
     }
    ],
-   "notas": "Slow and Steady."
+   "notas": "Lenta y tediosa."
   },
   {
    "nombre": "Lunar Class Cruiser",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
    "notas": ""

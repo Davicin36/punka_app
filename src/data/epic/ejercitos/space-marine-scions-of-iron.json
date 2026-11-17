@@ -10,7 +10,7 @@
    "nombre": "Scions Of Iron Detachments",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Destacamentos de los Scions of Iron"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "scions-of-iron-upgrades",
@@ -18,8 +18,8 @@
    "tipo": "mejoras",
    "nota": "Each upgrade may be taken once per detachment.",
    "unaVez": true,
-   "nombreEs": "Mejoras de los Scions of Iron",
-   "notaEs": "Cada mejora puede tomarse una vez por destacamento."
+   "notaEs": "Cada mejora puede tomarse una vez por destacamento.",
+   "nombreEs": "Mejoras de los Scions of Iron"
   },
   {
    "id": "0-2-imperial-navy-aircraft",
@@ -35,14 +35,14 @@
    "tipo": "tercio",
    "nota": "",
    "maxFormaciones": 2,
-   "nombreEs": "0–2 Grupos de batalla de la Legio Titanicus"
+   "nombreEs": "0–2 Grupos de batalla de la Legión de Ti tanes"
   },
   {
    "id": "scions-of-iron-aircraft-formations",
    "nombre": "Scions Of Iron Aircraft Formations",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Formaciones de aeronaves de los Scions of Iron"
+   "nombreEs": "Aeronaves de los Vástagos del Hierro"
   }
  ],
  "formaciones": [
@@ -59,7 +59,7 @@
     "Land Speeders"
    ],
    "nombreEs": "Motocicletas",
-   "unidadesEs": "Cuatro Attack Bikes"
+   "unidadesEs": "Cuatro Motos de Ataque"
   },
   {
    "id": "scions-of-iron-detachments-heavy-tactical",
@@ -73,8 +73,8 @@
     "Hunter",
     "Land Raiders"
    ],
-   "nombreEs": "Tácticos pesados",
-   "unidadesEs": "Cuatro unidades de Tactical y dos cualesquiera de estas: Land Raider, Land Raider Crusader"
+   "nombreEs": "Tácticos Pesados",
+   "unidadesEs": "Cuatro unidades Tácticas y dos cualesquiera de: Land Raider, Land Raider Crusader"
   },
   {
    "id": "scions-of-iron-detachments-helios",
@@ -111,8 +111,8 @@
    "coste": 350,
    "costeTexto": "350 points",
    "mejoras": [],
-   "nombreEs": "Nave de desembarco",
-   "unidadesEs": "Una Landing Craft"
+   "nombreEs": "Lanzadera de Desembarco",
+   "unidadesEs": "Una Lanzadera de Desembarco"
   },
   {
    "id": "scions-of-iron-detachments-predator",
@@ -126,7 +126,7 @@
     "Commander",
     "Hunter"
    ],
-   "unidadesEs": "Cuatro cualesquiera de estas unidades: Predator Annihilator, Predator Destructor"
+   "unidadesEs": "Cuatro cualesquiera de: Predator Annihilator, Predator Destructor"
   },
   {
    "id": "scions-of-iron-detachments-scout",
@@ -142,7 +142,7 @@
     "Snipers"
    ],
    "nombreEs": "Exploradores",
-   "unidadesEs": "Cuatro unidades de Scout más transporte"
+   "unidadesEs": "Cuatro unidades de Exploradores más transporte"
   },
   {
    "id": "scions-of-iron-detachments-strike-cruiser",
@@ -155,8 +155,8 @@
    "mejoras": [
     "Battle Barge"
    ],
-   "nombreEs": "Crucero de asalto",
-   "unidadesEs": "Un Strike Cruiser"
+   "nombreEs": "Crucero de Asalto",
+   "unidadesEs": "Un Crucero de Asalto"
   },
   {
    "id": "scions-of-iron-detachments-tactical",
@@ -172,7 +172,7 @@
     "Razorbacks"
    ],
    "nombreEs": "Tácticos",
-   "unidadesEs": "Cuatro unidades de Tactical más transporte, y dos cualesquiera de estas: Predator Annihilator, Predator Destructor, Vindicator"
+   "unidadesEs": "Cuatro unidades Tácticas más transporte, y dos cualesquiera de: Predator Annihilator, Predator Destructor, Vindicator"
   },
   {
    "id": "scions-of-iron-detachments-terminator",
@@ -186,7 +186,7 @@
     "Land Raiders"
    ],
    "nombreEs": "Exterminadores",
-   "unidadesEs": "Cuatro unidades de Terminator"
+   "unidadesEs": "Cuatro unidades de Exterminadores"
   },
   {
    "id": "scions-of-iron-detachments-thunderhawk-transporter",
@@ -198,8 +198,8 @@
    "mejoras": [
     "Thunderhawk Transport"
    ],
-   "nombreEs": "Transporte Thunderhawk",
-   "unidadesEs": "Dos Thunderhawk Transporters"
+   "nombreEs": "Transportador Thunderhawk",
+   "unidadesEs": "Dos Transportadores Thunderhawk"
   },
   {
    "id": "scions-of-iron-detachments-vindicator",
@@ -235,8 +235,8 @@
    "unidades": "Two Marauder Bombers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Escuadrón de Marauders",
-   "unidadesEs": "Dos Marauder Bombers"
+   "nombreEs": "Escuadrón Marauder",
+   "unidadesEs": "Dos Bombarderos Marauder"
   },
   {
    "id": "0-2-imperial-navy-aircraft-thunderbolt-squadron",
@@ -245,8 +245,8 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 175,
    "costeTexto": "175 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   },
   {
    "id": "0-2-titan-legion-battlegroups-reaver",
@@ -255,7 +255,7 @@
    "unidades": "One Reaver Class Titan",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "0-2-titan-legion-battlegroups-warhound",
@@ -264,7 +264,7 @@
    "unidades": "One Warhound Class Titan",
    "coste": 275,
    "costeTexto": "275 points",
-   "unidadesEs": "Un Warhound Class Titan"
+   "unidadesEs": "Un Titán clase Warhound"
   },
   {
    "id": "0-2-titan-legion-battlegroups-warhound-pack",
@@ -273,8 +273,8 @@
    "unidades": "Two Warhound Class Titans",
    "coste": 500,
    "costeTexto": "500 points",
-   "nombreEs": "Manada de Warhounds",
-   "unidadesEs": "Dos Warhound Class Titans"
+   "nombreEs": "Manada Warhound",
+   "unidadesEs": "Dos Titanes clase Warhound"
   },
   {
    "id": "0-2-titan-legion-battlegroups-warlord",
@@ -283,7 +283,7 @@
    "unidades": "One Warlord Class Titan",
    "coste": 825,
    "costeTexto": "825 points",
-   "unidadesEs": "Un Warlord Class Titan"
+   "unidadesEs": "Un Titán clase Warlord"
   },
   {
    "id": "scions-of-iron-aircraft-formations-thunderhawk-cas",
@@ -292,7 +292,8 @@
    "unidades": "One Thunderhawk Close Air Support",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Thunderhawk Close Air Support"
+   "unidadesEs": "Una Thunderhawk de Apoyo Aéreo Cercano",
+   "nombreEs": "Thunderhawk de Apoyo Aéreo Cercano"
   },
   {
    "id": "scions-of-iron-aircraft-formations-thunderhawk-sb",
@@ -301,7 +302,8 @@
    "unidades": "One Thunderhawk Saturation Bomber",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Thunderhawk Saturation Bomber"
+   "unidadesEs": "Un Bombardero de Saturación Thunderhawk",
+   "nombreEs": "Thunderhawk de Saturación"
   }
  ],
  "mejoras": [
@@ -315,7 +317,7 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Blindados",
-   "textoEs": "Añade hasta dos cualesquiera de estas unidades: Predator Annihilator, Predator Destructor, Vindicator"
+   "textoEs": "Añade hasta dos unidades cualesquiera de: Predator Annihilator, Predator Destructor, Vindicator"
   },
   {
    "id": "battle-barge",
@@ -324,8 +326,8 @@
    "texto": "Replace the Strike Cruiser with a Battle Barge",
    "coste": 150,
    "costeTexto": "+150 points",
-   "nombreEs": "Barcaza de batalla",
-   "textoEs": "Sustituye el Strike Cruiser por una Battle Barge"
+   "nombreEs": "Barcaza de Batalla",
+   "textoEs": "Sustituye el Crucero de Asalto por una Barcaza de Batalla"
   },
   {
    "id": "bikes",
@@ -337,7 +339,7 @@
    "porUnidad": true,
    "max": 4,
    "nombreEs": "Motocicletas",
-   "textoEs": "Sustituye hasta cuatro Attack Bikes por el mismo número de Bikes o Multi-melta Attack Bikes"
+   "textoEs": "Sustituye hasta cuatro Motos de Ataque por el mismo número de Motocicletas o Motos de Ataque con Multifusión"
   },
   {
    "id": "commander",
@@ -351,29 +353,29 @@
      "coste": 50,
      "porUnidad": false,
      "texto": "Captain, Chaplain or Librarian (+50 points)",
-     "textoEs": "Captain, Chaplain o Librarian (+50 puntos)"
+     "textoEs": "Capitán, Capellán o Bibliotecario (+50 puntos)"
     },
     {
      "coste": 100,
      "porUnidad": false,
      "texto": "Land Raider with Supreme Commander (+100 points)",
-     "textoEs": "Land Raider con Comandante supremo (+100 puntos)"
+     "textoEs": "Land Raider con Comandante en jefe (+100 puntos)"
     },
     {
      "coste": 100,
      "porUnidad": false,
      "texto": "Land Raider Prometheus (replaces a Land Raider) with Supreme Commander (+100 points)",
-     "textoEs": "Land Raider Prometheus (en lugar de un Land Raider) con Comandante supremo (+100 puntos)"
+     "textoEs": "Land Raider Prometheus (en lugar de un Land Raider) con Comandante en jefe (+100 puntos)"
     },
     {
      "coste": 125,
      "porUnidad": false,
      "texto": "Land Raider Prometheus (replaces a Predator Destructor or Vindicator) with Supreme Commander (+125 points)",
-     "textoEs": "Land Raider Prometheus (en lugar de un Predator Destructor o Vindicator) con Comandante supremo (+125 puntos)"
+     "textoEs": "Land Raider Prometheus (en lugar de un Predator Destructor o Vindicator) con Comandante en jefe (+125 puntos)"
     }
    ],
    "nombreEs": "Comandante",
-   "textoEs": "Elige una de estas opciones: añade un personaje (Captain, Chaplain o Librarian) a cualquier unidad de la formación; o 0–1 por ejército de: dar a un Land Raider un Supreme Commander, sustituir un Land Raider por un Land Raider Prometheus con Supreme Commander, o sustituir un Predator Destructor o Vindicator por un Land Raider Prometheus con Supreme Commander"
+   "textoEs": "Elige una opción: añade a cualquier unidad de la formación uno de estos personajes: Capitán, Capellán, Bibliotecario 0–1 por ejército de una de estas opciones: dar Comandante en jefe a un Land Raider …sustituir un Land Raider por un Land Raider Prometheus con Comandante en jefe …sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante en jefe"
   },
   {
    "id": "hunter",
@@ -413,7 +415,7 @@
      "textoEs": "+100 puntos cada uno"
     }
    ],
-   "textoEs": "Añade hasta cuatro cualesquiera de estas unidades: Land Raider, Land Raider Crusader, Land Raider Helios"
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider o Land Raider Crusader …Land Raider Helios"
   },
   {
    "id": "land-speeders",
@@ -438,7 +440,7 @@
      "textoEs": "+45 puntos cada uno"
     }
    ],
-   "textoEs": "Añade hasta tres cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado, Land Speeder Typhoon"
+   "textoEs": "Añade hasta tres unidades cualesquiera de: Land Speeder o Land Speeder Tornado …Land Speeder Typhoon"
   },
   {
    "id": "razorbacks",
@@ -449,7 +451,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 20,
-   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+   "textoEs": "Añade Razorbacks, hasta el número necesario para transportar la formación"
   },
   {
    "id": "snipers",
@@ -461,7 +463,7 @@
    "porUnidad": true,
    "max": 4,
    "nombreEs": "Francotiradores",
-   "textoEs": "Da Sniper a hasta cuatro unidades de Scout"
+   "textoEs": "Da Francotirador a hasta cuatro unidades de Exploradores"
   },
   {
    "id": "thunderhawk-transport",
@@ -473,28 +475,36 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Transporte Thunderhawk",
-   "textoEs": "Añade hasta dos Thunderhawk Transporters"
+   "textoEs": "Añade hasta dos Transportadores Thunderhawk"
   }
  ],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
- "nombreEs": "Marines Espaciales – Scions of Iron",
- "iniciativaEs": "Las formaciones de aeronaves de la Imperial Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "nombreEs": "Marines Espaciales – Vástagos del Hierro",
+ "iniciativaEs": "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
  "reglas": [
   {
    "id": "6.18",
-   "titulo": "Lista de ejército de Marines Espaciales de los Vástagos de Hierro (Scions of Iron)",
+   "titulo": "Lista de ejército de Marines Espaciales de los Vástagos del Hierro (Scions of Iron)",
    "parrafos": [
-    "al Emperador. Nos llaman traidores, pero recordad que nosotros los llamamos hermanos. Para nosotros, todos los Marines son los elegidos del Emperador. Para nosotros, todos los Marines están unidos como instrumentos divinos del Emperador. Para nosotros, todos los Marines son hermanos.» — Libro de Cuentas, Volumen I, del Capellán Hael",
-    "Fuerzas: Esta lista usa las hojas de datos de 5.18, 5.3 y 5.4.",
-    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en el Capítulo de Marines Espaciales de los Vástagos de Hierro que combatió durante la Invasión de Telgar VI. Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
-    "Los ejércitos de los Vástagos de Hierro pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. No pueden incluirse en el ejército más de dos de cada una de estas formaciones. Además, puede gastarse en estas formaciones y en las formaciones de aeronaves de los Vástagos de Hierro un máximo de un tercio de los puntos disponibles para el ejército.",
-    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento y de aeronaves de los Vástagos de Hierro (véase 5.1.1)."
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.18, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en el Capítulo de Marines Espaciales de los Vástagos del Hierro que combatió durante la Invasión de Telgar VI.",
+    "Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
+    "Los ejércitos de los Vástagos del Hierro pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. No pueden incluirse en el ejército más de dos de cada una de estas formaciones. Además, puede gastarse en estas formaciones y en las formaciones de aeronaves de los Vástagos del Hierro un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento y de aeronaves de los Vástagos del Hierro (véase 5.1.1).",
+    "FACTOR DE E STRATEGIA: 5",
+    "I N I C I AT I VA",
+    "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Cada mejora puede adquirirse una vez por destacamento. 0–1 Crucero de Asalto.",
+    "• Comandante: añade un Capitán, Capellán o Bibliotecario (+50); o, 0–1 por ejército, una de estas opciones: dar Co‐",
+    "mandante en jefe a un Land Raider (+100), sustituir un Land Raider por un Land Raider Prometheus con Comandante en jefe (+100) o sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante en jefe (+125).",
+    "• Como aliados: 0–2 formaciones de aeronaves de la Armada Imperial y 0–2 grupos de batalla de la Legión de Titanes."
    ]
   },
   {
    "id": "6.18.1",
-   "titulo": "Transportes de los Vástagos de Hierro",
+   "titulo": "Transportes de los Vástagos del Hierro",
    "parrafos": [
     "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte Rhino para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades de la lista. Ten en cuenta también que los Exterminadores deben llevar Teletransporte o Land Raiders. No pueden empezar la partida como infantería a pie."
    ]
@@ -504,26 +514,25 @@
    "titulo": "Transportador Thunderhawk",
    "parrafos": [
     "(Thunderhawk Transporter)",
-    "Todo el destacamento de Transportadores Thunderhawk cuenta como un único ingenio de guerra a efectos de ingenios de guerra de transporte (véase 3.1.3); p. ej., un destacamento de Transportadores Thunderhawk puede llevar unidades de otra formación, siempre que toda la formación quepa dentro de los Transportadores Thunderhawk."
+    "Todo el destacamento de Transportadores Thunderhawk cuenta como una única Máquina de Guerra a efectos de Máquinas de Guerra de transporte (véase 3.1.3); p. ej., un destacamento de Transportadores Thunderhawk puede llevar unidades de otra formación, siempre que toda la formación quepa dentro de los Transportadores Thunderhawk."
    ]
   },
   {
    "id": "5.4.1",
-   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "titulo": "Pantallas de Vacío Imperiales (Imperial Void Shields)",
    "parrafos": [
-    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
-    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
-    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "Los Titanes imperiales están protegidos por generadores de pantallas de vacío. El número de pantallas de vacío de cada Titán figura en su perfil de atributos. Cada pantalla de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por las pantallas de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran las pantallas de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Las pantallas de vacío derribadas pueden repararse. Cada Titán puede reparar una pantalla de vacío caída en la fase de finalización de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o quitar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, quitar 2 Marcadores de Explosión, o reparar 1 escudo y quitar 1 Marcador).",
     "FAQ",
-    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "P: ¿Detienen las pantallas de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
     "R: No.",
-    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "P: ¿Cuántas pantallas de vacío caen si una Máquina de Guerra es impactada por un arma Matatitanes que causa varios puntos de daño?",
     "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
-    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "P: ¿Puede una formación reagruparse para reparar pantallas de vacío caídas si no tiene Marcadores de Explosión?",
     "R: Sí.",
-    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "P: Si una formación con varias unidades con pantallas de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
     "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
-    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "P: ¿Se tienen en cuenta las pantallas de vacío al determinar cuántos impactos deben asignarse a una Máquina de Guerra?",
     "R: No."
    ]
   },
@@ -532,12 +541,12 @@
    "titulo": "Transportes de los Marines Espaciales",
    "parrafos": [
     "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte Rhino para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario para transportar la formación: ¡no puedes llevar de más para cubrir pérdidas!",
-    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como guarnición o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
-    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída Planetaria (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
+    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por",
+    "ejemplo para que actúe como patrulla o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
+    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída orbital (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
     "FAQ",
     "P: Si una formación incluye Rhinos y además puede llevar Land Raiders y Razorbacks mediante mejoras, ¿cómo se determina cuántos Rhinos recibe?",
-    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para",
-    "transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
+    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
    ]
   },
   {
@@ -545,10 +554,11 @@
    "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
    "parrafos": [
     "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
-    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "•",
+    "Hacen falta 2 Marcadores de Explosión para acobardar una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
     "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
     "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
-    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder quitan 2 Marcadores de Explosión en lugar de 1.",
     "FAQ",
     "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
     "R: Uno por unidad."
@@ -558,59 +568,63 @@
  "fichas": [
   {
    "nombre": "Captain",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Capitán",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Invulnerable Save, Leader."
+   "notas": "Comandante, Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Chaplain",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Capellán",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Inspiring, Invulnerable Save, Leader."
+   "notas": "Inspirador, Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Librarian",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Bibliotecario",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Smite",
+     "nombre": "Golpe psíquico",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), MW"
+     "potencia": "Armas ligeras, AE(+1), MA"
     },
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Invulnerable Save, Leader."
+   "notas": "Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Bike",
+   "nombreEs": "Motocicletas",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -618,15 +632,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Bolters",
+     "nombre": "Bólters dobles",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Mounted."
+   "notas": "Montado."
   },
   {
    "nombre": "Scout",
+   "nombreEs": "Exploradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -634,15 +649,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Infiltrator, Scout."
+   "notas": "Infiltrador, Explorador."
   },
   {
    "nombre": "Tactical",
+   "nombreEs": "Tácticos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -650,7 +666,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Missile Launcher",
+     "nombre": "Lanzamisiles",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -659,6 +675,7 @@
   },
   {
    "nombre": "Terminator",
+   "nombreEs": "Exterminadores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -666,28 +683,29 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Assault Cannon",
+     "nombre": "2× Cañón de asalto",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "Power Weapons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Reinforced Armour, Teleport, Thick Rear Armour."
+   "notas": "Blindaje Reforzado, Teletransporte, Blindaje adicional posterior."
   },
   {
    "nombre": "Attack Bike",
-   "tipo": "LV",
+   "nombreEs": "Moto de Ataque",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -696,98 +714,99 @@
   },
   {
    "nombre": "Land Speeder",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Multi-melta",
+     "nombre": "Multifusión",
      "alcance": "15cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y Multi-melta",
+     "nombre": "y Multifusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     }
    ],
-   "notas": "Scout, Skimmer."
+   "notas": "Explorador, Gravitatorio."
   },
   {
    "nombre": "Land Speeder Tornado",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Assault Cannon",
+     "nombre": "Cañón de asalto",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Scout, Skimmer."
+   "notas": "Explorador, Gravitatorio."
   },
   {
    "nombre": "Land Speeder Typhoon",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Twin Typhoon Missile",
+     "nombre": "Misil Tifón doble",
      "alcance": "45cm",
      "potencia": "AP3+/AT5+"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Scout, Skimmer."
+   "notas": "Explorador, Gravitatorio."
   },
   {
    "nombre": "Multi-melta Attack Bike",
-   "tipo": "LV",
+   "nombreEs": "Moto de Ataque con Multifusión",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Multi-melta",
+     "nombre": "Multifusión",
      "alcance": "15cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y Multi-melta",
+     "nombre": "y Multifusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     }
    ],
-   "notas": "Counts as an Attack Bike for the purposes of being transported."
+   "notas": "Cuenta como una Moto de Ataque a efectos de transporte."
   },
   {
    "nombre": "Hunter",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Hunter-Killer",
+     "nombre": "Misil Cazador-Asesino",
      "alcance": "60cm",
      "potencia": "AT4+/AA4+"
     }
@@ -796,98 +815,98 @@
   },
   {
    "nombre": "Land Raider",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Twin Lascannon",
+     "nombre": "2× Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "Twin Heavy Bolter",
+     "nombre": "Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores o dos unidades de infantería sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Land Raider Crusader",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Hurricane Bolters",
+     "nombre": "2× Bólters Huracán",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1)"
+     "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "Twin Assault Cannon",
+     "nombre": "Cañón de asalto doble",
      "alcance": "30cm",
      "potencia": "AP4+/AT4+"
     }
    ],
-   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport three infantry units without Jump Packs or Mounted; Terminator units count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported."
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar tres unidades de infantería sin Retrorreactores ni Montado; los Exterminadores cuentan como una unidad y media cada uno, redondeando hacia arriba. Cuenta como un Land Raider a efectos de transporte."
   },
   {
    "nombre": "Land Raider Helios",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Twin Lascannon",
+     "nombre": "2× Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "Whirlwind",
+     "nombre": "Lanzamisiles Whirlwind",
      "alcance": "45cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     }
    ],
-   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Counts as a Land Raider for the purposes of being transported."
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de infantería (excepto Exterminadores) sin Retrorreactores ni Montado. Cuenta como un Land Raider a efectos de transporte."
   },
   {
    "nombre": "Land Raider Prometheus",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "4× Twin Heavy Bolter",
+     "nombre": "4× Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores o dos unidades de infantería sin Retrorreactores ni Montado. Cualquier unidad de la misma formación que esta unidad puede ignorar la restricción de 5 cm al usar Comandante. Cuenta como un Land Raider a efectos de transporte."
   },
   {
    "nombre": "Predator Annihilator",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Lascannon",
+     "nombre": "2× Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     }
@@ -896,19 +915,19 @@
   },
   {
    "nombre": "Predator Destructor",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "2× Heavy Bolter",
+     "nombre": "2× Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -917,109 +936,116 @@
   },
   {
    "nombre": "Razorback",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+ (4+)",
    "armas": [
     {
-     "nombre": "0–1× Twin Lascannon",
+     "nombre": "0–1× Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "0–1× Twin Heavy Bolter",
+     "nombre": "0–1× Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Transport. May transport one infantry unit (except a Terminator unit) without Jump Packs or Mounted. Armed with either a Twin Lascannon or a Twin Heavy Bolter. Razorbacks armed with a Twin Heavy Bolter have their firefight value increased to 4+."
+   "notas": "Transporte. Puede transportar una unidad de infantería (excepto Exterminadores) sin Retrorreactores ni Montado. Armado con un Cañón láser doble o un Bólter pesado doble. Los Razorbacks armados con un Bólter pesado doble aumentan su tiroteo a 4+."
   },
   {
    "nombre": "Rhino",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Storm Bolter",
+     "nombre": "Bólter de asalto",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Transport. May transport two infantry units (except Terminator units) without Jump Packs or Mounted."
+   "notas": "Transporte. Puede transportar dos unidades de infantería (excepto Exterminadores) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Vindicator",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Demolisher",
+     "nombre": "Cañón Demolisher",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, IC"
     }
    ],
-   "notas": "Walker."
+   "notas": "Bípode."
   },
   {
    "nombre": "Whirlwind",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Whirlwind",
+     "nombre": "Lanzamisiles Whirlwind",
      "alcance": "45cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Landing Craft",
-   "tipo": "AC/",
-   "velocidad": "Bomber",
+   "nombreEs": "Lanzadera de Desembarco",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Twin Lascannon",
+     "nombre": "2× Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
+    },
+    {
+     "nombre": "3× Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+"
     }
    ],
-   "notas": "Damage Capacity 4, Fearless, Planetfall, Reinforced Armour, Transport. May"
+   "notas": "Factor de Daños 4, Coraje, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar doce unidades de infantería, Motos de Ataque o Dreadnoughts (los Exterminadores y los Dreadnoughts cuentan como dos unidades cada uno); más seis unidades cualesquiera de vehículo blindado (excepto Dreadnoughts); los Land Raiders cuentan como una unidad y media cada uno, redondeando hacia arriba. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas. Todas las unidades a 5 cm o menos sufren un impacto."
   },
   {
    "nombre": "Marauder Bomber",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Bomb Racks",
+     "nombre": "Soportes de bombas",
      "alcance": "15cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Twin Heavy Bolter",
+     "nombre": "2× Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }
@@ -1028,24 +1054,25 @@
   },
   {
    "nombre": "Thunderbolt Fighter",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+, FxF"
     },
     {
-     "nombre": "Underwing Rockets",
+     "nombre": "Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     },
     {
-     "nombre": "Storm Bolters",
+     "nombre": "Bólters de asalto",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+, FxF"
     }
@@ -1054,108 +1081,167 @@
   },
   {
    "nombre": "Emperor Class Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "8BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
     }
    ],
-   "notas": "Slow and Steady."
+   "notas": "Lenta y tediosa."
   },
   {
    "nombre": "Lunar Class Cruiser",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Reaver Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Reaver",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Turbo-Laser Destructor",
+     "nombre": "2× Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+, FwA"
+     "potencia": "4× AP5+/AT3+, Fro"
     },
     {
-     "nombre": "Rocket Launcher",
+     "nombre": "Lanzacohetes",
      "alcance": "60cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Warhound Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warhound",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Plasma Blastgun",
+     "nombre": "Cañón bláster de plasma",
      "alcance": "45cm",
-     "potencia": "2× MW2+, FwA, Slw"
+     "potencia": "2× MA2+, Fro, Baj"
     },
     {
-     "nombre": "Vulcan Mega-Bolter",
+     "nombre": "Megabólter Vulcan",
      "alcance": "45cm",
-     "potencia": "4× AP3+/AT5+, FwA"
+     "potencia": "4× AP3+/AT5+, Fro"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño y se mueve D6 cm en una dirección aleatoria. Si este movimiento lleva al Titán a terreno infranqueable o contra una unidad sobre la que no puede pasar, se detiene inmediatamente y queda destruido. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
   },
   {
    "nombre": "Warlord Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warlord",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "2+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Volcano Cannon",
+     "nombre": "Cañón Volcán",
      "alcance": "90cm",
-     "potencia": "MW2+, FwA, TK(D3)"
+     "potencia": "MA2+, Fro, MT(D3)"
     },
     {
-     "nombre": "Gatling Blaster",
+     "nombre": "Bláster Gatling",
      "alcance": "60cm",
-     "potencia": "4× AP4+/AT4+, FwA"
+     "potencia": "4× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "2× Turbo-Laser Destructor",
+     "nombre": "2× Destructor turboláser",
      "alcance": "60cm",
      "potencia": "4× AP5+/AT3+, FxF"
     }
    ],
-   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Thunderhawk Close Air Support",
+   "nombreEs": "Thunderhawk de Apoyo Aéreo Cercano",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Turboláser",
+     "alcance": "45cm",
+     "potencia": "2× AP5+/AT3+, FxF"
+    },
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Izq."
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Der."
+    },
+    {
+     "nombre": "2× Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Thunderhawk Transporter",
+   "nombreEs": "Transportador Thunderhawk",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2× Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+"
+    }
+   ],
+   "notas": "Factor de Daños 2, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar dos vehículos blindados (excepto Dreadnoughts) más las unidades que estos puedan llevar; los Land Raiders cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas. Cuenta como una Lanzadera de Desembarco a efectos de transporte."
   }
  ]
 }

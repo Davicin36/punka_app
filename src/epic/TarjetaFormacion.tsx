@@ -2,7 +2,7 @@ import type { EjercitoEpic, FormacionElegida } from './tipos';
 import { costeFormacion, detalleFormacion, formacionDe, mejorasPermitidas, problemasFormacion } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
-import { gruposEleccion, totalReparto } from './eleccion';
+import { fichaDe, gruposEleccion, totalReparto } from './eleccion';
 
 interface Props {
   e: EjercitoEpic; fe: FormacionElegida; i: number; abierta: boolean;
@@ -112,11 +112,11 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                   {unico
                     ? <div className="chips">{g.opciones.map(o => {
                         const on = (fe.reparto?.[g.clave]?.[o] ?? 0) > 0;
-                        return <button key={o} className={`chip ${on ? 'on' : ''}`} onClick={() => repartir(g.clave, o, on ? 0 : 1, true)}>{o}</button>;
+                        return <button key={o} className={`chip ${on ? 'on' : ''}`} onClick={() => repartir(g.clave, o, on ? 0 : 1, true)}><Bi es={fichaDe(e, o)?.nombreEs} en={o} /></button>;
                       })}</div>
                     : <div className="opts">{g.opciones.map(o => {
                         const n = fe.reparto?.[g.clave]?.[o] ?? 0;
-                        return <FilaContador key={o} nombre={o} valor={n} max={n + Math.max(0, g.max - t)} onChange={v => repartir(g.clave, o, v, false)} />;
+                        return <FilaContador key={o} nombre={<Bi es={fichaDe(e, o)?.nombreEs} en={o} />} valor={n} max={n + Math.max(0, g.max - t)} onChange={v => repartir(g.clave, o, v, false)} />;
                       })}</div>}
                 </div>
               );

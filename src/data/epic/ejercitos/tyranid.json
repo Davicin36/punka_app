@@ -10,8 +10,8 @@
    "nombre": "Tyranid Individuals",
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
-   "nombreEs": "Individuos tiránidos",
-   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
+   "nombreEs": "Individuos tiránidos"
   },
   {
    "id": "synapse-swarm-formations",
@@ -29,16 +29,16 @@
     "cantidad": 1,
     "base": "synapse swarm"
    },
-   "nombreEs": "Formaciones de enjambres independientes",
-   "notaEs": "Se puede desplegar un enjambre independiente por cada enjambre sináptico."
+   "notaEs": "Se puede desplegar un enjambre independiente por cada enjambre sináptico.",
+   "nombreEs": "Formaciones de enjambres independientes"
   },
   {
    "id": "war-engine-formations",
    "nombre": "War Engine Formations",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Formaciones de máquinas de guerra",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Formaciones de máquinas de guerra"
   }
  ],
  "formaciones": [
@@ -50,7 +50,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "nombreEs": "Nido de prole",
+   "nombreEs": "Nido de Progenie",
    "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Brood Nest antes de desplegar naves y guarniciones. El Brood Nest sirve como medio para que las formaciones entren en juego (ver Xeno-Biology) y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros, Carnifex, Hive Tyrant y unidades con la habilidad Tunneler pueden usar el Brood Nest para entrar en juego."
   },
   {
@@ -91,58 +91,58 @@
      "coste": 15,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +15 puntos cada una: Hormagaunts, Termagants"
+     "textoEs": "+15 c/u: Hormagantes, Termagantes"
     },
     {
      "texto": "Add any number of Gargoyles for +20 points each",
      "coste": 20,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Gargoyles por +20 puntos cada uno"
+     "textoEs": "+20 c/u: Gárgolas"
     },
     {
      "texto": "Add any number of the following units for +25 points each: Biovore, Zoanthrope",
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Biovore, Zoanthrope"
+     "textoEs": "+25 c/u: Biovoro, Zoántropo"
     },
     {
      "texto": "Add any number of Raveners for +30 points each",
      "coste": 30,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Raveners por +30 puntos cada uno"
+     "textoEs": "+30 c/u: Devoradores"
     },
     {
      "texto": "Add any number of the following units for +50 points each: Carnifex, Exocrine, Haruspex, Malefactor, Trygon",
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de estas unidades por +50 puntos cada una: Carnifex, Exocrine, Haruspex, Malefactor, Trygon"
+     "textoEs": "+50 c/u: Carnifex, Exocrino, Arúspice, Malefactor, Trygon"
     },
     {
      "texto": "Add any number of Dactylis for +75 points each",
      "coste": 75,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Dactylis por +75 puntos cada uno"
+     "textoEs": "+75 c/u: Dactylis"
     },
     {
      "texto": "Add up to one Tyranid Warriors unit for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo una unidad de Tyranid Warriors por +50 puntos"
+     "textoEs": "Hasta una unidad de Guerreros Tiránidos por +50"
     },
     {
      "texto": "Replace up to one Hive Tyrant per full 2,000 points with a Dominatrix for +225 points",
      "coste": 225,
      "porUnidad": true,
      "max": 1,
-     "textoEs": "Sustituye como máximo un Hive Tyrant por cada 2.000 puntos completos por una Dominatrix por +225 puntos"
+     "textoEs": "Sustituye hasta un Tirano de Enjambre por cada 2000 puntos completos por una Dominatrix por +225"
     }
    ],
-   "nombreEs": "Enjambre tiránido",
-   "unidadesEs": "Un Hive Tyrant o dos Tyranid Warriors, y seis cualesquiera de estas: Hormagaunts, Termagants"
+   "nombreEs": "Enjambre Tiránido",
+   "unidadesEs": "Un Tirano de Enjambre o dos Guerreros Tiránidos, y seis cualesquiera de: Hormagantes, Termagantes"
   },
   {
    "id": "independent-swarm-formations-biovore-swarm",
@@ -171,11 +171,11 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Biovores por +25 puntos cada uno"
+     "textoEs": "+25 c/u: Biovoros"
     }
    ],
    "nombreEs": "Enjambre de Biovoros",
-   "unidadesEs": "Cinco Biovores"
+   "unidadesEs": "Cinco Biovoros"
   },
   {
    "id": "independent-swarm-formations-dactylis-swarm",
@@ -204,7 +204,7 @@
      "coste": 75,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Dactylis por +75 puntos cada uno"
+     "textoEs": "+75 c/u: Dactylis"
     }
    ],
    "nombreEs": "Enjambre de Dactylis",
@@ -237,11 +237,11 @@
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Exocrines por +50 puntos cada uno"
+     "textoEs": "+50 c/u: Exocrinos"
     }
    ],
    "nombreEs": "Enjambre de Exocrinos",
-   "unidadesEs": "Tres Exocrines"
+   "unidadesEs": "Tres Exocrinos"
   },
   {
    "id": "independent-swarm-formations-genestealer-swarm",
@@ -256,12 +256,12 @@
      "coste": 20,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Genestealers por +20 puntos cada uno"
+     "textoEs": "+20 c/u: Genestealers"
     },
     {
      "texto": "Add up to one Brood Lord character for +25 points",
      "coste": 25,
-     "textoEs": "Añade como máximo un personaje Brood Lord por +25 puntos"
+     "textoEs": "Hasta un personaje Señor de la Progenie por +25"
     }
    ],
    "nombreEs": "Enjambre de Genestealers",
@@ -281,11 +281,11 @@
      "coste": 35,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos Lictors por +35 puntos cada uno"
+     "textoEs": "Hasta dos Lictores por +35 c/u"
     }
    ],
    "nombreEs": "Enjambre de Lictores",
-   "unidadesEs": "Cuatro Lictors"
+   "unidadesEs": "Cuatro Lictores"
   },
   {
    "id": "war-engine-formations-harridan-swarm",
@@ -322,7 +322,7 @@
      "textoEs": "Añade cuatro Gargoyles por +75 puntos"
     }
    ],
-   "nombreEs": "Enjambre de Harridans",
+   "nombreEs": "Enjambre Harridan",
    "unidadesEs": "Un Harridan"
   },
   {
@@ -332,8 +332,8 @@
    "unidades": "One Hierodule Bio-Titan",
    "coste": 350,
    "costeTexto": "Pequeña (S) 350",
-   "nombreEs": "Biotitán Hierodule",
-   "unidadesEs": "Un Hierodule Bio-Titan"
+   "nombreEs": "Bio-Titán Hierodule",
+   "unidadesEs": "Un Bio-Titán Hierodule"
   },
   {
    "id": "war-engine-formations-hierophant-bio-titan",
@@ -342,8 +342,8 @@
    "unidades": "One Hierophant Bio-Titan",
    "coste": 525,
    "costeTexto": "Pequeña (S) 525",
-   "nombreEs": "Biotitán Hierophant",
-   "unidadesEs": "Un Hierophant Bio-Titan"
+   "nombreEs": "Bio-Titán Hierophant",
+   "unidadesEs": "Un Bio-Titán Hierophant"
   },
   {
    "id": "war-engine-formations-trygon-swarm",
@@ -358,14 +358,14 @@
      "coste": 60,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade hasta tres Trygons por +60 puntos cada uno"
+     "textoEs": "Hasta tres Trygons por +60 c/u"
     },
     {
      "texto": "Add any number of Raveners for +30 points each",
      "coste": 30,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade cualquier número de Raveners por +30 puntos cada uno"
+     "textoEs": "+30 c/u: Devoradores"
     }
    ],
    "nombreEs": "Enjambre de Trygons",
@@ -376,32 +376,38 @@
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Tiránidos",
- "iniciativaEs": "Todas las formaciones tiránidas tienen iniciativa 1+, pero los enjambres sinápticos tienen iniciativa 3+ si no contienen unidades de sinapsis. Si un enjambre sináptico contiene una unidad de sinapsis, ignora el modificador -2 por estar desmoralizado al reagruparse (ver The Hive Mind).",
+ "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
  "reglas": [
   {
    "id": "6.21",
    "titulo": "Lista de ejército tiránida de la Flota Enjambre Onachus",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.21.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.21.",
     "Uso de la lista de ejército: Las formaciones tiránidas de la",
-    "Flota Enjambre Onachus son de tres tipos: enjambres sinápticos, enjambres independientes e ingenios de guerra. Cada enjambre sináptico que incluyas en el ejército te permite desplegar un enjambre independiente. No puede gastarse en ingenios de guerra más de un tercio de los puntos disponibles. Por último, los Individuos Tiránidos incluyen personajes especiales y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas». La lista incluye la siguiente información:",
+    "Flota Enjambre Onachus son de tres tipos: enjambres sinápticos, enjambres independientes e Máquinas de Guerra. Cada enjambre sináptico que incluyas en el ejército te permite desplegar un enjambre independiente. No puede gastarse en Máquinas de Guerra más de un tercio de los puntos disponibles. Por último, los Individuos Tiránidos incluyen personajes especiales y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista». La lista incluye la siguiente información:",
     "• Tipo: El nombre de la formación.",
     "• Unidades principales: Las unidades que componen la formación. Pueden duplicarse o triplicarse. Una formación con el número normal de unidades principales se denomina formación pequeña (S); con el doble, mediana (M); y con el triple, grande (L).",
     "• Coste: Los costes de una formación figuran bajo S, M y L (pequeña, mediana o grande, respectivamente).",
     "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse, se duplica en las formaciones medianas y se triplica en las grandes.",
     "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta.",
-    "Reglas especiales: La regla Movilidad se aplica a todas las unidades tiránidas (véase 5.21.2). Además, las formaciones con unidades sinápticas pueden devolver unidades de progenie al juego mediante el Enjambrado (véase 5.21.1)."
+    "Reglas especiales: La regla Movilidad se aplica a todas las unidades tiránidas (véase 5.21.2). Además, las formaciones con unidades sinápticas pueden devolver unidades de progenie al juego mediante el Enjambrado (véase 5.21.1).",
+    "I N I C I AT I VA · FACTOR DE E STRATEGIA: 1",
+    "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Nido de Progenie (+50): al empezar la partida, antes de colocar naves espaciales y patrullas, designa un objetivo de tu mitad de la mesa como Nido de Progenie. Funciona a la vez como medio para que las formaciones entren en juego (véase Xenobiología) y como objetivo, y no puede ser destruido. Solo pueden usarlo para entrar en juego las formaciones compuestas por completo de infantería, vehículos ligeros, Carnifex, Tirano de Enjambre y unidades con Tunelador.",
+    "• 0–1 Simbionte (+50): se añade a un Tirano de Enjambre o Dominatrix.",
+    "• 0–2 Enjambres de Lictores. Puede sustituirse hasta un Tirano de Enjambre por cada 2000 puntos completos por una Dominatrix (+225)."
    ]
   },
   {
    "id": "6.21.1",
    "titulo": "La Mente Enjambre (The Hive Mind)",
    "parrafos": [
-    "La Mente Enjambre de los tiránidos es una única consciencia coordinadora. Su influencia se proyecta a través de las criaturas sinápticas, que se comunican con sus parientes menores mediante una forma de telepatía. Bajo el control de las criaturas sinápticas, los organismos esclavos actúan en perfecta armonía. Sin embargo, si las criaturas sinápticas mueren, las criaturas básicas vuelven a su comportamiento animal hasta que otras criaturas sinápticas puedan ejercer control sobre ellas. Esto se representa con las siguientes reglas para las formaciones de en‐",
-    "jambre sináptico (no para los enjambres independientes ni los ingenios de guerra):",
+    "La Mente Enjambre de los tiránidos es una única consciencia coordinadora. Su influencia se proyecta a través de las criaturas sinápticas, que se comunican con sus parientes menores mediante una forma de telepatía. Bajo el control de las criaturas sinápticas, los organismos esclavos actúan en perfecta armonía. Sin embargo, si las criaturas sinápticas mueren, las criaturas básicas vuelven a su comportamiento animal hasta que otras criaturas sinápticas puedan ejercer control sobre ellas. Esto se representa con las siguientes reglas para las formaciones de enjambre sináptico (no para los enjambres independientes ni las Máquinas de Guerra):",
     "• Los enjambres sinápticos ignoran las unidades de progenie a efectos de determinar los efectivos de la formación durante el desempate.",
     "• Un enjambre sináptico sin unidades sinápticas tiene iniciativa 3+ y no puede capturar objetivos.",
-    "• Un enjambre sináptico con al menos una unidad sináptica ignora el modificador de -2 por estar desmoralizado al intentar reorganizarse. Además, al final de su acción puede absorber otras formaciones de enjambre sináptico sin unidades sinápticas. La formación debe tener una unidad a 5 cm o menos de una unidad de la formación o formaciones absorbidas. Las unidades y los Marcadores de Explosión de una formación absorbida pasan a formar parte de la formación. Una formación absorbida se considera completamente destruida a efectos del desempate y de la meta Quebrar su Moral."
+    "• Un enjambre sináptico con al menos una unidad sináptica ignora el modificador de -2 por estar desmoralizado al in‐",
+    "tentar reorganizarse. Además, al final de su acción puede absorber otras formaciones de enjambre sináptico sin unidades sinápticas. La formación debe tener una unidad a 5 cm o menos de una unidad de la formación o formaciones absorbidas. Las unidades y los Marcadores de Explosión de una formación absorbida pasan a formar parte de la formación. Una formación absorbida se considera completamente destruida a efectos del desempate y del éxito Romper su espíritu."
    ]
   },
   {
@@ -409,18 +415,18 @@
    "titulo": "Organismos de Vanguardia",
    "parrafos": [
     "(Vanguard Organisms)",
-    "Solo las formaciones de Enjambre de Genestealers y de Lictores pueden desplegarse sobre la mesa como «guarniciones» al comienzo del escenario de juego de torneo de Epic."
+    "Solo las formaciones de Enjambre de Genestealers y de Lictores pueden desplegarse sobre la mesa como «patrullas» al comienzo del escenario de juego de torneo de Epic."
    ]
   },
   {
    "id": "5.21.1",
    "titulo": "Xenosociología (Xeno-Sociology)",
    "parrafos": [
-    "Una invasión tiránida se parece más a una infestación. Las criaturas menores están por todas partes, ya sea porque se separaron de un enjambre o porque acaban de hacer caída planetaria en una Espora Micética. Estas criaturas buscan instintivamente los conductos psíquicos de la Mente Enjambre que son las criaturas sinápticas. Esto se representa con las siguientes reglas:",
+    "Una invasión tiránida se parece más a una infestación. Las criaturas menores están por todas partes, ya sea porque se separaron de un enjambre o porque acaban de hacer caída orbital en una Espora Micética. Estas criaturas buscan instintivamente los conductos psíquicos de la Mente Enjambre que son las criaturas sinápticas. Esto se representa con las siguientes reglas:",
     "Progenie (Brood): Las unidades con Progenie (unidades de progenie) se colocan en la «reserva de enjambre» fuera del tablero del ejército cuando son destruidas. Pueden volver al juego mediante el enjambrado a cambio de un número de puntos de enjambre igual a su valor de progenie (el número entre paréntesis tras «Progenie»).",
     "Sinapsis (Synapse): Las formaciones que contienen al menos una unidad con Sinapsis (unidad sináptica) pueden devolver al juego unidades de progenie de la reserva de enjambre mediante el enjambrado. Cada unidad sináptica tiene un valor de sinapsis, el número entre paréntesis tras «Sinapsis». Algunos personajes tienen Sinapsis (+x), que aumenta el valor de sinapsis de la unidad a la que se añaden en «x».",
-    "Enjambrar (Swarming): Después de que una formación se reagrupe, o en la fase final una vez que todas las formaciones se han reorganizado, una formación que esté sobre el tablero con al menos una unidad sináptica puede «enjambrar». Suma todos los valores de sinapsis de la formación: ese es el número de «puntos de enjambre» disponibles. Las unidades con Progenie de la reserva de enjambre pueden volver al juego a cambio de un número de puntos de enjambre igual a su valor de progenie. Si una formación está desmoralizada o a 30 cm o menos de unidades enemigas, divide entre dos sus puntos de enjambre disponibles, redondeando hacia arriba. Si una formación está desmoralizada y a 30 cm o menos de unidades enemigas, no puede enjambrar.",
-    "Todas las unidades devueltas al juego de esta forma deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes del enjambrado. No pueden colocarse en zona de control enemiga ni en terreno infranqueable. No es necesario usar todos los puntos de enjambre disponibles, pero los sobrantes se pierden."
+    "Enjambrar (Swarming): Después de que una formación se reagrupe, o en la fase de finalización una vez que todas las formaciones se han reorganizado, una formación que esté sobre el tablero con al menos una unidad sináptica puede «enjambrar». Suma todos los valores de sinapsis de la formación: ese es el número de «puntos de enjambre» disponibles. Las unidades con Progenie de la reserva de enjambre pueden volver al juego a",
+    "cambio de un número de puntos de enjambre igual a su valor de progenie. Si una formación está desmoralizada o a 30 cm o menos de unidades enemigas, divide entre dos sus puntos de enjambre disponibles, redondeando hacia arriba. Si una formación está desmoralizada y a 30 cm o menos de unidades enemigas, no puede enjambrar. Todas las unidades devueltas al juego de esta forma deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes del enjambrado. No pueden colocarse en zona de control enemiga ni en terreno infranqueable. No es necesario usar todos los puntos de enjambre disponibles, pero los sobrantes se pierden."
    ]
   },
   {
@@ -429,36 +435,53 @@
    "parrafos": [
     "La biología de los tiránidos les otorga ciertas ventajas en el campo de batalla, representadas con las siguientes reglas:",
     "Nido de Progenie (Brood Nest): Cada Nido de Progenie incluido en el ejército permite al jugador tiránido elegir hasta tres formaciones para mantenerlas fuera del tablero, en reserva, y que entren en juego a través de un Nido de Progenie. Estas formaciones pueden entrar en juego realizando una acción que les permita mover y midiendo su primer movimiento desde un punto del Nido de Progenie declarado al comienzo de la partida. No puede entrar en juego más de una formación por cada Nido de Progenie en cada turno.",
-    "Si el punto de entrada de un Nido de Progenie está en la zona de control de unidades enemigas, una formación solo puede entrar en juego mediante una acción de Enfrentarse y debe ponerse en contacto peana con peana con todas las unidades enemigas que tengan el punto de entrada en su zona de control. Una vez contactadas estas unidades enemigas y perdida su zona de control, las unidades restantes que entren en juego pueden usar su movimiento de carga sin esta restricción adicional. Si una formación falla el chequeo de acción que la traería al tablero, debe usar la acción de Mantener para entrar en el tablero si puede. Si no es posible porque el punto de entrada está en la zona de control de una unidad enemiga, la formación recibe un Marcador de Explosión y pierde su acción.",
+    "Si el punto de entrada de un Nido de Progenie está en la zona de control de unidades enemigas, una formación solo puede entrar en juego mediante una acción de Atacar y debe ponerse en contacto peana con peana con todas las unidades enemigas que tengan el punto de entrada en su zona de control. Una vez contactadas estas unidades enemigas y perdida su zona de control, las unidades restantes que entren en juego pueden usar su movimiento de carga sin esta restricción adicional.",
+    "Si una formación falla el chequeo de acción que la traería al tablero, debe usar la acción de Aguantar para entrar en el tablero si puede. Si no es posible porque el punto de entrada está en la zona de control de una unidad enemiga, la formación recibe un Marcador de Explosión y pierde su acción.",
     "En las reglas de juego de torneo de Epic, las formaciones en reserva con varias opciones de despliegue (p. ej., Nido de Progenie, teletransporte, excavador) deben declarar al comienzo de la partida que entrarán en juego solo por una de esas opciones.",
-    "Movilidad (Mobility): Las unidades tiránidas de vehículo blindado e ingenio de guerra no hacen chequeos de terreno peligroso. Además, las unidades tiránidas de vehículo ligero cuentan como infantería a efectos del terreno (véase 1.8). Las posiciones fortificadas, como campos de minas o alambradas, y los elementos de terreno especiales, como ríos de lava, afectan normalmente a los tiránidos.",
-    "Regeneración (Regeneration): Las unidades de ingenio de guerra con regeneración pueden recuperar puntos de capacidad de daño perdidos. Cada unidad con regeneración recupera un punto de capacidad de daño al comienzo de la fase final de cada turno. La regeneración no puede usarla una unidad destruida ni puede aumentar la capacidad de daño de una unidad por encima de su valor inicial."
+    "Movilidad (Mobility): Las unidades tiránidas de vehículo blindado e Máquina de Guerra no hacen chequeos de terreno peligroso. Además, las unidades tiránidas de vehículo ligero cuentan como infantería a efectos del terreno (véase 1.8). Las posiciones fortificadas, como campos de minas o alambradas, y los elementos de terreno especiales, como ríos de lava, afectan normalmente a los tiránidos.",
+    "Regeneración (Regeneration): Las unidades de Máquina de Guerra con regeneración pueden recobrar puntos de factor de daños perdidos. Cada unidad con regeneración reorganiza un punto de factor de daños al comienzo de la fase de finalización",
+    "de cada turno. La regeneración no puede usarla una unidad destruida ni puede aumentar el factor de daños de una unidad por encima de su valor inicial."
    ]
   }
  ],
  "fichas": [
   {
    "nombre": "Brood Lord",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Señor de la Progenie",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
-   "armas": [],
-   "notas": "Inspiring, Invulnerable Save, Leader."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Inspirador, Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Symbiote",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Simbionte",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
-   "armas": [],
-   "notas": "Supreme Commander, Synapse (+1). If added to the Dominatrix the unit will additionally loose supreme commander and synapse (+1) on a Critical Hit Effect roll of a 6."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Comandante en jefe, Sinapsis (+1). Si se añade a la Dominatrix, la unidad perderá además Comandante en jefe y Sinapsis (+1) con un 6 en la tirada de Efecto de Impacto Crítico."
   },
   {
    "nombre": "Gargoyles",
+   "nombreEs": "Gárgolas",
    "tipo": "INF",
    "velocidad": "30cm",
    "blindaje": "-",
@@ -466,12 +489,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Flamespurts",
+     "nombre": "Chorros de llamas",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, IC"
+     "potencia": "Armas ligeras, IC"
     }
    ],
-   "notas": "Brood (2), Expendable, Jump Packs."
+   "notas": "Progenie (2), Prescindible, Retrorreactores."
   },
   {
    "nombre": "Genestealers",
@@ -482,25 +505,33 @@
    "ff": "-",
    "armas": [
     {
-     "nombre": "Rending Claws",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, FS"
+     "nombre": "Garras desgarradoras",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, DP"
     }
    ],
-   "notas": "Infiltrator, Scout."
+   "notas": "Infiltrador, Explorador."
   },
   {
    "nombre": "Hormagaunts",
+   "nombreEs": "Hormagantes",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "-",
    "cc": "3+",
    "ff": "-",
-   "armas": [],
-   "notas": "Brood (1), Expendable, Infiltrator."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Progenie (1), Prescindible, Infiltrador."
   },
   {
    "nombre": "Raveners",
+   "nombreEs": "Devoradores",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "5+",
@@ -508,15 +539,16 @@
    "ff": "-",
    "armas": [
     {
-     "nombre": "Twin Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "Garras de guadaña dobles",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Brood (2), Expendable, Infiltrator, Tunneler."
+   "notas": "Progenie (2), Prescindible, Infiltrador, Tunelador."
   },
   {
    "nombre": "Termagants",
+   "nombreEs": "Termagantes",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "-",
@@ -524,15 +556,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Fleshborers",
+     "nombre": "Perforadores de carne",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Brood (1), Expendable."
+   "notas": "Progenie (1), Prescindible."
   },
   {
    "nombre": "Tyranid Warriors",
+   "nombreEs": "Guerreros Tiránidos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "5+",
@@ -540,23 +573,24 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Deathspitters",
+     "nombre": "Escupemuertes",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Fearless, Synapse (1)."
+   "notas": "Coraje, Sinapsis (1)."
   },
   {
    "nombre": "Biovore",
-   "tipo": "LV",
+   "nombreEs": "Biovoro",
+   "tipo": "VL",
    "velocidad": "15cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Spore Mines",
+     "nombre": "Minas de esporas",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+, D, Ind"
     }
@@ -565,331 +599,337 @@
   },
   {
    "nombre": "Lictor",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "20cm",
    "blindaje": "5+",
    "cc": "3+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Flesh Hooks",
+     "nombre": "Garfios de carne",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Lictor Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, S"
+     "nombre": "Garras de Lictor",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, S"
     }
    ],
-   "notas": "First Strike, Infiltrator, Invulnerable Save, Scout, Teleport."
+   "notas": "Daña primero, Infiltrador, Salvación Invulnerable, Explorador, Teletransporte."
   },
   {
    "nombre": "Zoanthrope",
-   "tipo": "LV",
+   "nombreEs": "Zoántropo",
+   "tipo": "VL",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Warp Blast",
+     "nombre": "Explosión disforme",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     },
     {
-     "nombre": "y Warp Blast",
+     "nombre": "y Explosión disforme",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     }
    ],
-   "notas": "Invulnerable Save."
+   "notas": "Salvación Invulnerable."
   },
   {
    "nombre": "Carnifex",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Bio-Plasma",
+     "nombre": "Bioplasma",
      "alcance": "15cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Large Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Garras de guadaña grandes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Reinforced Armour."
+   "notas": "Coraje, Blindaje Reforzado."
   },
   {
    "nombre": "Dactylis",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Bile Pods",
+     "nombre": "Vainas de bilis",
      "alcance": "45cm",
-     "potencia": "1BP, D, Ind"
+     "potencia": "1PA, D, Ind"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Exocrine",
-   "tipo": "AV",
+   "nombreEs": "Exocrino",
+   "tipo": "VB",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Bio-Cannon",
+     "nombre": "Biocañón",
      "alcance": "45cm",
      "potencia": "2× AP4+/AT5+"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Haruspex",
-   "tipo": "AV",
+   "nombreEs": "Arúspice",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Acid Jets and Frag Spines",
+     "nombre": "Chorros de ácido y espinas",
      "alcance": "15cm",
      "potencia": "2× AP5+/AT6+"
     },
     {
-     "nombre": "Claws and Mandibles",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "de fragmentación Garras y mandíbulas",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Hive Tyrant",
-   "tipo": "AV",
+   "nombreEs": "Tirano de Enjambre",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Venon Cannon",
+     "nombre": "Cañón Venon",
      "alcance": "30cm",
      "potencia": "AP4+/AT5+"
     },
     {
-     "nombre": "Lash Whip and Bonesword",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Látigo y espada ósea",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Fearless, Leader, Reinforced Armour, Synapse (2)."
+   "notas": "Comandante, Coraje, Líder, Blindaje Reforzado, Sinapsis (2)."
   },
   {
    "nombre": "Malefactor",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Frag Spines",
+     "nombre": "Espinas de fragmentación",
      "alcance": "15cm",
      "potencia": "2× AP5+"
     },
     {
-     "nombre": "Arms",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Brazos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Reinforced Armour, Transport. May transport two infantry units without Jump Packs or Mounted."
+   "notas": "Blindaje Reforzado, Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Dominatrix",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Bio-Titan Bio-Cannon",
+     "nombre": "Biocañón de Bio-Titán",
      "alcance": "45cm",
      "potencia": "3× AP4+/AT5+, FxF"
     },
     {
-     "nombre": "Energy Pulse",
+     "nombre": "Pulso de energía",
      "alcance": "60cm",
-     "potencia": "3BP, MW"
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "y Energy Pulse",
+     "nombre": "y Pulso de energía",
      "alcance": "45cm",
-     "potencia": "AA5+, MW"
+     "potencia": "AA5+, MA"
     },
     {
-     "nombre": "2× Massive Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), TK"
+     "nombre": "2× Garras de guadaña enor mes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT"
     }
    ],
-   "notas": "Damage Capacity 4, Commander, Fearless, Invulnerable Save, Leader, Regeneration, Reinforced Armour, Synapse (2). May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses commander, leader and synapse (2)."
+   "notas": "Factor de Daños 4, Comandante, Coraje, Salvación Invulnerable, Líder, Regeneración, Blindaje Reforzado, Sinapsis (2). Puede pasar por encima de unidades y elementos de terreno más bajos que el abdomen de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño. Tira un D6: con un 1, todas las unidades a 5 cm o menos sufren un impacto con 6+; con un 6, la unidad pierde Comandante, Líder y Sinapsis (2)."
   },
   {
    "nombre": "Harridan",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Twin Harridan Bio-Cannon",
+     "nombre": "Biocañón doble del Harri ‐",
      "alcance": "45cm",
      "potencia": "2× AP4+/AT5+, FxF"
     },
     {
-     "nombre": "Large Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "dan Garras de guadaña grandes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, Skimmer, Transport. May transport four Gargoyles. Critical Hit Effect: The unit takes an extra point of damage."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, Gravitatorio, Transporte. Puede transportar cuatro Gárgolas. Efecto de Impacto Crítico: la unidad sufre un punto de daño adicional."
   },
   {
    "nombre": "Trygon",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Bio-Electric Field",
+     "nombre": "Campo bioeléctrico",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Large Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Garras de guadaña grandes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Damage Capacity 2, Fearless, Reinforced Armour, Tunneler. Critical Hit Effect: Destroyed."
+   "notas": "Factor de Daños 2, Coraje, Blindaje Reforzado, Tunelador. Efecto de Impacto Crítico: destruida."
   },
   {
    "nombre": "Hierodule Bio- Titan",
-   "tipo": "WE",
+   "nombreEs": "Bio-Titán Hierodule",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "0–1× Bile Launcher",
+     "nombre": "0–1× Lanzador de bilis",
      "alcance": "60cm",
-     "potencia": "3BP, FwA"
+     "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Bio-Titan Bio-Cannon",
+     "nombre": "0–1× Biocañón de Bio-Ti ‐",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT5+, FwA"
+     "potencia": "3× AP4+/AT5+, Fro"
     },
     {
-     "nombre": "0–1× Cluster Spines",
+     "nombre": "tán",
      "alcance": "45cm",
-     "potencia": "4BP, FwA"
+     "potencia": "4PA, Fro"
     },
     {
-     "nombre": "0–1× Pyro-Acid Spray",
+     "nombre": "0–1× Espinas de racimo",
      "alcance": "15cm",
-     "potencia": "3BP, FwA, IC"
+     "potencia": "3PA, Fro, IC"
     },
     {
-     "nombre": "0–2× Razorclaw",
+     "nombre": "0–1× Rociado piroácido",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "y 0–2× Razorclaw",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+     "nombre": "0–2× Garra afilada",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },
     {
-     "nombre": "2× Massive Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), TK"
+     "nombre": "o 2× Garras de guadaña enor mes",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT"
     }
    ],
-   "notas": "Damage Capacity 4, Fearless, Invulnerable Save, Regeneration, Reinforced Armour. May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+   "notas": "Factor de Daños 4, Coraje, Salvación Invulnerable, Regeneración, Blindaje Reforzado. Puede pasar por encima de unidades y elementos de terreno más bajos que el abdomen de la unidad y de menos de 2 cm de ancho. Armado con dos armas elegidas de la lista siguiente (solo la Garra afilada puede elegirse dos veces): Lanzador de bilis, Biocañón de Bio-Titán, Espinas de racimo, Rociado piroácido, Garra afilada. Efecto de Impacto Crítico: la unidad sufre un punto de daño. Tira un D6: con un 1, todas las unidades a 5 cm o menos sufren un impacto con 6+; con un 6, la unidad pierde otro punto de daño."
   },
   {
    "nombre": "Hierophant Bio- Titan",
-   "tipo": "WE",
+   "nombreEs": "Bio-Titán Hierophant",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "0–1× Bile Launcher",
+     "nombre": "0–1× Lanzador de bilis",
      "alcance": "60cm",
-     "potencia": "3BP, FwA"
+     "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Bio-Titan Bio-Cannon",
+     "nombre": "0–1× Biocañón de Bio-Ti ‐",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT5+, FwA"
+     "potencia": "3× AP4+/AT5+, Fro"
     },
     {
-     "nombre": "0–1× Cluster Spines",
+     "nombre": "tán",
      "alcance": "45cm",
-     "potencia": "4BP, FwA"
+     "potencia": "4PA, Fro"
     },
     {
-     "nombre": "0–1× Pyro-Acid Spray",
+     "nombre": "0–1× Espinas de racimo",
      "alcance": "15cm",
-     "potencia": "3BP, FwA, IC"
+     "potencia": "3PA, Fro, IC"
     },
     {
-     "nombre": "0–2× Razorclaw",
+     "nombre": "0–1× Rociado piroácido",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "y 0–2× Razorclaw",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+     "nombre": "0–2× Garra afilada",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },
     {
-     "nombre": "Ripper Tentacles",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+2), FS"
+     "nombre": "o",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), DP"
     },
     {
-     "nombre": "2× Gigantic Scything Talons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), TK(D3)"
+     "nombre": "Tentáculos destripadores 2× Garras de guadaña gi gantescas",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Invulnerable Save, Regeneration, Reinforced Armour. May step over units and and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide. Armed with two weapons chosen from the following list (only a Razorclaw may be chosen twice): Bile Launcher, Bio-Titan Bio-Cannon, Cluster Spines, Pyro-Acid Spray, Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage."
+   "notas": "Factor de Daños 6, Coraje, Salvación Invulnerable, Regeneración, Blindaje Reforzado. Puede pasar por encima de unidades y elementos de terreno más bajos que el abdomen de la unidad y de menos de 2 cm de ancho. Armado con dos armas elegidas de la lista siguiente (solo la Garra afilada puede elegirse dos veces): Lanzador de bilis, Biocañón de Bio-Titán, Espinas de racimo, Rociado piroácido, Garra afilada. Efecto de Impacto Crítico: la unidad sufre un punto de daño. Tira un D6: con un 1, todas las unidades a 5 cm o menos sufren un impacto con 6+; con un 6, la unidad pierde otro punto de daño."
   }
  ]
 }

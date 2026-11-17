@@ -35,8 +35,8 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
   doc.setFont('helvetica', 'bold'); doc.setFontSize(13);
   doc.text(`${total} / ${l.puntos} pts`, W - M - 3, M + 8, { align: 'right' });
   doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5); doc.setTextColor(...SUAVE);
-  doc.text(`Estrategia ${e.estrategia ?? '-'}  ·  ${l.formaciones.length} formaciones`, W - M - 3, M + 13, { align: 'right' });
-  if (maxAliados !== null) doc.text(`Aliados/aeronaves/titanes: ${costeAliados(e, l)} / ${maxAliados}`, W - M - 3, M + 17.5, { align: 'right' });
+  doc.text(`Factor de estrategia ${e.estrategia ?? '-'}  ·  ${l.formaciones.length} formaciones`, W - M - 3, M + 13, { align: 'right' });
+  if (maxAliados !== null) doc.text(`Aliados, aeronaves y titanes: ${costeAliados(e, l)} / ${maxAliados}`, W - M - 3, M + 17.5, { align: 'right' });
 
   // Tablas por sección
   let y = M + 25;
@@ -92,7 +92,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
   const problemas = problemasLista(e, l);
   const bloques: [string, string[]][] = [
     ...(problemas.length ? [['Avisos', problemas.map(p => '- ' + p)] as [string, string[]]] : []),
-    ['Iniciativa', [es(e.iniciativaEs, e.iniciativa)]],
+    [`Factor de estrategia ${e.estrategia ?? '-'} · Iniciativa`, [es(e.iniciativaEs, e.iniciativa)]],
   ];
   doc.setFontSize(8.2);
   for (const [t, ls] of bloques) {
@@ -102,18 +102,18 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
     doc.setFont('helvetica', 'normal'); doc.setTextColor(...TINTA); doc.text(partes, M, y); y += partes.length * 3.6 + 3;
   }
 
-  // Hojas de datos de las unidades de la lista
+  // Perfiles de atributos de las unidades de la lista
   const fichas = unidadesDeLista(e, l.formaciones);
   if (fichas.length) {
     if (y > H - 40) { doc.addPage(); y = M; }
     autoTable(doc, {
       startY: y, margin: { left: M, right: M },
       head: [
-        [{ content: 'HOJAS DE DATOS', colSpan: 10 }],
-        ['Unidad', 'Tipo', 'Vel.', 'Blind.', 'CC', 'FF', 'Armas', 'Alcance', 'Potencia de fuego', 'Notas'],
+        [{ content: 'PERFILES DE ATRIBUTOS', colSpan: 10 }],
+        ['Nombre', 'Tipo', 'Vel.', 'Blind.', 'CC', 'TT', 'Armas', 'Alc.', 'Potencia de fuego', 'Notas'],
       ],
       body: fichas.map(f => [
-        { content: f.nombre, styles: { fontStyle: 'bold' } },
+        { content: f.nombreEs ? `${f.nombreEs}\n(${f.nombre})` : f.nombre, styles: { fontStyle: 'bold' } },
         f.tipo, f.velocidad, f.blindaje, f.cc, f.ff,
         f.armas.map(a => a.nombre || '-').join('\n') || '-',
         f.armas.map(a => a.alcance || '-').join('\n'),

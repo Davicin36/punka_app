@@ -10,7 +10,7 @@
    "nombre": "Black Legion Core Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones principales de la Legión Negra"
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "black-legion-elite-formations",
@@ -21,8 +21,8 @@
     "cantidad": 1,
     "base": "retinue"
    },
-   "nombreEs": "Formaciones de élite de la Legión Negra",
-   "notaEs": "Se puede desplegar una formación de élite por cada séquito (no compañía acorazada)."
+   "notaEs": "Se puede desplegar una formación de élite por cada séquito (no compañía acorazada).",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "black-legion-support-formations",
@@ -33,8 +33,8 @@
     "cantidad": 2,
     "base": "core formation"
    },
-   "nombreEs": "Formaciones de apoyo de la Legión Negra",
-   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal."
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal.",
+   "nombreEs": "Lista de ejército"
   },
   {
    "id": "black-legion-upgrades",
@@ -43,23 +43,23 @@
    "nota": "Up to four upgrades may be taken once per formation.",
    "maxPorFormacion": 4,
    "unaVez": true,
-   "nombreEs": "Mejoras de la Legión Negra",
-   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación."
+   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación.",
+   "nombreEs": "Mejoras de la Legión Negra"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy",
    "nombre": "Chaos Navy And War Engine Formations / Chaos Navy",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Armada del Caos y máquinas de guerra / Armada del Caos",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Unidad"
   },
   {
    "id": "chaos-war-engines",
    "nombre": "Chaos War Engines",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Máquinas de guerra del Caos"
+   "nombreEs": "Máquinas de Guerra del Caos"
   },
   {
    "id": "daemon-pool",
@@ -97,8 +97,8 @@
      "textoEs": "Unidad adicional (por Chaos Land Raider)"
     }
    ],
-   "nombreEs": "Compañía acorazada",
-   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Chaos Predator, Chaos Land Raider"
+   "nombreEs": "Compañía Acorazada",
+   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator del Caos, Land Raider del Caos"
   },
   {
    "id": "black-legion-core-formations-retinue",
@@ -124,7 +124,7 @@
     "Vindicators"
    ],
    "nombreEs": "Séquito",
-   "unidadesEs": "Ocho Chaos Space Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "unidadesEs": "Ocho Marines Espaciales del Caos, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "black-legion-elite-formations-chaos-terminators",
@@ -151,11 +151,11 @@
      "coste": 60,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Unidad adicional (por cada extra)"
+     "textoEs": "Todas salvo Marines de Culto, Havocs, Rhinos y Vindicators"
     }
    ],
    "nombreEs": "Exterminadores del Caos",
-   "unidadesEs": "Entre cuatro y seis Chaos Space Marine Terminators, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "unidadesEs": "Entre cuatro y seis Exterminadores de los Marines del Caos, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "black-legion-elite-formations-chosen",
@@ -171,7 +171,7 @@
     "Rhinos"
    ],
    "nombreEs": "Elegidos",
-   "unidadesEs": "Cuatro Chaos Space Marine Chosen"
+   "unidadesEs": "Cuatro Elegidos de los Marines del Caos"
   },
   {
    "id": "black-legion-support-formations-bike-company",
@@ -184,8 +184,8 @@
     "Daemonic Pact",
     "Icon Bearer"
    ],
-   "nombreEs": "Compañía de motocicletas",
-   "unidadesEs": "Ocho Chaos Space Marine Bikes, una con un personaje Chaos Lord o Sorcerer Lord"
+   "nombreEs": "Compañía de Motocicletas",
+   "unidadesEs": "Ocho Motocicletas de Marines del Caos, una con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "black-legion-support-formations-defiler-assault-pack",
@@ -195,7 +195,7 @@
    "coste": 275,
    "costeTexto": "275 points",
    "mejoras": [],
-   "nombreEs": "Grupo de asalto de Defilers",
+   "nombreEs": "Jauría de Asalto Defiler",
    "unidadesEs": "Cuatro Defilers"
   },
   {
@@ -222,7 +222,7 @@
     "Dreadnoughts",
     "Icon Bearer"
    ],
-   "unidadesEs": "Cuatro Havocs, uno con un personaje Chaos Lord, y dos Chaos Rhinos o Chaos Land Raiders"
+   "unidadesEs": "Cuatro Havocs, uno con un personaje Señor del Caos, y dos Rhinos del Caos o Land Raiders del Caos"
   },
   {
    "id": "black-legion-support-formations-raptor-cult",
@@ -240,11 +240,11 @@
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Unidad adicional (por cada extra)"
+     "textoEs": "Pacto Demoníaco"
     }
    ],
-   "nombreEs": "Culto de raptores",
-   "unidadesEs": "Entre cuatro y ocho Raptors, uno con un personaje Chaos Lord o Sorcerer Lord"
+   "nombreEs": "Culto Raptor",
+   "unidadesEs": "Entre cuatro y ocho Raptores, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-harbinger",
@@ -253,7 +253,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger"
+   "unidadesEs": "Un Harbinger",
+   "nombreEs": "Demonio Mayor"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
@@ -262,7 +263,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Tres Hell Blades"
+   "unidadesEs": "Tres Hell Blades",
+   "nombreEs": "Demonio Menor"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -271,7 +273,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Dos Hell Talons"
+   "unidadesEs": "Hasta tres Decimators",
+   "nombreEs": "Decimators"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
@@ -301,7 +304,7 @@
    "unidades": "One Banelord Titan",
    "coste": 800,
    "costeTexto": "800 points",
-   "unidadesEs": "Un Banelord Titan"
+   "unidadesEs": "Un Titán Banelord"
   },
   {
    "id": "chaos-war-engines-deathwheels",
@@ -344,7 +347,8 @@
    "unidades": "One Feral Titan",
    "coste": 275,
    "costeTexto": "275 points",
-   "unidadesEs": "Un Feral Titan"
+   "unidadesEs": "Un Titán Salvaje",
+   "nombreEs": "Salvaje"
   },
   {
    "id": "chaos-war-engines-ravager",
@@ -353,7 +357,7 @@
    "unidades": "One Ravager Titan",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Un Ravager Titan"
+   "unidadesEs": "Un Titán Ravager"
   }
  ],
  "mejoras": [
@@ -365,7 +369,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "nombreEs": "Campeón del Caos",
-   "textoEs": "Añade un personaje Champion of Chaos"
+   "textoEs": "Añade un personaje Campeón del Caos"
   },
   {
    "id": "chaos-warlord",
@@ -376,7 +380,7 @@
    "costeTexto": "+50 points",
    "maxEjercito": 1,
    "nombreEs": "Señor de la Guerra del Caos",
-   "textoEs": "Añade un personaje Chaos Warlord por ejército a un Daemon Prince o a una unidad con un personaje Chaos Lord"
+   "textoEs": "Añade un personaje Señor de la Guerra del Caos por ejército a un Príncipe Demonio o a una unidad con un personaje Señor del Caos"
   },
   {
    "id": "cult-marines",
@@ -385,8 +389,8 @@
    "texto": "Add four Berzerkers, Noise Marines, Plague Marines or Thousand Sons to a formation that owes allegiance to Khorne, Slaanesh, Nurgle or Tzeentch respectively",
    "coste": 150,
    "costeTexto": "+150 points",
-   "nombreEs": "Marines de culto",
-   "textoEs": "Añade cuatro Berzerkers, Noise Marines, Plague Marines o Thousand Sons a una formación aliada de Khorne, Slaanesh, Nurgle o Tzeentch respectivamente"
+   "nombreEs": "Marines de Culto",
+   "textoEs": "Añade cuatro Berzerkers, Marines del Ruido, Marines de Plaga o Mil Hijos a una formación que deba lealtad a Khorne, Slaanesh, Nurgle o Tzeentch, respectivamente"
   },
   {
    "id": "daemon-prince-per-allegiance",
@@ -396,8 +400,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "nombreEs": "Príncipe demonio por alianza",
-   "textoEs": "Sustituye una unidad con un personaje Chaos Lord por un Daemon Prince"
+   "nombreEs": "Príncipe Demonio por lealtad",
+   "textoEs": "Sustituye una unidad con un personaje Señor del Caos por un Príncipe Demonio"
   },
   {
    "id": "daemonic-pact",
@@ -406,8 +410,8 @@
    "texto": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
    "coste": 25,
    "costeTexto": "+25 points",
-   "nombreEs": "Pacto demoníaco",
-   "textoEs": "Añade un Lesser Daemon a la reserva de demonios. La formación puede invocar demonios."
+   "nombreEs": "Pacto Demoníaco",
+   "textoEs": "Añade un Demonio Menor a la Reserva Demoníaca. La formación puede invocar demonios"
   },
   {
    "id": "defilers",
@@ -429,7 +433,8 @@
    "costeTexto": "+5 points per unit",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Transporta en Dreadclaws una formación formada solo por infantería y Chaos Dreadnoughts"
+   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos",
+   "nombreEs": "Garras del Terror"
   },
   {
    "id": "dreadnoughts",
@@ -440,7 +445,7 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Chaos Dreadnoughts"
+   "textoEs": "Añade hasta tres Dreadnoughts del Caos"
   },
   {
    "id": "havocs",
@@ -459,7 +464,7 @@
    "coste": 25,
    "costeTexto": "+25 points",
    "nombreEs": "Portaestandarte",
-   "textoEs": "Añade un personaje Icon Bearer"
+   "textoEs": "Añade un personaje Portaestandarte"
   },
   {
    "id": "land-raiders",
@@ -470,7 +475,7 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 4,
-   "textoEs": "Añade hasta cuatro Chaos Land Raiders"
+   "textoEs": "Añade hasta cuatro Land Raiders del Caos"
   },
   {
    "id": "obliterators",
@@ -482,7 +487,7 @@
    "porUnidad": true,
    "max": 3,
    "nombreEs": "Obliteradores",
-   "textoEs": "Añade hasta tres Obliterators"
+   "textoEs": "Añade hasta tres Obliteradores"
   },
   {
    "id": "rhinos",
@@ -493,7 +498,7 @@
    "costeTexto": "+10 points each",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería"
+   "textoEs": "Añade un Rhino del Caos por cada dos unidades de infantería"
   },
   {
    "id": "vindicators",
@@ -504,7 +509,7 @@
    "costeTexto": "+35 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Chaos Vindicators"
+   "textoEs": "Añade hasta tres Vindicators del Caos"
   }
  ],
  "compras": [
@@ -529,7 +534,7 @@
  ],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Marines Espaciales del Caos – Legión Negra",
- "iniciativaEs": "Las formaciones de la Chaos Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "iniciativaEs": "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
  "reglas": [
   {
    "id": "6.11",
@@ -537,12 +542,20 @@
    "parrafos": [
     "Hace diez mil años, el Imperio de la Humanidad se vio asolado por una devastadora guerra civil conocida como la Herejía de Horus. Varias Legiones de Marines Espaciales se rebelaron contra el «Falso Emperador» bajo el liderazgo persuasivo pero corrupto del Señor de la Guerra Horus, antiguo lugarteniente del Emperador que cayó bajo el influjo del Caos. Marines Espaciales lucharon contra sus hermanos Marines Espaciales, hasta culminar en una batalla final en el Palacio Imperial de la Sagrada Terra. Aunque las fuerzas del Imperio vencieron, el Emperador de la Humanidad quedó mortalmente herido y fue encerrado en el Trono Dorado para mantenerlo con vida. Mientras tanto, los Marines Espaciales rebeldes supervivientes huyeron al Ojo del Terror, una gigantesca tormenta disforme en el borde nororiental de la galaxia, donde el espacio disforme se mezcla con el espacio real y los Demonios del Caos pueden manifestarse.",
     "Los Marines Espaciales traidores se refugiaron en el Ojo del Terror y desde su base en la vorágine lanzan incursiones y Cruzadas Negras. Estos Marines Espaciales del Caos se convirtieron en una plaga interminable para el Imperio, sembrando el caos en nombre de sus Dioses.",
-    "Fuerzas: Esta lista usa las hojas de datos de 5.11.",
-    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Marines Espaciales del Caos basado en la Legión",
-    "Negra de Abaddon. También puede usarse como lista «sustituta» para otras Legiones Traidoras, como la Guardia de la Muerte, los Devoradores de Mundos, los Amos de la Noche y los Guerreros de Hierro.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.11.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Marines Espaciales del Caos basado en la Legión Negra de Abaddon. También puede usarse como lista «sustituta» para otras Legiones Traidoras, como la Guardia de la Muerte, los Devoradores de Mundos, los Amos de la Noche y los Guerreros de Hierro.",
     "Las formaciones de la Legión Negra son de tres tipos: formaciones principales (core), formaciones de élite y formaciones de apoyo. Cada formación principal que incluyas en el ejército te permite desplegar una formación de élite cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de élite o de apoyo si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
-    "Además, las formaciones pueden recibir hasta cuatro mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de la Legión Negra pueden recibir apoyo de formaciones de la Armada del Caos y de Ingenios de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
-    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+    "Además, las formaciones pueden recibir hasta cuatro mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de la Legión Negra pueden recibir apoyo de formaciones de la Armada del Caos y de Máquinas de Guerra.",
+    "Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación mejorada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2).",
+    "FACTOR DE E STRATEGIA: 4",
+    "I N I C I AT I VA",
+    "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Puede desplegarse una formación de élite por cada séquito (no por cada compañía acorazada) y dos formaciones de apoyo por cada formación principal.",
+    "• Hasta cuatro mejoras por formación, una de cada tipo.",
+    "• 0–1 Señor de la Guerra del Caos por ejército; 0–1 Príncipe Demonio por lealtad; 0–1 Nave Espacial.",
+    "• Reserva Demoníaca (Daemon Pool): Demonio Mayor +50 puntos c/u; Demonio Menor +15 puntos c/u."
    ]
   },
   {
@@ -571,27 +584,28 @@
   },
   {
    "id": "6.11.2",
-   "titulo": "Amos Volubles (Fickle Masters)",
+   "titulo": "Maestros caprichosos (Fickle Masters)",
    "parrafos": [
-    "Los Poderes del Caos castigan o recompensan rápidamente a sus campeones. En la fase de estrategia, si el jugador del Caos saca un 6, es recompensado por su perspicacia táctica con 1D3 demonios menores adicionales que se añaden a la Reserva de Demonios (véase 6.11.3). Si saca un 1, sus Poderes patrones le retiran su apoyo y debe retirar D3 demonios menores de la Reserva de Demonios. Si no le quedan demonios en la Reserva, no hay más efecto."
+    "Los Poderes del Caos castigan o recompensan rápidamente a sus campeones. En la fase de estrategia, si el jugador del Caos saca un 6, es recompensado por su perspicacia táctica con 1D3 demonios menores adicionales que se añaden a la Reserva Demoníaca (véase 6.11.3). Si saca un 1, sus Poderes patrones le retiran su apoyo y debe retirar D3 demonios menores de la Reserva Demoníaca. Si no le quedan demonios en la Reserva, no hay más efecto."
    ]
   },
   {
    "id": "6.11.3",
    "titulo": "Unidades Invocadas (Summoned Units)",
    "parrafos": [
-    "Las formaciones no desmoralizadas con Pacto Demoníaco pueden invocar al campo de batalla, desde la Reserva de Demonios (Daemon Pool), demonios de lealtad similar (o demonios de cualquier lealtad si la formación debe lealtad al Caos Indiviso). Los demonios de la Reserva de Demonios solo se anotan como demonios menores o mayores al adquirirlos, y deben considerarse marcadores. El jugador del Caos debe indicar en todo momento, de forma claramente visible para su oponente, el número de demonios menores y mayores de la Reserva de Demonios. La Reserva se mantiene fuera del tablero y los demonios se retiran de ella a medida que las formaciones los invocan al campo de batalla.",
-    "Una formación puede invocar unidades demoníacas de la Reserva de Demonios como parte de su acción, antes de declarar qué acción realizará. La formación genera 2D3 puntos de invocación que pueden usarse para trasladar demonios de la Reserva al campo de batalla, donde se convierten en unidades demoníacas reales. La lealtad de la formación que invoca determina qué unidades demoníacas puede invocar, mientras que las unidades demoníacas disponibles (y sus respectivos costes en puntos de invocación) se definen en cada lista de ejército del Caos. Los puntos de invocación deben usarse inmediatamente o se pierden, pero los demonios no invocados de la Reserva siguen disponibles para que los invoquen otras formaciones o en turnos posteriores. Las unidades demoníacas invocadas deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes de la invocación; no puedes colocar una «cadena» de unidades invocadas. Tampoco pueden colocarse en zona de control enemiga ni en terreno infranqueable. Por último, un ejército solo puede tener en el campo de batalla un demonio mayor de",
+    "Las formaciones no desmoralizadas con Pacto Demoníaco pueden invocar al campo de batalla, desde la Reserva Demoníaca (Daemon Pool), demonios de lealtad similar (o demonios de cualquier lealtad si la formación debe lealtad al Caos Indiviso). Los demonios de la Reserva Demoníaca solo se anotan como demonios menores o mayores al adquirirlos, y deben considerarse marcadores. El jugador del Caos debe indicar en todo momento, de forma claramente visible para su oponente, el número de demonios menores y mayores de la Reserva Demoníaca. La Reserva se mantiene fuera del tablero y los demonios se retiran de ella a medida que las formaciones los invocan al campo de batalla.",
+    "Una formación puede invocar unidades demoníacas de la Reserva Demoníaca como parte de su acción, antes de declarar qué acción realizará. La formación genera 2D3 puntos de invocación que pueden usarse para trasladar demonios de la Reserva al campo de batalla, donde se convierten en unidades demoníacas reales. La lealtad de la formación que invoca determina qué unidades demoníacas puede invocar, mientras que las unidades demoníacas disponibles (y sus respectivos costes en puntos de invocación) se definen en cada lista de ejército del Caos. Los puntos de invocación deben usarse inmediatamente o se pierden, pero los demonios no invocados de la Reserva siguen disponibles para que los invoquen otras formaciones o en turnos posteriores. Las unidades demoníacas invocadas deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes de la invocación; no puedes colocar una «cadena» de unidades invocadas. Tampoco pueden colocarse en zona de control enemiga ni en terreno infranqueable. Por último, un ejército solo puede tener en el campo de batalla un demonio mayor de",
     "una lealtad dada a la vez. Las unidades demoníacas invocadas cuentan como parte de la formación que las invocó mientras permanezcan en el campo de batalla.",
-    "Las unidades demoníacas destruidas se retiran del juego y no vuelven a la Reserva de Demonios. Si una formación con unidades demoníacas queda desmoralizada, todas sus unidades demoníacas se retiran también del juego. Si una formación con unidades demoníacas pierde un asalto (véase Calcular el resultado), los impactos adicionales que sufre se aplican antes de que quede desmoralizada y se retiren las unidades demoníacas. Ten en cuenta también que las unidades demoníacas sí cuentan para el modificador de asalto de tu oponente «Por cada baja que hayas infligido durante el asalto».",
-    "En la fase final, tras todos los chequeos de reorganización, todas las unidades demoníacas invocadas se convierten de nuevo en marcadores de demonio y vuelven a la Reserva de Demonios. Ten en cuenta que esto puede hacer que la formación quede desmoralizada. Las unidades de Ingenio de Guerra que vuelven a la Reserva de Demonios conservan su DC actual y no se curan hasta su DC completa. Si se invocan de nuevo, tendrán la misma DC que tenían antes de volver a la Reserva."
+    "Las unidades demoníacas destruidas se quitan del juego y no vuelven a la Reserva Demoníaca. Si una formación con unidades demoníacas queda desmoralizada, todas sus unidades demoníacas se quitan también del juego. Si una formación con unidades demoníacas pierde un asalto (véase Calcular el resultado), los impactos adicionales que sufre se aplican antes de que quede desmoralizada y se quiten las unidades demoníacas. Ten en cuenta también que las unidades demoníacas sí cuentan para el modificador de asalto de tu oponente «Por cada baja que hayas infligido durante el asalto».",
+    "En la fase de finalización, tras todos los chequeos de reorganización, todas las unidades demoníacas invocadas se convierten de nuevo en marcadores de demonio y vuelven a la Reserva Demoníaca. Ten en cuenta que esto puede hacer que la formación quede desmoralizada. Las unidades de Máquina de Guerra que vuelven a la Reserva Demoníaca conservan su FD actual y no se curan hasta su FD completa. Si se invocan de nuevo, tendrán la misma FD que tenían antes de volver a la Reserva."
    ]
   },
   {
    "id": "5.11.1",
-   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "titulo": "Invocación mejorada (Augmented Summoning)",
    "parrafos": [
-    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+    "Algunas unidades del Caos tienen Invocación mejorada (+x). Las unidades con esta capacidad suman un número de puntos",
+    "de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación mejorada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
    ]
   },
   {
@@ -605,76 +619,93 @@
  "fichas": [
   {
    "nombre": "Champion of Chaos",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Campeón del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Daemon Artifact",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), FS"
+     "nombre": "Artefacto demoníaco",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP"
     },
     {
-     "nombre": "Daemon Bolt",
+     "nombre": "Proyectil demoníaco",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), FS"
+     "potencia": "Armas ligeras, AE(+1), DP"
     }
    ],
-   "notas": "Augmented Summoning (+2D3), Invulnerable Save. A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon. A unit with this character may be sacrificed (removed from play without its formation receiving a Blast marker) before rolling for summoning points. This changes its Augmented Summoning from (+2D3) to (+6), and a Greater Daemon must be summoned. Place the Greater Daemon within 10cm of the point where the sacrificed unit was removed."
+   "notas": "Invocación mejorada (+2D3), Salvación Invulnerable. Un Campeón del Caos añadido a una formación de Khorne, Nurgle o del Caos Indiviso tiene el arma Artefacto Demoníaco. Un Campeón del Caos añadido a una formación de Slaanesh o Tzeentch tiene el arma Proyectil Demoníaco. Una unidad con este personaje puede sacrificarse (se quita del juego sin que su formación reciba un Marcador de Explosión) antes de tirar los puntos de invocación. Esto cambia su Invocación mejorada de (+2D3) a (+6), y debe invocarse un Demonio Mayor. Coloca el Demonio Mayor a 10 cm o menos del punto donde se retiró la unidad sacrificada."
   },
   {
    "nombre": "Chaos Lord",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Señor del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Daemon Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma demoníaca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Invulnerable Save, Leader."
+   "notas": "Comandante, Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Chaos Warlord",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "Supreme Commander."
-  },
-  {
-   "nombre": "Icon Bearer",
-   "tipo": "CH",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [],
-   "notas": "Daemonic Focus, Invulnerable Save, Leader."
-  },
-  {
-   "nombre": "Sorcerer Lord",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Señor de la Guerra del Caos",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Warp Bolt",
-     "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), MW"
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
     }
    ],
-   "notas": "Commander, Invulnerable Save, Leader."
+   "notas": "Comandante en jefe."
+  },
+  {
+   "nombre": "Icon Bearer",
+   "nombreEs": "Portaestandarte",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Foco Demoníaco, Salvación Invulnerable, Líder."
+  },
+  {
+   "nombre": "Sorcerer Lord",
+   "nombreEs": "Señor Hechicero",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Rayo disforme",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante, Salvación Invulnerable, Líder."
   },
   {
    "nombre": "Berzerkers",
@@ -685,15 +716,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Bolt Pistols",
+     "nombre": "Pistolas bólter",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Fearless."
+   "notas": "Coraje."
   },
   {
    "nombre": "Bloodletters",
+   "nombreEs": "Desangradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -701,15 +733,16 @@
    "ff": "-",
    "armas": [
     {
-     "nombre": "Hellblades",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "Espadas infernales",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Expendable, Invulnerable Save."
+   "notas": "Prescindible, Salvación Invulnerable."
   },
   {
    "nombre": "Chaos Space Marine Bikes",
+   "nombreEs": "Motocicletas de Marines del Caos",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -717,15 +750,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Bolters",
+     "nombre": "Bólters dobles",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Mounted."
+   "notas": "Montado."
   },
   {
    "nombre": "Chaos Space Marine Chosen",
+   "nombreEs": "Elegidos de los Marines del Caos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -733,15 +767,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Scout."
+   "notas": "Explorador."
   },
   {
    "nombre": "Chaos Space Marine Terminators",
+   "nombreEs": "Exterminadores de los Marines del Caos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -749,20 +784,21 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Reaper Autocannon",
+     "nombre": "2× Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
     {
-     "nombre": "Power Weapons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Reinforced Armour, Teleport, Thick Rear Armour."
+   "notas": "Blindaje Reforzado, Teletransporte, Blindaje adicional posterior."
   },
   {
    "nombre": "Chaos Space Marines",
+   "nombreEs": "Marines Espaciales del Caos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -770,7 +806,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -779,6 +815,7 @@
   },
   {
    "nombre": "Daemon Prince",
+   "nombreEs": "Príncipe Demonio",
    "tipo": "INF",
    "velocidad": "15cm (30cm)",
    "blindaje": "3+ (4+)",
@@ -786,40 +823,55 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Warp Blast",
+     "nombre": "Explosión disforme",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), MW"
+     "potencia": "Armas ligeras, AE(+1), MA"
     },
     {
-     "nombre": "Possessed Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+2), MW"
+     "nombre": "Arma poseída",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MA"
     }
    ],
-   "notas": "Commander, Fearless, Leader, Reinforced Armour, Teleport. A Daemon Prince may have wings, the unit gains Jump Packs and a move of 30cm, while its armour value is reduced to 4+."
+   "notas": "Comandante, Coraje, Líder, Blindaje Reforzado, Teletransporte. Un Príncipe Demonio puede tener alas: la unidad obtiene Retrorreactores y un movimiento de 30 cm, y su blindaje se reduce a 4+."
   },
   {
    "nombre": "Daemonettes",
+   "nombreEs": "Diablillas",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "-",
-   "armas": [],
-   "notas": "Expendable, First Strike, Invulnerable Save."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Daña primero, Salvación Invulnerable."
   },
   {
    "nombre": "Daemonic Beasts",
+   "nombreEs": "Bestias Demoníacas",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "-",
-   "armas": [],
-   "notas": "Expendable, Infiltrator, Invulnerable Save."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Prescindible, Infiltrador, Salvación Invulnerable."
   },
   {
    "nombre": "Flamers",
+   "nombreEs": "Incineradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -827,12 +879,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Flames of Tzeentch",
+     "nombre": "Llamas de Tzeentch",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Expendable, Invulnerable Save."
+   "notas": "Prescindible, Salvación Invulnerable."
   },
   {
    "nombre": "Havocs",
@@ -843,7 +895,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocannon",
+     "nombre": "2× Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -852,6 +904,7 @@
   },
   {
    "nombre": "Noise Marines",
+   "nombreEs": "Marines del Ruido",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -864,10 +917,11 @@
      "potencia": "AP5+/AT6+, D"
     }
    ],
-   "notas": "Fearless."
+   "notas": "Coraje."
   },
   {
    "nombre": "Obliterators",
+   "nombreEs": "Obliteradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -875,15 +929,16 @@
    "ff": "2+",
    "armas": [
     {
-     "nombre": "3× Body Weapons",
+     "nombre": "3× Armas corporales",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+/AA6+"
     }
    ],
-   "notas": "Fearless, Reinforced Armour, Teleport, Thick Rear Armour."
+   "notas": "Coraje, Blindaje Reforzado, Teletransporte, Blindaje adicional posterior."
   },
   {
    "nombre": "Plague Marines",
+   "nombreEs": "Marines de Plaga",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "3+",
@@ -891,15 +946,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Bolters",
+     "nombre": "Bólters",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Fearless."
+   "notas": "Coraje."
   },
   {
    "nombre": "Plaguebearers",
+   "nombreEs": "Portadores de Plaga",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "3+",
@@ -907,15 +963,16 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Plague of Flies",
+     "nombre": "Plaga de moscas",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Expendable, Invulnerable Save."
+   "notas": "Prescindible, Salvación Invulnerable."
   },
   {
    "nombre": "Raptors",
+   "nombreEs": "Raptores",
    "tipo": "INF",
    "velocidad": "30cm",
    "blindaje": "4+",
@@ -923,15 +980,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Bolt Pistols",
+     "nombre": "Pistolas bólter",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Jump Packs."
+   "notas": "Retrorreactores."
   },
   {
    "nombre": "Thousand Sons",
+   "nombreEs": "Mil Hijos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -939,70 +997,73 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Bolters",
+     "nombre": "Bólters",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Fearless, Reinforced Armour."
+   "notas": "Coraje, Blindaje Reforzado."
   },
   {
    "nombre": "Chaos Dreadnought",
-   "tipo": "AV",
+   "nombreEs": "Dreadnought del Caos",
+   "tipo": "VB",
    "velocidad": "15cm",
    "blindaje": "3+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Autocannon",
+     "nombre": "Autocañón doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+"
     },
     {
-     "nombre": "Power Fist",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Puño de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Walker."
+   "notas": "Coraje, Bípode."
   },
   {
    "nombre": "Chaos Land Raider",
-   "tipo": "AV",
+   "nombreEs": "Land Raider del Caos",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Twin Lascannon",
+     "nombre": "2× Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "Twin Heavy Bolter",
+     "nombre": "Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Reinforced Armour, Thick Rear Armour, Transport. May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without Jump Packs or Mounted."
+   "notas": "Blindaje Reforzado, Blindaje adicional posterior, Transporte. Puede transportar una unidad de Exterminadores de los Marines del Caos u Obliteradores, o dos unidades de infantería (excepto Príncipes Demonio) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Chaos Predator",
-   "tipo": "AV",
+   "nombreEs": "Predator del Caos",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Heavy Bolter",
+     "nombre": "2× Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1011,367 +1072,376 @@
   },
   {
    "nombre": "Chaos Rhino",
-   "tipo": "AV",
+   "nombreEs": "Rhino del Caos",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Combi-Bolter",
+     "nombre": "Combibólter",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Transport. May transport two infantry units (except Chaos Space Marine Terminators, Daemon Princes and Obliterators) without Jump Packs or Mounted."
+   "notas": "Transporte. Puede transportar dos unidades de infantería (excepto Exterminadores de los Marines del Caos, Príncipes Demonio y Obliteradores) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Chaos Vindicator",
-   "tipo": "AV",
+   "nombreEs": "Vindicator del Caos",
+   "tipo": "VB",
    "velocidad": "25cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Demolisher",
+     "nombre": "Cañón Demolisher",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, IC"
     }
    ],
-   "notas": "Walker."
+   "notas": "Bípode."
   },
   {
    "nombre": "Defiler",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Battle Cannon",
+     "nombre": "Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "Reaper Autocannon",
+     "nombre": "Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
     {
-     "nombre": "Twin Heavy Flamer",
+     "nombre": "Lanzallamas pesado doble",
      "alcance": "15cm",
      "potencia": "AP3+, IC"
     },
     {
-     "nombre": "Battle Claws",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Garras de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Infiltrator, Invulnerable Save, Walker."
+   "notas": "Coraje, Infiltrador, Salvación Invulnerable, Bípode."
   },
   {
    "nombre": "Banelord Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Banelord",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "2+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Hellstrike Cannon",
+     "nombre": "Cañón Hellstrike",
      "alcance": "60cm",
-     "potencia": "3BP, FxF, IC, MW"
+     "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "Doomfist",
+     "nombre": "Puño del Destino",
      "alcance": "30cm",
-     "potencia": "4× AP4+/AT4+, FwA"
+     "potencia": "4× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "y Doomfist",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+     "nombre": "y Puño del Destino",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "6× Havoc Missile",
+     "nombre": "6× Misil Havoc",
      "alcance": "60cm",
-     "potencia": "2BP, FwA, Ind, SS"
+     "potencia": "2PA, Fro, Ind, DU"
     },
     {
-     "nombre": "Battlehead",
+     "nombre": "Cabeza de combate",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "Tail",
+     "nombre": "Cola",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "y Tail",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "y Cola",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: Move the unit 3D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 4+."
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad 3D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 4+."
   },
   {
    "nombre": "Bloodthirster",
-   "tipo": "WE",
+   "nombreEs": "Devorador de Almas",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "-",
    "armas": [
     {
-     "nombre": "Axe of Khorne",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+3), TK"
+     "nombre": "Hacha de Khorne",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+3), MT"
     }
    ],
-   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Jump Packs, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Retrorreactores, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
   },
   {
    "nombre": "Deathwheel",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Reaper Autocannon",
+     "nombre": "2× Autocañón Segador",
      "alcance": "30cm",
-     "potencia": "AP4+/AT6+, Left"
+     "potencia": "AP4+/AT6+, Izq."
     },
     {
-     "nombre": "2× Reaper Autocannon",
+     "nombre": "2× Autocañón Segador",
      "alcance": "30cm",
-     "potencia": "AP4+/AT6+, Right"
+     "potencia": "AP4+/AT6+, Der."
     },
     {
-     "nombre": "Battle Cannon",
+     "nombre": "Cañón de batalla",
      "alcance": "75cm",
-     "potencia": "AP4+/AT4+, Left"
+     "potencia": "AP4+/AT4+, Izq."
     },
     {
-     "nombre": "Battle Cannon",
+     "nombre": "Cañón de batalla",
      "alcance": "75cm",
-     "potencia": "AP4+/AT4+, Right"
+     "potencia": "AP4+/AT4+, Der."
     }
    ],
-   "notas": "Damage Capacity 4, Fearless, Reinforced Armour, 2 Void Shields. Critical Hit Effect: Move the unit 3D6cm in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The unit is destroyed."
+   "notas": "Factor de Daños 4, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío. Efecto de Impacto Crítico: mueve la unidad 3D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una Máquina de Guerra, se detiene. Todas las unidades por las que pase o contra las que choque sufren un impacto. La unidad queda destruida."
   },
   {
    "nombre": "Decimator",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Decimator Cannon",
+     "nombre": "Cañón Decimator",
      "alcance": "45cm",
-     "potencia": "3BP, FxF, IC, MW"
+     "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "2× Twin Reaper Autocannon",
+     "nombre": "2× Autocañón Segador do ‐",
      "alcance": "30cm",
-     "potencia": "AP3+/AT5+, Left"
+     "potencia": "AP3+/AT5+, Izq."
     },
     {
-     "nombre": "2× Twin Reaper Autocannon",
+     "nombre": "ble 2× Autocañón Segador do ble",
      "alcance": "30cm",
-     "potencia": "AP3+/AT5+, Right"
+     "potencia": "AP3+/AT5+, Der."
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour. Critical Hit Effect: Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto con 6+."
   },
   {
    "nombre": "Feral Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Salvaje",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Death Storm",
+     "nombre": "Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+, FwA"
+     "potencia": "4× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "Hellmouth",
+     "nombre": "Boca del Infierno",
      "alcance": "30cm",
-     "potencia": "3BP, FwA, IC"
+     "potencia": "3PA, Fro, IC"
     },
     {
-     "nombre": "Battlehead",
+     "nombre": "Cabeza de combate",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: Move the unit D6cm in a random direction. If it moves into impassable terrain or another unit it can’t move over it will stop and suffer one point of damage. All units it moves into or over suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: mueve la unidad D6 cm en una dirección aleatoria. Si entra en terreno infranqueable o choca con una unidad sobre la que no puede pasar, se detiene y sufre un punto de daño. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
   },
   {
    "nombre": "Great Unclean One",
-   "tipo": "WE",
+   "nombreEs": "Gran Inmundicia",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Stream of Corruption",
+     "nombre": "Torrente de corrupción",
      "alcance": "15cm",
-     "potencia": "3BP, IC"
+     "potencia": "3PA, IC"
     },
     {
-     "nombre": "y Stream of Corruption",
+     "nombre": "y Torrente de corrupción",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), IC"
+     "potencia": "Armas ligeras, AE(+1), IC"
     },
     {
-     "nombre": "Nurgling Swarm",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "Enjambre de nurglings",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Daemonic Focus, Damage Capacity 4, Expendable, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+   "notas": "Foco Demoníaco, Factor de Daños 4, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
   },
   {
    "nombre": "Keeper of Secrets",
-   "tipo": "WE",
+   "nombreEs": "Guardián de los Secretos",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Gaze of Slaanesh",
+     "nombre": "Mirada de Slaanesh",
      "alcance": "30cm",
-     "potencia": "3× MW4+"
+     "potencia": "3× MA4+"
     },
     {
-     "nombre": "y Gaze of Slaanesh",
+     "nombre": "y Mirada de Slaanesh",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), FS, MW"
+     "potencia": "Armas ligeras, AE(+1), DP, MA"
     },
     {
-     "nombre": "Lash of Torment",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), FS, MW"
+     "nombre": "Látigo del Tormento",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP, MA"
     }
    ],
-   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
   },
   {
    "nombre": "Lord of Change",
-   "tipo": "WE",
+   "nombreEs": "Señor del Cambio",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "5+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Withering Gaze",
+     "nombre": "Mirada marchitadora",
      "alcance": "45cm",
-     "potencia": "2× MW3+"
+     "potencia": "2× MA3+"
     },
     {
-     "nombre": "y Withering Gaze",
+     "nombre": "y Mirada marchitadora",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), MW"
+     "potencia": "Armas ligeras, AE(+1), MA"
     },
     {
-     "nombre": "Bedlam Staff",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Báculo del Caos",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Daemonic Focus, Damage Capacity 3, Expendable, Fearless, Inspiring, Invulnerable Save, Jump Packs, Reinforced Armour, Walker. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+."
+   "notas": "Foco Demoníaco, Factor de Daños 3, Prescindible, Coraje, Inspirador, Salvación Invulnerable, Retrorreactores, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: la unidad queda destruida; las unidades invocadas a 5 cm o menos quedan destruidas con 6+."
   },
   {
    "nombre": "Ravager Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Ravager",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Doomburner",
+     "nombre": "Quemador del Destino",
      "alcance": "45cm",
-     "potencia": "MW2+, FxF, IC, TK(D3)"
+     "potencia": "MA2+, FxF, IC, MT(D3)"
     },
     {
-     "nombre": "2× Death Storm",
+     "nombre": "2× Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+, FwA"
+     "potencia": "4× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "Battlehead",
+     "nombre": "Cabeza de combate",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2)"
+     "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "Tail",
+     "nombre": "Cola",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "y Tail",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "y Cola",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Harbinger",
-   "tipo": "AC/WE",
-   "velocidad": "Bomber",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
    "blindaje": "5+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Reaper Autocannon",
+     "nombre": "Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+/AA5+, FxF"
     },
     {
-     "nombre": "Reaper Autocannon",
+     "nombre": "Autocañón Segador",
      "alcance": "15cm",
-     "potencia": "AP4+/AT6+/AA5+, Left"
+     "potencia": "AP4+/AT6+/AA5+, Izq."
     },
     {
-     "nombre": "Reaper Autocannon",
+     "nombre": "Autocañón Segador",
      "alcance": "15cm",
-     "potencia": "AP4+/AT6+/AA5+, Right"
+     "potencia": "AP4+/AT6+/AA5+, Der."
     },
     {
-     "nombre": "Incendiary Bombs",
+     "nombre": "Bombas incendiarias",
      "alcance": "15cm",
-     "potencia": "6BP, FxF, IC"
+     "potencia": "6PA, FxF, IC"
     }
    ],
-   "notas": "Damage Capacity 4, Invulnerable Save, Reinforced Armour. Critical Hit Effect: The unit is destroyed."
+   "notas": "Factor de Daños 4, Salvación Invulnerable, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida."
   },
   {
    "nombre": "Hell Blade",
-   "tipo": "AC",
-   "velocidad": "Fighter",
+   "tipo": "AN",
+   "velocidad": "Caza",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Reaper Autocannon",
+     "nombre": "2× Autocañón Segador",
      "alcance": "15cm",
      "potencia": "AP4+/AT6+/AA5+, FxF"
     }
@@ -1380,24 +1450,24 @@
   },
   {
    "nombre": "Hell Talon",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "5+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Bombs",
+     "nombre": "Bombas",
      "alcance": "15cm",
-     "potencia": "2BP, FxF, IC"
+     "potencia": "2PA, FxF, IC"
     },
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "30cm",
      "potencia": "AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Havoc Launcher",
+     "nombre": "Lanzador Havoc",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+, FxF"
     }
@@ -1406,55 +1476,64 @@
   },
   {
    "nombre": "Despoiler Class Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado clase Despoiler",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "3× Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "3× Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
-   "notas": "Slow and Steady, Transport. May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+   "notas": "Lenta y tediosa, Transporte. Puede transportar 40 unidades de infantería o Dreadnoughts del Caos; más nueve Thunderhawks del Caos y suficientes Garras del Terror para transportar al resto de unidades."
   },
   {
    "nombre": "Devastation Class Cruiser",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Crucero clase Devastación",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
-   "notas": "Transport. May transport 20 infantry units or Chaos Dreadnoughts; plus six Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried."
+   "notas": "Transporte. Puede transportar 20 unidades de infantería o Dreadnoughts del Caos; más seis Thunderhawks del Caos y suficientes Garras del Terror para transportar al resto de unidades."
   },
   {
    "nombre": "Dreadclaw",
-   "tipo": "Special",
-   "velocidad": "n/a",
+   "nombreEs": "Garra del Terror",
+   "tipo": "Especial",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
-   "armas": [],
-   "notas": "Planetfall, Transport. May transport one formation of infantry units (except Chaos Space Marine Bikes) and Chaos Dreadnoughts. The Dreadclaw does not scatter 2d6cm after being placed within 15cm of the drop zone co-ordinates recorded at the start of the game (see Planetfall). Any troops carried in the Dreadclaw must disembark within 5cm of the Dreadclaw or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Dreadclaw. Dreadclaw models should be removed from the board once the formation they transport has disembarked."
+   "armas": [
+    {
+     "nombre": "—",
+     "alcance": "",
+     "potencia": ""
+    }
+   ],
+   "notas": "Caída orbital, Transporte. Puede transportar una formación de unidades de infantería (excepto Motocicletas de Marines del Caos) y Dreadnoughts del Caos. La Garra del Terror no se desvía 2D6 cm tras colocarse a 15 cm o menos de las coordenadas de la zona de caída anotadas al comienzo de la partida (véase Caída orbital). Las tropas transportadas en la Garra del Terror deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la Garra del Terror. Las miniaturas de Garra del Terror se quitan del tablero cuando la formación que transportan ha desembarcado."
   }
  ]
 }

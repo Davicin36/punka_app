@@ -10,8 +10,8 @@
    "nombre": "Biel-Tan Craftworld Individuals",
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
-   "nombreEs": "Individuos del Mundo Astronave Biel-Tan",
-   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
+   "nombreEs": "Individuos del Mundo Astronave Biel-Tan"
   },
   {
    "id": "biel-tan-craftworld-warhosts",
@@ -29,16 +29,16 @@
     "cantidad": 3,
     "base": "warhost"
    },
-   "nombreEs": "Séquitos de guerra del Mundo Astronave Biel-Tan",
-   "notaEs": "Cada hueste que incluyas en el ejército te permite desplegar tres séquitos de guerra cualesquiera."
+   "notaEs": "Cada hueste que incluyas en el ejército te permite desplegar tres séquitos de guerra cualesquiera.",
+   "nombreEs": "Séquitos de guerra del Mundo Astronave Biel-Tan"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans",
    "nombre": "Biel-Tan Craftworld Spacecraft, Aircraft & Titans",
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
-   "nombreEs": "Naves, aeronaves y titanes del Mundo Astronave Biel-Tan",
-   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
+   "nombreEs": "Naves, aeronaves y titanes del Mundo Astronave Biel-Tan"
   }
  ],
  "formaciones": [
@@ -50,7 +50,7 @@
    "coste": 0,
    "costeTexto": "Free",
    "max": 1,
-   "nombreEs": "Avatar con la Corte del Joven Rey",
+   "nombreEs": "Avatar con personaje Corte del Joven Rey",
    "unidadesEs": "En la fase de estrategia de cualquier turno, coloca el Avatar a 15 cm o menos de un Farseer antes de la tirada de estrategia. El Avatar cuenta como su propia formación y solo puede entrar en juego así. En la fase final de ese turno, retira el Avatar antes de reagrupar formaciones. Una vez retirado, no puede volver."
   },
   {
@@ -61,7 +61,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego."
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego.",
+   "nombreEs": "Portal Espectral"
   },
   {
    "id": "biel-tan-craftworld-warhosts-aspect-warrior",
@@ -76,25 +77,25 @@
      "coste": 50,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Añade justo los Wave Serpents o Falcons necesarios para transportar todas las unidades sin Jump Packs ni Mounted por +50 puntos cada uno"
+     "textoEs": "Añade los Wave Serpents o Falcons justos para transportar todas las unidades sin Retrorreactores ni Montado, por +50 puntos c/u"
     },
     {
      "texto": "Add up to two Exarch characters to infantry units for +25 points each",
      "coste": 25,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos personajes Exarch a unidades de infantería por +25 puntos cada uno"
+     "textoEs": "Añade hasta dos personajes Exarca a unidades de infantería por +25 puntos c/u"
     },
     {
      "texto": "Replace one Exarch character per army with an Autarch character for +50 points",
      "coste": 50,
      "porUnidad": true,
      "max": 10,
-     "textoEs": "Sustituye un personaje Exarch por ejército por un personaje Autarch por +50 puntos"
+     "textoEs": "Sustituye un personaje Exarca por ejército por un Autarca por +50 puntos"
     }
    ],
    "nombreEs": "Guerreros Aspecto",
-   "unidadesEs": "Ocho cualesquiera de estas unidades: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders"
+   "unidadesEs": "Ocho cualesquiera de: Segadores Siniestros, Vengadores Implacables, Dragones de Fuego, Banshees Aullantes, Lanzas Brillantes, Escorpiones Asesinos, Halcones Cazadores, Arañas de la Disformidad"
   },
   {
    "id": "biel-tan-craftworld-warhosts-guardian",
@@ -109,33 +110,33 @@
      "coste": 0,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Sustituye gratis hasta tres Guardians por el mismo número de Heavy Weapon Platforms"
+     "textoEs": "Sustituye hasta tres Guardianes por el mismo número de Plataformas de Armas Pesadas gratis"
     },
     {
      "texto": "Add three Support Weapon Platform units for +50 points",
      "coste": 50,
-     "textoEs": "Añade tres unidades de Support Weapon Platform por +50 puntos"
+     "textoEs": "Añade tres Plataformas de Armas de Apoyo por +50 puntos"
     },
     {
      "texto": "Add between two and three Wraithguard units for +50 points each",
      "coste": 50,
      "porUnidad": true,
      "max": 3,
-     "textoEs": "Añade entre dos y tres unidades de Wraithguard por +50 puntos cada una"
+     "textoEs": "Añade entre dos y tres unidades de Guardia Espectral por +50 puntos c/u"
     },
     {
      "texto": "Add three Wraithlords for +175 points",
      "coste": 175,
-     "textoEs": "Añade tres Wraithlords por +175 puntos"
+     "textoEs": "Añade tres Señores Espectrales por +175 puntos"
     },
     {
      "texto": "Add four Wave Serpents to a formation consisting of only Farseer, Guardians or Heavy Weapon Platform units for +200 points",
      "coste": 200,
-     "textoEs": "Añade cuatro Wave Serpents a una formación formada solo por Farseer, Guardians o Heavy Weapon Platforms por +200 puntos"
+     "textoEs": "Añade cuatro Wave Serpents a una formación compuesta solo por Vidente, Guardianes o Plataformas de Armas Pesadas por +200 puntos"
     }
    ],
    "nombreEs": "Guardianes",
-   "unidadesEs": "Un Farseer y siete Guardians"
+   "unidadesEs": "Un Vidente y siete Guardianes"
   },
   {
    "id": "biel-tan-craftworld-troupes-engine-of-vaul",
@@ -150,11 +151,11 @@
      "coste": 250,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos cualesquiera de estas unidades por +250 puntos cada una: Cobra, Scorpion, Storm Serpent"
+     "textoEs": "Añade hasta dos cualesquiera de: Cobra, Scorpion, Serpiente de Tormenta por +250 puntos c/u"
     }
    ],
-   "nombreEs": "Ingenio de Vaul",
-   "unidadesEs": "Una cualquiera de estas unidades: Cobra, Scorpion, Storm Serpent"
+   "nombreEs": "Máquina de Vaul",
+   "unidadesEs": "Uno cualquiera de: Cobra, Scorpion, Serpiente de Tormenta"
   },
   {
    "id": "biel-tan-craftworld-troupes-night-spinner",
@@ -163,8 +164,8 @@
    "unidades": "Three Night Spinners",
    "coste": 175,
    "costeTexto": "175 points",
-   "nombreEs": "Night Spinners",
-   "unidadesEs": "Tres Night Spinners"
+   "nombreEs": "Hiladores Nocturnos",
+   "unidadesEs": "Tres Hiladores Nocturnos"
   },
   {
    "id": "biel-tan-craftworld-troupes-ranger",
@@ -179,10 +180,10 @@
      "coste": 25,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Añade hasta cuatro unidades de Rangers por +25 puntos cada una"
+     "textoEs": "Añade hasta cuatro unidades de Rangers por +25 puntos c/u"
     }
    ],
-   "nombreEs": "Exploradores",
+   "nombreEs": "Rangers",
    "unidadesEs": "Cuatro Rangers"
   },
   {
@@ -196,21 +197,21 @@
     {
      "texto": "Add up to one Falcon for +50 points",
      "coste": 50,
-     "textoEs": "Añade como máximo un Falcon por +50 puntos"
+     "textoEs": "Añade hasta un Falcon por +50 puntos"
     },
     {
      "texto": "Replace up to two Falcons with an equal number of Firestorms for free",
      "coste": 0,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Sustituye gratis hasta dos Falcons por el mismo número de Firestorms"
+     "textoEs": "Sustituye hasta dos Falcons por el mismo número de Firestorms gratis"
     },
     {
      "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
      "coste": 15,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Fire Prisms por +15 puntos cada uno"
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u"
     }
    ],
    "nombreEs": "Espadas de Vaul",
@@ -229,10 +230,11 @@
      "coste": 275,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos Void Spinners por +275 puntos cada uno"
+     "textoEs": "Añade hasta dos Hiladores del Vacío por +275 puntos c/u"
     }
    ],
-   "unidadesEs": "Un Void Spinner"
+   "unidadesEs": "Un Hilador del Vacío",
+   "nombreEs": "Hilador del Vacío"
   },
   {
    "id": "biel-tan-craftworld-troupes-war-walker",
@@ -247,11 +249,11 @@
      "coste": 25,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Añade hasta dos War Walkers por +25 puntos cada uno"
+     "textoEs": "Añade hasta dos Bípodes de Guerra por +25 puntos c/u"
     }
    ],
-   "nombreEs": "Bípodes de guerra",
-   "unidadesEs": "Cuatro War Walkers"
+   "nombreEs": "Bípodes de Guerra",
+   "unidadesEs": "Cuatro Bípodes de Guerra"
   },
   {
    "id": "biel-tan-craftworld-troupes-windrider",
@@ -260,8 +262,8 @@
    "unidades": "Any six of the following units: Jetbikes, Vyper",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Jinetes del viento",
-   "unidadesEs": "Seis cualesquiera de estas unidades: Jetbikes, Vyper"
+   "nombreEs": "Jinetes del Viento",
+   "unidadesEs": "Seis cualesquiera de: Motos Jet, Vyper"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-nightwings",
@@ -270,7 +272,7 @@
    "unidades": "Three Nightwing Interceptors",
    "coste": 300,
    "costeTexto": "300 points",
-   "unidadesEs": "Tres Nightwing Interceptors"
+   "unidadesEs": "Tres Interceptores Nightwing"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-phantom",
@@ -279,7 +281,8 @@
    "unidades": "One Phantom Titan",
    "coste": 750,
    "costeTexto": "750 points",
-   "unidadesEs": "Un Phantom Titan"
+   "unidadesEs": "Un Titán Fantasma",
+   "nombreEs": "Fantasma"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-phoenix",
@@ -288,7 +291,8 @@
    "unidades": "Three Phoenix Bombers",
    "coste": 325,
    "costeTexto": "325 points",
-   "unidadesEs": "Tres Phoenix Bombers"
+   "unidadesEs": "Tres Bombarderos Fénix",
+   "nombreEs": "Fénix"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-revenants",
@@ -297,7 +301,7 @@
    "unidades": "Two Revenant Titans",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Dos Revenant Titans"
+   "unidadesEs": "Dos Titanes Revenant"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-spacecraft",
@@ -307,8 +311,8 @@
    "coste": 150,
    "costeTexto": "150 points 300 points",
    "max": 1,
-   "nombreEs": "Nave espacial",
-   "unidadesEs": "Una cualquiera de estas unidades: Wraithship, Dragonship"
+   "nombreEs": "Nave Espacial",
+   "unidadesEs": "Una de: Nave Espectral (150) o Nave Dragón (300)"
   },
   {
    "id": "biel-tan-craftworld-spacecraft-aircraft-titans-vampire",
@@ -327,51 +331,57 @@
    "coste": 850,
    "costeTexto": "850 points",
    "max": 1,
-   "unidadesEs": "Un Warlock Titan"
+   "unidadesEs": "Un Titán Brujo",
+   "nombreEs": "Brujo"
   }
  ],
  "mejoras": [],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
- "iniciativaEs": "Las formaciones de Avatar, Aspect Warrior, Phantom, Revenants y Warlock tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "iniciativaEs": "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.6",
    "titulo": "Lista de ejército del Mundo Astronave Eldar de Biel-Tan",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.6.",
-    "Uso de la lista de ejército: Las formaciones del Mundo Astronave de Biel-Tan son de tres tipos; los dos primeros son las formaciones de hueste de guerra (warhost) y de compañía (troupe). Cada hueste de guerra que incluyas en el ejército te permite desplegar tres formaciones de compañía cualesquiera.",
-    "Aunque solo puedes llevar una formación de compañía si antes llevas una hueste de guerra, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. El tercer tipo son las formaciones de Naves Espaciales, Aeronaves y Titanes del Mundo Astronave de Biel-Tan. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
-    "Por último, los Individuos del Mundo Astronave de Biel-Tan incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas».",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.6.",
+    "Uso de la lista de ejército: Las formaciones del Mundo Astronave de Biel-Tan son de tres tipos; los dos primeros son las formaciones de hueste de guerra (warhost) y de troupe. Cada hueste de guerra que incluyas en el ejército te permite desplegar tres formaciones de troupe cualesquiera. Aunque solo puedes llevar una formación de troupe si antes llevas una hueste de guerra, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. El tercer tipo son las formaciones de Naves Espaciales, Aeronaves y Titanes del Mundo Astronave de Biel-Tan. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército. Por último, los Individuos del Mundo Astronave de Biel-Tan incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista». La lista incluye la siguiente información:",
     "• Formación: El nombre de la formación.",
     "• Unidades: Las unidades principales que componen la formación.",
     "• Extras: Una formación eldar puede incluir cualquiera de las unidades adicionales de la columna «Extras». Puedes incluir cualquier número salvo que se indique lo contrario. Todas las unidades principales y adicionales de una formación cuentan como parte de una única formación y no pueden separarse por su cuenta.",
     "• Coste: El valor en puntos de la formación.",
-    "Reglas especiales: La regla Tácticas de Golpear y Huir se aplica a todas las formaciones eldars (véase 5.6.2). Además, ciertas unidades y armas tienen capacidades especiales descritas en Clarividencia (véase 5.6.1) y Tecnología Eldar (véase 5.6.3).",
+    "Reglas especiales: La regla Tácticas de ataque y retirada se aplica a todas las formaciones eldars (véase 5.6.2). Además, ciertas unidades y armas tienen capacidades especiales descritas en Videncia (véase 5.6.1) y Tecnología Eldar (véase 5.6.3).",
     "FAQ",
     "P: ¿Puede colocarse un Avatar a 15 cm o menos de un Portal de la Telaraña si un Vidente está en reserva y entrará a través de él?",
-    "R: No."
+    "R: No.",
+    "I N I C I AT I VA FACTOR DE E STRATEGIA: 4",
+    "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• Avatar (0–1 por ejército, gratis): en la fase de estrategia de cualquier turno, coloca el Avatar a 15 cm o menos de un Vidente antes de hacer la tirada de estrategia. El Avatar cuenta como formación propia y solo puede entrar en juego de este modo. En la fase de finalización de ese turno, quita el Avatar antes de reorganizar formaciones. Una vez retirado, no puede volver. En Biel-Tan, el Avatar incluye el personaje Corte del Joven Rey.",
+    "• Portal Espectral (Wraithgate) (0–1 por ejército, +50 puntos): al empezar la partida, antes de colocar naves espaciales y patrullas, designa un objetivo de tu mitad de la mesa como Portal Espectral. Funciona a la vez como Portal de la Telaraña y como objetivo a efectos de reglas, y no puede ser destruido. Solo pueden usarlo para entrar en juego las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con Bípode.",
+    "• Guerreros Aspecto: pueden añadir los Wave Serpents o Falcons justos para transportar todas las unidades sin Retrorreactores ni Montado (+50 c/u), hasta dos personajes Exarca (+25 c/u), y sustituir un Exarca por ejército por un Autarca (+50)."
    ]
   },
   {
    "id": "6.6.1",
-   "titulo": "No pueden ser guarnición (May Not Garrison)",
+   "titulo": "No pueden patrullar (May Not Garrison)",
    "parrafos": [
-    "Los eldars son un ejército muy móvil y rara vez tienen fuerzas suficientes para tomar y mantener terreno. Por ello, en lugar de mantener una línea de frente fuertemente guarnecida, suelen confiar en una pantalla de Exploradores (Rangers) y Bípodes de Guerra (War Walkers) que avisa de la aproximación de cualquier fuerza enemiga. Mientras tanto, el grueso del muy móvil ejército eldar se mantiene en reserva, listo para desplazarse rápidamente a cualquier sector amenazado. Esta táctica permite a los eldars controlar grandes extensiones de terreno con relativamente pocas tropas. Para representar estas tácticas, en el escenario de juego de torneo de Epic solo los Exploradores y los Bípodes de Guerra eldars pueden guarnecer objetivos."
+    "Los eldars son un ejército muy móvil y rara vez tienen fuerzas suficientes para tomar y mantener terreno. Por ello, en lugar de mantener una línea de frente fuertemente guarnecida, suelen confiar en una pantalla de Rangers y Bípodes de Guerra (War Walkers) que avisa de la aproximación de cualquier fuerza enemiga. Mientras tanto, el grueso del muy móvil ejército eldar se mantiene en reserva, listo para desplazarse rápidamente a cualquier sector amenazado. Esta táctica permite a los eldars controlar grandes extensiones de terreno con relativamente pocas tropas. Para representar estas tácticas, en el escenario de juego de torneo de Epic solo los Rangers y los Bípodes de Guerra eldars pueden patrullar objetivos."
    ]
   },
   {
    "id": "5.6.1",
-   "titulo": "Clarividencia (Farsight)",
+   "titulo": "Videncia",
    "parrafos": [
-    "Los Videntes eldars son capaces de desentrañar parcialmente los hilos del tiempo, lo que les permite prever acontecimientos que pueden afectar a su ejército y actuar para contrarrestarlos. Para representarlo, cualquier formación eldar que incluya una unidad con Clarividencia puede ignorar la penalización de -1 al chequeo de acción cuando intenta retener la iniciativa. Además, una vez por turno, el jugador eldar puede intentar retener la iniciativa dos veces seguidas (es decir, puede retener la iniciativa y realizar otra acción después de haberla retenido con éxito una vez). Puede elegirse cualquier formación eldar, incluidas las que no incluyan una unidad con Clarividencia, pero debe seguir en juego y en el campo de batalla al menos una unidad con Clarividencia. La formación debe superar igualmente un chequeo de iniciativa para realizar la acción y sufrirá el modificador de -1 por retener la iniciativa salvo que incluya una unidad con Clarividencia. Una vez realizada la acción, la iniciativa vuelve al jugador contrario."
+    "Los Videntes eldars son capaces de desentrañar parcialmente los hilos del tiempo, lo que les permite prever acontecimientos que pueden afectar a su ejército y actuar para contrarrestarlos. Para representarlo, cualquier formación eldar que incluya una unidad con Videncia puede ignorar la penalización de -1 al chequeo de acción cuando intenta retener la iniciativa. Además, una vez por turno, el jugador eldar puede intentar retener la iniciativa dos veces seguidas (es decir, puede retener la iniciativa y realizar otra acción después de haberla retenido con éxito una vez). Puede elegirse cualquier formación eldar, incluidas las que no incluyan una unidad con Videncia, pero debe seguir en juego y en el campo de batalla al menos una unidad con Videncia. La formación debe superar igualmente un chequeo de iniciativa para realizar la acción y sufrirá el modificador de -1 por retener la iniciativa salvo que incluya una unidad con Videncia. Una vez realizada la acción, la iniciativa vuelve al jugador contrario."
    ]
   },
   {
    "id": "5.6.2",
-   "titulo": "Tácticas de Golpear y Huir (Hit & Run Tactics)",
+   "titulo": "Tácticas de ataque y retirada (Hit & Run Tactics)",
    "parrafos": [
-    "Los eldars son una raza moribunda y lloran profundamente cada pérdida. Por ello han desarrollado tácticas que, combinadas con su tecnología muy avanzada, les permiten atacar al enemigo y retirarse rápidamente para evitar el fuego de respuesta. Esta capacidad se refleja con las siguientes reglas especiales, que se aplican a todas las formaciones de un ejército eldar. Las formaciones eldars que realizan acciones de Avanzar o Doble pueden elegir disparar antes o después de cada movimiento. Sin embargo, siguen pudiendo disparar una sola vez durante la acción. Por ejemplo, una formación eldar que realice una acción de Avanzar podría disparar y luego mover, o mover y luego disparar, mientras que una formación que realice una acción Doble podría disparar y mover dos veces, mover dos veces y luego disparar, o mover, disparar y volver a mover. Además, las formaciones eldars que ganan un asalto pueden mover cualquier distancia hasta su valor de velocidad al consolidar, en lugar de estar limitadas a un movimiento de 5 cm como sería normal.",
+    "Los eldars son una raza moribunda y lloran profundamente cada pérdida. Por ello han desarrollado tácticas que, combinadas con su tecnología muy avanzada, les permiten atacar al",
+    "enemigo y retirarse rápidamente para evitar el fuego de respuesta. Esta capacidad se refleja con las siguientes reglas especiales, que se aplican a todas las formaciones de un ejército eldar. Las formaciones eldars que realizan acciones de Avanzar o Doble pueden elegir disparar antes o después de cada movimiento. Sin embargo, siguen pudiendo disparar una sola vez durante la acción. Por ejemplo, una formación eldar que realice una acción de Avanzar podría disparar y luego mover, o mover y luego disparar, mientras que una formación que realice una acción Doble podría disparar y mover dos veces, mover dos veces y luego disparar, o mover, disparar y volver a mover. Además, las formaciones eldars que ganan un asalto pueden mover cualquier distancia hasta su valor de velocidad al consolidar, en lugar de estar limitadas a un movimiento de 5 cm como sería normal.",
     "FAQ",
     "P: Si una formación eldar realiza una acción Doble y mueve, dispara y vuelve a mover, ¿puede la infantería transportada desembarcar tras el primer movimiento, disparar y ser recogida como parte del segundo?",
     "R: Sí, siempre que su transporte no se esté elevando.",
@@ -384,86 +394,84 @@
    "titulo": "Tecnología Eldar (Eldar Technology)",
    "parrafos": [
     "Los eldars son una raza tecnológicamente sofisticada que usa diversos dispositivos con capacidades muy superiores a cualquier cosa empleada por las demás razas de la galaxia. Estas ventajas tecnológicas se representan en Epic con las siguientes reglas especiales:",
-    "Holocampo (Holofield): Los Titanes eldars están protegidos por un Holocampo proyectado desde estructuras especiales en forma de ala sobre el caparazón del Titán. Estas fragmentan la imagen del Titán, haciéndolo parecer a simple vista una nube arremolinada de motas de colores, a la vez que perturban cualquier sistema de puntería que intente fijarlo. ¡El resultado es que el Titán es un objetivo muy difícil de alcanzar! Los Holocampos proporcionan a los Titanes una tirada de salvación especial de 3+ que puede hacerse en lugar de su salvación normal. Esta salvación puede hacerse siempre, incluso contra impactos en un asalto o contra ataques Mata-Titanes o de Macroarma. Haz una sola salvación contra armas con la capacidad Mata-Titanes, en lugar de una por cada punto de daño. Si un vehículo con Holocampo tiene además Blindaje Reforzado, puede repetir su tirada de salvación salvo que sea impactado por ataques de Lanza, Macroarma o Mata-Titanes, pero la repetición debe hacerse con la salvación por blindaje de la unidad, no con la del Holocampo. No se colocan Marcadores de Explosión por los impactos salvados por un Holocampo.",
+    "Holocampo (Holofield): Los Titanes eldars están protegidos por un Holocampo proyectado desde estructuras especiales en forma de ala sobre el caparazón del Titán. Estas fragmentan la imagen del Titán, haciéndolo parecer a simple vista una nube arremolinada de motas de colores, a la vez que perturban cualquier sistema de puntería que intente fijarlo. ¡El resultado es que el Titán es un objetivo muy difícil de alcanzar! Los Holocampos proporcionan a los Titanes una tirada de salvación especial de 3+ que puede hacerse en lugar de su salvación normal. Esta salvación puede hacerse siempre, incluso contra impactos en un asalto o contra ataques Matatitanes o de Macro-arma. Haz una sola salvación contra armas con la capacidad Matatitanes, en lugar de una por cada punto de daño. Si un vehículo con Holocampo tiene además Blindaje Reforzado, puede repetir su tirada de salvación salvo que sea impactado por ataques de Lanza, Macro-arma o Matatitanes, pero la repetición debe hacerse con la salvación por blindaje de la unidad, no con la del Holocampo. No se colocan Marcadores de Explosión por los impactos salvados por un Holocampo.",
     "Lanza (Lance): Una Lanza usa un haz muy concentrado de energía láser para destruir objetivos fuertemente blindados. Una unidad con Blindaje Reforzado impactada por un arma de Lanza no puede repetir su tirada de salvación.",
-    "Portal de la Telaraña (Webway Portal): Los eldars usan los portales de la Telaraña para viajar con seguridad a través de la Disformidad. Cada Portal de la Telaraña incluido en el ejército permite al jugador eldar elegir hasta otras tres formaciones y mantenerlas en el Mundo Astronave. Cualquier formación mantenida en el Mundo Astronave puede entrar en juego a través del Portal realizando una acción que le permita mover, y midiendo su primer movimiento desde la posición que ocupa un Portal de la Telaraña sobre la mesa. Ten en cuenta que la formación puede aparecer por cualquier Portal de la Telaraña, no solo por el que se «usó» para mantenerla fuera del tablero. No puede pasar más de una formación por cada Portal de la Telaraña por turno. En las Reglas de Juego de Torneo de Epic, las formaciones en reserva con varias opciones de despliegue deben tener un méto‐",
-    "do de despliegue designado durante el despliegue (p. ej., Portal de la Telaraña, transporte aéreo o teletransporte).",
+    "Portal de la Telaraña (Webway Portal): Los eldars usan los portales de la Telaraña para viajar con seguridad a través de la Disformidad. Cada Portal de la Telaraña incluido en el ejército permite al jugador eldar elegir hasta otras tres formaciones y mantenerlas en el Mundo Astronave. Cualquier formación mantenida en el Mundo Astronave puede entrar en juego a través del Portal realizando una acción que le permita mover, y midiendo su primer movimiento desde la posición que ocupa un Portal de la Telaraña sobre la mesa. Ten en cuenta que la formación puede aparecer por cualquier Portal de la Telaraña, no solo por el que se «usó» para mantenerla fuera del tablero. No puede pasar más de una formación por cada Portal de la Telaraña por turno. En las Reglas de Juego de Torneo de Epic, las formaciones en reserva con varias opciones de despliegue deben tener un método de despliegue designado durante el despliegue (p. ej., Portal de la Telaraña, transporte aéreo o teletransporte).",
     "FAQ",
     "P: ¿Le afectan a un Holocampo los modificadores a la salvación (es decir, impactos de francotirador y de fuego cruzado)?",
     "R: Sí.",
     "P: ¿Puede una formación entrar en juego a través de un Portal de la Telaraña cubierto por unidades enemigas o dentro de su zona de control?",
-    "R: Sí, pero la formación que lo use tendría que realizar una acción de Enfrentarse.",
+    "R: Sí, pero la formación que lo use tendría que realizar una acción de Atacar.",
     "P: ¿Qué ocurre cuando una formación en reserva falla su chequeo de acción y necesita entrar en juego a través de un Portal de la Telaraña cubierto por unidades enemigas o dentro de su zona de control?",
-    "R: Recibe un Marcador de Explosión y no puede realizar una acción de Mantener. En la práctica, pierde su activación."
+    "R: Recibe un Marcador de Explosión y no puede realizar una acción de Aguantar. En la práctica, pierde su activación."
    ]
   }
  ],
  "fichas": [
   {
    "nombre": "Autarch",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Autarca",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Autarch Ranged Weapon",
+     "nombre": "Arma a distancia del Autar ‐",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1)"
+     "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "Autarch Close Combat Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "ca Arma de combate del Au tarca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Inspiring, Invulnerable Save, Supreme Commander."
+   "notas": "Inspirador, Salvación Invulnerable, Comandante en jefe."
   },
   {
    "nombre": "Court of the Young King",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Corte del Joven Rey",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Ancient Weapons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Armas antiguas",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Exarch",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Exarca",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Exarch Ranged Weapon",
+     "nombre": "0–1× Arma a distancia del",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1)"
+     "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "0–1× Exarch Close Combat",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
-    },
-    {
-     "nombre": "Weapon",
-     "alcance": "",
-     "potencia": ""
+     "nombre": "Exarca 0–1× Arma de combate del Exarca",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
-   "notas": "Inspiring. Exarchs added to units of Dire Avengers, Howling Banshees, Shining Spears or Striking Scorpions have an Exarch Close Combat weapon. Exarchs added to a unit of Dark Reapers, Fire Dragons, Swooping Hawks or Warp Spiders have an Exarch Ranged Weapon."
+   "notas": "Inspirador. Los Exarcas añadidos a unidades de Vengadores Implacables, Banshees Aullantes, Lanzas Brillantes o Escorpiones Asesinos tienen un Arma de combate del Exarca. Los Exarcas añadidos a unidades de Segadores Siniestros, Dragones de Fuego, Halcones Cazadores o Arañas de la Disformidad tienen un Arma a distancia del Exarca."
   },
   {
    "nombre": "Dark Reapers",
+   "nombreEs": "Segadores Siniestros",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -471,7 +479,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Reaper Missile Launchers",
+     "nombre": "Lanzamisiles Segadores",
      "alcance": "45cm",
      "potencia": "2× AP5+"
     }
@@ -480,6 +488,7 @@
   },
   {
    "nombre": "Dire Avengers",
+   "nombreEs": "Vengadores Implacables",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -487,15 +496,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Shuriken Catapults",
+     "nombre": "Catapultas shuriken",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1)"
+     "potencia": "Armas ligeras, AE(+1)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Farseer",
+   "nombreEs": "Vidente",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -503,20 +513,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Shuriken Pistols",
+     "nombre": "Pistolas shuriken",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Witch Blades",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Hojas brujas",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Farsight, Invulnerable Save."
+   "notas": "Comandante, Videncia, Salvación Invulnerable."
   },
   {
    "nombre": "Fire Dragons",
+   "nombreEs": "Dragones de Fuego",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -524,20 +535,21 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Fusion Guns",
+     "nombre": "Armas de fusión",
      "alcance": "15cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y Fusion Guns",
+     "nombre": "y Armas de fusión",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, MW"
+     "potencia": "Armas ligeras, MA"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Guardians",
+   "nombreEs": "Guardianes",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -545,15 +557,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Shuriken Catapults",
+     "nombre": "Catapultas shuriken",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Heavy Weapon Platform",
+   "nombreEs": "Plataforma de Armas Pesadas",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -561,7 +574,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Scatter Laser",
+     "nombre": "Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
@@ -570,6 +583,7 @@
   },
   {
    "nombre": "Howling Banshees",
+   "nombreEs": "Banshees Aullantes",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -577,20 +591,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Shuriken Pistols",
+     "nombre": "Pistolas shuriken",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Banshee Masks",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, FS"
+     "nombre": "Máscaras Banshee",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, DP"
     }
    ],
-   "notas": "Infiltrator."
+   "notas": "Infiltrador."
   },
   {
    "nombre": "Jetbikes",
+   "nombreEs": "Motos Jet",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -598,12 +613,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Shuriken Catapults",
+     "nombre": "Catapultas shuriken dobles",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Mounted, Skimmer."
+   "notas": "Montado, Gravitatorio."
   },
   {
    "nombre": "Rangers",
@@ -614,12 +629,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Long Rifles",
+     "nombre": "Rifles largos",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Scout, Sniper."
+   "notas": "Explorador, Francotirador."
   },
   {
    "nombre": "Shining Spears",
@@ -630,20 +645,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Twin Shuriken Catapults",
+     "nombre": "Catapultas shuriken dobles",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Power Lances",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, L"
+     "nombre": "Lanzas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, L"
     }
    ],
-   "notas": "Mounted, Skimmer."
+   "notas": "Montado, Gravitatorio."
   },
   {
    "nombre": "Striking Scorpions",
+   "nombreEs": "Escorpiones Asesinos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -651,20 +667,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Shuriken Pistols",
+     "nombre": "Pistolas shuriken",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Mandiblasters",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1)"
+     "nombre": "Mandiblásters",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Support Weapon Platform",
+   "nombreEs": "Plataforma de Armas de Apoyo",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -672,15 +689,16 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "D-Cannon",
+     "nombre": "Cañón D",
      "alcance": "30cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Swooping Hawks",
+   "nombreEs": "Halcones Cazadores",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -688,15 +706,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Lasblasters",
+     "nombre": "Lasblásters",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Jump Packs, Scout, Teleport."
+   "notas": "Retrorreactores, Explorador, Teletransporte."
   },
   {
    "nombre": "Warp Spiders",
+   "nombreEs": "Arañas de la Disformidad",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -704,15 +723,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Death Spinners",
+     "nombre": "Hiladores de muerte",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "First Strike, Infiltrator, Jump Packs."
+   "notas": "Daña primero, Infiltrador, Retrorreactores."
   },
   {
    "nombre": "Wraithguard",
+   "nombreEs": "Guardia Espectral",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -720,389 +740,400 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Wraithcannons",
+     "nombre": "Espectrocañones",
      "alcance": "15cm",
-     "potencia": "2× MW5+"
+     "potencia": "2× MA5+"
     },
     {
-     "nombre": "y Wraithcannons",
+     "nombre": "y Espectrocañones",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+1), MW"
+     "potencia": "Armas ligeras, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Reinforced Armour."
+   "notas": "Coraje, Blindaje Reforzado."
   },
   {
    "nombre": "Vyper",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Scatter Laser",
+     "nombre": "Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Skimmer."
+   "notas": "Gravitatorio."
   },
   {
    "nombre": "War Walker",
-   "tipo": "LV",
+   "nombreEs": "Bípode de Guerra",
+   "tipo": "VL",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "5+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Scatter Laser",
+     "nombre": "Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "Bright Lance",
+     "nombre": "Lanza brillante",
      "alcance": "30cm",
      "potencia": "AT5+, L"
     }
    ],
-   "notas": "Reinforced Armour, Scout, Walker."
+   "notas": "Blindaje Reforzado, Explorador, Bípode."
   },
   {
    "nombre": "Falcon",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Pulse Laser",
+     "nombre": "Láser de pulsos",
      "alcance": "45cm",
      "potencia": "2× AT4+"
     },
     {
-     "nombre": "Scatter Laser",
+     "nombre": "Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+   "notas": "Gravitatorio, Transporte. Puede transportar una unidad de infantería (excepto Plataformas de Armas de Apoyo y Guardia Espectral) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Fire Prism",
-   "tipo": "AV",
+   "nombreEs": "Prisma de Fuego",
+   "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Prism Cannon",
+     "nombre": "Cañón prisma",
      "alcance": "60cm",
      "potencia": "AP4+/AT2+, L"
     }
    ],
-   "notas": "Skimmer."
+   "notas": "Gravitatorio."
   },
   {
    "nombre": "Firestorm",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Firestorm Battery",
+     "nombre": "Batería Tormenta de Fuego",
      "alcance": "45cm",
      "potencia": "2× AP5+/AT5+/AA4+"
     }
    ],
-   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+   "notas": "Gravitatorio, Transporte. Puede transportar una unidad de infantería (excepto Plataformas de Armas de Apoyo y Guardia Espectral) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Night Spinner",
-   "tipo": "AV",
+   "nombreEs": "Hilador Nocturno",
+   "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Night Spinner",
+     "nombre": "Hilador nocturno",
      "alcance": "45cm",
-     "potencia": "1BP, D, Ind"
+     "potencia": "1PA, D, Ind"
     }
    ],
-   "notas": "Skimmer, Transport. May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without Jump Packs or Mounted."
+   "notas": "Gravitatorio, Transporte. Puede transportar una unidad de infantería (excepto Plataformas de Armas de Apoyo y Guardia Espectral) sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Wave Serpent",
-   "tipo": "AV",
+   "nombreEs": "Serpiente Ondulante",
+   "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Twin Shuriken Cannon",
+     "nombre": "Cañón shuriken doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
    ],
-   "notas": "Reinforced Armour, Skimmer, Transport. May transport one Wraithguard unit or two infantry units (except Support Weapon Platforms) without Jump Packs or Mounted; Wraithguard count as two units each."
+   "notas": "Blindaje Reforzado, Gravitatorio, Transporte. Puede transportar una unidad de Guardia Espectral o dos unidades de infantería (excepto Plataformas de Armas de Apoyo) sin Retrorreactores ni Montado; la Guardia Espectral cuenta como dos unidades."
   },
   {
    "nombre": "Wraithlord",
-   "tipo": "AV",
+   "nombreEs": "Señor Espectral",
+   "tipo": "VB",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Bright Lance",
+     "nombre": "Lanza brillante",
      "alcance": "30cm",
      "potencia": "AT5+, L"
     },
     {
-     "nombre": "Power Fists",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Puños de combate",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Reinforced Armour, Walker."
+   "notas": "Coraje, Blindaje Reforzado, Bípode."
   },
   {
    "nombre": "Avatar",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "3+",
    "cc": "2+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Wailing Doom",
+     "nombre": "Perdición Aullante",
      "alcance": "30cm",
-     "potencia": "MW5+"
+     "potencia": "MA5+"
     },
     {
-     "nombre": "y Wailing Doom",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "y Perdición Aullante",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Commander, Damage Capacity 3, Fearless, Inspiring, Invulnerable Save, Walker. Critical Hit Effect: The unit is destroyed. All Eldar formations with a unit with a line of fire to the Avatar receive a Blast marker."
+   "notas": "Comandante, Factor de Daños 3, Coraje, Inspirador, Salvación Invulnerable, Bípode. Efecto de Impacto Crítico: la unidad queda destruida. Todas las formaciones eldars con una unidad con línea de fuego hacia el Avatar reciben un Marcador de Explosión."
   },
   {
    "nombre": "Cobra",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Cobra D-Cannon",
+     "nombre": "Cañón D de la Cobra",
      "alcance": "30cm",
-     "potencia": "3BP, FxF, IC, MW"
+     "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "y Cobra D-Cannon",
+     "nombre": "o",
      "alcance": "30cm",
-     "potencia": "MW3+, FxF, TK(D6)"
+     "potencia": "MA3+, FxF, MT(D6)"
     },
     {
-     "nombre": "Eldar Missile Launcher",
+     "nombre": "Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     },
     {
-     "nombre": "Shuriken Cannon",
+     "nombre": "Cañón shuriken",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado, Gravitatorio. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto con 6+."
   },
   {
    "nombre": "Phantom Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Fantasma",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "3+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "1–2× Titan Pulsar",
+     "nombre": "1–2× Púlsar de Titán",
      "alcance": "75cm",
-     "potencia": "2× MW2+, TK"
+     "potencia": "2× MA2+, MT"
     },
     {
-     "nombre": "0–1× Titan Power Fist",
+     "nombre": "0–1× Puño de combate de",
      "alcance": "30cm",
      "potencia": "6× AP4+/AT4+"
     },
     {
-     "nombre": "y 0–1× Titan Power Fist",
+     "nombre": "Titán",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+3)"
+     "potencia": "Armas ligeras, AE(+3)"
     },
     {
-     "nombre": "y y 0–1× Titan Power Fist",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+     "nombre": "y Titán",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "2× Twin Eldar Missile Launcher",
+     "nombre": "o 2× Lanzamisiles eldar doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Holofield, Leader, Reinforced Armour, Walker. Armed with either two Titan Pulsars, or a Titan Pulsar and Power Fist. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+   "notas": "Factor de Daños 6, Coraje, Holocampo, Líder, Blindaje Reforzado, Bípode. Armado con dos Púlsares de Titán, o con un Púlsar de Titán y un Puño de Combate. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad pierde la salvación de Holocampo durante el resto de la partida. Los daños críticos posteriores causan un punto de daño adicional."
   },
   {
    "nombre": "Revenant Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Revenant",
+   "tipo": "MG",
    "velocidad": "35cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Revenant Pulse Laser",
+     "nombre": "2× Láser de pulsos Reve ‐",
      "alcance": "45cm",
-     "potencia": "2× MW3+"
+     "potencia": "2× MA3+"
     },
     {
-     "nombre": "2× Eldar Missile Launcher",
+     "nombre": "nant 2× Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Holofield, Jump Packs, Walker. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits destroy the unit."
+   "notas": "Factor de Daños 3, Coraje, Holocampo, Retrorreactores, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad pierde la salvación de Holocampo durante el resto de la partida. Los daños críticos posteriores destruyen la unidad."
   },
   {
    "nombre": "Scorpion",
-   "tipo": "WE",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Scorpion Twin Pulsar",
+     "nombre": "Púlsar doble del Escorpión",
      "alcance": "75cm",
-     "potencia": "2× MW2+"
+     "potencia": "2× MA2+"
     },
     {
-     "nombre": "Shuriken Cannon",
+     "nombre": "Cañón shuriken",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado, Gravitatorio. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto con 6+."
   },
   {
    "nombre": "Storm Serpent",
-   "tipo": "WE",
+   "nombreEs": "Serpiente de Tormenta",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Storm Serpent Pulse Laser",
+     "nombre": "Láser de pulsos de la Ser ‐",
      "alcance": "45cm",
      "potencia": "2× AT3+"
     },
     {
-     "nombre": "Scatter Laser",
+     "nombre": "piente de Tormenta Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer, Webway Portal. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the walker ability may use the Storm Serpent’s Webway Portal to enter play. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado, Gravitatorio, Portal de la Telaraña. Solo las formaciones compuestas íntegramente por infantería, vehículos ligeros o vehículos blindados con Bípode pueden usar el Portal de la Telaraña de la Serpiente de Tormenta para entrar en juego. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto con 6+."
   },
   {
    "nombre": "Void Spinner",
-   "tipo": "WE",
+   "nombreEs": "Hilador del Vacío",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Void Spinner Array",
+     "nombre": "Batería del Hilador del Va cío",
      "alcance": "60cm",
-     "potencia": "3BP, D, Ind"
+     "potencia": "3PA, D, Ind"
     }
    ],
-   "notas": "Damage Capacity 3, Reinforced Armour, Skimmer. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Blindaje Reforzado, Gravitatorio. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto con 6+."
   },
   {
    "nombre": "Warlock Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán Brujo",
+   "tipo": "MG",
    "velocidad": "25cm",
    "blindaje": "5+",
    "cc": "3+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Psychic Lance",
+     "nombre": "Lanza psíquica",
      "alcance": "30cm",
-     "potencia": "3BP, D, IC, TK(D3)"
+     "potencia": "3PA, D, IC, MT(D3)"
     },
     {
-     "nombre": "y Psychic Lance",
+     "nombre": "y Lanza psíquica",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+2), TK(D3)"
+     "potencia": "Armas ligeras, AE(+2), MT(D3)"
     },
     {
-     "nombre": "0–1× Titan Pulsar",
+     "nombre": "0–1× Púlsar de Titán",
      "alcance": "75cm",
-     "potencia": "2× MW2+, TK"
+     "potencia": "2× MA2+, MT"
     },
     {
-     "nombre": "0–1× Titan Power Fist",
+     "nombre": "0–1× Puño de combate de",
      "alcance": "30cm",
      "potencia": "6× AP4+/AT4+"
     },
     {
-     "nombre": "y 0–1× Titan Power Fist",
+     "nombre": "Titán",
      "alcance": "(15cm)",
-     "potencia": "Small Arms, EA(+3)"
+     "potencia": "Armas ligeras, AE(+3)"
     },
     {
-     "nombre": "y y 0–1× Titan Power Fist",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+2), TK(D3)"
+     "nombre": "y Titán",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "2× Twin Eldar Missile Launcher",
+     "nombre": "o 2× Lanzamisiles eldar doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     }
    ],
-   "notas": "Damage Capacity 6, Farsight, Fearless, Holofield, Inspiring, Leader, Reinforced Armour, Walker. Armed with a Psychic Lance, and either a Titan Pulsar or Power Fist. May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit loses the Holofield ability save for the rest of the game. Subsequent critical hits cause an extra point of damage."
+   "notas": "Factor de Daños 6, Videncia, Coraje, Holocampo, Inspirador, Líder, Blindaje Reforzado, Bípode. Armado con una Lanza Psíquica y, además, un Púlsar de Titán o un Puño de Combate. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad pierde la salvación de Holocampo durante el resto de la partida. Los daños críticos posteriores causan un punto de daño adicional."
   },
   {
    "nombre": "Nightwing Interceptor",
-   "tipo": "AC",
-   "velocidad": "Fighter",
+   "nombreEs": "Interceptor Nightwing",
+   "tipo": "AN",
+   "velocidad": "Caza",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Shuriken Cannon",
+     "nombre": "Cañón shuriken doble",
      "alcance": "30cm",
      "potencia": "AP4+/AA5+, FxF"
     },
     {
-     "nombre": "Twin Bright Lance",
+     "nombre": "Lanza brillante doble",
      "alcance": "30cm",
      "potencia": "AT4+/AA5+, FxF, L"
     }
@@ -1111,92 +1142,96 @@
   },
   {
    "nombre": "Phoenix Bomber",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "nombreEs": "Bombardero Fénix",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "5+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Shuriken Cannon",
+     "nombre": "Cañón shuriken doble",
      "alcance": "30cm",
      "potencia": "AP4+/AA5+, FxF"
     },
     {
-     "nombre": "Pulse Laser",
+     "nombre": "Láser de pulsos",
      "alcance": "45cm",
      "potencia": "2× AT4+, FxF"
     },
     {
-     "nombre": "Night Spinner",
+     "nombre": "Hilador nocturno",
      "alcance": "15cm",
-     "potencia": "1BP, FxF, D"
+     "potencia": "1PA, FxF, D"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Vampire Raider",
-   "tipo": "AC/WE",
-   "velocidad": "Bomber",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Pulse Laser",
+     "nombre": "2× Láser de pulsos",
      "alcance": "45cm",
      "potencia": "2× AT4+, FxF"
     },
     {
-     "nombre": "Scatter Laser",
+     "nombre": "Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+/AA5+, FxF"
     }
    ],
-   "notas": "Damage Capacity 2, Planetfall, Reinforced Armour, Transport. May transport eight infantry units without Mounted. Wraithguard count as two units each. Critical Hit Effect: The unit and all units on board are destroyed."
+   "notas": "Factor de Daños 2, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar ocho unidades de infantería sin Montado. La Guardia Espectral cuenta como dos unidades. Efecto de Impacto Crítico: la unidad y todas las unidades a bordo quedan destruidas."
   },
   {
    "nombre": "Dragonship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Nave Dragón",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "8BP, MW"
+     "nombre": "0–1× Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
     },
     {
-     "nombre": "0–1× Pin-Point Attacks",
-     "alcance": "n/a",
-     "potencia": "2× MW2+, TK(D3)"
+     "nombre": "0–1× Ataques localizados",
+     "alcance": "—",
+     "potencia": "2× MA2+, MT(D3)"
     }
    ],
-   "notas": "Transport. May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or PinPoint Attacks."
+   "notas": "Transporte. Puede transportar doce Vampire Raiders y las unidades que lleven. Armado con Bombardeo Orbital o con Ataques de Precisión."
   },
   {
    "nombre": "Wraithship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Nave Espectral",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "4BP, MW"
+     "nombre": "0–1× Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "4PA, MA"
     },
     {
-     "nombre": "0–1× Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "0–1× Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
-   "notas": "Armed with either an Orbital Bombardment or Pin-Point Attack."
+   "notas": "Armado con Bombardeo Orbital o con Ataque de Precisión."
   }
- ]
+ ],
+ "nombreEs": "Eldars – Mundo Astronave Biel-Tan"
 }

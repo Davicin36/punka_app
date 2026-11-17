@@ -19,8 +19,8 @@
    "nota": "Up to three company upgrades may be taken once per company.",
    "maxPorFormacion": 3,
    "unaVez": true,
-   "nombreEs": "Mejoras de compañía de la Legión de Acero",
-   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía.",
+   "nombreEs": "Mejoras de compañía de la Legión de Acero"
   },
   {
    "id": "steel-legion-support-formations",
@@ -31,22 +31,22 @@
     "cantidad": 2,
     "base": "company"
    },
-   "nombreEs": "Formaciones de apoyo de la Legión de Acero",
-   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía.",
+   "nombreEs": "Formaciones de apoyo de la Legión de Acero"
   },
   {
    "id": "imperial-navy-assets",
    "nombre": "Imperial Navy Assets",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Medios de la Armada Imperial"
+   "nombreEs": "Activos de la Armada Imperial"
   },
   {
    "id": "titan-legion-battlegroups",
    "nombre": "Titan Legion Battlegroups",
    "tipo": "tercio",
    "nota": "",
-   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+   "nombreEs": "Grupos de batalla de la Legión de Titanes"
   }
  ],
  "formaciones": [
@@ -57,8 +57,8 @@
    "unidades": "Any nine of the following units: Basilisk, Manticore",
    "coste": 550,
    "costeTexto": "550 points",
-   "nombreEs": "Compañía de artillería",
-   "unidadesEs": "Nueve cualesquiera de estas unidades: Basilisk, Manticore"
+   "nombreEs": "Compañía de Artillería",
+   "unidadesEs": "Nueve cualesquiera de: Basilisk, Manticore"
   },
   {
    "id": "steel-legion-companies-infantry-company",
@@ -67,8 +67,8 @@
    "unidades": "One Commander unit and twelve Infantry units",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Compañía de infantería",
-   "unidadesEs": "Una unidad de Commander y doce de infantería"
+   "nombreEs": "Compañía de Infantería",
+   "unidadesEs": "Una unidad de Comandante y doce unidades de Infantería"
   },
   {
    "id": "steel-legion-companies-mechanized-infantry-company",
@@ -77,8 +77,8 @@
    "unidades": "One Commander unit, twelve Infantry units and seven Chimera",
    "coste": 400,
    "costeTexto": "400 points",
-   "nombreEs": "Compañía de infantería mecanizada",
-   "unidadesEs": "Una unidad de Commander, doce de infantería y siete Chimera"
+   "nombreEs": "Compañía de Infantería Mecanizada",
+   "unidadesEs": "Una unidad de Comandante, doce unidades de Infantería y siete Chimera"
   },
   {
    "id": "steel-legion-companies-regimental-hq",
@@ -88,8 +88,8 @@
    "coste": 475,
    "costeTexto": "475 points",
    "max": 1,
-   "nombreEs": "Cuartel general regimental",
-   "unidadesEs": "Una unidad de Supreme Commander, doce de infantería y siete Chimera"
+   "nombreEs": "Cuartel General Regimental",
+   "unidadesEs": "Una unidad de Comandante en jefe, doce unidades de Infantería y siete Chimera"
   },
   {
    "id": "steel-legion-companies-super-heavy-tank-company",
@@ -98,8 +98,8 @@
    "unidades": "Any three of the following units: Baneblade, Shadowsword",
    "coste": 500,
    "costeTexto": "500 points",
-   "nombreEs": "Compañía de tanques superpesados",
-   "unidadesEs": "Tres cualesquiera de estas unidades: Baneblade, Shadowsword"
+   "nombreEs": "Compañía de Tanques Superpesados",
+   "unidadesEs": "Tres cualesquiera de: Baneblade, Shadowsword"
   },
   {
    "id": "steel-legion-companies-tank-company",
@@ -108,8 +108,8 @@
    "unidades": "Ten Leman Russ (replace one Leman Russ with a Leman Russ Vanquisher)",
    "coste": 650,
    "costeTexto": "650 points (Free)",
-   "nombreEs": "Compañía de tanques",
-   "unidadesEs": "Diez Leman Russ (sustituye un Leman Russ por un Leman Russ Vanquisher)"
+   "nombreEs": "Compañía de Tanques",
+   "unidadesEs": "Diez Leman Russ (puede sustituirse uno por un Leman Russ Vanquisher sin coste)"
   },
   {
    "id": "steel-legion-support-formations-artillery-battery",
@@ -118,7 +118,7 @@
    "unidades": "Three Bombards or Manticores",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Batería de artillería",
+   "nombreEs": "Batería de Artillería",
    "unidadesEs": "Tres Bombards o Manticores"
   },
   {
@@ -128,7 +128,7 @@
    "unidades": "Three Basilisks",
    "coste": 225,
    "costeTexto": "225 points",
-   "nombreEs": "Batería de Basilisks",
+   "nombreEs": "Batería Basilisk",
    "unidadesEs": "Tres Basilisks"
   },
   {
@@ -149,7 +149,7 @@
    "unidades": "Three Hydras",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Batería antiaérea",
+   "nombreEs": "Batería Antiaérea",
    "unidadesEs": "Tres Hydras"
   },
   {
@@ -159,8 +159,8 @@
    "unidades": "Six Rough Riders",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Pelotón de Rough Riders",
-   "unidadesEs": "Seis Rough Riders"
+   "nombreEs": "Pelotón de Jinetes Rudos",
+   "unidadesEs": "Seis Jinetes Rudos"
   },
   {
    "id": "steel-legion-support-formations-sentinel-squadron",
@@ -169,7 +169,7 @@
    "unidades": "Four Sentinels",
    "coste": 100,
    "costeTexto": "100 points",
-   "nombreEs": "Escuadrón de Sentinels",
+   "nombreEs": "Escuadrón Sentinel",
    "unidadesEs": "Cuatro Sentinels"
   },
   {
@@ -192,7 +192,7 @@
     }
    ],
    "nombreEs": "Pelotón de Tropas de Asalto",
-   "unidadesEs": "Ocho Storm Troopers (añade cuatro Chimera o Valkyries)"
+   "unidadesEs": "Ocho Tropas de Asalto (añadir cuatro Chimera o Valkyries: +100 o +150 puntos)"
   },
   {
    "id": "steel-legion-support-formations-super-heavy-tank-platoon",
@@ -201,7 +201,7 @@
    "unidades": "One Baneblade or Shadowsword",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Pelotón de tanques superpesados",
+   "nombreEs": "Pelotón de Tanques Superpesados",
    "unidadesEs": "Un Baneblade o Shadowsword"
   },
   {
@@ -211,7 +211,7 @@
    "unidades": "Four Vultures",
    "coste": 300,
    "costeTexto": "300 points",
-   "nombreEs": "Escuadrón de Vultures",
+   "nombreEs": "Escuadrón Vulture",
    "unidadesEs": "Cuatro Vultures"
   },
   {
@@ -221,8 +221,8 @@
    "unidades": "Two Marauder Bombers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Escuadrón de Marauders",
-   "unidadesEs": "Dos Marauder Bombers"
+   "nombreEs": "Escuadrón Marauder",
+   "unidadesEs": "Dos Bombarderos Marauder"
   },
   {
    "id": "imperial-navy-assets-thunderbolt-squadron",
@@ -231,8 +231,8 @@
    "unidades": "Two Thunderbolt Fighters",
    "coste": 150,
    "costeTexto": "150 points",
-   "nombreEs": "Escuadrón de Thunderbolts",
-   "unidadesEs": "Dos Thunderbolt Fighters"
+   "nombreEs": "Escuadrón Thunderbolt",
+   "unidadesEs": "Dos Cazas Thunderbolt"
   },
   {
    "id": "imperial-navy-assets-orbital-support",
@@ -242,8 +242,8 @@
    "coste": 150,
    "costeTexto": "150 points",
    "max": 1,
-   "nombreEs": "Apoyo orbital",
-   "unidadesEs": "Lunar Class Cruiser o Emperor Class Battleship"
+   "nombreEs": "Apoyo Orbital",
+   "unidadesEs": "Crucero clase Lunar o Acorazado clase Emperador"
   },
   {
    "id": "titan-legion-battlegroups-reaver",
@@ -252,7 +252,7 @@
    "unidades": "One Reaver Class Titan",
    "coste": 650,
    "costeTexto": "650 points",
-   "unidadesEs": "Un Reaver Class Titan"
+   "unidadesEs": "Un Titán clase Reaver"
   },
   {
    "id": "titan-legion-battlegroups-warhound",
@@ -261,7 +261,7 @@
    "unidades": "One Warhound Class Titan",
    "coste": 275,
    "costeTexto": "275 points",
-   "unidadesEs": "Un Warhound Class Titan"
+   "unidadesEs": "Un Titán clase Warhound"
   },
   {
    "id": "titan-legion-battlegroups-warhound-pack",
@@ -270,8 +270,8 @@
    "unidades": "Two Warhound Class Titans",
    "coste": 500,
    "costeTexto": "500 points",
-   "nombreEs": "Manada de Warhounds",
-   "unidadesEs": "Dos Warhound Class Titans"
+   "nombreEs": "Manada Warhound",
+   "unidadesEs": "Dos Titanes clase Warhound"
   },
   {
    "id": "titan-legion-battlegroups-warlord",
@@ -280,7 +280,7 @@
    "unidades": "One Warlord Class Titan",
    "coste": 825,
    "costeTexto": "825 points",
-   "unidadesEs": "Un Warlord Class Titan"
+   "unidadesEs": "Un Titán clase Warlord"
   }
  ],
  "mejoras": [
@@ -291,8 +291,8 @@
    "texto": "Add four Support Squad units",
    "coste": 100,
    "costeTexto": "+100 points",
-   "nombreEs": "Pelotón de apoyo de fuego*",
-   "textoEs": "Añade cuatro unidades de Support Squad"
+   "nombreEs": "Pelotón de Apoyo de Fuego*",
+   "textoEs": "Añade cuatro unidades de Escuadra de Apoyo"
   },
   {
    "id": "flak",
@@ -311,7 +311,7 @@
    "texto": "Add three Griffons",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Batería de Griffons",
+   "nombreEs": "Batería Griffon",
    "textoEs": "Añade tres Griffons"
   },
   {
@@ -323,7 +323,7 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 3,
-   "nombreEs": "Escuadrón de Hellhounds",
+   "nombreEs": "Escuadrón Hellhound",
    "textoEs": "Añade hasta tres Hellhounds"
   },
   {
@@ -333,8 +333,8 @@
    "texto": "Add six Infantry units",
    "coste": 100,
    "costeTexto": "+100 points",
-   "nombreEs": "Pelotón de infantería*",
-   "textoEs": "Añade seis unidades de infantería"
+   "nombreEs": "Pelotón de Infantería*",
+   "textoEs": "Añade seis unidades de Infantería"
   },
   {
    "id": "ogryns",
@@ -346,7 +346,7 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Ogretes*",
-   "textoEs": "Añade hasta dos Ogryns"
+   "textoEs": "Añade hasta dos Ogretes"
   },
   {
    "id": "snipers",
@@ -358,7 +358,7 @@
    "porUnidad": true,
    "max": 2,
    "nombreEs": "Francotiradores*",
-   "textoEs": "Añade hasta dos Snipers"
+   "textoEs": "Añade hasta dos Francotiradores"
   },
   {
    "id": "tank-squadron-these-upgrades-may-add-up-to-one-chimera-per-each-of-their-units-for-25-points-each-all-infantry-units-in-the-formation-must-be-transported-in-chimera-if-any-are-taken-but-you-may-not-take-more-than-one-chimera-per-unit-in-the-formation",
@@ -367,24 +367,32 @@
    "texto": "Add three Leman Russ or Leman Russ Demolishers",
    "coste": 175,
    "costeTexto": "+175 points",
-   "nombreEs": "Escuadrón de tanques * Estas mejoras pueden añadir como máximo un Chimera por cada una de sus unidades por +25 puntos cada uno. Si se toma alguno, todas las unidades de infantería de la formación deben ir transportadas en Chimera, pero no puedes tomar más de un Chimera por unidad de la formación.",
-   "textoEs": "Añade tres Leman Russ o Leman Russ Demolishers"
+   "nombreEs": "Escuadrón de Tanques",
+   "textoEs": "Añade tres Leman Russ o Leman Russ Demolisher"
   }
  ],
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Guardia Imperial – Legión de Acero",
- "iniciativaEs": "Las formaciones de grupos de batalla de la Legio Titanicus tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
  "reglas": [
   {
    "id": "6.4",
    "titulo": "Lista de ejército de la Guardia Imperial de la Legión de Acero de Armageddon",
    "parrafos": [
-    "Fuerzas: Esta lista usa las hojas de datos de 5.2, 5.3 y 5.4.",
+    "Fuerzas: Esta lista usa las perfiles de atributos de 5.2, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de la Legión de Acero de Armageddon. También puede usarse como lista «sustituta» para otros regimientos de la Guardia Imperial, como las Tropas de Choque Cadianas, la Guardia de Hierro Mordiana o los Guerreros de Hielo Valhallanos, entre muchos otros. Ten en cuenta que hemos basado el número de unidades de las formaciones de infantería en lo que se encontraría en una formación típica en campaña, no en una compañía a plena dotación recién alistada.",
-    "Las formaciones de la Legión de Acero son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Por ejemplo, llevar una Compañía de Tanques de la Legión de Acero te daría derecho a llevar dos formaciones de la tabla de apoyo. Si decidieras llevar una batería de artillería, esta y la compañía de tanques actuarían como dos formaciones independientes. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía (es decir, una compañía de infantería podría tener una mejora de Ogretes y otra de Francotiradores, pero no dos de Francotiradores). Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Por ejemplo, si llevaras una Compañía de Tanques y le añadieras un pelotón de infantería mecanizada como mejora, el coste de la compañía sería 650 + 100 + 75 (por el Chimera) = 825 puntos. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía; así, si quieres incluir un pelotón de tanques Leman Russ en una compañía de infantería o francotiradores en una Compañía de Tanques, puedes hacerlo.",
-    "Los ejércitos de la Legión de Acero de Armageddon pueden recibir apoyo de la Armada Imperial y de grupos de batalla de la",
-    "Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército."
+    "Las formaciones de la Legión de Acero son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Por ejemplo, llevar una Compañía de Tanques de la Legión de Acero te daría derecho a llevar dos formaciones de la tabla de",
+    "apoyo. Si decidieras llevar una batería de artillería, esta y la compañía de tanques actuarían como dos formaciones independientes. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía (es decir, una compañía de infantería podría tener una mejora de Ogretes y otra de Francotiradores, pero no dos de Francotiradores). Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Por ejemplo, si llevaras una Compañía de Tanques y le añadieras un pelotón de infantería mecanizada como mejora, el coste de la compañía sería 650 + 100 + 75 (por el Chimera) = 825 puntos. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía; así, si quieres incluir un pelotón de tanques Leman Russ en una compañía de infantería o francotiradores en una Compañía de Tanques, puedes hacerlo.",
+    "Los ejércitos de la Legión de Acero de Armageddon pueden recibir apoyo de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. FACTOR DE E STRATEGIA: 2",
+    "I N I C I AT I VA",
+    "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
+    "• 0–1 Cuartel General Regimental, 0–1 Batería Deathstrike y 0–1 Apoyo Orbital (Crucero clase Lunar o Acorazado clase Emperador) por ejército.",
+    "• En la Compañía de Tanques puede sustituirse un Leman Russ por un Leman Russ Vanquisher sin coste.",
+    "• Cada compañía puede llevar hasta tres mejoras, una de cada tipo, y permite desplegar dos formaciones de apoyo cualesquiera.",
+    "• Chimera: las mejoras de Pelotón de Apoyo de Fuego, Pelotón de Infantería, Ogretes y Francotiradores pueden añadir hasta un Chimera por cada una de sus unidades, a +25 puntos cada uno. Si se adquiere alguno, toda la infantería de la formación debe ir transportada en Chimera, pero no puede llevarse más de un Chimera por unidad de la formación.",
+    "• Pelotón de Tropas de Asalto: puede añadir cuatro Chimera o cuatro Valkyries por +100 o +150 puntos."
    ]
   },
   {
@@ -392,26 +400,25 @@
    "titulo": "Comisarios (Commissars)",
    "parrafos": [
     "Un ejército de la Guardia Imperial puede incluir un personaje Comisario por cada 500 puntos, o fracción, del ejército. Los Comisarios no cuestan puntos.",
-    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
+    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante en jefe, el primer Comisario debe asignarse a la formación del Comandante en jefe. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
    ]
   },
   {
    "id": "5.4.1",
-   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "titulo": "Pantallas de Vacío Imperiales (Imperial Void Shields)",
    "parrafos": [
-    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
-    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
-    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "Los Titanes imperiales están protegidos por generadores de pantallas de vacío. El número de pantallas de vacío de cada Titán figura en su perfil de atributos. Cada pantalla de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por las pantallas de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran las pantallas de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Las pantallas de vacío derribadas pueden repararse. Cada Titán puede reparar una pantalla de vacío caída en la fase de finalización de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o quitar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, quitar 2 Marcadores de Explosión, o reparar 1 escudo y quitar 1 Marcador).",
     "FAQ",
-    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "P: ¿Detienen las pantallas de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
     "R: No.",
-    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "P: ¿Cuántas pantallas de vacío caen si una Máquina de Guerra es impactada por un arma Matatitanes que causa varios puntos de daño?",
     "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
-    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "P: ¿Puede una formación reagruparse para reparar pantallas de vacío caídas si no tiene Marcadores de Explosión?",
     "R: Sí.",
-    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "P: Si una formación con varias unidades con pantallas de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
     "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
-    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "P: ¿Se tienen en cuenta las pantallas de vacío al determinar cuántos impactos deben asignarse a una Máquina de Guerra?",
     "R: No."
    ]
   }
@@ -419,22 +426,24 @@
  "fichas": [
   {
    "nombre": "Commissar",
-   "tipo": "CH",
-   "velocidad": "n/a",
+   "nombreEs": "Comisario",
+   "tipo": "PJ",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Fearless, Inspiring, Leader."
+   "notas": "Coraje, Inspirador, Líder."
   },
   {
    "nombre": "Commander",
+   "nombreEs": "Comandante",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -442,15 +451,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Commander."
+   "notas": "Comandante."
   },
   {
    "nombre": "Infantry",
+   "nombreEs": "Infantería",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -458,20 +468,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Lasguns",
+     "nombre": "Rifles láser",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     }
    ],
-   "notas": "One unit in every two has an Autocannon."
+   "notas": "Una de cada dos unidades tiene un Autocañón."
   },
   {
    "nombre": "Ogryns",
+   "nombreEs": "Ogretes",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "3+",
@@ -479,20 +490,21 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Ripper Guns",
+     "nombre": "Armas destripadoras",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Ogryn Combat Weapons",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Armas de combate ogrete",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Counts as two units each for the purposes of being transported."
+   "notas": "Cada una cuenta como dos unidades a efectos de transporte."
   },
   {
    "nombre": "Rough Riders",
+   "nombreEs": "Jinetes Rudos",
    "tipo": "INF",
    "velocidad": "20cm",
    "blindaje": "6+",
@@ -500,20 +512,21 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "Laspistols",
+     "nombre": "Pistolas láser",
      "alcance": "(15cm)",
-     "potencia": "Small Arms"
+     "potencia": "Armas ligeras"
     },
     {
-     "nombre": "Power Lances",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), FS"
+     "nombre": "Lanzas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), DP"
     }
    ],
-   "notas": "Infiltrator, Mounted, Scout."
+   "notas": "Infiltrador, Montado, Explorador."
   },
   {
    "nombre": "Snipers",
+   "nombreEs": "Francotiradores",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -521,15 +534,16 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Sniper Rifles",
+     "nombre": "Rifles de francotirador",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Scout, Sniper."
+   "notas": "Explorador, Francotirador."
   },
   {
    "nombre": "Storm Troopers",
+   "nombreEs": "Tropas de Asalto",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -537,15 +551,16 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Plasma Guns",
+     "nombre": "Rifles de plasma",
      "alcance": "15cm",
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Scout."
+   "notas": "Explorador."
   },
   {
    "nombre": "Support Squad",
+   "nombreEs": "Escuadra de Apoyo",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -553,7 +568,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Autocannon",
+     "nombre": "2× Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -562,6 +577,7 @@
   },
   {
    "nombre": "Supreme Commander",
+   "nombreEs": "Comandante en jefe",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -569,54 +585,54 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Autocannon",
+     "nombre": "Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Power Weapon",
-     "alcance": "(bc)",
-     "potencia": "Assault Weapons, EA(+1), MW"
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Supreme Commander."
+   "notas": "Comandante en jefe."
   },
   {
    "nombre": "Sentinel",
-   "tipo": "LV",
+   "tipo": "VL",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Scout, Walker."
+   "notas": "Explorador, Bípode."
   },
   {
    "nombre": "Basilisk",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Earthshaker",
+     "nombre": "Cañón Earthshaker",
      "alcance": "120cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "y Earthshaker",
+     "nombre": "o",
      "alcance": "120cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -625,19 +641,19 @@
   },
   {
    "nombre": "Bombard",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Siege Mortar",
+     "nombre": "Mortero de asedio",
      "alcance": "45cm",
-     "potencia": "2BP, IC, Ind"
+     "potencia": "2PA, IC, Ind"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -646,40 +662,40 @@
   },
   {
    "nombre": "Chimera",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Transport. May transport two infantry units without Jump Packs or Mounted."
+   "notas": "Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado."
   },
   {
    "nombre": "Deathstrike",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Deathstrike Missile",
+     "nombre": "Misil Deathstrike",
      "alcance": "Unlimited",
-     "potencia": "MW2+, Ind, SS, TK(D6)"
+     "potencia": "MA2+, Ind, DU, MT(D6)"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -688,19 +704,19 @@
   },
   {
    "nombre": "Griffon",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Heavy Mortar",
+     "nombre": "Mortero pesado",
      "alcance": "30cm",
-     "potencia": "1BP, Ind"
+     "potencia": "1PA, Ind"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -709,19 +725,19 @@
   },
   {
    "nombre": "Hellhound",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Inferno Cannon",
+     "nombre": "Cañón Inferno",
      "alcance": "30cm",
      "potencia": "AP3+, IC"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -730,19 +746,19 @@
   },
   {
    "nombre": "Hydra",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "6+",
    "cc": "6+",
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Twin Hydra Autocannon",
+     "nombre": "2× Autocañón doble Hydra",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     },
     {
-     "nombre": "Heavy Bolter",
+     "nombre": "Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -751,76 +767,77 @@
   },
   {
    "nombre": "Leman Russ",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Battle Cannon",
+     "nombre": "Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "Lascannon",
+     "nombre": "Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     },
     {
-     "nombre": "2× Heavy Bolter",
+     "nombre": "2× Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Leman Russ Demolisher",
-   "tipo": "AV",
+   "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "6+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Demolisher",
+     "nombre": "Cañón Demolisher",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, IC"
     },
     {
-     "nombre": "Lascannon",
+     "nombre": "Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     },
     {
-     "nombre": "2× Plasma Cannon",
+     "nombre": "2× Cañón de plasma",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Reinforced Armour."
+   "notas": "Blindaje Reforzado."
   },
   {
    "nombre": "Marauder Bomber",
-   "tipo": "AC",
-   "velocidad": "Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
    "blindaje": "4+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Twin Lascannon",
+     "nombre": "Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+/AA4+, FxF"
     },
     {
-     "nombre": "Bomb Racks",
+     "nombre": "Soportes de bombas",
      "alcance": "15cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Twin Heavy Bolter",
+     "nombre": "2× Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }
@@ -829,24 +846,25 @@
   },
   {
    "nombre": "Thunderbolt Fighter",
-   "tipo": "AC",
-   "velocidad": "Fighter-Bomber",
+   "nombreEs": "Caza Thunderbolt",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
    "blindaje": "6+",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Multilaser",
+     "nombre": "Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+, FxF"
     },
     {
-     "nombre": "Underwing Rockets",
+     "nombre": "Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     },
     {
-     "nombre": "Storm Bolters",
+     "nombre": "Bólters de asalto",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+, FxF"
     }
@@ -855,108 +873,113 @@
   },
   {
    "nombre": "Emperor Class Battleship",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "8BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
     }
    ],
-   "notas": "Slow and Steady."
+   "notas": "Lenta y tediosa."
   },
   {
    "nombre": "Lunar Class Cruiser",
-   "tipo": "SC",
-   "velocidad": "n/a",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "—",
    "blindaje": "n/a",
    "cc": "n/a",
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Orbital Bombardment",
-     "alcance": "n/a",
-     "potencia": "3BP, MW"
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
     },
     {
-     "nombre": "Pin-Point Attack",
-     "alcance": "n/a",
-     "potencia": "MW2+, TK(D3)"
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
     }
    ],
    "notas": ""
   },
   {
    "nombre": "Reaver Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Reaver",
+   "tipo": "MG",
    "velocidad": "20cm",
    "blindaje": "4+",
    "cc": "3+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Turbo-Laser Destructor",
+     "nombre": "2× Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+, FwA"
+     "potencia": "4× AP5+/AT3+, Fro"
     },
     {
-     "nombre": "Rocket Launcher",
+     "nombre": "Lanzacohetes",
      "alcance": "60cm",
-     "potencia": "3BP, FxF"
+     "potencia": "3PA, FxF"
     }
    ],
-   "notas": "Damage Capacity 6, Fearless, Reinforced Armour, 4 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 6, Coraje, Blindaje Reforzado, 4 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 5+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   },
   {
    "nombre": "Warhound Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warhound",
+   "tipo": "MG",
    "velocidad": "30cm",
    "blindaje": "5+",
    "cc": "4+",
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Plasma Blastgun",
+     "nombre": "Cañón bláster de plasma",
      "alcance": "45cm",
-     "potencia": "2× MW2+, FwA, Slw"
+     "potencia": "2× MA2+, Fro, Baj"
     },
     {
-     "nombre": "Vulcan Mega-Bolter",
+     "nombre": "Megabólter Vulcan",
      "alcance": "45cm",
-     "potencia": "4× AP3+/AT5+, FwA"
+     "potencia": "4× AP3+/AT5+, Fro"
     }
    ],
-   "notas": "Damage Capacity 3, Fearless, Reinforced Armour, 2 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+   "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño y se mueve D6 cm en una dirección aleatoria. Si este movimiento lleva al Titán a terreno infranqueable o contra una unidad sobre la que no puede pasar, se detiene inmediatamente y queda destruido. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
   },
   {
    "nombre": "Warlord Class Titan",
-   "tipo": "WE",
+   "nombreEs": "Titán clase Warlord",
+   "tipo": "MG",
    "velocidad": "15cm",
    "blindaje": "4+",
    "cc": "2+",
    "ff": "3+",
    "armas": [
     {
-     "nombre": "Volcano Cannon",
+     "nombre": "Cañón Volcán",
      "alcance": "90cm",
-     "potencia": "MW2+, FwA, TK(D3)"
+     "potencia": "MA2+, Fro, MT(D3)"
     },
     {
-     "nombre": "Gatling Blaster",
+     "nombre": "Bláster Gatling",
      "alcance": "60cm",
-     "potencia": "4× AP4+/AT4+, FwA"
+     "potencia": "4× AP4+/AT4+, Fro"
     },
     {
-     "nombre": "2× Turbo-Laser Destructor",
+     "nombre": "2× Destructor turboláser",
      "alcance": "60cm",
      "potencia": "4× AP5+/AT3+, FxF"
     }
    ],
-   "notas": "Damage Capacity 8, Fearless, Reinforced Armour, Thick Rear Armour, 6 Void Shields, Walker. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+   "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
   }
  ]
 }
