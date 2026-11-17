@@ -1,0 +1,452 @@
+{
+ "id": "space-marine-white-scars",
+ "nombre": "Space Marine – White Scars",
+ "version": "2026-02-09",
+ "estrategia": 5,
+ "iniciativa": "Imperial Navy aircraft formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "white-scar-detachments",
+   "nombre": "White Scar Detachments",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Destacamentos de las Cicatrices Blancas"
+  },
+  {
+   "id": "white-scar-upgrades",
+   "nombre": "White Scar Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per detachment.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de las Cicatrices Blancas",
+   "notaEs": "Cada mejora puede tomarse una vez por destacamento."
+  },
+  {
+   "id": "imperial-navy-aircraft",
+   "nombre": "Imperial Navy Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de la Armada Imperial"
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  },
+  {
+   "id": "white-scar-aircraft",
+   "nombre": "White Scar Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de las Cicatrices Blancas"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "white-scar-detachments-assault",
+   "nombre": "Assault",
+   "seccion": "white-scar-detachments",
+   "unidades": "Four Assault units",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "mejoras": [
+    "Commander",
+    "Vindicators"
+   ],
+   "nombreEs": "Asalto",
+   "unidadesEs": "Cuatro unidades de Assault"
+  },
+  {
+   "id": "white-scar-detachments-bike",
+   "nombre": "Bike",
+   "seccion": "white-scar-detachments",
+   "unidades": "Eight Attack Bikes",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Bikes"
+   ],
+   "nombreEs": "Motocicletas",
+   "unidadesEs": "Ocho Attack Bikes"
+  },
+  {
+   "id": "white-scar-detachments-land-speeder",
+   "nombre": "Land Speeder",
+   "seccion": "white-scar-detachments",
+   "unidades": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Typhoons"
+   ],
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado"
+  },
+  {
+   "id": "white-scar-detachments-landing-craft",
+   "nombre": "Landing Craft",
+   "seccion": "white-scar-detachments",
+   "unidades": "One Landing Craft",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "mejoras": [],
+   "nombreEs": "Nave de desembarco",
+   "unidadesEs": "Una Landing Craft"
+  },
+  {
+   "id": "white-scar-detachments-predator",
+   "nombre": "Predator",
+   "seccion": "white-scar-detachments",
+   "unidades": "Any four of the following units: Predator Annihilator, Predator Destructor",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Predator Annihilator, Predator Destructor"
+  },
+  {
+   "id": "white-scar-detachments-scout",
+   "nombre": "Scout",
+   "seccion": "white-scar-detachments",
+   "unidades": "Four Scout units plus transport",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "mejoras": [
+    "Commander",
+    "Razorbacks",
+    "Snipers"
+   ],
+   "nombreEs": "Exploradores",
+   "unidadesEs": "Cuatro unidades de Scout más transporte"
+  },
+  {
+   "id": "white-scar-detachments-strike-cruiser",
+   "nombre": "Strike Cruiser",
+   "seccion": "white-scar-detachments",
+   "unidades": "One Strike Cruiser",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "mejoras": [
+    "Battle Barge"
+   ],
+   "nombreEs": "Crucero de asalto",
+   "unidadesEs": "Un Strike Cruiser"
+  },
+  {
+   "id": "white-scar-detachments-tactical",
+   "nombre": "Tactical",
+   "seccion": "white-scar-detachments",
+   "unidades": "Six Tactical units plus transport",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Razorbacks",
+    "Vindicators"
+   ],
+   "nombreEs": "Tácticos",
+   "unidadesEs": "Seis unidades de Tactical más transporte"
+  },
+  {
+   "id": "white-scar-detachments-terminator",
+   "nombre": "Terminator",
+   "seccion": "white-scar-detachments",
+   "unidades": "Four Terminator units plus transport",
+   "coste": 575,
+   "costeTexto": "575 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "nombreEs": "Exterminadores",
+   "unidadesEs": "Cuatro unidades de Terminator más transporte"
+  },
+  {
+   "id": "white-scar-detachments-vindicator",
+   "nombre": "Vindicator",
+   "seccion": "white-scar-detachments",
+   "unidades": "Four White Scar Vindicators",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Hunter"
+   ],
+   "unidadesEs": "Cuatro White Scar Vindicators"
+  },
+  {
+   "id": "white-scar-detachments-whirlwind",
+   "nombre": "Whirlwind",
+   "seccion": "white-scar-detachments",
+   "unidades": "Four Whirlwinds",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro Whirlwinds"
+  },
+  {
+   "id": "imperial-navy-aircraft-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "imperial-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound",
+   "nombre": "Warhound",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warhound Class Titan",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "unidadesEs": "Un Warhound Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound-pack",
+   "nombre": "Warhound Pack",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "Two Warhound Class Titans",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Manada de Warhounds",
+   "unidadesEs": "Dos Warhound Class Titans"
+  },
+  {
+   "id": "white-scar-aircraft-thunderhawk-gunship",
+   "nombre": "Thunderhawk Gunship",
+   "seccion": "white-scar-aircraft",
+   "unidades": "One Thunderhawk Gunship",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Cañonera Thunderhawk",
+   "unidadesEs": "Un Thunderhawk Gunship"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "battle-barge",
+   "nombre": "Battle Barge",
+   "seccion": "white-scar-upgrades",
+   "texto": "Replace the Strike Cruiser with a Battle Barge",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Barcaza de batalla",
+   "textoEs": "Sustituye el Strike Cruiser por una Battle Barge"
+  },
+  {
+   "id": "bikes",
+   "nombre": "Bikes",
+   "seccion": "white-scar-upgrades",
+   "texto": "Chose one of the following optoins: Replace up to seven Attack Bikes with an equal number of White Scars Bike units or Multi-melta Attack Bikes Replace eight Attack Bikes with eight White Scars Bike units or Multi- melta Attack Bikes",
+   "coste": 10,
+   "costeTexto": "+10 points each +75 points",
+   "porUnidad": true,
+   "max": 7,
+   "variantes": [
+    {
+     "coste": 10,
+     "porUnidad": true,
+     "texto": "+10 points each",
+     "textoEs": "+10 puntos cada uno"
+    },
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "+75 points",
+     "textoEs": "+75 puntos"
+    }
+   ],
+   "nombreEs": "Motocicletas",
+   "textoEs": "Elige una de estas opciones: sustituye hasta siete Attack Bikes por el mismo número de White Scars Bikes o Multi-melta Attack Bikes; o sustituye ocho Attack Bikes por ocho White Scars Bikes o Multi-melta Attack Bikes"
+  },
+  {
+   "id": "commander",
+   "nombre": "Commander",
+   "seccion": "white-scar-upgrades",
+   "texto": "Add any one of the following characters to Captain, Chaplain, Librarian any unit in the formation: 0–1 Supreme Commander per army",
+   "coste": 50,
+   "costeTexto": "+50 points +100 points",
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "+50 points",
+     "textoEs": "+50 puntos"
+    },
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "+100 points",
+     "textoEs": "+100 puntos"
+    }
+   ],
+   "nombreEs": "Comandante",
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Captain, Chaplain, Librarian; 0–1 Supreme Commander por ejército"
+  },
+  {
+   "id": "hunter",
+   "nombre": "Hunter",
+   "seccion": "white-scar-upgrades",
+   "texto": "Add one Hunter",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade un Hunter"
+  },
+  {
+   "id": "razorbacks",
+   "nombre": "Razorbacks",
+   "seccion": "white-scar-upgrades",
+   "texto": "Add any number of Razorbacks, up to the number required to transport the formation",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+  },
+  {
+   "id": "snipers",
+   "nombre": "Snipers",
+   "seccion": "white-scar-upgrades",
+   "texto": "Give up to four Scout units Sniper",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Francotiradores",
+   "textoEs": "Da Sniper a hasta cuatro unidades de Scout"
+  },
+  {
+   "id": "typhoons",
+   "nombre": "Typhoons",
+   "seccion": "white-scar-upgrades",
+   "texto": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 5,
+   "textoEs": "Sustituye hasta cinco Land Speeders por el mismo número de Land Speeder Typhoons"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "white-scar-upgrades",
+   "texto": "Add up to two White Scar Vindicators",
+   "coste": 50,
+   "costeTexto": "+50 points each +75 points per pair",
+   "porUnidad": true,
+   "max": 2,
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": true,
+     "texto": "+50 points each",
+     "textoEs": "+50 puntos cada uno"
+    },
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points per pair",
+     "textoEs": "+75 puntos por pareja"
+    }
+   ],
+   "textoEs": "Añade hasta dos White Scar Vindicators"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales – Cicatrices Blancas",
+ "iniciativaEs": "Las formaciones de aeronaves de la Imperial Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.9",
+   "titulo": "Lista de ejército de Marines Espaciales de las Cicatrices Blancas (White Scars)",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.9, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en las Cicatrices Blancas. También puede usarse como lista «sustituta» para cualquiera de los Capítulos sucesores de las Cicatrices Blancas. Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
+    "Los ejércitos de las Cicatrices Blancas pueden recibir apoyo de aeronaves de la Armada Imperial, grupos de batalla de la Legión de Titanes y formaciones de aeronaves de las Cicatrices Blancas. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento de las Cicatrices Blancas (véase 5.1.1)."
+   ]
+  },
+  {
+   "id": "6.9.1",
+   "titulo": "Transportes de las Cicatrices Blancas",
+   "parrafos": [
+    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte para transportarlo a él y a las mejoras adquiridas. El número de vehículos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Los vehículos de transporte serán Land Raiders si el destacamento es de Exterminadores, y Rhinos para cualquier otro tipo de destacamento.",
+    "Ten en cuenta que muchas formaciones no reciben transportes, normalmente porque no caben en ellos. Los destacamentos que incluyen vehículos aparecen con la indicación «más transporte» en la sección de Unidades. Los destacamentos de las Cicatrices Blancas deben llevar sus vehículos de transporte: no puedes dejarlos atrás para usar la unidad como guarnición. Solo puedes ignorar esto si el destacamento va a desplegarse desde una Cañonera Thunderhawk.",
+    "Además, antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, puedes elegir sustituir los vehículos de un destacamento por cápsulas de desembarco. Si lo haces, todos los destacamentos transportados del ejército deben desplegarse desde cápsulas de desembarco: no puedes tener unos en vehículos de transporte y otros en cápsulas. Si usas cápsulas de desembarco, los destacamentos afectados entrarán en juego en ellas usando las reglas de Caída Planetaria (véase 4.4). Ten en cuenta que necesitarás al menos un crucero de asalto o una barcaza de batalla de Marines Espaciales desde el que lanzarlas."
+   ]
+  },
+  {
+   "id": "5.4.1",
+   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "parrafos": [
+    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
+    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "FAQ",
+    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "R: No.",
+    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
+    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "R: Sí.",
+    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
+    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "R: No."
+   ]
+  },
+  {
+   "id": "6.3.1",
+   "titulo": "Transportes de los Marines Espaciales",
+   "parrafos": [
+    "Los Marines Espaciales son un ejército muy móvil. Por ello, el coste en puntos de un destacamento suele incluir suficientes vehículos de transporte Rhino para transportarlo a él y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario para transportar la formación: ¡no puedes llevar de más para cubrir pérdidas!",
+    "Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» (plus transport) en la sección de unidades de la lista. Ten en cuenta también que no estás obligado a llevar los Rhinos si no quieres. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como guarnición o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
+    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco (Drop Pods). En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída Planetaria (véase 4.4). Ten en cuenta que, si lo haces, necesitarás también al menos un Crucero de Asalto (Strike Cruiser) o una Barcaza de Batalla (Battle Barge) de Marines Espaciales desde el que lanzar las cápsulas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador marine puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción.",
+    "FAQ",
+    "P: Si una formación incluye Rhinos y además puede llevar Land Raiders y Razorbacks mediante mejoras, ¿cómo se determina cuántos Rhinos recibe?",
+    "R: Añade primero los Land Raiders. Después, cualquier número de Razorbacks, hasta el necesario para transportar a las unidades que no vayan en Land Raiders. Por último, la formación recibe Rhinos para",
+    "transportar a las unidades que no vayan en Land Raiders ni en Razorbacks."
+   ]
+  },
+  {
+   "id": "5.1.1",
+   "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
+   "parrafos": [
+    "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
+    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
+    "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "FAQ",
+    "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
+    "R: Uno por unidad."
+   ]
+  }
+ ]
+}

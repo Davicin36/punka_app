@@ -1,0 +1,460 @@
+{
+ "id": "tau",
+ "nombre": "Tau",
+ "version": "2026-02-04",
+ "estrategia": 3,
+ "iniciativa": "Crisis Battlesuit Cadre and Manta Dropship formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "tau-cadres",
+   "nombre": "Tau Cadres",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Cuadros tau"
+  },
+  {
+   "id": "tau-support-formations",
+   "nombre": "Tau Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any three support formations may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 3,
+    "base": "core formation"
+   },
+   "nombreEs": "Formaciones de apoyo tau",
+   "notaEs": "Se pueden desplegar tres formaciones de apoyo cualesquiera por cada formación principal."
+  },
+  {
+   "id": "tau-upgrades",
+   "nombre": "Tau Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to three upgrades may be taken once per formation.",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nombreEs": "Mejoras tau",
+   "notaEs": "Se pueden tomar hasta tres mejoras, cada una una vez por formación."
+  },
+  {
+   "id": "air-caste-formations",
+   "nombre": "Air Caste Formations",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Formaciones de la casta del aire",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "tau-cadres-crisis-battlesuit-cadre",
+   "nombre": "Crisis Battlesuit Cadre",
+   "seccion": "tau-cadres",
+   "unidades": "Four Crisis Battlesuits and one Shas’el character",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Shas’o",
+    "Crisis Suits",
+    "Gun Drones"
+   ],
+   "nombreEs": "Cuadro de armaduras Crisis",
+   "unidadesEs": "Cuatro Crisis Battlesuits y un personaje Shas’el"
+  },
+  {
+   "id": "tau-cadres-fire-warrior-cadre",
+   "nombre": "Fire Warrior Cadre",
+   "seccion": "tau-cadres",
+   "unidades": "Eight Fire Warriors or Six Fire Warriors and three Devilfish",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Bonded Team",
+    "Broadsides",
+    "Ethereal",
+    "Fire Warriors",
+    "Gun Drones",
+    "Hammerheads",
+    "Pathfinders",
+    "Piranhas",
+    "Skyray"
+   ],
+   "nombreEs": "Cuadro de Guerreros del Fuego",
+   "unidadesEs": "Ocho Fire Warriors, o seis Fire Warriors y tres Devilfish"
+  },
+  {
+   "id": "tau-support-formations-armour-support-group",
+   "nombre": "Armour Support Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Four Hammerheads Note: One or more Hammerheads with Railguns cost +25 points",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hammerheads",
+    "Skyray"
+   ],
+   "nombreEs": "Grupo de apoyo blindado",
+   "unidadesEs": "Cuatro Hammerheads. Nota: uno o más Hammerheads con Railguns cuestan +25 puntos"
+  },
+  {
+   "id": "tau-support-formations-broadside-group",
+   "nombre": "Broadside Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Six Broadside Battlesuits",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Gun Drones"
+   ],
+   "nombreEs": "Grupo Broadside",
+   "unidadesEs": "Seis Broadside Battlesuits"
+  },
+  {
+   "id": "tau-support-formations-kroot-kindred",
+   "nombre": "Kroot Kindred",
+   "seccion": "tau-support-formations",
+   "unidades": "One Kroot Master Shapers unit and nine Kroot Warriors",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "mejoras": [
+    "Kroot",
+    "Kroot Hounds",
+    "Krootox"
+   ],
+   "nombreEs": "Clan kroot",
+   "unidadesEs": "Una unidad de Kroot Master Shapers y nueve Kroot Warriors"
+  },
+  {
+   "id": "tau-support-formations-pathfinder-group",
+   "nombre": "Pathfinder Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Four Pathfinders and two Devilfish",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Gun Drones",
+    "Piranhas"
+   ],
+   "nombreEs": "Grupo de Rastreadores",
+   "unidadesEs": "Cuatro Pathfinders y dos Devilfish"
+  },
+  {
+   "id": "tau-support-formations-recon-skimmer-group",
+   "nombre": "Recon Skimmer Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Any six of the following units: Piranha, Tetra",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "mejoras": [
+    "Gun Drones",
+    "Piranhas"
+   ],
+   "nombreEs": "Grupo de gravitatorios de reconocimiento",
+   "unidadesEs": "Seis cualesquiera de estas unidades: Piranha, Tetra"
+  },
+  {
+   "id": "tau-support-formations-skysweep-support-group",
+   "nombre": "Skysweep Support Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Three Skyrays",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [],
+   "nombreEs": "Grupo de apoyo Skysweep",
+   "unidadesEs": "Tres Skyrays"
+  },
+  {
+   "id": "tau-support-formations-stealth-group",
+   "nombre": "Stealth Group",
+   "seccion": "tau-support-formations",
+   "unidades": "Six Stealth Battlesuits",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Gun Drones"
+   ],
+   "nombreEs": "Grupo Sigiloso",
+   "unidadesEs": "Seis Stealth Battlesuits"
+  },
+  {
+   "id": "air-caste-formations-barracuda-squadron",
+   "nombre": "Barracuda Squadron",
+   "seccion": "air-caste-formations",
+   "unidades": "Two Barracudas",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Escuadrón Barracuda",
+   "unidadesEs": "Dos Barracudas"
+  },
+  {
+   "id": "air-caste-formations-manta-dropship",
+   "nombre": "Manta Dropship",
+   "seccion": "air-caste-formations",
+   "unidades": "One Manta",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "nombreEs": "Nave de desembarco Manta",
+   "unidadesEs": "Un Manta"
+  },
+  {
+   "id": "air-caste-formations-orca-dropship",
+   "nombre": "Orca Dropship",
+   "seccion": "air-caste-formations",
+   "unidades": "One Orca",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Nave de desembarco Orca",
+   "unidadesEs": "Un Orca"
+  },
+  {
+   "id": "air-caste-formations-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "air-caste-formations",
+   "unidades": "Any one of the following units: Protector Class Cruiser Custodian Class Battleship",
+   "coste": 200,
+   "costeTexto": "200 points 225 points",
+   "max": 1,
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Una cualquiera de estas unidades: Protector Class Cruiser, Custodian Class Battleship"
+  },
+  {
+   "id": "air-caste-formations-tiger-shark-squadron",
+   "nombre": "Tiger Shark Squadron",
+   "seccion": "air-caste-formations",
+   "unidades": "Two Tiger Sharks (add a Gun Drone formation of six Gun Drones)",
+   "coste": 175,
+   "costeTexto": "175 points (+100 points)",
+   "extras": [
+    {
+     "texto": "Add a Gun Drone formation of six Gun Drones",
+     "coste": 100,
+     "textoEs": "Añade una formación de Gun Drones con seis Gun Drones"
+    }
+   ],
+   "nombreEs": "Escuadrón Tiger Shark",
+   "unidadesEs": "Dos Tiger Sharks (añade una formación de seis Gun Drones)"
+  },
+  {
+   "id": "air-caste-formations-tiger-shark-ax-1-0-squadron",
+   "nombre": "Tiger Shark AX-1-0 Squadron",
+   "seccion": "air-caste-formations",
+   "unidades": "Two Shark AX-1-0s",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "nombreEs": "Escuadrón Tiger Shark AX-1-0",
+   "unidadesEs": "Dos Shark AX-1-0"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "bonded-team",
+   "nombre": "Bonded Team",
+   "seccion": "tau-upgrades",
+   "texto": "Give all units in the formation Self-Reliant",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Equipo vinculado",
+   "textoEs": "Da Self-Reliant a todas las unidades de la formación"
+  },
+  {
+   "id": "broadsides",
+   "nombre": "Broadsides",
+   "seccion": "tau-upgrades",
+   "texto": "Add three Broadside Battlesuits",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "textoEs": "Añade tres Broadside Battlesuits"
+  },
+  {
+   "id": "crisis-suits",
+   "nombre": "Crisis Suits",
+   "seccion": "tau-upgrades",
+   "texto": "Add two Crisis Battlesuits",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Armaduras Crisis",
+   "textoEs": "Añade dos Crisis Battlesuits"
+  },
+  {
+   "id": "ethereal",
+   "nombre": "Ethereal",
+   "seccion": "tau-upgrades",
+   "texto": "Add one Etheral character per army to a unit of Fire Warriors",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 10,
+   "maxEjercito": 1,
+   "nombreEs": "Etéreo",
+   "textoEs": "Añade un personaje Ethereal por ejército a una unidad de Fire Warriors"
+  },
+  {
+   "id": "fire-warriors",
+   "nombre": "Fire Warriors",
+   "seccion": "tau-upgrades",
+   "texto": "Add any one of the following options: Four Fire Warriors Four Fire Warriors and two Devilfish",
+   "coste": 100,
+   "costeTexto": "+100 points +125 points",
+   "variantes": [
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "+100 points",
+     "textoEs": "+100 puntos"
+    },
+    {
+     "coste": 125,
+     "porUnidad": false,
+     "texto": "+125 points",
+     "textoEs": "+125 puntos"
+    }
+   ],
+   "nombreEs": "Guerreros del Fuego",
+   "textoEs": "Añade una de estas opciones: cuatro Fire Warriors, o cuatro Fire Warriors y dos Devilfish"
+  },
+  {
+   "id": "gun-drones",
+   "nombre": "Gun Drones",
+   "seccion": "tau-upgrades",
+   "texto": "Add two Gun Drones",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Drones de combate",
+   "textoEs": "Añade dos Gun Drones"
+  },
+  {
+   "id": "hammerheads",
+   "nombre": "Hammerheads",
+   "seccion": "tau-upgrades",
+   "texto": "Add any one of the following options: Add two Hammerheads with Ion Cannons Add up to two Hammerheads with Railguns or Twin Fusion Cannons",
+   "coste": 75,
+   "costeTexto": "+75 points +50 points each",
+   "variantes": [
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "+75 points",
+     "textoEs": "+75 puntos"
+    },
+    {
+     "coste": 50,
+     "porUnidad": true,
+     "texto": "+50 points each",
+     "textoEs": "+50 puntos cada uno"
+    }
+   ],
+   "textoEs": "Añade una de estas opciones: dos Hammerheads con Ion Cannons, o hasta dos Hammerheads con Railguns o Twin Fusion Cannons"
+  },
+  {
+   "id": "kroot",
+   "nombre": "Kroot",
+   "seccion": "tau-upgrades",
+   "texto": "Add five Kroot Warriors",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade cinco Kroot Warriors"
+  },
+  {
+   "id": "kroot-hounds",
+   "nombre": "Kroot Hounds",
+   "seccion": "tau-upgrades",
+   "texto": "Add three Kroot Hounds",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Sabuesos kroot",
+   "textoEs": "Añade tres Kroot Hounds"
+  },
+  {
+   "id": "krootox",
+   "nombre": "Krootox",
+   "seccion": "tau-upgrades",
+   "texto": "Add three Krootox",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade tres Krootox"
+  },
+  {
+   "id": "pathfinders",
+   "nombre": "Pathfinders",
+   "seccion": "tau-upgrades",
+   "texto": "Add two Pathfinders and one Devilfish",
+   "coste": 100,
+   "costeTexto": "+100 points",
+   "nombreEs": "Rastreadores",
+   "textoEs": "Añade dos Pathfinders y un Devilfish"
+  },
+  {
+   "id": "piranhas",
+   "nombre": "Piranhas",
+   "seccion": "tau-upgrades",
+   "texto": "Add three Piranhas",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade tres Piranhas"
+  },
+  {
+   "id": "shaso",
+   "nombre": "Shas’o",
+   "seccion": "tau-upgrades",
+   "texto": "Replace one Shas’el character with a Shas’o character",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "maxEjercito": 1,
+   "textoEs": "Sustituye un personaje Shas’el por un personaje Shas’o"
+  },
+  {
+   "id": "skyray",
+   "nombre": "Skyray",
+   "seccion": "tau-upgrades",
+   "texto": "Add one Skyray",
+   "coste": 100,
+   "costeTexto": "+100 points",
+   "textoEs": "Añade un Skyray"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "iniciativaEs": "Las formaciones Crisis Battlesuit Cadre y Manta Dropship tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.19",
+   "titulo": "Lista de ejército de la Expansión de la Tercera Fase Tau",
+   "parrafos": [
+    "— Por’vre Dal’yth Jishu’iro, dirigiéndose a la población humana de Goron Minor",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.19.",
+    "Uso de la lista de ejército: Las formaciones tau son de dos tipos: cuadros (cadres) y formaciones de apoyo. Cada cuadro que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un cuadro, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Las formaciones que puede incluir un ejército de la Expansión de la Tercera Fase Tau se muestran en la tabla siguiente, que indica también las unidades que las componen, las mejoras permitidas y su coste en puntos.",
+    "Además, las formaciones pueden recibir hasta tres mejoras. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras, que también indica las unidades que la componen. Cada mejora puede adquirirse una vez por formación. Los ejércitos de la Expansión de la Tercera Fase Tau pueden recibir apoyo de formaciones de la Casta del Aire. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades y armas tienen capacidades especiales descritas en Fuego Coordinado (véase 5.19.1) y Tecnología Tau (véase 5.19.2)."
+   ]
+  },
+  {
+   "id": "6.19.1",
+   "titulo": "Drones Armados de los Tiger Shark",
+   "parrafos": [
+    "(Tiger Shark Gun Drones)",
+    "Los Escuadrones de Tiger Shark pueden recibir una formación de Drones Armados para transportarla. Las formaciones de",
+    "Drones Armados transportadas pueden repartirse entre varios Tiger Sharks, como excepción a las reglas normales de transporte en aeronaves. Los Tiger Sharks no pueden aterrizar, trabarse en combate ni embarcar unidades, pero pueden desembarcar a los Drones Armados transportados tras un movimiento de aproximación. La formación de Drones Armados puede disparar al desembarcar con normalidad (véase 4.2.5), y cuenta como si se hubiera activado ese turno. Tras este despliegue inicial, los Drones Armados son una formación completamente independiente. Los Drones Armados transportados por Tiger Sharks no generan Marcadores de Explosión al ser destruidos hasta después de haber desembarcado."
+   ]
+  },
+  {
+   "id": "5.19.1",
+   "titulo": "Fuego Coordinado (Coordinated Fire)",
+   "parrafos": [
+    "Algunas unidades pueden solicitar fuego coordinado. Estas unidades pueden ordenar a hasta otras dos formaciones situadas a 15 cm o menos, que no hayan realizado una acción este turno y no estén desmoralizadas, que sigan a su propia forma‐",
+    "ción cuando esta realice una acción de Avanzar, Doble o Fuego Sostenido.",
+    "Haz una sola tirada de iniciativa para todas las formaciones, aplicando un único modificador de -1 si alguna tiene Marcadores de Explosión. Si se falla el chequeo, la formación original (la que contiene la unidad que solicita el fuego coordinado) recibe un Marcador de Explosión y debe realizar una acción de Mantener, pero las demás formaciones no se ven afectadas (y pueden realizar una acción más adelante en el turno). Si se supera, todas las formaciones implicadas pueden realizar una acción de Avanzar, Doble o Fuego Sostenido.",
+    "No es obligatorio que todas las formaciones realicen la misma acción, y estas pueden resolverse en cualquier orden, pero todas deben disparar a la misma formación objetivo. Las formaciones no tienen que permanecer a una distancia determinada entre sí y completarán sus acciones una tras otra. La acción de cada formación se declara y resuelve (incluida la comprobación de si la formación objetivo queda desmoralizada) antes de pasar a la siguiente formación tau. Ten en cuenta que las unidades con esta capacidad la otorgan a cualquier formación a la que se unan. Por ejemplo, una mejora de Exploradores (Pathfinder) adquirida para añadirse a un Cuadro de Guerreros del Fuego otorga la capacidad de fuego coordinado a todas las unidades del Cuadro."
+   ]
+  },
+  {
+   "id": "5.19.2",
+   "titulo": "Tecnología Tau (Tau Technology)",
+   "parrafos": [
+    "Escudo Deflector (Deflector Shield): Los escudos deflectores tau funcionan como una salvación invulnerable en todos los aspectos, salvo que esta salvación invulnerable es siempre de 5+.",
+    "Misiles Guiados (Guided Missiles): Los misiles guiados solo pueden dispararse contra una formación objetivo «marcada», pero pueden dispararse sin línea de fuego si el objetivo está marcado.",
+    "Marcadores Láser (Markerlights): Toda formación enemiga con al menos una unidad a 30 cm o menos y en línea de fuego de al menos una unidad tau con la capacidad de marcadores láser se considera «marcada». Al disparar a una formación marcada, todos los ataques de potencia de fuego a distancia suman +1 a su tirada para impactar. Esta bonificación no puede usarse al hacer ataques antiaéreos. Una formación tau que esté desmoralizada o haya marchado este turno no puede marcar a una formación enemiga.",
+    "Retrorreactores Tau (Tau Jet Packs): Siguen todas las reglas de los Retrorreactores (Jump Packs). Además, las unidades con retrorreactores tau pueden hacer un movimiento adicional de 10 cm al final de una orden de Avanzar, Doble o Marcha. El movimiento adicional se permite tanto si la unidad dispara como si no, y tiene lugar después de cualquier disparo. Puede hacerse en cualquier dirección y sigue todas las reglas normales de movimiento, así que deben respetarse como siempre la cohesión de unidad y las zonas de control. No se permite movi‐",
+    "miento adicional con órdenes distintas de Avanzar, Doble o Marcha.",
+    "En las formaciones en las que solo algunas unidades tienen retrorreactores tau, las unidades sin ellos no pueden hacer el movimiento adicional."
+   ]
+  }
+ ]
+}

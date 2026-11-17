@@ -1,0 +1,598 @@
+{
+ "id": "space-marine-space-wolves",
+ "nombre": "Space Marine – Space Wolves",
+ "version": "2026-02-04",
+ "estrategia": 5,
+ "iniciativa": "Blood Claws, Fenrisian Wolves, Skyclaws, Swiftclaws and Imperial Navy aircraft formations have an initiative rating of 2+ (see Unblooded). All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "companies",
+   "nombre": "Companies",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Compañías"
+  },
+  {
+   "id": "hunting-packs",
+   "nombre": "Hunting Packs",
+   "tipo": "nucleo",
+   "nota": "You may not have more Hunting Packs of any one type than you have Great Companies.",
+   "nombreEs": "Manadas de caza",
+   "notaEs": "No puedes tener más Hunting Packs de un mismo tipo que Great Companies."
+  },
+  {
+   "id": "space-wolf-upgrades",
+   "nombre": "Space Wolf Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per formation.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Lobos Espaciales",
+   "notaEs": "Cada mejora puede tomarse una vez por formación."
+  },
+  {
+   "id": "imperial-navy-aircraft",
+   "nombre": "Imperial Navy Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de la Armada Imperial"
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  },
+  {
+   "id": "space-wolf-aircraft",
+   "nombre": "Space Wolf Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de los Lobos Espaciales"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "companies-1-great-company",
+   "nombre": "1+ Great Company",
+   "seccion": "companies",
+   "unidades": "Six Grey Hunter units and one Hero upgrade plus transport",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Dreadnoughts",
+    "Hunter",
+    "Land Raiders",
+    "Razorbacks",
+    "Space Wolves",
+    "Vindicators",
+    "Wolf Lord"
+   ],
+   "nombreEs": "1+ Gran Compañía",
+   "unidadesEs": "Seis unidades de Grey Hunter y una mejora Hero, más transporte"
+  },
+  {
+   "id": "companies-land-raider",
+   "nombre": "Land Raider",
+   "seccion": "companies",
+   "unidades": "Any four of the following units: Land Raider, Land Raider Crusader",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Hero",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Land Raider, Land Raider Crusader"
+  },
+  {
+   "id": "companies-land-speeder",
+   "nombre": "Land Speeder",
+   "seccion": "companies",
+   "unidades": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hero",
+    "Typhoons"
+   ],
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado"
+  },
+  {
+   "id": "companies-landing-craft",
+   "nombre": "Landing Craft",
+   "seccion": "companies",
+   "unidades": "One Landing Craft",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "mejoras": [],
+   "nombreEs": "Nave de desembarco",
+   "unidadesEs": "Una Landing Craft"
+  },
+  {
+   "id": "companies-predator",
+   "nombre": "Predator",
+   "seccion": "companies",
+   "unidades": "Any four of the following units: Predator Annihilator, Predator Destructor",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Hero",
+    "Hunter",
+    "Vindicators"
+   ],
+   "unidadesEs": "Cuatro cualesquiera de estas unidades: Predator Annihilator, Predator Destructor"
+  },
+  {
+   "id": "companies-strike-cruiser",
+   "nombre": "Strike Cruiser",
+   "seccion": "companies",
+   "unidades": "One Strike Cruiser",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "mejoras": [
+    "Battle Barge"
+   ],
+   "nombreEs": "Crucero de asalto",
+   "unidadesEs": "Un Strike Cruiser"
+  },
+  {
+   "id": "companies-vindicator",
+   "nombre": "Vindicator",
+   "seccion": "companies",
+   "unidades": "Four Vindicators",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hero",
+    "Hunter"
+   ],
+   "unidadesEs": "Cuatro Vindicators"
+  },
+  {
+   "id": "companies-whirlwind",
+   "nombre": "Whirlwind",
+   "seccion": "companies",
+   "unidades": "Four Whirlwinds",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Hero",
+    "Hunter"
+   ],
+   "unidadesEs": "Cuatro Whirlwinds"
+  },
+  {
+   "id": "hunting-packs-blood-claws",
+   "nombre": "Blood Claws",
+   "seccion": "hunting-packs",
+   "unidades": "Six Blood Claws plus transport",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Blood Claws",
+    "Dreadnoughts",
+    "Hero",
+    "Vindicators"
+   ],
+   "nombreEs": "Garras Sangrientas",
+   "unidadesEs": "Seis Blood Claws más transporte"
+  },
+  {
+   "id": "hunting-packs-fenrisian-wolves",
+   "nombre": "Fenrisian Wolves",
+   "seccion": "hunting-packs",
+   "unidades": "Six Fenrisian Wolves",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "mejoras": [
+    "Hero"
+   ],
+   "nombreEs": "Lobos de Fenris",
+   "unidadesEs": "Seis Fenrisian Wolves"
+  },
+  {
+   "id": "hunting-packs-long-fangs",
+   "nombre": "Long Fangs",
+   "seccion": "hunting-packs",
+   "unidades": "Four Long Fangs plus transport",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Dreadnoughts",
+    "Hero",
+    "Hunter",
+    "Land Raiders",
+    "Razorbacks"
+   ],
+   "nombreEs": "Colmillos Largos",
+   "unidadesEs": "Cuatro Long Fangs más transporte"
+  },
+  {
+   "id": "hunting-packs-skyclaws",
+   "nombre": "Skyclaws",
+   "seccion": "hunting-packs",
+   "unidades": "Six Skyclaws",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Hero",
+    "Skyclaws"
+   ],
+   "nombreEs": "Garras Celestes",
+   "unidadesEs": "Seis Skyclaws"
+  },
+  {
+   "id": "hunting-packs-swiftclaws",
+   "nombre": "Swiftclaws",
+   "seccion": "hunting-packs",
+   "unidades": "Any six of the following units: Multi-melta Attack Bike, Swiftclaws",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Hero"
+   ],
+   "nombreEs": "Garras Veloces",
+   "unidadesEs": "Seis cualesquiera de estas unidades: Multi-melta Attack Bike, Swiftclaws"
+  },
+  {
+   "id": "hunting-packs-wolf-guard-terminators",
+   "nombre": "Wolf Guard Terminators",
+   "seccion": "hunting-packs",
+   "unidades": "Four Wolf Guard Terminators plus transport",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Dreadnoughts",
+    "Hero",
+    "Land Raiders",
+    "Wolf Lord"
+   ],
+   "nombreEs": "Exterminadores de la Guardia del Lobo",
+   "unidadesEs": "Cuatro Wolf Guard Terminators más transporte"
+  },
+  {
+   "id": "hunting-packs-wolf-scouts",
+   "nombre": "Wolf Scouts",
+   "seccion": "hunting-packs",
+   "unidades": "Four Wolf Scouts",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Hero",
+    "Snipers"
+   ],
+   "nombreEs": "Exploradores lobo",
+   "unidadesEs": "Cuatro Wolf Scouts"
+  },
+  {
+   "id": "imperial-navy-aircraft-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "imperial-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "titan-legion-battlegroups-reaver",
+   "nombre": "Reaver",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Reaver Class Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Reaver Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warlord",
+   "nombre": "Warlord",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warlord Class Titan",
+   "coste": 825,
+   "costeTexto": "825 points",
+   "unidadesEs": "Un Warlord Class Titan"
+  },
+  {
+   "id": "space-wolf-aircraft-thunderhawk-gunship",
+   "nombre": "Thunderhawk Gunship",
+   "seccion": "space-wolf-aircraft",
+   "unidades": "One Thunderhawk Gunship",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Cañonera Thunderhawk",
+   "unidadesEs": "Un Thunderhawk Gunship"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "battle-barge",
+   "nombre": "Battle Barge",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Replace the Strike Cruiser with a Battle Barge",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Barcaza de batalla",
+   "textoEs": "Sustituye el Strike Cruiser por una Battle Barge"
+  },
+  {
+   "id": "blood-claws",
+   "nombre": "Blood Claws",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add two Blood Claws",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Garras Sangrientas",
+   "textoEs": "Añade dos Blood Claws"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add up to two of the following options (no option may be selected Add up to two Dreadnoughts more than once): Add up to one Venerable Dreadnoughts per army",
+   "coste": 50,
+   "costeTexto": "+50 points each +75 points",
+   "porUnidad": true,
+   "max": 2,
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": true,
+     "texto": "+50 points each",
+     "textoEs": "+50 puntos cada uno"
+    },
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "+75 points",
+     "textoEs": "+75 puntos"
+    }
+   ],
+   "textoEs": "Elige hasta dos de estas opciones (ninguna más de una vez): hasta dos Dreadnoughts; como máximo un Venerable Dreadnought por ejército"
+  },
+  {
+   "id": "hero",
+   "nombre": "Hero",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add one Captain, Chaplain or Librarian character to any unit in the formation",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Héroe",
+   "textoEs": "Añade un personaje Captain, Chaplain o Librarian a cualquier unidad de la formación"
+  },
+  {
+   "id": "hunter",
+   "nombre": "Hunter",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add one Hunter",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade un Hunter"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add up to four of any of the following units: Land Raider, Land Raider Crusader",
+   "coste": 75,
+   "costeTexto": "+75 points each +125 points per pair",
+   "porUnidad": true,
+   "max": 4,
+   "variantes": [
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points each",
+     "textoEs": "+75 puntos cada uno"
+    },
+    {
+     "coste": 125,
+     "porUnidad": true,
+     "texto": "+125 points per pair",
+     "textoEs": "+125 puntos por pareja"
+    }
+   ],
+   "textoEs": "Añade hasta cuatro de cualquiera de estas unidades: Land Raider, Land Raider Crusader"
+  },
+  {
+   "id": "razorbacks",
+   "nombre": "Razorbacks",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add any number of Razorbacks, up to the number required to transport the formation",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+  },
+  {
+   "id": "skyclaws",
+   "nombre": "Skyclaws",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add two Skyclaws",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Garras Celestes",
+   "textoEs": "Añade dos Skyclaws"
+  },
+  {
+   "id": "snipers",
+   "nombre": "Snipers",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Give up to four Wolf Scout units Sniper",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 4,
+   "nombreEs": "Francotiradores",
+   "textoEs": "Da Sniper a hasta cuatro unidades de Wolf Scout"
+  },
+  {
+   "id": "space-wolves",
+   "nombre": "Space Wolves",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add up to two of the following options (no option may be selected Two Grey Hunters more than once): Two Blood Claws Two Long Fangs Up to two Wolf Guard Terminators",
+   "coste": 75,
+   "costeTexto": "+75 points +50 points +125 points +75 points each",
+   "variantes": [
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "+75 points",
+     "textoEs": "+75 puntos"
+    },
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "+50 points",
+     "textoEs": "+50 puntos"
+    },
+    {
+     "coste": 125,
+     "porUnidad": false,
+     "texto": "+125 points",
+     "textoEs": "+125 puntos"
+    },
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points each",
+     "textoEs": "+75 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Lobos Espaciales",
+   "textoEs": "Elige hasta dos de estas opciones (ninguna más de una vez): dos Grey Hunters, dos Blood Claws, dos Long Fangs, hasta dos Wolf Guard Terminators"
+  },
+  {
+   "id": "typhoons",
+   "nombre": "Typhoons",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 5,
+   "textoEs": "Sustituye hasta cinco Land Speeders por el mismo número de Land Speeder Typhoons"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Add up to two Vindicators",
+   "coste": 50,
+   "costeTexto": "+50 points each +75 points per pair",
+   "porUnidad": true,
+   "max": 2,
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": true,
+     "texto": "+50 points each",
+     "textoEs": "+50 puntos cada uno"
+    },
+    {
+     "coste": 75,
+     "porUnidad": true,
+     "texto": "+75 points per pair",
+     "textoEs": "+75 puntos por pareja"
+    }
+   ],
+   "textoEs": "Añade hasta dos Vindicators"
+  },
+  {
+   "id": "wolf-lord",
+   "nombre": "Wolf Lord",
+   "seccion": "space-wolf-upgrades",
+   "texto": "Replace one Captain character per army with a Supreme Commander character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Señor Lobo",
+   "textoEs": "Sustituye un personaje Captain por ejército por un personaje Supreme Commander"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales – Lobos Espaciales",
+ "iniciativaEs": "Las formaciones de Blood Claws, Fenrisian Wolves, Skyclaws, Swiftclaws y aeronaves de la Imperial Navy tienen iniciativa 2+ (ver Unblooded). Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.26",
+   "titulo": "Lista de ejército de Marines Espaciales de los Lobos Espaciales (Space Wolves)",
+   "parrafos": [
+    "— Grito de batalla de los Lobos Espaciales",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.26, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en los Lobos Espaciales. También puede usarse como lista «sustituta» para cualquiera de sus Capítulos sucesores. Las formaciones de los Lobos Espaciales son de tres tipos: compañías, manadas de caza y manadas de apoyo. Debes tener al menos una Gran Compañía y no puedes tener más manadas de caza de un mismo tipo que Grandes Compañías. Puedes tener cualquier número de manadas de apoyo. Las formaciones que puede incluir un ejército de Lobos Espaciales se muestran en la tabla siguiente, que indica también las unidades que las componen, las mejoras permitidas y su coste en puntos. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras, que también indica las unidades que la componen. A veces sustituirán a unidades de la formación y otras serán unidades adicionales. Cada mejora puede adquirirse una vez por formación.",
+    "Los ejércitos de Lobos Espaciales pueden recibir apoyo de aeronaves de la Armada Imperial, grupos de batalla de la Legión de Titanes y formaciones de aeronaves de los Lobos Espaciales. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de Lobos Espaciales (véase 5.1.1)."
+   ]
+  },
+  {
+   "id": "6.26.1",
+   "titulo": "Transporte de los Lobos Espaciales",
+   "parrafos": [
+    "Los Lobos Espaciales son un ejército muy móvil. Por ello, el coste en puntos de una formación suele incluir suficientes Rhinos para transportarla a ella y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades.",
+    "Ten en cuenta también que no estás obligado a llevar los Rhinos. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como guarnición o para transportarla en una Cañonera Thunderhawk, puedes hacerlo. Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco de los Lobos Espaciales. En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída Planetaria (véase 4.4). Necesitarás también al menos un Crucero de Asalto o una Barcaza de Batalla de Marines Espaciales desde el que lanzarlas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador de los Lobos Espaciales puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción. Si la formación tiene alguna unidad que no pueda transportarse en Rhinos, no la cuentes al determinar el número de Rhinos necesarios."
+   ]
+  },
+  {
+   "id": "6.26.2",
+   "titulo": "Sin Sangre (Unblooded)",
+   "parrafos": [
+    "Las Garras Sangrientas (Blood Claws) están ansiosas por demostrar su valía en la batalla. Todas las formaciones de Garras Sangrientas, Garras Celestes (Skyclaws) y Garras Veloces (Swiftclaws) que intenten realizar acciones de Enfrentarse reciben un modificador de +1 a su chequeo de acción. Además, siempre deben hacer su movimiento de contracarga completo (salvo que lleguen antes al contacto peana con peana con una unidad enemiga), siempre que sigan siendo una formación legal."
+   ]
+  },
+  {
+   "id": "5.26.1",
+   "titulo": "Mentalidad de Manada (Pack Mentality)",
+   "parrafos": [
+    "Los Lobos Espaciales prefieren luchar cuerpo a cuerpo con el enemigo y, por tanto, nunca se echan atrás cuando una manada amiga necesita ayuda en un combate. Las unidades de Lobos Espaciales con Comandante pueden ordenar que hasta tres formaciones de tropas les sigan en un asalto, siempre que todas las formaciones tengan al menos una unidad a 10 cm o menos de una unidad de la formación del comandante."
+   ]
+  },
+  {
+   "id": "5.4.1",
+   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "parrafos": [
+    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
+    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "FAQ",
+    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "R: No.",
+    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
+    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "R: Sí.",
+    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
+    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "R: No."
+   ]
+  },
+  {
+   "id": "5.1.1",
+   "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
+   "parrafos": [
+    "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
+    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
+    "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "FAQ",
+    "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
+    "R: Uno por unidad."
+   ]
+  }
+ ]
+}

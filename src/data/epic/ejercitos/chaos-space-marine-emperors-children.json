@@ -1,0 +1,510 @@
+{
+ "id": "chaos-space-marine-emperors-children",
+ "nombre": "Chaos Space Marine – Emperor's Children",
+ "version": "2026-07-16",
+ "estrategia": 4,
+ "iniciativa": "Chaos Navy, Questor, Subjugator and Knight Pack formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "emperors-children-retinues",
+   "nombre": "Emperor's Children Retinues",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Séquitos de los Hijos del Emperador"
+  },
+  {
+   "id": "emperors-children-elite-formations",
+   "nombre": "Emperor's Children Elite Formations",
+   "tipo": "apoyo",
+   "nota": "Any one elite formation may be fielded per each retinue.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "retinue"
+   },
+   "nombreEs": "Formaciones de élite de los Hijos del Emperador",
+   "notaEs": "Se puede desplegar una formación de élite por cada séquito."
+  },
+  {
+   "id": "emperors-children-support-formations",
+   "nombre": "Emperor's Children Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any one support formations may be fielded per each retinue.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "retinue"
+   },
+   "nombreEs": "Formaciones de apoyo de los Hijos del Emperador",
+   "notaEs": "Se puede desplegar una formación de apoyo por cada séquito."
+  },
+  {
+   "id": "emperors-children-upgrades",
+   "nombre": "Emperor's Children Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to four upgrades may be taken once per formation.",
+   "maxPorFormacion": 4,
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Hijos del Emperador",
+   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación."
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "nombre": "Chaos Navy And War Engine Formations / Chaos Navy",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Armada del Caos y máquinas de guerra / Armada del Caos",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  },
+  {
+   "id": "chaos-war-engines",
+   "nombre": "Chaos War Engines",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Máquinas de guerra del Caos"
+  },
+  {
+   "id": "daemon-pool",
+   "nombre": "Daemon Pool",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Reserva de demonios"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "emperors-children-retinues-retinue",
+   "nombre": "Retinue",
+   "seccion": "emperors-children-retinues",
+   "unidades": "Six Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Chaos Champion",
+    "Chaos Marines",
+    "Chaos Warlord",
+    "Daemon Prince",
+    "Daemonic Pact",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Havocs",
+    "Icon Bearer",
+    "Land Raiders",
+    "Noise Marines",
+    "Rhinos",
+    "Stalker"
+   ],
+   "nombreEs": "Séquito",
+   "unidadesEs": "Seis Chaos Space Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "emperors-children-elite-formations-chosen",
+   "nombre": "Chosen",
+   "seccion": "emperors-children-elite-formations",
+   "unidades": "Four Chaos Space Marine Chosen",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "mejoras": [
+    "Daemonic Pact",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Rhinos"
+   ],
+   "nombreEs": "Elegidos",
+   "unidadesEs": "Cuatro Chaos Space Marine Chosen"
+  },
+  {
+   "id": "emperors-children-elite-formations-emperors-children-terminators",
+   "nombre": "Emperor's Children Terminators",
+   "seccion": "emperors-children-elite-formations",
+   "unidades": "Between four and six Emperor's Children Terminators, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 275,
+   "costeTexto": "275 points for four +60 points per extra",
+   "mejoras": [
+    "Chaos Champion",
+    "Chaos Warlord",
+    "Daemon Prince",
+    "Daemonic Pact",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Icon Bearer",
+    "Land Raiders"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 60,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Exterminadores de los Hijos del Emperador",
+   "unidadesEs": "Entre cuatro y seis Emperor's Children Terminators, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "emperors-children-elite-formations-noise-marines",
+   "nombre": "Noise Marines",
+   "seccion": "emperors-children-elite-formations",
+   "unidades": "Between six and ten Noise Marines, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 300,
+   "costeTexto": "300 points for six +35 points per extra",
+   "mejoras": [
+    "Chaos Champion",
+    "Daemonic Pact",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Icon Bearer",
+    "Land Raiders",
+    "Rhinos"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Marines del Ruido",
+   "unidadesEs": "Entre seis y diez Noise Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "emperors-children-support-formations-armoured-company",
+   "nombre": "Armoured Company",
+   "seccion": "emperors-children-support-formations",
+   "unidades": "Between four and eight of any of the following units: Emperor's Children Predator, Emperor's Children Land Raider",
+   "coste": 55,
+   "costeTexto": "55 points each per Emperor's Children Predator 80 points each per Emperor's Children Land Raider",
+   "mejoras": [
+    "Stalker"
+   ],
+   "nombreEs": "Compañía acorazada",
+   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Emperor's Children Predator, Emperor's Children Land Raider"
+  },
+  {
+   "id": "emperors-children-support-formations-bike-company",
+   "nombre": "Bike Company",
+   "seccion": "emperors-children-support-formations",
+   "unidades": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Daemonic Pact",
+    "Icon Bearer"
+   ],
+   "nombreEs": "Compañía de motocicletas",
+   "unidadesEs": "Ocho Chaos Space Marine Bikes, una con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "emperors-children-support-formations-raptor-cult",
+   "nombre": "Raptor Cult",
+   "seccion": "emperors-children-support-formations",
+   "unidades": "Between four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 175,
+   "costeTexto": "175 points for four +35 points per extra",
+   "mejoras": [
+    "Daemonic Pact"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Culto de raptores",
+   "unidadesEs": "Entre cuatro y ocho Raptors, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-harbinger",
+   "nombre": "Harbinger",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Harbinger",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "unidadesEs": "Un Harbinger"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
+   "nombre": "Hell Blades",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Three Hell Blades",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Tres Hell Blades"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
+   "nombre": "Hell Talons",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Two Hell Talons",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "unidadesEs": "Dos Hell Talons"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Devastation Class Cruiser or one Despoiler Class Battleship",
+   "coste": 150,
+   "costeTexto": "150 points or 250 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 150
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 250
+    }
+   ],
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Un Devastation Class Cruiser o un Despoiler Class Battleship"
+  },
+  {
+   "id": "chaos-war-engines-questor",
+   "nombre": "Questor",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Questor Titan",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "unidadesEs": "Un Questor Titan"
+  },
+  {
+   "id": "chaos-war-engines-subjugator",
+   "nombre": "Subjugator",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Subjugator Titan",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "unidadesEs": "Un Subjugator Titan"
+  },
+  {
+   "id": "chaos-war-engines-thunderhawk",
+   "nombre": "Thunderhawk",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Chaos Thunderhawk",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Un Chaos Thunderhawk"
+  },
+  {
+   "id": "chaos-war-engines-knight-pack",
+   "nombre": "Knight Pack",
+   "seccion": "chaos-war-engines",
+   "unidades": "Between four and Hell-Strider six of any of the Hell-Knight following units: Hell-Scourge",
+   "coste": 50,
+   "costeTexto": "50 points each 75 points each 90 points each",
+   "max": 1,
+   "nombreEs": "Manada de Caballeros",
+   "unidadesEs": "Entre cuatro y seis de cualquiera de estas unidades: Hell-Strider, Hell-Knight, Hell-Scourge"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "chaos-champion",
+   "nombre": "Chaos Champion",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Champion of Chaos character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Campeón del Caos",
+   "textoEs": "Añade un personaje Champion of Chaos"
+  },
+  {
+   "id": "chaos-marines",
+   "nombre": "Chaos Marines",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add up to six Chaos Space Marines",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 6,
+   "nombreEs": "Marines del Caos",
+   "textoEs": "Añade hasta seis Chaos Space Marines"
+  },
+  {
+   "id": "chaos-warlord",
+   "nombre": "Chaos Warlord",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Señor de la Guerra del Caos",
+   "textoEs": "Añade un personaje Chaos Warlord por ejército a un Daemon Prince o a una unidad con un personaje Chaos Lord"
+  },
+  {
+   "id": "daemon-prince",
+   "nombre": "Daemon Prince",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Príncipe demonio",
+   "textoEs": "Sustituye una unidad con un personaje Chaos Lord por un Daemon Prince"
+  },
+  {
+   "id": "daemonic-pact",
+   "nombre": "Daemonic Pact",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Pacto demoníaco",
+   "textoEs": "Añade un Lesser Daemon a la reserva de demonios. La formación puede invocar demonios."
+  },
+  {
+   "id": "dreadclaws",
+   "nombre": "Dreadclaws",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws",
+   "coste": 5,
+   "costeTexto": "+5 points per unit",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Transporta en Dreadclaws una formación formada solo por infantería y Chaos Dreadnoughts"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add up to three Emperor's Children Dreadnoughts",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Emperor's Children Dreadnoughts"
+  },
+  {
+   "id": "havocs",
+   "nombre": "Havocs",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Replace two or four Chaos Space Marines with an equal number of Havocs",
+   "coste": 25,
+   "costeTexto": "+25 or +50 points",
+   "textoEs": "Sustituye dos o cuatro Chaos Space Marines por el mismo número de Havocs"
+  },
+  {
+   "id": "icon-bearer",
+   "nombre": "Icon Bearer",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Icon Bearer character",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Portaestandarte",
+   "textoEs": "Añade un personaje Icon Bearer"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add up to four Emperor's Children Land Raiders",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 4,
+   "textoEs": "Añade hasta cuatro Emperor's Children Land Raiders"
+  },
+  {
+   "id": "noise-marines",
+   "nombre": "Noise Marines",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Replace two or four Chaos Space Marines with an equal number of Noise Marines",
+   "coste": 25,
+   "costeTexto": "+25 or +50 points",
+   "nombreEs": "Marines del Ruido",
+   "textoEs": "Sustituye dos o cuatro Chaos Space Marines por el mismo número de Noise Marines"
+  },
+  {
+   "id": "rhinos",
+   "nombre": "Rhinos",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Chaos Rhino for every two infantry units",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería"
+  },
+  {
+   "id": "stalker",
+   "nombre": "Stalker",
+   "seccion": "emperors-children-upgrades",
+   "texto": "Add one Stalker",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade un Stalker"
+  }
+ ],
+ "compras": [
+  {
+   "id": "daemon-pool-greater-daemon",
+   "nombre": "Greater Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "nombreEs": "Demonio mayor"
+  },
+  {
+   "id": "daemon-pool-lesser-daemon",
+   "nombre": "Lesser Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "nombreEs": "Demonio menor"
+  }
+ ],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales del Caos – Hijos del Emperador",
+ "iniciativaEs": "Las formaciones de Chaos Navy, Questor, Subjugator y Knight Pack tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.27",
+   "titulo": "Lista de ejército de Marines Espaciales del Caos de los Hijos del Emperador (Emperor’s Children)",
+   "parrafos": [
+    "— Hermano Hedonis",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.27.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de los Hijos del Emperador.",
+    "Las formaciones de los Hijos del Emperador son de tres tipos: séquitos (retinues), formaciones de élite y formaciones de apoyo. Cada séquito que incluyas en el ejército te permite desplegar una formación de élite y una formación de apoyo cualesquiera. Aunque solo puedes llevar una formación de élite o de apoyo si antes llevas un séquito, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras; cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación inde‐",
+    "pendiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de los Hijos del Emperador pueden recibir apoyo de formaciones de la Armada del Caos y de Ingenios de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+   ]
+  },
+  {
+   "id": "6.27.1",
+   "titulo": "Reglas especiales de torneo de los Hijos del Emperador",
+   "parrafos": [
+    "Lealtad de la formación: Cada formación de un ejército de los Hijos del Emperador debe lealtad al dios del Caos Slaanesh. Costes en puntos de invocación:",
+    "Demonios Menores",
+    "Puntos de invocación",
+    "Diablillas (Daemonettes): 1 · Demonios de Slaanesh (Fiends of Slaanesh): 1",
+    "Corceles de Slaanesh (Steeds of Slaanesh): 2",
+    "Demonios Mayores",
+    "Puntos de invocación",
+    "Guardián de los Secretos (Keeper of Secrets): 8"
+   ]
+  },
+  {
+   "id": "5.11.1",
+   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "parrafos": [
+    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+   ]
+  },
+  {
+   "id": "5.11.2",
+   "titulo": "Foco Demoníaco (Daemonic Focus)",
+   "parrafos": [
+    "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
+   ]
+  }
+ ]
+}

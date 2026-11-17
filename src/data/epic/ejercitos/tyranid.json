@@ -1,0 +1,439 @@
+{
+ "id": "tyranid",
+ "nombre": "Tyranid",
+ "version": "2026-07-15",
+ "estrategia": 1,
+ "iniciativa": "All Tyranid formations have an initiative rating of 1+ but synapse swarm formations have an initiative of 3+ if they do not contain synapse units. If a synapse swarm does contain a synapse unit it ignores the -2 modifier for being broken when rallying (see The Hive Mind).",
+ "secciones": [
+  {
+   "id": "tyranid-individuals",
+   "nombre": "Tyranid Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos tiránidos",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  },
+  {
+   "id": "synapse-swarm-formations",
+   "nombre": "Synapse Swarm Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones de enjambres sinápticos"
+  },
+  {
+   "id": "independent-swarm-formations",
+   "nombre": "Independent Swarm Formations",
+   "tipo": "apoyo",
+   "nota": "One independent swarm may be fielded per each synapse swarm.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "synapse swarm"
+   },
+   "nombreEs": "Formaciones de enjambres independientes",
+   "notaEs": "Se puede desplegar un enjambre independiente por cada enjambre sináptico."
+  },
+  {
+   "id": "war-engine-formations",
+   "nombre": "War Engine Formations",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Formaciones de máquinas de guerra",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "tyranid-individuals-brood-nest",
+   "nombre": "Brood Nest",
+   "seccion": "tyranid-individuals",
+   "unidades": "At the start of the game nominate one objective on your half of the table as a Brood Nest before setting up spacecraft and garrisons. The Brood Nest functions both as a means for formations to enter play (see Xeno-Biology) and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units, Carnifex, Hive Tyrant and units with the Tunneler ability may use the Brood Nest to enter play.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Nido de prole",
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Brood Nest antes de desplegar naves y guarniciones. El Brood Nest sirve como medio para que las formaciones entren en juego (ver Xeno-Biology) y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros, Carnifex, Hive Tyrant y unidades con la habilidad Tunneler pueden usar el Brood Nest para entrar en juego."
+  },
+  {
+   "id": "tyranid-individuals-symbiote",
+   "nombre": "Symbiote",
+   "seccion": "tyranid-individuals",
+   "unidades": "Add up to one Symbiote character per army to a Hive Tyrant or Dominatrix.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Simbionte",
+   "unidadesEs": "Añade como máximo un personaje Symbiote por ejército a un Hive Tyrant o Dominatrix."
+  },
+  {
+   "id": "synapse-swarm-formations-tyranid-swarm",
+   "nombre": "Tyranid Swarm",
+   "seccion": "synapse-swarm-formations",
+   "unidades": "One Hive Tyrant or two Tyranid Warriors, and any six of the following units: Hormagaunts, Termagants",
+   "coste": 200,
+   "costeTexto": "Pequeña (S) 200 / Mediana (M) 375 / Grande (L) 525",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 200
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 375
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 525
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of the following units for +15 points each: Hormagaunts, Termagants",
+     "coste": 15,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +15 puntos cada una: Hormagaunts, Termagants"
+    },
+    {
+     "texto": "Add any number of Gargoyles for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Gargoyles por +20 puntos cada uno"
+    },
+    {
+     "texto": "Add any number of the following units for +25 points each: Biovore, Zoanthrope",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +25 puntos cada una: Biovore, Zoanthrope"
+    },
+    {
+     "texto": "Add any number of Raveners for +30 points each",
+     "coste": 30,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Raveners por +30 puntos cada uno"
+    },
+    {
+     "texto": "Add any number of the following units for +50 points each: Carnifex, Exocrine, Haruspex, Malefactor, Trygon",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de estas unidades por +50 puntos cada una: Carnifex, Exocrine, Haruspex, Malefactor, Trygon"
+    },
+    {
+     "texto": "Add any number of Dactylis for +75 points each",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Dactylis por +75 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Tyranid Warriors unit for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo una unidad de Tyranid Warriors por +50 puntos"
+    },
+    {
+     "texto": "Replace up to one Hive Tyrant per full 2,000 points with a Dominatrix for +225 points",
+     "coste": 225,
+     "porUnidad": true,
+     "max": 1,
+     "textoEs": "Sustituye como máximo un Hive Tyrant por cada 2.000 puntos completos por una Dominatrix por +225 puntos"
+    }
+   ],
+   "nombreEs": "Enjambre tiránido",
+   "unidadesEs": "Un Hive Tyrant o dos Tyranid Warriors, y seis cualesquiera de estas: Hormagaunts, Termagants"
+  },
+  {
+   "id": "independent-swarm-formations-biovore-swarm",
+   "nombre": "Biovore Swarm",
+   "seccion": "independent-swarm-formations",
+   "unidades": "Five Biovores",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150 / Mediana (M) 275 / Grande (L) 375",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 150
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 275
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 375
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Biovores for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Biovores por +25 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Enjambre de Biovoros",
+   "unidadesEs": "Cinco Biovores"
+  },
+  {
+   "id": "independent-swarm-formations-dactylis-swarm",
+   "nombre": "Dactylis Swarm",
+   "seccion": "independent-swarm-formations",
+   "unidades": "Three Dactylis",
+   "coste": 250,
+   "costeTexto": "Pequeña (S) 250 / Mediana (M) 475 / Grande (L) 675",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 250
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 475
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 675
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Dactylis for +75 points each",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Dactylis por +75 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Enjambre de Dactylis",
+   "unidadesEs": "Tres Dactylis"
+  },
+  {
+   "id": "independent-swarm-formations-exocrine-swarm",
+   "nombre": "Exocrine Swarm",
+   "seccion": "independent-swarm-formations",
+   "unidades": "Three Exocrine",
+   "coste": 175,
+   "costeTexto": "Pequeña (S) 175 / Mediana (M) 325 / Grande (L) 450",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 175
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 325
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 450
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Exocrine for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Exocrines por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Enjambre de Exocrinos",
+   "unidadesEs": "Tres Exocrines"
+  },
+  {
+   "id": "independent-swarm-formations-genestealer-swarm",
+   "nombre": "Genestealer Swarm",
+   "seccion": "independent-swarm-formations",
+   "unidades": "Six Genestealers",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150",
+   "extras": [
+    {
+     "texto": "Add any number of Genestealers for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Genestealers por +20 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Brood Lord character for +25 points",
+     "coste": 25,
+     "textoEs": "Añade como máximo un personaje Brood Lord por +25 puntos"
+    }
+   ],
+   "nombreEs": "Enjambre de Genestealers",
+   "unidadesEs": "Seis Genestealers"
+  },
+  {
+   "id": "independent-swarm-formations-lictor-swarm",
+   "nombre": "Lictor Swarm",
+   "seccion": "independent-swarm-formations",
+   "unidades": "Four Lictors",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150",
+   "max": 2,
+   "extras": [
+    {
+     "texto": "Add up to two Lictors for +35 points each",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Añade hasta dos Lictors por +35 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Enjambre de Lictores",
+   "unidadesEs": "Cuatro Lictors"
+  },
+  {
+   "id": "war-engine-formations-harridan-swarm",
+   "nombre": "Harridan Swarm",
+   "seccion": "war-engine-formations",
+   "unidades": "One Harridan",
+   "coste": 150,
+   "costeTexto": "Pequeña (S) 150 / Mediana (M) 300 / Grande (L) 450",
+   "tamanos": [
+    {
+     "nombre": "Pequeña (S)",
+     "coste": 150
+    },
+    {
+     "nombre": "Mediana (M)",
+     "coste": 300
+    },
+    {
+     "nombre": "Grande (L)",
+     "coste": 450
+    }
+   ],
+   "extras": [
+    {
+     "texto": "Add any number of Gargoyles for +20 points each",
+     "coste": 20,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Gargoyles por +20 puntos cada uno"
+    },
+    {
+     "texto": "Add four Gargoyles for +75 points",
+     "coste": 75,
+     "textoEs": "Añade cuatro Gargoyles por +75 puntos"
+    }
+   ],
+   "nombreEs": "Enjambre de Harridans",
+   "unidadesEs": "Un Harridan"
+  },
+  {
+   "id": "war-engine-formations-hierodule-bio-titan",
+   "nombre": "Hierodule Bio-Titan",
+   "seccion": "war-engine-formations",
+   "unidades": "One Hierodule Bio-Titan",
+   "coste": 350,
+   "costeTexto": "Pequeña (S) 350",
+   "nombreEs": "Biotitán Hierodule",
+   "unidadesEs": "Un Hierodule Bio-Titan"
+  },
+  {
+   "id": "war-engine-formations-hierophant-bio-titan",
+   "nombre": "Hierophant Bio-Titan",
+   "seccion": "war-engine-formations",
+   "unidades": "One Hierophant Bio-Titan",
+   "coste": 525,
+   "costeTexto": "Pequeña (S) 525",
+   "nombreEs": "Biotitán Hierophant",
+   "unidadesEs": "Un Hierophant Bio-Titan"
+  },
+  {
+   "id": "war-engine-formations-trygon-swarm",
+   "nombre": "Trygon Swarm",
+   "seccion": "war-engine-formations",
+   "unidades": "Three Trygons",
+   "coste": 200,
+   "costeTexto": "Pequeña (S) 200",
+   "extras": [
+    {
+     "texto": "Add up to three Trygons for +60 points each",
+     "coste": 60,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Trygons por +60 puntos cada uno"
+    },
+    {
+     "texto": "Add any number of Raveners for +30 points each",
+     "coste": 30,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade cualquier número de Raveners por +30 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Enjambre de Trygons",
+   "unidadesEs": "Tres Trygons"
+  }
+ ],
+ "mejoras": [],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Tiránidos",
+ "iniciativaEs": "Todas las formaciones tiránidas tienen iniciativa 1+, pero los enjambres sinápticos tienen iniciativa 3+ si no contienen unidades de sinapsis. Si un enjambre sináptico contiene una unidad de sinapsis, ignora el modificador -2 por estar desmoralizado al reagruparse (ver The Hive Mind).",
+ "reglas": [
+  {
+   "id": "6.21",
+   "titulo": "Lista de ejército tiránida de la Flota Enjambre Onachus",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.21.",
+    "Uso de la lista de ejército: Las formaciones tiránidas de la",
+    "Flota Enjambre Onachus son de tres tipos: enjambres sinápticos, enjambres independientes e ingenios de guerra. Cada enjambre sináptico que incluyas en el ejército te permite desplegar un enjambre independiente. No puede gastarse en ingenios de guerra más de un tercio de los puntos disponibles. Por último, los Individuos Tiránidos incluyen personajes especiales y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas». La lista incluye la siguiente información:",
+    "• Tipo: El nombre de la formación.",
+    "• Unidades principales: Las unidades que componen la formación. Pueden duplicarse o triplicarse. Una formación con el número normal de unidades principales se denomina formación pequeña (S); con el doble, mediana (M); y con el triple, grande (L).",
+    "• Coste: Los costes de una formación figuran bajo S, M y L (pequeña, mediana o grande, respectivamente).",
+    "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse, se duplica en las formaciones medianas y se triplica en las grandes.",
+    "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta.",
+    "Reglas especiales: La regla Movilidad se aplica a todas las unidades tiránidas (véase 5.21.2). Además, las formaciones con unidades sinápticas pueden devolver unidades de progenie al juego mediante el Enjambrado (véase 5.21.1)."
+   ]
+  },
+  {
+   "id": "6.21.1",
+   "titulo": "La Mente Enjambre (The Hive Mind)",
+   "parrafos": [
+    "La Mente Enjambre de los tiránidos es una única consciencia coordinadora. Su influencia se proyecta a través de las criaturas sinápticas, que se comunican con sus parientes menores mediante una forma de telepatía. Bajo el control de las criaturas sinápticas, los organismos esclavos actúan en perfecta armonía. Sin embargo, si las criaturas sinápticas mueren, las criaturas básicas vuelven a su comportamiento animal hasta que otras criaturas sinápticas puedan ejercer control sobre ellas. Esto se representa con las siguientes reglas para las formaciones de en‐",
+    "jambre sináptico (no para los enjambres independientes ni los ingenios de guerra):",
+    "• Los enjambres sinápticos ignoran las unidades de progenie a efectos de determinar los efectivos de la formación durante el desempate.",
+    "• Un enjambre sináptico sin unidades sinápticas tiene iniciativa 3+ y no puede capturar objetivos.",
+    "• Un enjambre sináptico con al menos una unidad sináptica ignora el modificador de -2 por estar desmoralizado al intentar reorganizarse. Además, al final de su acción puede absorber otras formaciones de enjambre sináptico sin unidades sinápticas. La formación debe tener una unidad a 5 cm o menos de una unidad de la formación o formaciones absorbidas. Las unidades y los Marcadores de Explosión de una formación absorbida pasan a formar parte de la formación. Una formación absorbida se considera completamente destruida a efectos del desempate y de la meta Quebrar su Moral."
+   ]
+  },
+  {
+   "id": "6.21.2",
+   "titulo": "Organismos de Vanguardia",
+   "parrafos": [
+    "(Vanguard Organisms)",
+    "Solo las formaciones de Enjambre de Genestealers y de Lictores pueden desplegarse sobre la mesa como «guarniciones» al comienzo del escenario de juego de torneo de Epic."
+   ]
+  },
+  {
+   "id": "5.21.1",
+   "titulo": "Xenosociología (Xeno-Sociology)",
+   "parrafos": [
+    "Una invasión tiránida se parece más a una infestación. Las criaturas menores están por todas partes, ya sea porque se separaron de un enjambre o porque acaban de hacer caída planetaria en una Espora Micética. Estas criaturas buscan instintivamente los conductos psíquicos de la Mente Enjambre que son las criaturas sinápticas. Esto se representa con las siguientes reglas:",
+    "Progenie (Brood): Las unidades con Progenie (unidades de progenie) se colocan en la «reserva de enjambre» fuera del tablero del ejército cuando son destruidas. Pueden volver al juego mediante el enjambrado a cambio de un número de puntos de enjambre igual a su valor de progenie (el número entre paréntesis tras «Progenie»).",
+    "Sinapsis (Synapse): Las formaciones que contienen al menos una unidad con Sinapsis (unidad sináptica) pueden devolver al juego unidades de progenie de la reserva de enjambre mediante el enjambrado. Cada unidad sináptica tiene un valor de sinapsis, el número entre paréntesis tras «Sinapsis». Algunos personajes tienen Sinapsis (+x), que aumenta el valor de sinapsis de la unidad a la que se añaden en «x».",
+    "Enjambrar (Swarming): Después de que una formación se reagrupe, o en la fase final una vez que todas las formaciones se han reorganizado, una formación que esté sobre el tablero con al menos una unidad sináptica puede «enjambrar». Suma todos los valores de sinapsis de la formación: ese es el número de «puntos de enjambre» disponibles. Las unidades con Progenie de la reserva de enjambre pueden volver al juego a cambio de un número de puntos de enjambre igual a su valor de progenie. Si una formación está desmoralizada o a 30 cm o menos de unidades enemigas, divide entre dos sus puntos de enjambre disponibles, redondeando hacia arriba. Si una formación está desmoralizada y a 30 cm o menos de unidades enemigas, no puede enjambrar.",
+    "Todas las unidades devueltas al juego de esta forma deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes del enjambrado. No pueden colocarse en zona de control enemiga ni en terreno infranqueable. No es necesario usar todos los puntos de enjambre disponibles, pero los sobrantes se pierden."
+   ]
+  },
+  {
+   "id": "5.21.2",
+   "titulo": "Xenobiología (Xeno-Biology)",
+   "parrafos": [
+    "La biología de los tiránidos les otorga ciertas ventajas en el campo de batalla, representadas con las siguientes reglas:",
+    "Nido de Progenie (Brood Nest): Cada Nido de Progenie incluido en el ejército permite al jugador tiránido elegir hasta tres formaciones para mantenerlas fuera del tablero, en reserva, y que entren en juego a través de un Nido de Progenie. Estas formaciones pueden entrar en juego realizando una acción que les permita mover y midiendo su primer movimiento desde un punto del Nido de Progenie declarado al comienzo de la partida. No puede entrar en juego más de una formación por cada Nido de Progenie en cada turno.",
+    "Si el punto de entrada de un Nido de Progenie está en la zona de control de unidades enemigas, una formación solo puede entrar en juego mediante una acción de Enfrentarse y debe ponerse en contacto peana con peana con todas las unidades enemigas que tengan el punto de entrada en su zona de control. Una vez contactadas estas unidades enemigas y perdida su zona de control, las unidades restantes que entren en juego pueden usar su movimiento de carga sin esta restricción adicional. Si una formación falla el chequeo de acción que la traería al tablero, debe usar la acción de Mantener para entrar en el tablero si puede. Si no es posible porque el punto de entrada está en la zona de control de una unidad enemiga, la formación recibe un Marcador de Explosión y pierde su acción.",
+    "En las reglas de juego de torneo de Epic, las formaciones en reserva con varias opciones de despliegue (p. ej., Nido de Progenie, teletransporte, excavador) deben declarar al comienzo de la partida que entrarán en juego solo por una de esas opciones.",
+    "Movilidad (Mobility): Las unidades tiránidas de vehículo blindado e ingenio de guerra no hacen chequeos de terreno peligroso. Además, las unidades tiránidas de vehículo ligero cuentan como infantería a efectos del terreno (véase 1.8). Las posiciones fortificadas, como campos de minas o alambradas, y los elementos de terreno especiales, como ríos de lava, afectan normalmente a los tiránidos.",
+    "Regeneración (Regeneration): Las unidades de ingenio de guerra con regeneración pueden recuperar puntos de capacidad de daño perdidos. Cada unidad con regeneración recupera un punto de capacidad de daño al comienzo de la fase final de cada turno. La regeneración no puede usarla una unidad destruida ni puede aumentar la capacidad de daño de una unidad por encima de su valor inicial."
+   ]
+  }
+ ]
+}

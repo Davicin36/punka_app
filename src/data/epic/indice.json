@@ -1,0 +1,261 @@
+[
+ {
+  "id": "adeptus-mechanicus-knight-world",
+  "nombre": "Adeptus Mechanicus – Knight World",
+  "familia": "Adeptus Mechanicus",
+  "version": "2026-02-05",
+  "nombreEs": "Adeptus Mechanicus – Mundo Caballero"
+ },
+ {
+  "id": "adeptus-mechanicus-skitarii-legion",
+  "nombre": "Adeptus Mechanicus – Skitarii Legion",
+  "familia": "Adeptus Mechanicus",
+  "version": "2026-02-05",
+  "nombreEs": "Adeptus Mechanicus – Legión Skitarii"
+ },
+ {
+  "id": "adeptus-mechanicus-titan-legion",
+  "nombre": "Adeptus Mechanicus – Titan Legion",
+  "familia": "Adeptus Mechanicus",
+  "version": "2026-02-05",
+  "nombreEs": "Adeptus Mechanicus – Legio Titanicus"
+ },
+ {
+  "id": "chaos-cultist-slaves-to-darkness",
+  "nombre": "Chaos Cultist – Slaves to Darkness",
+  "familia": "Chaos Cultist",
+  "version": "2026-07-16",
+  "nombreEs": "Cultistas del Caos – Esclavos de la Oscuridad",
+  "familiaEs": "Cultistas del Caos"
+ },
+ {
+  "id": "chaos-cultist-stigmatus-covenant",
+  "nombre": "Chaos Cultist – Stigmatus Covenant",
+  "familia": "Chaos Cultist",
+  "version": "2026-07-16",
+  "nombreEs": "Cultistas del Caos – Pacto Stigmatus",
+  "familiaEs": "Cultistas del Caos"
+ },
+ {
+  "id": "chaos-space-marine-black-legion",
+  "nombre": "Chaos Space Marine – Black Legion",
+  "familia": "Chaos Space Marine",
+  "version": "2026-07-16",
+  "nombreEs": "Marines Espaciales del Caos – Legión Negra",
+  "familiaEs": "Marines Espaciales del Caos"
+ },
+ {
+  "id": "chaos-space-marine-emperors-children",
+  "nombre": "Chaos Space Marine – Emperor's Children",
+  "familia": "Chaos Space Marine",
+  "version": "2026-07-16",
+  "nombreEs": "Marines Espaciales del Caos – Hijos del Emperador",
+  "familiaEs": "Marines Espaciales del Caos"
+ },
+ {
+  "id": "chaos-space-marine-iron-warriors",
+  "nombre": "Chaos Space Marine – Iron Warriors",
+  "familia": "Chaos Space Marine",
+  "version": "2026-07-16",
+  "nombreEs": "Marines Espaciales del Caos – Guerreros de Hierro",
+  "familiaEs": "Marines Espaciales del Caos"
+ },
+ {
+  "id": "chaos-space-marine-red-corsairs",
+  "nombre": "Chaos Space Marine – Red Corsairs",
+  "familia": "Chaos Space Marine",
+  "version": "2026-07-16",
+  "nombreEs": "Marines Espaciales del Caos – Corsarios Rojos",
+  "familiaEs": "Marines Espaciales del Caos"
+ },
+ {
+  "id": "dark-eldar",
+  "nombre": "Dark Eldar",
+  "familia": "Dark Eldar",
+  "version": "2026-02-05",
+  "nombreEs": "Eldar Oscuros",
+  "familiaEs": "Eldar Oscuros"
+ },
+ {
+  "id": "eldar-alaitoc",
+  "nombre": "Eldar – Alaitoc",
+  "familia": "Eldar",
+  "version": "2026-02-03"
+ },
+ {
+  "id": "eldar-biel-tan",
+  "nombre": "Eldar – Biel-Tan",
+  "familia": "Eldar",
+  "version": "2026-02-03"
+ },
+ {
+  "id": "eldar-iyanden",
+  "nombre": "Eldar – Iyanden",
+  "familia": "Eldar",
+  "version": "2026-02-03"
+ },
+ {
+  "id": "eldar-saim-hann",
+  "nombre": "Eldar – Saim-Hann",
+  "familia": "Eldar",
+  "version": "2026-02-03"
+ },
+ {
+  "id": "imperial-guard-baran-siegemasters",
+  "nombre": "Imperial Guard – Baran Siegemasters",
+  "familia": "Imperial Guard",
+  "version": "2026-02-05",
+  "nombreEs": "Guardia Imperial – Maestros de Asedio de Baran",
+  "familiaEs": "Guardia Imperial"
+ },
+ {
+  "id": "imperial-guard-death-korps-of-krieg",
+  "nombre": "Imperial Guard – Death Korps of Krieg",
+  "familia": "Imperial Guard",
+  "version": "2026-02-05",
+  "nombreEs": "Guardia Imperial – Cuerpo de la Muerte de Krieg",
+  "familiaEs": "Guardia Imperial"
+ },
+ {
+  "id": "imperial-guard-minervan-tank-legion",
+  "nombre": "Imperial Guard – Minervan Tank Legion",
+  "familia": "Imperial Guard",
+  "version": "2026-02-03",
+  "nombreEs": "Guardia Imperial – Legión Acorazada de Minerva",
+  "familiaEs": "Guardia Imperial"
+ },
+ {
+  "id": "imperial-guard-steel-legion",
+  "nombre": "Imperial Guard – Steel Legion",
+  "familia": "Imperial Guard",
+  "version": "2026-02-03",
+  "nombreEs": "Guardia Imperial – Legión de Acero",
+  "familiaEs": "Guardia Imperial"
+ },
+ {
+  "id": "inquisition-ordo-xenos",
+  "nombre": "Inquisition – Ordo Xenos",
+  "familia": "Inquisition",
+  "version": "2026-02-03",
+  "nombreEs": "Inquisición – Ordo Xenos",
+  "familiaEs": "Inquisición"
+ },
+ {
+  "id": "necron",
+  "nombre": "Necron",
+  "familia": "Necron",
+  "version": "2026-02-04",
+  "nombreEs": "Necrones",
+  "familiaEs": "Necrones"
+ },
+ {
+  "id": "ork-feral-orks",
+  "nombre": "Ork – Feral Orks",
+  "familia": "Ork",
+  "version": "2026-02-04",
+  "nombreEs": "Orkos – Orkos salvajes",
+  "familiaEs": "Orkos"
+ },
+ {
+  "id": "ork-gargant-mob",
+  "nombre": "Ork – Gargant Mob",
+  "familia": "Ork",
+  "version": "2026-07-16",
+  "nombreEs": "Orkos – Banda Gargant",
+  "familiaEs": "Orkos"
+ },
+ {
+  "id": "ork-speed-freeks",
+  "nombre": "Ork – Speed Freeks",
+  "familia": "Ork",
+  "version": "2026-02-05",
+  "nombreEs": "Orkos – Speed Freeks",
+  "familiaEs": "Orkos"
+ },
+ {
+  "id": "ork-war-horde",
+  "nombre": "Ork – War Horde",
+  "familia": "Ork",
+  "version": "2026-02-04",
+  "nombreEs": "Orkos – Horda de guerra",
+  "familiaEs": "Orkos"
+ },
+ {
+  "id": "space-marine-codex-astartes",
+  "nombre": "Space Marine – Codex Astartes",
+  "familia": "Space Marine",
+  "version": "2026-02-04",
+  "nombreEs": "Marines Espaciales – Codex Astartes",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-imperial-fists",
+  "nombre": "Space Marine – Imperial Fists",
+  "familia": "Space Marine",
+  "version": "2026-02-05",
+  "nombreEs": "Marines Espaciales – Puños Imperiales",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-raven-guard",
+  "nombre": "Space Marine – Raven Guard",
+  "familia": "Space Marine",
+  "version": "2026-02-04",
+  "nombreEs": "Marines Espaciales – Guardia del Cuervo",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-salamanders",
+  "nombre": "Space Marine – Salamanders",
+  "familia": "Space Marine",
+  "version": "2026-02-04",
+  "nombreEs": "Marines Espaciales – Salamandras",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-scions-of-iron",
+  "nombre": "Space Marine – Scions of Iron",
+  "familia": "Space Marine",
+  "version": "2026-07-15",
+  "nombreEs": "Marines Espaciales – Scions of Iron",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-space-wolves",
+  "nombre": "Space Marine – Space Wolves",
+  "familia": "Space Marine",
+  "version": "2026-02-04",
+  "nombreEs": "Marines Espaciales – Lobos Espaciales",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "space-marine-white-scars",
+  "nombre": "Space Marine – White Scars",
+  "familia": "Space Marine",
+  "version": "2026-02-09",
+  "nombreEs": "Marines Espaciales – Cicatrices Blancas",
+  "familiaEs": "Marines Espaciales"
+ },
+ {
+  "id": "squat",
+  "nombre": "Squat",
+  "familia": "Squat",
+  "version": "2026-02-03",
+  "nombreEs": "Squats",
+  "familiaEs": "Squats"
+ },
+ {
+  "id": "tau",
+  "nombre": "Tau",
+  "familia": "Tau",
+  "version": "2026-02-04"
+ },
+ {
+  "id": "tyranid",
+  "nombre": "Tyranid",
+  "familia": "Tyranid",
+  "version": "2026-07-15",
+  "nombreEs": "Tiránidos",
+  "familiaEs": "Tiránidos"
+ }
+]

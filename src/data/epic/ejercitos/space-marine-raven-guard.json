@@ -1,0 +1,524 @@
+{
+ "id": "space-marine-raven-guard",
+ "nombre": "Space Marine – Raven Guard",
+ "version": "2026-02-04",
+ "estrategia": 5,
+ "iniciativa": "Imperial Navy aircraft formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "raven-guard-detachments",
+   "nombre": "Raven Guard Detachments",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Destacamentos de la Guardia del Cuervo"
+  },
+  {
+   "id": "raven-guard-elite-detachments",
+   "nombre": "Raven Guard Elite Detachments",
+   "tipo": "apoyo",
+   "nota": "Any one elite detachment may be fielded per each detachment.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "detachment"
+   },
+   "nombreEs": "Destacamentos de élite de la Guardia del Cuervo",
+   "notaEs": "Se puede desplegar un destacamento de élite por cada destacamento."
+  },
+  {
+   "id": "raven-guard-support-detachments",
+   "nombre": "Raven Guard Support Detachments",
+   "tipo": "apoyo",
+   "nota": "Any one support detachment may be fielded per each detachment.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "detachment"
+   },
+   "nombreEs": "Destacamentos de apoyo de la Guardia del Cuervo",
+   "notaEs": "Se puede desplegar un destacamento de apoyo por cada destacamento."
+  },
+  {
+   "id": "raven-guard-upgrades",
+   "nombre": "Raven Guard Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per detachment.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de la Guardia del Cuervo",
+   "notaEs": "Cada mejora puede tomarse una vez por destacamento."
+  },
+  {
+   "id": "imperial-navy-aircraft",
+   "nombre": "Imperial Navy Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de la Armada Imperial"
+  },
+  {
+   "id": "titan-legion-battlegroups",
+   "nombre": "Titan Legion Battlegroups",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Grupos de batalla de la Legio Titanicus"
+  },
+  {
+   "id": "raven-guard-aircraft",
+   "nombre": "Raven Guard Aircraft",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Aeronaves de la Guardia del Cuervo"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "raven-guard-detachments-assault",
+   "nombre": "Assault",
+   "seccion": "raven-guard-detachments",
+   "unidades": "Four Assault units",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "mejoras": [
+    "Commander",
+    "Land Speeders"
+   ],
+   "nombreEs": "Asalto",
+   "unidadesEs": "Cuatro unidades de Assault"
+  },
+  {
+   "id": "raven-guard-detachments-devastator",
+   "nombre": "Devastator",
+   "seccion": "raven-guard-detachments",
+   "unidades": "Four Devastator units plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Land Speeders",
+    "Razorbacks"
+   ],
+   "nombreEs": "Devastadores",
+   "unidadesEs": "Cuatro unidades de Devastator más transporte"
+  },
+  {
+   "id": "raven-guard-detachments-scout",
+   "nombre": "Scout",
+   "seccion": "raven-guard-detachments",
+   "unidades": "Four Scout units plus transport",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "mejoras": [
+    "Commander",
+    "Land Speeders",
+    "Storms",
+    "Snipers"
+   ],
+   "nombreEs": "Exploradores",
+   "unidadesEs": "Cuatro unidades de Scout más transporte"
+  },
+  {
+   "id": "raven-guard-detachments-tactical",
+   "nombre": "Tactical",
+   "seccion": "raven-guard-detachments",
+   "unidades": "Four Tactical units plus transport",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Land Speeders",
+    "Razorbacks"
+   ],
+   "nombreEs": "Tácticos",
+   "unidadesEs": "Cuatro unidades de Tactical más transporte"
+  },
+  {
+   "id": "raven-guard-elite-detachments-sternguard-veteran",
+   "nombre": "Sternguard Veteran",
+   "seccion": "raven-guard-elite-detachments",
+   "unidades": "Four Sternguard Veteran units plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Ambush",
+    "Commander",
+    "Hunter",
+    "Land Speeders",
+    "Razorbacks"
+   ],
+   "nombreEs": "Veteranos Sternguard",
+   "unidadesEs": "Cuatro unidades de Sternguard Veteran más transporte"
+  },
+  {
+   "id": "raven-guard-elite-detachments-terminator",
+   "nombre": "Terminator",
+   "seccion": "raven-guard-elite-detachments",
+   "unidades": "Four Terminator units",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "max": 1,
+   "mejoras": [
+    "Commander"
+   ],
+   "nombreEs": "Exterminadores",
+   "unidadesEs": "Cuatro unidades de Terminator"
+  },
+  {
+   "id": "raven-guard-elite-detachments-vanguard-assault-veteran",
+   "nombre": "Vanguard Assault Veteran",
+   "seccion": "raven-guard-elite-detachments",
+   "unidades": "Four Vanguard Assault Veteran units",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Land Speeders"
+   ],
+   "nombreEs": "Veteranos de asalto de vanguardia",
+   "unidadesEs": "Cuatro unidades de Vanguard Assault Veteran"
+  },
+  {
+   "id": "raven-guard-elite-detachments-vanguard-veteran",
+   "nombre": "Vanguard Veteran",
+   "seccion": "raven-guard-elite-detachments",
+   "unidades": "Four Vanguard Veteran units plus transport",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Commander",
+    "Hunter",
+    "Land Speeders",
+    "Razorbacks"
+   ],
+   "nombreEs": "Veteranos de vanguardia",
+   "unidadesEs": "Cuatro unidades de Vanguard Veteran más transporte"
+  },
+  {
+   "id": "raven-guard-support-detachments-bike",
+   "nombre": "Bike",
+   "seccion": "raven-guard-support-detachments",
+   "unidades": "Five Attack Bikes",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "mejoras": [
+    "Commander",
+    "Bikes"
+   ],
+   "nombreEs": "Motocicletas",
+   "unidadesEs": "Cinco Attack Bikes"
+  },
+  {
+   "id": "raven-guard-support-detachments-land-speeder",
+   "nombre": "Land Speeder",
+   "seccion": "raven-guard-support-detachments",
+   "unidades": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "mejoras": [
+    "Commander",
+    "Planetfall",
+    "Tempests",
+    "Typhoons"
+   ],
+   "unidadesEs": "Cinco cualesquiera de estas unidades: Land Speeder, Land Speeder Tornado"
+  },
+  {
+   "id": "raven-guard-support-detachments-strike-cruiser",
+   "nombre": "Strike Cruiser",
+   "seccion": "raven-guard-support-detachments",
+   "unidades": "One Strike Cruiser",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "mejoras": [
+    "Battle Barge"
+   ],
+   "nombreEs": "Crucero de asalto",
+   "unidadesEs": "Un Strike Cruiser"
+  },
+  {
+   "id": "imperial-navy-aircraft-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "imperial-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound",
+   "nombre": "Warhound",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "One Warhound Class Titan",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "unidadesEs": "Un Warhound Class Titan"
+  },
+  {
+   "id": "titan-legion-battlegroups-warhound-pack",
+   "nombre": "Warhound Pack",
+   "seccion": "titan-legion-battlegroups",
+   "unidades": "Two Warhound Class Titans",
+   "coste": 500,
+   "costeTexto": "500 points",
+   "nombreEs": "Manada de Warhounds",
+   "unidadesEs": "Dos Warhound Class Titans"
+  },
+  {
+   "id": "raven-guard-aircraft-storm-talon-squadron",
+   "nombre": "Storm Talon Squadron",
+   "seccion": "raven-guard-aircraft",
+   "unidades": "Two Storm Talons",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Escuadrón Storm Talon",
+   "unidadesEs": "Dos Storm Talons"
+  },
+  {
+   "id": "raven-guard-aircraft-storm-eagle",
+   "nombre": "Storm Eagle",
+   "seccion": "raven-guard-aircraft",
+   "unidades": "One Storm Eagle",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "unidadesEs": "Un Storm Eagle"
+  },
+  {
+   "id": "raven-guard-aircraft-thunderhawk-gunship",
+   "nombre": "Thunderhawk Gunship",
+   "seccion": "raven-guard-aircraft",
+   "unidades": "One Thunderhawk Gunship",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Cañonera Thunderhawk",
+   "unidadesEs": "Un Thunderhawk Gunship"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "ambush",
+   "nombre": "Ambush",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Give all infantry units Self Planetfall",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Emboscada",
+   "textoEs": "Da Planetfall a todas las unidades de infantería"
+  },
+  {
+   "id": "battle-barge",
+   "nombre": "Battle Barge",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Replace the Strike Cruiser with a Battle Barge",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Barcaza de batalla",
+   "textoEs": "Sustituye el Strike Cruiser por una Battle Barge"
+  },
+  {
+   "id": "bikes",
+   "nombre": "Bikes",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Replace up to five Attack Bikes with an equal number of Bikes or Multi-melta Attack Bikes",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 5,
+   "nombreEs": "Motocicletas",
+   "textoEs": "Sustituye hasta cinco Attack Bikes por el mismo número de Bikes o Multi-melta Attack Bikes"
+  },
+  {
+   "id": "commander",
+   "nombre": "Commander",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Add any one of the following characters to any unit in the formation: Captain, Chaplain, Librarian 0–1 Supreme Commander per army",
+   "coste": 50,
+   "costeTexto": "+50 points +100 points",
+   "variantes": [
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "+50 points",
+     "textoEs": "+50 puntos"
+    },
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "+100 points",
+     "textoEs": "+100 puntos"
+    }
+   ],
+   "nombreEs": "Comandante",
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Captain, Chaplain, Librarian; 0–1 Supreme Commander por ejército"
+  },
+  {
+   "id": "hunter",
+   "nombre": "Hunter",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Add one Hunter",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade un Hunter"
+  },
+  {
+   "id": "land-speeders",
+   "nombre": "Land Speeders",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Add up to two of the following: Land Speeder, Land Speeder Tornado Note: These units have Planetfall Land Speeder Typhoon",
+   "coste": 35,
+   "costeTexto": "+35 points each +45 points each",
+   "porUnidad": true,
+   "max": 2,
+   "variantes": [
+    {
+     "coste": 35,
+     "porUnidad": true,
+     "texto": "+35 points each",
+     "textoEs": "+35 puntos cada uno"
+    },
+    {
+     "coste": 45,
+     "porUnidad": true,
+     "texto": "+45 points each",
+     "textoEs": "+45 puntos cada uno"
+    }
+   ],
+   "textoEs": "Añade hasta dos de estas: Land Speeder, Land Speeder Tornado, Land Speeder Typhoon. Nota: estas unidades tienen Planetfall"
+  },
+  {
+   "id": "planetfall",
+   "nombre": "Planetfall",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Give all units in the formation Planetfall",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Asalto planetario",
+   "textoEs": "Da Planetfall a todas las unidades de la formación"
+  },
+  {
+   "id": "razorbacks",
+   "nombre": "Razorbacks",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Add any number of Razorbacks, up to the number required to transport the formation",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Añade cualquier número de Razorbacks, hasta los necesarios para transportar la formación"
+  },
+  {
+   "id": "snipers",
+   "nombre": "Snipers",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Give any number of Scout units Sniper",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 20,
+   "nombreEs": "Francotiradores",
+   "textoEs": "Da Sniper a cualquier número de unidades de Scout"
+  },
+  {
+   "id": "storms",
+   "nombre": "Storms",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Add four Land Speeder Storms",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "textoEs": "Añade cuatro Land Speeder Storms"
+  },
+  {
+   "id": "tempests",
+   "nombre": "Tempests",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Replace any number of Land Speeders in the formation with an equal number of Land Speeder Tempests",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Sustituye cualquier número de Land Speeders de la formación por el mismo número de Land Speeder Tempests"
+  },
+  {
+   "id": "typhoons",
+   "nombre": "Typhoons",
+   "seccion": "raven-guard-upgrades",
+   "texto": "Replace any number of Land Speeders in the formation with an equal number of Land Speeder Typhoons",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 20,
+   "textoEs": "Sustituye cualquier número de Land Speeders de la formación por el mismo número de Land Speeder Typhoons"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales – Guardia del Cuervo",
+ "iniciativaEs": "Las formaciones de aeronaves de la Imperial Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.30",
+   "titulo": "Lista de ejército de Marines Espaciales de la Guardia del Cuervo (Raven Guard)",
+   "parrafos": [
+    "— Grito de batalla del Capítulo de la Guardia del Cuervo",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.30, 5.3 y 5.4.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en la Guardia del Cuervo, o en uno de sus Capítulos sucesores, usando sus métodos operativos preferidos. Las formaciones de la Guardia del Cuervo son de tres tipos: destacamentos, destacamentos de élite y destacamentos de apoyo. Cada formación consta de una o más unidades y puede incluir además varias unidades adicionales llamadas mejoras. Cada destacamento que incluyas en el ejército te permite desplegar un destacamento de élite y un destacamento de apoyo cualesquiera. Aunque solo puedes llevar destacamentos de élite y de apoyo si antes llevas un destacamento, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "Las formaciones que puede incluir un ejército de la Guardia del Cuervo se muestran en las tablas siguientes, que indican también las unidades que las componen, las mejoras permitidas y su coste en puntos. Por ejemplo, un destacamento de Asalto consta de cuatro unidades de Asalto de Marines Espaciales por 175 puntos y puede incluir las mejoras de Comandante y Land Speeders por un coste adicional.",
+    "Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras, que también indica las unidades que la componen. Pueden sustituir a unidades de la formación o ser unidades adicionales. Cada mejora puede adquirirse una vez por formación. Por ejemplo, un destacamento de Asalto podría incluir un Comandante, con lo que el coste de la formación sería de 225 puntos (175 + 50). Los ejércitos de la Guardia del Cuervo pueden recibir apoyo de formaciones de aeronaves de la Armada Imperial, aeronaves de la Guardia del Cuervo y grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de la Guardia del Cuervo (véase 5.1.1)."
+   ]
+  },
+  {
+   "id": "6.30.1",
+   "titulo": "Transporte de la Guardia del Cuervo",
+   "parrafos": [
+    "La Guardia del Cuervo es un ejército muy móvil. Por ello, el coste en puntos de ciertas formaciones incluye suficientes Rhinos para transportarlas a ellas y a las mejoras adquiridas. Deter‐",
+    "mina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: no puedes llevar de más para cubrir la pérdida de otros transportes.",
+    "Las formaciones que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades. Las formaciones de la Guardia del Cuervo deben llevar sus vehículos de transporte: no puedes dejarlos atrás para desplegar la formación como guarnición. Solo puedes ignorar esto si la formación entra en juego mediante una regla especial (p. ej., caída planetaria o caída planetaria propia) o en una aeronave.",
+    "Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, puedes sustituir los Rhinos de una formación por Cápsulas de Desembarco. Las formaciones que hagan caída planetaria mediante Cápsulas de Desembarco (o mediante otra unidad con esa capacidad) pueden mejorarse con Land Speeders; se supone que estos hacen la caída planetaria junto con la infantería y no necesitan ser transportados por Cápsulas de Desembarco ni por otra unidad con caída planetaria."
+   ]
+  },
+  {
+   "id": "5.4.1",
+   "titulo": "Escudos de Vacío Imperiales (Imperial Void Shields)",
+   "parrafos": [
+    "Los Titanes imperiales están protegidos por generadores de escudos de vacío. El número de escudos de vacío de cada Titán figura en su hoja de datos. Cada escudo de vacío detiene automáticamente un punto de daño y después cae. No hagas tiradas de salvación por blindaje por el daño detenido por los escudos de vacío, ni asignes Marcadores de Explosión. Una vez derribados todos los escudos, el Titán puede ser dañado normalmente y puedes hacer tiradas de",
+    "salvación contra los impactos que reciba. Los impactos de combate cuerpo a cuerpo ignoran los escudos de vacío, pero las unidades que usan su valor de tiroteo deben derribar primero los escudos antes de poder dañar al Titán.",
+    "Los escudos de vacío derribados pueden repararse. Cada Titán puede reparar un escudo de vacío caído en la fase final de cada turno. Además, si un Titán se reagrupa, puede usar la tirada para reparar escudos o retirar Marcadores de Explosión (p. ej., con un 2 podrías reparar 2 escudos, retirar 2 Marcadores de Explosión, o reparar 1 escudo y retirar 1 Marcador).",
+    "FAQ",
+    "P: ¿Detienen los escudos de vacío un punto de daño causado por un chequeo de terreno peligroso fallido, los impactos adicionales del resultado de un asalto, un Marcador de Explosión sobre una formación desmoralizada o que la unidad termine su segundo movimiento de retirada a 15 cm o menos del enemigo?",
+    "R: No.",
+    "P: ¿Cuántos escudos de vacío caen si un ingenio de guerra es impactado por un arma Mata-Titanes que causa varios puntos de daño?",
+    "R: Uno por cada punto de daño; los que sobren se asignan a la unidad.",
+    "P: ¿Puede una formación reagruparse para reparar escudos de vacío caídos si no tiene Marcadores de Explosión?",
+    "R: Sí.",
+    "P: Si una formación con varias unidades con escudos de vacío se reagrupa, ¿el número de escudos reparados es el mismo para cada unidad o se reparte?",
+    "R: Se reparte entre ellas; p. ej., si eliges reparar dos escudos, una unidad podría reparar dos o dos unidades podrían reparar uno cada una.",
+    "P: ¿Se tienen en cuenta los escudos de vacío al determinar cuántos impactos deben asignarse a un ingenio de guerra?",
+    "R: No."
+   ]
+  },
+  {
+   "id": "5.1.1",
+   "titulo": "No Conocerán el Miedo (They Shall Know No Fear)",
+   "parrafos": [
+    "Los Marines Espaciales son famosos por su tenacidad y valentía. Esto se representa con las siguientes reglas:",
+    "• Hacen falta 2 Marcadores de Explosión para suprimir una unidad de Marines Espaciales o para matar una unidad de una formación desmoralizada (ignora los Marcadores de Explosión sobrantes).",
+    "• Las formaciones de Marines Espaciales solo quedan desmoralizadas si tienen 2 Marcadores de Explosión por unidad de la formación.",
+    "• Las formaciones de Marines Espaciales solo cuentan la mitad de sus Marcadores de Explosión en la resolución de asaltos (redondeando hacia abajo; ten en cuenta que no recibirán el +1 por no tener Marcadores de Explosión si la formación tiene 1 Marcador antes de redondear). Divide entre dos el número de impactos adicionales que sufre una formación de Marines Espaciales que pierde un asalto, redondeando hacia abajo a favor de los Marines.",
+    "• Cuando una formación de Marines Espaciales desmoralizada se reorganiza, recibe un número de Marcadores de Explosión igual al número de unidades, en lugar de la mitad. Los Marines Espaciales con la capacidad especial de Líder retiran 2 Marcadores de Explosión en lugar de 1.",
+    "FAQ",
+    "P: ¿Con cuántos Marcadores de Explosión cuenta una unidad desmoralizada de Marines Espaciales al calcular el resultado de un asalto?",
+    "R: Uno por unidad."
+   ]
+  }
+ ]
+}

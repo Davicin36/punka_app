@@ -1,0 +1,331 @@
+{
+ "id": "necron",
+ "nombre": "Necron",
+ "version": "2026-02-04",
+ "estrategia": 2,
+ "iniciativa": "All other formations have an initiative rating of 1+, but receive modifiers depending on the action chosen when taking an action test (see Implacable Advance).",
+ "secciones": [
+  {
+   "id": "necron-individuals",
+   "nombre": "Necron Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos necrones",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  },
+  {
+   "id": "necron-phalanxes",
+   "nombre": "Necron Phalanxes",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Falanges necronas"
+  },
+  {
+   "id": "necron-support-formations",
+   "nombre": "Necron Support Formations",
+   "tipo": "apoyo",
+   "nota": "Each phalanx you include in the army allows you to field any three support formations.",
+   "porCada": {
+    "cantidad": 3,
+    "base": "phalanx"
+   },
+   "nombreEs": "Formaciones de apoyo necrones",
+   "notaEs": "Cada falange que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera."
+  },
+  {
+   "id": "necron-harvesters",
+   "nombre": "Necron Harvesters",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Cosechadores necrones",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "necron-individuals-tomb-complex",
+   "nombre": "Tomb Complex",
+   "seccion": "necron-individuals",
+   "unidades": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "max": 1,
+   "nombreEs": "Complejo funerario",
+   "unidadesEs": "El primer objetivo que el jugador necrón coloque en su propio borde de mesa funciona como Portal y como objetivo a efectos de reglas. No puede ser destruido. Las formaciones que usen el Portal miden desde el borde del tablero como punto de partida."
+  },
+  {
+   "id": "necron-individuals-necron-overlord",
+   "nombre": "Necron Overlord",
+   "seccion": "necron-individuals",
+   "unidades": "If a C’tan is not fielded then a Necron Overlord may be added to one Warbarque or unit with a Necron Lord in the army.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "nombreEs": "Señor supremo necrón",
+   "unidadesEs": "Si no se despliega un C’tan, puede añadirse un Necron Overlord a un Warbarque o a una unidad con un Necron Lord del ejército."
+  },
+  {
+   "id": "necron-phalanxes-infantry-phalanx",
+   "nombre": "Infantry Phalanx",
+   "seccion": "necron-phalanxes",
+   "unidades": "Six Necron Warriors and one Necron Lord character",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "extras": [
+    {
+     "texto": "Add up to three Immortals for +40 points each",
+     "coste": 40,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Immortals por +40 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Tomb Spyders for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Tomb Spyders por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Wraiths for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Wraiths por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one unit of Pariahs for +60 points",
+     "coste": 60,
+     "textoEs": "Añade como máximo una unidad de Pariahs por +60 puntos"
+    }
+   ],
+   "nombreEs": "Falange de infantería",
+   "unidadesEs": "Seis Necron Warriors y un personaje Necron Lord"
+  },
+  {
+   "id": "necron-support-formations-armoued-phalanx",
+   "nombre": "Armoued Phalanx",
+   "seccion": "necron-support-formations",
+   "unidades": "Six Obelisks",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Falange acorazada",
+   "unidadesEs": "Seis Obelisks"
+  },
+  {
+   "id": "necron-support-formations-eques-maniple",
+   "nombre": "Eques Maniple",
+   "seccion": "necron-support-formations",
+   "unidades": "Any six of the following units: Destroyers, Heavy Destroyers, Wraiths",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "extras": [
+    {
+     "texto": "Add up to one Necron Lord character to any unit in the formation for +25 points",
+     "coste": 25,
+     "textoEs": "Añade como máximo un personaje Necron Lord a cualquier unidad de la formación por +25 puntos"
+    },
+    {
+     "texto": "Add up to three Destroyers, Heavy Destroyers or Wraiths for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Destroyers, Heavy Destroyers o Wraiths por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Manípulo eques",
+   "unidadesEs": "Seis cualesquiera de estas unidades: Destroyers, Heavy Destroyers, Wraiths"
+  },
+  {
+   "id": "necron-support-formations-monolith-maniple",
+   "nombre": "Monolith Maniple",
+   "seccion": "necron-support-formations",
+   "unidades": "One Monolith and two Obelisks",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "extras": [
+    {
+     "texto": "Add up to one Obelisk for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un Obelisk por +50 puntos"
+    },
+    {
+     "texto": "Add up to one Monolith for +75 points",
+     "coste": 75,
+     "textoEs": "Añade como máximo un Monolith por +75 puntos"
+    }
+   ],
+   "nombreEs": "Manípulo Monolith",
+   "unidadesEs": "Un Monolith y dos Obelisks"
+  },
+  {
+   "id": "necron-support-formations-monolith-phalanx",
+   "nombre": "Monolith Phalanx",
+   "seccion": "necron-support-formations",
+   "unidades": "Three Monoliths",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "extras": [
+    {
+     "texto": "Add up to three Obelisks for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Obelisks por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Falange Monolith",
+   "unidadesEs": "Tres Monoliths"
+  },
+  {
+   "id": "necron-support-formations-venator-maniple",
+   "nombre": "Venator Maniple",
+   "seccion": "necron-support-formations",
+   "unidades": "Six Flayed Ones",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "extras": [
+    {
+     "texto": "Add up to one Necron Lord character to any unit in the formation for +25 points",
+     "coste": 25,
+     "textoEs": "Añade como máximo un personaje Necron Lord a cualquier unidad de la formación por +25 puntos"
+    },
+    {
+     "texto": "Add up to three Tomb Spyders for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Tomb Spyders por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to three Wraiths for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade hasta tres Wraiths por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one unit of Pariahs for +60 points",
+     "coste": 60,
+     "textoEs": "Añade como máximo una unidad de Pariahs por +60 puntos"
+    }
+   ],
+   "nombreEs": "Manípulo venator",
+   "unidadesEs": "Seis Flayed Ones"
+  },
+  {
+   "id": "necron-harvesters-ctan",
+   "nombre": "C’tan",
+   "seccion": "necron-harvesters",
+   "unidades": "One of the following units: The Deceiver, The Nightbringer",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "max": 1,
+   "unidadesEs": "Una de estas unidades: The Deceiver, The Nightbringer"
+  },
+  {
+   "id": "necron-harvesters-harvester-engine",
+   "nombre": "Harvester Engine",
+   "seccion": "necron-harvesters",
+   "unidades": "One of the following units: Abattoir, Æonic Orb",
+   "coste": 600,
+   "costeTexto": "600 points",
+   "nombreEs": "Ingenio cosechador",
+   "unidadesEs": "Una de estas unidades: Abattoir, Æonic Orb"
+  },
+  {
+   "id": "necron-harvesters-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "necron-harvesters",
+   "unidades": "One Scythe Class Harvester",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "max": 1,
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Un Scythe Class Harvester"
+  },
+  {
+   "id": "necron-harvesters-pylon",
+   "nombre": "Pylon",
+   "seccion": "necron-harvesters",
+   "unidades": "One Pylon",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Un Pylon"
+  },
+  {
+   "id": "necron-harvesters-warbarque",
+   "nombre": "Warbarque",
+   "seccion": "necron-harvesters",
+   "unidades": "One Warbarque",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "unidadesEs": "Un Warbarque"
+  }
+ ],
+ "mejoras": [],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Necrones",
+ "iniciativaEs": "Todas las demás formaciones tienen iniciativa 1+, pero reciben modificadores según la acción elegida al hacer un chequeo de acción (ver Implacable Advance).",
+ "reglas": [
+  {
+   "id": "6.15",
+   "titulo": "Lista de ejército necrona del Conflicto del Escarabajo (Scarab Conflict)",
+   "parrafos": [
+    "Los necrones son una raza antigua cuyos orígenes son un misterio para los eruditos del Imperio. La poca información obtenida procede de interrogatorios a eldars, que a su vez solo tienen relatos convertidos en poco más que leyendas. Conocidos por los eldars como los Yngir, los necrones son los restos de una antigua raza llamada los Necrontyr.",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.15.",
+    "Uso de la lista de ejército: Las formaciones necronas del Conflicto del Escarabajo son de tres tipos; los dos primeros son falanges y formaciones de apoyo. Cada falange que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una falange, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. El tercer tipo son las formaciones de Cosechadores (Harvestor). Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
+    "Por último, los Individuos Necrones incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas».",
+    "Reglas especiales: La regla Avance Implacable se aplica a todas las formaciones necronas (véase 5.15.2) y la regla Desfase se aplica a ciertas formaciones (véase 5.15.3). Además, ciertas uni‐",
+    "dades y armas tienen capacidades especiales descritas en Tecnología Necrona (véase 5.15.1)."
+   ]
+  },
+  {
+   "id": "6.15.1",
+   "titulo": "Reglas especiales de torneo del ejército necrón del Conflicto del Escarabajo",
+   "parrafos": [
+    "Reservas necronas: Cualquier formación necrona puede mantenerse «en reserva» (con la excepción del Orbe Eónico y el Matadero) si juegas el escenario de Torneo de Epic. Ten en cuenta que las formaciones que no tengan Teletransporte solo podrán entrar en juego a través de portales. Cualquier formación necrona que esté en la reserva por cualquier motivo (ya sea porque aún no ha entrado en juego o porque está desmoralizada) se considera destruida a efectos del desempate y de la meta «Quebrar su Moral».",
+    "Guarniciones: Los necrones suelen actuar de forma ofensiva y, por ello, sus formaciones no pueden ser guarnición en el escenario de Torneo de Epic salvo que se despliegue un Complejo Tumba. Para representar que una tumba puede contener necrones activos, el jugador puede elegir desplegar como guarnición hasta dos formaciones de Falange de Infantería en el Complejo Tumba."
+   ]
+  },
+  {
+   "id": "5.15.1",
+   "titulo": "Tecnología Necrona (Necron Technology)",
+   "parrafos": [
+    "Necrón: La tecnología necrona permite a muchas de sus unidades repararse a un ritmo acelerado. Esto se refleja con la capacidad Necrón en la hoja de datos de una unidad. Las unidades con Necrón que han sido destruidas pueden regenerarse. Las formaciones pueden recuperar una unidad Necrón previamente destruida en la fase final de cada turno, antes de que todas las formaciones intenten reorganizarse, estén dentro o fuera del tablero. Además, si una formación se reagrupa sobre el tablero, puede usar la tirada de dados para devolver al juego unidades con la capacidad Necrón, para retirar Marcadores de Explosión o para ambas cosas (p. ej., con un «2» podrías devolver 2 unidades al juego, retirar 2 Marcadores de Explosión, o devolver 1 unidad y retirar 1 Marcador). Las formaciones fuera del tablero solo pueden usar su función de reagrupamiento para retirar Marcadores de Explosión.",
+    "Portal: Los Portales Necrones son el principal medio por el que las fuerzas necronas se desplazan por la galaxia. Cualquier formación que esté en la reserva, ya sea porque no ha entrado en juego o porque ha abandonado el tablero por cualquier motivo, puede entrar en juego a través de un portal como parte de cualquier activación que permita mover. Mide su movimiento usando el portal como punto de partida. Además, las formaciones pueden abandonar el tablero entrando en un portal, lo que las lleva a la reserva. Ten en cuenta que, una vez en la reserva, pueden volver a entrar en juego inmediatamente por otro portal, siempre que les quede movimiento, o permanecer en la reserva.",
+    "Los Portales Necrones solo pueden usarlos los vehículos blindados con Bípode, la infantería o los vehículos ligeros. Cada portal puede usarse solo una vez por turno, para entrar o para salir del campo de batalla, no para ambas cosas. Así, una formación puede entrar en un portal con parte de su movimiento y salir por un segundo portal no usado, continuando su movimiento desde él. Si al final del movimiento una unidad está fuera de formación, es destruida (véase 1.2.1). Ejemplo: si mueves una formación de cuatro unidades a través de un portal y sales por otro, y dos unidades no pudieron hacer el movimiento completo (es decir, atravesar el segundo portal), el jugador necrón tendría que elegir qué unidades son destruidas: las dos que atravesaron el portal o las dos que no.",
+    "Metal Viviente (Living Metal): Las unidades hechas de metal viviente reciben una segunda salvación. Esta salvación funciona exactamente igual que una salvación invulnerable, salvo que es de 4+ en lugar de 6+.",
+    "FAQ",
+    "P: ¿Puede usarse la capacidad especial de Líder para recuperar una unidad necrona destruida en lugar de retirar un Marcador de Explosión adicional?",
+    "R: Sí, pero solo al reagruparse.",
+    "P: ¿Puede una formación necrona en reserva realizar una acción de Organizarse, moverse para entrar en juego y regenerar unidades destruidas al reagruparse?",
+    "R: Sí.",
+    "P: ¿Puede una formación necrona realizar una acción de Organizarse, moverse a través de un portal a la reserva y regenerar unidades destruidas al reagruparse?",
+    "R: No.",
+    "P: ¿Puede usarse un portal si su formación está desmoralizada?",
+    "R: Sí.",
+    "P: ¿Puede una formación entrar en juego a través de un portal cubierto por unidades enemigas o dentro de su zona de control?",
+    "R: Sí, pero tendría que realizar una acción de Enfrentarse.",
+    "P: ¿Qué ocurre cuando una formación en reserva falla su chequeo de acción y necesita entrar en juego a través de un portal cubierto por unidades enemigas o dentro de su zona de control?",
+    "R: Recibe un Marcador de Explosión y no puede realizar una acción de Mantener. En la práctica, pierde su activación."
+   ]
+  },
+  {
+   "id": "5.15.2",
+   "titulo": "Avance Implacable (Implacable Advance)",
+   "parrafos": [
+    "Los necrones son un ejército ofensivo, siempre en avance, que solo se detiene para eliminar las posiciones enemigas antes de seguir adelante para cosechar otras. Aunque están sujetos a la desorganización por las bajas y el fuego enemigo, su naturaleza mecánica les permite reorganizarse fácilmente para mantener el impulso ofensivo. Las formaciones necronas reciben una bonificación de +1 a las acciones de Organizarse. Debido a su naturaleza pausada y deliberada, las formaciones necronas no pueden realizar acciones de Marcha."
+   ]
+  },
+  {
+   "id": "5.15.3",
+   "titulo": "Desfase (Phase Out)",
+   "parrafos": [
+    "Cuando una formación necrona queda desmoralizada, no se limita a retroceder, sino que desaparece del campo de batalla sin dejar prueba alguna de su existencia.",
+    "En la fase final del turno, retira la formación del tablero a la reserva, pero mantenla separada de las unidades destruidas. La formación tirará para reorganizarse en la fase final, gestionando los Marcadores de Explosión según las reglas básicas. Puede volver a entrar teletransportándose o a través de un portal. Si no hay portales suficientes para todas las formaciones fuera de la mesa, la formación debe permanecer fuera de la mesa hasta que haya un portal disponible. Si falla la tirada de reorganización, la formación debe permanecer en la reserva hasta que se reorganice. Ten en cuenta que, con la excepción de los C’tan, ningún ingenio de guerra necrón puede desfasarse."
+   ]
+  }
+ ]
+}

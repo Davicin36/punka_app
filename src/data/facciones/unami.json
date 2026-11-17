@@ -86,7 +86,10 @@
       },
       "reglasEspeciales": [
         "Espíritus"
-      ]
+      ],
+      "reglasTexto": {
+        "Espíritus": "El Chamán puede canalizar poderes de Majauchsuwi en forma de manifestaciones espirituales tal y como se explica más adelante."
+      }
     },
     {
       "id": "sombra",
@@ -140,7 +143,10 @@
       },
       "reglasEspeciales": [
         "Don de Majauchsuwi (2 PdM): doble"
-      ]
+      ],
+      "reglasTexto": {
+        "Don de Majauchsuwi (2 PdM): doble": "Puede crear un doble de la miniatura que confundirá al enemigo. Se colocará una nueva miniatura que indique su doble a una distancia máxima de 10 cm. A partir de ese momento no se sabrá cuál es la real. En su Fase de activación deberá Mover las dos miniaturas, no pudiendo separarse más de la distancia máxima. Si un enemigo se acerca a 10 cm o menos, o impacta con un arma de distancia o algún tipo de efecto (como el poder de un Cabezón), a una de las dos miniaturas, deberá tirarse 1d10. Con 6+ esa miniatura es el doble y deberá retirarse de la mesa, en caso contrario esa es la auténtica miniatura (que deberá sufrir cualquier efecto adverso de manera habitual) y será la otra miniatura la que se retire. El doble permanecerá en juego hasta que esto suceda, o el jugador use una Acción en cualquier cosa que no sea Mover, en cuyo caso será el jugador el que elija qué miniatura retirar."
+      }
     },
     {
       "id": "trueno",
@@ -210,7 +216,10 @@
       },
       "reglasEspeciales": [
         "Don de Majauchsuwi (1 PdM): +2 Blindaje"
-      ]
+      ],
+      "reglasTexto": {
+        "Don de Majauchsuwi (1 PdM): +2 Blindaje": "Puede hacer que una energía rodee su cuerpo, dándole una resistencia extra. Le concederá un bonificador de +2 al Blindaje hasta que finalice ese Turno de Juego."
+      }
     },
     {
       "id": "viento",
@@ -274,7 +283,12 @@
         "Pisoteador (Ímpetu (1), Montada, Raudo)",
         "Jinete experto",
         "Don de Majauchsuwi (1 PdM): -2 Precisión contra él"
-      ]
+      ],
+      "reglasTexto": {
+        "Pisoteador (Ímpetu (1), Montada, Raudo)": "El Viento va montado en un Pisoteador, que le confiere las Reglas especiales Ímpetu (1), Montada y Raudo.",
+        "Jinete experto": "El Viento no sufre el penalizador a la Precisión cuando Dispara a causa de la Regla especial Montada.",
+        "Don de Majauchsuwi (1 PdM): -2 Precisión contra él": "Puede hacer que un fulgor cegador rodee a la miniatura causando que sea más complicado impactarle. Todos los ataques a distancia contra la miniatura sufrirán de un penalizador de -2 a la Precisión hasta que finalice ese Turno de Juego."
+      }
     },
     {
       "id": "elaichik",
@@ -302,7 +316,19 @@
         "Cazador de cabelleras",
         "Terrorífico",
         "Don de Majauchsuwi (2 PdM)"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Unami": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Todoterreno": "Una miniatura con esta regla considera el Terreno pila chungo como Terreno chungo y el Terreno chungo como Terreno chachi.",
+        "Afeitadoras": "Se trata de unos tomahawk modificados y extremadamente afilados. Si se usan en cuerpo a cuerpo tienen Penetración 5 en lugar de 3.",
+        "Cazador de cabelleras": "Cada uno tiene sus aficiones, y alguno tiene la suerte de que también sean su trabajo. Ese es el caso de Elaichik, que disfruta cortando cabelleras como el primer día. Cada vez que Elaichik deje Abatida a una miniatura enemiga en Combate cuerpo a cuerpo, se quedará con su cabellera y la banda añadirá inmediatamente 2 PdM a su reserva común. Estos puntos deben usarse en ese mismo turno y luego se descartarán.",
+        "Terrorífico": "La colección de cabelleras sanguinolentas que cuelgan de su equipo desconcentra a cualquiera. Las miniaturas enemigas a 15 cm o menos cuenta como si tuvieran 2 puntos menos de Agilidad a la hora de actuar en el Turno de juego.",
+        "Don de Majauchsuwi (2 PdM)": "Elaichik canaliza la energía de Majauchsuwi para realizar un corte perfecto. Cuando Asalte o Combata podrá decidir usar el Don gastando 2 PdM extra en esa Acción. Si gana la tirada de Combate por una diferencia de 4 o más, herirá automáticamente sin tirar Fuerza contra Dureza, y si no es así pero sigue ganando el Combate, simplemente obtendrá un +3 a la Fuerza en esa tirada enfrentada."
+      }
     }
-  ]
+  ],
+  "reglasFaccionTexto": {
+    "Una mente": "Aunque individuales, cada uno de los integrantes de una banda de Unami está conectado a la criatura psíquica en una compleja red sináptica. Cada miniatura aporta 2 Puntos de Mojo (PdM) a una reserva común. Al contrario del resto de facciones, cada miniatura no tiene un número de Acciones predeterminado en sus Atributos. Cuando llega su Fase de activación, una miniatura podrá utilizar PdM de la reserva y convertirlos en Acciones. Una miniatura no tiene por qué decidir cuántas Acciones utilizará en cuanto comience su Fase de activación, puede ir convirtiendo los PdM de la reserva en Acciones según le convenga. Eso sí, ninguna miniatura podrá realizar más de 3 Acciones por Fase de activación y deben utilizarse todas de manera continuada. Los PdM también pueden ser utilizados por cualquier Chamán para canalizar Espíritus (ver más adelante) y por el resto de miniaturas para utilizar un Don de Majauchsuwi. Cuando se haga esto, los PdM indicados ya incluyen el de la propia Acción. Eso significa, que por ejemplo, un Chamán que utilice una Acción en canalizar el Espíritu del Mongolongo, que cuesta 2 PdM, no gastará 1 de la Acción más los 2 del Espíritu, sino sólo los 2 del Espíritu, ya incluyen el gasto de la Acción. Si canalizará el Espíritu del Bufamello que cuesta 1 PdM, sólo gastaría el PdM de la Acción, sin que el espíritu requiera de ninguno más. Los PdM van gastándose durante cada Turno de juego según los vaya utilizando el jugador y cuando se acaben, aunque queden miniaturas sin actuar, no podrán hacerlo. Al comenzar un Turno de juego la banda cuenta en su reserva común con los PdM que aportan las miniaturas no Abatidas.",
+    "Don de Majauchsuwi": "Cada tipo de unidad posee un Don otorgado por el propio Majauchsuwi que puede utilizar gastando los PdM indicados usando una Acción (recuerda que los PdM de cada Don incluyen el uso de esa Acción). Ninguna miniatura puede utilizar su Don más de una vez por Turno de Juego. Si un Don permanece en juego, no podrá volver a utilizarse por la miniatura que lo usó hasta que desaparezca su efecto."
+  }
 }

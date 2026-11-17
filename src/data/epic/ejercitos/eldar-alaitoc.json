@@ -1,0 +1,393 @@
+{
+ "id": "eldar-alaitoc",
+ "nombre": "Eldar – Alaitoc",
+ "version": "2026-02-03",
+ "estrategia": 4,
+ "iniciativa": "Avatar, Aspect Warrior, Phantom, Revenants and Warlock formations have an initiative rating of 1+. All other formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "alaitoc-craftworld-individuals",
+   "nombre": "Alaitoc Craftworld Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos del Mundo Astronave Alaitoc",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  },
+  {
+   "id": "alaitoc-craftworld-warhosts",
+   "nombre": "Alaitoc Craftworld Warhosts",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Huestes del Mundo Astronave Alaitoc"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes",
+   "nombre": "Alaitoc Craftworld Troupes",
+   "tipo": "apoyo",
+   "nota": "Each warhost you include in the army allows you to field any three troupes.",
+   "porCada": {
+    "cantidad": 3,
+    "base": "warhost"
+   },
+   "nombreEs": "Séquitos de guerra del Mundo Astronave Alaitoc",
+   "notaEs": "Cada hueste que incluyas en el ejército te permite desplegar tres séquitos de guerra cualesquiera."
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "nombre": "Alaitoc Craftworld Spacecraft, Aircraft & Titans",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Naves, aeronaves y titanes del Mundo Astronave Alaitoc",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "alaitoc-craftworld-individuals-avatar",
+   "nombre": "Avatar",
+   "seccion": "alaitoc-craftworld-individuals",
+   "unidades": "In the Strategy Phase of any turn place the Avatar within 15cm of a Farseer before making a strategy roll. The Avatar counts as its own formation and may only enter play in this manner. In the End Phase of that turn remove the Avatar before rallying formations. Once the Avatar has been removed it may not return.",
+   "coste": 0,
+   "costeTexto": "Free",
+   "max": 1,
+   "unidadesEs": "En la fase de estrategia de cualquier turno, coloca el Avatar a 15 cm o menos de un Farseer antes de la tirada de estrategia. El Avatar cuenta como su propia formación y solo puede entrar en juego así. En la fase final de ese turno, retira el Avatar antes de reagrupar formaciones. Una vez retirado, no puede volver."
+  },
+  {
+   "id": "alaitoc-craftworld-individuals-wraithgate",
+   "nombre": "Wraithgate",
+   "seccion": "alaitoc-craftworld-individuals",
+   "unidades": "At the start of the game nominate one objective on your half of the table as a Wraithgate before setting up spacecraft and garrisons. The Wraithgate functions both as a Webway Portal and as an objective for the rules purposes. It may not be destroyed. Only formations consisting completely of infantry units, light vehicle units or armoured vehicles units with the Walker ability may use the Wraithgate to enter play.",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "max": 1,
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego."
+  },
+  {
+   "id": "alaitoc-craftworld-warhosts-guardian",
+   "nombre": "Guardian",
+   "seccion": "alaitoc-craftworld-warhosts",
+   "unidades": "One Farseer and seven Guardians",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "extras": [
+    {
+     "texto": "Replace up to three Guardians with an equal number of Heavy Weapon Platform units for free",
+     "coste": 0,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Sustituye gratis hasta tres Guardians por el mismo número de Heavy Weapon Platforms"
+    },
+    {
+     "texto": "Add three Support Weapon Platform units for +50 points",
+     "coste": 50,
+     "textoEs": "Añade tres unidades de Support Weapon Platform por +50 puntos"
+    },
+    {
+     "texto": "Add between two and three Wraithguard units for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 3,
+     "textoEs": "Añade entre dos y tres unidades de Wraithguard por +50 puntos cada una"
+    },
+    {
+     "texto": "Add three Wraithlords for +175 points",
+     "coste": 175,
+     "textoEs": "Añade tres Wraithlords por +175 puntos"
+    },
+    {
+     "texto": "Add four Wave Serpents to a formation consisting of only Farseer, Guardians or Heavy Weapon Platform units for +200 points",
+     "coste": 200,
+     "textoEs": "Añade cuatro Wave Serpents a una formación formada solo por Farseer, Guardians o Heavy Weapon Platforms por +200 puntos"
+    }
+   ],
+   "nombreEs": "Guardianes",
+   "unidadesEs": "Un Farseer y siete Guardians"
+  },
+  {
+   "id": "alaitoc-craftworld-warhosts-ranger",
+   "nombre": "Ranger",
+   "seccion": "alaitoc-craftworld-warhosts",
+   "unidades": "Eight Rangers",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "extras": [
+    {
+     "texto": "Replace four Rangers with three War Walkers for free or four Falcons for +200 points",
+     "coste": 200,
+     "textoEs": "Sustituye cuatro Rangers por tres War Walkers gratis o por cuatro Falcons por +200 puntos"
+    }
+   ],
+   "nombreEs": "Exploradores",
+   "unidadesEs": "Ocho Rangers"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-aspect-warrior",
+   "nombre": "Aspect Warrior",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Any six of the following units: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "extras": [
+    {
+     "texto": "Add just enough Wave Serpents or Falcons to transport all units without Jump Packs or Mounted for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Añade justo los Wave Serpents o Falcons necesarios para transportar todas las unidades sin Jump Packs ni Mounted por +50 puntos cada uno"
+    },
+    {
+     "texto": "Add up to one Autarch character per army or one Exarch character to an infantry unit for +75 or +25 points, respectively (+75)",
+     "coste": 75,
+     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+75)"
+    },
+    {
+     "texto": "Add up to one Autarch character per army or one Exarch character to an infantry unit for +75 or +25 points, respectively (+25)",
+     "coste": 25,
+     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+25)"
+    }
+   ],
+   "nombreEs": "Guerreros Aspecto",
+   "unidadesEs": "Seis cualesquiera de estas unidades: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-engine-of-vaul",
+   "nombre": "Engine of Vaul",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Any one of the following units: Cobra, Scorpion, Storm Serpent",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "extras": [
+    {
+     "texto": "Add up to any two of the following units for +250 points each: Cobra, Scorpion, Storm Serpent",
+     "coste": 250,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Añade hasta dos cualesquiera de estas unidades por +250 puntos cada una: Cobra, Scorpion, Storm Serpent"
+    }
+   ],
+   "nombreEs": "Ingenio de Vaul",
+   "unidadesEs": "Una cualquiera de estas unidades: Cobra, Scorpion, Storm Serpent"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-night-spinner",
+   "nombre": "Night Spinner",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Three Night Spinners",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "nombreEs": "Night Spinners",
+   "unidadesEs": "Tres Night Spinners"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-pathfinder",
+   "nombre": "Pathfinder",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Four Pathfinders",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "extras": [
+    {
+     "texto": "Add up to two Pathfinders for +50 points each",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Añade hasta dos Pathfinders por +50 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Rastreadores",
+   "unidadesEs": "Cuatro Pathfinders"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-swords-of-vaul",
+   "nombre": "Swords of Vaul",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Five Falcons",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "extras": [
+    {
+     "texto": "Add up to one Falcon for +50 points",
+     "coste": 50,
+     "textoEs": "Añade como máximo un Falcon por +50 puntos"
+    },
+    {
+     "texto": "Replace up to two Falcons with an equal number of Firestorms for free",
+     "coste": 0,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Sustituye gratis hasta dos Falcons por el mismo número de Firestorms"
+    },
+    {
+     "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
+     "coste": 15,
+     "porUnidad": true,
+     "max": 20,
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Fire Prisms por +15 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Espadas de Vaul",
+   "unidadesEs": "Cinco Falcons"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-war-walker",
+   "nombre": "War Walker",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Four War Walkers",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "extras": [
+    {
+     "texto": "Add up to two War Walkers for +25 points each",
+     "coste": 25,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Añade hasta dos War Walkers por +25 puntos cada uno"
+    }
+   ],
+   "nombreEs": "Bípodes de guerra",
+   "unidadesEs": "Cuatro War Walkers"
+  },
+  {
+   "id": "alaitoc-craftworld-troupes-windrider",
+   "nombre": "Windrider",
+   "seccion": "alaitoc-craftworld-troupes",
+   "unidades": "Any six of the following units: Jetbikes, Vyper",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Jinetes del viento",
+   "unidadesEs": "Seis cualesquiera de estas unidades: Jetbikes, Vyper"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-nightwings",
+   "nombre": "Nightwings",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "Three Nightwing Interceptors",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "unidadesEs": "Tres Nightwing Interceptors"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-phantom",
+   "nombre": "Phantom",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "One Phantom Titan",
+   "coste": 750,
+   "costeTexto": "750 points",
+   "unidadesEs": "Un Phantom Titan"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-phoenix",
+   "nombre": "Phoenix",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "Three Phoenix Bombers",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "unidadesEs": "Tres Phoenix Bombers"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-revenants",
+   "nombre": "Revenants",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "Two Revenant Titans",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Dos Revenant Titans"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "Any one of the following units: Wraithship Dragonship",
+   "coste": 150,
+   "costeTexto": "150 points 300 points",
+   "max": 1,
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Una cualquiera de estas unidades: Wraithship, Dragonship"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-vampire",
+   "nombre": "Vampire",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "One Vampire Raider",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Un Vampire Raider"
+  },
+  {
+   "id": "alaitoc-craftworld-spacecraft-aircraft-titans-warlock",
+   "nombre": "Warlock",
+   "seccion": "alaitoc-craftworld-spacecraft-aircraft-titans",
+   "unidades": "One Warlock Titan",
+   "coste": 850,
+   "costeTexto": "850 points",
+   "max": 1,
+   "unidadesEs": "Un Warlock Titan"
+  }
+ ],
+ "mejoras": [],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "iniciativaEs": "Las formaciones de Avatar, Aspect Warrior, Phantom, Revenants y Warlock tienen iniciativa 1+. Todas las demás formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.20",
+   "titulo": "Lista de ejército del Mundo Astronave Eldar de Alaitoc",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.20.",
+    "Uso de la lista de ejército: Las formaciones del Mundo Astronave de Alaitoc son de tres tipos; los dos primeros son las formaciones de hueste de guerra y de compañía. Cada hueste de guerra que incluyas en el ejército te permite desplegar tres formaciones de compañía cualesquiera. Aunque solo puedes llevar una formación de compañía si antes llevas una hueste de guerra, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. El tercer tipo son las formaciones de Naves Espaciales, Aeronaves y Titanes del Mundo Astronave de Alaitoc. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército. Por último, los Individuos del Mundo Astronave de Alaitoc incluyen personajes especiales, formaciones y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas». La lista incluye la misma información que la de BielTan (Formación, Unidades, Extras y Coste; véase 6.6).",
+    "Reglas especiales: La regla Tácticas de Golpear y Huir se aplica a todas las formaciones eldars (véase 5.6.2). Además, ciertas unidades y armas tienen capacidades especiales descritas en Clarividencia (véase 5.6.1) y Tecnología Eldar (véase 5.6.3)."
+   ]
+  },
+  {
+   "id": "6.20.1",
+   "titulo": "Abriendo Camino (Trail Blazing)",
+   "parrafos": [
+    "Solo los Exploradores de Senda (Pathfinders), Exploradores (Rangers) y Bípodes de Guerra eldars de Alaitoc pueden guarnecer objetivos en el escenario de juego de torneo de Epic. Además, las unidades de Exploradores de Alaitoc cuentan como Guardianes a efectos de transporte."
+   ]
+  },
+  {
+   "id": "6.6.1",
+   "titulo": "No pueden ser guarnición (May Not Garrison)",
+   "parrafos": [
+    "Los eldars son un ejército muy móvil y rara vez tienen fuerzas suficientes para tomar y mantener terreno. Por ello, en lugar de mantener una línea de frente fuertemente guarnecida, suelen confiar en una pantalla de Exploradores (Rangers) y Bípodes de Guerra (War Walkers) que avisa de la aproximación de cualquier fuerza enemiga. Mientras tanto, el grueso del muy móvil ejército eldar se mantiene en reserva, listo para desplazarse rápidamente a cualquier sector amenazado. Esta táctica permite a los eldars controlar grandes extensiones de terreno con relativamente pocas tropas. Para representar estas tácticas, en el escenario de juego de torneo de Epic solo los Exploradores y los Bípodes de Guerra eldars pueden guarnecer objetivos."
+   ]
+  },
+  {
+   "id": "5.6.2",
+   "titulo": "Tácticas de Golpear y Huir (Hit & Run Tactics)",
+   "parrafos": [
+    "Los eldars son una raza moribunda y lloran profundamente cada pérdida. Por ello han desarrollado tácticas que, combinadas con su tecnología muy avanzada, les permiten atacar al enemigo y retirarse rápidamente para evitar el fuego de respuesta. Esta capacidad se refleja con las siguientes reglas especiales, que se aplican a todas las formaciones de un ejército eldar. Las formaciones eldars que realizan acciones de Avanzar o Doble pueden elegir disparar antes o después de cada movimiento. Sin embargo, siguen pudiendo disparar una sola vez durante la acción. Por ejemplo, una formación eldar que realice una acción de Avanzar podría disparar y luego mover, o mover y luego disparar, mientras que una formación que realice una acción Doble podría disparar y mover dos veces, mover dos veces y luego disparar, o mover, disparar y volver a mover. Además, las formaciones eldars que ganan un asalto pueden mover cualquier distancia hasta su valor de velocidad al consolidar, en lugar de estar limitadas a un movimiento de 5 cm como sería normal.",
+    "FAQ",
+    "P: Si una formación eldar realiza una acción Doble y mueve, dispara y vuelve a mover, ¿puede la infantería transportada desembarcar tras el primer movimiento, disparar y ser recogida como parte del segundo?",
+    "R: Sí, siempre que su transporte no se esté elevando.",
+    "P: Si unidades de una formación eldar están en la zona de control de un enemigo y realizan una acción de Avanzar o Doble, ¿pueden disparar primero y después mover?",
+    "R: Sí."
+   ]
+  },
+  {
+   "id": "5.6.1",
+   "titulo": "Clarividencia (Farsight)",
+   "parrafos": [
+    "Los Videntes eldars son capaces de desentrañar parcialmente los hilos del tiempo, lo que les permite prever acontecimientos que pueden afectar a su ejército y actuar para contrarrestarlos. Para representarlo, cualquier formación eldar que incluya una unidad con Clarividencia puede ignorar la penalización de -1 al chequeo de acción cuando intenta retener la iniciativa. Además, una vez por turno, el jugador eldar puede intentar retener la iniciativa dos veces seguidas (es decir, puede retener la iniciativa y realizar otra acción después de haberla retenido con éxito una vez). Puede elegirse cualquier formación eldar, incluidas las que no incluyan una unidad con Clarividencia, pero debe seguir en juego y en el campo de batalla al menos una unidad con Clarividencia. La formación debe superar igualmente un chequeo de iniciativa para realizar la acción y sufrirá el modificador de -1 por retener la iniciativa salvo que incluya una unidad con Clarividencia. Una vez realizada la acción, la iniciativa vuelve al jugador contrario."
+   ]
+  },
+  {
+   "id": "5.6.3",
+   "titulo": "Tecnología Eldar (Eldar Technology)",
+   "parrafos": [
+    "Los eldars son una raza tecnológicamente sofisticada que usa diversos dispositivos con capacidades muy superiores a cualquier cosa empleada por las demás razas de la galaxia. Estas ventajas tecnológicas se representan en Epic con las siguientes reglas especiales:",
+    "Holocampo (Holofield): Los Titanes eldars están protegidos por un Holocampo proyectado desde estructuras especiales en forma de ala sobre el caparazón del Titán. Estas fragmentan la imagen del Titán, haciéndolo parecer a simple vista una nube arremolinada de motas de colores, a la vez que perturban cualquier sistema de puntería que intente fijarlo. ¡El resultado es que el Titán es un objetivo muy difícil de alcanzar! Los Holocampos proporcionan a los Titanes una tirada de salvación especial de 3+ que puede hacerse en lugar de su salvación normal. Esta salvación puede hacerse siempre, incluso contra impactos en un asalto o contra ataques Mata-Titanes o de Macroarma. Haz una sola salvación contra armas con la capacidad Mata-Titanes, en lugar de una por cada punto de daño. Si un vehículo con Holocampo tiene además Blindaje Reforzado, puede repetir su tirada de salvación salvo que sea impactado por ataques de Lanza, Macroarma o Mata-Titanes, pero la repetición debe hacerse con la salvación por blindaje de la unidad, no con la del Holocampo. No se colocan Marcadores de Explosión por los impactos salvados por un Holocampo.",
+    "Lanza (Lance): Una Lanza usa un haz muy concentrado de energía láser para destruir objetivos fuertemente blindados. Una unidad con Blindaje Reforzado impactada por un arma de Lanza no puede repetir su tirada de salvación.",
+    "Portal de la Telaraña (Webway Portal): Los eldars usan los portales de la Telaraña para viajar con seguridad a través de la Disformidad. Cada Portal de la Telaraña incluido en el ejército permite al jugador eldar elegir hasta otras tres formaciones y mantenerlas en el Mundo Astronave. Cualquier formación mantenida en el Mundo Astronave puede entrar en juego a través del Portal realizando una acción que le permita mover, y midiendo su primer movimiento desde la posición que ocupa un Portal de la Telaraña sobre la mesa. Ten en cuenta que la formación puede aparecer por cualquier Portal de la Telaraña, no solo por el que se «usó» para mantenerla fuera del tablero. No puede pasar más de una formación por cada Portal de la Telaraña por turno. En las Reglas de Juego de Torneo de Epic, las formaciones en reserva con varias opciones de despliegue deben tener un méto‐",
+    "do de despliegue designado durante el despliegue (p. ej., Portal de la Telaraña, transporte aéreo o teletransporte).",
+    "FAQ",
+    "P: ¿Le afectan a un Holocampo los modificadores a la salvación (es decir, impactos de francotirador y de fuego cruzado)?",
+    "R: Sí.",
+    "P: ¿Puede una formación entrar en juego a través de un Portal de la Telaraña cubierto por unidades enemigas o dentro de su zona de control?",
+    "R: Sí, pero la formación que lo use tendría que realizar una acción de Enfrentarse.",
+    "P: ¿Qué ocurre cuando una formación en reserva falla su chequeo de acción y necesita entrar en juego a través de un Portal de la Telaraña cubierto por unidades enemigas o dentro de su zona de control?",
+    "R: Recibe un Marcador de Explosión y no puede realizar una acción de Mantener. En la práctica, pierde su activación."
+   ]
+  }
+ ]
+}

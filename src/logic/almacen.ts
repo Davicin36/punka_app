@@ -1,17 +1,20 @@
-// Guardado local (sin base de datos): las bandas viven en el navegador
-// y se pueden exportar / importar como archivo JSON.
+// Guardado local (sin base de datos): las bandas de Punkapocalyptic y los ejércitos de Epic
+// viven en el navegador y se pueden exportar / importar como archivo JSON.
 import type { Ajustes, Banda } from '../types';
+import type { ListaEpic } from '../epic/tipos';
 import { COMUN, faccionPorId, unidadPorId } from '../data';
+import { INDICE_EPIC } from '../epic/datos';
 import { nuevoId } from './banda';
 
 const CLAVE = 'punka-bandas-v1';
 
 export interface Estado {
   bandas: Banda[];
+  ejercitos: ListaEpic[];
   ajustes: Ajustes;
 }
 
-export const estadoInicial: Estado = { bandas: [], ajustes: { costeBala: COMUN.costeBala } };
+export const estadoInicial: Estado = { bandas: [], ejercitos: [], ajustes: { costeBala: COMUN.costeBala } };
 
 export function cargar(): Estado {
   try {
@@ -19,7 +22,11 @@ export function cargar(): Estado {
     if (!raw) return estadoInicial;
     const d = JSON.parse(raw) as Partial<Estado>;
     // El coste de la bala viene del reglamento (comun.json), no de lo guardado
-    return { bandas: (d.bandas ?? []).filter(esBandaValida).map(normalizar), ajustes: estadoInicial.ajustes };
+    return {
+      bandas: (d.bandas ?? []).filter(esBandaValida).map(normalizar),
+      ejercitos: (d.ejercitos ?? []).filter(esListaEpicValida),
+      ajustes: estadoInicial.ajustes,
+    };
   } catch {
     return estadoInicial;
   }
@@ -40,15 +47,33 @@ function esBandaValida(b: unknown): b is Banda {
     && x.miniaturas.every(m => !!unidadPorId[m?.unidad]);
 }
 
+function esListaEpicValida(l: unknown): l is ListaEpic {
+  const x = l as ListaEpic;
+  return !!x && x.juego === 'epic' && typeof x.id === 'string' && INDICE_EPIC.some(e => e.id === x.ejercito) && Array.isArray(x.formaciones);
+}
+
 export function exportarBanda(b: Banda): string {
   return JSON.stringify({ formato: 'punka-banda', version: 1, banda: b }, null, 2);
 }
 
-/** Acepta el JSON exportado (una banda o una lista de bandas). */
-export function importarBandas(texto: string): Banda[] {
+export function exportarListaEpic(l: ListaEpic): string {
+  return JSON.stringify({ formato: 'punka-banda', version: 1, ejercito: l }, null, 2);
+}
+
+export function exportarTodo(e: Estado): string {
+  return JSON.stringify({ formato: 'punka-banda', version: 1, bandas: e.bandas, ejercitos: e.ejercitos }, null, 2);
+}
+
+/** Acepta cualquier JSON exportado por la app (una banda, un ejército o todo). */
+export function importar(texto: string): { bandas: Banda[]; ejercitos: ListaEpic[] } {
   const d = JSON.parse(texto);
-  const brutas: unknown[] = Array.isArray(d) ? d : d?.banda ? [d.banda] : Array.isArray(d?.bandas) ? d.bandas : [d];
-  const ok = brutas.filter(esBandaValida);
-  if (!ok.length) throw new Error('El archivo no contiene ninguna banda válida.');
-  return ok.map(b => ({ ...normalizar(b), id: nuevoId(), actualizada: Date.now() }));
+  const brutas: unknown[] = Array.isArray(d) ? d : [
+    ...(d?.banda ? [d.banda] : []), ...(Array.isArray(d?.bandas) ? d.bandas : []),
+    ...(d?.ejercito ? [d.ejercito] : []), ...(Array.isArray(d?.ejercitos) ? d.ejercitos : []),
+  ];
+  if (!brutas.length) brutas.push(d);
+  const bandas = brutas.filter(esBandaValida).map(b => ({ ...normalizar(b), id: nuevoId(), actualizada: Date.now() }));
+  const ejercitos = brutas.filter(esListaEpicValida).map(l => ({ ...l, id: nuevoId(), actualizada: Date.now() }));
+  if (!bandas.length && !ejercitos.length) throw new Error('El archivo no contiene ninguna banda ni ejército válido.');
+  return { bandas, ejercitos };
 }

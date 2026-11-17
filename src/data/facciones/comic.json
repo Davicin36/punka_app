@@ -48,7 +48,10 @@
       },
       "reglasEspeciales": [
         "Asco de vida"
-      ]
+      ],
+      "reglasTexto": {
+        "Asco de vida": "La vida de Paul ha sido una puta mierda, así de sencillo. Está tan acostumbrado a perder que un empate ya es una victoria. Paul ganará cualquier tirada enfrentada que acabe en empate y que habitualmente ganaría la miniatura en su Fase de activación."
+      }
     },
     {
       "id": "dan-novato",
@@ -72,7 +75,11 @@
       "reglasEspeciales": [
         "Demasiado honorable",
         "Compañerismo"
-      ]
+      ],
+      "reglasTexto": {
+        "Demasiado honorable": "Dan nunca atacará a alguien que no tenga Línea de visión sobre él. Por lo tanto, no podrá Disparar a nadie que no tenga Línea de visión sobre el propio Dan. Y para Asaltar a un enemigo, el rival asaltado tendrá que tener Línea de visión sobre Dan como mínimo en la última Acción del Asalto de este, y Dan solo obtendrá bonificadores extra por cada Acción donde no solo él estuviera viendo al asaltado, sino también el asaltado a Dan.",
+        "Compañerismo": "Dan es muy amigo de sus amigos y como algún compañero sufra daño sacará fuerzas de flaqueza. Tendrá los siguientes bonificadores acumulativos por cada miniatura de la propia banda que haya sido Abatida:"
+      }
     },
     {
       "id": "nicole",
@@ -96,7 +103,11 @@
       "reglasEspeciales": [
         "Voluntariosa",
         "Fuego malo"
-      ]
+      ],
+      "reglasTexto": {
+        "Voluntariosa": "Nicole ha vivido muchas desgracias y ha sobrevivido a todas ellas con una voluntad inquebrantable. Puede decidir gastar una Acción y obtener un bonificador de +1 a la Dureza. Podrá hacer esto durante más Acciones hasta conseguir un máximo de +3. Tras la primera ocasión en que tenga que realizar una Tirada de su Dureza contra la Fuerza de algún ataque, el bonificador total que tuviera en ese momento se perderá. Después de esto, si lo desea, puede volver a repetir el proceso.",
+        "Fuego malo": "Nicole tiene malas experiencias con el fuego y le afecta especialmente. Nunca atravesará voluntariamente un marcador de Fuego."
+      }
     },
     {
       "id": "markus",
@@ -120,7 +131,11 @@
       "reglasEspeciales": [
         "Mal encarado",
         "Trucos sucios"
-      ]
+      ],
+      "reglasTexto": {
+        "Mal encarado": "Markus no destaca por su buen carácter y es capaz de insultarte de mil maneras con o sin palabras. Puede decidir gastar una Acción en provocar a una miniatura rival que esté a un máximo de 30 cm de distancia y con Línea de visión sobre él. Esa miniatura estará tan fuera de sí que contará como si tuviese la Regla especial Mónguer hasta final de ese Turno de juego.",
+        "Trucos sucios": "Markus no desaprovecha cualquier medio para ganar. Cuando dispare a una miniatura sin Línea de visión hacia el propio Markus obtendrá un bonificador de +1 adicional a la Precisión en ese disparo y cuando Asalte a una miniatura sin línea de visión hacia él obtendrá un bonificador de +1 adicional al Combate en ese Asalto."
+      }
     },
     {
       "id": "vale",
@@ -147,7 +162,11 @@
       "reglasEspeciales": [
         "Le tengo",
         "Ocultación"
-      ]
+      ],
+      "reglasTexto": {
+        "Le tengo": "Una vez que Vale fija el ojo sobre un objetivo, no lo pierde. Vale puede decidir gastar una Acción de Apuntar a un enemigo concreto, y no perderá el bonificador a la Precisión hasta que no lo Abata, independientemente del Turno de juego que sea. No podrá volver a Apuntar o usar esta regla con otra miniatura hasta que su objetivo seleccionado no haya sido Abatido (por cualquier circunstancia). Al igual que con la regla de Apuntar habitual, no podrá utilizarse ese bonificador durante el Fuego defensivo.",
+        "Ocultación": "Vale es una experta en disparar sin ser detectada. Obtiene la Regla especial Camuflaje y un bonificador de +1 adicional al Blindaje de una Cobertura tras la que esté (si está tras más de una lo aplicará a la de mayor grado)."
+      }
     },
     {
       "id": "dan",
@@ -172,7 +191,12 @@
         "Retraso (2)",
         "Ensalada de tiros",
         "Compañerismo"
-      ]
+      ],
+      "reglasTexto": {
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Ensalada de tiros": "Dan puede disparar usando una sola Acción a dos miniaturas distintas (una con cada pistola). Sin embargo, estos disparos tendrán un -1 a Precisión y al hacer esto no se beneficiará de Apuntar ni podrá usarlo en Fuego defensivo.",
+        "Compañerismo": "Dan es muy amigo de sus amigos y como algún compañero sufra daño sacará fuerzas de flaqueza. Tendrá los siguientes bonificadores acumulativos por cada miniatura de la propia banda que haya sido Abatida:"
+      }
     },
     {
       "id": "rita",
@@ -197,7 +221,12 @@
         "Retraso (2)",
         "Molonidad",
         "Recarga en movimiento"
-      ]
+      ],
+      "reglasTexto": {
+        "Retraso (2)": "Una miniatura con esta regla puede elegir retrasar su Fase de activación una vez por Turno de juego hasta tantas Rondas de Agilidad como el número entre paréntesis. Cuando llegue su momento de actuar, podrá declarar que actuará en una Ronda de Agilidad posterior dentro de ese margen. A la hora de actuar se seguirán las reglas habituales de orden de actuación, como si la miniatura con esta regla tuviera la misma Agilidad que el resto de miniaturas que deben actuar en esa Ronda de Agilidad.",
+        "Molonidad": "Rita desprende molonidad por todos sus poros. De esas cosas que se tienen o no y que dejan a la gente boquiabierta mirando para ella. Si un enemigo se encuentra a 30 cm de Rita cuando ésta haya Abatido a alguien en cuerpo a cuerpo, quedará tan afectado que tendrá un penalizador de -1 a la Precisión y Combate durante su siguiente Fase de activación.",
+        "Recarga en movimiento": "Rita domina el arte de moverse y recargar. Cuando realice una Acción de Movimiento puede realizar gratuitamente una Acción de recargar sobre su ballesta."
+      }
     }
   ]
 }

@@ -1,0 +1,412 @@
+{
+ "id": "chaos-cultist-slaves-to-darkness",
+ "nombre": "Chaos Cultist – Slaves to Darkness",
+ "version": "2026-07-16",
+ "estrategia": 1,
+ "iniciativa": "All formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "slaves-to-darkness-covens",
+   "nombre": "Slaves To Darkness Covens",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Aquelarres de los Esclavos de la Oscuridad"
+  },
+  {
+   "id": "slaves-to-darkness-upgrades",
+   "nombre": "Slaves To Darkness Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per coven. Nurgle Plague Towers may only be taken if its formation owes allegiance to Nurgle and counts as one of the two support coven choices for the coven.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Esclavos de la Oscuridad",
+   "notaEs": "Cada mejora puede tomarse una vez por aquelarre. Las Nurgle Plague Towers solo pueden tomarse si su formación es aliada de Nurgle, y cuentan como una de las dos elecciones de aquelarre de apoyo del aquelarre."
+  },
+  {
+   "id": "slaves-to-darkness-support-covens",
+   "nombre": "Slaves To Darkness Support Covens",
+   "tipo": "apoyo",
+   "nota": "Any two support covens may be fielded per each coven. These must owe allegiance to Chaos Undivided or the same chaos god as this coven.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "coven"
+   },
+   "nombreEs": "Aquelarres de apoyo de los Esclavos de la Oscuridad",
+   "notaEs": "Se pueden desplegar dos aquelarres de apoyo por cada aquelarre. Deben ser aliados del Caos Absoluto o del mismo dios del Caos que este aquelarre."
+  },
+  {
+   "id": "plague-zombie-infestations",
+   "nombre": "Plague Zombie Infestations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Infestaciones de zombis de la plaga"
+  },
+  {
+   "id": "daemon-pool",
+   "nombre": "Daemon Pool",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Reserva de demonios"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "slaves-to-darkness-covens-coven",
+   "nombre": "Coven",
+   "seccion": "slaves-to-darkness-covens",
+   "unidades": "One Demagogue or Chaos Marine Aspiring Champion and any eleven of the following units: Cultists, Mutants. This formation has Daemonic Pact and adds one lesser daemon to the Daemon Pool.",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Aquelarre",
+   "unidadesEs": "Un Demagogue o Chaos Marine Aspiring Champion y once cualesquiera de estas: Cultists, Mutants. Esta formación tiene Daemonic Pact y añade un demonio menor a la reserva de demonios."
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-chaos-undivided-defilers",
+   "nombre": "Chaos Undivided Defilers",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Defilers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Defilers del Caos Absoluto",
+   "unidadesEs": "Cuatro Defilers"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-chaos-undivided-hellfire-cannons",
+   "nombre": "Chaos Undivided Hellfire Cannons",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Hellfire Cannons",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Cañones del Fuego Infernal del Caos Absoluto",
+   "unidadesEs": "Cuatro Hellfire Cannons"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-khorne-daemonic-assault-engines",
+   "nombre": "Khorne Daemonic Assault Engines",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Daemonic Assault Engines (Add up to two Daemonic Assault Engines)",
+   "coste": 275,
+   "costeTexto": "275 points (+75 points each)",
+   "extras": [
+    {
+     "texto": "Unidad adicional (each)",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 10,
+     "textoEs": "Unidad adicional (cada una)"
+    }
+   ],
+   "nombreEs": "Ingenios de asalto demoníacos de Khorne",
+   "unidadesEs": "Cuatro Daemonic Assault Engines (añade hasta dos Daemonic Assault Engines)"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-khorne-lord-of-battles",
+   "nombre": "Khorne Lord of Battles",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Up to two Lord of Battles",
+   "coste": 400,
+   "costeTexto": "400 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 2 en total)",
+     "coste": 400,
+     "porUnidad": true,
+     "max": 1
+    }
+   ],
+   "nombreEs": "Señor de las Batallas de Khorne",
+   "unidadesEs": "Hasta dos Lords of Battle"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-nurgle-contagion-towers",
+   "nombre": "Nurgle Contagion Towers",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Contagion Towers",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "nombreEs": "Torres del Contagio de Nurgle",
+   "unidadesEs": "Cuatro Contagion Towers"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-nurgle-plague-towers",
+   "nombre": "Nurgle Plague Towers",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Up to two Plague Towers",
+   "coste": 300,
+   "costeTexto": "300 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 2 en total)",
+     "coste": 300,
+     "porUnidad": true,
+     "max": 1
+    }
+   ],
+   "nombreEs": "Torres de la Plaga de Nurgle",
+   "unidadesEs": "Hasta dos Plague Towers"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-slaanesh-daemon-knights",
+   "nombre": "Slaanesh Daemon Knights",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Daemon Knights",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "nombreEs": "Caballeros demoníacos de Slaanesh",
+   "unidadesEs": "Cuatro Daemon Knights"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-slaanesh-daemon-scout-titans",
+   "nombre": "Slaanesh Daemon Scout Titans",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Up to any two of the following units: Questor Subjugator",
+   "coste": 275,
+   "costeTexto": "275 points each 225 points each",
+   "nombreEs": "Titanes exploradores demoníacos de Slaanesh",
+   "unidadesEs": "Hasta dos cualesquiera de estas unidades: Questor, Subjugator"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-tzeentch-doomwings",
+   "nombre": "Tzeentch Doomwings",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Three Doomwings",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Alas de la Perdición de Tzeentch",
+   "unidadesEs": "Tres Doomwings"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-tzeentch-firelords",
+   "nombre": "Tzeentch Firelords",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Two Firelords (Add up to one Firelord)",
+   "coste": 250,
+   "costeTexto": "250 points (+100 points)",
+   "extras": [
+    {
+     "texto": "Add up to one Firelord",
+     "coste": 100,
+     "textoEs": "Añade como máximo un Firelord"
+    }
+   ],
+   "nombreEs": "Señores del Fuego de Tzeentch",
+   "unidadesEs": "Dos Firelords (añade como máximo un Firelord)"
+  },
+  {
+   "id": "slaves-to-darkness-support-covens-tzeentch-silver-towers",
+   "nombre": "Tzeentch Silver Towers",
+   "seccion": "slaves-to-darkness-support-covens",
+   "unidades": "Four Silver Towers",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Torres de Plata de Tzeentch",
+   "unidadesEs": "Cuatro Silver Towers"
+  },
+  {
+   "id": "plague-zombie-infestations-plague-zombie-infestations",
+   "nombre": "Plague Zombie Infestations",
+   "seccion": "plague-zombie-infestations",
+   "unidades": "3+2D6 Plague Zombies",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "max": 2,
+   "nombreEs": "Infestaciones de zombis de la plaga"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "big-mutants",
+   "nombre": "Big Mutants",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Replace up to six Mutants with an equal number of Big Mutants",
+   "coste": 20,
+   "costeTexto": "+20 points each",
+   "porUnidad": true,
+   "max": 6,
+   "nombreEs": "Mutantes grandes",
+   "textoEs": "Sustituye hasta seis Mutants por el mismo número de Big Mutants"
+  },
+  {
+   "id": "chaos-altar",
+   "nombre": "Chaos Altar",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add one Chaos Altar",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Altar del Caos",
+   "textoEs": "Añade un Chaos Altar"
+  },
+  {
+   "id": "chaos-hounds",
+   "nombre": "Chaos Hounds",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add up to three Chaos Hounds",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Sabuesos del Caos",
+   "textoEs": "Añade hasta tres Chaos Hounds"
+  },
+  {
+   "id": "chaos-spawn",
+   "nombre": "Chaos Spawn",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add one Chaos Spawn unit",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Engendro del Caos",
+   "textoEs": "Añade una unidad de Chaos Spawn"
+  },
+  {
+   "id": "cultists-or-mutants",
+   "nombre": "Cultists or Mutants",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add up to eight of any of the following units: Cultists, Mutants",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "porUnidad": true,
+   "max": 8,
+   "nombreEs": "Cultistas o mutantes",
+   "textoEs": "Añade hasta ocho de cualquiera de estas unidades: Cultists, Mutants"
+  },
+  {
+   "id": "daemon-prince",
+   "nombre": "Daemon Prince",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Replace a Demagogue or Chaos Marine Aspiring Champion with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Príncipe demonio",
+   "textoEs": "Sustituye un Demagogue o Chaos Marine Aspiring Champion por un Daemon Prince"
+  },
+  {
+   "id": "icon-bearer",
+   "nombre": "Icon Bearer",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add one Icon Bearer character",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Portaestandarte",
+   "textoEs": "Añade un personaje Icon Bearer"
+  },
+  {
+   "id": "technicals",
+   "nombre": "Technicals",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add up to two Technicals",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 2,
+   "nombreEs": "Técnicos",
+   "textoEs": "Añade hasta dos Technicals"
+  },
+  {
+   "id": "transports",
+   "nombre": "Transports",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add just enough Land Transporters to transport the entire formation",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 20,
+   "nombreEs": "Transportes",
+   "textoEs": "Añade justo los Land Transporters necesarios para transportar toda la formación"
+  },
+  {
+   "id": "nurgle-plague-tower",
+   "nombre": "Nurgle Plague Tower",
+   "seccion": "slaves-to-darkness-upgrades",
+   "texto": "Add one Plague Tower",
+   "coste": 300,
+   "costeTexto": "+300 points",
+   "nombreEs": "Torre de la Plaga de Nurgle",
+   "textoEs": "Añade una Plague Tower"
+  }
+ ],
+ "compras": [
+  {
+   "id": "daemon-pool-greater-daemon",
+   "nombre": "Greater Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "nombreEs": "Demonio mayor"
+  },
+  {
+   "id": "daemon-pool-lesser-daemon",
+   "nombre": "Lesser Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "nombreEs": "Demonio menor"
+  }
+ ],
+ "fraccionAliados": null,
+ "nombreEs": "Cultistas del Caos – Esclavos de la Oscuridad",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.33",
+   "titulo": "Lista de ejército de los Cultistas del Caos Esclavos de la Oscuridad (Slaves to Darkness)",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.33.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Culto del Caos basado en el Culto de los Esclavos de la Oscuridad, que ha surgido incontables veces a lo largo de los milenios en toda la galaxia. También puede usarse como lista «sustituta» para otros ejércitos de Cultos.",
+    "Las formaciones de Cultistas del Caos son de dos tipos: aquelarres y aquelarres de apoyo. Cada aquelarre que incluyas en el ejército te permite desplegar dos aquelarres de apoyo cualesquiera. Aunque solo puedes llevar un aquelarre de apoyo si antes llevas un aquelarre, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntos. Además, los aquelarres de apoyo de Ingenios Demoníacos del Caos deben lealtad al Caos Indiviso o al mismo dios del Caos que el aquelarre de Cultistas asociado. Por ejemplo, si el ejército incluyera dos aquelarres de Cultistas de Khorne, podría incluir dos aquelarres de ingenios demoníacos de Khorne, o uno de Khorne y otro indiviso. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. La Torre de Plaga de Nurgle es una mejora especial que solo puede adquirirse si la formación debe lealtad al dios del Caos Nurgle y, si se adquiere, cuenta como una de las dos elecciones de aquelarre de apoyo del aquelarre. Por último, cada ejército de Cultistas del Caos Esclavos de la Oscuridad puede desplegar hasta dos Infestaciones de Zombis de Plaga y contar con una Reserva de Demonios.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+   ]
+  },
+  {
+   "id": "6.33.1",
+   "titulo": "Reglas especiales de torneo de los Esclavos de la Oscuridad",
+   "parrafos": [
+    "Archihereje: Todo ejército de Cultistas del Caos Esclavos de la Oscuridad debe incluir un personaje Archihereje. Es gratuito, no tienes que pagar puntos por él, y puede añadirse a cualquier",
+    "unidad de Príncipe Demonio, Demagogo o Aspirante a Campeón de los Marines del Caos.",
+    "Lealtad de la formación: Cada formación debe lealtad al",
+    "Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
+    "Zombis de Plaga: Las formaciones de Infestación de Zombis de Plaga deben desplegarse mediante teletransporte. Tras colocar la primera unidad, tira 3+2D6 para ver cuántas unidades tiene la formación. Pueden disputar objetivos, pero no controlarlos.",
+    "Costes en puntos de invocación: Son los mismos que en la Legión Negra (véase 6.11.1): Bestias Demoníacas 1 (cualquier lealtad); Desangradores, Portadores de Plaga, Diablillas e Incineradores 1 (2 para formaciones del Caos Indiviso), cada uno de su dios correspondiente; y cada Demonio Mayor (Devorador de Almas, Gran Inmundicia, Guardián de los Secretos y Señor del Cambio) 8."
+   ]
+  },
+  {
+   "id": "5.11.1",
+   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "parrafos": [
+    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+   ]
+  },
+  {
+   "id": "5.11.2",
+   "titulo": "Foco Demoníaco (Daemonic Focus)",
+   "parrafos": [
+    "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
+   ]
+  },
+  {
+   "id": "6.11.1",
+   "titulo": "Reglas especiales de torneo de la Legión Negra de la 13.ª Cruzada Negra",
+   "parrafos": [
+    "Lealtad de la formación: Cada formación de un ejército de la Legión Negra de la 13.ª Cruzada Negra debe lealtad al Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
+    "Costes en puntos de invocación: A continuación se indican los costes en puntos de invocación de un ejército de la Legión Negra de la 13.ª Cruzada Negra. Si una fila contiene un coste entre paréntesis, ese es el coste para las formaciones que deben lealtad al Caos Indiviso.",
+    "Costes de invocación de Demonios Menores Puntos de invocación",
+    "Demonio",
+    "Lealtad",
+    "Bestias Demoníacas (Daemonic Beasts) · Cualquiera: 1",
+    "Desangradores (Bloodletters) · Khorne: 1 (2)",
+    "Portadores de Plaga (Plaguebearers) · Nurgle: 1 (2)",
+    "Diablillas (Daemonettes) · Slaanesh: 1 (2)",
+    "Incineradores (Flamers) · Tzeentch: 1 (2)",
+    "Costes de invocación de Demonios Mayores",
+    "Demonio",
+    "Lealtad",
+    "Puntos de invocación",
+    "Devorador de Almas (Bloodthirster) · Khorne: 8",
+    "Gran Inmundicia (Great Unclean One) · Nurgle: 8",
+    "Guardián de los Secretos (Keeper of Secrets) · Slaanesh: 8",
+    "Señor del Cambio (Lord of Change) · Tzeentch: 8"
+   ]
+  }
+ ]
+}

@@ -23,6 +23,8 @@ export interface Unidad {
   blindaje: { base: string; opciones: Opcion[] };
   equipo?: { incluido?: string; opciones?: Opcion[] };
   reglasEspeciales: string[];
+  /** Texto de cada regla especial (del libro) */
+  reglasTexto?: Record<string, string>;
   opcionesExtra?: Opcion[];
   mutaciones?: { min: number; max: number; permitidas?: string[] };
   articulosDeCona?: number;
@@ -64,6 +66,7 @@ export interface Faccion {
   extrasBanda?: (Opcion & { max: number })[];
   reliquias?: Opcion[];
   reglasFaccion?: string[];
+  reglasFaccionTexto?: Record<string, string>;
   unidades: Unidad[];
 }
 
@@ -84,6 +87,8 @@ export interface Comun {
   gatoParameno: Opcion & { max: number };
   mutaciones: Mutacion[];
   articulosDeCona: Opcion[];
+  /** Glosario de reglas especiales genéricas (Reglas_punka) */
+  reglasGenericas: Record<string, string>;
 }
 
 // ===== Catálogo de equipo (src/data/equipo.json) =====

@@ -7,6 +7,8 @@ import { COMUN, faccionPorId, unidadPorId } from '../data';
 import { costeBanda, costeMiniatura, detalleMiniatura, extrasBandaTexto, maxMiniaturas, numMiniaturas, problemasBanda } from './banda';
 import { armasDeMiniatura, blindajeEfectivo, llevaArmaDeFuego, nombreBlindaje, perfilEfectivo, perfilesArmaTexto, textoAtributo } from './perfil';
 import { nombreArchivo } from './descargar';
+import { reglasDeBanda, type ReglaTexto } from './reglas';
+import { anexoReglas } from './pdfReglas';
 
 type RGB = [number, number, number];
 const PAPEL: RGB = [243, 234, 211];
@@ -213,6 +215,15 @@ export function crearPdfBanda(b: Banda, ajustes: Ajustes): jsPDF {
     }
     y += 1.5;
   }
+
+  // --- Anexo: texto de las reglas especiales ---
+  const rb = reglasDeBanda(b);
+  const aPdf = (x: ReglaTexto) => ({ nombre: x.nombre, nota: x.quien.join(', '), parrafos: [x.texto] });
+  anexoReglas(doc, [
+    { titulo: `Reglas de ${f.nombre}`, reglas: rb.faccion.map(x => ({ nombre: x.nombre, parrafos: [x.texto] })) },
+    { titulo: 'Reglas de las miniaturas', reglas: rb.miniaturas.map(aPdf) },
+    { titulo: 'Reglas del equipo', reglas: rb.equipo.map(aPdf) },
+  ], { margen: M, arriba: M + CAB, abajo: A4.h - M - PIE, colores: { tinta: TINTA, oxido: OXIDO, suave: SUAVE, linea: LINEA }, nuevaPagina: cabecera });
 
   // --- Pie de página ---
   const paginas = doc.getNumberOfPages();

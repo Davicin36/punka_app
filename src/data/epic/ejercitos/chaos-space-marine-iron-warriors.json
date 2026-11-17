@@ -1,0 +1,598 @@
+{
+ "id": "chaos-space-marine-iron-warriors",
+ "nombre": "Chaos Space Marine – Iron Warriors",
+ "version": "2026-07-16",
+ "estrategia": 4,
+ "iniciativa": "Chaos Navy formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "iron-warrior-core-formations",
+   "nombre": "Iron Warrior Core Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones principales de los Guerreros de Hierro"
+  },
+  {
+   "id": "iron-warrior-siege-support-formations",
+   "nombre": "Iron Warrior Siege Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two siege support formations may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "core formation"
+   },
+   "nombreEs": "Formaciones de apoyo de asedio de los Guerreros de Hierro",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo de asedio por cada formación principal."
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations",
+   "nombre": "Iron Warrior Siege Assault Formations",
+   "tipo": "apoyo",
+   "nota": "Any one siege assault formation may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "core formation"
+   },
+   "nombreEs": "Formaciones de asalto de asedio de los Guerreros de Hierro",
+   "notaEs": "Se puede desplegar una formación de asalto de asedio por cada formación principal."
+  },
+  {
+   "id": "iron-warrior-upgrades",
+   "nombre": "Iron Warrior Upgrades",
+   "tipo": "mejoras",
+   "nota": "Each upgrade may be taken once per formation.",
+   "unaVez": true,
+   "nombreEs": "Mejoras de los Guerreros de Hierro",
+   "notaEs": "Cada mejora puede tomarse una vez por formación."
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "nombre": "Chaos Navy And War Engine Formations / Chaos Navy",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Armada del Caos y máquinas de guerra / Armada del Caos",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  },
+  {
+   "id": "chaos-war-engines",
+   "nombre": "Chaos War Engines",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Máquinas de guerra del Caos"
+  },
+  {
+   "id": "iron-warrior-individuals",
+   "nombre": "Iron Warrior Individuals",
+   "tipo": "individuos",
+   "nota": "Up to one of each type of individual may be taken per army.",
+   "nombreEs": "Individuos de los Guerreros de Hierro",
+   "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "iron-warrior-core-formations-armoured-assault-company",
+   "nombre": "Armoured Assault Company",
+   "seccion": "iron-warrior-core-formations",
+   "unidades": "Six Chaos Vindicators",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": [
+    "Vindicators"
+   ],
+   "nombreEs": "Compañía de asalto acorazada",
+   "unidadesEs": "Seis Chaos Vindicators"
+  },
+  {
+   "id": "iron-warrior-core-formations-defiler-assault-pack",
+   "nombre": "Defiler Assault Pack",
+   "seccion": "iron-warrior-core-formations",
+   "unidades": "Six Defilers",
+   "coste": 425,
+   "costeTexto": "425 points",
+   "mejoras": [
+    "Defilers",
+    "Dreadnoughts",
+    "Siege Dreadnought"
+   ],
+   "nombreEs": "Grupo de asalto de Defilers",
+   "unidadesEs": "Seis Defilers"
+  },
+  {
+   "id": "iron-warrior-core-formations-grand-battery",
+   "nombre": "Grand Battery",
+   "seccion": "iron-warrior-core-formations",
+   "unidades": "9 Chaos Basilisks",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "mejoras": [
+    "Emplacements",
+    "Stalker"
+   ],
+   "nombreEs": "Gran batería"
+  },
+  {
+   "id": "iron-warrior-core-formations-retinue",
+   "nombre": "Retinue",
+   "seccion": "iron-warrior-core-formations",
+   "unidades": "Six Chaos Space Marines, two Havocs and one Iron Warriors Lord",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [],
+   "nombreEs": "Séquito",
+   "unidadesEs": "Seis Chaos Space Marines, dos Havocs y un Iron Warriors Lord"
+  },
+  {
+   "id": "iron-warrior-siege-support-formations-artillery-battery",
+   "nombre": "Artillery Battery",
+   "seccion": "iron-warrior-siege-support-formations",
+   "unidades": "Four Chaos Basilisks",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Emplacements",
+    "Stalker"
+   ],
+   "nombreEs": "Batería de artillería",
+   "unidadesEs": "Cuatro Chaos Basilisks"
+  },
+  {
+   "id": "iron-warrior-siege-support-formations-armoured-company",
+   "nombre": "Armoured Company",
+   "seccion": "iron-warrior-siege-support-formations",
+   "unidades": "Between four and eight of any of the following units: Chaos Predator, Chaos Land Raider",
+   "coste": 0,
+   "costeTexto": "50 points each per Chaos Predator 75 points each per Chaos Land Raider",
+   "mejoras": [
+    "Stalker",
+    "Vindicators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (por chaos predator)",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Predator)"
+    },
+    {
+     "texto": "Unidad adicional (por chaos land raider)",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Land Raider)"
+    }
+   ],
+   "nombreEs": "Compañía acorazada",
+   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Chaos Predator, Chaos Land Raider"
+  },
+  {
+   "id": "iron-warrior-siege-support-formations-daemonic-artillery",
+   "nombre": "Daemonic Artillery",
+   "seccion": "iron-warrior-siege-support-formations",
+   "unidades": "Three Daemonic Artillery",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Emplacements",
+    "Stalker"
+   ],
+   "nombreEs": "Artillería demoníaca",
+   "unidadesEs": "Tres Daemonic Artillery"
+  },
+  {
+   "id": "iron-warrior-siege-support-formations-super-heavy-company",
+   "nombre": "Super Heavy Company",
+   "seccion": "iron-warrior-siege-support-formations",
+   "unidades": "Up to three Decimators",
+   "coste": 225,
+   "costeTexto": "225 points each",
+   "mejoras": [],
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 3 en total)",
+     "coste": 225,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "nombreEs": "Compañía superpesada",
+   "unidadesEs": "Hasta tres Decimators"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-chaos-terminators",
+   "nombre": "Chaos Terminators",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Between four and six Chaos Space Marine Terminators, and one Iron Warriors Lord",
+   "coste": 275,
+   "costeTexto": "275 points for four +60 points per extra",
+   "mejoras": [
+    "Daemon Prince",
+    "Land Raiders",
+    "Obliterators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 60,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Exterminadores del Caos",
+   "unidadesEs": "Entre cuatro y seis Chaos Space Marine Terminators, y un Iron Warriors Lord"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-chosen",
+   "nombre": "Chosen",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Four Chaos Space Marine Chosen",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "mejoras": [
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Rhinos"
+   ],
+   "nombreEs": "Elegidos",
+   "unidadesEs": "Cuatro Chaos Space Marine Chosen"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-dreadnought-assault-pack",
+   "nombre": "Dreadnought Assault Pack",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Five Chaos Dreadnoughts",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Dreadclaws",
+    "Siege Dreadnought"
+   ],
+   "nombreEs": "Grupo de asalto de Dreadnoughts",
+   "unidadesEs": "Cinco Chaos Dreadnoughts"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-havocs",
+   "nombre": "Havocs",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Four Havocs, two Chaos Land Raiders, and one Iron Warriors Lord",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "mejoras": [
+    "Daemon Prince",
+    "Dreadnoughts",
+    "Defilers",
+    "Havocs",
+    "Land Raiders",
+    "Stalker"
+   ],
+   "unidadesEs": "Cuatro Havocs, dos Chaos Land Raiders y un Iron Warriors Lord"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-obliterator-cult",
+   "nombre": "Obliterator Cult",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Four Obliterators",
+   "coste": 350,
+   "costeTexto": "350 points",
+   "max": 1,
+   "mejoras": [],
+   "nombreEs": "Culto de obliteradores",
+   "unidadesEs": "Cuatro Obliterators"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-raptor-cult",
+   "nombre": "Raptor Cult",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Between four and eight Raptors, and one Iron Warriors Lord",
+   "coste": 175,
+   "costeTexto": "175 points for four +35 points per extra",
+   "mejoras": [],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Culto de raptores",
+   "unidadesEs": "Entre cuatro y ocho Raptors, y un Iron Warriors Lord"
+  },
+  {
+   "id": "iron-warrior-siege-assault-formations-siege-hammer-company",
+   "nombre": "Siege Hammer Company",
+   "seccion": "iron-warrior-siege-assault-formations",
+   "unidades": "Six Chaos Assault Marines and one Iron Warriors Lord",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "mejoras": [
+    "Assault Marines",
+    "Daemon Prince",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Rhinos",
+    "Siege Dreadnought",
+    "Stalker"
+   ],
+   "nombreEs": "Compañía Martillo de Asedio",
+   "unidadesEs": "Seis Chaos Assault Marines y un Iron Warriors Lord"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-harbinger",
+   "nombre": "Harbinger",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Harbinger",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "unidadesEs": "Un Harbinger"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
+   "nombre": "Hell Blades",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Three Hell Blades",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Tres Hell Blades"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
+   "nombre": "Hell Talons",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Two Hell Talons",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "unidadesEs": "Dos Hell Talons"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Devastation Class Cruiser or one Despoiler Class Battleship",
+   "coste": 150,
+   "costeTexto": "150 points or 250 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 150
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 250
+    }
+   ],
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Un Devastation Class Cruiser o un Despoiler Class Battleship"
+  },
+  {
+   "id": "chaos-war-engines-ordinatus",
+   "nombre": "Ordinatus",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Ordinatus Medrendgard",
+   "coste": 625,
+   "costeTexto": "625 points",
+   "unidadesEs": "Un Ordinatus Medrendgard"
+  },
+  {
+   "id": "chaos-war-engines-ravager",
+   "nombre": "Ravager",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Ravager Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Ravager Titan"
+  },
+  {
+   "id": "chaos-war-engines-siege-lord",
+   "nombre": "Siege Lord",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Siege Lord Titan",
+   "coste": 850,
+   "costeTexto": "850 points",
+   "nombreEs": "Señor del asedio",
+   "unidadesEs": "Un Siege Lord Titan"
+  },
+  {
+   "id": "iron-warrior-individuals-warsmith",
+   "nombre": "Warsmith",
+   "seccion": "iron-warrior-individuals",
+   "unidades": "Replace an Iron Warriors Lord with a Warsmith Add a Warsmith to a Daemon Prince Add a Warsmith to a Dreadnought Assault Pack",
+   "coste": 50,
+   "costeTexto": "+50 points +50 points +100 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 50
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 50
+    },
+    {
+     "nombre": "Opción 3",
+     "coste": 100
+    }
+   ],
+   "nombreEs": "Herrero de Guerra",
+   "unidadesEs": "Sustituye un Iron Warriors Lord por un Warsmith; o añade un Warsmith a un Daemon Prince; o añade un Warsmith a un Dreadnought Assault Pack"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "assault-marines",
+   "nombre": "Assault Marines",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add four Chaos Assault Marines",
+   "coste": 125,
+   "costeTexto": "+125 points",
+   "nombreEs": "Marines de asalto",
+   "textoEs": "Añade cuatro Chaos Assault Marines"
+  },
+  {
+   "id": "daemon-prince",
+   "nombre": "Daemon Prince",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Replace a unit with a Iron Warriors Lord with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Príncipe demonio",
+   "textoEs": "Sustituye una unidad con un Iron Warriors Lord por un Daemon Prince"
+  },
+  {
+   "id": "defilers",
+   "nombre": "Defilers",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add up to three Defilers",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Defilers"
+  },
+  {
+   "id": "dreadclaws",
+   "nombre": "Dreadclaws",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws",
+   "coste": 5,
+   "costeTexto": "+5 points per unit",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Transporta en Dreadclaws una formación formada solo por infantería y Chaos Dreadnoughts"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add up to three Chaos Dreadnoughts",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Dreadnoughts"
+  },
+  {
+   "id": "emplacements",
+   "nombre": "Emplacements",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add one gun emplacement for every armoured vehicle unit",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Emplazamientos",
+   "textoEs": "Añade un emplazamiento de armas por cada unidad de vehículo blindado"
+  },
+  {
+   "id": "havocs",
+   "nombre": "Havocs",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add four Havocs",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "textoEs": "Añade cuatro Havocs"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add up to four Chaos Land Raiders",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 4,
+   "textoEs": "Añade hasta cuatro Chaos Land Raiders"
+  },
+  {
+   "id": "obliterators",
+   "nombre": "Obliterators",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add up to three Obliterators",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Obliteradores",
+   "textoEs": "Añade hasta tres Obliterators"
+  },
+  {
+   "id": "rhinos",
+   "nombre": "Rhinos",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add one Chaos Rhino for every two infantry units",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería"
+  },
+  {
+   "id": "siege-dreadnought",
+   "nombre": "Siege Dreadnought",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add one Chaos Siege Dreadnought",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Dreadnought de asedio",
+   "textoEs": "Añade un Chaos Siege Dreadnought"
+  },
+  {
+   "id": "stalker",
+   "nombre": "Stalker",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add one Stalker",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "textoEs": "Añade un Stalker"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "iron-warrior-upgrades",
+   "texto": "Add up to three Chaos Vindicators",
+   "coste": 35,
+   "costeTexto": "+35 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Vindicators"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales del Caos – Guerreros de Hierro",
+ "iniciativaEs": "Las formaciones de la Chaos Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.31",
+   "titulo": "Lista de ejército de Marines Espaciales del Caos de los Guerreros de Hierro (Iron Warriors)",
+   "parrafos": [
+    "— Grito de batalla de los Guerreros de Hierro",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.31.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de los Guerreros de Hierro.",
+    "Las formaciones de los Guerreros de Hierro son de tres tipos: formaciones principales, formaciones de apoyo de asedio y formaciones de asalto de asedio. Cada formación principal que incluyas en el ejército te permite desplegar dos formaciones de apoyo de asedio cualesquiera y una formación de asalto de asedio cualquiera. Aunque solo puedes llevar una formación de apoyo o de asalto de asedio si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Los ejércitos de los Guerreros de Hierro pueden recibir apoyo de formaciones de la Armada del Caos y de Ingenios de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Por último, los Individuos de los Guerreros de Hierro incluyen el personaje especial del Herrero de Guerra (Warsmith). Cada",
+    "individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran en la columna «Notas»."
+   ]
+  },
+  {
+   "id": "5.31.1",
+   "titulo": "Posiciones Fortificadas de los Guerreros de Hierro",
+   "parrafos": [
+    "Emplazamiento de Armas: Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. No pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Terreno",
+    "Infantería",
+    "Vehículo",
+    "Emplazamiento de Armas",
+    "Salv. cobertura 4+",
+    "Salv. cobertura 5+",
+    "Ingenio de Guerra",
+    "Sin efecto"
+   ]
+  }
+ ]
+}

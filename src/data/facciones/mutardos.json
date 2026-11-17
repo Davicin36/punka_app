@@ -59,7 +59,12 @@
         "min": 2,
         "max": 5
       },
-      "sinEquipoGenerico": true
+      "sinEquipoGenerico": true,
+      "reglasTexto": {
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "Cuerpo escombro": "Los pochos están tan hechos polvo que no dejan marcador al ser Abatidos, es como si no hubieran existido. Su cuerpo se mimetiza tanto con el páramo que no está feo pisarlos, es más, alguna gente obtiene placer de hacerlo.",
+        "Grupal": "Los Pochos tienen cierta mentalidad colectiva que les hace ir en grupo siempre que pueden. Los Pochos deben ir unidos hasta formar un grupo mínimo de 2 y máximo de 5. Por encima de este número formarán otro grupo, y así sucesivamente. Al terminar su Fase de activación, ninguna miniatura de un grupo debe estar separada más de 5 cm de la más cercana ni más de 15 cm de la más lejana cualesquiera. Si por alguna circunstancia esto ocurriera (como que una miniatura del grupo resultara Abatida), el grupo que haya quedado con menos miniaturas separadas debe gastar sus siguientes Acciones únicamente en intentar unirse de nuevo al grupo más numeroso. Los grupos se consideran una sola miniatura para la mayoría de los efectos de juego, como el máximo de miniaturas, el despliegue o el Movimiento. De esta manera, cuando llegue su Fase de activación, moverán todos los Pochos de un grupo a la vez, por lo que no se podrá empezar la Fase de activación de otra miniatura hasta que el grupo al completo haya realizado sus"
+      }
     },
     {
       "id": "mutante",
@@ -135,7 +140,12 @@
         "Raudo",
         "Perrete tontico"
       ],
-      "sinEquipoGenerico": true
+      "sinEquipoGenerico": true,
+      "reglasTexto": {
+        "Bestia": "Una miniatura con esta regla no puede controlar ni Interaccionar con objetivos en las misiones que los contengan y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato.",
+        "Raudo": "Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla puede Mover 15 cm en lugar de 10 cm por Acción de Movimiento.",
+        "Perrete tontico": "Las mentes de los Perromorfos son demasiado primitivas. Un Cabezón no podrá usar ningún Poder psíquico sobre un Perromorfo."
+      }
     },
     {
       "id": "bestia-del-pozo",
@@ -190,6 +200,10 @@
           "Extremidad prensil",
           "Piernas seguras"
         ]
+      },
+      "reglasTexto": {
+        "Bersérker": "Algunos luchadores son tan agresivos o fanáticos que parecen no darse cuenta de que están muertos hasta que es demasiado tarde para el bienestar de sus rivales. La miniatura puede completar la Fase de activación propia tras resultar Abatida. Al final de esa Fase de activación, si acaba el último Turno de la partida o si resulta Abatida de nuevo (lo que antes suceda), se considerará una baja definitiva.",
+        "Mónguer": "Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede controlar ni interaccionar con objetivos en las misiones que los contengan. Además, no podrá Rapiñar un cadáver ni Interaccionar con ningún tipo de aparato."
       }
     },
     {
@@ -226,7 +240,10 @@
       },
       "reglasEspeciales": [
         "Poderes psíquicos"
-      ]
+      ],
+      "reglasTexto": {
+        "Poderes psíquicos": "Un Cabezón posee todos los Poderes psíquicos indicados en la página 86."
+      }
     },
     {
       "id": "magmador",
@@ -252,7 +269,13 @@
         "Personalidad de los Mutardos",
         "Cuerpo ardiente",
         "Charco de magma"
-      ]
+      ],
+      "reglasTexto": {
+        "Ignífugo": "Una miniatura equipada con un Blindaje con esta regla ignorará los efectos de los marcadores de Fuego.",
+        "Personalidad de los Mutardos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Cuerpo ardiente": "Si Magmador es Impactado por un arma en cuerpo a cuerpo, deberá tirarse 1d10. Con un resultado de 6+ el arma habrá quedado destruida, aunque se seguirá produciendo el Impacto normalmente.",
+        "Charco de magma": "Una vez por partida, Magmador es capaz de expulsar magma de su cuerpo hasta convertir el terreno en un infierno de lava. Si gasta 2 Acciones seguidas (no necesariamente en la misma Fase de activación) Magmador podrá crear un charco de lava de 10x10 cm, que se considerará un zona de Terreno impasable. Debe crearse con un borde tocando su peana, en un espacio a ras de suelo y despejado de cualquier elemento, incluidos objetivos o miniaturas."
+      }
     },
     {
       "id": "kim-y-fostiador",
@@ -279,7 +302,14 @@
         "Mente ocupada",
         "Poderes de Kim",
         "Odio puro"
-      ]
+      ],
+      "reglasTexto": {
+        "Personalidad de los Mutardos": "Personaje especial (Personalidad) de la facción. Solo puede haber una Personalidad o Mercenario en la banda.",
+        "Zasca": "Se trata de una de las armas defensivas del asentamiento donde Kim y Fostiador estuvieron como esclavos, que la bestia arrancó y se llevó. Fostiador usa como proyectil lo primero que arranca por ahí, pero una vez lanzado, debe encontrar algo que usar como munición para recargarlo. Antes de desplegar se colocarán de manera aleatoria 3 marcadores (de la misma manera que se hace con los objetivos). Estos representan algún poste, farola o similar que hay en el suelo. Si está en contacto con uno, Fostiador puede usar 1 Acción para hacerse con él y pasará a tener un nuevo proyectil. Zasca tiene las siguientes estadísticas. Distancia: 25/50/75. Fuerza 9, Penetración 10. Armatoste, Mamotreto.",
+        "Mente ocupada": "El esfuerzo continuo de Kim controlando a Fostiador, hace que la mente de la Bestia del pozo esté demasiado ocupada como para que ningún poder extra le afecte. No podrá lanzarse ningún Poder psíquico sobre Kim y Fostiador.",
+        "Poderes de Kim": "Kim es una Cabezona y puede utilizar Poderes psíquicos. Tiene acceso a los poderes generales de Desarme, Potenciación y Titiritero, pero además tiene estos dos nuevos Poderes psíquicos: • Confusión: Kim puede entrar en la mente de un enemigo hasta 30 cm de distancia y en Línea de visión, excepto aquellos con la Regla especial Bestia o Monguer, y confundirla con pensamientos perturbadores. Esa miniatura actuará en una Ronda de Agilidad 3 veces inferior a la marcada por su Agilidad en el siguiente Turno de juego, hasta un mínimo de 1. Por ejemplo, una miniatura de Agilidad 5, pasaría a actuar ese Turno en la Ronda de Agilidad 2. • Absorción vital: Kim no tiene reparos en ganar a cualquier coste, incluso absorbiendo la vitalidad de una miniatura aliada, para dale una porción a otra que la necesite. Puede sustraer 2 puntos de Dureza permanentes de una miniatura o grupo completo de Pochos de su banda, para incrementar en 1 punto la Dureza de otra miniatura de manera permanente. Ambas miniaturas deben estar a un máximo de 30 cm de Kim.",
+        "Odio puro": "El tiempo pasado esclavizada, las vejaciones sufridas... todo eso está dentro de Kim siempre a punto de explotar. Si resulta Abatida, todo ese odio estallará en una onda de energía psíquica. Tira 1d10 para ves las consecuencias:"
+      }
     }
   ]
 }

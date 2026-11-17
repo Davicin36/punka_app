@@ -1,0 +1,605 @@
+{
+ "id": "chaos-space-marine-black-legion",
+ "nombre": "Chaos Space Marine – Black Legion",
+ "version": "2026-07-16",
+ "estrategia": 4,
+ "iniciativa": "Chaos Navy formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.",
+ "secciones": [
+  {
+   "id": "black-legion-core-formations",
+   "nombre": "Black Legion Core Formations",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Formaciones principales de la Legión Negra"
+  },
+  {
+   "id": "black-legion-elite-formations",
+   "nombre": "Black Legion Elite Formations",
+   "tipo": "apoyo",
+   "nota": "Any one elite formation may be fielded per each retinue, not armoured company.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "retinue"
+   },
+   "nombreEs": "Formaciones de élite de la Legión Negra",
+   "notaEs": "Se puede desplegar una formación de élite por cada séquito (no compañía acorazada)."
+  },
+  {
+   "id": "black-legion-support-formations",
+   "nombre": "Black Legion Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two support formations may be fielded per each core formation.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "core formation"
+   },
+   "nombreEs": "Formaciones de apoyo de la Legión Negra",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal."
+  },
+  {
+   "id": "black-legion-upgrades",
+   "nombre": "Black Legion Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to four upgrades may be taken once per formation.",
+   "maxPorFormacion": 4,
+   "unaVez": true,
+   "nombreEs": "Mejoras de la Legión Negra",
+   "notaEs": "Se pueden tomar hasta cuatro mejoras, cada una una vez por formación."
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "nombre": "Chaos Navy And War Engine Formations / Chaos Navy",
+   "tipo": "tercio",
+   "nota": "Up to a third of the points available may be spent on these formations.",
+   "nombreEs": "Armada del Caos y máquinas de guerra / Armada del Caos",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones."
+  },
+  {
+   "id": "chaos-war-engines",
+   "nombre": "Chaos War Engines",
+   "tipo": "tercio",
+   "nota": "",
+   "nombreEs": "Máquinas de guerra del Caos"
+  },
+  {
+   "id": "daemon-pool",
+   "nombre": "Daemon Pool",
+   "tipo": "compras",
+   "nota": "",
+   "nombreEs": "Reserva de demonios"
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "black-legion-core-formations-armoured-company",
+   "nombre": "Armoured Company",
+   "seccion": "black-legion-core-formations",
+   "unidades": "Between four and eight of any of the following units: Chaos Predator, Chaos Land Raider",
+   "coste": 0,
+   "costeTexto": "50 points each per Chaos Predator 75 points each per Chaos Land Raider",
+   "mejoras": [
+    "Defilers",
+    "Vindicators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (por chaos predator)",
+     "coste": 50,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Predator)"
+    },
+    {
+     "texto": "Unidad adicional (por chaos land raider)",
+     "coste": 75,
+     "porUnidad": true,
+     "max": 8,
+     "textoEs": "Unidad adicional (por Chaos Land Raider)"
+    }
+   ],
+   "nombreEs": "Compañía acorazada",
+   "unidadesEs": "Entre cuatro y ocho de cualquiera de estas unidades: Chaos Predator, Chaos Land Raider"
+  },
+  {
+   "id": "black-legion-core-formations-retinue",
+   "nombre": "Retinue",
+   "seccion": "black-legion-core-formations",
+   "unidades": "Eight Chaos Space Marines, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [
+    "Chaos Champion",
+    "Chaos Warlord",
+    "Cult Marines",
+    "Daemon Prince per allegiance",
+    "Daemonic Pact",
+    "Defilers",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Havocs",
+    "Icon Bearer",
+    "Land Raiders",
+    "Obliterators",
+    "Rhinos",
+    "Vindicators"
+   ],
+   "nombreEs": "Séquito",
+   "unidadesEs": "Ocho Chaos Space Marines, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "black-legion-elite-formations-chaos-terminators",
+   "nombre": "Chaos Terminators",
+   "seccion": "black-legion-elite-formations",
+   "unidades": "Between four and six Chaos Space Marine Terminators, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 275,
+   "costeTexto": "275 points for four +60 points per extra",
+   "mejoras": [
+    "Chaos Champion",
+    "Chaos Warlord",
+    "Daemon Prince per allegiance",
+    "Daemonic Pact",
+    "Defilers",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Icon Bearer",
+    "Land Raiders",
+    "Obliterators"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 60,
+     "porUnidad": true,
+     "max": 2,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Exterminadores del Caos",
+   "unidadesEs": "Entre cuatro y seis Chaos Space Marine Terminators, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "black-legion-elite-formations-chosen",
+   "nombre": "Chosen",
+   "seccion": "black-legion-elite-formations",
+   "unidades": "Four Chaos Space Marine Chosen",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "mejoras": [
+    "Daemonic Pact",
+    "Dreadclaws",
+    "Dreadnoughts",
+    "Rhinos"
+   ],
+   "nombreEs": "Elegidos",
+   "unidadesEs": "Cuatro Chaos Space Marine Chosen"
+  },
+  {
+   "id": "black-legion-support-formations-bike-company",
+   "nombre": "Bike Company",
+   "seccion": "black-legion-support-formations",
+   "unidades": "Eight Chaos Space Marine Bikes, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "mejoras": [
+    "Daemonic Pact",
+    "Icon Bearer"
+   ],
+   "nombreEs": "Compañía de motocicletas",
+   "unidadesEs": "Ocho Chaos Space Marine Bikes, una con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "black-legion-support-formations-defiler-assault-pack",
+   "nombre": "Defiler Assault Pack",
+   "seccion": "black-legion-support-formations",
+   "unidades": "Four Defilers",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "mejoras": [],
+   "nombreEs": "Grupo de asalto de Defilers",
+   "unidadesEs": "Cuatro Defilers"
+  },
+  {
+   "id": "black-legion-support-formations-havocs",
+   "nombre": "Havocs",
+   "seccion": "black-legion-support-formations",
+   "unidades": "Four Havocs, one with a Chaos Lord character, and two Chaos Rhinos or Chaos Land Raiders",
+   "coste": 225,
+   "costeTexto": "225 points or 350 points",
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 225
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 350
+    }
+   ],
+   "mejoras": [
+    "Chaos Champion",
+    "Daemon Prince per allegiance",
+    "Daemonic Pact",
+    "Dreadnoughts",
+    "Icon Bearer"
+   ],
+   "unidadesEs": "Cuatro Havocs, uno con un personaje Chaos Lord, y dos Chaos Rhinos o Chaos Land Raiders"
+  },
+  {
+   "id": "black-legion-support-formations-raptor-cult",
+   "nombre": "Raptor Cult",
+   "seccion": "black-legion-support-formations",
+   "unidades": "Between four and eight Raptors, one with a Chaos Lord or Sorcerer Lord character",
+   "coste": 175,
+   "costeTexto": "175 points for four +35 points per extra",
+   "mejoras": [
+    "Daemonic Pact"
+   ],
+   "extras": [
+    {
+     "texto": "Unidad adicional (per extra)",
+     "coste": 35,
+     "porUnidad": true,
+     "max": 4,
+     "textoEs": "Unidad adicional (por cada extra)"
+    }
+   ],
+   "nombreEs": "Culto de raptores",
+   "unidadesEs": "Entre cuatro y ocho Raptors, uno con un personaje Chaos Lord o Sorcerer Lord"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-harbinger",
+   "nombre": "Harbinger",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Harbinger",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "unidadesEs": "Un Harbinger"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
+   "nombre": "Hell Blades",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Three Hell Blades",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "unidadesEs": "Tres Hell Blades"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
+   "nombre": "Hell Talons",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "Two Hell Talons",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "unidadesEs": "Dos Hell Talons"
+  },
+  {
+   "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
+   "nombre": "Spacecraft",
+   "seccion": "chaos-navy-and-war-engine-formations-chaos-navy",
+   "unidades": "One Devastation Class Cruiser or one Despoiler Class Battleship",
+   "coste": 150,
+   "costeTexto": "150 points or 250 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Opción 1",
+     "coste": 150
+    },
+    {
+     "nombre": "Opción 2",
+     "coste": 250
+    }
+   ],
+   "nombreEs": "Nave espacial",
+   "unidadesEs": "Un Devastation Class Cruiser o un Despoiler Class Battleship"
+  },
+  {
+   "id": "chaos-war-engines-banelord",
+   "nombre": "Banelord",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Banelord Titan",
+   "coste": 800,
+   "costeTexto": "800 points",
+   "unidadesEs": "Un Banelord Titan"
+  },
+  {
+   "id": "chaos-war-engines-deathwheels",
+   "nombre": "Deathwheels",
+   "seccion": "chaos-war-engines",
+   "unidades": "Up to three Deathwheels",
+   "coste": 275,
+   "costeTexto": "275 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 3 en total)",
+     "coste": 275,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "unidadesEs": "Hasta tres Deathwheels"
+  },
+  {
+   "id": "chaos-war-engines-decimators",
+   "nombre": "Decimators",
+   "seccion": "chaos-war-engines",
+   "unidades": "Up to three Decimators",
+   "coste": 225,
+   "costeTexto": "225 points each",
+   "extras": [
+    {
+     "texto": "Unidad adicional (hasta 3 en total)",
+     "coste": 225,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "unidadesEs": "Hasta tres Decimators"
+  },
+  {
+   "id": "chaos-war-engines-feral",
+   "nombre": "Feral",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Feral Titan",
+   "coste": 275,
+   "costeTexto": "275 points",
+   "unidadesEs": "Un Feral Titan"
+  },
+  {
+   "id": "chaos-war-engines-ravager",
+   "nombre": "Ravager",
+   "seccion": "chaos-war-engines",
+   "unidades": "One Ravager Titan",
+   "coste": 650,
+   "costeTexto": "650 points",
+   "unidadesEs": "Un Ravager Titan"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "chaos-champion",
+   "nombre": "Chaos Champion",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add one Champion of Chaos character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Campeón del Caos",
+   "textoEs": "Añade un personaje Champion of Chaos"
+  },
+  {
+   "id": "chaos-warlord",
+   "nombre": "Chaos Warlord",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add one Chaos Warlord character per army to a Daemon Prince or a unit with a Chaos Lord character",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Señor de la Guerra del Caos",
+   "textoEs": "Añade un personaje Chaos Warlord por ejército a un Daemon Prince o a una unidad con un personaje Chaos Lord"
+  },
+  {
+   "id": "cult-marines",
+   "nombre": "Cult Marines",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add four Berzerkers, Noise Marines, Plague Marines or Thousand Sons to a formation that owes allegiance to Khorne, Slaanesh, Nurgle or Tzeentch respectively",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "nombreEs": "Marines de culto",
+   "textoEs": "Añade cuatro Berzerkers, Noise Marines, Plague Marines o Thousand Sons a una formación aliada de Khorne, Slaanesh, Nurgle o Tzeentch respectivamente"
+  },
+  {
+   "id": "daemon-prince-per-allegiance",
+   "nombre": "Daemon Prince per allegiance",
+   "seccion": "black-legion-upgrades",
+   "texto": "Replace a unit with a Chaos Lord character with a Daemon Prince",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "maxEjercito": 1,
+   "nombreEs": "Príncipe demonio por alianza",
+   "textoEs": "Sustituye una unidad con un personaje Chaos Lord por un Daemon Prince"
+  },
+  {
+   "id": "daemonic-pact",
+   "nombre": "Daemonic Pact",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add one Lesser Daemon to the Daemon Pool. The formation may summon daemons.",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Pacto demoníaco",
+   "textoEs": "Añade un Lesser Daemon a la reserva de demonios. La formación puede invocar demonios."
+  },
+  {
+   "id": "defilers",
+   "nombre": "Defilers",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add up to three Defilers",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Defilers"
+  },
+  {
+   "id": "dreadclaws",
+   "nombre": "Dreadclaws",
+   "seccion": "black-legion-upgrades",
+   "texto": "Transport a formation containing only infantry units and Chaos Dreadnoughts in Dreadclaws",
+   "coste": 5,
+   "costeTexto": "+5 points per unit",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Transporta en Dreadclaws una formación formada solo por infantería y Chaos Dreadnoughts"
+  },
+  {
+   "id": "dreadnoughts",
+   "nombre": "Dreadnoughts",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add up to three Chaos Dreadnoughts",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Dreadnoughts"
+  },
+  {
+   "id": "havocs",
+   "nombre": "Havocs",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add four Havocs",
+   "coste": 150,
+   "costeTexto": "+150 points",
+   "textoEs": "Añade cuatro Havocs"
+  },
+  {
+   "id": "icon-bearer",
+   "nombre": "Icon Bearer",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add one Icon Bearer character",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "nombreEs": "Portaestandarte",
+   "textoEs": "Añade un personaje Icon Bearer"
+  },
+  {
+   "id": "land-raiders",
+   "nombre": "Land Raiders",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add up to four Chaos Land Raiders",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 4,
+   "textoEs": "Añade hasta cuatro Chaos Land Raiders"
+  },
+  {
+   "id": "obliterators",
+   "nombre": "Obliterators",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add up to three Obliterators",
+   "coste": 75,
+   "costeTexto": "+75 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Obliteradores",
+   "textoEs": "Añade hasta tres Obliterators"
+  },
+  {
+   "id": "rhinos",
+   "nombre": "Rhinos",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add one Chaos Rhino for every two infantry units",
+   "coste": 10,
+   "costeTexto": "+10 points each",
+   "porUnidad": true,
+   "max": 10,
+   "textoEs": "Añade un Chaos Rhino por cada dos unidades de infantería"
+  },
+  {
+   "id": "vindicators",
+   "nombre": "Vindicators",
+   "seccion": "black-legion-upgrades",
+   "texto": "Add up to three Chaos Vindicators",
+   "coste": 35,
+   "costeTexto": "+35 points each",
+   "porUnidad": true,
+   "max": 3,
+   "textoEs": "Añade hasta tres Chaos Vindicators"
+  }
+ ],
+ "compras": [
+  {
+   "id": "daemon-pool-greater-daemon",
+   "nombre": "Greater Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 50,
+   "costeTexto": "+50 points each",
+   "nombreEs": "Demonio mayor"
+  },
+  {
+   "id": "daemon-pool-lesser-daemon",
+   "nombre": "Lesser Daemon",
+   "seccion": "daemon-pool",
+   "texto": "",
+   "coste": 15,
+   "costeTexto": "+15 points each",
+   "nombreEs": "Demonio menor"
+  }
+ ],
+ "fraccionAliados": 0.3333333333333333,
+ "nombreEs": "Marines Espaciales del Caos – Legión Negra",
+ "iniciativaEs": "Las formaciones de la Chaos Navy tienen iniciativa 2+. Todas las demás formaciones tienen iniciativa 1+.",
+ "reglas": [
+  {
+   "id": "6.11",
+   "titulo": "Lista de ejército de la Legión Negra de la 13.ª Cruzada Negra",
+   "parrafos": [
+    "Hace diez mil años, el Imperio de la Humanidad se vio asolado por una devastadora guerra civil conocida como la Herejía de Horus. Varias Legiones de Marines Espaciales se rebelaron contra el «Falso Emperador» bajo el liderazgo persuasivo pero corrupto del Señor de la Guerra Horus, antiguo lugarteniente del Emperador que cayó bajo el influjo del Caos. Marines Espaciales lucharon contra sus hermanos Marines Espaciales, hasta culminar en una batalla final en el Palacio Imperial de la Sagrada Terra. Aunque las fuerzas del Imperio vencieron, el Emperador de la Humanidad quedó mortalmente herido y fue encerrado en el Trono Dorado para mantenerlo con vida. Mientras tanto, los Marines Espaciales rebeldes supervivientes huyeron al Ojo del Terror, una gigantesca tormenta disforme en el borde nororiental de la galaxia, donde el espacio disforme se mezcla con el espacio real y los Demonios del Caos pueden manifestarse.",
+    "Los Marines Espaciales traidores se refugiaron en el Ojo del Terror y desde su base en la vorágine lanzan incursiones y Cruzadas Negras. Estos Marines Espaciales del Caos se convirtieron en una plaga interminable para el Imperio, sembrando el caos en nombre de sus Dioses.",
+    "Fuerzas: Esta lista usa las hojas de datos de 5.11.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de Marines Espaciales del Caos basado en la Legión",
+    "Negra de Abaddon. También puede usarse como lista «sustituta» para otras Legiones Traidoras, como la Guardia de la Muerte, los Devoradores de Mundos, los Amos de la Noche y los Guerreros de Hierro.",
+    "Las formaciones de la Legión Negra son de tres tipos: formaciones principales (core), formaciones de élite y formaciones de apoyo. Cada formación principal que incluyas en el ejército te permite desplegar una formación de élite cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de élite o de apoyo si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "Además, las formaciones pueden recibir hasta cuatro mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras. Los ejércitos de la Legión Negra pueden recibir apoyo de formaciones de la Armada del Caos y de Ingenios de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
+    "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación Aumentada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2)."
+   ]
+  },
+  {
+   "id": "6.11.1",
+   "titulo": "Reglas especiales de torneo de la Legión Negra de la 13.ª Cruzada Negra",
+   "parrafos": [
+    "Lealtad de la formación: Cada formación de un ejército de la Legión Negra de la 13.ª Cruzada Negra debe lealtad al Caos Indiviso o a uno de los cuatro dioses del Caos: Khorne, Nurgle, Slaanesh o Tzeentch. El jugador debe declarar la lealtad de cada formación antes de la batalla, anotándola en su lista de ejército.",
+    "Costes en puntos de invocación: A continuación se indican los costes en puntos de invocación de un ejército de la Legión Negra de la 13.ª Cruzada Negra. Si una fila contiene un coste entre paréntesis, ese es el coste para las formaciones que deben lealtad al Caos Indiviso.",
+    "Costes de invocación de Demonios Menores Puntos de invocación",
+    "Demonio",
+    "Lealtad",
+    "Bestias Demoníacas (Daemonic Beasts) · Cualquiera: 1",
+    "Desangradores (Bloodletters) · Khorne: 1 (2)",
+    "Portadores de Plaga (Plaguebearers) · Nurgle: 1 (2)",
+    "Diablillas (Daemonettes) · Slaanesh: 1 (2)",
+    "Incineradores (Flamers) · Tzeentch: 1 (2)",
+    "Costes de invocación de Demonios Mayores",
+    "Demonio",
+    "Lealtad",
+    "Puntos de invocación",
+    "Devorador de Almas (Bloodthirster) · Khorne: 8",
+    "Gran Inmundicia (Great Unclean One) · Nurgle: 8",
+    "Guardián de los Secretos (Keeper of Secrets) · Slaanesh: 8",
+    "Señor del Cambio (Lord of Change) · Tzeentch: 8"
+   ]
+  },
+  {
+   "id": "6.11.2",
+   "titulo": "Amos Volubles (Fickle Masters)",
+   "parrafos": [
+    "Los Poderes del Caos castigan o recompensan rápidamente a sus campeones. En la fase de estrategia, si el jugador del Caos saca un 6, es recompensado por su perspicacia táctica con 1D3 demonios menores adicionales que se añaden a la Reserva de Demonios (véase 6.11.3). Si saca un 1, sus Poderes patrones le retiran su apoyo y debe retirar D3 demonios menores de la Reserva de Demonios. Si no le quedan demonios en la Reserva, no hay más efecto."
+   ]
+  },
+  {
+   "id": "6.11.3",
+   "titulo": "Unidades Invocadas (Summoned Units)",
+   "parrafos": [
+    "Las formaciones no desmoralizadas con Pacto Demoníaco pueden invocar al campo de batalla, desde la Reserva de Demonios (Daemon Pool), demonios de lealtad similar (o demonios de cualquier lealtad si la formación debe lealtad al Caos Indiviso). Los demonios de la Reserva de Demonios solo se anotan como demonios menores o mayores al adquirirlos, y deben considerarse marcadores. El jugador del Caos debe indicar en todo momento, de forma claramente visible para su oponente, el número de demonios menores y mayores de la Reserva de Demonios. La Reserva se mantiene fuera del tablero y los demonios se retiran de ella a medida que las formaciones los invocan al campo de batalla.",
+    "Una formación puede invocar unidades demoníacas de la Reserva de Demonios como parte de su acción, antes de declarar qué acción realizará. La formación genera 2D3 puntos de invocación que pueden usarse para trasladar demonios de la Reserva al campo de batalla, donde se convierten en unidades demoníacas reales. La lealtad de la formación que invoca determina qué unidades demoníacas puede invocar, mientras que las unidades demoníacas disponibles (y sus respectivos costes en puntos de invocación) se definen en cada lista de ejército del Caos. Los puntos de invocación deben usarse inmediatamente o se pierden, pero los demonios no invocados de la Reserva siguen disponibles para que los invoquen otras formaciones o en turnos posteriores. Las unidades demoníacas invocadas deben colocarse a 5 cm o menos de una unidad de la formación que ya estuviera allí antes de la invocación; no puedes colocar una «cadena» de unidades invocadas. Tampoco pueden colocarse en zona de control enemiga ni en terreno infranqueable. Por último, un ejército solo puede tener en el campo de batalla un demonio mayor de",
+    "una lealtad dada a la vez. Las unidades demoníacas invocadas cuentan como parte de la formación que las invocó mientras permanezcan en el campo de batalla.",
+    "Las unidades demoníacas destruidas se retiran del juego y no vuelven a la Reserva de Demonios. Si una formación con unidades demoníacas queda desmoralizada, todas sus unidades demoníacas se retiran también del juego. Si una formación con unidades demoníacas pierde un asalto (véase Calcular el resultado), los impactos adicionales que sufre se aplican antes de que quede desmoralizada y se retiren las unidades demoníacas. Ten en cuenta también que las unidades demoníacas sí cuentan para el modificador de asalto de tu oponente «Por cada baja que hayas infligido durante el asalto».",
+    "En la fase final, tras todos los chequeos de reorganización, todas las unidades demoníacas invocadas se convierten de nuevo en marcadores de demonio y vuelven a la Reserva de Demonios. Ten en cuenta que esto puede hacer que la formación quede desmoralizada. Las unidades de Ingenio de Guerra que vuelven a la Reserva de Demonios conservan su DC actual y no se curan hasta su DC completa. Si se invocan de nuevo, tendrán la misma DC que tenían antes de volver a la Reserva."
+   ]
+  },
+  {
+   "id": "5.11.1",
+   "titulo": "Invocación Aumentada (Augmented Summoning)",
+   "parrafos": [
+    "Algunas unidades del Caos tienen Invocación Aumentada (+x). Las unidades con esta capacidad suman un número de puntos de invocación igual a «x» cuando la formación en la que están invoca demonios (véase 6.11.3). Por ejemplo, una unidad con Invocación Aumentada (+2D3) permitiría a una formación con Pacto Demoníaco tirar 4D3 puntos de invocación en lugar de los 2D3 habituales."
+   ]
+  },
+  {
+   "id": "5.11.2",
+   "titulo": "Foco Demoníaco (Daemonic Focus)",
+   "parrafos": [
+    "Ciertas unidades del Caos tienen Foco Demoníaco. Las unidades con esta capacidad pueden mantener en juego algunas o todas las unidades invocadas que pertenezcan a la formación. Las unidades invocadas no se desvanecen de vuelta a la Disformidad después de que la formación haya intentado reorganizarse. Las unidades del Caos con Foco Demoníaco no pueden usarse para mantener en juego unidades invocadas si la formación está desmoralizada."
+   ]
+  }
+ ]
+}

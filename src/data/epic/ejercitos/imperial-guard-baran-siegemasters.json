@@ -1,0 +1,372 @@
+{
+ "id": "imperial-guard-baran-siegemasters",
+ "nombre": "Imperial Guard – Baran Siegemasters",
+ "version": "2026-02-05",
+ "estrategia": 1,
+ "iniciativa": "All formations have an initiative rating of 2+.",
+ "secciones": [
+  {
+   "id": "baran-siegemaster-companies",
+   "nombre": "Baran Siegemaster Companies",
+   "tipo": "nucleo",
+   "nota": "",
+   "nombreEs": "Compañías de los Maestros de Asedio de Baran"
+  },
+  {
+   "id": "baran-siegemaster-company-upgrades",
+   "nombre": "Baran Siegemaster Company Upgrades",
+   "tipo": "mejoras",
+   "nota": "Up to three company upgrades may be taken once per company.",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nombreEs": "Mejoras de compañía de los Maestros de Asedio de Baran",
+   "notaEs": "Se pueden tomar hasta tres mejoras de compañía, cada una una vez por compañía."
+  },
+  {
+   "id": "baran-siegemaster-support-formations",
+   "nombre": "Baran Siegemaster Support Formations",
+   "tipo": "apoyo",
+   "nota": "Any two support formations may be fielded per each company.",
+   "porCada": {
+    "cantidad": 2,
+    "base": "company"
+   },
+   "nombreEs": "Formaciones de apoyo de los Maestros de Asedio de Baran",
+   "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada compañía."
+  },
+  {
+   "id": "baran-siegemaster-fortified-positions",
+   "nombre": "Baran Siegemaster Fortified Positions",
+   "tipo": "apoyo",
+   "nota": "One may be fielded per each company.",
+   "porCada": {
+    "cantidad": 1,
+    "base": "company"
+   },
+   "nombreEs": "Posiciones fortificadas de los Maestros de Asedio de Baran",
+   "notaEs": "Se puede desplegar una por cada compañía."
+  },
+  {
+   "id": "imperial-navy-aircraft",
+   "nombre": "Imperial Navy Aircraft",
+   "tipo": "tercio",
+   "nota": "Up to a fourth of the points available may be spent on these formations.",
+   "nombreEs": "Aeronaves de la Armada Imperial",
+   "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "baran-siegemaster-companies-infantry-company",
+   "nombre": "Infantry Company",
+   "seccion": "baran-siegemaster-companies",
+   "unidades": "One Commander unit and nine Siege Infantry units",
+   "coste": 175,
+   "costeTexto": "175 points",
+   "nombreEs": "Compañía de infantería",
+   "unidadesEs": "Una unidad de Commander y nueve de Siege Infantry"
+  },
+  {
+   "id": "baran-siegemaster-companies-1-regimental-hq",
+   "nombre": "1 Regimental HQ",
+   "seccion": "baran-siegemaster-companies",
+   "unidades": "One Supreme Commander unit and nine Siege Infantry units",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "nombreEs": "1 Cuartel general regimental",
+   "unidadesEs": "Una unidad de Supreme Commander y nueve de Siege Infantry"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-artillery-battery",
+   "nombre": "Artillery Battery",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Three Götterdämmerung Howitzers and three Bruenhilde",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Batería de artillería",
+   "unidadesEs": "Tres Götterdämmerung Howitzers y tres Bruenhilde"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-artillery-company",
+   "nombre": "Artillery Company",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Nine Götterdämmerung Howitzers and nine Gun Emplacements",
+   "coste": 425,
+   "costeTexto": "425 points",
+   "nombreEs": "Compañía de artillería",
+   "unidadesEs": "Nueve Götterdämmerung Howitzers y nueve Gun Emplacements"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-bombard-battery",
+   "nombre": "Bombard Battery",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Three Bombards",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Batería de Bombards",
+   "unidadesEs": "Tres Bombards"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-deathstrike-battery",
+   "nombre": "Deathstrike Battery",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Two Deathstrikes",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "max": 1,
+   "nombreEs": "Batería Deathstrike",
+   "unidadesEs": "Dos Deathstrikes"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-flak-battery",
+   "nombre": "Flak Battery",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Three Blitzen AA Guns and either three Bruenhilde or three Gun Emplacements",
+   "coste": 125,
+   "costeTexto": "125 points",
+   "nombreEs": "Batería antiaérea",
+   "unidadesEs": "Tres Blitzen AA Guns y además tres Bruenhilde o tres Gun Emplacements"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-heavy-tank-platoon",
+   "nombre": "Heavy Tank Platoon",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Six Ragnarok Heavy Tanks",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "nombreEs": "Pelotón de tanques pesados",
+   "unidadesEs": "Seis Ragnarok Heavy Tanks"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-light-tank-platoon",
+   "nombre": "Light Tank Platoon",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Six Siegfried Light Tanks",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Pelotón de tanques ligeros",
+   "unidadesEs": "Seis Siegfried Light Tanks"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-rough-rider-platoon",
+   "nombre": "Rough Rider Platoon",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Six Rough Rider units",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Pelotón de Rough Riders",
+   "unidadesEs": "Seis unidades de Rough Rider"
+  },
+  {
+   "id": "baran-siegemaster-support-formations-sapper-platoon",
+   "nombre": "Sapper Platoon",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "Eight Sappers (The units may be split up and added to one or more companies in the army, or fielded as a single formation in their own right.)",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "max": 1,
+   "nombreEs": "Pelotón de zapadores",
+   "unidadesEs": "Ocho Sappers (pueden repartirse entre una o más compañías del ejército, o desplegarse como una formación propia)."
+  },
+  {
+   "id": "baran-siegemaster-support-formations-super-heavy-tank-platoon",
+   "nombre": "Super-heavy Tank Platoon",
+   "seccion": "baran-siegemaster-support-formations",
+   "unidades": "One Baneblade or Shadowsword",
+   "coste": 200,
+   "costeTexto": "200 points",
+   "nombreEs": "Pelotón de tanques superpesados",
+   "unidadesEs": "Un Baneblade o Shadowsword"
+  },
+  {
+   "id": "baran-siegemaster-fortified-positions-fortified-positions",
+   "nombre": "Fortified Positions",
+   "seccion": "baran-siegemaster-fortified-positions",
+   "unidades": "Up to 52cm of trenches and 52cm of razor wire, plus up to six of the following: Gun Emplacements, Bunkers",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Posiciones fortificadas",
+   "unidadesEs": "Hasta 52 cm de trincheras y 52 cm de alambre de espino, más hasta seis de estas: Gun Emplacements, Bunkers"
+  },
+  {
+   "id": "imperial-navy-aircraft-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Marauder Bombers",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "nombreEs": "Escuadrón de Marauders",
+   "unidadesEs": "Dos Marauder Bombers"
+  },
+  {
+   "id": "imperial-navy-aircraft-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "seccion": "imperial-navy-aircraft",
+   "unidades": "Two Thunderbolt Fighters",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "nombreEs": "Escuadrón de Thunderbolts",
+   "unidadesEs": "Dos Thunderbolt Fighters"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "griffon-battery",
+   "nombre": "Griffon Battery",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add three Griffons",
+   "coste": 50,
+   "costeTexto": "+50 points",
+   "nombreEs": "Batería de Griffons",
+   "textoEs": "Añade tres Griffons"
+  },
+  {
+   "id": "hellhound-squadron",
+   "nombre": "Hellhound Squadron",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add up to three Hellhounds",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 3,
+   "nombreEs": "Escuadrón de Hellhounds",
+   "textoEs": "Añade hasta tres Hellhounds"
+  },
+  {
+   "id": "rapier-platoon",
+   "nombre": "Rapier Platoon",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add three Rapier Laser Destroyer units",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Pelotón de Rapiers",
+   "textoEs": "Añade tres unidades de Rapier Laser Destroyer"
+  },
+  {
+   "id": "siege-infantry-platoon",
+   "nombre": "Siege Infantry Platoon",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add six Siege Infantry units",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Pelotón de infantería de asedio",
+   "textoEs": "Añade seis unidades de Siege Infantry"
+  },
+  {
+   "id": "snipers",
+   "nombre": "Snipers",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add up to two Snipers",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 2,
+   "nombreEs": "Francotiradores",
+   "textoEs": "Añade hasta dos Snipers"
+  },
+  {
+   "id": "thudd-gun-platoon",
+   "nombre": "Thudd Gun Platoon",
+   "seccion": "baran-siegemaster-company-upgrades",
+   "texto": "Add three Thudd Gun units",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "nombreEs": "Pelotón de Thudd Guns",
+   "textoEs": "Añade tres unidades de Thudd Gun"
+  }
+ ],
+ "compras": [],
+ "fraccionAliados": 0.25,
+ "nombreEs": "Guardia Imperial – Maestros de Asedio de Baran",
+ "iniciativaEs": "Todas las formaciones tienen iniciativa 2+.",
+ "reglas": [
+  {
+   "id": "6.7",
+   "titulo": "Lista de ejército de la Guardia Imperial de los Asediadores de Baran",
+   "parrafos": [
+    "Fuerzas: Esta lista usa las hojas de datos de 5.7 y 5.3.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio del tipo de los Asediadores de Baran. También puede usarse como lista «sustituta» para otros regimientos de asedio de la Guardia Imperial y otros tipos de regimientos de defensa estática, y es además una lista excelente para representar las fuerzas de defensa planetaria que despliegan los Gobernadores Imperiales por todo el Imperio. Las formaciones de los Asediadores de Baran son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Posiciones Fortificadas. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas.",
+    "Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Los ejércitos de los Asediadores de Baran pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
+    "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de los Asediadores de Baran (véase 6.4.1).",
+    "FAQ",
+    "P: Si un Pelotón de Zapadores se divide y se añade a una o más compañías, ¿se ven afectados la meta Quebrar su Moral o el desempate?",
+    "R: Sí; cada unidad de Zapadores suma +30 puntos a la compañía a la que se añade."
+   ]
+  },
+  {
+   "id": "6.7.1",
+   "titulo": "Cuarteles Generales de Regimiento",
+   "parrafos": [
+    "(Regimental HQs)",
+    "En las partidas de torneo de Epic, un ejército de Asediadores debe incluir un Cuartel General de Regimiento. El enemigo cuenta como si hubiera conseguido la meta «Quebrar su Mo‐",
+    "ral» destruyendo esta formación o destruyendo la formación más cara del ejército (véase 6.1.7)."
+   ]
+  },
+  {
+   "id": "6.7.2",
+   "titulo": "Posiciones Fortificadas",
+   "parrafos": [
+    "Las posiciones fortificadas deben desplegarse después de colocar los objetivos, pero antes de desplegar las naves espaciales y las guarniciones. La única excepción son las posiciones fortificadas que figuran como parte de las «unidades» de una formación. Aunque en realidad no son unidades, se despliegan con la formación de la que forman parte.",
+    "Las posiciones fortificadas pueden desplegarse en cualquier lugar de la mitad de mesa del jugador donde pudiera desplegar un vehículo. No pueden ser transportadas. Cada grupo de posiciones fortificadas (forme parte de una formación o no) debe desplegarse de modo que cada pieza esté a 5 cm o menos de otra pieza del mismo grupo, y de modo que todas las piezas del grupo formen una «cadena» sin huecos de más de 5 cm. Además, si un grupo de posiciones fortificadas forma parte de una formación, al menos una pieza debe estar a 5 cm o menos de una unidad de la formación al desplegarse.",
+    "Una vez desplegadas, las posiciones fortificadas pueden ser usadas por cualquier unidad (incluidas las enemigas).",
+    "FAQ",
+    "P: ¿Hay que desplegar todas las Posiciones Fortificadas adquiridas?",
+    "R: No.",
+    "P: ¿Se cuentan las Posiciones Fortificadas en el desempate?",
+    "R: No.",
+    "P: ¿Los Emplazamientos de Armas que acompañan a ciertas formaciones se despliegan al mismo tiempo que las Posiciones Fortificadas?",
+    "R: No; se despliegan con la formación de la que forman parte.",
+    "P: ¿Forman parte de la formación los Emplazamientos de Armas que acompañan a ciertas formaciones?",
+    "R: No; no son unidades. Simplemente deben desplegarse en cohesión con el resto de la formación."
+   ]
+  },
+  {
+   "id": "5.7.1",
+   "titulo": "Posiciones Fortificadas de los Asediadores de Baran",
+   "parrafos": [
+    "Búnker: Cuenta como Fortificación (véase 1.8.4). Puede albergar tres unidades. Las unidades en un búnker no pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Emplazamiento de Armas (Gun Emplacement): Proporciona a los vehículos una salvación por cobertura que funciona igual que la de la infantería (véase 1.8.3). Puede albergar una unidad. Las unidades en un emplazamiento no pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Trinchera: Puede albergar una unidad de infantería por cada 4 cm de longitud. Las unidades en una trinchera no pueden ser apartadas a empujones por un ingenio de guerra.",
+    "Tabla de efectos de las posiciones fortificadas Terreno",
+    "Infantería",
+    "Vehículo",
+    "Ingenio de Guerra",
+    "Búnker",
+    "Salv. cobertura 3+",
+    "Peligroso",
+    "Peligroso",
+    "Emplazamiento de Armas",
+    "Salv. cobertura 4+",
+    "Salv. cobertura 5+",
+    "Sin efecto",
+    "Alambrada de espino",
+    "Peligroso",
+    "Sin efecto",
+    "Sin efecto",
+    "Trinchera",
+    "Salv. cobertura 4+",
+    "Peligroso",
+    "Sin efecto",
+    "FAQ",
+    "P: ¿Qué es una posición fortificada?",
+    "R: No son unidades. Son escenografía que coloca el jugador.",
+    "P: ¿Bloquean la línea de fuego las posiciones fortificadas?",
+    "R: No.",
+    "P: ¿Funcionan contra el fuego procedente de todas las direcciones?",
+    "R: Sí.",
+    "P: ¿Tienen que hacer un chequeo de terreno peligroso las unidades que entran o empiezan a mover en su propia posición fortificada?",
+    "R: Si es peligrosa para su tipo de unidad, sí.",
+    "P: ¿Qué anchura tienen la alambrada de espino y la trinchera?",
+    "R: Se supone que menos de 5 cm, y pueden cruzarse en un movimiento cuando la unidad se mueve con precaución."
+   ]
+  },
+  {
+   "id": "6.4.1",
+   "titulo": "Comisarios (Commissars)",
+   "parrafos": [
+    "Un ejército de la Guardia Imperial puede incluir un personaje Comisario por cada 500 puntos, o fracción, del ejército. Los Comisarios no cuestan puntos.",
+    "Los Comisarios pueden añadirse al ejército al comienzo de la batalla, antes de que ningún bando despliegue. Si el ejército incluye un Comandante Supremo, el primer Comisario debe asignarse a la formación del Comandante Supremo. Los demás Comisarios pueden asignarse a cualquier otra formación. No puedes incluir más de un Comisario por formación. No puedes añadir un Comisario a una formación de Aliados Imperiales. Si tienes más Comisarios que formaciones, los sobrantes se pierden."
+   ]
+  }
+ ]
+}
