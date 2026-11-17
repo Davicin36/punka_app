@@ -16,6 +16,35 @@ export interface GrupoEleccion {
   max: number;
   /** true si son personajes (se elige uno por cada personaje añadido) */
   personaje: boolean;
+  /** Variantes de Leman Russ: recargo de cada opción, máximos por opción y cuáles son raras */
+  costes?: Record<string, number>;
+  maxPor?: Record<string, number>;
+  raras?: string[];
+}
+
+// ===== Variantes de Leman Russ (Minerva, Krieg) =====
+// La lista vende «variantes» con un recargo cada una; las formaciones dicen cuántas llevan
+// («Any six Leman Russ variants», «Add any three Leman Russ variants»). Se escogen en la formación.
+
+/** Compras del ejército que son variantes de Leman Russ (no se compran sueltas). */
+export const esVarianteLeman = (seccion: string) => seccion.startsWith('leman-russ');
+
+function grupoVariantes(e: EjercitoEpic, texto: string, clave: string, origen: string): GrupoEleccion | null {
+  const t = texto.replace(/\(.*\)/g, '');  // «(Add any four…)» es un extra aparte
+  const m = t.match(/\b(\w+) Leman Russ variants/i);
+  const n = m ? numero(m[1]) : undefined;
+  if (n === undefined) return null;
+  const variantes = e.compras.filter(c => esVarianteLeman(c.seccion));
+  if (!variantes.length) return null;
+  const sinVanquisher = /none of which may be a Leman Russ Vanquisher/i.test(t);
+  const unoVanquisher = /up to one of which may be a Leman Russ Vanquisher/i.test(t);
+  const opciones = variantes.map(c => c.nombre).filter(o => !(sinVanquisher && o === 'Leman Russ Vanquisher'));
+  return {
+    clave, origen, opciones, min: n, max: n, personaje: false,
+    costes: Object.fromEntries(variantes.map(c => [c.nombre, c.coste])),
+    maxPor: unoVanquisher ? { 'Leman Russ Vanquisher': 1 } : undefined,
+    raras: variantes.filter(c => c.seccion.includes('rare')).map(c => c.nombre),
+  };
 }
 
 const NUM: Record<string, number> = {
@@ -108,6 +137,17 @@ export function gruposEleccion(e: EjercitoEpic, fe: FormacionElegida): GrupoElec
   const f = formacionDe(e, fe.formacion);
   if (!f || !e.fichas?.length) return [];
   const out: GrupoEleccion[] = [];
+  const v0 = grupoVariantes(e, f.unidades, 'lr:u', 'Variantes de Leman Russ');
+  if (v0) out.push(v0);
+  (f.extras ?? []).forEach((x, j) => {
+    const v = fe.extras[j] ? grupoVariantes(e, x.texto, `lr:x${j}`, `Variantes de Leman Russ (${es(x.textoEs, x.texto)})`) : null;
+    if (v) out.push(v);
+  });
+  for (const [nombre, n] of Object.entries(fe.mejoras)) {
+    const m = n ? mejoraDe(e, nombre) : undefined;
+    const v = m ? grupoVariantes(e, m.texto, `lr:m:${nombre}`, `Variantes de Leman Russ (${nom(m)})`) : null;
+    if (v) out.push(v);
+  }
   gruposEnTexto(e, f.unidades).forEach((g, k) =>
     out.push({ clave: `u${k}`, origen: 'Unidades', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje }));
   (f.extras ?? []).forEach((x, j) => {
@@ -148,8 +188,25 @@ export function problemasReparto(e: EjercitoEpic, fe: FormacionElegida): string[
     const origen = g.origen === 'Unidades' ? 'Unidades de la formación' : g.origen;
     if (t < g.min) return [`${origen}: elige ${g.min === g.max ? g.min : `al menos ${g.min}`} ${que} (${g.opciones.map(o => nombreUnidad(e, o)).join(' / ')}); llevas ${t}.`];
     if (t > g.max) return [`${origen}: máximo ${g.max} ${que}; llevas ${t}.`];
-    return [];
-  });
+    return Object.entries(g.maxPor ?? {}).flatMap(([o, max]) =>
+      (fe.reparto?.[g.clave]?.[o] ?? 0) > max ? [`${origen}: como máximo ${max} ${nombreUnidad(e, o)}.`] : []);
+  }).concat(problemasRaras(e, fe));
+}
+
+/** «En cada formación, una de cada cinco variantes de Leman Russ puede ser rara». */
+function problemasRaras(e: EjercitoEpic, fe: FormacionElegida): string[] {
+  const gs = gruposEleccion(e, fe).filter(g => g.raras?.length);
+  if (!gs.length) return [];
+  const total = gs.reduce((s, g) => s + totalReparto(fe, g.clave), 0);
+  const raras = gs.reduce((s, g) => s + g.raras!.reduce((t, o) => t + (fe.reparto?.[g.clave]?.[o] ?? 0), 0), 0);
+  const max = Math.floor(total / 5);
+  return raras > max ? [`Variantes raras de Leman Russ: como máximo ${max} (una de cada cinco); llevas ${raras}.`] : [];
+}
+
+/** Recargo de las variantes de Leman Russ escogidas en una formación. */
+export function costeVariantes(e: EjercitoEpic, fe: FormacionElegida): number {
+  return gruposEleccion(e, fe).filter(g => g.costes).reduce((s, g) =>
+    s + Object.entries(fe.reparto?.[g.clave] ?? {}).reduce((t, [o, n]) => t + (g.costes![o] ?? 0) * n, 0), 0);
 }
 
 /** Texto del reparto: «2 Predator Annihilator, 2 Predator Destructor». */

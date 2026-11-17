@@ -2,7 +2,7 @@
 import { jsPDF } from 'jspdf';
 import autoTable, { type RowInput } from 'jspdf-autotable';
 import type { EjercitoEpic, ListaEpic } from './tipos';
-import { costeAliados, costeFormacion, costeLista, detalleFormacion, formacionDe, problemasLista } from './logica';
+import { comprasSueltas, costeAliados, costeFormacion, costeLista, detalleFormacion, formacionDe, problemasLista } from './logica';
 import { nombreArchivo } from '../logic/descargar';
 import { es, nom } from './texto';
 import { anexoReglas } from '../logic/pdfReglas';
@@ -74,7 +74,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
   }
 
   // Compras sueltas
-  const compras = e.compras.filter(c => l.compras[c.id]);
+  const compras = comprasSueltas(e).filter(c => l.compras[c.id]);
   if (compras.length) {
     autoTable(doc, {
       startY: y, margin: { left: M, right: M },
