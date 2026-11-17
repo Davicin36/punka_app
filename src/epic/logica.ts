@@ -1,7 +1,7 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
-import { costeVariantes, esVarianteLeman, problemasReparto, textoReparto } from './eleccion';
+import { costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -202,7 +202,8 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
   const t = f.tamanos?.[fe.tamano];
   const tamano = t ? nom(t) : undefined;
   const reparto = textoReparto(e, fe);
-  return { formacion: f, tamano, extras, mejoras, reparto };
+  const transporte = textoTransporte(e, fe);
+  return { formacion: f, tamano, extras, mejoras, reparto, transporte };
 }
 
 export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
@@ -218,6 +219,7 @@ export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
       if (d.extras.length) lineas.push(`   Extras: ${d.extras.join('; ')}`);
       if (d.mejoras.length) lineas.push(`   Mejoras: ${d.mejoras.join(', ')}`);
       for (const r of d.reparto) lineas.push(`   ${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
+      if (d.transporte) lineas.push(`   Transporte: ${d.transporte}`);
       if (fe.nota) lineas.push(`   Nota: ${fe.nota}`);
     }
     lineas.push('');

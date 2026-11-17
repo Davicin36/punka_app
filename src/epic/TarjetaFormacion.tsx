@@ -19,7 +19,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
   const d = detalleFormacion(e, fe);
   const mejoras = mejorasPermitidas(e, f);
   const grupos = gruposEleccion(e, fe);
-  const resumen = [d.tamano, ...d.reparto.map(r => r.texto), ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
+  const resumen = [d.tamano, ...d.reparto.map(r => r.texto), d.transporte && `Transporte: ${d.transporte}`, ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
   /** Cambia la cantidad de una opción dentro de un grupo de reparto */
   const repartir = (clave: string, unidad: string, valor: number, unico: boolean) => onChange(y => {
     const r = { ...(unico ? {} : y.reparto?.[clave] ?? {}) };
