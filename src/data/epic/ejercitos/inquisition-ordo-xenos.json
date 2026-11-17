@@ -409,21 +409,11 @@
    "costeTexto": "+75 points each +125 points per pair",
    "porUnidad": true,
    "max": 20,
-   "variantes": [
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points each",
-     "textoEs": "+75 puntos cada uno"
-    },
-    {
-     "coste": 125,
-     "porUnidad": true,
-     "texto": "+125 points per pair",
-     "textoEs": "+125 puntos por pareja"
-    }
-   ],
-   "textoEs": "Añade Land Raiders, hasta el número necesario para transportar la formación"
+   "textoEs": "Añade Land Raiders, hasta el número necesario para transportar la formación",
+   "parejas": {
+    "cada": 75,
+    "pareja": 125
+   }
   },
   {
    "id": "inquisitor-lord",

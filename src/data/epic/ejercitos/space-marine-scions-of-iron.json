@@ -390,32 +390,19 @@
    "id": "land-raiders",
    "nombre": "Land Raiders",
    "seccion": "scions-of-iron-upgrades",
-   "texto": "Add up to any four of the Land Raider or Land Raider Crusader following units: Land Raider Helios",
+   "texto": "Add up to any four of the following units: Land Raider, Land Raider Crusader, Land Raider Helios",
    "coste": 75,
    "costeTexto": "+75 points each or +125 points per pair +100 points each",
    "porUnidad": true,
    "max": 4,
-   "variantes": [
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points each or",
-     "textoEs": "+75 puntos cada uno o"
-    },
-    {
-     "coste": 125,
-     "porUnidad": true,
-     "texto": "+125 points per pair",
-     "textoEs": "+125 puntos por pareja"
-    },
-    {
-     "coste": 100,
-     "porUnidad": true,
-     "texto": "+100 points each",
-     "textoEs": "+100 puntos cada uno"
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider, Land Raider Crusader, Land Raider Helios",
+   "parejas": {
+    "cada": 75,
+    "pareja": 125,
+    "aparte": {
+     "Land Raider Helios": 100
     }
-   ],
-   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider o Land Raider Crusader …Land Raider Helios"
+   }
   },
   {
    "id": "land-speeders",

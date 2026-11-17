@@ -63,7 +63,9 @@ function patrones(e: EjercitoEpic) {
     // Más largos primero, para que «Land Raider Crusader» no se quede en «Land Raider»
     p = [...(e.fichas ?? [])].sort((a, b) => b.nombre.length - a.nombre.length).map(f => {
       const base = escapar(f.nombre);
-      const plural = f.nombre.endsWith('y') ? `|${escapar(f.nombre.slice(0, -1))}ies` : '';
+      const plural = f.nombre.endsWith('y') ? `|${escapar(f.nombre.slice(0, -1))}ies`
+        // «Grey Hunters» aparece en singular en los textos («Six Grey Hunter units»)
+        : / [A-Z]\w+s$/.test(f.nombre) ? `|${escapar(f.nombre.slice(0, -1))}` : '';
       return { nombre: f.nombre, re: new RegExp(`(?<![\\w-])(?:${base}(?:s|es)?${plural})(?![\\w-])`, 'g') };
     });
     cacheRe.set(e, p);
@@ -246,6 +248,64 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
       usadas.add(u.nombre);
     }
     elegidas.forEach(u => usadas.add(u));
+    transporteFormacion(e, fe).forEach(t => usadas.add(t.nombre));
   }
   return (e.fichas ?? []).filter(f => usadas.has(f.nombre));
 }
+
+// ===== «Más transporte»: Rhinos (y Land Raiders para Exterminadores) por defecto =====
+// En los Marines Espaciales (y la Deathwatch) las formaciones «plus transport» incluyen el mínimo de
+// transportes necesario para llevar toda la formación una vez añadidas las mejoras (véase 6.3.1).
+
+const conTransporte = (e: EjercitoEpic) => /^(space-marine|inquisition)/.test(e.id);
+
+/** Unidades con número delante en un texto («Six Tactical units», «Add two Blood Claws»). */
+function unidadesContadas(e: EjercitoEpic, texto: string): { nombre: string; n: number }[] {
+  return unidadesEnTexto(e, texto).map(u => {
+    const pal = texto.slice(0, u.ini).trim().split(/\s+/);
+    return { nombre: u.nombre, n: numero(pal[pal.length - 1] ?? '') ?? 1 };
+  });
+}
+
+const esExterminador = (f?: FichaEpic) => !!f && (/Terminator/.test(f.nombre) || /Exterminadores a efectos de transporte/.test(f.notas));
+
+/** Transporte por defecto de la formación: [{ nombre: 'Rhino', cantidad: 3 }]. Vacío si no lleva. */
+export function transporteFormacion(e: EjercitoEpic, fe: FormacionElegida): { nombre: string; cantidad: number }[] {
+  const f = formacionDe(e, fe.formacion);
+  if (!f || !conTransporte(e) || !/plus transport/i.test(f.unidades)) return [];
+  let infanteria = 0, exterminadores = 0, landRaiders = 0, razorbacks = 0;
+  const sumar = (nombre: string, n: number) => {
+    const ficha = fichaDe(e, nombre);
+    if (ficha?.tipo !== 'INF') return;
+    if (esExterminador(ficha)) exterminadores += n; else infanteria += n;
+  };
+  for (const u of unidadesContadas(e, f.unidades.split(/plus transport/i)[0])) sumar(u.nombre, u.n);
+  // Unidades elegidas en los repartos (p. ej. Land Raiders de la mejora)
+  for (const g of gruposEleccion(e, fe)) {
+    for (const [o, n] of Object.entries(fe.reparto?.[g.clave] ?? {})) {
+      if (o.startsWith('Land Raider')) landRaiders += n; else sumar(o, n);
+    }
+  }
+  for (const [nombre, n] of Object.entries(fe.mejoras)) {
+    const m = n ? mejoraDe(e, nombre) : undefined;
+    if (!m) continue;
+    if (/Razorback/.test(m.nombre)) { razorbacks += n; continue; }
+    if (/^Land Raiders?$/.test(m.nombre) && !gruposEleccion(e, fe).some(g => g.clave.startsWith(`m:${nombre}`))) { landRaiders += m.porUnidad ? n : 1; continue; }
+    if (gruposEleccion(e, fe).some(g => g.clave.startsWith(`m:${nombre}`))) continue;
+    for (const u of unidadesContadas(e, m.texto)) sumar(u.nombre, u.n * (m.porUnidad ? n : 1));
+  }
+  // Los Land Raiders añadidos llevan primero a los Exterminadores (1 unidad) y si no, 2 de infantería
+  const lrParaExterminadores = Math.min(landRaiders, exterminadores);
+  const lrLibres = landRaiders - lrParaExterminadores;
+  const faltanExterminadores = exterminadores - lrParaExterminadores;
+  const faltanInfanteria = Math.max(0, infanteria - lrLibres * 2 - razorbacks);
+  const out: { nombre: string; cantidad: number }[] = [];
+  const rhinos = Math.ceil(faltanInfanteria / 2);
+  if (rhinos) out.push({ nombre: 'Rhino', cantidad: rhinos });
+  if (faltanExterminadores) out.push({ nombre: 'Land Raider', cantidad: faltanExterminadores });
+  return out;
+}
+
+/** «3 Rhinos» en castellano. */
+export const textoTransporte = (e: EjercitoEpic, fe: FormacionElegida) =>
+  transporteFormacion(e, fe).map(t => `${t.cantidad} ${nombreUnidad(e, t.nombre)}${t.cantidad > 1 ? 's' : ''}`).join(' y ');

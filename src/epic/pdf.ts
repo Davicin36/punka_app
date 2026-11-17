@@ -50,6 +50,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
       const lineas = [es(d.formacion.unidadesEs, d.formacion.unidades)];
       if (d.extras.length) lineas.push('Extras: ' + d.extras.join('; '));
       for (const r of d.reparto) lineas.push(`${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
+      if (d.transporte) lineas.push(`Transporte: ${d.transporte}`);
       if (d.mejoras.length) lineas.push('Mejoras: ' + d.mejoras.join(', '));
       if (fe.nota) lineas.push('Nota: ' + fe.nota);
       return [
