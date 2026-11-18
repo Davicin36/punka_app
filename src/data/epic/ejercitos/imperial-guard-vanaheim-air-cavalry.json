@@ -54,7 +54,7 @@
    "nombreEs": "0–1 Cuartel General del Regimiento",
    "seccion": "vanaheim-companies",
    "unidades": "One Vanaheim Supreme Commander, seven Vanaheim Infantry and four Valkyries",
-   "unidadesEs": "1x Comandante Supremo de Vanaheim, 7 Infantería de Vanaheim y 4x Valkyries",
+   "unidadesEs": "1x Comandante Supremo de Vanaheim, 7x Infantería de Vanaheim y 4x Valkyries",
    "coste": 375,
    "costeTexto": "375 points",
    "max": 1,
@@ -80,7 +80,7 @@
    "nombreEs": "Compañía de Caballería Aérea",
    "seccion": "vanaheim-companies",
    "unidades": "One Vanaheim Commander, seven Vanaheim Infantry and four Valkyries",
-   "unidadesEs": "1x Comandante de Vanaheim, 7 Infantería de Vanaheim y 4x Valkyries",
+   "unidadesEs": "1x Comandante de Vanaheim, 7x Infantería de Vanaheim y 4x Valkyries",
    "coste": 325,
    "costeTexto": "325 points",
    "extras": [
