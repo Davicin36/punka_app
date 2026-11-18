@@ -19,7 +19,7 @@
   {
    "id": "vanaheim-support-formations",
    "nombre": "Vanaheim Air Cavalry Support Formations",
-   "nombreEs": "Formaciones de apoyo",
+   "nombreEs": "Formaciones de apoyo de la Caballería Aérea de Vanaheim",
    "tipo": "apoyo",
    "porCada": {
     "cantidad": 2,
@@ -31,7 +31,7 @@
   {
    "id": "vanaheim-company-upgrades",
    "nombre": "Vanaheim Air Cavalry Company Upgrades",
-   "nombreEs": "Mejoras de compañía",
+   "nombreEs": "Mejoras de compañía de la Caballería Aérea de Vanaheim",
    "tipo": "mejoras",
    "maxPorFormacion": 2,
    "unaVez": true,
@@ -51,7 +51,7 @@
   {
    "id": "vanaheim-companies-0-1-regimental-hq",
    "nombre": "0-1 Regimental HQ",
-   "nombreEs": "0–1 Cuartel General del Regimiento",
+   "nombreEs": "0–1 Cuartel General Regimental",
    "seccion": "vanaheim-companies",
    "unidades": "One Vanaheim Supreme Commander, seven Vanaheim Infantry and four Valkyries",
    "unidadesEs": "1x Comandante Supremo de Vanaheim, 7x Infantería de Vanaheim y 4x Valkyries",
@@ -153,7 +153,7 @@
   {
    "id": "vanaheim-imperial-navy-thunderbolt-fighters",
    "nombre": "Thunderbolt Fighters",
-   "nombreEs": "Cazas Thunderbolt",
+   "nombreEs": "Escuadrón Thunderbolt",
    "seccion": "vanaheim-imperial-navy",
    "unidades": "Two or three Thunderbolt Fighters",
    "unidadesEs": "2 o 3x Cazas Thunderbolt",
@@ -176,7 +176,7 @@
   {
    "id": "vanaheim-imperial-navy-lightning-strike-fighters",
    "nombre": "Lightning Strike Fighters",
-   "nombreEs": "Cazas de Ataque Lightning",
+   "nombreEs": "Escuadrón Lightning",
    "seccion": "vanaheim-imperial-navy",
    "unidades": "Two or three Lightning Strike Fighters",
    "unidadesEs": "2 o 3x Cazas de Ataque Lightning",
@@ -199,7 +199,7 @@
   {
    "id": "vanaheim-imperial-navy-marauder-bombers",
    "nombre": "Marauder Bombers",
-   "nombreEs": "Bombarderos Marauder",
+   "nombreEs": "Escuadrón Marauder",
    "seccion": "vanaheim-imperial-navy",
    "unidades": "Two Marauder Bombers",
    "unidadesEs": "2x Bombarderos Marauder",
@@ -209,7 +209,7 @@
   {
    "id": "vanaheim-imperial-navy-marauder-destroyers",
    "nombre": "Marauder Destroyers",
-   "nombreEs": "Marauder Destroyers",
+   "nombreEs": "Escuadrón Marauder Destroyer",
    "seccion": "vanaheim-imperial-navy",
    "unidades": "Two Marauder Destroyers",
    "unidadesEs": "2x Marauder Destroyers",
@@ -327,8 +327,8 @@
  ],
  "fichas": [
   {
-   "nombre": "Vanaheim Supreme Commander",
    "nombreEs": "Comandante Supremo de Vanaheim",
+   "nombre": "Vanaheim Supreme Commander",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "5+",
@@ -341,21 +341,23 @@
      "potencia": "AP5+"
     },
     {
-     "nombre": "Fusiles láser",
+     "nombre": "Rifles láser",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras"
     },
     {
      "nombre": "Arma de energía",
      "alcance": "(peana)",
-     "potencia": "Armas de asalto, MA, AE(+1)"
+     "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Comandante Supremo."
+   "notas": "Comandante Supremo.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 61
   },
   {
-   "nombre": "Vanaheim Commander",
    "nombreEs": "Comandante de Vanaheim",
+   "nombre": "Vanaheim Commander",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -368,7 +370,7 @@
      "potencia": "AP5+"
     },
     {
-     "nombre": "Fusiles láser",
+     "nombre": "Rifles láser",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras"
     },
@@ -378,28 +380,13 @@
      "potencia": "Armas de asalto"
     }
    ],
-   "notas": "Comandante."
+   "notas": "Comandante.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Commissar",
-   "nombreEs": "Comisario",
-   "tipo": "PJ",
-   "velocidad": "n/a",
-   "blindaje": "n/a",
-   "cc": "n/a",
-   "ff": "n/a",
-   "armas": [
-    {
-     "nombre": "Armas de energía",
-     "alcance": "(peana)",
-     "potencia": "Armas de asalto, MA, AE(+1)"
-    }
-   ],
-   "notas": "Líder, Coraje, Inspirador."
-  },
-  {
-   "nombre": "Vanaheim Infantry",
    "nombreEs": "Infantería de Vanaheim",
+   "nombre": "Vanaheim Infantry",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -407,7 +394,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Fusiles láser",
+     "nombre": "Rifles láser",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras"
     },
@@ -417,11 +404,13 @@
      "potencia": "AP5+"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Vanaheim Fire Support",
    "nombreEs": "Apoyo de Fuego de Vanaheim",
+   "nombre": "Vanaheim Fire Support",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -434,11 +423,13 @@
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Mortar Support",
    "nombreEs": "Apoyo de Morteros",
+   "nombre": "Mortar Support",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "-",
@@ -451,50 +442,13 @@
      "potencia": "1PA, Ind"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Snipers",
-   "nombreEs": "Francotiradores",
-   "tipo": "INF",
-   "velocidad": "15cm",
-   "blindaje": "-",
-   "cc": "6+",
-   "ff": "5+",
-   "armas": [
-    {
-     "nombre": "Rifles de francotirador",
-     "alcance": "30cm",
-     "potencia": "AP5+, S"
-    }
-   ],
-   "notas": "Explorador, Francotirador."
-  },
-  {
-   "nombre": "Storm Troopers",
-   "nombreEs": "Tropas de Asalto",
-   "tipo": "INF",
-   "velocidad": "15cm",
-   "blindaje": "5+",
-   "cc": "5+",
-   "ff": "4+",
-   "armas": [
-    {
-     "nombre": "Fusiles infernales",
-     "alcance": "(15cm)",
-     "potencia": "Armas ligeras"
-    },
-    {
-     "nombre": "Rifles de plasma",
-     "alcance": "15cm",
-     "potencia": "AP5+/AT5+"
-    }
-   ],
-   "notas": "Explorador, Teletransporte."
-  },
-  {
-   "nombre": "Light Sentinel",
    "nombreEs": "Sentinel Ligero",
+   "nombre": "Light Sentinel",
    "tipo": "VL",
    "velocidad": "20cm",
    "blindaje": "6+",
@@ -507,11 +461,13 @@
      "potencia": "AP5+"
     }
    ],
-   "notas": "Explorador, Bípode."
+   "notas": "Explorador, Bípode.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Support Sentinel",
    "nombreEs": "Sentinel de Apoyo",
+   "nombre": "Support Sentinel",
    "tipo": "VL",
    "velocidad": "20cm",
    "blindaje": "6+",
@@ -529,11 +485,80 @@
      "potencia": "Armas ligeras, MA"
     }
    ],
-   "notas": "Explorador, Bípode."
+   "notas": "Explorador, Bípode.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Valkyrie",
+   "nombreEs": "Vendetta",
+   "nombre": "Vendetta",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "3x Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante Supremo de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Francotiradores, Apoyo de Morteros).",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Francotiradores",
+   "nombre": "Snipers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+, S"
+    }
+   ],
+   "notas": "Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Tropas de Asalto",
+   "nombre": "Storm Troopers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Rifles infernales",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
    "nombreEs": "Valkyrie",
+   "nombre": "Valkyrie",
    "tipo": "VB",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -556,31 +581,12 @@
      "potencia": "1PA, D, DU"
     }
    ],
-   "notas": "Gravitatorio, Explorador, Transporte (2 unidades de Tropas de Asalto, Comandantes, Infantería, Apoyo de Fuego, Apoyo de Morteros, Francotiradores o Sentinels)."
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante Supremo de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Apoyo de Morteros, Francotiradores, Sentinel Ligero o Sentinel de Apoyo).",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Vendetta",
-   "nombreEs": "Vendetta",
-   "tipo": "VB",
-   "velocidad": "35cm",
-   "blindaje": "5+",
-   "cc": "6+",
-   "ff": "5+",
-   "armas": [
-    {
-     "nombre": "3x Cañón láser acoplado",
-     "alcance": "45cm",
-     "potencia": "AT4+"
-    },
-    {
-     "nombre": "2x Bólter pesado",
-     "alcance": "30cm",
-     "potencia": "AP5+"
-    }
-   ],
-   "notas": "Gravitatorio, Explorador, Transporte (2 unidades de Tropas de Asalto, Comandantes, Infantería, Apoyo de Fuego, Apoyo de Morteros o Francotiradores)."
-  },
-  {
+   "nombreEs": "Vulture",
    "nombre": "Vulture",
    "tipo": "VB",
    "velocidad": "35cm",
@@ -605,11 +611,31 @@
     }
    ],
    "notas": "Explorador, Gravitatorio.",
-   "nombreEs": "Vulture"
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Thunderbolt Fighter",
+   "nombreEs": "Comisario",
+   "nombre": "Commissar",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Inspirador, Líder.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
    "nombreEs": "Caza Thunderbolt",
+   "nombre": "Thunderbolt Fighter",
    "tipo": "AN",
    "velocidad": "Cazabombardero",
    "blindaje": "6+",
@@ -632,11 +658,13 @@
      "potencia": "AT4+, FxF"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Lightning Strike Fighter",
    "nombreEs": "Caza de Ataque Lightning",
+   "nombre": "Lightning Strike Fighter",
    "tipo": "AN",
    "velocidad": "Caza",
    "blindaje": "6+",
@@ -649,16 +677,18 @@
      "potencia": "AT5+/AA5+, FxF"
     },
     {
-     "nombre": "2x Cohetes bajo las alas",
+     "nombre": "2x Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Marauder Bomber",
    "nombreEs": "Bombardero Marauder",
+   "nombre": "Marauder Bomber",
    "tipo": "AN",
    "velocidad": "Bombardero",
    "blindaje": "3+",
@@ -681,11 +711,13 @@
      "potencia": "3PA, FxF"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Marauder Destroyer",
    "nombreEs": "Marauder Destroyer",
+   "nombre": "Marauder Destroyer",
    "tipo": "AN",
    "velocidad": "Bombardero",
    "blindaje": "3+",
@@ -693,31 +725,33 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Bólters pesados acoplados",
+     "nombre": "Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     },
     {
-     "nombre": "Cañones de asalto acoplados",
+     "nombre": "Cañón de asalto doble",
      "alcance": "15cm",
      "potencia": "AA4+, Pos"
     },
     {
-     "nombre": "3x Autocañón acoplado",
+     "nombre": "3x Autocañón doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+, FxF"
     },
     {
-     "nombre": "2x Cohetes bajo las alas",
+     "nombre": "2x Cohetes subalares",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Lunar Class Cruiser",
    "nombreEs": "Crucero clase Lunar",
+   "nombre": "Lunar Class Cruiser",
    "tipo": "NE",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -735,11 +769,13 @@
      "potencia": "MA2+, MT(D3)"
     }
    ],
-   "notas": ""
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   },
   {
-   "nombre": "Emperor Class Battleship",
    "nombreEs": "Acorazado clase Emperador",
+   "nombre": "Emperor Class Battleship",
    "tipo": "NE",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -752,7 +788,9 @@
      "potencia": "8PA, MA"
     }
    ],
-   "notas": "Lenta y tediosa: no puede usarse en los turnos uno y dos salvo que el escenario indique lo contrario."
+   "notas": "Lenta y tediosa: no puede usarse en los turnos uno y dos salvo que el escenario indique lo contrario.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
   }
  ],
  "reglas": [

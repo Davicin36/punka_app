@@ -164,10 +164,10 @@
   "nombre": "Imperial Guard – Elysian Drop Troops",
   "familia": "Imperial Guard",
   "version": "v3.1.5 (2011-04-07)",
-  "nombreEs": "Guardia Imperial – Tropas de Desembarco Elysianas",
+  "nombreEs": "Guardia Imperial – Tropas de Desembarco Elysian",
   "familiaEs": "Guardia Imperial",
   "estrategia": 2,
-  "iniciativaEs": "Todas las formaciones elysianas tienen un valor de iniciativa de 2+."
+  "iniciativaEs": "Todas las formaciones elysian tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-minervan-tank-legion",
@@ -194,10 +194,10 @@
   "nombre": "Imperial Guard – Ulani Tank Regiment",
   "familia": "Imperial Guard",
   "version": "Codex Imperial Guard 2010-06-25",
-  "nombreEs": "Guardia Imperial – Regimiento de Tanques de Ulani",
+  "nombreEs": "Guardia Imperial – Regimiento de Tanques Ulani",
   "familiaEs": "Guardia Imperial",
   "estrategia": 2,
-  "iniciativaEs": "Todas las formaciones del Regimiento de Tanques de Ulani y de la Armada Imperial tienen un valor de iniciativa de 2+."
+  "iniciativaEs": "Todas las formaciones del Regimiento de Tanques Ulani y de la Armada Imperial tienen un valor de iniciativa de 2+."
  },
  {
   "id": "imperial-guard-vanaheim-air-cavalry",
