@@ -20,6 +20,8 @@ export interface GrupoEleccion {
   costes?: Record<string, number>;
   maxPor?: Record<string, number>;
   raras?: string[];
+  /** Nota junto a cada opción (precio de la versión) */
+  notas?: Record<string, string>;
 }
 
 // ===== Variantes de Leman Russ (Minerva, Krieg) =====
@@ -200,7 +202,9 @@ function gruposArma(e: EjercitoEpic, fe: FormacionElegida): GrupoEleccion[] {
   const titulo = (ficha: FichaEpic) => `Arma de ${nombreUnidad(e, ficha.nombre)}`;
   for (const { u, ficha } of conArmas(f.unidades).filter((x, i, a) => a.findIndex(y => y.ficha === x.ficha) === i)) {
     const n = cuantas(f.unidades, u);
-    out.push({ clave: `ua:${ficha!.nombre}`, origen: titulo(ficha!), opciones: ficha!.variantesArma!, min: n, max: n, personaje: false });
+    const r = f.recargo;
+    const notas = Object.fromEntries(ficha!.variantesArma!.map(o => [o, r?.unidad === o ? `(+${r.coste} en total, aunque sean varios)` : '(incluido)']));
+    out.push({ clave: `ua:${ficha!.nombre}`, origen: titulo(ficha!), opciones: ficha!.variantesArma!, min: n, max: n, personaje: false, notas });
   }
   (f.extras ?? []).forEach((x, j) => {
     const k = fe.extras[j] ?? 0;
@@ -221,7 +225,9 @@ function gruposArma(e: EjercitoEpic, fe: FormacionElegida): GrupoEleccion[] {
       const opciones = v?.unidades ?? ficha!.variantesArma!;
       if (opciones.length < 2) continue; // versión fija: la pone unidadesDeLista
       const n = (v ? v.porUnidad : m.porUnidad) ? k : cuantas(m.texto, u);
-      out.push({ clave: `m:${nombre}.a:${ficha!.nombre}`, origen: titulo(ficha!), opciones, min: n, max: n, personaje: false });
+      const precio = v ? `(+${v.coste}${v.porUnidad ? ' c/u' : ''} con la mejora)` : undefined;
+      out.push({ clave: `m:${nombre}.a:${ficha!.nombre}`, origen: titulo(ficha!), opciones, min: n, max: n, personaje: false,
+        notas: precio ? Object.fromEntries(opciones.map(o => [o, precio])) : undefined });
     }
   }
   return out;

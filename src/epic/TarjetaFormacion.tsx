@@ -47,7 +47,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
           : <div className="opts">{g.opciones.map(o => {
               const n = fe.reparto?.[g.clave]?.[o] ?? 0;
               const tope = Math.min(n + Math.max(0, g.max - t), g.maxPor?.[o] ?? Infinity);
-              const nota = g.costes ? `(${g.costes[o] ? `+${g.costes[o]} c/u` : 'gratis'}${g.raras?.includes(o) ? ' · rara' : ''}${g.maxPor?.[o] ? ` · máx. ${g.maxPor[o]}` : ''})` : undefined;
+              const nota = g.costes ? `(${g.costes[o] ? `+${g.costes[o]} c/u` : 'gratis'}${g.raras?.includes(o) ? ' · rara' : ''}${g.maxPor?.[o] ? ` · máx. ${g.maxPor[o]}` : ''})` : g.notas?.[o];
               return <FilaContador key={o} nombre={<Bi es={fichaDe(e, o)?.nombreEs} en={o} />} nota={nota} valor={n} max={tope} onChange={v => repartir(g.clave, o, v, false)} />;
             })}</div>}
       </div>
