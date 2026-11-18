@@ -902,7 +902,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Lanza oscura",
+     "nombre": "2x Lanza oscura",
      "alcance": "30cm",
      "potencia": "AT5+, L"
     },
@@ -950,7 +950,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Lanza oscura",
+     "nombre": "2x Lanza oscura",
      "alcance": "30cm",
      "potencia": "AT5+, L"
     },
@@ -979,7 +979,7 @@
     {
      "nombre": "Batería desintegradora",
      "alcance": "60cm",
-     "potencia": "2× AA4+"
+     "potencia": "2x AA4+"
     },
     {
      "nombre": "Lanza fantasma pesada",
@@ -994,7 +994,7 @@
     {
      "nombre": "Granizo de astillas",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT6+"
+     "potencia": "3x AP4+/AT6+"
     },
     {
      "nombre": "y Granizo de astillas",
@@ -1051,14 +1051,14 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Lanzas fantasma",
+     "nombre": "2x Lanzas fantasma",
      "alcance": "45cm",
      "potencia": "MA3+, MT"
     },
     {
      "nombre": "Granizo de astillas",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT6+"
+     "potencia": "3x AP4+/AT6+"
     },
     {
      "nombre": "y Granizo de astillas",
@@ -1083,12 +1083,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Lanzas fantasma",
+     "nombre": "2x Lanzas fantasma",
      "alcance": "45cm",
      "potencia": "MA3+, MT"
     },
     {
-     "nombre": "2× Cañón de astillas de cañón",
+     "nombre": "2x Cañón de astillas de cañón",
      "alcance": "45cm",
      "potencia": "AP5+"
     },
@@ -1137,7 +1137,7 @@
      "potencia": "MA3+, FxF, Baj, MT"
     },
     {
-     "nombre": "2× Cañón de astillas de cañón",
+     "nombre": "2x Cañón de astillas de cañón",
      "alcance": "30cm",
      "potencia": "AP5+/AA5+, FxF"
     },
@@ -1159,7 +1159,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Lanza oscura doble",
+     "nombre": "2x Lanza oscura doble",
      "alcance": "30cm",
      "potencia": "AT4+/AA5+, FxF, L"
     },
@@ -1186,7 +1186,7 @@
      "potencia": "2PA, MA"
     },
     {
-     "nombre": "0–1× Ataque localizado",
+     "nombre": "0–1x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }
@@ -1208,9 +1208,9 @@
      "potencia": "6PA, MA"
     },
     {
-     "nombre": "0–1× Ataques localizados",
+     "nombre": "0–1x Ataques localizados",
      "alcance": "—",
-     "potencia": "2× MA2+, MT(D3)"
+     "potencia": "2x MA2+, MT(D3)"
     }
    ],
    "notas": "Transporte. Puede transportar seis Naves de Asalto Slavebringer y un Módulo de Aterrizaje Executor, más las unidades que lleven. Puede renunciarse a los Ataques de Precisión para transportar cuatro Naves de Asalto Slavebringer y dos Módulos de Aterrizaje Executor adicionales, más las unidades que lleven."

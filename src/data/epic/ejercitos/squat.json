@@ -655,7 +655,7 @@
    "ff": "6+",
    "armas": [
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     }
@@ -692,7 +692,7 @@
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -863,7 +863,7 @@
     {
      "nombre": "Autocañón de fuego rápido",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT6+"
+     "potencia": "2x AP5+/AT6+"
     }
    ],
    "notas": "Explorador, Gravitatorio."
@@ -885,7 +885,7 @@
     {
      "nombre": "Autocañón de fuego rápido",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT6+"
+     "potencia": "2x AP5+/AT6+"
     }
    ],
    "notas": "Explorador, Observador, Nave de Apoyo."
@@ -1007,9 +1007,9 @@
      "potencia": "3PA, FxF, Dir, MA"
     },
     {
-     "nombre": "4× Cañón de batalla de fuego",
+     "nombre": "4x Cañón de batalla de fuego",
      "alcance": "75cm",
-     "potencia": "2× AP4+/AT4+, Fro"
+     "potencia": "2x AP4+/AT4+, Fro"
     },
     {
      "nombre": "rápido",
@@ -1017,7 +1017,7 @@
      "potencia": "AP3+/AT4+, FxF, IC"
     },
     {
-     "nombre": "Thunderer 4× Misil de plasma",
+     "nombre": "Thunderer 4x Misil de plasma",
      "alcance": "45cm",
      "potencia": "2PA, Fro, Ind, DU"
     }
@@ -1040,7 +1040,7 @@
     {
      "nombre": "Cañón de batalla de fuego",
      "alcance": "75cm",
-     "potencia": "2× AP4+/AT4+"
+     "potencia": "2x AP4+/AT4+"
     },
     {
      "nombre": "rápido",
@@ -1053,7 +1053,7 @@
      "potencia": "Armas ligeras, AE(+1), MT(D6)"
     },
     {
-     "nombre": "y 6× Misil Tormenta del Destino",
+     "nombre": "y 6x Misil Tormenta del Destino",
      "alcance": "45cm",
      "potencia": "1PA, Fro, Ind, DU"
     }
@@ -1093,12 +1093,12 @@
     {
      "nombre": "Cañón de batalla de fuego",
      "alcance": "75cm",
-     "potencia": "2× AP4+/AT4+"
+     "potencia": "2x AP4+/AT4+"
     },
     {
      "nombre": "rápido Cañón de batalla de fuego rápido",
      "alcance": "75cm",
-     "potencia": "2× AP4+/AT4+, FxF"
+     "potencia": "2x AP4+/AT4+, FxF"
     }
    ],
    "notas": "Factor de Daños 2, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 2 Pantallas de Vacío. Los personajes añadidos a esta unidad suman su factor de daños y sus pantallas de vacío a los valores iniciales respectivos de la unidad. Efecto de Impacto Crítico: elige al azar un personaje añadido a esta unidad y retíralo, reduciendo en consecuencia el factor de daños y las pantallas de vacío iniciales de la unidad. La unidad queda inmovilizada durante su siguiente activación o retirada. Si la unidad no tiene personajes añadidos, queda destruida."
@@ -1123,12 +1123,12 @@
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "3× Cañón láser doble",
+     "nombre": "3x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+, Izq."
     },
     {
-     "nombre": "3× Cañón láser doble",
+     "nombre": "3x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+, Der."
     }
@@ -1161,7 +1161,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+, Fro"
     },
@@ -1176,12 +1176,12 @@
      "potencia": "AP4+/AT4+, Der."
     },
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+, Pos"
     },
     {
-     "nombre": "2× Autocañón doble",
+     "nombre": "2x Autocañón doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+, FxF"
     },
@@ -1205,7 +1205,7 @@
     {
      "nombre": "Autocañón de fuego rápido",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT6+, Fro"
+     "potencia": "2x AP5+/AT6+, Fro"
     }
    ],
    "notas": "Factor de Daños 1, Transporte, 1 Escudo de Vacío. Puede transportar seis unidades de infantería sin Retrorreactores ni Montado."
@@ -1239,7 +1239,7 @@
     {
      "nombre": "Lanzallamas",
      "alcance": "30cm",
-     "potencia": "4× AP4+/AT5+, Fro, IC"
+     "potencia": "4x AP4+/AT5+, Fro, IC"
     }
    ],
    "notas": "Factor de Daños 1, 1 Escudo de Vacío."
@@ -1256,7 +1256,7 @@
     {
      "nombre": "Autocañón de fuego rápido",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT6+, Fro"
+     "potencia": "2x AP5+/AT6+, Fro"
     }
    ],
    "notas": "Factor de Daños 1, 3 Pantallas de Vacío. La unidad puede reparar una pantalla de vacío adicional en la fase de finalización de cada turno."
@@ -1305,7 +1305,7 @@
     {
      "nombre": "Misiles antiaéreos",
      "alcance": "45cm",
-     "potencia": "2× AA4+"
+     "potencia": "2x AA4+"
     }
    ],
    "notas": "Factor de Daños 1, 1 Escudo de Vacío."

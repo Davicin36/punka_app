@@ -32,7 +32,7 @@
    },
    "grupo": "support-covens",
    "notaEs": "Las formaciones de Daemon Engine deben ser aliadas del Caos Absoluto o del mismo dios del Caos que este aquelarre. Se puede desplegar un aquelarre de apoyo por cada aquelarre.",
-   "nombreEs": "Mejoras del Culto Stigmatus"
+   "nombreEs": "Máquinas Demoníacas"
   },
   {
    "id": "traitor-navy-aircraft",
@@ -613,7 +613,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Ametralladora pesada",
+     "nombre": "2x Ametralladora pesada",
      "alcance": "30cm",
      "potencia": "AP6+"
     },
@@ -897,7 +897,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -1018,7 +1018,7 @@
     {
      "nombre": "Cañón de sangre",
      "alcance": "30cm",
-     "potencia": "2× AP4+/AT5+"
+     "potencia": "2x AP4+/AT5+"
     },
     {
      "nombre": "Hojas demoníacas",
@@ -1040,7 +1040,7 @@
     {
      "nombre": "Cañón Castigator",
      "alcance": "45cm",
-     "potencia": "3× AP3+/AT5+"
+     "potencia": "3x AP3+/AT5+"
     }
    ],
    "notas": "Coraje, Salvación Invulnerable, Explorador, Bípode."
@@ -1145,7 +1145,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Autocañón doble Hydra",
+     "nombre": "2x Autocañón doble Hydra",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     },
@@ -1176,7 +1176,7 @@
      "potencia": "AT5+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1202,7 +1202,7 @@
      "potencia": "AT5+"
     },
     {
-     "nombre": "2× Cañón de plasma",
+     "nombre": "2x Cañón de plasma",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
@@ -1221,7 +1221,7 @@
     {
      "nombre": "Cañones arcanos",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT4+"
+     "potencia": "3x AP4+/AT4+"
     },
     {
      "nombre": "Haz de poder",
@@ -1260,7 +1260,7 @@
     {
      "nombre": "Tecnología arcana",
      "alcance": "45cm",
-     "potencia": "D3× AP4+/AT4+/ AA4+"
+     "potencia": "D3x AP4+/AT4+/ AA4+"
     }
    ],
    "notas": "Invocación mejorada (+2), Foco Demoníaco, Factor de Daños 3, Coraje, Inspirador, Salvación Invulnerable, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida. Todas las unidades a 5 cm o menos sufren un impacto de macro-arma con 6+."
@@ -1304,7 +1304,7 @@
     {
      "nombre": "Mirada de Slaanesh",
      "alcance": "30cm",
-     "potencia": "3× MA4+"
+     "potencia": "3x MA4+"
     },
     {
      "nombre": "y Mirada de Slaanesh",
@@ -1336,10 +1336,10 @@
     {
      "nombre": "Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+"
+     "potencia": "4x AP4+/AT4+"
     },
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     }
@@ -1358,7 +1358,7 @@
     {
      "nombre": "Mirada marchitadora",
      "alcance": "45cm",
-     "potencia": "2× MA3+"
+     "potencia": "2x MA3+"
     },
     {
      "nombre": "y Mirada marchitadora",
@@ -1388,7 +1388,7 @@
      "potencia": "D3+3PA, FxF, D"
     },
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
@@ -1410,12 +1410,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón Castigator",
+     "nombre": "2x Cañón Castigator",
      "alcance": "45cm",
-     "potencia": "3× AP3+/AT5+"
+     "potencia": "3x AP3+/AT5+"
     },
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     }
@@ -1432,12 +1432,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "2× Espadas infernales",
+     "nombre": "2x Espadas infernales",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
@@ -1455,7 +1455,7 @@
     {
      "nombre": "Cañón lanzallamas",
      "alcance": "15cm",
-     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+     "potencia": "2x AP4+/AT5+/AA6+, FxF, IC"
     }
    ],
    "notas": "Salvación Invulnerable."
@@ -1472,7 +1472,7 @@
     {
      "nombre": "Cañón lanzallamas",
      "alcance": "15cm",
-     "potencia": "2× AP4+/AT5+/AA6+, FxF, IC"
+     "potencia": "2x AP4+/AT5+/AA6+, FxF, IC"
     },
     {
      "nombre": "Cañón láser doble",
@@ -1507,7 +1507,7 @@
      "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }

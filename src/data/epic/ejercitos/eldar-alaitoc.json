@@ -18,7 +18,7 @@
    "nombre": "Alaitoc Craftworld Warhosts",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Individuos del Mundo Astronave de Alaitoc"
+   "nombreEs": "Huestes de guerra de Alaitoc"
   },
   {
    "id": "alaitoc-craftworld-troupes",
@@ -446,12 +446,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Arma a distancia del",
+     "nombre": "0–1x Arma a distancia del",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "Exarca 0–1× Arma de combate del Exarca",
+     "nombre": "Exarca 0–1x Arma de combate del Exarca",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1)"
     }
@@ -470,7 +470,7 @@
     {
      "nombre": "Lanzamisiles Segadores",
      "alcance": "45cm",
-     "potencia": "2× AP5+"
+     "potencia": "2x AP5+"
     }
    ],
    "notas": ""
@@ -749,7 +749,7 @@
     {
      "nombre": "Espectrocañones",
      "alcance": "15cm",
-     "potencia": "2× MA5+"
+     "potencia": "2x MA5+"
     },
     {
      "nombre": "y Espectrocañones",
@@ -808,7 +808,7 @@
     {
      "nombre": "Láser de pulsos",
      "alcance": "45cm",
-     "potencia": "2× AT4+"
+     "potencia": "2x AT4+"
     },
     {
      "nombre": "Láser de dispersión",
@@ -846,7 +846,7 @@
     {
      "nombre": "Batería Tormenta de Fuego",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT5+/AA4+"
+     "potencia": "2x AP5+/AT5+/AA4+"
     }
    ],
    "notas": "Gravitatorio, Transporte. Puede transportar una unidad de infantería (excepto Plataformas de Armas de Apoyo y Guardia Espectral) sin Retrorreactores ni Montado."
@@ -969,14 +969,14 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "1–2× Púlsar de Titán",
+     "nombre": "1–2x Púlsar de Titán",
      "alcance": "75cm",
-     "potencia": "2× MA2+, MT"
+     "potencia": "2x MA2+, MT"
     },
     {
-     "nombre": "0–1× Puño de combate de",
+     "nombre": "0–1x Puño de combate de",
      "alcance": "30cm",
-     "potencia": "6× AP4+/AT4+"
+     "potencia": "6x AP4+/AT4+"
     },
     {
      "nombre": "Titán",
@@ -989,7 +989,7 @@
      "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "o 2× Lanzamisiles eldar doble",
+     "nombre": "o 2x Lanzamisiles eldar doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     }
@@ -1006,12 +1006,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Láser de pulsos Revenant",
+     "nombre": "2x Láser de pulsos Revenant",
      "alcance": "45cm",
-     "potencia": "2× MA3+"
+     "potencia": "2x MA3+"
     },
     {
-     "nombre": "2× Lanzamisiles eldar",
+     "nombre": "2x Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     }
@@ -1029,7 +1029,7 @@
     {
      "nombre": "Púlsar doble del Escorpión",
      "alcance": "75cm",
-     "potencia": "2× MA2+"
+     "potencia": "2x MA2+"
     },
     {
      "nombre": "Cañón shuriken",
@@ -1051,7 +1051,7 @@
     {
      "nombre": "Láser de pulsos de la Serpiente",
      "alcance": "45cm",
-     "potencia": "2× AT3+"
+     "potencia": "2x AT3+"
     },
     {
      "nombre": "de Tormenta Láser de dispersión",
@@ -1081,14 +1081,14 @@
      "potencia": "Armas ligeras, AE(+2), MT(D3)"
     },
     {
-     "nombre": "0–1× Púlsar de Titán",
+     "nombre": "0–1x Púlsar de Titán",
      "alcance": "75cm",
-     "potencia": "2× MA2+, MT"
+     "potencia": "2x MA2+, MT"
     },
     {
-     "nombre": "0–1× Puño de combate de",
+     "nombre": "0–1x Puño de combate de",
      "alcance": "30cm",
-     "potencia": "6× AP4+/AT4+"
+     "potencia": "6x AP4+/AT4+"
     },
     {
      "nombre": "Titán",
@@ -1101,7 +1101,7 @@
      "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "o 2× Lanzamisiles eldar doble",
+     "nombre": "o 2x Lanzamisiles eldar doble",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     }
@@ -1147,7 +1147,7 @@
     {
      "nombre": "Láser de pulsos",
      "alcance": "45cm",
-     "potencia": "2× AT4+, FxF"
+     "potencia": "2x AT4+, FxF"
     },
     {
      "nombre": "Hilador nocturno",
@@ -1166,9 +1166,9 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Láser de pulsos",
+     "nombre": "2x Láser de pulsos",
      "alcance": "45cm",
-     "potencia": "2× AT4+, FxF"
+     "potencia": "2x AT4+, FxF"
     },
     {
      "nombre": "Láser de dispersión",
@@ -1188,14 +1188,14 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Bombardeo orbital",
+     "nombre": "0–1x Bombardeo orbital",
      "alcance": "—",
      "potencia": "8PA, MA"
     },
     {
-     "nombre": "0–1× Ataques localizados",
+     "nombre": "0–1x Ataques localizados",
      "alcance": "—",
-     "potencia": "2× MA2+, MT(D3)"
+     "potencia": "2x MA2+, MT(D3)"
     }
    ],
    "notas": "Transporte. Puede transportar doce Vampire Raiders y las unidades que lleven. Armado con Bombardeo Orbital o con Ataques de Precisión."
@@ -1210,12 +1210,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Bombardeo orbital",
+     "nombre": "0–1x Bombardeo orbital",
      "alcance": "—",
      "potencia": "4PA, MA"
     },
     {
-     "nombre": "0–1× Ataque localizado",
+     "nombre": "0–1x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

@@ -833,7 +833,7 @@
      "potencia": "AT6+, Guía"
     },
     {
-     "nombre": "0–1× Acelerador lineal",
+     "nombre": "0–1x Acelerador lineal",
      "alcance": "75cm",
      "potencia": "AP5+"
     },
@@ -843,12 +843,12 @@
      "potencia": "AT4+, L"
     },
     {
-     "nombre": "o 0–1× Cañón iónico",
+     "nombre": "o 0–1x Cañón iónico",
      "alcance": "60cm",
      "potencia": "AP4+/AT5+"
     },
     {
-     "nombre": "o 0–1× Cañones de fusión acoplados",
+     "nombre": "o 0–1x Cañones de fusión acoplados",
      "alcance": "30cm",
      "potencia": "MA4+"
     }
@@ -961,12 +961,12 @@
      "potencia": "AP5+, IC"
     },
     {
-     "nombre": "2× Misiles cazadores",
+     "nombre": "2x Misiles cazadores",
      "alcance": "60cm",
      "potencia": "AA5+"
     },
     {
-     "nombre": "2× Misiles buscadores",
+     "nombre": "2x Misiles buscadores",
      "alcance": "90cm",
      "potencia": "AT6+, Guía"
     }
@@ -1013,12 +1013,12 @@
      "potencia": "MA2+, FxF, MT(D3)"
     },
     {
-     "nombre": "3× Falanges pesadas de iones",
+     "nombre": "3x Falanges pesadas de iones",
      "alcance": "75cm",
      "potencia": "AP3+/AT4+, FxF"
     },
     {
-     "nombre": "4× Cañones de inducción acoplados del Manta",
+     "nombre": "4x Cañones de inducción acoplados del Manta",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     },
@@ -1028,7 +1028,7 @@
      "potencia": "AP5+/AT6+, FxF"
     },
     {
-     "nombre": "2× Misiles buscadores",
+     "nombre": "2x Misiles buscadores",
      "alcance": "90cm",
      "potencia": "AT6+, Guía"
     }
@@ -1132,7 +1132,7 @@
     {
      "nombre": "Salva trazadora gravítica",
      "alcance": "—",
-     "potencia": "3× MA4+, Guía, IC"
+     "potencia": "3x MA4+, Guía, IC"
     },
     {
      "nombre": "Ataque localizado",
@@ -1152,7 +1152,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Ataque localizado",
+     "nombre": "2x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

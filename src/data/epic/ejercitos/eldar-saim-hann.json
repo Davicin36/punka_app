@@ -18,7 +18,7 @@
    "nombre": "Saim-Hann Craftworld Warhosts",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Individuos del Mundo Astronave de Saim-Hann"
+   "nombreEs": "Huestes de guerra de Saim-Hann"
   },
   {
    "id": "saim-hann-craftworld-troupes",
@@ -419,12 +419,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Arma a distancia del",
+     "nombre": "0–1x Arma a distancia del",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "Exarca 0–1× Arma de combate del Exarca",
+     "nombre": "Exarca 0–1x Arma de combate del Exarca",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1)"
     }
@@ -482,7 +482,7 @@
     {
      "nombre": "Lanzamisiles Segadores",
      "alcance": "45cm",
-     "potencia": "2× AP5+"
+     "potencia": "2x AP5+"
     }
    ],
    "notas": ""
@@ -711,7 +711,7 @@
     {
      "nombre": "Espectrocañones",
      "alcance": "15cm",
-     "potencia": "2× MA5+"
+     "potencia": "2x MA5+"
     },
     {
      "nombre": "y Espectrocañones",
@@ -732,7 +732,7 @@
     {
      "nombre": "Láser de pulsos doble del Hornet",
      "alcance": "30cm",
-     "potencia": "2× AT4+"
+     "potencia": "2x AT4+"
     }
    ],
    "notas": "Explorador, Gravitatorio."
@@ -765,7 +765,7 @@
     {
      "nombre": "Láser de pulsos",
      "alcance": "45cm",
-     "potencia": "2× AT4+"
+     "potencia": "2x AT4+"
     },
     {
      "nombre": "Láser de dispersión",
@@ -803,7 +803,7 @@
     {
      "nombre": "Batería Tormenta de Fuego",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT5+/AA4+"
+     "potencia": "2x AP5+/AT5+/AA4+"
     }
    ],
    "notas": "Gravitatorio, Transporte. Puede transportar una unidad de infantería (excepto Plataformas de Armas de Apoyo y Guardia Espectral) sin Retrorreactores ni Montado."
@@ -904,12 +904,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Láser de pulsos Revenant",
+     "nombre": "2x Láser de pulsos Revenant",
      "alcance": "45cm",
-     "potencia": "2× MA3+"
+     "potencia": "2x MA3+"
     },
     {
-     "nombre": "2× Lanzamisiles eldar",
+     "nombre": "2x Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     }
@@ -927,7 +927,7 @@
     {
      "nombre": "Púlsar doble del Escorpión",
      "alcance": "75cm",
-     "potencia": "2× MA2+"
+     "potencia": "2x MA2+"
     },
     {
      "nombre": "Cañón shuriken",
@@ -949,7 +949,7 @@
     {
      "nombre": "Láser de pulsos de la Serpiente",
      "alcance": "45cm",
-     "potencia": "2× AT3+"
+     "potencia": "2x AT3+"
     },
     {
      "nombre": "de Tormenta Láser de dispersión",
@@ -998,7 +998,7 @@
     {
      "nombre": "Láser de pulsos",
      "alcance": "45cm",
-     "potencia": "2× AT4+, FxF"
+     "potencia": "2x AT4+, FxF"
     },
     {
      "nombre": "Hilador nocturno",
@@ -1019,7 +1019,7 @@
     {
      "nombre": "Púlsar doble del Vampire",
      "alcance": "30cm",
-     "potencia": "2× MA2+, FxF"
+     "potencia": "2x MA2+, FxF"
     },
     {
      "nombre": "Hunter",

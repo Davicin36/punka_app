@@ -52,7 +52,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Unidad"
+   "nombreEs": "Formaciones de la Armada del Caos"
   },
   {
    "id": "chaos-war-engines",
@@ -784,7 +784,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
@@ -895,7 +895,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -929,7 +929,7 @@
    "ff": "2+",
    "armas": [
     {
-     "nombre": "3× Armas corporales",
+     "nombre": "3x Armas corporales",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+/AA6+"
     }
@@ -1036,7 +1036,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -1063,7 +1063,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1153,7 +1153,7 @@
     {
      "nombre": "Puño del Destino",
      "alcance": "30cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
      "nombre": "y Puño del Destino",
@@ -1161,7 +1161,7 @@
      "potencia": "Armas de asalto, AE(+2), MT(D3)"
     },
     {
-     "nombre": "6× Misil Havoc",
+     "nombre": "6x Misil Havoc",
      "alcance": "60cm",
      "potencia": "2PA, Fro, Ind, DU"
     },
@@ -1209,12 +1209,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+, Izq."
     },
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+, Der."
     },
@@ -1245,12 +1245,12 @@
      "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "2× Autocañón Segador doble",
+     "nombre": "2x Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Izq."
     },
     {
-     "nombre": "2× Autocañón Segador doble",
+     "nombre": "2x Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Der."
     }
@@ -1269,7 +1269,7 @@
     {
      "nombre": "Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
      "nombre": "Boca del Infierno",
@@ -1323,7 +1323,7 @@
     {
      "nombre": "Mirada de Slaanesh",
      "alcance": "30cm",
-     "potencia": "3× MA4+"
+     "potencia": "3x MA4+"
     },
     {
      "nombre": "y Mirada de Slaanesh",
@@ -1350,7 +1350,7 @@
     {
      "nombre": "Mirada marchitadora",
      "alcance": "45cm",
-     "potencia": "2× MA3+"
+     "potencia": "2x MA3+"
     },
     {
      "nombre": "y Mirada marchitadora",
@@ -1380,9 +1380,9 @@
      "potencia": "MA2+, FxF, IC, MT(D3)"
     },
     {
-     "nombre": "2× Tormenta de muerte",
+     "nombre": "2x Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
      "nombre": "Cabeza de combate",
@@ -1442,7 +1442,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "15cm",
      "potencia": "AP4+/AT6+/AA5+, FxF"
     }
@@ -1490,7 +1490,7 @@
      "potencia": "3PA, MA"
     },
     {
-     "nombre": "3× Ataque localizado",
+     "nombre": "3x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

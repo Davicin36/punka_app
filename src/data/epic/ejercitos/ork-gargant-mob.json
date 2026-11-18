@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar tres formaciones de apoyo o de aeronaves cualesquiera por cada formación principal.",
-   "nombreEs": "Apoyo"
+   "nombreEs": "Formaciones de apoyo de la Turba de Gargantes"
   },
   {
    "id": "gargant-mob-aircraft",
@@ -720,17 +720,17 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Big Gun",
+     "nombre": "0–1x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–1× Skorcha",
+     "nombre": "0–1x Skorcha",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
     {
-     "nombre": "y 0–1× Skorcha",
+     "nombre": "y 0–1x Skorcha",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1), IC"
     }
@@ -780,7 +780,7 @@
     {
      "nombre": "Flak Gunz",
      "alcance": "30cm",
-     "potencia": "D3+1× AA6+"
+     "potencia": "D3+1x AA6+"
     }
    ],
    "notas": ""
@@ -797,7 +797,7 @@
     {
      "nombre": "Cañón Gatling",
      "alcance": "45cm",
-     "potencia": "6× AP5+/AT5+"
+     "potencia": "6x AP5+/AT5+"
     }
    ],
    "notas": ""
@@ -845,7 +845,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Misil Krooz",
+     "nombre": "2x Misil Krooz",
      "alcance": "Unlimited",
      "potencia": "MA3+, Ind, DU, MT(D3)"
     }
@@ -899,24 +899,24 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2–4× Big Gun",
+     "nombre": "2–4x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–1× Skorcha",
+     "nombre": "0–1x Skorcha",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
     {
-     "nombre": "y 0–1× Skorcha",
+     "nombre": "y 0–1x Skorcha",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1), IC"
     },
     {
-     "nombre": "0–1× Cañón antiaéreo",
+     "nombre": "0–1x Cañón antiaéreo",
      "alcance": "30cm",
-     "potencia": "2× AP6+/AT6+/AA6+"
+     "potencia": "2x AP6+/AT6+/AA6+"
     }
    ],
    "notas": "Armado con cuatro Zakeadores Orkos; uno puede sustituirse por un Skorcha y otro por un Cañón antiaéreo."
@@ -985,12 +985,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Supa-Zzap-Gun",
+     "nombre": "0–1x Supa-Zzap-Gun",
      "alcance": "60cm",
      "potencia": "MA3+, MT(D3)"
     },
     {
-     "nombre": "0–1× Soopagun",
+     "nombre": "0–1x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, MA"
     }
@@ -1176,7 +1176,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -1214,7 +1214,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -1237,7 +1237,7 @@
     {
      "nombre": "Cañón antiaéreo",
      "alcance": "30cm",
-     "potencia": "2× AP6+/AT6+/AA6+"
+     "potencia": "2x AP6+/AT6+/AA6+"
     }
    ],
    "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado."
@@ -1273,17 +1273,17 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2–3× Big Gun",
+     "nombre": "2–3x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–1× Martillo de kombate",
+     "nombre": "0–1x Martillo de kombate",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "y 0–1× Martillo de kombate",
+     "nombre": "y 0–1x Martillo de kombate",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
@@ -1299,7 +1299,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "4× Twin Big Shoota",
+     "nombre": "4x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
@@ -1326,12 +1326,12 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "2× Montura de armas de",
+     "nombre": "2x Montura de armas de",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "brazo 1× Montura de armas ven tral",
+     "nombre": "brazo 1x Montura de armas ven tral",
      "alcance": "-",
      "potencia": "FxF, WM"
     }
@@ -1353,27 +1353,27 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "0–2× Big Gun",
+     "nombre": "0–2x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–2× Skorcha",
+     "nombre": "0–2x Skorcha",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
     {
-     "nombre": "y 0–2× Skorcha",
+     "nombre": "y 0–2x Skorcha",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1), IC"
     },
     {
-     "nombre": "2× Montura de armas de",
+     "nombre": "2x Montura de armas de",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "brazo 1× Montura de armas ven tral",
+     "nombre": "brazo 1x Montura de armas ven tral",
      "alcance": "-",
      "potencia": "FxF, WM"
     }
@@ -1389,12 +1389,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "5× Twin Big Shoota",
+     "nombre": "5x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "3× Big Gun",
+     "nombre": "3x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     }
@@ -1421,12 +1421,12 @@
      "potencia": "3PA, FxF, MA"
     },
     {
-     "nombre": "7× Soopagun",
+     "nombre": "7x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, FxF, MA"
     },
     {
-     "nombre": "2× Misil Krooz",
+     "nombre": "2x Misil Krooz",
      "alcance": "Unlimited",
      "potencia": "MA3+, Ind, DU, MT(D3)"
     },
@@ -1446,12 +1446,12 @@
      "potencia": "MA5+/AA5+, MA"
     },
     {
-     "nombre": "2× Big Gun",
+     "nombre": "2x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+, Izq."
     },
     {
-     "nombre": "2× Big Gun",
+     "nombre": "2x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+, Der."
     },
@@ -1477,12 +1477,12 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "2× Montura de armas de",
+     "nombre": "2x Montura de armas de",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "brazo 1× Montura de armas ven tral",
+     "nombre": "brazo 1x Montura de armas ven tral",
      "alcance": "-",
      "potencia": "FxF, WM"
     }
@@ -1521,7 +1521,7 @@
     {
      "nombre": "Torretas",
      "alcance": "15cm",
-     "potencia": "D6+3× AP5+/AA6+"
+     "potencia": "D6+3x AP5+/AA6+"
     },
     {
      "nombre": "Bombas Blasta",
@@ -1542,7 +1542,7 @@
     {
      "nombre": "Kañonez antiaéreoz",
      "alcance": "30cm",
-     "potencia": "D3+1× AA6+"
+     "potencia": "D3+1x AA6+"
     }
    ],
    "notas": ""

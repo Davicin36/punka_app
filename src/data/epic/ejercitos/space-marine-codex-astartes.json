@@ -619,7 +619,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Lanzamisiles",
+     "nombre": "2x Lanzamisiles",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -670,7 +670,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón de asalto",
+     "nombre": "2x Cañón de asalto",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
@@ -793,22 +793,22 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "0–1× Lanzamisiles",
+     "nombre": "0–1x Lanzamisiles",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "0–1× Cañón láser doble",
+     "nombre": "0–1x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "0–1× Cañón de asalto",
+     "nombre": "0–1x Cañón de asalto",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–1× Puño de combate",
+     "nombre": "0–1x Puño de combate",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
@@ -840,7 +840,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -866,7 +866,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     }
@@ -887,7 +887,7 @@
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -903,12 +903,12 @@
    "ff": "5+ (4+)",
    "armas": [
     {
-     "nombre": "0–1× Cañón láser doble",
+     "nombre": "0–1x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "0–1× Bólter pesado doble",
+     "nombre": "0–1x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -973,12 +973,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "3× Bólter pesado doble",
+     "nombre": "3x Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AP4+/AA5+"
     }
@@ -1000,7 +1000,7 @@
      "potencia": "AP4+/AT4+, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+/AA5+, FxF"
     },
@@ -1088,7 +1088,7 @@
      "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }
@@ -1171,9 +1171,9 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Destructor turboláser",
+     "nombre": "2x Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+, Fro"
+     "potencia": "4x AP5+/AT3+, Fro"
     },
     {
      "nombre": "Lanzacohetes",
@@ -1195,12 +1195,12 @@
     {
      "nombre": "Cañón bláster de plasma",
      "alcance": "45cm",
-     "potencia": "2× MA2+, Fro, Baj"
+     "potencia": "2x MA2+, Fro, Baj"
     },
     {
      "nombre": "Megabólter Vulcan",
      "alcance": "45cm",
-     "potencia": "4× AP3+/AT5+, Fro"
+     "potencia": "4x AP3+/AT5+, Fro"
     }
    ],
    "notas": "Factor de Daños 3, Coraje, Blindaje Reforzado, 2 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: la unidad sufre un punto de daño y se mueve D6 cm en una dirección aleatoria. Si este movimiento lleva al Titán a terreno infranqueable o contra una unidad sobre la que no puede pasar, se detiene inmediatamente y queda destruido. Todas las unidades por las que pase o contra las que choque sufren un impacto con 6+."
@@ -1222,12 +1222,12 @@
     {
      "nombre": "Bláster Gatling",
      "alcance": "60cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
-     "nombre": "2× Destructor turboláser",
+     "nombre": "2x Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+, FxF"
+     "potencia": "4x AP5+/AT3+, FxF"
     }
    ],
    "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
