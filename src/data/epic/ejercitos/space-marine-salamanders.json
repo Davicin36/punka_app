@@ -312,23 +312,23 @@
      "coste": 50,
      "porUnidad": true,
      "texto": "+50 points each",
-     "textoEs": "+50 puntos cada uno"
+     "textoEs": "Predator Incinerator o Hunter (+50 c/u)"
     },
     {
      "coste": 75,
      "porUnidad": true,
      "texto": "+75 points each",
-     "textoEs": "+75 puntos cada uno"
+     "textoEs": "Land Raider o Land Raider Redeemer (+75 c/u)"
     },
     {
      "coste": 85,
      "porUnidad": true,
      "texto": "+85 points each",
-     "textoEs": "+85 puntos cada uno"
+     "textoEs": "Land Raider Prometheus (+85 c/u)"
     }
    ],
    "nombreEs": "Apoyo Cercano",
-   "textoEs": "Añade hasta dos unidades cualesquiera de: Predator Incinerator …Hunter, Land Raider o Land Raider Redeemer …Land Raider Prometheus"
+   "textoEs": "Añade hasta dos unidades cualesquiera de: Predator Incinerator Hunter, Land Raider o Land Raider Redeemer Land Raider Prometheus"
   },
   {
    "id": "commander",

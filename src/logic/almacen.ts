@@ -52,6 +52,20 @@ const MEJORAS_RENOMBRADAS: Record<string, string> = {
   'Tank Squadron * These upgrades may add up to one Chimera per each of their units for +25 points each. All infantry units in the formation must be transported in Chimera if any are taken but you may not take more than one Chimera per unit in the formation.': 'Tank Squadron*',
 };
 function migrarLista(l: ListaEpic): ListaEpic {
+  // Lobos Espaciales: «Space Wolves» y «Dreadnoughts» pasaron de variantes a opciones separadas
+  if (l.ejercito === 'space-marine-space-wolves') for (const fe of l.formaciones) {
+    const sw = ['Grey Hunters', 'Blood Claws', 'Long Fangs', 'Wolf Guard Terminators'];
+    if (fe.mejoras['Space Wolves']) {
+      const v = fe.variantes['Space Wolves'] ?? 0;
+      fe.mejoras[`Space Wolves: ${sw[v]}`] = fe.mejoras['Space Wolves'];
+      delete fe.mejoras['Space Wolves']; delete fe.variantes['Space Wolves'];
+    }
+    if (fe.mejoras['Dreadnoughts']) {
+      const v = fe.variantes['Dreadnoughts'] ?? 0;
+      fe.mejoras[v ? 'Dreadnoughts: Venerable Dreadnought' : 'Dreadnoughts: Dreadnoughts'] = fe.mejoras['Dreadnoughts'];
+      delete fe.mejoras['Dreadnoughts']; delete fe.variantes['Dreadnoughts'];
+    }
+  }
   for (const fe of l.formaciones) {
     for (const [viejo, nuevo] of Object.entries(MEJORAS_RENOMBRADAS)) {
       for (const r of [fe.mejoras, fe.variantes] as Record<string, number>[]) {
