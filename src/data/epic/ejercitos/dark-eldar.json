@@ -392,7 +392,8 @@
     }
    ],
    "nombreEs": "Nave Espacial",
-   "unidadesEs": "Un Crucero clase Tortura o hasta tres Escoltas clase Corsario"
+   "unidadesEs": "Un Crucero clase Tortura o hasta tres Escoltas clase Corsario",
+   "tamanosTitulo": "Tipo de nave"
   },
   {
    "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-tormentor",

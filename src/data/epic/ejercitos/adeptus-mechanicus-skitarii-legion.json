@@ -237,7 +237,20 @@
     "Veteran Princeps"
    ],
    "nombreEs": "Emperador",
-   "unidadesEs": "Un Titán clase Imperator o Warmonger"
+   "unidadesEs": "Un Titán clase Imperator o Warmonger",
+   "tamanos": [
+    {
+     "nombre": "Imperator Class Titan",
+     "nombreEs": "Titán clase Imperator",
+     "coste": 1250
+    },
+    {
+     "nombre": "Warmonger Class Titan",
+     "nombreEs": "Titán clase Warmonger",
+     "coste": 1250
+    }
+   ],
+   "tamanosTitulo": "Elige el Titán"
   },
   {
    "id": "mechanicus-allies-reaver",

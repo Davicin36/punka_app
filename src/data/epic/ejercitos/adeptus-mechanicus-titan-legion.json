@@ -79,7 +79,20 @@
     "Veteran Princeps"
    ],
    "nombreEs": "Emperador",
-   "unidadesEs": "Un Titán clase Imperator o Warmonger"
+   "unidadesEs": "Un Titán clase Imperator o Warmonger",
+   "tamanos": [
+    {
+     "nombre": "Imperator Class Titan",
+     "nombreEs": "Titán clase Imperator",
+     "coste": 1250
+    },
+    {
+     "nombre": "Warmonger Class Titan",
+     "nombreEs": "Titán clase Warmonger",
+     "coste": 1250
+    }
+   ],
+   "tamanosTitulo": "Elige el Titán"
   },
   {
    "id": "battle-titan-formations-reaver",
@@ -222,8 +235,9 @@
    "coste": 75,
    "costeTexto": "75 points",
    "max": 1,
-   "nombreEs": "Caza Lysander por cada Titán clase Warmonger",
-   "unidadesEs": "Un Caza Lysander"
+   "nombreEs": "0–1 Caza Lysander por cada Titán clase Warmonger",
+   "unidadesEs": "Un Caza Lysander",
+   "porCadaUnidad": "Warmonger Class Titan"
   },
   {
    "id": "support-formations-marauder-squadron",
@@ -479,7 +493,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "nombreEs": "Legado por ejército"
+   "nombreEs": "Legado (uno por ejército)"
   },
   {
    "id": "sacred-icon",

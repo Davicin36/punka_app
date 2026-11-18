@@ -346,7 +346,8 @@
      "coste": 300,
      "nombreEs": "Nave Dragón"
     }
-   ]
+   ],
+   "tamanosTitulo": "Tipo de nave"
   },
   {
    "id": "saim-hann-craftworld-spacecraft-aircraft-titans-vampire",

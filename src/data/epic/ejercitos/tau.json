@@ -230,7 +230,8 @@
      "coste": 225,
      "nombreEs": "Nave de Batalla clase Custodio"
     }
-   ]
+   ],
+   "tamanosTitulo": "Tipo de nave"
   },
   {
    "id": "air-caste-formations-tiger-shark-squadron",
