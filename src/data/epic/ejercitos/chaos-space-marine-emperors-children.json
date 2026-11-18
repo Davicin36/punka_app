@@ -22,7 +22,7 @@
     "base": "retinue"
    },
    "notaEs": "Se puede desplegar una formación de élite por cada séquito.",
-   "nombreEs": "Séquitos de los Hijos del Emperador"
+   "nombreEs": "Formaciones de élite de los Hijos del Emperador"
   },
   {
    "id": "emperors-children-support-formations",
@@ -52,7 +52,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Máquinas de Guerra del Caos"
+   "nombreEs": "Formaciones de la Armada del Caos"
   },
   {
    "id": "chaos-war-engines",
@@ -710,7 +710,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Blastmaster",
+     "nombre": "2x Blastmaster",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+, D"
     },
@@ -748,7 +748,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -855,7 +855,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -882,7 +882,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Blastmaster",
+     "nombre": "2x Blastmaster",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+, D"
     }
@@ -927,7 +927,7 @@
     {
      "nombre": "Autocañón Acechador",
      "alcance": "30cm",
-     "potencia": "2× AP5+/AT6+/AA5+"
+     "potencia": "2x AP5+/AT6+/AA5+"
     }
    ],
    "notas": ""
@@ -944,7 +944,7 @@
     {
      "nombre": "Mirada de Slaanesh",
      "alcance": "30cm",
-     "potencia": "3× MA4+"
+     "potencia": "3x MA4+"
     },
     {
      "nombre": "y Mirada de Slaanesh",
@@ -993,7 +993,7 @@
     {
      "nombre": "Cañón Castigator",
      "alcance": "45cm",
-     "potencia": "3× AP3+/AT5+, Fro"
+     "potencia": "3x AP3+/AT5+, Fro"
     }
    ],
    "notas": "Factor de Daños 2, Coraje, Salvación Invulnerable, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
@@ -1008,12 +1008,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón Castigator",
+     "nombre": "2x Cañón Castigator",
      "alcance": "45cm",
-     "potencia": "3× AP3+/AT5+"
+     "potencia": "3x AP3+/AT5+"
     },
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     }
@@ -1030,12 +1030,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "2× Espadas infernales",
+     "nombre": "2x Espadas infernales",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
@@ -1057,7 +1057,7 @@
      "potencia": "AP4+/AT4+, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+/AA5+, FxF"
     },
@@ -1114,7 +1114,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "15cm",
      "potencia": "AP4+/AT6+/AA5+, FxF"
     }
@@ -1162,7 +1162,7 @@
      "potencia": "3PA, MA"
     },
     {
-     "nombre": "3× Ataque localizado",
+     "nombre": "3x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

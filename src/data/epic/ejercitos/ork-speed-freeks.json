@@ -439,7 +439,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -461,7 +461,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -600,7 +600,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota doble",
+     "nombre": "2x Big Shoota doble",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     }
@@ -618,7 +618,7 @@
     {
      "nombre": "Cañón antiaéreo",
      "alcance": "30cm",
-     "potencia": "2× AP6+/AT6+/AA6+"
+     "potencia": "2x AP6+/AT6+/AA6+"
     }
    ],
    "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado."
@@ -666,7 +666,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "4× Twin Big Shoota",
+     "nombre": "4x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
@@ -687,12 +687,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "5× Twin Big Shoota",
+     "nombre": "5x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "3× Big Gun",
+     "nombre": "3x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     }
@@ -731,10 +731,10 @@
     {
      "nombre": "Torretas",
      "alcance": "15cm",
-     "potencia": "D6+3× AP5+/AA6+"
+     "potencia": "D6+3x AP5+/AA6+"
     },
     {
-     "nombre": "2× Kohetez Revientatankez",
+     "nombre": "2x Kohetez Revientatankez",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     }

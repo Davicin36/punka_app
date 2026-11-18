@@ -282,12 +282,12 @@ export function costeVariantes(e: EjercitoEpic, fe: FormacionElegida): number {
     s + Object.entries(fe.reparto?.[g.clave] ?? {}).reduce((t, [o, n]) => t + (g.costes![o] ?? 0) * n, 0), 0);
 }
 
-/** Texto del reparto: «2 Predator Annihilator, 2 Predator Destructor». */
+/** Texto del reparto: «2x Predator Annihilator, 2x Predator Destructor». */
 export function textoReparto(e: EjercitoEpic, fe: FormacionElegida): { origen: string; texto: string }[] {
   return gruposEleccion(e, fe).flatMap(g => {
     const r = Object.entries(fe.reparto?.[g.clave] ?? {}).filter(([o, n]) => n > 0 && g.opciones.includes(o));
     if (!r.length) return [];
-    return [{ origen: g.origen, texto: r.map(([o, n]) => (g.max === 1 ? nombreUnidad(e, o) : `${n} ${nombreUnidad(e, o)}`)).join(', ') }];
+    return [{ origen: g.origen, texto: r.map(([o, n]) => (g.max === 1 ? nombreUnidad(e, o) : `${n}x ${nombreUnidad(e, o)}`)).join(', ') }];
   });
 }
 
@@ -396,6 +396,6 @@ export function transporteFormacion(e: EjercitoEpic, fe: FormacionElegida): { no
   return out;
 }
 
-/** «3 Rhinos» en castellano. */
+/** «3x Rhino» en castellano. */
 export const textoTransporte = (e: EjercitoEpic, fe: FormacionElegida) =>
-  transporteFormacion(e, fe).map(t => `${t.cantidad} ${nombreUnidad(e, t.nombre)}${t.cantidad > 1 ? 's' : ''}`).join(' y ');
+  transporteFormacion(e, fe).map(t => `${t.cantidad}x ${nombreUnidad(e, t.nombre)}`).join(' y ');

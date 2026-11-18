@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo de asedio por cada formación principal.",
-   "nombreEs": "Formaciones básicas de los Guerreros de Hierro"
+   "nombreEs": "Formaciones de apoyo de asedio de los Guerreros de Hierro"
   },
   {
    "id": "iron-warrior-siege-assault-formations",
@@ -51,7 +51,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Mejoras de los Guerreros de Hierro"
+   "nombreEs": "Formaciones de la Armada del Caos"
   },
   {
    "id": "chaos-war-engines",
@@ -613,12 +613,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Arma demoníaca",
+     "nombre": "0–1x Arma demoníaca",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     },
     {
-     "nombre": "0–1× Servobrazo",
+     "nombre": "0–1x Servobrazo",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+2)"
     }
@@ -635,12 +635,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Arma demoníaca",
+     "nombre": "0–1x Arma demoníaca",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     },
     {
-     "nombre": "0–1× Servobrazo",
+     "nombre": "0–1x Servobrazo",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+2)"
     }
@@ -761,7 +761,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -778,7 +778,7 @@
    "ff": "2+",
    "armas": [
     {
-     "nombre": "3× Armas corporales",
+     "nombre": "3x Armas corporales",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+/AA6+"
     }
@@ -860,7 +860,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -887,7 +887,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1010,7 +1010,7 @@
     {
      "nombre": "Autocañón Acechador",
      "alcance": "30cm",
-     "potencia": "2× AP5+/AT6+/AA5+"
+     "potencia": "2x AP5+/AT6+/AA5+"
     }
    ],
    "notas": ""
@@ -1029,12 +1029,12 @@
      "potencia": "3PA, FxF, IC, MA"
     },
     {
-     "nombre": "2× Autocañón Segador doble",
+     "nombre": "2x Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Izq."
     },
     {
-     "nombre": "2× Autocañón Segador doble",
+     "nombre": "2x Autocañón Segador doble",
      "alcance": "30cm",
      "potencia": "AP3+/AT5+, Der."
     }
@@ -1060,7 +1060,7 @@
      "potencia": "AT5+"
     },
     {
-     "nombre": "2× Cañón láser 2× Bólter pesado",
+     "nombre": "2x Cañón láser 2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     }
@@ -1082,9 +1082,9 @@
      "potencia": "MA2+, FxF, IC, MT(D3)"
     },
     {
-     "nombre": "2× Tormenta de muerte",
+     "nombre": "2x Tormenta de muerte",
      "alcance": "45cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
      "nombre": "Cabeza de combate",
@@ -1181,7 +1181,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "15cm",
      "potencia": "AP4+/AT6+/AA5+, FxF"
     }
@@ -1229,7 +1229,7 @@
      "potencia": "3PA, MA"
     },
     {
-     "nombre": "3× Ataque localizado",
+     "nombre": "3x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

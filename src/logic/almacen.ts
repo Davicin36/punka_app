@@ -24,7 +24,7 @@ export function cargar(): Estado {
     // El coste de la bala viene del reglamento (comun.json), no de lo guardado
     return {
       bandas: (d.bandas ?? []).filter(esBandaValida).map(normalizar),
-      ejercitos: (d.ejercitos ?? []).filter(esListaEpicValida),
+      ejercitos: (d.ejercitos ?? []).filter(esListaEpicValida).map(migrarLista),
       ajustes: estadoInicial.ajustes,
     };
   } catch {
@@ -45,6 +45,24 @@ function esBandaValida(b: unknown): b is Banda {
   const x = b as Banda;
   return !!x && typeof x.id === 'string' && !!faccionPorId[x.faccion] && Array.isArray(x.miniaturas)
     && x.miniaturas.every(m => !!unidadPorId[m?.unidad]);
+}
+
+/** Nombres de mejora que cambiaron: se traducen en las listas guardadas o importadas. */
+const MEJORAS_RENOMBRADAS: Record<string, string> = {
+  'Tank Squadron * These upgrades may add up to one Chimera per each of their units for +25 points each. All infantry units in the formation must be transported in Chimera if any are taken but you may not take more than one Chimera per unit in the formation.': 'Tank Squadron*',
+};
+function migrarLista(l: ListaEpic): ListaEpic {
+  for (const fe of l.formaciones) {
+    for (const [viejo, nuevo] of Object.entries(MEJORAS_RENOMBRADAS)) {
+      for (const r of [fe.mejoras, fe.variantes] as Record<string, number>[]) {
+        if (r && viejo in r) { r[nuevo] = r[viejo]; delete r[viejo]; }
+      }
+      if (fe.reparto) for (const k of Object.keys(fe.reparto)) {
+        if (k.includes(viejo)) { fe.reparto[k.replace(viejo, nuevo)] = fe.reparto[k]; delete fe.reparto[k]; }
+      }
+    }
+  }
+  return l;
 }
 
 function esListaEpicValida(l: unknown): l is ListaEpic {
@@ -73,7 +91,7 @@ export function importar(texto: string): { bandas: Banda[]; ejercitos: ListaEpic
   ];
   if (!brutas.length) brutas.push(d);
   const bandas = brutas.filter(esBandaValida).map(b => ({ ...normalizar(b), id: nuevoId(), actualizada: Date.now() }));
-  const ejercitos = brutas.filter(esListaEpicValida).map(l => ({ ...l, id: nuevoId(), actualizada: Date.now() }));
+  const ejercitos = brutas.filter(esListaEpicValida).map(migrarLista).map(l => ({ ...l, id: nuevoId(), actualizada: Date.now() }));
   if (!bandas.length && !ejercitos.length) throw new Error('El archivo no contiene ninguna banda ni ejército válido.');
   return { bandas, ejercitos };
 }

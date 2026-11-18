@@ -63,7 +63,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
         <span className="mt">
           <b><Bi es={f.nombreEs} en={f.nombre} /></b>
           {f.max && <i className="kt">0–{f.max}</i>}
-          <span className="sum"><Bi es={f.unidadesEs} en={f.unidades} /></span>
+          <span className="sum"><Bi n es={f.unidadesEs} en={f.unidades} /></span>
           {resumen.length > 0 && <span className="sum extra">{resumen.join(' · ')}</span>}
           {problemas.length > 0 && <span className="perr">⚠ {problemas.join(' ')}</span>}
         </span>
@@ -84,7 +84,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
             <h4>{f.nombre === 'Spacecraft' ? 'Tipo de nave' : 'Tamaño'}</h4>
             <div className="opts">
               {f.tamanos.map((t, j) => (
-                <Check key={t.nombre + j} radio grupo={`t-${fe.uid}`} nombre={<Bi es={t.nombreEs} en={t.nombre} />} coste={`${t.coste} pts`} activo={fe.tamano === j}
+                <Check key={t.nombre + j} radio grupo={`t-${fe.uid}`} nombre={<Bi n es={t.nombreEs} en={t.nombre} />} coste={`${t.coste} pts`} activo={fe.tamano === j}
                   onChange={() => onChange(x => { x.tamano = j; })} />
               ))}
             </div>
@@ -96,9 +96,9 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
               {f.extras.map((x, j) => (
                 <div key={j} className="mejora">
                   {(x.porUnidad && (x.max ?? 1) > 1)
-                    ? <FilaContador nombre={<Bi es={x.textoEs} en={x.texto} />} nota={`(${x.coste ? `+${x.coste} c/u` : 'gratis'}, máx. ${x.max})`} valor={fe.extras[j] ?? 0} max={x.max}
+                    ? <FilaContador nombre={<Bi n es={x.textoEs} en={x.texto} />} nota={`(${x.coste ? `+${x.coste} c/u` : 'gratis'}, máx. ${x.max})`} valor={fe.extras[j] ?? 0} max={x.max}
                         onChange={v => onChange(y => fijar(y.extras, j, v))} />
-                    : <Check nombre={<Bi es={x.textoEs} en={x.texto} />} coste={x.coste ? `+${x.coste}` : 'gratis'} activo={!!fe.extras[j]}
+                    : <Check nombre={<Bi n es={x.textoEs} en={x.texto} />} coste={x.coste ? `+${x.coste}` : 'gratis'} activo={!!fe.extras[j]}
                         onChange={v => onChange(y => fijar(y.extras, j, v ? 1 : 0))} />}
                   {gruposDe(`x${j}.`, `lr:x${j}`).map(g => pintarGrupo(g))}
                 </div>
@@ -125,7 +125,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                       ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta}${m.max ? `, máx. ${m.max}` : ''})`} valor={n} max={m.max ?? 20}
                           onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val))} />
                       : <Check nombre={<Bi es={m.nombreEs} en={m.nombre} />} coste={etiqueta} activo={n > 0} onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val ? 1 : 0))} />}
-                    {m.texto && <small className="mtexto"><Bi es={m.textoEs} en={m.texto} /></small>}
+                    {m.texto && <small className="mtexto"><Bi n es={m.textoEs} en={m.texto} /></small>}
                     {m.parejas && n > 0 && (
                       <small className="mtexto calc">
                         {pares > 0 ? `${pares} ${pares > 1 ? 'parejas' : 'pareja'}` : ''}{pares > 0 && n % 2 ? ' + ' : ''}{n % 2 ? '1 suelta' : ''}
@@ -135,7 +135,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                     {m.variantes && m.variantes.length > 1 && n > 0 && (
                       <div className="chips">
                         {m.variantes.map((va, k) => (
-                          <button key={k} className={`chip ${vIdx === k ? 'on' : ''}`} onClick={() => onChange(y => { y.variantes[m.nombre] = k; })}><Bi es={va.textoEs} en={va.texto} /></button>
+                          <button key={k} className={`chip ${vIdx === k ? 'on' : ''}`} onClick={() => onChange(y => { y.variantes[m.nombre] = k; })}><Bi n es={va.textoEs} en={va.texto} /></button>
                         ))}
                       </div>
                     )}

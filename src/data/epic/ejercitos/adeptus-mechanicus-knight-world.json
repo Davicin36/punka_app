@@ -554,7 +554,7 @@
     {
      "nombre": "Cañón de batalla de fuego",
      "alcance": "75cm",
-     "potencia": "2× AP4+/AT4+, Fro"
+     "potencia": "2x AP4+/AT4+, Fro"
     },
     {
      "nombre": "rápido",
@@ -562,12 +562,12 @@
      "potencia": "Armas ligeras, AE(+1), DP, MA"
     },
     {
-     "nombre": "0–1× Lanza de energía",
+     "nombre": "0–1x Lanza de energía",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT"
     },
     {
-     "nombre": "0–1× Guantelete de energía 0–1× Lanza de choque",
+     "nombre": "0–1x Guantelete de energía 0–1x Lanza de choque",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1), DP"
     }
@@ -596,7 +596,7 @@
     {
      "nombre": "Autocañón multitubo",
      "alcance": "45cm",
-     "potencia": "3× AP5+/AT6+, Fro"
+     "potencia": "3x AP5+/AT6+, Fro"
     }
    ],
    "notas": "Factor de Daños 2, Escudo de Caballero, Blindaje Reforzado, Bípode. Efecto de Impacto Crítico: destruida."
@@ -621,7 +621,7 @@
      "potencia": "1PA, Fro"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+, Fro"
     }
@@ -719,27 +719,27 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "0–1× Cañón Demolisher",
+     "nombre": "0–1x Cañón Demolisher",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, FxF, IC"
     },
     {
-     "nombre": "0–1× Bólters pesados",
+     "nombre": "0–1x Bólters pesados",
      "alcance": "30cm",
-     "potencia": "2× AP5+, Fro"
+     "potencia": "2x AP5+, Fro"
     },
     {
-     "nombre": "0–1× Lanzamisiles antiaéreo",
+     "nombre": "0–1x Lanzamisiles antiaéreo",
      "alcance": "45cm",
-     "potencia": "2× AP5+/AT6+/AA5+"
+     "potencia": "2x AP5+/AT6+/AA5+"
     },
     {
-     "nombre": "0–1× Multiláseres",
+     "nombre": "0–1x Multiláseres",
      "alcance": "30cm",
-     "potencia": "2× AP5+/AT6+, Fro"
+     "potencia": "2x AP5+/AT6+, Fro"
     },
     {
-     "nombre": "0–1× Cañón Vanquisher",
+     "nombre": "0–1x Cañón Vanquisher",
      "alcance": "75cm",
      "potencia": "AP4+/AT2+, FxF"
     }
@@ -766,7 +766,7 @@
      "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }

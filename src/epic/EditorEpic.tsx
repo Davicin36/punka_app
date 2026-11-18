@@ -178,7 +178,7 @@ export function EditorEpic({ lista, onCambiar, onVolver, onBorrar, onDuplicar }:
                     return (
                       <button key={f.id} className={`pick ${agotada || f.coste > quedan ? 'dim' : ''}`} onClick={() => anadir(f)}>
                         <span className="pn"><b><Bi es={f.nombreEs} en={f.nombre} />{f.max ? ` (0–${f.max})` : ''}</b><em>{precio} pts</em></span>
-                        <span className="sum"><Bi es={f.unidadesEs} en={f.unidades} /></span>
+                        <span className="sum"><Bi n es={f.unidadesEs} en={f.unidades} /></span>
                       </button>
                     );
                   })}

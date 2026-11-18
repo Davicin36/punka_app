@@ -688,7 +688,7 @@
     {
      "nombre": "Biocañón",
      "alcance": "45cm",
-     "potencia": "2× AP4+/AT5+"
+     "potencia": "2x AP4+/AT5+"
     }
    ],
    "notas": "Blindaje Reforzado."
@@ -705,7 +705,7 @@
     {
      "nombre": "Chorros de ácido y espinas",
      "alcance": "15cm",
-     "potencia": "2× AP5+/AT6+"
+     "potencia": "2x AP5+/AT6+"
     },
     {
      "nombre": "de fragmentación Garras y mandíbulas",
@@ -748,7 +748,7 @@
     {
      "nombre": "Espinas de fragmentación",
      "alcance": "15cm",
-     "potencia": "2× AP5+"
+     "potencia": "2x AP5+"
     },
     {
      "nombre": "Brazos",
@@ -769,7 +769,7 @@
     {
      "nombre": "Biocañón de Bio-Titán",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT5+, FxF"
+     "potencia": "3x AP4+/AT5+, FxF"
     },
     {
      "nombre": "Pulso de energía",
@@ -782,7 +782,7 @@
      "potencia": "AA5+, MA"
     },
     {
-     "nombre": "2× Garras de guadaña enormes",
+     "nombre": "2x Garras de guadaña enormes",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT"
     }
@@ -800,7 +800,7 @@
     {
      "nombre": "Biocañón doble del Harridan",
      "alcance": "45cm",
-     "potencia": "2× AP4+/AT5+, FxF"
+     "potencia": "2x AP4+/AT5+, FxF"
     },
     {
      "nombre": "Garras de guadaña grandes",
@@ -841,14 +841,14 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "0–1× Lanzador de bilis",
+     "nombre": "0–1x Lanzador de bilis",
      "alcance": "60cm",
      "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Biocañón de Bio-Titán",
+     "nombre": "0–1x Biocañón de Bio-Titán",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT5+, Fro"
+     "potencia": "3x AP4+/AT5+, Fro"
     },
     {
      "nombre": "",
@@ -856,22 +856,22 @@
      "potencia": "4PA, Fro"
     },
     {
-     "nombre": "0–1× Espinas de racimo",
+     "nombre": "0–1x Espinas de racimo",
      "alcance": "15cm",
      "potencia": "3PA, Fro, IC"
     },
     {
-     "nombre": "0–1× Rociado piroácido",
+     "nombre": "0–1x Rociado piroácido",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "0–2× Garra afilada",
+     "nombre": "0–2x Garra afilada",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },
     {
-     "nombre": "o 2× Garras de guadaña enormes",
+     "nombre": "o 2x Garras de guadaña enormes",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT"
     }
@@ -888,14 +888,14 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "0–1× Lanzador de bilis",
+     "nombre": "0–1x Lanzador de bilis",
      "alcance": "60cm",
      "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Biocañón de Bio-Titán",
+     "nombre": "0–1x Biocañón de Bio-Titán",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT5+, Fro"
+     "potencia": "3x AP4+/AT5+, Fro"
     },
     {
      "nombre": "",
@@ -903,17 +903,17 @@
      "potencia": "4PA, Fro"
     },
     {
-     "nombre": "0–1× Espinas de racimo",
+     "nombre": "0–1x Espinas de racimo",
      "alcance": "15cm",
      "potencia": "3PA, Fro, IC"
     },
     {
-     "nombre": "0–1× Rociado piroácido",
+     "nombre": "0–1x Rociado piroácido",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+2)"
     },
     {
-     "nombre": "0–2× Garra afilada",
+     "nombre": "0–2x Garra afilada",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },
@@ -923,7 +923,7 @@
      "potencia": "Armas de asalto, AE(+2), DP"
     },
     {
-     "nombre": "Tentáculos destripadores 2× Garras de guadaña gigantescas",
+     "nombre": "Tentáculos destripadores 2x Garras de guadaña gigantescas",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }

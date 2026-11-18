@@ -726,7 +726,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Lanzamisiles",
+     "nombre": "2x Lanzamisiles",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -753,7 +753,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -820,7 +820,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón de asalto",
+     "nombre": "2x Cañón de asalto",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     },
@@ -860,12 +860,12 @@
     {
      "nombre": "Cañón Thunderfire",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, D"
+     "potencia": "2x AP4+/AT6+, D"
     },
     {
      "nombre": "o",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, IC"
+     "potencia": "2x AP4+/AT6+, IC"
     }
    ],
    "notas": ""
@@ -960,12 +960,12 @@
    "ff": "6+ (5+)",
    "armas": [
     {
-     "nombre": "0–1× Cañón láser doble",
+     "nombre": "0–1x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "0–1× Bólter pesado doble",
+     "nombre": "0–1x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -1019,7 +1019,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -1042,20 +1042,20 @@
     {
      "nombre": "Cañón Thunderfire",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, D"
+     "potencia": "2x AP4+/AT6+, D"
     },
     {
      "nombre": "o",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, IC"
+     "potencia": "2x AP4+/AT6+, IC"
     },
     {
-     "nombre": "2× Multifusión doble",
+     "nombre": "2x Multifusión doble",
      "alcance": "15cm",
      "potencia": "MA4+"
     },
     {
-     "nombre": "y 2× Multifusión doble",
+     "nombre": "y 2x Multifusión doble",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, MA"
     }
@@ -1071,7 +1071,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Bólters Huracán",
+     "nombre": "2x Bólters Huracán",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1)"
     },
@@ -1097,7 +1097,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     }
@@ -1118,7 +1118,7 @@
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1134,12 +1134,12 @@
    "ff": "5+ (4+)",
    "armas": [
     {
-     "nombre": "0–1× Cañón láser doble",
+     "nombre": "0–1x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "0–1× Bólter pesado doble",
+     "nombre": "0–1x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -1243,12 +1243,12 @@
     {
      "nombre": "Cañón Thunderfire",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, D"
+     "potencia": "2x AP4+/AT6+, D"
     },
     {
      "nombre": "o",
      "alcance": "60cm",
-     "potencia": "2× AP4+/AT6+, IC"
+     "potencia": "2x AP4+/AT6+, IC"
     },
     {
      "nombre": "Lanzador Hyperios dobles",
@@ -1256,7 +1256,7 @@
      "potencia": "AT5+/AA4+"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -1272,19 +1272,19 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón Acelerador",
+     "nombre": "2x Cañón Acelerador",
      "alcance": "75cm",
      "potencia": "MA3+"
     },
     {
      "nombre": "Cañón láser cuádruple",
      "alcance": "45cm",
-     "potencia": "2× AT4+, Izq."
+     "potencia": "2x AT4+, Izq."
     },
     {
      "nombre": "Cañón láser cuádruple",
      "alcance": "45cm",
-     "potencia": "2× AT4+, Der."
+     "potencia": "2x AT4+, Der."
     },
     {
      "nombre": "Cañón Demolisher",
@@ -1309,9 +1309,9 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Destructor turboláser",
+     "nombre": "2x Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+, Fro"
+     "potencia": "4x AP5+/AT3+, Fro"
     },
     {
      "nombre": "Lanzacohetes",
@@ -1338,7 +1338,7 @@
     {
      "nombre": "Bláster Gatling",
      "alcance": "60cm",
-     "potencia": "4× AP4+/AT4+, Fro"
+     "potencia": "4x AP4+/AT4+, Fro"
     },
     {
      "nombre": "Lanzacohetes",
@@ -1390,7 +1390,7 @@
      "potencia": "AP4+/AT4+, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+, FxF"
     },

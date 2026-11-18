@@ -13,7 +13,7 @@ interface Props {
 }
 
 const marcar = (r: Record<string, number>, k: string, v: number) => { if (v > 0) r[k] = v; else delete r[k]; };
-const elegidas = (r: Record<string, number>) => Object.entries(r).filter(([, q]) => q > 0).map(([n, q]) => (q > 1 ? `${n} ×${q}` : n));
+const elegidas = (r: Record<string, number>) => Object.entries(r).filter(([, q]) => q > 0).map(([n, q]) => (q > 1 ? `${q}x ${n}` : n));
 const alternar = (arr: string[], k: string) => { const i = arr.indexOf(k); if (i >= 0) arr.splice(i, 1); else arr.push(k); };
 
 /** Atributos con modificadores: valor final grande y el base pequeño debajo, como "4 (6)" en el libro. */
@@ -51,7 +51,7 @@ function TablaArmas({ m }: { m: Miniatura }) {
           return perfiles.map((p, j) => (
             <tr key={a.nombre + j}>
               <td>
-                {j === 0 && <b>{a.nombre}{a.cantidad > 1 ? ` ×${a.cantidad}` : ''}</b>}
+                {j === 0 && <b>{a.cantidad > 1 ? `${a.cantidad}x ` : ''}{a.nombre}</b>}
                 {perfiles.length > 1 && <small> {p.modo === 'Distancia' ? 'a distancia' : 'cuerpo a cuerpo'}</small>}
                 {j === perfiles.length - 1 && a.arma!.reglas.length > 0 && <small className="reg">{a.arma!.reglas.join(', ')}</small>}
               </td>
@@ -97,7 +97,7 @@ export function TarjetaMiniatura({ m, i, banda, ajustes, abierta, onToggle, onCh
       <button className="mhead" onClick={onToggle}>
         <span className="idx">{i + 1}</span>
         <span className="mt">
-          <b>{m.apodo || u.nombre}{u.grupo ? ` ×${m.grupo}` : ''}</b>
+          <b>{u.grupo ? `${m.grupo}x ` : ''}{m.apodo || u.nombre}</b>
           {m.apodo && <small>{u.nombre}</small>}
           {TIPO[u.tipo] && <i className={`kt k-${u.tipo}`}>{TIPO[u.tipo]}</i>}
           <span className="sum">{resumen.length ? resumen.join(' · ') : <i>Sin equipar</i>}</span>

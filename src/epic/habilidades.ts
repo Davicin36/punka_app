@@ -10,7 +10,7 @@ const LISTA = HABILIDADES as Habilidad[];
 /** Abreviaturas de potencia de fuego → clave del glosario */
 function clavesDeArma(potencia: string): string[] {
   const out: string[] = [];
-  for (const t of potencia.split(/[,;]\s*/).map(x => x.replace(/^\d+×\s*/, '').trim())) {
+  for (const t of potencia.split(/[,;]\s*/).map(x => x.replace(/^\d+[×x]\s*/, '').trim())) {
     if (/(^|\/)AA\d/.test(t)) out.push('AA');
     if (/^MA/.test(t)) out.push('MA');
     if (/^AE/.test(t)) out.push('AE');
@@ -70,7 +70,7 @@ const ABREVIATURAS: [string, string, RegExp][] = [
   ['FxF', 'Arco de fuego fijo frontal (Fixed Forward)', /^FxF$/],
   ['Pos', 'Arco de fuego trasero (Rear Fire Arc)', /^Pos$/],
   ['Izq. / Der.', 'Arco de fuego izquierdo / derecho (Left / Right)', /^(Izq|Der)\.?$/],
-  ['N×', 'El arma dispara N veces o la unidad lleva N armas iguales', /^\d+×$/],
+  ['Nx', 'El arma dispara N veces o la unidad lleva N armas iguales', /^\d+[×x]/],
   ['(15cm)', 'Alcance entre paréntesis: armas ligeras, solo en tiroteo (Small Arms)', /^Armas ligeras$/],
   ['(peana)', 'Armas de asalto: solo en combate cuerpo a cuerpo (Assault Weapons)', /^Armas de asalto$/],
 ];
@@ -81,6 +81,7 @@ export function abreviaturasDe(fichas: FichaEpic[]): [string, string][] {
   for (const f of fichas) {
     f.tipo.split('/').forEach(t => tokens.add(t.trim()));
     for (const a of f.armas) {
+      tokens.add(a.nombre.split(' ')[0]);
       for (const parte of a.potencia.split(/,\s*/)) {
         const p = parte.trim();
         tokens.add(p);

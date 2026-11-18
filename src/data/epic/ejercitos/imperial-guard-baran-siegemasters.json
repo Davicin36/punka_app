@@ -705,7 +705,7 @@
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "2× Ametralladora pesada",
+     "nombre": "2x Ametralladora pesada",
      "alcance": "30cm",
      "potencia": "AP6+"
     }
@@ -723,7 +723,7 @@
     {
      "nombre": "Cañón de batalla Baneblade",
      "alcance": "75cm",
-     "potencia": "2× AP3+/AT3+"
+     "potencia": "2x AP3+/AT3+"
     },
     {
      "nombre": "Autocañón",
@@ -736,12 +736,12 @@
      "potencia": "AP3+/AT4+, FxF, IC"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     },
     {
-     "nombre": "3× Bólter pesado doble",
+     "nombre": "3x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+"
     }
@@ -762,7 +762,7 @@
      "potencia": "MA2+, FxF, MT(D3)"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -789,7 +789,7 @@
      "potencia": "3PA, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "15cm",
      "potencia": "AA5+"
     }

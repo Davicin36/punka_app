@@ -635,7 +635,7 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "2× Multiláser",
+     "nombre": "2x Multiláser",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+/AA5+"
     }
@@ -688,7 +688,7 @@
     {
      "nombre": "Bláster Gatling (patrón Marte)",
      "alcance": "60cm",
-     "potencia": "6× AP4+/AT4+"
+     "potencia": "6x AP4+/AT4+"
     }
    ],
    "notas": ""
@@ -722,7 +722,7 @@
     {
      "nombre": "Bláster láser",
      "alcance": "60cm",
-     "potencia": "6× AP5+/AT3+"
+     "potencia": "6x AP5+/AT3+"
     }
    ],
    "notas": ""
@@ -799,7 +799,7 @@
     {
      "nombre": "Cañón bláster de plasma",
      "alcance": "45cm",
-     "potencia": "2× MA2+, Baj"
+     "potencia": "2x MA2+, Baj"
     }
    ],
    "notas": ""
@@ -816,7 +816,7 @@
     {
      "nombre": "Cañón de plasma",
      "alcance": "60cm",
-     "potencia": "3× MA2+, Baj"
+     "potencia": "3x MA2+, Baj"
     }
    ],
    "notas": ""
@@ -833,7 +833,7 @@
     {
      "nombre": "Destructor de plasma",
      "alcance": "75cm",
-     "potencia": "5× MA2+, Baj"
+     "potencia": "5x MA2+, Baj"
     }
    ],
    "notas": ""
@@ -882,22 +882,22 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Misil de artillería",
+     "nombre": "0–1x Misil de artillería",
      "alcance": "Unlimited",
      "potencia": "10PA, D, Ind, DU"
     },
     {
-     "nombre": "0–1× Misil Deathstrike",
+     "nombre": "0–1x Misil Deathstrike",
      "alcance": "Unlimited",
      "potencia": "MA2+, Ind, DU, MT(D6)"
     },
     {
-     "nombre": "0–1× Misil de vórtice",
+     "nombre": "0–1x Misil de vórtice",
      "alcance": "Unlimited",
      "potencia": "3PA, IC, Ind, DU, MT"
     },
     {
-     "nombre": "0–1× Misil disforme",
+     "nombre": "0–1x Misil disforme",
      "alcance": "Unlimited",
      "potencia": "MA2+, Ind, DU, MT(D3)"
     }
@@ -916,7 +916,7 @@
     {
      "nombre": "Destructor turboláser",
      "alcance": "60cm",
-     "potencia": "4× AP5+/AT3+"
+     "potencia": "4x AP5+/AT3+"
     }
    ],
    "notas": ""
@@ -967,7 +967,7 @@
     {
      "nombre": "Megabólter Vulcan",
      "alcance": "45cm",
-     "potencia": "4× AP3+/AT5+"
+     "potencia": "4x AP3+/AT5+"
     }
    ],
    "notas": ""
@@ -1037,7 +1037,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Fusil de plasma en fase",
+     "nombre": "2x Fusil de plasma en fase",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }
@@ -1053,12 +1053,12 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Multifusión",
+     "nombre": "2x Multifusión",
      "alcance": "15cm",
      "potencia": "MA5+"
     },
     {
-     "nombre": "y 2× Multifusión",
+     "nombre": "y 2x Multifusión",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, MA"
     },
@@ -1149,7 +1149,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     },
@@ -1175,7 +1175,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Autocañón doble Hydra",
+     "nombre": "2x Autocañón doble Hydra",
      "alcance": "45cm",
      "potencia": "AP4+/AT5+/AA5+"
     },
@@ -1199,7 +1199,7 @@
     {
      "nombre": "Aniquilador de plasma",
      "alcance": "90cm",
-     "potencia": "4× MA2+, Fro, Baj, MT(D3)"
+     "potencia": "4x MA2+, Fro, Baj, MT(D3)"
     },
     {
      "nombre": "Cañón Tormenta Infernal",
@@ -1217,7 +1217,7 @@
      "potencia": "3PA, MA"
     },
     {
-     "nombre": "4× Cañón de batalla",
+     "nombre": "4x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
@@ -1238,12 +1238,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón de batalla",
+     "nombre": "2x Cañón de batalla",
      "alcance": "75cm",
      "potencia": "AP4+/AT4+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     },
@@ -1265,17 +1265,17 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "0–1× 2× Vanquisher",
+     "nombre": "0–1x 2x Vanquisher",
      "alcance": "75cm",
      "potencia": "AP4+/AT2+"
     },
     {
-     "nombre": "0–1× Megabólter Vulcan",
+     "nombre": "0–1x Megabólter Vulcan",
      "alcance": "45cm",
-     "potencia": "4× AP3+/AT5+"
+     "potencia": "4x AP3+/AT5+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     },
@@ -1296,27 +1296,27 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "0–1× Disruptor sónico",
+     "nombre": "0–1x Disruptor sónico",
      "alcance": "100cm",
      "potencia": "10PA, FxF, D, IC"
     },
     {
-     "nombre": "0–1× Misiles Hellfire",
+     "nombre": "0–1x Misiles Hellfire",
      "alcance": "Unlimited",
      "potencia": "3PA, FxF, Ind, MA, Baj"
     },
     {
-     "nombre": "0–1× Cañón nova",
+     "nombre": "0–1x Cañón nova",
      "alcance": "100cm",
-     "potencia": "4× MA3+, FxF, MT(D3)"
+     "potencia": "4x MA3+, FxF, MT(D3)"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "45cm",
      "potencia": "AT5+"
     }
@@ -1337,7 +1337,7 @@
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     }
@@ -1356,10 +1356,10 @@
     {
      "nombre": "Cañón bólter Avenger",
      "alcance": "30cm",
-     "potencia": "2× AP3+/AT5+, FxF"
+     "potencia": "2x AP3+/AT5+, FxF"
     },
     {
-     "nombre": "2× Cañón láser",
+     "nombre": "2x Cañón láser",
      "alcance": "30cm",
      "potencia": "AT5+/AA5+, FxF"
     },

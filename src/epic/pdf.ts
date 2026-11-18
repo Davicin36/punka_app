@@ -7,6 +7,7 @@ import { nombreArchivo } from '../logic/descargar';
 import { es, nom } from './texto';
 import { anexoReglas } from '../logic/pdfReglas';
 import { unidadesDeLista } from './eleccion';
+import { cantidades } from './cantidades';
 import { abreviaturasDe, habilidadesDe } from './habilidades';
 
 type RGB = [number, number, number];
@@ -48,7 +49,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
     const cuerpo: RowInput[] = fs.map(fe => {
       n++;
       const d = detalleFormacion(e, fe);
-      const lineas = [es(d.formacion.unidadesEs, d.formacion.unidades)];
+      const lineas = [cantidades(es(d.formacion.unidadesEs, d.formacion.unidades))];
       if (d.extras.length) lineas.push('Extras: ' + d.extras.join('; '));
       for (const r of d.reparto) lineas.push(`${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
       if (d.transporte) lineas.push(`Transporte: ${d.transporte}`);
@@ -81,7 +82,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
     autoTable(doc, {
       startY: y, margin: { left: M, right: M },
       head: [[{ content: 'COMPRAS DEL EJÉRCITO', colSpan: 2 }, { content: '', styles: { halign: 'right' } }]],
-      body: compras.map(c => [nom(c), `×${l.compras[c.id]}`, { content: String(c.coste * l.compras[c.id]), styles: { halign: 'right', fontStyle: 'bold' } }]),
+      body: compras.map(c => [nom(c), `${l.compras[c.id]}x`, { content: String(c.coste * l.compras[c.id]), styles: { halign: 'right', fontStyle: 'bold' } }]),
       theme: 'grid',
       styles: { fontSize: 8.6, cellPadding: 1.6, textColor: TINTA, lineColor: LINEA, lineWidth: 0.2, fillColor: PAPEL },
       headStyles: { fillColor: PAPEL2, textColor: OXIDO, fontStyle: 'bold' },

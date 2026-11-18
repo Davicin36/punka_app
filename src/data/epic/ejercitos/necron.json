@@ -385,7 +385,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Cañón gauss",
+     "nombre": "2x Cañón gauss",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     }
@@ -580,12 +580,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "3× Enjambre de escarabajos",
+     "nombre": "3x Enjambre de escarabajos",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+, IC"
     },
     {
-     "nombre": "y 3× Enjambre de escarabajos",
+     "nombre": "y 3x Enjambre de escarabajos",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1), IC"
     },
@@ -710,17 +710,17 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón de partículas",
+     "nombre": "2x Cañón de partículas",
      "alcance": "60cm",
      "potencia": "AP5+/AT3+"
     },
     {
-     "nombre": "2× Cañón de guerra",
+     "nombre": "2x Cañón de guerra",
      "alcance": "30cm",
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Cañón gauss",
+     "nombre": "2x Cañón gauss",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
@@ -747,7 +747,7 @@
      "potencia": "4PA, MA"
     },
     {
-     "nombre": "2× Ataque localizado",
+     "nombre": "2x Ataque localizado",
      "alcance": "—",
      "potencia": "MA2+, MT(D3)"
     }

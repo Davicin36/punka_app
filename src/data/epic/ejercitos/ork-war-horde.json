@@ -18,7 +18,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Formaciones orkas"
+   "nombreEs": "Formaciones orkas de aeronaves y Gargantes"
   }
  ],
  "formaciones": [
@@ -487,12 +487,12 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "0–1× Supa-Zzap-Gun",
+     "nombre": "0–1x Supa-Zzap-Gun",
      "alcance": "60cm",
      "potencia": "MA3+, MT(D3)"
     },
     {
-     "nombre": "0–1× Soopagun",
+     "nombre": "0–1x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, MA"
     }
@@ -593,7 +593,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -699,7 +699,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota doble",
+     "nombre": "2x Big Shoota doble",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     }
@@ -715,7 +715,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -738,7 +738,7 @@
     {
      "nombre": "Cañón antiaéreo",
      "alcance": "30cm",
-     "potencia": "2× AP6+/AT6+/AA6+"
+     "potencia": "2x AP6+/AT6+/AA6+"
     }
    ],
    "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado."
@@ -791,17 +791,17 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2–3× Big Gun",
+     "nombre": "2–3x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "0–1× Martillo de kombate",
+     "nombre": "0–1x Martillo de kombate",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "y 0–1× Martillo de kombate",
+     "nombre": "y 0–1x Martillo de kombate",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
@@ -817,7 +817,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "4× Twin Big Shoota",
+     "nombre": "4x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
@@ -844,22 +844,22 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "2–3× Soopagun",
+     "nombre": "2–3x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, FxF, MA"
     },
     {
-     "nombre": "0–1× Supa-Zzap-Gun",
+     "nombre": "0–1x Supa-Zzap-Gun",
      "alcance": "60cm",
      "potencia": "MA3+, FxF, MT(D3)"
     },
     {
-     "nombre": "0–1× Mega rebanadora",
+     "nombre": "0–1x Mega rebanadora",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+, FxF"
     },
     {
-     "nombre": "y 0–1× Mega rebanadora",
+     "nombre": "y 0–1x Mega rebanadora",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
@@ -881,7 +881,7 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "2× Big Gun",
+     "nombre": "2x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
@@ -891,17 +891,17 @@
      "potencia": "2PA, FxF, MA"
     },
     {
-     "nombre": "1–2× Soopagun doble",
+     "nombre": "1–2x Soopagun doble",
      "alcance": "60cm",
      "potencia": "3PA, FxF, MA"
     },
     {
-     "nombre": "0–1× Lifta-Droppa",
+     "nombre": "0–1x Lifta-Droppa",
      "alcance": "60cm",
      "potencia": "MA3+, FxF, MT(D3)"
     },
     {
-     "nombre": "y 0–1× Lifta-Droppa",
+     "nombre": "y 0–1x Lifta-Droppa",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
@@ -917,12 +917,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "5× Twin Big Shoota",
+     "nombre": "5x Twin Big Shoota",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
     {
-     "nombre": "3× Big Gun",
+     "nombre": "3x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     }
@@ -943,17 +943,17 @@
      "potencia": "MA4+, MT"
     },
     {
-     "nombre": "2–3× Soopagun",
+     "nombre": "2–3x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, FxF, MA"
     },
     {
-     "nombre": "0–1× Mega rebanadora",
+     "nombre": "0–1x Mega rebanadora",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+, FxF"
     },
     {
-     "nombre": "y 0–1× Mega rebanadora",
+     "nombre": "y 0–1x Mega rebanadora",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }
@@ -992,10 +992,10 @@
     {
      "nombre": "Torretas",
      "alcance": "15cm",
-     "potencia": "D6+3× AP5+/AA6+"
+     "potencia": "D6+3x AP5+/AA6+"
     },
     {
-     "nombre": "2× Kohetez Revientatankez",
+     "nombre": "2x Kohetez Revientatankez",
      "alcance": "30cm",
      "potencia": "AT4+, FxF"
     }

@@ -1,6 +1,7 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
+import { cantidades, porCantidad } from './cantidades';
 import { costeRecargo, costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
@@ -219,16 +220,17 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
   const f = formacionDe(e, fe.formacion)!;
   const extras = (f.extras ?? []).flatMap((x, i) => {
     const n = fe.extras[i] ?? 0;
-    const t = es(x.textoEs, x.texto);
-    return n ? [x.porUnidad && n > 1 ? `${t} ×${n}` : t] : [];
+    const t = cantidades(es(x.textoEs, x.texto));
+    return n ? [x.porUnidad ? porCantidad(n, t) : t] : [];
   });
   const mejoras = Object.entries(fe.mejoras).filter(([, n]) => n > 0).map(([nombre, n]) => {
     const m = mejoraDe(e, nombre);
     const v = m?.variantes?.[fe.variantes[nombre] ?? 0];
-    return `${m ? nom(m) : nombre}${m?.porUnidad && n > 1 ? ` ×${n}` : ''}${v && (m?.variantes?.length ?? 0) > 1 ? ` [${es(v.textoEs, v.texto)}]` : ''}`;
+    const nombreM = m ? nom(m) : nombre;
+    return `${m?.porUnidad ? porCantidad(n, nombreM) : nombreM}${v && (m?.variantes?.length ?? 0) > 1 ? ` [${cantidades(es(v.textoEs, v.texto))}]` : ''}`;
   });
   const t = f.tamanos?.[fe.tamano];
-  const tamano = t ? nom(t) : undefined;
+  const tamano = t ? cantidades(nom(t)) : undefined;
   const reparto = textoReparto(e, fe);
   const transporte = textoTransporte(e, fe);
   return { formacion: f, tamano, extras, mejoras, reparto, transporte };
@@ -243,7 +245,7 @@ export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
     for (const fe of fs) {
       const d = detalleFormacion(e, fe);
       lineas.push(`• ${nom(d.formacion)}${d.tamano ? ` [${d.tamano}]` : ''} — ${costeFormacion(e, fe)} pts`);
-      lineas.push(`   ${es(d.formacion.unidadesEs, d.formacion.unidades)}`);
+      lineas.push(`   ${cantidades(es(d.formacion.unidadesEs, d.formacion.unidades))}`);
       if (d.extras.length) lineas.push(`   Extras: ${d.extras.join('; ')}`);
       if (d.mejoras.length) lineas.push(`   Mejoras: ${d.mejoras.join(', ')}`);
       for (const r of d.reparto) lineas.push(`   ${r.origen === 'Unidades' ? 'Composición' : r.origen}: ${r.texto}`);
@@ -253,6 +255,6 @@ export function listaComoTexto(e: EjercitoEpic, l: ListaEpic): string {
     lineas.push('');
   }
   const compras = comprasSueltas(e).filter(c => l.compras[c.id]);
-  if (compras.length) lineas.push('COMPRAS: ' + compras.map(c => `${nom(c)} ×${l.compras[c.id]}`).join(', '));
+  if (compras.length) lineas.push('COMPRAS: ' + compras.map(c => `${l.compras[c.id]}x ${nom(c)}`).join(', '));
   return lineas.join('\n').trim();
 }

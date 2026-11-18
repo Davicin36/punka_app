@@ -10,7 +10,7 @@
    "nombre": "Ork Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones orkas de aeronaves"
+   "nombreEs": "Formaciones orkas"
   }
  ],
  "formaciones": [
@@ -453,7 +453,7 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Shoota",
+     "nombre": "2x Big Shoota",
      "alcance": "30cm",
      "potencia": "AP6+/AT6+"
     },
@@ -529,7 +529,7 @@
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "2× Big Shoota doble",
+     "nombre": "2x Big Shoota doble",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
@@ -550,12 +550,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "2× Big Gun",
+     "nombre": "2x Big Gun",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+"
     },
     {
-     "nombre": "4× Big Shoota doble",
+     "nombre": "4x Big Shoota doble",
      "alcance": "30cm",
      "potencia": "AP5+/AT6+"
     },
@@ -582,12 +582,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "0–2× Soopagun",
+     "nombre": "0–2x Soopagun",
      "alcance": "60cm",
      "potencia": "2PA, FxF, MA"
     },
     {
-     "nombre": "0–2× Mega rebanadora",
+     "nombre": "0–2x Mega rebanadora",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },

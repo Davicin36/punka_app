@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal.",
-   "nombreEs": "Formaciones básicas de los Corsarios Rojos"
+   "nombreEs": "Formaciones de apoyo de los Corsarios Rojos"
   },
   {
    "id": "red-corsair-upgrades",
@@ -725,7 +725,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón Segador",
+     "nombre": "2x Autocañón Segador",
      "alcance": "30cm",
      "potencia": "AP4+/AT6+"
     },
@@ -785,7 +785,7 @@
    "ff": "3+",
    "armas": [
     {
-     "nombre": "2× Autocañón",
+     "nombre": "2x Autocañón",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+"
     }
@@ -836,7 +836,7 @@
    "ff": "2+",
    "armas": [
     {
-     "nombre": "3× Armas corporales",
+     "nombre": "3x Armas corporales",
      "alcance": "45cm",
      "potencia": "AP5+/AT5+/AA6+"
     }
@@ -965,7 +965,7 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Cañón láser doble",
+     "nombre": "2x Cañón láser doble",
      "alcance": "45cm",
      "potencia": "AT4+"
     },
@@ -992,7 +992,7 @@
      "potencia": "AT4+"
     },
     {
-     "nombre": "2× Bólter pesado",
+     "nombre": "2x Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+"
     }
@@ -1045,7 +1045,7 @@
     {
      "nombre": "Cañón Castigator",
      "alcance": "45cm",
-     "potencia": "3× AP3+/AT5+"
+     "potencia": "3x AP3+/AT5+"
     }
    ],
    "notas": "Coraje, Salvación Invulnerable, Explorador, Bípode."
@@ -1110,7 +1110,7 @@
     {
      "nombre": "Cañones arcanos",
      "alcance": "45cm",
-     "potencia": "3× AP4+/AT4+"
+     "potencia": "3x AP4+/AT4+"
     },
     {
      "nombre": "Haz de poder",
@@ -1132,10 +1132,10 @@
     {
      "nombre": "Cañón Escorpión",
      "alcance": "30cm",
-     "potencia": "2× AP3+/AT5+"
+     "potencia": "2x AP3+/AT5+"
     },
     {
-     "nombre": "2× Cañón Fauces del Infierno",
+     "nombre": "2x Cañón Fauces del Infierno",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
@@ -1162,7 +1162,7 @@
    "ff": "-",
    "armas": [
     {
-     "nombre": "2× Garras",
+     "nombre": "2x Garras",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
@@ -1184,7 +1184,7 @@
      "potencia": "AP4+/AT4+, FxF"
     },
     {
-     "nombre": "2× Bólter pesado doble",
+     "nombre": "2x Bólter pesado doble",
      "alcance": "30cm",
      "potencia": "AP4+/AA5+, FxF"
     },
