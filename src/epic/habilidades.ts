@@ -39,3 +39,55 @@ export function habilidadesDe(fichas: FichaEpic[]): { habilidad: Habilidad; quie
   }
   return LISTA.filter(h => usos.has(h.id)).map(h => ({ habilidad: h, quien: [...usos.get(h.id)!] }));
 }
+
+// ===== Abreviaturas de los perfiles (leyenda de la Edición Deluxe, 5.0) =====
+const ABREVIATURAS: [string, string, RegExp][] = [
+  ['INF', 'Infantería (Infantry)', /^INF$/],
+  ['VL', 'Vehículo ligero (Light Vehicle)', /^VL$/],
+  ['VB', 'Vehículo blindado (Armoured Vehicle)', /^VB$/],
+  ['MG', 'Máquina de Guerra (War Engine)', /^(MG|WE)$/],
+  ['AN', 'Aeronave (Aircraft)', /^AN$/],
+  ['PJ', 'Personaje (Character)', /^(PJ|CH)$/],
+  ['NE', 'Nave espacial (Spacecraft)', /^NE$/],
+  ['Vel. / Blind. / CC / TT', 'Velocidad, Blindaje, Combate cuerpo a cuerpo (Close Combat), Tiroteo (Firefight)', /^$/],
+  ['AP', 'Antipersonal: valor para impactar a infantería (Anti-personnel)', /^AP\d/],
+  ['AT', 'Antitanque: valor para impactar a vehículos y Máquinas de Guerra (Anti-tank)', /^AT\d/],
+  ['AA', 'Antiaéreo: valor para impactar a aeronaves (Anti-aircraft)', /^AA\d/],
+  ['MA', 'Macro-arma (Macro-weapon)', /^MA/],
+  ['PA', 'Puntos de Artillería, ataque con plantilla (Barrage Points)', /^\S*PA$/],
+  ['AE(+x)', 'Ataques extra (+x) (Extra Attacks)', /^AE\(/],
+  ['MT(x)', 'Matatitanes: cada impacto causa x puntos de daño (Titan Killer)', /^MT/],
+  ['DP', 'Daña primero (First Strike)', /^DP$/],
+  ['D', 'Disrupción (Disrupt)', /^D$/],
+  ['IC', 'Ignora Cobertura (Ignore Cover)', /^IC$/],
+  ['Ind', 'Fuego Indirecto (Indirect Fire)', /^Ind$/],
+  ['DU', 'Disparo Único (Single Shot)', /^DU$/],
+  ['Baj', 'Baja cadencia (Slow Firing)', /^Baj$/],
+  ['L', 'Lanza (Lance)', /^L$/],
+  ['S', 'Francotirador (Sniper)', /^S$/],
+  ['Guía', 'Misil guiado (Guided Missile)', /^Guía$/],
+  ['Fro', 'Arco de fuego frontal (Forward Fire Arc)', /^Fro$/],
+  ['FxF', 'Arco de fuego fijo frontal (Fixed Forward)', /^FxF$/],
+  ['Pos', 'Arco de fuego trasero (Rear Fire Arc)', /^Pos$/],
+  ['Izq. / Der.', 'Arco de fuego izquierdo / derecho (Left / Right)', /^(Izq|Der)\.?$/],
+  ['N×', 'El arma dispara N veces o la unidad lleva N armas iguales', /^\d+×$/],
+  ['(15cm)', 'Alcance entre paréntesis: armas ligeras, solo en tiroteo (Small Arms)', /^Armas ligeras$/],
+  ['(peana)', 'Armas de asalto: solo en combate cuerpo a cuerpo (Assault Weapons)', /^Armas de asalto$/],
+];
+
+/** Abreviaturas que aparecen en estos perfiles, en el orden de la leyenda. */
+export function abreviaturasDe(fichas: FichaEpic[]): [string, string][] {
+  const tokens = new Set<string>(['']);
+  for (const f of fichas) {
+    f.tipo.split('/').forEach(t => tokens.add(t.trim()));
+    for (const a of f.armas) {
+      for (const parte of a.potencia.split(/,\s*/)) {
+        const p = parte.trim();
+        tokens.add(p);
+        p.split(/[\s/]+/).forEach(t => tokens.add(t));
+      }
+    }
+  }
+  const ts = [...tokens];
+  return ABREVIATURAS.filter(([, , re]) => ts.some(t => re.test(t))).map(([a, s]) => [a, s]);
+}

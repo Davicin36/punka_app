@@ -572,11 +572,11 @@
    "id": "6.32",
    "titulo": "Lista de ejército de la Legión Skitarii de Gryphonne IV",
    "parrafos": [
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.32.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.32.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército del Adeptus Mechanicus basado en una Legión Skitarii de Gryphonne IV. También puede usarse como lista «sustituta» para otras Legiones Skitarii.",
     "Las formaciones de la Legión Skitarii de Gryphonne IV son de tres tipos: semicenturias (demi-century), ordinatus y formaciones de apoyo. Cada semicenturia que incluyas en el ejército te permite desplegar una formación ordinatus cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación ordinatus o de apoyo si antes llevas una semicenturia, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las semicenturias pueden recibir hasta tres mejoras. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones ordinatus y de apoyo no pueden recibir mejoras de compañía (aunque las formaciones de Ordinatus Minorus deben recibir Mejoras de Armas de Titán de Batalla). Cada mejora adquirida se suma al coste de la semicenturia, según la tabla de mejoras. Los ejércitos del Adeptus Mechanicus de la Legión Skitarii de Gryphonne IV pueden recibir apoyo de aliados del Mechanicus. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. Además, ciertas formaciones de aliados del Mechanicus pueden recibir mejoras de Titán. Las mejoras de Titán que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora de Titán adquirida se suma al coste de la formación, según la tabla de mejoras de Titán.",
-    "I N I C I AT I VA FACTOR DE E STRATEGIA: 2",
-    "Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Factor de estrategia: 2.",
+    "Iniciativa: Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• 0–1 Magos y 0–1 Apoyo Orbital por ejército. Una formación Ordinatus y dos de apoyo por cada semicenturia; hasta tres mejoras por semicenturia, una de cada tipo.",
     "• Los Titanes aliados usan las armas y mejoras de Titán de la Legión de Titanes (6.22), sin la mejora de Legado."

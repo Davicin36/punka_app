@@ -576,13 +576,12 @@
    "id": "6.31",
    "titulo": "Lista de ejército de Marines Espaciales del Caos de los Guerreros de Hierro (Iron Warriors)",
    "parrafos": [
-    "— Grito de batalla de los Guerreros de Hierro",
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.31.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.31.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de los Guerreros de Hierro.",
     "Las formaciones de los Guerreros de Hierro son de tres tipos: formaciones principales, formaciones de apoyo de asedio y formaciones de asalto de asedio. Cada formación principal que incluyas en el ejército te permite desplegar dos formaciones de apoyo de asedio cualesquiera y una formación de asalto de asedio cualquiera. Aunque solo puedes llevar una formación de apoyo o de asalto de asedio si antes llevas una formación principal, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras, pero cada mejora solo puede adquirirse una vez por formación. Las mejoras que puede recibir cada formación figuran en la columna «Mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
-    "Los ejércitos de los Guerreros de Hierro pueden recibir apoyo de formaciones de la Armada del Caos y de Máquinas de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército. Por último, los Individuos de los Guerreros de Hierro incluyen el personaje especial del Herrero de Guerra (Warsmith). Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista». FACTOR DE E STRATEGIA: 4",
-    "I N I C I AT I VA",
-    "Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Los ejércitos de los Guerreros de Hierro pueden recibir apoyo de formaciones de la Armada del Caos y de Máquinas de Guerra. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército. Por último, los Individuos de los Guerreros de Hierro incluyen el personaje especial del Herrero de Guerra (Warsmith). Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista».",
+    "Factor de estrategia: 4.",
+    "Iniciativa: Las formaciones de la Armada del Caos tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Cada formación principal permite dos formaciones de apoyo de asedio y una de asalto de asedio. Cada mejora, una vez por formación.",
     "• 0–1 Culto Obliterador, 0–1 Príncipe Demonio y 0–1 Herrero de Guerra por ejército (el Herrero sustituye a un Señor de los Guerreros de Hierro, o se añade a un Príncipe Demonio o a una Jauría de Asalto de Dreadnoughts)."

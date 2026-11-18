@@ -2,7 +2,7 @@ import type { EjercitoEpic, FormacionElegida } from './tipos';
 import { costeFormacion, costeMejora, detalleFormacion, formacionDe, mejorasPermitidas, problemasFormacion, repartoDeMejora } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
-import { fichaDe, gruposEleccion, totalReparto, type GrupoEleccion } from './eleccion';
+import { costeRecargo, fichaDe, gruposEleccion, totalReparto, type GrupoEleccion } from './eleccion';
 
 interface Props {
   e: EjercitoEpic; fe: FormacionElegida; i: number; abierta: boolean;
@@ -36,7 +36,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
     return (
       <div key={g.clave} className="reparto">
         <p className="rtit">
-          <span>{titulo ?? (g.personaje ? 'Elige el personaje' : 'Elige el tipo de unidad')}</span>
+          <span>{titulo ?? (/(^u|\.)a:/.test(g.clave) ? g.origen : g.personaje ? 'Elige el personaje' : 'Elige el tipo de unidad')}</span>
           <b className={ok ? 'ok' : 'falta'}>{unico ? (ok ? '✓' : 'elige 1') : `${t}/${objetivo}`}</b>
         </p>
         {unico
@@ -47,14 +47,14 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
           : <div className="opts">{g.opciones.map(o => {
               const n = fe.reparto?.[g.clave]?.[o] ?? 0;
               const tope = Math.min(n + Math.max(0, g.max - t), g.maxPor?.[o] ?? Infinity);
-              const nota = g.costes ? `(${g.costes[o] ? `+${g.costes[o]} c/u` : 'gratis'}${g.raras?.includes(o) ? ' · rara' : ''}${g.maxPor?.[o] ? ` · máx. ${g.maxPor[o]}` : ''})` : undefined;
+              const nota = g.costes ? `(${g.costes[o] ? `+${g.costes[o]} c/u` : 'gratis'}${g.raras?.includes(o) ? ' · rara' : ''}${g.maxPor?.[o] ? ` · máx. ${g.maxPor[o]}` : ''})` : g.notas?.[o];
               return <FilaContador key={o} nombre={<Bi es={fichaDe(e, o)?.nombreEs} en={o} />} nota={nota} valor={n} max={tope} onChange={v => repartir(g.clave, o, v, false)} />;
             })}</div>}
       </div>
     );
   };
   const gruposDe = (...prefijos: string[]) => grupos.filter(g => prefijos.some(p => g.clave.startsWith(p)));
-  const base = grupos.filter(g => /^(u\d|lr:u)/.test(g.clave));
+  const base = grupos.filter(g => /^(u\d|ua:|lr:u)/.test(g.clave));
 
   return (
     <article className={`model ${abierta ? 'open' : ''} ${problemas.length ? 'bad' : ''}`}>
@@ -77,6 +77,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
           {base.length > 0 && <>
             <h4>Unidades de la formación</h4>
             {base.map(g => pintarGrupo(g, g.costes ? 'Variantes de Leman Russ' : undefined))}
+            {f.recargo && <p className="mtexto">{f.recargo.texto}{costeRecargo(e, fe) > 0 ? ' (aplicado)' : ''}</p>}
           </>}
 
           {f.tamanos && f.tamanos.length > 1 && <>
