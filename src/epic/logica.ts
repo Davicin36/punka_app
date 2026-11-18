@@ -105,6 +105,8 @@ function cuentaBase(e: EjercitoEpic, l: ListaEpic, base: string): number {
     const f = formacionDe(e, fe.formacion);
     const s = f && seccionDe(e, f.seccion);
     if (!f || !s || s.tipo === 'apoyo' || s.tipo === 'tercio') return false;
+    // «core formation» es cualquier formación principal (los Cuerpos tau, por ejemplo)
+    if (r.startsWith('core formation')) return s.tipo === 'nucleo';
     return s.nombre.toLowerCase().includes(r) || f.nombre.toLowerCase().includes(r);
   }).length;
 }
