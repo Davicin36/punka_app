@@ -195,12 +195,14 @@
    "costeTexto": "225 points or 350 points",
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 225
+     "nombre": "with two Chaos Rhinos",
+     "coste": 225,
+     "nombreEs": "Con 2x Rhino del Caos"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 350
+     "nombre": "with two Chaos Land Raiders",
+     "coste": 350,
+     "nombreEs": "Con 2x Land Raider del Caos"
     }
    ],
    "mejoras": [
@@ -210,7 +212,8 @@
     "Dreadnoughts",
     "Icon Bearer"
    ],
-   "unidadesEs": "Cuatro Havocs, uno con un personaje Señor del Caos, y dos Rhinos del Caos o Land Raiders del Caos"
+   "unidadesEs": "Cuatro Havocs, uno con un personaje Señor del Caos, y dos Rhinos del Caos o Land Raiders del Caos",
+   "tamanosTitulo": "Elige la opción"
   },
   {
    "id": "black-legion-support-formations-raptor-cult",

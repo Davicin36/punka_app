@@ -73,12 +73,14 @@
    "costeTexto": "225 or 275 points",
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 225
+     "nombre": "Wraithblades",
+     "coste": 225,
+     "nombreEs": "Espectroespadas"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 275
+     "nombre": "Wraithguard",
+     "coste": 275,
+     "nombreEs": "Guardia Espectral"
     }
    ],
    "extras": [
@@ -113,7 +115,8 @@
     }
    ],
    "nombreEs": "Guerreros Espectrales",
-   "unidadesEs": "Cuatro unidades de Espectroespadas o Guardia Espectral, una con un Vidente Espiritual"
+   "unidadesEs": "Cuatro unidades de Espectroespadas o Guardia Espectral, una con un Vidente Espiritual",
+   "tamanosTitulo": "Elige la opción"
   },
   {
    "id": "iyanden-craftworld-warhosts-wraithlord",

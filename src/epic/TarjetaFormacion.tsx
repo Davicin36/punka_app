@@ -55,7 +55,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
     );
   };
   const gruposDe = (...prefijos: string[]) => grupos.filter(g => prefijos.some(p => g.clave.startsWith(p)));
-  const base = grupos.filter(g => /^(u\d|ua:|lr:u)/.test(g.clave));
+  const base = grupos.filter(g => /^(u\d|ut\d|ua:|lr:u)/.test(g.clave));
 
   return (
     <article className={`model ${abierta ? 'open' : ''} ${problemas.length ? 'bad' : ''}`}>

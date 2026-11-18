@@ -153,10 +153,14 @@ export function gruposEleccion(e: EjercitoEpic, fe: FormacionElegida): GrupoElec
     if (v) out.push(v);
   }
   const enTamanos = new Set((f.tamanos ?? []).map(t => t.nombre));
+  // Si la opción elegida tiene su propia elección («tres cualesquiera de: AA Pesada, Hydra») también se reparte
+  const opcion = f.tamanos?.[fe.tamano]?.nombre;
   gruposEnTexto(e, f.unidades).filter(g => !g.opciones.every(o => enTamanos.has(o))).forEach((g, k) =>
     out.push({ clave: `u${k}`, origen: 'Unidades', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje,
       // Formaciones sin coste base que se pagan por unidad (Compañía Acorazada del Caos: Predator 50, Land Raider 75)
       ...(f.costesUnidad && g.opciones.some(o => f.costesUnidad![o]) ? { costes: f.costesUnidad } : {}) }));
+  if (opcion) gruposEnTexto(e, opcion).filter(g => g.opciones.length > 1).forEach((g, k) =>
+    out.push({ clave: `ut${fe.tamano}.${k}`, origen: 'Opción', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje }));
   (f.extras ?? []).forEach((x, j) => {
     const n = fe.extras[j] ?? 0;
     if (!n) return;
@@ -306,8 +310,13 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
     const elegido = f.tamanos?.[fe.tamano]?.nombre;
     const quitadas = new Set<string>();
     const deEsta = new Set<string>();
-    const textos = [elegido && f.tamanos!.some(t => fichaDe(e, t.nombre) || fichaDe(e, t.nombre.replace(/^\d+ /, '').replace(/s$/, '')))
-      ? elegido.replace(/^\d+ /, '') : f.unidades, ...(f.extras ?? []).filter((_, j) => fe.extras[j]).map(x => x.texto)];
+    // Opción elegida (tipo de nave, de Titán, Rhinos o Land Raiders…): sus unidades sí; las de las otras opciones, no
+    const enOpcion = (t: string) => unidadesEnTexto(e, t.replace(/^\d+ /, '')).map(u => u.nombre);
+    const delElegido = elegido ? enOpcion(elegido) : [];
+    if (elegido) f.tamanos!.forEach((t, k) => { if (k !== fe.tamano) enOpcion(t.nombre).filter(u => !delElegido.includes(u)).forEach(u => quitadas.add(u)); });
+    const soloElegido = elegido && f.tamanosTitulo && ['Tipo de nave', 'Elige el Titán'].includes(f.tamanosTitulo);
+    const textos = [soloElegido ? elegido.replace(/^\d+ /, '') : f.unidades, ...(elegido && !soloElegido ? [elegido] : []),
+      ...(f.extras ?? []).filter((_, j) => fe.extras[j]).map(x => x.texto)];
     for (const [nombre, n] of Object.entries(fe.mejoras)) {
       if (!n) continue;
       const m = mejoraDe(e, nombre);
