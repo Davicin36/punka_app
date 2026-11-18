@@ -53,6 +53,8 @@ export interface FormacionEpic {
   notaEs?: string;
   /** Recargo si alguna unidad de la formación es de esta versión («Hammerheads with Railguns cost +25») */
   recargo?: { unidad: string; coste: number; texto: string };
+  /** Coste de cada unidad elegida cuando la formación no tiene coste base */
+  costesUnidad?: Record<string, number>;
 }
 
 export interface MejoraEpic {

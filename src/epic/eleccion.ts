@@ -154,7 +154,9 @@ export function gruposEleccion(e: EjercitoEpic, fe: FormacionElegida): GrupoElec
   }
   const enTamanos = new Set((f.tamanos ?? []).map(t => t.nombre));
   gruposEnTexto(e, f.unidades).filter(g => !g.opciones.every(o => enTamanos.has(o))).forEach((g, k) =>
-    out.push({ clave: `u${k}`, origen: 'Unidades', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje }));
+    out.push({ clave: `u${k}`, origen: 'Unidades', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje,
+      // Formaciones sin coste base que se pagan por unidad (Compañía Acorazada del Caos: Predator 50, Land Raider 75)
+      ...(f.costesUnidad && g.opciones.some(o => f.costesUnidad![o]) ? { costes: f.costesUnidad } : {}) }));
   (f.extras ?? []).forEach((x, j) => {
     const n = fe.extras[j] ?? 0;
     if (!n) return;

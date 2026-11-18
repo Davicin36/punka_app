@@ -148,26 +148,12 @@
     "Stalker",
     "Vindicators"
    ],
-   "extras": [
-    {
-     "texto": "Additional Chaos Predator (up to 8 vehicles in total)",
-     "coste": 50,
-     "porUnidad": true,
-     "max": 4,
-     "textoEs": "Predator del Caos adicional (hasta 8 vehículos en total entre los dos tipos)",
-     "juntos": "vehiculos"
-    },
-    {
-     "texto": "Additional Chaos Land Raider (up to 8 vehicles in total)",
-     "coste": 75,
-     "porUnidad": true,
-     "max": 4,
-     "textoEs": "Land Raider del Caos adicional (hasta 8 vehículos en total entre los dos tipos)",
-     "juntos": "vehiculos"
-    }
-   ],
    "nombreEs": "Compañía Acorazada",
-   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator del Caos, Land Raider del Caos"
+   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator del Caos, Land Raider del Caos",
+   "costesUnidad": {
+    "Chaos Predator": 50,
+    "Chaos Land Raider": 75
+   }
   },
   {
    "id": "iron-warrior-siege-support-formations-daemonic-artillery",

@@ -173,13 +173,17 @@
    "nombre": "Armoured Company",
    "seccion": "emperors-children-support-formations",
    "unidades": "Between four and eight of any of the following units: Emperor's Children Predator, Emperor's Children Land Raider",
-   "coste": 55,
+   "coste": 0,
    "costeTexto": "55 points each per Emperor's Children Predator 80 points each per Emperor's Children Land Raider",
    "mejoras": [
     "Stalker"
    ],
    "nombreEs": "Compañía Acorazada",
-   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator de los Hijos del Emperador, Land Raider de los Hijos del Emperador"
+   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator de los Hijos del Emperador, Land Raider de los Hijos del Emperador",
+   "costesUnidad": {
+    "Emperor's Children Predator": 55,
+    "Emperor's Children Land Raider": 80
+   }
   },
   {
    "id": "emperors-children-support-formations-bike-company",
