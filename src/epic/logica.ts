@@ -2,7 +2,7 @@
 import type { EjercitoEpic, ExtraEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
 import { cantidades, porCantidad } from './cantidades';
-import { costeRecargo, costeVariantes, esVarianteLeman, infanteriaFormacion, problemasReparto, textoReparto, textoTransporte } from './eleccion';
+import { costeRecargo, costeVariantes, esVarianteLeman, infanteriaFormacion, unidadesDeLista, problemasReparto, textoReparto, textoTransporte } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -202,6 +202,15 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
     if (n > hay) out.push(`${nom(f)}: llevas ${n} y solo puedes ${hay} (uno por cada Titán elegido de ese tipo).`);
   }
 
+  // Comisarios: uno por cada 500 puntos completos; el primero, con el Comandante Supremo
+  if (e.comisarios) {
+    const conComisario = l.formaciones.filter(fe => fe.comisario);
+    const max = Math.floor(l.puntos / e.comisarios.cada);
+    if (conComisario.length > max) out.push(`Comisarios: llevas ${conComisario.length} y como máximo puedes ${max} (uno por cada ${e.comisarios.cada} puntos).`);
+    const delSupremo = l.formaciones.find(fe => unidadesDeLista(e, [fe]).some(u => /Supreme Commander/.test(u.nombre) || /Comandante Supremo/.test(u.notas)));
+    if (conComisario.length && delSupremo && !delSupremo.comisario) out.push('Comisarios: el primero debe ir en la formación del Comandante Supremo.');
+  }
+
   // Extras de uno por ejército (Barón)
   const porEjercito = new Map<string, { n: number; nombre: string }>();
   for (const fe of l.formaciones) (formacionDe(e, fe.formacion)?.extras ?? []).forEach((x, j) => {
@@ -326,6 +335,7 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
     const nombreM = m ? nom(m) : nombre;
     return `${m?.porUnidad || m?.arma ? porCantidad(n, nombreM) : nombreM}${v && (m?.variantes?.length ?? 0) > 1 ? ` [${cantidades(es(v.textoEs, v.texto))}]` : ''}`;
   });
+  if (fe.comisario) mejoras.push('Comisario');
   const t = f.tamanos?.[fe.tamano];
   const tamano = t ? cantidades(nom(t)) : undefined;
   const reparto = textoReparto(e, fe);

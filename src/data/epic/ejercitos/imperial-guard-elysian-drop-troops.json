@@ -885,5 +885,9 @@
     "Compañía de Artillería de Desembarco: una como máximo por cada 3000 puntos."
    ]
   }
- ]
+ ],
+ "comisarios": {
+  "cada": 500,
+  "ficha": "Imperial Commissar"
+ }
 }

@@ -911,5 +911,9 @@
     "Hasta un tercio de los puntos puede gastarse en formaciones de la Armada Imperial."
    ]
   }
- ]
+ ],
+ "comisarios": {
+  "cada": 500,
+  "ficha": "Commissar"
+ }
 }

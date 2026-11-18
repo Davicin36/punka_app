@@ -862,5 +862,9 @@
    ],
    "notas": ""
   }
- ]
+ ],
+ "comisarios": {
+  "cada": 500,
+  "ficha": "Commissar"
+ }
 }
