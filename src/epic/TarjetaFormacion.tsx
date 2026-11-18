@@ -76,7 +76,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
 
           {base.length > 0 && <>
             <h4>Unidades de la formación</h4>
-            {base.map(g => pintarGrupo(g, g.costes ? 'Variantes de Leman Russ' : undefined))}
+            {base.map(g => pintarGrupo(g, g.clave.startsWith('lr:') ? 'Variantes de Leman Russ' : g.costes ? 'Elige las unidades' : undefined))}
             {f.recargo && <p className="mtexto">{f.recargo.texto}{costeRecargo(e, fe) > 0 ? ' (aplicado)' : ''}</p>}
           </>}
 

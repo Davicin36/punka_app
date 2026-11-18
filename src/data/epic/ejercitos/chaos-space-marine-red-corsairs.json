@@ -116,11 +116,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Chaos Space Marine Terminators (up to 6 in total)",
      "coste": 50,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Todas salvo Marines de Culto, Cápsulas de Desembarco, Havocs, Rhinos"
+     "textoEs": "Exterminadores de los Marines del Caos adicionales (hasta 6 en total)"
     }
    ],
    "nombreEs": "Séquito de Exterminadores",
@@ -138,24 +138,12 @@
     "Hunter",
     "Vindicators"
    ],
-   "extras": [
-    {
-     "texto": "Unidad adicional (por chaos predator)",
-     "coste": 50,
-     "porUnidad": true,
-     "max": 8,
-     "textoEs": "Unidad adicional (por Chaos Predator)"
-    },
-    {
-     "texto": "Unidad adicional (por chaos land raider)",
-     "coste": 75,
-     "porUnidad": true,
-     "max": 8,
-     "textoEs": "Unidad adicional (por Chaos Land Raider)"
-    }
-   ],
    "nombreEs": "Compañía Acorazada",
-   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator del Caos, Land Raider del Caos"
+   "unidadesEs": "Entre cuatro y ocho cualesquiera de: Predator del Caos, Land Raider del Caos",
+   "costesUnidad": {
+    "Chaos Predator": 50,
+    "Chaos Land Raider": 75
+   }
   },
   {
    "id": "red-corsair-support-formations-blight-drones",
@@ -258,11 +246,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Raptors (up to 8 in total)",
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Pacto Demoníaco"
+     "textoEs": "Raptores adicionales (hasta 8 en total)"
     }
    ],
    "nombreEs": "Culto Raptor",

@@ -182,10 +182,11 @@
    "mejoras": [],
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 2 en total)",
+     "texto": "Additional Vessels of Pain (up to 2 in total)",
      "coste": 250,
      "porUnidad": true,
-     "max": 1
+     "max": 1,
+     "textoEs": "Recipientes del Dolor adicionales (hasta 2 en total)"
     }
    ],
    "nombreEs": "Barcazas Pesadas",
@@ -286,10 +287,11 @@
    "costeTexto": "+125 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 2)",
+     "texto": "Barges of Pleasure (up to 2)",
      "coste": 125,
      "porUnidad": true,
-     "max": 2
+     "max": 2,
+     "textoEs": "Barcazas del Placer (hasta 2)"
     }
    ],
    "nombreEs": "Barcaza del Placer",
@@ -328,14 +330,15 @@
    "nombre": "Ravens",
    "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
    "unidades": "Two to three Raven Fighters",
-   "coste": 100,
+   "coste": 200,
    "costeTexto": "100 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 10 en total)",
+     "texto": "Additional Raven Fighters (up to 3 in total)",
      "coste": 100,
      "porUnidad": true,
-     "max": 9
+     "max": 1,
+     "textoEs": "Cazas Raven adicionales (hasta 3 en total)"
     }
    ],
    "unidadesEs": "De dos a tres Cazas Raven"
@@ -345,14 +348,15 @@
    "nombre": "Razorwings",
    "seccion": "dark-eldar-aircraft-spacecraft-and-other-horrors",
    "unidades": "Two to three Razorwing Bombers",
-   "coste": 125,
+   "coste": 250,
    "costeTexto": "125 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 10 en total)",
+     "texto": "Additional Razorwing Bombers (up to 3 in total)",
      "coste": 125,
      "porUnidad": true,
-     "max": 9
+     "max": 1,
+     "textoEs": "Bombarderos Razorwing adicionales (hasta 3 en total)"
     }
    ],
    "unidadesEs": "De dos a tres Bombarderos Razorwing"

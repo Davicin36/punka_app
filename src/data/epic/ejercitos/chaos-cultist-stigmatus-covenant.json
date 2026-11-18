@@ -125,10 +125,11 @@
    "costeTexto": "400 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 2 en total)",
+     "texto": "Additional Lord of Battles (up to 2 in total)",
      "coste": 400,
      "porUnidad": true,
-     "max": 1
+     "max": 1,
+     "textoEs": "Señores de las Batallas adicionales (hasta 2 en total)"
     }
    ],
    "nombreEs": "Señores de las Batallas de Khorne",
@@ -153,10 +154,11 @@
    "costeTexto": "325 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 3 en total)",
+     "texto": "Additional Plague Towers (up to 3 in total)",
      "coste": 325,
      "porUnidad": true,
-     "max": 2
+     "max": 2,
+     "textoEs": "Torres de Plaga adicionales (hasta 3 en total)"
     }
    ],
    "nombreEs": "Torres de Plaga de Nurgle",
@@ -201,10 +203,11 @@
    "costeTexto": "150 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 3 en total)",
+     "texto": "Additional Firelords (up to 3 in total)",
      "coste": 150,
      "porUnidad": true,
-     "max": 2
+     "max": 2,
+     "textoEs": "Señores del Fuego adicionales (hasta 3 en total)"
     }
    ],
    "nombreEs": "Señores del Fuego de Tzeentch",

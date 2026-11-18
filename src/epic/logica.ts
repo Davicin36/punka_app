@@ -145,6 +145,19 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
   const total = costeLista(e, l);
   if (total > l.puntos) out.push(`Te pasas ${total - l.puntos} puntos del límite (${l.puntos}).`);
 
+  // Extras que comparten máximo
+  l.formaciones.forEach((fe, i) => {
+    const f = formacionDe(e, fe.formacion);
+    const grupos = new Map<string, { n: number; max: number }>();
+    (f?.extras ?? []).forEach((x, j) => {
+      if (!x.juntos) return;
+      const g = grupos.get(x.juntos) ?? { n: 0, max: x.max ?? 99 };
+      g.n += fe.extras[j] ?? 0; grupos.set(x.juntos, g);
+    });
+    for (const [, g] of grupos) if (g.n > g.max)
+      out.push(`${i + 1}. ${f ? nom(f) : fe.formacion}: como máximo ${g.max} unidades adicionales en total; llevas ${g.n}.`);
+  });
+
   // Aliados / aeronaves / titanes: 1/3 (o 1/4) de los puntos
   if (e.fraccionAliados) {
     const max = Math.floor(l.puntos * e.fraccionAliados);

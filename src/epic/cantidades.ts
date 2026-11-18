@@ -27,7 +27,7 @@ export function cantidades(texto: string | undefined) {
   texto = texto
     .replace(new RegExp(`(?<![\\p{L}])(${pal})\\s+(o|or)\\s+(${pal})\\s+(?=\\p{L})`, 'giu'),
       (_t, a: string, o: string, b: string) => `${NUMEROS[a.toLowerCase()]}x ${o} ${NUMEROS[b.toLowerCase()]}x `)
-    .replace(new RegExp(`(?<![\\p{L}])(${pal})\\s+(?:a|to)\\s+(${pal})\\s+(?=\\p{L})`, 'giu'),
+    .replace(new RegExp(`(?<![\\p{L}])(?:(?:entre|between|de|from)\\s+)?(${pal})\\s+(?:a|to|y|and)\\s+(${pal})\\s+(?=\\p{L})`, 'giu'),
       (_t, a: string, b: string) => `${NUMEROS[a.toLowerCase()]}-${NUMEROS[b.toLowerCase()]}x `);
   return texto.replace(RE, (todo, palabra: string, siguiente: string) => {
     const p = palabra.toLowerCase();
