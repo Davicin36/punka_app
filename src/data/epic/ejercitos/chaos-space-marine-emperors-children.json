@@ -395,7 +395,21 @@
    "texto": "Replace two or four Chaos Space Marines with an equal number of Havocs",
    "coste": 25,
    "costeTexto": "+25 or +50 points",
-   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Havocs"
+   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Havocs",
+   "variantes": [
+    {
+     "coste": 25,
+     "porUnidad": false,
+     "texto": "Two Havocs +25 points",
+     "textoEs": "Dos Havocs (+25)"
+    },
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "Four Havocs +50 points",
+     "textoEs": "Cuatro Havocs (+50)"
+    }
+   ]
   },
   {
    "id": "icon-bearer",
@@ -426,7 +440,21 @@
    "coste": 25,
    "costeTexto": "+25 or +50 points",
    "nombreEs": "Marines Ruidosos",
-   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Marines Ruidosos"
+   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Marines Ruidosos",
+   "variantes": [
+    {
+     "coste": 25,
+     "porUnidad": false,
+     "texto": "Two Noise Marines +25 points",
+     "textoEs": "Dos Marines Ruidosos (+25)"
+    },
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "Four Noise Marines +50 points",
+     "textoEs": "Cuatro Marines Ruidosos (+50)"
+    }
+   ]
   },
   {
    "id": "rhinos",
