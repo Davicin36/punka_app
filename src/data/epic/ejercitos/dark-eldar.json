@@ -120,12 +120,14 @@
    "costeTexto": "250 or 350 points",
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 250
+     "nombre": "Four Ravagers",
+     "coste": 250,
+     "nombreEs": "4x Ravagers"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 350
+     "nombre": "Six Ravagers",
+     "coste": 350,
+     "nombreEs": "6x Ravagers"
     }
    ],
    "mejoras": [
@@ -134,7 +136,8 @@
     "Vessel of Pain"
    ],
    "nombreEs": "Flotilla de la Cábala",
-   "unidadesEs": "Cuatro o seis Ravagers"
+   "unidadesEs": "Cuatro o seis Ravagers",
+   "tamanosTitulo": "Elige la opción"
   },
   {
    "id": "dark-eldar-kabals-kabal-syndicate",

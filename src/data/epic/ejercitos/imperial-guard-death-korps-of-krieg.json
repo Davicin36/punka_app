@@ -163,32 +163,36 @@
    "id": "death-korps-of-krieg-support-formations-heavy-support-battery",
    "nombre": "Heavy Support Battery",
    "seccion": "death-korps-of-krieg-support-formations",
-   "unidades": "Three Gun Emplacements and one of the Any three of the following: Heavy AA Platform, Hydra Platform following options: Three Earthshaker Platforms Three Medusa Platforms (replace three Gun Emplacements with three Trojans)",
+   "unidades": "Three Gun Emplacements and one of the following options",
    "coste": 125,
    "costeTexto": "+125 points +200 points +275 points (+25 points)",
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 125
+     "nombre": "Three of any of: Heavy AA Platform, Hydra Platform",
+     "coste": 125,
+     "nombreEs": "Tres Plataformas AA Pesadas o Hydra"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 200
+     "nombre": "Three Earthshaker Platforms",
+     "coste": 200,
+     "nombreEs": "Tres Plataformas Earthshaker"
     },
     {
-     "nombre": "Opción 3",
-     "coste": 275
+     "nombre": "Three Medusa Platforms",
+     "coste": 275,
+     "nombreEs": "Tres Plataformas Medusa"
     }
    ],
    "extras": [
     {
      "texto": "Replace three Gun Emplacements with three Trojans",
      "coste": 25,
-     "textoEs": "Sustituye tres Gun Emplacements por tres Trojans"
+     "textoEs": "Sustituye los tres Emplazamientos de Armas por tres Trojans"
     }
    ],
    "nombreEs": "Batería de Apoyo Pesado",
-   "unidadesEs": "Tres Emplazamientos de Armas y una opción: tres cualesquiera de Plataforma AA Pesada / Plataforma Hydra (+125); tres Plataformas Earthshaker (+200); tres Plataformas Medusa (+275). Sustituir los tres Emplazamientos por tres Trojans: +25"
+   "unidadesEs": "Tres Emplazamientos de Armas y una de estas opciones",
+   "tamanosTitulo": "Elige las plataformas"
   },
   {
    "id": "death-korps-of-krieg-support-formations-heavy-tank-platoon",
