@@ -92,7 +92,12 @@
     "Skyray"
    ],
    "nombreEs": "Grupo de Apoyo Blindado",
-   "unidadesEs": "Cuatro Cabezamartillos. Nota: uno o más Cabezamartillos con Acelerador Lineal cuestan +25 puntos"
+   "unidadesEs": "Cuatro Cabezamartillos. Nota: uno o más Cabezamartillos con Acelerador Lineal cuestan +25 puntos",
+   "recargo": {
+    "unidad": "Hammerhead Railgun",
+    "coste": 25,
+    "texto": "Uno o más Cabezamartillos con Acelerador lineal: +25 puntos"
+   }
   },
   {
    "id": "tau-support-formations-broadside-group",
@@ -345,13 +350,20 @@
      "coste": 75,
      "porUnidad": false,
      "texto": "+75 points",
-     "textoEs": "Añade dos Cabezamartillos con Cañones Iónicos (+75)"
+     "textoEs": "Añade dos Cabezamartillos con Cañones Iónicos (+75)",
+     "unidades": [
+      "Hammerhead Ion Cannon"
+     ]
     },
     {
      "coste": 50,
      "porUnidad": true,
      "texto": "+50 points each",
-     "textoEs": "Añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados (+50 c/u)"
+     "textoEs": "Añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados (+50 c/u)",
+     "unidades": [
+      "Hammerhead Railgun",
+      "Hammerhead Twin Fusion"
+     ]
     }
    ],
    "textoEs": "Una de estas opciones: añade dos Cabezamartillos con Cañones Iónicos …o añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados",
@@ -435,14 +447,12 @@
    "id": "6.19",
    "titulo": "Lista de ejército de la Expansión de la Tercera Fase Tau",
    "parrafos": [
-    "vizaros, sino para daros la bienvenida a nuestro imperio, el imperio de los Tau.»",
-    "— Por’vre Dal’yth Jishu’iro, dirigiéndose a la población humana de Goron Minor",
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.19.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.19.",
     "Uso de la lista de ejército: Las formaciones tau son de dos tipos: cuerpos (cadres) y formaciones de apoyo. Cada cuerpo que incluyas en el ejército te permite desplegar tres formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un cuerpo, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Las formaciones que puede incluir un ejército de la Expansión de la Tercera Fase Tau se muestran en la tabla siguiente, que indica también las unidades que las componen, las mejoras permitidas y su coste en puntos.",
     "Además, las formaciones pueden recibir hasta tres mejoras. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras, que también indica las unidades que la componen. Cada mejora puede adquirirse una vez por formación. Los ejércitos de la Expansión de la Tercera Fase Tau pueden recibir apoyo de formaciones de la Casta del Aire. Puede gastarse en ellas un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: Ciertas unidades y armas tienen capacidades especiales descritas en Fuego Coordinado (véase 5.19.1) y Tecnología Tau (véase 5.19.2).",
-    "I N I C I AT I VA FACTOR DE E STRATEGIA: 3",
-    "Las formaciones de Cuerpo Crisis y de Nave de Despliegue Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Factor de estrategia: 3.",
+    "Iniciativa: Las formaciones de Cuerpo Crisis y de Nave de Despliegue Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Uno o más Cabezamartillos con Acelerador Lineal cuestan +25 puntos en total (Grupo de Apoyo Blindado).",
     "• 0–1 Etéreo, 0–1 Shas’o y 0–1 Nave Espacial por ejército.",
@@ -836,7 +846,98 @@
      "potencia": "MA4+"
     }
    ],
-   "notas": "Gravitatorio. Armado con un Acelerador lineal, un Cañón iónico o un Cañones de fusión acoplados."
+   "notas": "Gravitatorio. Armado con un Acelerador lineal, un Cañón iónico o un Cañones de fusión acoplados.",
+   "variantesArma": [
+    "Hammerhead Railgun",
+    "Hammerhead Ion Cannon",
+    "Hammerhead Twin Fusion"
+   ]
+  },
+  {
+   "nombre": "Hammerhead Railgun",
+   "nombreEs": "Cabezamartillo con Acelerador lineal",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sistema de misiles inteligentes",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    },
+    {
+     "nombre": "Misiles buscadores",
+     "alcance": "90cm",
+     "potencia": "AT6+, Guía"
+    },
+    {
+     "nombre": "Acelerador lineal",
+     "alcance": "75cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "",
+     "alcance": "75cm",
+     "potencia": "AT4+, L"
+    }
+   ],
+   "notas": "Gravitatorio."
+  },
+  {
+   "nombre": "Hammerhead Ion Cannon",
+   "nombreEs": "Cabezamartillo con Cañón iónico",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sistema de misiles inteligentes",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    },
+    {
+     "nombre": "Misiles buscadores",
+     "alcance": "90cm",
+     "potencia": "AT6+, Guía"
+    },
+    {
+     "nombre": "Cañón iónico",
+     "alcance": "60cm",
+     "potencia": "AP4+/AT5+"
+    }
+   ],
+   "notas": "Gravitatorio."
+  },
+  {
+   "nombre": "Hammerhead Twin Fusion",
+   "nombreEs": "Cabezamartillo con Cañones de fusión acoplados",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Sistema de misiles inteligentes",
+     "alcance": "30cm",
+     "potencia": "AP5+, IC"
+    },
+    {
+     "nombre": "Misiles buscadores",
+     "alcance": "90cm",
+     "potencia": "AT6+, Guía"
+    },
+    {
+     "nombre": "Cañones de fusión acoplados",
+     "alcance": "30cm",
+     "potencia": "MA4+"
+    }
+   ],
+   "notas": "Gravitatorio."
   },
   {
    "nombre": "Skyray",

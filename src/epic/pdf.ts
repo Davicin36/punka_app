@@ -7,7 +7,7 @@ import { nombreArchivo } from '../logic/descargar';
 import { es, nom } from './texto';
 import { anexoReglas } from '../logic/pdfReglas';
 import { unidadesDeLista } from './eleccion';
-import { habilidadesDe } from './habilidades';
+import { abreviaturasDe, habilidadesDe } from './habilidades';
 
 type RGB = [number, number, number];
 const PAPEL: RGB = [243, 234, 211];
@@ -114,14 +114,19 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
         [{ content: 'PERFILES DE ATRIBUTOS', colSpan: 10 }],
         ['Nombre', 'Tipo', 'Vel.', 'Blind.', 'CC', 'TT', 'Armas', 'Alc.', 'Potencia de fuego', 'Notas'],
       ],
-      body: fichas.map(f => [
-        { content: f.nombreEs && f.nombreEs !== f.nombre ? `${f.nombreEs}\n(${f.nombre})` : f.nombre, styles: { fontStyle: 'bold' } },
-        f.tipo, f.velocidad, f.blindaje, f.cc, f.ff,
-        f.armas.map(a => a.nombre || '-').join('\n') || '-',
-        f.armas.map(a => a.alcance || '-').join('\n'),
-        f.armas.map(a => a.potencia || '-').join('\n'),
-        f.notas,
-      ]),
+      // Una fila por arma: así el nombre, el alcance y la potencia de cada arma van siempre alineados
+      body: fichas.flatMap(f => {
+        const armas = f.armas.length ? f.armas : [{ nombre: '-', alcance: '-', potencia: '-' }];
+        const rs = armas.length;
+        return armas.map((a, k) => [
+          ...(k === 0 ? [
+            { content: f.nombreEs && f.nombreEs !== f.nombre ? `${f.nombreEs}\n(${f.nombre})` : f.nombre, rowSpan: rs, styles: { fontStyle: 'bold' as const } },
+            ...[f.tipo, f.velocidad, f.blindaje, f.cc, f.ff].map(v => ({ content: v, rowSpan: rs })),
+          ] : []),
+          a.nombre || (k > 0 ? '' : '-'), a.alcance || '-', a.potencia || '-',
+          ...(k === 0 ? [{ content: f.notas, rowSpan: rs }] : []),
+        ]);
+      }),
       theme: 'grid',
       styles: { font: 'helvetica', fontSize: 6.8, cellPadding: 1.1, textColor: TINTA, lineColor: LINEA, lineWidth: 0.15, fillColor: PAPEL, valign: 'top', overflow: 'linebreak' },
       headStyles: { fillColor: PAPEL2, textColor: OXIDO, fontStyle: 'bold', fontSize: 7 },
@@ -130,6 +135,21 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
         6: { cellWidth: 30 }, 7: { cellWidth: 12 }, 8: { cellWidth: 28 },
       },
       didParseCell: c => { if (c.section === 'head' && c.row.index === 0) c.cell.styles.fontSize = 9; },
+    });
+
+    // Leyenda de las abreviaturas que salen en los perfiles
+    const abrev = abreviaturasDe(fichas);
+    const mitad = Math.ceil(abrev.length / 2);
+    const filas = Array.from({ length: mitad }, (_, i) => [...abrev[i], ...(abrev[i + mitad] ?? ['', ''])]);
+    const yFin = (doc as unknown as { lastAutoTable: { finalY: number } }).lastAutoTable.finalY;
+    autoTable(doc, {
+      startY: yFin + 4, margin: { left: M, right: M },
+      head: [[{ content: 'ABREVIATURAS', colSpan: 4 }]],
+      body: filas,
+      theme: 'grid',
+      styles: { font: 'helvetica', fontSize: 6.6, cellPadding: 0.9, textColor: TINTA, lineColor: LINEA, lineWidth: 0.15, fillColor: PAPEL, valign: 'top', overflow: 'linebreak' },
+      headStyles: { fillColor: PAPEL2, textColor: OXIDO, fontStyle: 'bold', fontSize: 9 },
+      columnStyles: { 0: { cellWidth: 20, fontStyle: 'bold' }, 2: { cellWidth: 20, fontStyle: 'bold' } },
     });
   }
 

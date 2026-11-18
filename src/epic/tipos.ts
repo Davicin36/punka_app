@@ -49,6 +49,8 @@ export interface FormacionEpic {
   mejoras?: string[];
   nota?: string;
   notaEs?: string;
+  /** Recargo si alguna unidad de la formación es de esta versión («Hammerheads with Railguns cost +25») */
+  recargo?: { unidad: string; coste: number; texto: string };
 }
 
 export interface MejoraEpic {
@@ -65,7 +67,7 @@ export interface MejoraEpic {
   porUnidad?: boolean;
   max?: number;
   maxEjercito?: number;
-  variantes?: { coste: number; porUnidad: boolean; texto: string; textoEs?: string }[];
+  variantes?: { coste: number; porUnidad: boolean; texto: string; textoEs?: string; /** Versiones de arma permitidas a las unidades que añade */ unidades?: string[] }[];
 }
 
 export interface CompraEpic {
@@ -116,6 +118,8 @@ export interface FichaEpic {
   ff: string;
   armas: ArmaEpic[];
   notas: string;
+  /** Versiones de la unidad según el arma que lleva (se elige cuál en cada formación) */
+  variantesArma?: string[];
 }
 
 export interface ReglaEjercito {

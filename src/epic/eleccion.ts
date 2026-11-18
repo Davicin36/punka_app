@@ -177,7 +177,71 @@ export function gruposEleccion(e: EjercitoEpic, fe: FormacionElegida): GrupoElec
       out.push({ clave: `m:${nombre}.${k}`, origen: nom(m), opciones, min, max, personaje: g.personaje });
     });
   }
+  out.push(...gruposArma(e, fe));
   return out;
+}
+
+// ===== Versiones de arma (Cabezamartillo con Acelerador lineal, Cañón iónico o Cañones de fusión) =====
+
+/** Cuántas unidades de esta clase nombra el texto («Four Hammerheads» → 4). */
+function cuantas(texto: string, u: Encontrada): number {
+  const w = texto.slice(0, u.ini).trim().split(/\s+/).pop() ?? '';
+  return numero(w) ?? 1;
+}
+
+/** Grupos para escoger el arma de cada unidad que tiene versiones, y versiones fijadas por la mejora. */
+function gruposArma(e: EjercitoEpic, fe: FormacionElegida): GrupoEleccion[] {
+  const f = formacionDe(e, fe.formacion);
+  if (!f) return [];
+  const out: GrupoEleccion[] = [];
+  const conArmas = (texto: string) => unidadesEnTexto(e, texto)
+    .map(u => ({ u, ficha: fichaDe(e, u.nombre) }))
+    .filter(x => x.ficha?.variantesArma?.length);
+  const titulo = (ficha: FichaEpic) => `Arma de ${nombreUnidad(e, ficha.nombre)}`;
+  for (const { u, ficha } of conArmas(f.unidades).filter((x, i, a) => a.findIndex(y => y.ficha === x.ficha) === i)) {
+    const n = cuantas(f.unidades, u);
+    out.push({ clave: `ua:${ficha!.nombre}`, origen: titulo(ficha!), opciones: ficha!.variantesArma!, min: n, max: n, personaje: false });
+  }
+  (f.extras ?? []).forEach((x, j) => {
+    const k = fe.extras[j] ?? 0;
+    if (!k) return;
+    for (const { u, ficha } of conArmas(x.texto).filter((y, i, a) => a.findIndex(z => z.ficha === y.ficha) === i)) {
+      const n = x.porUnidad ? k : cuantas(x.texto, u);
+      out.push({ clave: `x${j}.a:${ficha!.nombre}`, origen: titulo(ficha!), opciones: ficha!.variantesArma!, min: n, max: n, personaje: false });
+    }
+  });
+  for (const [nombre, k] of Object.entries(fe.mejoras)) {
+    const m = k ? mejoraDe(e, nombre) : undefined;
+    if (!m) continue;
+    const v = m.variantes?.[fe.variantes[nombre] ?? 0];
+    const vista = new Set<string>();
+    for (const { u, ficha } of conArmas(m.texto)) {
+      if (vista.has(ficha!.nombre)) continue;
+      vista.add(ficha!.nombre);
+      const opciones = v?.unidades ?? ficha!.variantesArma!;
+      if (opciones.length < 2) continue; // versión fija: la pone unidadesDeLista
+      const n = (v ? v.porUnidad : m.porUnidad) ? k : cuantas(m.texto, u);
+      out.push({ clave: `m:${nombre}.a:${ficha!.nombre}`, origen: titulo(ficha!), opciones, min: n, max: n, personaje: false });
+    }
+  }
+  return out;
+}
+
+/** Versiones de arma que una mejora fija sin elección (dos Cabezamartillos con Cañones Iónicos). */
+function armasFijas(e: EjercitoEpic, fe: FormacionElegida): string[] {
+  return Object.entries(fe.mejoras).flatMap(([nombre, k]) => {
+    const m = k ? mejoraDe(e, nombre) : undefined;
+    const v = m?.variantes?.[fe.variantes[nombre] ?? 0];
+    return v?.unidades?.length === 1 ? v.unidades : [];
+  });
+}
+
+/** Recargo de la formación por llevar cierta versión (+25 si hay Cabezamartillos con Acelerador lineal). */
+export function costeRecargo(e: EjercitoEpic, fe: FormacionElegida): number {
+  const r = formacionDe(e, fe.formacion)?.recargo;
+  if (!r) return 0;
+  const lleva = Object.entries(fe.reparto ?? {}).some(([c, x]) => c.startsWith('ua:') && (x[r.unidad] ?? 0) > 0);
+  return lleva ? r.coste : 0;
 }
 
 export const totalReparto = (fe: FormacionElegida, clave: string) =>
@@ -224,6 +288,7 @@ export function textoReparto(e: EjercitoEpic, fe: FormacionElegida): { origen: s
 /** Unidades con hoja de datos que hay en la lista (para el PDF), en el orden de las hojas del ejército. */
 export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]): FichaEpic[] {
   const usadas = new Set<string>();
+  const conGenerica = new Set<string>();
   for (const fe of formaciones) {
     const f = formacionDe(e, fe.formacion);
     if (!f) continue;
@@ -232,6 +297,7 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
     const elegidas = new Set(grupos.flatMap(g => Object.entries(fe.reparto?.[g.clave] ?? {}).filter(([, n]) => n > 0).map(([o]) => o)));
     const elegido = f.tamanos?.[fe.tamano]?.nombre;
     const quitadas = new Set<string>();
+    const deEsta = new Set<string>();
     const textos = [elegido && f.tamanos!.some(t => fichaDe(e, t.nombre) || fichaDe(e, t.nombre.replace(/^\d+ /, '').replace(/s$/, '')))
       ? elegido.replace(/^\d+ /, '') : f.unidades, ...(f.extras ?? []).filter((_, j) => fe.extras[j]).map(x => x.texto)];
     for (const [nombre, n] of Object.entries(fe.mejoras)) {
@@ -254,11 +320,19 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
       // De las alternativas solo las escogidas (si aún no se ha escogido, todas)
       if (enGrupo.has(u.nombre) && elegidas.size && !elegidas.has(u.nombre)) continue;
       usadas.add(u.nombre);
+      deEsta.add(u.nombre);
     }
+    armasFijas(e, fe).forEach(u => elegidas.add(u));
     elegidas.forEach(u => usadas.add(u));
+    // Con el arma ya escogida, la hoja genérica sobra (se ven solo las versiones)
+    for (const u of deEsta) {
+      if (!fichaDe(e, u)?.variantesArma?.length) continue;
+      const gs = grupos.filter(g => g.clave.endsWith(`a:${u}`));
+      if (!gs.length || gs.some(g => totalReparto(fe, g.clave) < g.min)) conGenerica.add(u);
+    }
     transporteFormacion(e, fe).forEach(t => usadas.add(t.nombre));
   }
-  return (e.fichas ?? []).filter(f => usadas.has(f.nombre));
+  return (e.fichas ?? []).filter(f => usadas.has(f.nombre) && (!f.variantesArma?.length || conGenerica.has(f.nombre)));
 }
 
 // ===== «Más transporte»: Rhinos (y Land Raiders para Exterminadores) por defecto =====

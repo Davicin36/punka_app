@@ -1,7 +1,7 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
 import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
-import { costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
+import { costeRecargo, costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -68,7 +68,7 @@ export function costeFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
     const m = mejoraDe(e, nombre);
     if (m) c += costeMejora(m, n, fe.variantes[nombre], repartoDeMejora(fe, nombre));
   }
-  return c + costeVariantes(e, fe);
+  return c + costeVariantes(e, fe) + costeRecargo(e, fe);
 }
 
 /** Compras sueltas del ejército (las variantes de Leman Russ se eligen dentro de cada formación). */
@@ -124,7 +124,8 @@ export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): strin
     if (!m) continue;
     porSeccion.set(m.seccion, (porSeccion.get(m.seccion) ?? 0) + 1);
     const sec = seccionDe(e, m.seccion);
-    if (!m.porUnidad && sec?.unaVez && n > 1) out.push(`${nom(m)}: solo una vez por formación.`);
+    const porUnidad = m.variantes?.[fe.variantes[nombre] ?? 0]?.porUnidad ?? m.porUnidad;
+    if (!porUnidad && sec?.unaVez && n > 1) out.push(`${nom(m)}: solo una vez por formación.`);
     if (m.porUnidad && m.max && n > m.max) out.push(`${nom(m)}: máximo ${m.max}.`);
   }
   for (const [sid, n] of porSeccion) {

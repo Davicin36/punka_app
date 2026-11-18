@@ -458,14 +458,13 @@
    "id": "6.35",
    "titulo": "Lista de ejército de la Inquisición del Ordo Xenos",
    "parrafos": [
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.35, 5.3 y 5.4.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.35, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en el Ordo Xenos de la Inquisición.",
-    "Las formaciones del Ordo Xenos son de dos tipos: destacamentos Deathwatch y formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales. Cada destacamento que incluyas en el ejército te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un destacamento, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejo‐",
-    "ras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Las formaciones del Ordo Xenos son de dos tipos: destacamentos Deathwatch y formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales. Cada destacamento que incluyas en el ejército te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un destacamento, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
     "Los ejércitos del Ordo Xenos pueden recibir apoyo de formaciones de aeronaves de la Armada Imperial, grupos de batalla de la Legión de Titanes o aeronaves Deathwatch. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento Deathwatch (véase 5.1.1).",
-    "I N I C I AT I VA FACTOR DE E STRATEGIA: 5",
-    "Las formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales y las de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Factor de estrategia: 5.",
+    "Iniciativa: Las formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales y las de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Puede desplegarse una formación de apoyo de Guardia Imperial reclutada o Inquisitorial por cada destacamento Deathwatch.",
     "• 0–1 Comandante Supremo, 0–1 Lord Inquisidor (se añade a una unidad de Inquisidor del Ordo Xenos) y 0–1 Crucero de Asalto por ejército."

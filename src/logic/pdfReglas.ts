@@ -24,9 +24,17 @@ interface Opciones {
   nuevaPagina: () => void;
 }
 
+/** jsPDF (Helvetica) solo pinta bien caracteres de Windows-1252: el resto sale con letras separadas. */
+const WIN = /[^\n\x20-\x7E\xA0-\xFF€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ]/g;
+export const textoPdf = (t: string) =>
+  t.normalize('NFC').replace(/[‐‑−]/g, '-').replace(/[≤]/g, '<=').replace(/[≥]/g, '>=').replace(WIN, '');
+
 /** Añade páginas nuevas con todas las reglas, a dos columnas. */
 export function anexoReglas(doc: jsPDF, grupos: GrupoPdf[], o: Opciones) {
-  const g = grupos.filter(x => x.reglas.length);
+  const g = grupos.filter(x => x.reglas.length).map(x => ({
+    titulo: textoPdf(x.titulo),
+    reglas: x.reglas.map(r => ({ nombre: textoPdf(r.nombre), nota: r.nota && textoPdf(r.nota), parrafos: r.parrafos.map(textoPdf).filter(Boolean) })),
+  }));
   if (!g.length) return;
   const W = doc.internal.pageSize.getWidth();
   const hueco = 6;

@@ -478,13 +478,12 @@
    "id": "6.14",
    "titulo": "Lista de ejército de la Guardia Imperial de la Legión Acorazada de Minerva",
    "parrafos": [
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.14, 5.3 y 5.4.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.14, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de la Legión Acorazada de Minerva. También puede usarse como lista «sustituta» para otros regimientos acorazados de la Guardia Imperial, como el Cuerpo de Tanques de Dniepr, el Acorazado de Konig o los Tanques Pesados Teutonianos, entre muchos otros.",
     "Las formaciones de la Legión Acorazada de Minerva son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Las compañías y escuadrones de tanques pueden estar compuestos por distintas variantes de Leman Russ. El número de variantes figura en la columna «unidades». Las variantes se enumeran en las tablas de variantes de Leman Russ y de variantes raras de Leman Russ. Cada variante adquirida se suma al coste de la formación o mejora, y no más de una de cada cinco variantes de Leman Russ por formación puede ser rara. Los ejércitos de la Legión Acorazada de Minerva pueden recibir apoyo de la Armada Imperial y de grupos de batalla de la Legión de Titanes. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de la Legión Acorazada de Minerva (véase 6.4.1).",
-    "FACTOR DE E STRATEGIA: 2",
-    "I N I C I AT I VA",
-    "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
+    "Factor de estrategia: 2.",
+    "Iniciativa: Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• 0–1 Comandante Supremo (mejora de compañía, +75), 0–1 Batería Deathstrike y 0–1 Apoyo Orbital por ejército.",
     "• Variantes raras de Leman Russ: en cada formación, una de cada cinco variantes de Leman Russ puede ser rara (Cazacarros Destroyer, Executioner o Vanquisher)."

@@ -284,16 +284,14 @@
    "id": "6.7",
    "titulo": "Lista de ejército de la Guardia Imperial de los Maestros del Asedio de Baran",
    "parrafos": [
-    "de decirles a esos malditos orkos que se largaran de nuestra maldita tierra!» — Anónimo",
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.7 y 5.3.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.7 y 5.3.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército de la Guardia Imperial basado en un regimiento de asedio del tipo de los Maestros del Asedio de Baran. También puede usarse como lista «sustituta» para otros regimientos de asedio de la Guardia Imperial y otros tipos de regimientos de defensa estática, y es además una lista excelente para representar las fuerzas de defensa planetaria que despliegan los Gobernadores Imperiales por todo el Imperio. Las formaciones de los Maestros del Asedio de Baran son de dos tipos: compañías y formaciones de apoyo. Cada compañía que incluyas en el ejército te permite desplegar dos formaciones de apoyo cualesquiera, más un conjunto de Posiciones Fortificadas. Aunque solo puedes llevar una formación de apoyo si antes llevas una compañía, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las compañías pueden recibir hasta tres mejoras de compañía. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones de apoyo no pueden recibir mejoras de compañía. Cada mejora adquirida se suma al coste de la compañía, según la tabla de mejoras. Ten en cuenta que puedes adquirir cualquier tipo de mejora para cualquier tipo de compañía. Los ejércitos de los Maestros del Asedio de Baran pueden recibir apoyo de aeronaves de la Armada Imperial. Puede gastarse en estas formaciones un máximo de un cuarto de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla de Comisarios se aplica a los ejércitos de los Maestros del Asedio de Baran (véase 6.4.1).",
     "FAQ",
     "P: Si un Pelotón de Zapadores se divide y se añade a una o más compañías, ¿se ven afectados el éxito Romper su espíritu o el desempate?",
     "R: Sí; cada unidad de Zapadores suma +30 puntos a la compañía a la que se añade.",
-    "FACTOR DE E STRATEGIA: 1",
-    "I N I C I AT I VA",
-    "Todas las formaciones tienen un valor de iniciativa de 2+.",
+    "Factor de estrategia: 1.",
+    "Iniciativa: Todas las formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Cuartel General Regimental: el ejército incluye uno.",
     "• Posiciones Fortificadas (una por compañía, +75 puntos): hasta 52 cm de trincheras y 52 cm de alambrada de espino, más hasta seis cualesquiera de: Emplazamientos de Armas, Búnkeres.",
@@ -576,7 +574,7 @@
    "notas": "Transporte. Puede transportar una de las siguientes unidades: Cañón antiaéreo Blitzen, Obús Götterdämmerung, Destructor Láser Rapier, Thudd Gun."
   },
   {
-   "nombre": "Götterdämmerung Howitzer",
+   "nombre": "Götterdämmerung Howitzer",
    "tipo": "VL",
    "velocidad": "0cm",
    "blindaje": "-",

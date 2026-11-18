@@ -336,6 +336,6 @@
   "nombreEs": "Tiránidos",
   "familiaEs": "Tiránidos",
   "estrategia": 1,
-  "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre)."
+  "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de -2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre)."
  }
 ]

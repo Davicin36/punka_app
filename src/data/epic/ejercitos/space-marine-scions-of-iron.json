@@ -474,18 +474,16 @@
    "id": "6.18",
    "titulo": "Lista de ejército de Marines Espaciales de los Vástagos del Hierro (Scions of Iron)",
    "parrafos": [
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.18, 5.3 y 5.4.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.18, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en el Capítulo de Marines Espaciales de los Vástagos del Hierro que combatió durante la Invasión de Telgar VI.",
     "Los Marines Espaciales se organizan en destacamentos con mejoras, igual que en la lista del Codex Astartes (véase 6.3). Cada mejora adquirida se suma al coste del destacamento y puede adquirirse una vez por formación.",
     "Los ejércitos de los Vástagos del Hierro pueden recibir apoyo de aeronaves de la Armada Imperial y de grupos de batalla de la Legión de Titanes. No pueden incluirse en el ejército más de dos de cada una de estas formaciones. Además, puede gastarse en estas formaciones y en las formaciones de aeronaves de los Vástagos del Hierro un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento y de aeronaves de los Vástagos del Hierro (véase 5.1.1).",
-    "FACTOR DE E STRATEGIA: 5",
-    "I N I C I AT I VA",
-    "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Factor de estrategia: 5.",
+    "Iniciativa: Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Cada mejora puede adquirirse una vez por destacamento. 0–1 Crucero de Asalto.",
-    "• Comandante: añade un Capitán, Capellán o Bibliotecario (+50); o, 0–1 por ejército, una de estas opciones: dar Co‐",
-    "mandante Supremo a un Land Raider (+100), sustituir un Land Raider por un Land Raider Prometheus con Comandante Supremo (+100) o sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante Supremo (+125).",
+    "• Comandante: añade un Capitán, Capellán o Bibliotecario (+50); o, 0–1 por ejército, una de estas opciones: dar Comandante Supremo a un Land Raider (+100), sustituir un Land Raider por un Land Raider Prometheus con Comandante Supremo (+100) o sustituir un Predator Destructor o un Vindicator por un Land Raider Prometheus con Comandante Supremo (+125).",
     "• Como aliados: 0–2 formaciones de aeronaves de la Armada Imperial y 0–2 grupos de batalla de la Legión de Titanes."
    ]
   },

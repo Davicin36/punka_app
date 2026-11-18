@@ -376,13 +376,13 @@
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Tiránidos",
- "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
+ "iniciativaEs": "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de -2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
  "reglas": [
   {
    "id": "6.21",
    "titulo": "Lista de ejército tiránida de la Flota Enjambre Onachus",
    "parrafos": [
-    "Fuerzas: Esta lista usa las perfiles de atributos de 5.21.",
+    "Fuerzas: Esta lista usa los perfiles de atributos de 5.21.",
     "Uso de la lista de ejército: Las formaciones tiránidas de la",
     "Flota Enjambre Onachus son de tres tipos: enjambres sinápticos, enjambres independientes e Máquinas de Guerra. Cada enjambre sináptico que incluyas en el ejército te permite desplegar un enjambre independiente. No puede gastarse en Máquinas de Guerra más de un tercio de los puntos disponibles. Por último, los Individuos Tiránidos incluyen personajes especiales y opciones de objetivo. Cada individuo solo puede adquirirse una vez por ejército. Las reglas de uso de cada individuo figuran más abajo, en «Notas de la lista». La lista incluye la siguiente información:",
     "• Tipo: El nombre de la formación.",
@@ -391,8 +391,8 @@
     "• Mejoras: Una formación puede añadir cualquiera de las unidades indicadas aquí por su coste. Si hay un límite en el número de unidades que pueden añadirse, se duplica en las formaciones medianas y se triplica en las grandes.",
     "Todas las unidades principales y de mejora de una formación cuentan como parte de una única formación. Las distintas unidades no pueden activarse por su cuenta.",
     "Reglas especiales: La regla Movilidad se aplica a todas las unidades tiránidas (véase 5.21.2). Además, las formaciones con unidades sinápticas pueden devolver unidades de progenie al juego mediante el Enjambrado (véase 5.21.1).",
-    "I N I C I AT I VA · FACTOR DE E STRATEGIA: 1",
-    "Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de −2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
+    "Factor de estrategia: 1.",
+    "Iniciativa: Todas las formaciones tiránidas tienen un valor de iniciativa de 1+, pero las formaciones de enjambre sináptico tienen iniciativa 3+ si no contienen unidades sinápticas. Si un enjambre sináptico contiene una unidad sináptica, ignora el modificador de -2 por estar desmoralizado al reorganizarse (véase La Mente Enjambre).",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• 0–1 Nido de Progenie (+50): al empezar la partida, antes de colocar naves espaciales y patrullas, designa un objetivo de tu mitad de la mesa como Nido de Progenie. Funciona a la vez como medio para que las formaciones entren en juego (véase Xenobiología) y como objetivo, y no puede ser destruido. Solo pueden usarlo para entrar en juego las formaciones compuestas por completo de infantería, vehículos ligeros, Carnifex, Tirano de Enjambre y unidades con Tunelador.",
     "• 0–1 Simbionte (+50): se añade a un Tirano de Enjambre o Dominatrix.",
@@ -406,8 +406,7 @@
     "La Mente Enjambre de los tiránidos es una única consciencia coordinadora. Su influencia se proyecta a través de las criaturas sinápticas, que se comunican con sus parientes menores mediante una forma de telepatía. Bajo el control de las criaturas sinápticas, los organismos esclavos actúan en perfecta armonía. Sin embargo, si las criaturas sinápticas mueren, las criaturas básicas vuelven a su comportamiento animal hasta que otras criaturas sinápticas puedan ejercer control sobre ellas. Esto se representa con las siguientes reglas para las formaciones de enjambre sináptico (no para los enjambres independientes ni las Máquinas de Guerra):",
     "• Los enjambres sinápticos ignoran las unidades de progenie a efectos de determinar los efectivos de la formación durante el desempate.",
     "• Un enjambre sináptico sin unidades sinápticas tiene iniciativa 3+ y no puede capturar objetivos.",
-    "• Un enjambre sináptico con al menos una unidad sináptica ignora el modificador de -2 por estar desmoralizado al in‐",
-    "tentar reorganizarse. Además, al final de su acción puede absorber otras formaciones de enjambre sináptico sin unidades sinápticas. La formación debe tener una unidad a 5 cm o menos de una unidad de la formación o formaciones absorbidas. Las unidades y los Marcadores de Explosión de una formación absorbida pasan a formar parte de la formación. Una formación absorbida se considera completamente destruida a efectos del desempate y del éxito Romper su espíritu."
+    "• Un enjambre sináptico con al menos una unidad sináptica ignora el modificador de -2 por estar desmoralizado al intentar reorganizarse. Además, al final de su acción puede absorber otras formaciones de enjambre sináptico sin unidades sinápticas. La formación debe tener una unidad a 5 cm o menos de una unidad de la formación o formaciones absorbidas. Las unidades y los Marcadores de Explosión de una formación absorbida pasan a formar parte de la formación. Una formación absorbida se considera completamente destruida a efectos del desempate y del éxito Romper su espíritu."
    ]
   },
   {
