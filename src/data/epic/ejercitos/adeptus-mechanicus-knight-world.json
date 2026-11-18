@@ -34,7 +34,7 @@
     "base": "knight household"
    },
    "notaEs": "Se puede desplegar como máximo una leva de apoyo por cada casa de caballeros.",
-   "nombreEs": "Casas de apoyo"
+   "nombreEs": "Levas de apoyo"
   },
   {
    "id": "imperial-navy-aircraft",
@@ -65,15 +65,29 @@
      "texto": "Replace any number of Knight Paladins with an equal number of Knight Errants for +10 points each",
      "coste": 10,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Caballeros Paladín por el mismo número de Caballeros Errantes por +10 puntos c/u"
+     "max": 6,
+     "textoEs": "Sustituye cualquier número de Caballeros Paladín por el mismo número de Caballeros Errantes por +10 puntos c/u",
+     "sustituye": {
+      "base": 3,
+      "extras": [
+       0
+      ]
+     }
     },
     {
-     "texto": "Add one Seneschal character for +25 points or one Baron per army for +200 points",
+     "texto": "Add one Seneschal character",
+     "textoEs": "Añade un personaje Senescal",
      "coste": 25,
-     "porUnidad": true,
-     "max": 10,
-     "textoEs": "Añade un personaje Senescal por +25 puntos o un Barón por ejército por +200 puntos"
+     "max": 1,
+     "juntos": "personaje"
+    },
+    {
+     "texto": "Add one Baron (one per army)",
+     "textoEs": "Añade un Barón (uno por ejército)",
+     "coste": 200,
+     "max": 1,
+     "juntos": "personaje",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Casa de Caballeros",
@@ -117,11 +131,19 @@
      "textoEs": "Añade hasta tres Caballeros Lanceros por +90 puntos c/u"
     },
     {
-     "texto": "Add one Seneschal character for +25 points or one Baron per army for +200 points",
+     "texto": "Add one Seneschal character",
+     "textoEs": "Añade un personaje Senescal",
      "coste": 25,
-     "porUnidad": true,
-     "max": 10,
-     "textoEs": "Añade un personaje Senescal por +25 puntos o un Barón por ejército por +200 puntos"
+     "max": 1,
+     "juntos": "personaje"
+    },
+    {
+     "texto": "Add one Baron (one per army)",
+     "textoEs": "Añade un Barón (uno por ejército)",
+     "coste": 200,
+     "max": 1,
+     "juntos": "personaje",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Casa de Lanceros",
@@ -198,7 +220,8 @@
      "coste": 25,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Añade hasta cuatro Levas de Infantería por +25 puntos cada dos"
+     "textoEs": "Añade hasta cuatro Levas de Infantería por +25 puntos cada dos",
+     "porCada": 2
     },
     {
      "texto": "Add up to three of any of the following units for +25 points each: Rapier, Thudd Gun",

@@ -92,30 +92,49 @@
    "costeTexto": "250 points",
    "extras": [
     {
-     "texto": "Add three Saim-Hann Jetbikes for +75 points or six for +150",
+     "texto": "Add three Saim-Hann Jetbikes",
+     "textoEs": "Añade tres Motos Jet de Saim-Hann",
      "coste": 75,
-     "textoEs": "Añade tres Motos Jet de Saim-Hann por +75 puntos o seis por +150"
+     "max": 1,
+     "juntos": "motos",
+     "anade": 3
+    },
+    {
+     "texto": "Add six Saim-Hann Jetbikes",
+     "textoEs": "Añade seis Motos Jet de Saim-Hann",
+     "coste": 150,
+     "max": 1,
+     "juntos": "motos",
+     "anade": 6
     },
     {
      "texto": "Replace any number of Saim-Hann Jetbikes with an equal number of Saim-Hann Vypers for free",
      "coste": 0,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Motos Jet de Saim-Hann por el mismo número de Vypers de Saim-Hann gratis"
+     "textoEs": "Sustituye cualquier número de Motos Jet de Saim-Hann por el mismo número de Vypers de Saim-Hann gratis",
+     "sustituye": {
+      "base": 6,
+      "extras": [
+       0,
+       1
+      ]
+     }
     },
     {
      "texto": "Add one Farseer character per formation for +25 points",
      "coste": 25,
      "porUnidad": true,
-     "max": 10,
+     "max": 1,
      "textoEs": "Añade un personaje Vidente por formación por +25 puntos"
     },
     {
      "texto": "Add one Wild Rider Chieftain character per army for +75 points",
      "coste": 75,
      "porUnidad": true,
-     "max": 10,
-     "textoEs": "Añade un personaje Caudillo de los Jinetes Salvajes por ejército por +75 puntos"
+     "max": 1,
+     "textoEs": "Añade un personaje Caudillo de los Jinetes Salvajes por ejército por +75 puntos",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Clan de Jinetes Salvajes",
@@ -188,7 +207,7 @@
      "texto": "Add one Farseer character per formation to an infantry unit for +25 points",
      "coste": 25,
      "porUnidad": true,
-     "max": 10,
+     "max": 1,
      "textoEs": "Añade un personaje Vidente por formación a una unidad de infantería por +25 puntos"
     }
    ],
@@ -265,8 +284,14 @@
      "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
      "coste": 15,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u"
+     "max": 6,
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u",
+     "sustituye": {
+      "base": 5,
+      "extras": [
+       0
+      ]
+     }
     }
    ],
    "nombreEs": "Espadas de Vaul",

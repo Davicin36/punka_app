@@ -1,5 +1,5 @@
 import type { EjercitoEpic, FormacionElegida } from './tipos';
-import { costeFormacion, costeMejora, detalleFormacion, formacionDe, mejorasPermitidas, problemasFormacion, repartoDeMejora } from './logica';
+import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, problemasFormacion, repartoDeMejora } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
 import { costeRecargo, fichaDe, gruposEleccion, totalReparto, type GrupoEleccion } from './eleccion';
@@ -96,10 +96,16 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
               {f.extras.map((x, j) => (
                 <div key={j} className="mejora">
                   {(x.porUnidad && (x.max ?? 1) > 1)
-                    ? <FilaContador nombre={<Bi n es={x.textoEs} en={x.texto} />} nota={`(${x.coste ? `+${x.coste} c/u` : 'gratis'}, máx. ${x.max})`} valor={fe.extras[j] ?? 0} max={x.max}
+                    ? <FilaContador nombre={<Bi n es={x.textoEs} en={x.texto} />}
+                        nota={`(${x.coste ? `+${x.coste} ${x.porCada ? `cada ${x.porCada}` : 'c/u'}` : 'gratis'}, máx. ${maxExtra(f, fe, j)})`}
+                        valor={fe.extras[j] ?? 0} max={maxExtra(f, fe, j)}
                         onChange={v => onChange(y => fijar(y.extras, j, v))} />
                     : <Check nombre={<Bi n es={x.textoEs} en={x.texto} />} coste={x.coste ? `+${x.coste}` : 'gratis'} activo={!!fe.extras[j]}
-                        onChange={v => onChange(y => fijar(y.extras, j, v ? 1 : 0))} />}
+                        onChange={v => onChange(y => {
+                          // Opciones excluyentes (Senescal o Barón): marcar una desmarca las otras
+                          if (v && x.juntos) f.extras!.forEach((z, k) => { if (k !== j && z.juntos === x.juntos) fijar(y.extras, k, 0); });
+                          fijar(y.extras, j, v ? 1 : 0);
+                        })} />}
                   {gruposDe(`x${j}.`, `lr:x${j}`).map(g => pintarGrupo(g))}
                 </div>
               ))}

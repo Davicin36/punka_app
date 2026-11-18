@@ -90,8 +90,9 @@
      "texto": "Replace one Exarch character per army with an Autarch character for +50 points",
      "coste": 50,
      "porUnidad": true,
-     "max": 10,
-     "textoEs": "Sustituye un personaje Exarca por ejército por un Autarca por +50 puntos"
+     "max": 1,
+     "textoEs": "Sustituye un personaje Exarca por ejército por un Autarca por +50 puntos",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Guerreros Aspecto",
@@ -210,8 +211,14 @@
      "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
      "coste": 15,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u"
+     "max": 6,
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u",
+     "sustituye": {
+      "base": 5,
+      "extras": [
+       0
+      ]
+     }
     }
    ],
    "nombreEs": "Espadas de Vaul",

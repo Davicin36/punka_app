@@ -330,7 +330,13 @@
      "coste": 5,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Motoristas por el mismo número de Triciclos del Gremio por +5 c/u"
+     "textoEs": "Sustituye cualquier número de Motoristas por el mismo número de Triciclos del Gremio por +5 c/u",
+     "sustituye": {
+      "base": 5,
+      "extras": [
+       0
+      ]
+     }
     }
    ],
    "nombreEs": "Escuadrón del Gremio",

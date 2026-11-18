@@ -267,8 +267,14 @@
      "texto": "Replace any number of Nobz (and a Trukk) with an equal number of Nob Warbikes for free",
      "coste": 0,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Noblez (y Trukk) por el mismo número de Noblez en Moto de Guerra gratis"
+     "max": 2,
+     "textoEs": "Sustituye cualquier número de Noblez (y Trukk) por el mismo número de Noblez en Moto de Guerra gratis",
+     "sustituye": {
+      "base": 1,
+      "extras": [
+       2
+      ]
+     }
     }
    ],
    "nombreEs": "Partida de Guerra",
