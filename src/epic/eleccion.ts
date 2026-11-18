@@ -407,6 +407,31 @@ export function transporteFormacion(e: EjercitoEpic, fe: FormacionElegida): { no
   return out;
 }
 
+/** Unidades de infantería de la formación (base, extras, mejoras y repartos). */
+export function infanteriaFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
+  const f = formacionDe(e, fe.formacion);
+  if (!f) return 0;
+  const esInf = (nombre: string) => fichaDe(e, nombre)?.tipo === 'INF';
+  let n = 0;
+  const grupos = gruposEleccion(e, fe);
+  // En la base, si hay que elegir entre tipos, cuenta lo elegido (o el máximo del grupo si aún no se ha elegido)
+  const base = unidadesContadas(e, f.unidades.split(/plus transport/i)[0]);
+  for (const u of base) if (esInf(u.nombre) && !grupos.some(g => g.clave.startsWith('u') && g.opciones.includes(u.nombre))) n += u.n;
+  for (const g of grupos) {
+    const elegido = Object.entries(fe.reparto?.[g.clave] ?? {}).filter(([o]) => esInf(o)).reduce((s, [, k]) => s + k, 0);
+    if (g.clave.startsWith('u') && g.opciones.some(esInf)) n += elegido || g.min;
+  }
+  (f.extras ?? []).forEach((x, j) => {
+    const k = fe.extras[j] ?? 0;
+    if (k) for (const u of unidadesContadas(e, x.texto)) if (esInf(u.nombre)) n += x.porUnidad ? k : u.n;
+  });
+  for (const [nombre, k] of Object.entries(fe.mejoras)) {
+    const m = k ? mejoraDe(e, nombre) : undefined;
+    if (m) for (const u of unidadesContadas(e, m.texto)) if (esInf(u.nombre)) n += u.n * (m.porUnidad ? k : 1);
+  }
+  return n;
+}
+
 /** «3x Rhino» en castellano. */
 export const textoTransporte = (e: EjercitoEpic, fe: FormacionElegida) =>
   transporteFormacion(e, fe).map(t => `${t.cantidad}x ${nombreUnidad(e, t.nombre)}`).join(' y ');

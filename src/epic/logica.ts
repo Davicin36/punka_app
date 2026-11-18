@@ -2,7 +2,7 @@
 import type { EjercitoEpic, ExtraEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
 import { cantidades, porCantidad } from './cantidades';
-import { costeRecargo, costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
+import { costeRecargo, costeVariantes, esVarianteLeman, infanteriaFormacion, problemasReparto, textoReparto, textoTransporte } from './eleccion';
 
 export const nuevoUid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
@@ -150,6 +150,11 @@ export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): strin
     const max = maxExtra(f, fe, i);
     if (n > max) out.push(`Máximo ${max} en «${es(x.textoEs, x.texto).slice(0, 40)}…».`);
   });
+  const maxInf = seccionDe(e, f.seccion)?.maxInfanteria;
+  if (maxInf) {
+    const inf = infanteriaFormacion(e, fe);
+    if (inf > maxInf) out.push(`Más de ${maxInf} unidades de infantería: llevas ${inf}.`);
+  }
   const mo = monturasFormacion(e, fe);
   if (mo) {
     if (mo.armas > mo.total) out.push(`Demasiadas armas: ${mo.armas} para ${mo.total} monturas.`);

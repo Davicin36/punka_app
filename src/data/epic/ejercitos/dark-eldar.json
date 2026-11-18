@@ -19,7 +19,8 @@
    "tipo": "nucleo",
    "nota": "Each formation may never exceed more than eight infantry units.",
    "notaEs": "Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Cábalas eldars oscuras"
+   "nombreEs": "Cábalas eldars oscuras",
+   "maxInfanteria": 8
   },
   {
    "id": "dark-eldar-partisans",
@@ -31,7 +32,8 @@
     "base": "kabal"
    },
    "notaEs": "Cada kábala que incluyas en el ejército te permite desplegar dos partisanos cualesquiera. Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Partisanos eldars oscuros"
+   "nombreEs": "Partisanos eldars oscuros",
+   "maxInfanteria": 8
   },
   {
    "id": "dark-eldar-upgrades",
@@ -46,7 +48,8 @@
    "nombre": "Dark Eldar Transport",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Transporte eldar oscuro"
+   "nombreEs": "Transportes eldars oscuros",
+   "notaEs": "Las formaciones con «más transporte» pueden elegir de esta sección; solo los transportes justos para llevar a toda la formación, incluidas las mejoras."
   },
   {
    "id": "dark-eldar-aircraft-spacecraft-and-other-horrors",
@@ -285,30 +288,36 @@
    "id": "dark-eldar-transport-barge-of-pleasure",
    "nombre": "Barge of Pleasure",
    "seccion": "dark-eldar-transport",
-   "unidades": "Add up to two Barge of Pleasures",
-   "coste": 0,
+   "unidades": "One or two Barges of Pleasure (+125 points each)",
+   "coste": 125,
    "costeTexto": "+125 points each",
-   "extras": [
+   "nombreEs": "Barcaza del Placer",
+   "unidadesEs": "Una o dos Barcazas del Placer (+125 c/u)",
+   "mejoras": [],
+   "tamanos": [
     {
-     "texto": "Barges of Pleasure (up to 2)",
-     "coste": 125,
-     "porUnidad": true,
-     "max": 2,
-     "textoEs": "Barcazas del Placer (hasta 2)"
+     "nombre": "1 Barge of Pleasure",
+     "nombreEs": "1x Barcaza del Placer",
+     "coste": 125
+    },
+    {
+     "nombre": "2 Barge of Pleasure",
+     "nombreEs": "2x Barcazas del Placer",
+     "coste": 250
     }
    ],
-   "nombreEs": "Barcaza del Placer",
-   "unidadesEs": "Añade hasta dos Barcazas del Placer"
+   "tamanosTitulo": "Cuántas"
   },
   {
    "id": "dark-eldar-transport-raider",
    "nombre": "Raider",
    "seccion": "dark-eldar-transport",
-   "unidades": "Add up to four Raiders",
+   "unidades": "Four Raiders",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Incursor (Raider)",
-   "unidadesEs": "Añade hasta cuatro Incursores"
+   "nombreEs": "Incursores",
+   "unidadesEs": "Cuatro Incursores (gratis)",
+   "mejoras": []
   },
   {
    "id": "dark-eldar-transport-slavebringer",
@@ -317,7 +326,8 @@
    "unidades": "One Slavebringer Assault Boat",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Una Nave de Asalto Slavebringer"
+   "unidadesEs": "Una Nave de Asalto Slavebringer",
+   "mejoras": []
   },
   {
    "id": "dark-eldar-aircraft-spacecraft-and-other-horrors-executor",
