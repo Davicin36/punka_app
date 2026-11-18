@@ -22,7 +22,7 @@
     "base": "demi-century"
    },
    "notaEs": "Se puede desplegar una formación ordinatus por cada demi-centuria.",
-   "nombreEs": "Formaciones de semicenturia"
+   "nombreEs": "Formaciones Ordinatus"
   },
   {
    "id": "support-formations",
@@ -90,7 +90,14 @@
    "unidades": "Five Sagitarii units and five Gun Servitor units (Replace five Gun Servitor units with three Rapier units)",
    "coste": 250,
    "costeTexto": "250 points (Free)",
-   "unidadesEs": "Cinco unidades de Sagitarii y cinco unidades de Servidores de Combate (sustituir las cinco de Servidores por tres unidades de Rapier: gratis)"
+   "unidadesEs": "Cinco unidades de Sagitarii y cinco unidades de Servidores de Combate (sustituir las cinco de Servidores por tres unidades de Rapier: gratis)",
+   "extras": [
+    {
+     "texto": "Replace the five Combat Servitor units with three Rapier units",
+     "textoEs": "Sustituye las cinco unidades de Servidores de Combate por tres Rapier",
+     "coste": 0
+    }
+   ]
   },
   {
    "id": "demi-century-formations-skitarii",
@@ -103,7 +110,7 @@
     {
      "texto": "Replace three Hypaspist units with three Secutor units",
      "coste": 125,
-     "textoEs": "Sustituye tres unidades de Hypaspist por tres de Secutor"
+     "textoEs": "Sustituye tres Hipaspistas por tres Secutores"
     }
    ],
    "unidadesEs": "Tres unidades de Hipaspistas, dos unidades de Secutores y cinco unidades adicionales de Hipaspistas o Servidores de Combate (sustituir tres Hipaspistas por tres Secutores: +125 puntos)"
@@ -112,16 +119,33 @@
    "id": "ordinatus-formations-majoris",
    "nombre": "Majoris",
    "seccion": "ordinatus-formations",
-   "unidades": "One of the following Mars Ordinatus Majoris: Golgotha Armageddon",
+   "unidades": "One Ordinatus Majoris: Mars, Golgotha or Armageddon",
    "coste": 450,
    "costeTexto": "450 points 550 points 500 points",
-   "unidadesEs": "Un Ordinatus Majoris a elegir: Mars (450), Golgotha (550) o Armageddon (500)"
+   "unidadesEs": "Un Ordinatus Majoris: Mars, Golgotha o Armageddon",
+   "tamanos": [
+    {
+     "nombre": "Mars Ordinatus Majoris",
+     "nombreEs": "Ordinatus Majoris Mars",
+     "coste": 450
+    },
+    {
+     "nombre": "Golgotha Ordinatus Majoris",
+     "nombreEs": "Ordinatus Majoris Golgotha",
+     "coste": 550
+    },
+    {
+     "nombre": "Armageddon Ordinatus Majoris",
+     "nombreEs": "Ordinatus Majoris Armageddon",
+     "coste": 500
+    }
+   ]
   },
   {
    "id": "ordinatus-formations-minorus",
    "nombre": "Minorus",
    "seccion": "ordinatus-formations",
-   "unidades": "Two Ordinatus Minorus (Add one Ordinatus Minorus)",
+   "unidades": "Two Ordinatus Minorus",
    "coste": 250,
    "costeTexto": "250 points (+100 points)",
    "extras": [
@@ -131,7 +155,7 @@
      "textoEs": "Añade un Ordinatus Minorus"
     }
    ],
-   "unidadesEs": "Dos Ordinatus Minorus (añadir un Ordinatus Minorus: +100 puntos; puede adquirirse dos veces)"
+   "unidadesEs": "Dos Ordinatus Minorus"
   },
   {
    "id": "support-formations-assault-maniple",
@@ -167,18 +191,18 @@
    "id": "support-formations-praetorian-maniple",
    "nombre": "Praetorian Maniple",
    "seccion": "support-formations",
-   "unidades": "Five Praetorian Combat Servitor units (Give all infantry units in the formation Self-Reliant) (Add one Ordinatus Minorus)",
+   "unidades": "Five Praetorian Combat Servitor units",
    "coste": 250,
    "costeTexto": "250 points (+25 points) (+100 points)",
    "extras": [
     {
-     "texto": "Add one Ordinatus Minorus",
-     "coste": 25,
-     "textoEs": "Añade un Ordinatus Minorus"
+     "texto": "Linked Neural Network: give all infantry units in the formation Self-Reliant",
+     "textoEs": "Red Neural Enlazada: da Autosuficiente a todas las unidades de infantería de la formación",
+     "coste": 25
     }
    ],
    "nombreEs": "Manípulo Pretoriano",
-   "unidadesEs": "Cinco unidades de Servidores de Combate Pretorianos (dar Autosuficiente a todas las unidades de infantería de la formación: +25 puntos)"
+   "unidadesEs": "Cinco unidades de Servidores de Combate Pretorianos"
   },
   {
    "id": "support-formations-scout-maniple",
@@ -244,7 +268,11 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Titán clase Reaver"
+   "unidadesEs": "Un Titán clase Reaver",
+   "monturas": {
+    "brazo": 2,
+    "caparazon": 1
+   }
   },
   {
    "id": "mechanicus-allies-warhound",
@@ -260,7 +288,11 @@
     "Vulcan Mega-Bolter",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Titán clase Warhound"
+   "unidadesEs": "Un Titán clase Warhound",
+   "monturas": {
+    "brazo": 2,
+    "caparazon": 0
+   }
   },
   {
    "id": "mechanicus-allies-warhound-pack",
@@ -277,7 +309,11 @@
     "Veteran Princeps"
    ],
    "nombreEs": "Manada Warhound",
-   "unidadesEs": "Dos Titanes clase Warhound"
+   "unidadesEs": "Dos Titanes clase Warhound",
+   "monturas": {
+    "brazo": 4,
+    "caparazon": 0
+   }
   },
   {
    "id": "mechanicus-allies-warlord",
@@ -308,7 +344,11 @@
     "Sacred Icon",
     "Veteran Princeps"
    ],
-   "unidadesEs": "Un Titán clase Warlord"
+   "unidadesEs": "Un Titán clase Warlord",
+   "monturas": {
+    "brazo": 2,
+    "caparazon": 2
+   }
   }
  ],
  "mejoras": [
@@ -369,7 +409,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Lanzamisiles Apocalipsis"
+   "nombreEs": "Lanzamisiles Apocalipsis",
+   "arma": true
   },
   {
    "id": "carapace-landing-pad",
@@ -378,7 +419,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Plataforma de Aterrizaje en el Caparazón"
+   "nombreEs": "Plataforma de Aterrizaje en el Caparazón",
+   "arma": true
   },
   {
    "id": "close-combat-weapon",
@@ -389,7 +431,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Arma de combate cuerpo a cuerpo"
+   "nombreEs": "Arma de combate cuerpo a cuerpo",
+   "arma": true
   },
   {
    "id": "corvus-assault-pod",
@@ -398,7 +441,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cápsula de Asalto Corvus"
+   "nombreEs": "Cápsula de Asalto Corvus",
+   "arma": true
   },
   {
    "id": "gatling-blaster",
@@ -409,7 +453,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Bláster Gatling"
+   "nombreEs": "Bláster Gatling",
+   "arma": true
   },
   {
    "id": "laser-blaster",
@@ -420,7 +465,8 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Bláster Láser"
+   "nombreEs": "Bláster Láser",
+   "arma": true
   },
   {
    "id": "laser-burner",
@@ -429,7 +475,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Quemador Láser"
+   "nombreEs": "Quemador Láser",
+   "arma": true
   },
   {
    "id": "melta-cannon",
@@ -440,7 +487,8 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón Melta"
+   "nombreEs": "Cañón Melta",
+   "arma": true
   },
   {
    "id": "plasma-cannon",
@@ -451,7 +499,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón de Plasma"
+   "nombreEs": "Cañón de Plasma",
+   "arma": true
   },
   {
    "id": "plasma-destructor-carapace-weapon-mount-only",
@@ -462,7 +511,9 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Destructor de Plasma (Carapace weapon mount only)"
+   "nombreEs": "Destructor de Plasma (solo montura de caparazón)",
+   "arma": true,
+   "montura": "caparazon"
   },
   {
    "id": "quake-cannon",
@@ -473,7 +524,8 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón Sísmico"
+   "nombreEs": "Cañón Sísmico",
+   "arma": true
   },
   {
    "id": "support-missile-carapace-weapon-mount-only",
@@ -484,7 +536,9 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Misil de Apoyo (Carapace weapon mount only)"
+   "nombreEs": "Misil de Apoyo (solo montura de caparazón)",
+   "arma": true,
+   "montura": "caparazon"
   },
   {
    "id": "volcano-cannon",
@@ -495,7 +549,8 @@
    "costeTexto": "+50 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Cañón Volcán"
+   "nombreEs": "Cañón Volcán",
+   "arma": true
   },
   {
    "id": "inferno-gun",
@@ -504,7 +559,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón Inferno"
+   "nombreEs": "Cañón Inferno",
+   "arma": true
   },
   {
    "id": "plasma-blastgun",
@@ -513,7 +569,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Cañón Bláster de Plasma"
+   "nombreEs": "Cañón Bláster de Plasma",
+   "arma": true
   },
   {
    "id": "turbo-laser-destructor",
@@ -524,7 +581,8 @@
    "costeTexto": "+25 points each",
    "porUnidad": true,
    "max": 10,
-   "nombreEs": "Destructor Turboláser"
+   "nombreEs": "Destructor Turboláser",
+   "arma": true
   },
   {
    "id": "vulcan-mega-bolter",
@@ -533,7 +591,8 @@
    "texto": "",
    "coste": 0,
    "costeTexto": "Free",
-   "nombreEs": "Megabólter Vulcan"
+   "nombreEs": "Megabólter Vulcan",
+   "arma": true
   },
   {
    "id": "carapace-multilasers",

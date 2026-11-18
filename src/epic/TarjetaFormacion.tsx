@@ -1,5 +1,5 @@
 import type { EjercitoEpic, FormacionElegida } from './tipos';
-import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, problemasFormacion, repartoDeMejora } from './logica';
+import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, monturasFormacion, problemasFormacion, repartoDeMejora } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
 import { costeRecargo, fichaDe, gruposEleccion, totalReparto, type GrupoEleccion } from './eleccion';
@@ -19,6 +19,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
   const d = detalleFormacion(e, fe);
   const mejoras = mejorasPermitidas(e, f);
   const grupos = gruposEleccion(e, fe);
+  const mo = monturasFormacion(e, fe);
   const resumen = [d.tamano, ...d.reparto.map(r => r.texto), d.transporte && `Transporte: ${d.transporte}`, ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
   /** Cambia la cantidad de una opción dentro de un grupo de reparto */
   const repartir = (clave: string, unidad: string, valor: number, unico: boolean) => onChange(y => {
@@ -114,6 +115,9 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
 
           {mejoras.length > 0 && <>
             <h4>Mejoras</h4>
+            {mo && <p className={`mtexto${mo.armas === mo.total && mo.soloCaparazon <= mo.caparazon ? '' : ' calc'}`}>
+              Monturas de armas: {mo.caparazon ? `${mo.caparazon} de caparazón y ` : ''}{mo.brazo} de brazo · armas elegidas {mo.armas}/{mo.total}
+            </p>}
             <div className="opts">
               {mejoras.map(m => {
                 const n = fe.mejoras[m.nombre] ?? 0;
@@ -127,7 +131,11 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                 const pares = m.parejas && n > 1 ? Math.floor(n / 2) : 0;
                 return (
                   <div key={m.nombre} className="mejora">
-                    {porUnidad
+                    {m.arma && mo
+                      ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta})`} valor={n}
+                          max={Math.min(m.montura === 'caparazon' ? mo.caparazon : mo.total, n + mo.total - mo.armas)}
+                          onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val))} />
+                      : porUnidad
                       ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta}${m.max ? `, máx. ${m.max}` : ''})`} valor={n} max={m.max ?? 20}
                           onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val))} />
                       : <Check nombre={<Bi es={m.nombreEs} en={m.nombre} />} coste={etiqueta} activo={n > 0} onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val ? 1 : 0))} />}

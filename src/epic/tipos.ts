@@ -63,6 +63,8 @@ export interface FormacionEpic {
   recargo?: { unidad: string; coste: number; texto: string };
   /** Coste de cada unidad elegida cuando la formación no tiene coste base */
   costesUnidad?: Record<string, number>;
+  /** Monturas de armas de los Titanes: cada una lleva un arma */
+  monturas?: { brazo: number; caparazon: number };
 }
 
 export interface MejoraEpic {
@@ -80,6 +82,10 @@ export interface MejoraEpic {
   max?: number;
   maxEjercito?: number;
   variantes?: { coste: number; porUnidad: boolean; texto: string; textoEs?: string; /** Versiones de arma permitidas a las unidades que añade */ unidades?: string[] }[];
+  /** Arma de Titán (ocupa una montura) */
+  arma?: boolean;
+  /** Solo en montura de caparazón */
+  montura?: 'caparazon';
 }
 
 export interface CompraEpic {
