@@ -219,3 +219,10 @@ details.rules h4 { margin: 10px 0 2px; }
 .ejinfo b { font: 26px var(--f-head); color: var(--tox); }
 .mejora .reparto { margin: 6px 0 4px 14px; padding-left: 10px; border-left: 2px solid var(--line); }
 .mtexto.calc { color: var(--tox); font-style: normal; }
+
+/* Borrar lista desde la portada */
+.lcwrap { position: relative; display: flex; }
+.lcwrap .lcard { flex: 1; padding-right: 44px; }
+.lcdel { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line);
+  background: transparent; color: var(--mut); font-size: 14px; line-height: 1; cursor: pointer; padding: 0; }
+.lcdel:hover, .lcdel:focus-visible { color: #e0583a; border-color: #e0583a; }

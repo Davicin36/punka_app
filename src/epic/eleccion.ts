@@ -328,13 +328,15 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
       usadas.add(u.nombre);
       deEsta.add(u.nombre);
     }
-    armasFijas(e, fe).forEach(u => elegidas.add(u));
+    const fijas = armasFijas(e, fe);
+    fijas.forEach(u => elegidas.add(u));
     elegidas.forEach(u => usadas.add(u));
     // Con el arma ya escogida, la hoja genérica sobra (se ven solo las versiones)
     for (const u of deEsta) {
       if (!fichaDe(e, u)?.variantesArma?.length) continue;
       const gs = grupos.filter(g => g.clave.endsWith(`a:${u}`));
-      if (!gs.length || gs.some(g => totalReparto(fe, g.clave) < g.min)) conGenerica.add(u);
+      const fija = fichaDe(e, u)!.variantesArma!.some(v => fijas.includes(v));
+      if (gs.some(g => totalReparto(fe, g.clave) < g.min) || (!gs.length && !fija)) conGenerica.add(u);
     }
     transporteFormacion(e, fe).forEach(t => usadas.add(t.nombre));
   }

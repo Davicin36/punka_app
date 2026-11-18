@@ -18,14 +18,16 @@ interface Props {
   onCrear: (nombre: string, faccion: string, puntos: number) => void;
   onCrearEpic: (nombre: string, ejercito: string, puntos: number) => void;
   onImportar: (b: Banda[], e: ListaEpic[]) => void;
+  onBorrar: (id: string) => void;
 }
 
 const familias = [...new Set(INDICE_EPIC.map(e => e.familia))];
 
-export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, onCrearEpic, onImportar }: Props) {
+export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, onCrearEpic, onImportar, onBorrar }: Props) {
   const [nueva, setNueva] = useState(false);
   const [juego, setJuego] = useState<Juego>('punka');
   const [aviso, setAviso] = useState('');
+  const [borrar, setBorrar] = useState<{ id: string; nombre: string } | null>(null);
   const [datosEpic, setDatosEpic] = useState<Record<string, EjercitoEpic>>({});
   const [ejSel, setEjSel] = useState(INDICE_EPIC[0]?.id ?? '');
   const sel = INDICE_EPIC.find(e => e.id === ejSel);
@@ -74,23 +76,29 @@ export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, o
               if (x.tipo === 'punka') {
                 const b = x.b, p = costeBanda(b, ajustes), mal = problemasBanda(b, ajustes).length;
                 return (
-                  <button key={b.id} className="lcard" onClick={() => onAbrir(b.id)}>
+                  <div key={b.id} className="lcwrap">
+                  <button className="lcard" onClick={() => onAbrir(b.id)}>
                     <span className="juego">Punkapocalyptic</span>
                     <span className={`fac f-${b.faccion}`}>{faccionPorId[b.faccion].nombre}</span>
                     <b>{b.nombre}</b>
                     <span className="meta">{p}/{b.puntos} pts · {numMiniaturas(b)} minis {mal ? <i className="warn">⚠ {mal}</i> : <i className="ok">✔</i>}</span>
                   </button>
+                  <button className="lcdel" aria-label={`Borrar ${b.nombre}`} title="Borrar lista" onClick={() => setBorrar({ id: b.id, nombre: b.nombre })}>✕</button>
+                  </div>
                 );
               }
               const l = x.l, d = datosEpic[l.ejercito];
               const p = d ? costeLista(d, l) : null, mal = d ? problemasLista(d, l).length : 0;
               return (
-                <button key={l.id} className="lcard epic" onClick={() => onAbrir(l.id)}>
+                <div key={l.id} className="lcwrap">
+                <button className="lcard epic" onClick={() => onAbrir(l.id)}>
                   <span className="juego">Epic Armageddon</span>
                   <span className="fac f-epic">{nombreEjercito(l.ejercito)}</span>
                   <b>{l.nombre}</b>
                   <span className="meta">{p ?? '…'}/{l.puntos} pts · {l.formaciones.length} formaciones {d && (mal ? <i className="warn">⚠ {mal}</i> : <i className="ok">✔</i>)}</span>
                 </button>
+                <button className="lcdel" aria-label={`Borrar ${l.nombre}`} title="Borrar lista" onClick={() => setBorrar({ id: l.id, nombre: l.nombre })}>✕</button>
+                </div>
               );
             })}
           </div>
@@ -105,6 +113,16 @@ export function Inicio({ bandas, ejercitos, ajustes, estado, onAbrir, onCrear, o
 
         <p className="hint foot">Las listas se guardan en este navegador. Usa «Exportar» para pasarlas a otro dispositivo.</p>
       </main>
+
+      {borrar && (
+        <Modal titulo="¿Borrar esta lista?" onClose={() => setBorrar(null)}>
+          <p>Se borrará «{borrar.nombre}» de este navegador. No se puede deshacer (salvo que la tengas exportada).</p>
+          <div className="btns">
+            <button className="ghost" onClick={() => setBorrar(null)}>Cancelar</button>
+            <button className="primary danger" onClick={() => { onBorrar(borrar.id); setBorrar(null); }}>Borrar</button>
+          </div>
+        </Modal>
+      )}
 
       {nueva && (
         <Modal titulo="Nueva lista" onClose={() => setNueva(false)}>
