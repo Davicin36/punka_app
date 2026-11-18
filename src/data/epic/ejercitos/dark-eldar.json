@@ -19,7 +19,8 @@
    "tipo": "nucleo",
    "nota": "Each formation may never exceed more than eight infantry units.",
    "notaEs": "Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Cábalas eldars oscuras"
+   "nombreEs": "Cábalas eldars oscuras",
+   "maxInfanteria": 8
   },
   {
    "id": "dark-eldar-partisans",
@@ -31,7 +32,8 @@
     "base": "kabal"
    },
    "notaEs": "Cada kábala que incluyas en el ejército te permite desplegar dos partisanos cualesquiera. Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Partisanos eldars oscuros"
+   "nombreEs": "Partisanos eldars oscuros",
+   "maxInfanteria": 8
   },
   {
    "id": "dark-eldar-upgrades",
@@ -310,35 +312,12 @@
    "id": "dark-eldar-transport-raider",
    "nombre": "Raider",
    "seccion": "dark-eldar-transport",
-   "unidades": "Up to four Raiders (free)",
+   "unidades": "Four Raiders",
    "coste": 0,
    "costeTexto": "Free",
    "nombreEs": "Incursores",
-   "unidadesEs": "Hasta cuatro Incursores (gratis)",
-   "mejoras": [],
-   "tamanos": [
-    {
-     "nombre": "1 Raider",
-     "nombreEs": "1x Incursor",
-     "coste": 0
-    },
-    {
-     "nombre": "2 Raiders",
-     "nombreEs": "2x Incursores",
-     "coste": 0
-    },
-    {
-     "nombre": "3 Raiders",
-     "nombreEs": "3x Incursores",
-     "coste": 0
-    },
-    {
-     "nombre": "4 Raiders",
-     "nombreEs": "4x Incursores",
-     "coste": 0
-    }
-   ],
-   "tamanosTitulo": "Cuántos"
+   "unidadesEs": "Cuatro Incursores (gratis)",
+   "mejoras": []
   },
   {
    "id": "dark-eldar-transport-slavebringer",

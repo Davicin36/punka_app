@@ -1,8 +1,8 @@
 import type { EjercitoEpic, FormacionElegida } from './tipos';
-import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, monturasFormacion, problemasFormacion, repartoDeMejora } from './logica';
+import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, monturasFormacion, problemasFormacion, repartoDeMejora, seccionDe } from './logica';
 import { Check, FilaContador } from '../components/ui';
 import Bi from './Bi';
-import { costeRecargo, fichaDe, gruposEleccion, totalReparto, type GrupoEleccion } from './eleccion';
+import { costeRecargo, fichaDe, gruposEleccion, infanteriaFormacion, totalReparto, type GrupoEleccion } from './eleccion';
 
 interface Props {
   e: EjercitoEpic; fe: FormacionElegida; i: number; abierta: boolean;
@@ -19,6 +19,8 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
   const d = detalleFormacion(e, fe);
   const mejoras = mejorasPermitidas(e, f);
   const grupos = gruposEleccion(e, fe);
+  const maxInf = seccionDe(e, f.seccion)?.maxInfanteria;
+  const inf = maxInf ? infanteriaFormacion(e, fe) : 0;
   const mo = monturasFormacion(e, fe);
   const resumen = [d.tamano, ...d.reparto.map(r => r.texto), d.transporte && `Transporte: ${d.transporte}`, ...d.extras.map(x => x.length > 50 ? x.slice(0, 48) + '…' : x), ...d.mejoras].filter(Boolean);
   /** Cambia la cantidad de una opción dentro de un grupo de reparto */
@@ -115,6 +117,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
 
           {mejoras.length > 0 && <>
             <h4>Mejoras</h4>
+            {maxInf && <p className={`mtexto${inf > maxInf ? ' calc' : ''}`}>Unidades de infantería: {inf} de {maxInf} como máximo</p>}
             {mo && <p className={`mtexto${mo.armas === mo.total && mo.soloCaparazon <= mo.caparazon ? '' : ' calc'}`}>
               Monturas de armas: {mo.caparazon ? `${mo.caparazon} de caparazón y ` : ''}{mo.brazo} de brazo · armas elegidas {mo.armas}/{mo.total}
             </p>}

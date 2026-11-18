@@ -21,6 +21,8 @@ export interface SeccionEpic {
   maxPorFormacion?: number;
   /** Mejoras: cada una una sola vez por formación */
   unaVez?: boolean;
+  /** Ninguna formación de la sección puede pasar de tantas unidades de infantería (Eldars Oscuros: 8) */
+  maxInfanteria?: number;
 }
 
 export interface ExtraEpic {
