@@ -94,7 +94,7 @@ export function mejorasPermitidas(e: EjercitoEpic, f: FormacionEpic): MejoraEpic
   if (f.mejoras) return f.mejoras.map(n => mejoraDe(e, n)).filter((m): m is MejoraEpic => !!m);
   // Sin columna de mejoras: las formaciones principales pueden llevar las mejoras del ejército (p. ej. compañías de la Guardia)
   const sec = seccionDe(e, f.seccion);
-  return sec?.tipo === 'nucleo' ? e.mejoras.filter(m => !/weapon/i.test(seccionDe(e, m.seccion)?.nombre ?? '')) : [];
+  return sec?.tipo === 'nucleo' ? e.mejoras.filter(m => !/weapon|titan/i.test(seccionDe(e, m.seccion)?.nombre ?? '')) : [];
 }
 
 const raiz = (s: string) => s.toLowerCase().replace(/ies$/, '').replace(/y$/, '').replace(/es$/, '').replace(/s$/, '');
@@ -126,6 +126,21 @@ export function maxExtra(f: FormacionEpic, fe: FormacionElegida, j: number): num
   return x.sustituye.base + x.sustituye.extras.reduce((s, k) => s + (fe.extras[k] ?? 0) * (f.extras![k]?.anade ?? 1), 0);
 }
 
+/** Armas de Titán elegidas frente a las monturas de la formación. */
+export function monturasFormacion(e: EjercitoEpic, fe: FormacionElegida) {
+  const f = formacionDe(e, fe.formacion);
+  if (!f?.monturas) return null;
+  let armas = 0, soloCaparazon = 0;
+  for (const [nombre, n] of Object.entries(fe.mejoras)) {
+    const m = mejoraDe(e, nombre);
+    if (!m?.arma || !n) continue;
+    armas += n;
+    if (m.montura === 'caparazon') soloCaparazon += n;
+  }
+  const total = f.monturas.brazo + f.monturas.caparazon;
+  return { ...f.monturas, total, armas, soloCaparazon };
+}
+
 export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): string[] {
   const f = formacionDe(e, fe.formacion);
   if (!f) return ['Formación desconocida.'];
@@ -135,6 +150,12 @@ export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): strin
     const max = maxExtra(f, fe, i);
     if (n > max) out.push(`Máximo ${max} en «${es(x.textoEs, x.texto).slice(0, 40)}…».`);
   });
+  const mo = monturasFormacion(e, fe);
+  if (mo) {
+    if (mo.armas > mo.total) out.push(`Demasiadas armas: ${mo.armas} para ${mo.total} monturas.`);
+    else if (mo.armas < mo.total) out.push(`Faltan armas: equipa las ${mo.total} monturas (${mo.caparazon} de caparazón y ${mo.brazo} de brazo); llevas ${mo.armas}.`);
+    if (mo.soloCaparazon > mo.caparazon) out.push(`Solo ${mo.caparazon} monturas de caparazón: llevas ${mo.soloCaparazon} armas que solo van en el caparazón.`);
+  }
   const elegidas = Object.entries(fe.mejoras).filter(([, n]) => n > 0);
   const porSeccion = new Map<string, number>();
   for (const [nombre, n] of elegidas) {
@@ -272,7 +293,7 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
     const m = mejoraDe(e, nombre);
     const v = m?.variantes?.[fe.variantes[nombre] ?? 0];
     const nombreM = m ? nom(m) : nombre;
-    return `${m?.porUnidad ? porCantidad(n, nombreM) : nombreM}${v && (m?.variantes?.length ?? 0) > 1 ? ` [${cantidades(es(v.textoEs, v.texto))}]` : ''}`;
+    return `${m?.porUnidad || m?.arma ? porCantidad(n, nombreM) : nombreM}${v && (m?.variantes?.length ?? 0) > 1 ? ` [${cantidades(es(v.textoEs, v.texto))}]` : ''}`;
   });
   const t = f.tamanos?.[fe.tamano];
   const tamano = t ? cantidades(nom(t)) : undefined;
