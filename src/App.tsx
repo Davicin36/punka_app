@@ -98,6 +98,7 @@ export default function App() {
         setEstado(e => ({ ...e, ejercitos: [...e.ejercitos, l] }));
         setAbierta(l.id);
       }}
+      onBorrar={id => setEstado(e => ({ ...e, bandas: e.bandas.filter(b => b.id !== id), ejercitos: e.ejercitos.filter(l => l.id !== id) }))}
       onImportar={(bs, es) => setEstado(e => ({ ...e, bandas: [...e.bandas, ...bs], ejercitos: [...e.ejercitos, ...es] }))}
     />
   );

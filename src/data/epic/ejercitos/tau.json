@@ -349,26 +349,33 @@
     {
      "coste": 75,
      "porUnidad": false,
-     "texto": "+75 points",
-     "textoEs": "Añade dos Cabezamartillos con Cañones Iónicos (+75)",
+     "texto": "Two Hammerheads with Ion Cannons +75 points",
+     "textoEs": "Dos Cabezamartillos con Cañón iónico (+75)",
      "unidades": [
       "Hammerhead Ion Cannon"
      ]
     },
     {
-     "coste": 50,
-     "porUnidad": true,
-     "texto": "+50 points each",
-     "textoEs": "Añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados (+50 c/u)",
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "Two Hammerheads with Railguns +50 points each",
+     "textoEs": "Dos Cabezamartillos con Acelerador lineal (+50 c/u = +100)",
      "unidades": [
-      "Hammerhead Railgun",
+      "Hammerhead Railgun"
+     ]
+    },
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "Two Hammerheads with Twin Fusion Cannons +50 points each",
+     "textoEs": "Dos Cabezamartillos con Cañones de fusión acoplados (+50 c/u = +100)",
+     "unidades": [
       "Hammerhead Twin Fusion"
      ]
     }
    ],
-   "textoEs": "Una de estas opciones: añade dos Cabezamartillos con Cañones Iónicos …o añade hasta dos Cabezamartillos con Acelerador Lineal o Cañones de Fusión acoplados",
-   "nombreEs": "Cabezamartillos",
-   "max": 2
+   "textoEs": "Añade dos Cabezamartillos, todos con la misma arma: Cañón iónico (+75 los dos), Acelerador lineal (+50 c/u) o Cañones de fusión acoplados (+50 c/u)",
+   "nombreEs": "Cabezamartillos"
   },
   {
    "id": "kroot",
