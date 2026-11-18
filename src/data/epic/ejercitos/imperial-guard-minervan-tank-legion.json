@@ -235,12 +235,16 @@
     {
      "texto": "Add four Chimera or Valkyries (+100)",
      "coste": 100,
-     "textoEs": "Añade cuatro Chimera o Valkyries (+100)"
+     "textoEs": "Añade cuatro Chimera o Valkyries (+100)",
+     "juntos": "transporte",
+     "max": 1
     },
     {
      "texto": "Add four Chimera or Valkyries (+150)",
      "coste": 150,
-     "textoEs": "Añade cuatro Chimera o Valkyries (+150)"
+     "textoEs": "Añade cuatro Chimera o Valkyries (+150)",
+     "juntos": "transporte",
+     "max": 1
     }
    ],
    "nombreEs": "Pelotón de Tropas de Asalto",

@@ -107,8 +107,9 @@
      "texto": "Replace one Spiritseer character per army with a Wraithseer character for +100 points",
      "coste": 100,
      "porUnidad": true,
-     "max": 10,
-     "textoEs": "Sustituye un personaje Vidente Espiritual por ejército por un Vidente Espectral por +100 puntos"
+     "max": 1,
+     "textoEs": "Sustituye un personaje Vidente Espiritual por ejército por un Vidente Espectral por +100 puntos",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Guerreros Espectrales",
@@ -126,8 +127,9 @@
      "texto": "Replace one Spiritseer character per army with a Wraithseer character for +100 points",
      "coste": 100,
      "porUnidad": true,
-     "max": 10,
-     "textoEs": "Sustituye un personaje Vidente Espiritual por ejército por un Vidente Espectral por +100 puntos"
+     "max": 1,
+     "textoEs": "Sustituye un personaje Vidente Espiritual por ejército por un Vidente Espectral por +100 puntos",
+     "porEjercito": true
     }
    ],
    "nombreEs": "Señores Espectrales",
@@ -272,8 +274,14 @@
      "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
      "coste": 15,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u"
+     "max": 6,
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u",
+     "sustituye": {
+      "base": 5,
+      "extras": [
+       0
+      ]
+     }
     }
    ],
    "nombreEs": "Espadas de Vaul",

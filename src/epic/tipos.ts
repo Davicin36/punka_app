@@ -31,6 +31,14 @@ export interface ExtraEpic {
   max?: number;
   /** Extras que comparten el máximo (Predators y Land Raiders adicionales: 4 entre los dos) */
   juntos?: string;
+  /** «Sustituye cualquier número de X»: como mucho las X que hay (base + las que añaden esos extras) */
+  sustituye?: { base: number; extras: number[] };
+  /** Unidades que añade cada vez (Añade tres Motos Jet = 3) */
+  anade?: number;
+  /** El precio es por cada tantas unidades (Levas: +25 cada dos) */
+  porCada?: number;
+  /** Solo uno en todo el ejército (Barón) */
+  porEjercito?: boolean;
 }
 
 export interface FormacionEpic {

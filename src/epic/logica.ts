@@ -1,5 +1,5 @@
 // Costes y validación de listas de NetEA. Funciones puras: reciben el ejército ya cargado.
-import type { EjercitoEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
+import type { EjercitoEpic, ExtraEpic, FormacionElegida, FormacionEpic, ListaEpic, MejoraEpic, SeccionEpic } from './tipos';
 import { es, nom } from './texto';
 import { cantidades, porCantidad } from './cantidades';
 import { costeRecargo, costeVariantes, esVarianteLeman, problemasReparto, textoReparto, textoTransporte } from './eleccion';
@@ -64,7 +64,7 @@ export function costeFormacion(e: EjercitoEpic, fe: FormacionElegida): number {
   const f = formacionDe(e, fe.formacion);
   if (!f) return 0;
   let c = f.tamanos?.length ? f.tamanos[fe.tamano]?.coste ?? f.coste : f.coste;
-  (f.extras ?? []).forEach((x, i) => { const n = fe.extras[i] ?? 0; if (n) c += x.coste * (x.porUnidad ? n : 1); });
+  (f.extras ?? []).forEach((x, i) => { c += costeExtra(x, fe.extras[i] ?? 0); });
   for (const [nombre, n] of Object.entries(fe.mejoras)) {
     const m = mejoraDe(e, nombre);
     if (m) c += costeMejora(m, n, fe.variantes[nombre], repartoDeMejora(fe, nombre));
@@ -112,13 +112,28 @@ function cuentaBase(e: EjercitoEpic, l: ListaEpic, base: string): number {
   }).length;
 }
 
+/** Coste de un extra con n unidades (las Levas se pagan cada dos). */
+export function costeExtra(x: ExtraEpic, n: number): number {
+  if (!n) return 0;
+  if (!x.porUnidad) return x.coste;
+  return x.coste * (x.porCada ? Math.ceil(n / x.porCada) : n);
+}
+
+/** Máximo de un extra en esta formación: las sustituciones no pueden pasar de las unidades que hay. */
+export function maxExtra(f: FormacionEpic, fe: FormacionElegida, j: number): number {
+  const x = f.extras![j];
+  if (!x.sustituye) return x.max ?? 1;
+  return x.sustituye.base + x.sustituye.extras.reduce((s, k) => s + (fe.extras[k] ?? 0) * (f.extras![k]?.anade ?? 1), 0);
+}
+
 export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): string[] {
   const f = formacionDe(e, fe.formacion);
   if (!f) return ['Formación desconocida.'];
   const out: string[] = [];
   (f.extras ?? []).forEach((x, i) => {
     const n = fe.extras[i] ?? 0;
-    if (x.max && n > x.max) out.push(`Máximo ${x.max} en «${es(x.textoEs, x.texto).slice(0, 40)}…».`);
+    const max = maxExtra(f, fe, i);
+    if (n > max) out.push(`Máximo ${max} en «${es(x.textoEs, x.texto).slice(0, 40)}…».`);
   });
   const elegidas = Object.entries(fe.mejoras).filter(([, n]) => n > 0);
   const porSeccion = new Map<string, number>();
@@ -145,17 +160,26 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
   const total = costeLista(e, l);
   if (total > l.puntos) out.push(`Te pasas ${total - l.puntos} puntos del límite (${l.puntos}).`);
 
+  // Extras de uno por ejército (Barón)
+  const porEjercito = new Map<string, { n: number; nombre: string }>();
+  for (const fe of l.formaciones) (formacionDe(e, fe.formacion)?.extras ?? []).forEach((x, j) => {
+    if (!x.porEjercito || !fe.extras[j]) return;
+    const k = x.texto; const g = porEjercito.get(k) ?? { n: 0, nombre: es(x.textoEs, x.texto) };
+    g.n += fe.extras[j]; porEjercito.set(k, g);
+  });
+  for (const g of porEjercito.values()) if (g.n > 1) out.push(`«${g.nombre}»: solo uno por ejército; llevas ${g.n}.`);
+
   // Extras que comparten máximo
   l.formaciones.forEach((fe, i) => {
     const f = formacionDe(e, fe.formacion);
     const grupos = new Map<string, { n: number; max: number }>();
     (f?.extras ?? []).forEach((x, j) => {
       if (!x.juntos) return;
-      const g = grupos.get(x.juntos) ?? { n: 0, max: x.max ?? 99 };
+      const g = grupos.get(x.juntos) ?? { n: 0, max: x.juntos === 'vehiculos' ? (x.max ?? 99) : 1 };
       g.n += fe.extras[j] ?? 0; grupos.set(x.juntos, g);
     });
     for (const [, g] of grupos) if (g.n > g.max)
-      out.push(`${i + 1}. ${f ? nom(f) : fe.formacion}: como máximo ${g.max} unidades adicionales en total; llevas ${g.n}.`);
+      out.push(`${i + 1}. ${f ? nom(f) : fe.formacion}: ${g.max === 1 ? 'elige solo una de las opciones de extra' : `como máximo ${g.max} unidades adicionales en total`}; llevas ${g.n}.`);
   });
 
   // Aliados / aeronaves / titanes: 1/3 (o 1/4) de los puntos
@@ -233,8 +257,16 @@ export function detalleFormacion(e: EjercitoEpic, fe: FormacionElegida) {
   const f = formacionDe(e, fe.formacion)!;
   const extras = (f.extras ?? []).flatMap((x, i) => {
     const n = fe.extras[i] ?? 0;
-    const t = cantidades(es(x.textoEs, x.texto));
-    return n ? [x.porUnidad ? porCantidad(n, t) : t] : [];
+    if (!n) return [];
+    const t = es(x.textoEs, x.texto);
+    // «Añade hasta tres Guardianes por +85 puntos c/u» elegido 2 veces → «2x Guardianes»
+    const m = /^(?:Añade|Add)\s+(?:hasta|up to)\s+\S+\s+(.+?)\s+(?:por|for)\s+\+/i.exec(t);
+    if (m && x.porUnidad) return [`${n}x ${m[1]}`];
+    // «Sustituye cualquier número de Paladines por el mismo número de Errantes» → «2x Errantes (en lugar de Paladines)»
+    const s = /^(?:Sustituye|Replace)\s+(?:cualquier número de|any number of|hasta \S+)\s+(.+?)\s+(?:por|with)\s+(?:el mismo número de|an equal number of)\s+(.+?)(?:\s+(?:por|for)\s+\+.*|\s+(?:gratis|for free).*)?$/i.exec(t);
+    if (s) return [`${n}x ${s[2]} (en lugar de ${s[1]})`];
+    if (/^(?:Añade|Add)\s+/i.test(t) && !x.porUnidad) return [cantidades(t.replace(/^(?:Añade|Add)\s+/i, ''))];
+    return [x.porUnidad ? porCantidad(n, cantidades(t)) : cantidades(t)];
   });
   const mejoras = Object.entries(fe.mejoras).filter(([, n]) => n > 0).map(([nombre, n]) => {
     const m = mejoraDe(e, nombre);

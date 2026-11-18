@@ -29,8 +29,10 @@ export function cantidades(texto: string | undefined) {
       (_t, a: string, o: string, b: string) => `${NUMEROS[a.toLowerCase()]}x ${o} ${NUMEROS[b.toLowerCase()]}x `)
     .replace(new RegExp(`(?<![\\p{L}])(?:(?:entre|between|de|from)\\s+)?(${pal})\\s+(?:a|to|y|and)\\s+(${pal})\\s+(?=\\p{L})`, 'giu'),
       (_t, a: string, b: string) => `${NUMEROS[a.toLowerCase()]}-${NUMEROS[b.toLowerCase()]}x `);
-  return texto.replace(RE, (todo, palabra: string, siguiente: string) => {
+  return texto.replace(RE, (todo, palabra: string, siguiente: string, pos: number, entero: string) => {
     const p = palabra.toLowerCase();
+    // «Añade hasta tres Guardianes» → «Añade hasta 3 Guardianes» (un máximo, no una cantidad)
+    if (/(?:hasta|up to)\s+$/i.test(entero.slice(0, pos))) return /unidad|units?/i.test(todo) ? todo : `${NUMEROS[p]} `;
     if (NO.has(siguiente.toLowerCase())) return todo;
     // «un/una» solo delante de un nombre propio de unidad o de «unidad de» (no «un tercio», «una vez»)
     if ((p === 'un' || p === 'una') && !/^\p{Lu}/u.test(siguiente) && !/unidad|units?/i.test(todo)

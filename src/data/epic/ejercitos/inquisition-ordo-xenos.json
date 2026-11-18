@@ -232,12 +232,16 @@
     {
      "texto": "Replace four Rhinos with four Chimera or Valkyries (+100)",
      "coste": 100,
-     "textoEs": "Sustituye cuatro Rhinos por cuatro Chimera o Valkyries (+100)"
+     "textoEs": "Sustituye cuatro Rhinos por cuatro Chimera o Valkyries (+100)",
+     "juntos": "transporte",
+     "max": 1
     },
     {
      "texto": "Replace four Rhinos with four Chimera or Valkyries (+150)",
      "coste": 150,
-     "textoEs": "Sustituye cuatro Rhinos por cuatro Chimera o Valkyries (+150)"
+     "textoEs": "Sustituye cuatro Rhinos por cuatro Chimera o Valkyries (+150)",
+     "juntos": "transporte",
+     "max": 1
     }
    ],
    "nombreEs": "Tropas de Asalto",

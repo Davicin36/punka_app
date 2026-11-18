@@ -139,12 +139,18 @@
     {
      "texto": "Add up to one Autarch character per army or one Exarch character to an infantry unit for +75 or +25 points, respectively (+75)",
      "coste": 75,
-     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+75)"
+     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+75)",
+     "porEjercito": true,
+     "max": 1,
+     "juntos": "personaje"
     },
     {
      "texto": "Add up to one Autarch character per army or one Exarch character to an infantry unit for +75 or +25 points, respectively (+25)",
      "coste": 25,
-     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+25)"
+     "textoEs": "Añade como máximo un personaje Autarch por ejército o un Exarch a una unidad de infantería por +75 o +25 puntos, respectivamente (+25)",
+     "porEjercito": true,
+     "max": 1,
+     "juntos": "personaje"
     }
    ],
    "nombreEs": "Guerreros Aspecto",
@@ -222,8 +228,14 @@
      "texto": "Replace any number of Falcons with an equal number of Fire Prisms for +15 points each",
      "coste": 15,
      "porUnidad": true,
-     "max": 20,
-     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u"
+     "max": 6,
+     "textoEs": "Sustituye cualquier número de Falcons por el mismo número de Prismas de Fuego por +15 puntos c/u",
+     "sustituye": {
+      "base": 5,
+      "extras": [
+       0
+      ]
+     }
     }
    ],
    "nombreEs": "Espadas de Vaul",
