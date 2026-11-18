@@ -160,6 +160,16 @@
   "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
+  "id": "imperial-guard-elysian-drop-troops",
+  "nombre": "Imperial Guard – Elysian Drop Troops",
+  "familia": "Imperial Guard",
+  "version": "v3.1.5 (2011-04-07)",
+  "nombreEs": "Guardia Imperial – Tropas de Desembarco Elysianas",
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones elysianas tienen un valor de iniciativa de 2+."
+ },
+ {
   "id": "imperial-guard-minervan-tank-legion",
   "nombre": "Imperial Guard – Minervan Tank Legion",
   "familia": "Imperial Guard",
@@ -178,6 +188,26 @@
   "familiaEs": "Guardia Imperial",
   "estrategia": 2,
   "iniciativaEs": "Las formaciones de grupos de batalla de la Legión de Titanes tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
+ },
+ {
+  "id": "imperial-guard-ulani-tank-regiment",
+  "nombre": "Imperial Guard – Ulani Tank Regiment",
+  "familia": "Imperial Guard",
+  "version": "Codex Imperial Guard 2010-06-25",
+  "nombreEs": "Guardia Imperial – Regimiento de Tanques de Ulani",
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones del Regimiento de Tanques de Ulani y de la Armada Imperial tienen un valor de iniciativa de 2+."
+ },
+ {
+  "id": "imperial-guard-vanaheim-air-cavalry",
+  "nombre": "Imperial Guard – Vanaheim Air Cavalry",
+  "familia": "Imperial Guard",
+  "version": "Codex Imperial Guard 2010-06-25",
+  "nombreEs": "Guardia Imperial – Caballería Aérea de Vanaheim",
+  "familiaEs": "Guardia Imperial",
+  "estrategia": 2,
+  "iniciativaEs": "Todas las formaciones de la Caballería Aérea de Vanaheim y de la Armada Imperial tienen un valor de iniciativa de 2+."
  },
  {
   "id": "inquisition-ordo-xenos",

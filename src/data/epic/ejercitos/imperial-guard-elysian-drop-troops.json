@@ -1,0 +1,830 @@
+{
+ "id": "imperial-guard-elysian-drop-troops",
+ "nombre": "Imperial Guard – Elysian Drop Troops",
+ "nombreEs": "Guardia Imperial – Tropas de Desembarco Elysianas",
+ "version": "v3.1.5 (2011-04-07)",
+ "estrategia": 2,
+ "iniciativa": "All Elysian formations have an initiative rating of 2+.",
+ "iniciativaEs": "Todas las formaciones elysianas tienen un valor de iniciativa de 2+.",
+ "fraccionAliados": 0.3333333333333333,
+ "compras": [],
+ "secciones": [
+  {
+   "id": "elysian-drop-troop-companies",
+   "nombre": "Elysian Drop Troop Companies",
+   "nombreEs": "Compañías de Tropas de Desembarco Elysianas",
+   "tipo": "nucleo",
+   "nota": "",
+   "notaEs": "Se puede gastar cualquier cantidad de puntos en Compañías de Tropas de Desembarco."
+  },
+  {
+   "id": "elysian-support-companies",
+   "nombre": "Elysian Drop Troop Support Companies",
+   "nombreEs": "Compañías de apoyo",
+   "tipo": "apoyo",
+   "porCada": {
+    "cantidad": 2,
+    "base": "drop troop company"
+   },
+   "nota": "Up to 2 Support companies may be taken per Drop Troop company.",
+   "notaEs": "Hasta 2 compañías de apoyo por cada Compañía de Tropas de Desembarco."
+  },
+  {
+   "id": "drop-troop-company-upgrades",
+   "nombre": "Drop Troop Company Upgrades",
+   "nombreEs": "Mejoras de la Compañía de Tropas de Desembarco",
+   "tipo": "mejoras",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nota": "",
+   "notaEs": "Hasta tres por cada Compañía de Tropas de Desembarco; cada mejora solo una vez por formación."
+  },
+  {
+   "id": "elysian-air-units",
+   "nombre": "Elysian Air Units",
+   "nombreEs": "Unidades aéreas elysianas",
+   "tipo": "tercio",
+   "nota": "",
+   "notaEs": "Se puede gastar hasta un tercio de los puntos en formaciones aeroespaciales."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "elysian-drop-troop-companies-0-1-regimental-hq",
+   "nombre": "0-1 Regimental HQ",
+   "nombreEs": "0–1 Cuartel General del Regimiento",
+   "seccion": "elysian-drop-troop-companies",
+   "unidades": "One Elysian Supreme Commander and seven Drop Troops",
+   "unidadesEs": "1x Comandante Supremo elysiano y 7x Tropas de Desembarco",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Four Valkyries",
+     "textoEs": "Cuatro Valkyries",
+     "coste": 75,
+     "juntos": "transporte",
+     "max": 1
+    },
+    {
+     "texto": "Four Vendetta Troop Carriers",
+     "textoEs": "Cuatro Vendettas de transporte",
+     "coste": 125,
+     "juntos": "transporte",
+     "max": 1
+    }
+   ]
+  },
+  {
+   "id": "elysian-drop-troop-companies-drop-artillery-company",
+   "nombre": "Drop Artillery Company",
+   "nombreEs": "Compañía de Artillería de Desembarco",
+   "seccion": "elysian-drop-troop-companies",
+   "unidades": "One Elysian Commander, three Drop Troops and four Mortar Squads",
+   "unidadesEs": "1x Comandante elysiano, 3 Tropas de Desembarco y 4x Escuadras de Morteros",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Four Valkyries",
+     "textoEs": "Cuatro Valkyries",
+     "coste": 75
+    }
+   ],
+   "nota": "Up to one per 3000 points.",
+   "notaEs": "Una como máximo por cada 3000 puntos."
+  },
+  {
+   "id": "elysian-drop-troop-companies-drop-troop-company",
+   "nombre": "Drop Troop Company",
+   "nombreEs": "Compañía de Tropas de Desembarco",
+   "seccion": "elysian-drop-troop-companies",
+   "unidades": "One Elysian Commander and seven Drop Troops",
+   "unidadesEs": "1x Comandante elysiano y 7x Tropas de Desembarco",
+   "coste": 225,
+   "costeTexto": "225 points",
+   "extras": [
+    {
+     "texto": "Four Valkyries",
+     "textoEs": "Cuatro Valkyries",
+     "coste": 75,
+     "juntos": "transporte",
+     "max": 1
+    },
+    {
+     "texto": "Four Vendetta Troop Carriers",
+     "textoEs": "Cuatro Vendettas de transporte",
+     "coste": 125,
+     "juntos": "transporte",
+     "max": 1
+    }
+   ],
+   "mejoras": [
+    "Hardened Veterans",
+    "Fire Support Platoon",
+    "Cyclops",
+    "Infantry Platoon",
+    "Drop Sentinels"
+   ]
+  },
+  {
+   "id": "elysian-support-companies-vulture-squadron",
+   "nombre": "Vulture Squadron",
+   "nombreEs": "Escuadrón Vulture",
+   "seccion": "elysian-support-companies",
+   "unidades": "Four Vultures",
+   "unidadesEs": "4x Vultures",
+   "coste": 300,
+   "costeTexto": "300 points",
+   "extras": [
+    {
+     "texto": "Replace all Hellstrike missiles and autocannons with Punisher cannons",
+     "textoEs": "Sustituye todos los misiles Hellstrike y autocañones por cañones Punisher",
+     "coste": 50
+    }
+   ]
+  },
+  {
+   "id": "elysian-support-companies-drop-sentinel-squadron",
+   "nombre": "Drop Sentinel Squadron",
+   "nombreEs": "Escuadrón de Sentinels de Desembarco",
+   "seccion": "elysian-support-companies",
+   "unidades": "Four Drop Sentinels",
+   "unidadesEs": "4x Sentinels de Desembarco",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "extras": [
+    {
+     "texto": "Two Valkyrie Sky Talons",
+     "textoEs": "Dos Valkyrie Sky Talon",
+     "coste": 75
+    }
+   ]
+  },
+  {
+   "id": "elysian-support-companies-tauros-squadron",
+   "nombre": "Tauros Squadron",
+   "nombreEs": "Escuadrón Tauros",
+   "seccion": "elysian-support-companies",
+   "unidades": "Any four of the following units: Tauros, Tauros Venator",
+   "unidadesEs": "4 cualesquiera de: Tauros, Tauros Venator",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "extras": [
+    {
+     "texto": "Four Valkyrie Sky Talons",
+     "textoEs": "Cuatro Valkyrie Sky Talon",
+     "coste": 150
+    }
+   ]
+  },
+  {
+   "id": "elysian-support-companies-storm-trooper-company",
+   "nombre": "Storm Trooper Company",
+   "nombreEs": "Compañía de Tropas de Asalto",
+   "seccion": "elysian-support-companies",
+   "unidades": "Eight Storm Troopers and four Valkyries",
+   "unidadesEs": "8x Tropas de Asalto y 4x Valkyries",
+   "coste": 350,
+   "costeTexto": "350 points"
+  },
+  {
+   "id": "elysian-air-units-lunar-cruiser",
+   "nombre": "Lunar Cruiser",
+   "nombreEs": "Crucero Lunar",
+   "seccion": "elysian-air-units",
+   "unidades": "One Lunar Class Cruiser",
+   "unidadesEs": "1x Crucero clase Lunar",
+   "coste": 150,
+   "costeTexto": "150 points"
+  },
+  {
+   "id": "elysian-air-units-emperor-battleship",
+   "nombre": "Emperor Battleship",
+   "nombreEs": "Acorazado Emperador",
+   "seccion": "elysian-air-units",
+   "unidades": "One Emperor Class Battleship",
+   "unidadesEs": "1x Acorazado clase Emperador",
+   "coste": 300,
+   "costeTexto": "300 points"
+  },
+  {
+   "id": "elysian-air-units-lightning",
+   "nombre": "Lightning",
+   "nombreEs": "Lightning",
+   "seccion": "elysian-air-units",
+   "unidades": "Four Lightning Fighters",
+   "unidadesEs": "4x Cazas Lightning",
+   "coste": 300,
+   "costeTexto": "300 points"
+  },
+  {
+   "id": "elysian-air-units-lightning-strike",
+   "nombre": "Lightning Strike",
+   "nombreEs": "Lightning de Ataque",
+   "seccion": "elysian-air-units",
+   "unidades": "Two Lightning Strike Fighters",
+   "unidadesEs": "2x Cazas de Ataque Lightning",
+   "coste": 200,
+   "costeTexto": "200 points"
+  },
+  {
+   "id": "elysian-air-units-marauder-destroyer",
+   "nombre": "Marauder Destroyer",
+   "nombreEs": "Marauder Destroyer",
+   "seccion": "elysian-air-units",
+   "unidades": "One Marauder Destroyer",
+   "unidadesEs": "1x Marauder Destroyer",
+   "coste": 175,
+   "costeTexto": "175 points"
+  },
+  {
+   "id": "elysian-air-units-marauder-bomber",
+   "nombre": "Marauder Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "seccion": "elysian-air-units",
+   "unidades": "One Marauder Bomber",
+   "unidadesEs": "1x Bombardero Marauder",
+   "coste": 150,
+   "costeTexto": "150 points"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "hardened-veterans",
+   "nombre": "Hardened Veterans",
+   "nombreEs": "Veteranos Curtidos",
+   "seccion": "drop-troop-company-upgrades",
+   "texto": "Add up to two Hardened Veterans",
+   "textoEs": "Añade hasta 2 Veteranos Curtidos",
+   "coste": 25,
+   "costeTexto": "+25 points each",
+   "porUnidad": true,
+   "max": 2
+  },
+  {
+   "id": "fire-support-platoon",
+   "nombre": "Fire Support Platoon",
+   "nombreEs": "Pelotón de Apoyo de Fuego",
+   "seccion": "drop-troop-company-upgrades",
+   "texto": "Add two Elysian Support Squads",
+   "textoEs": "Añade 2x Escuadras de Apoyo elysianas",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "cyclops",
+   "nombre": "Cyclops",
+   "nombreEs": "Cyclops",
+   "seccion": "drop-troop-company-upgrades",
+   "texto": "Add three Cyclops",
+   "textoEs": "Añade 3x Cyclops",
+   "coste": 75,
+   "costeTexto": "+75 points"
+  },
+  {
+   "id": "infantry-platoon",
+   "nombre": "Infantry Platoon",
+   "nombreEs": "Pelotón de Infantería",
+   "seccion": "drop-troop-company-upgrades",
+   "texto": "Add four Drop Troops",
+   "textoEs": "Añade 4x Tropas de Desembarco",
+   "coste": 75,
+   "costeTexto": "+75 points"
+  },
+  {
+   "id": "drop-sentinels",
+   "nombre": "Drop Sentinels",
+   "nombreEs": "Sentinels de Desembarco",
+   "seccion": "drop-troop-company-upgrades",
+   "texto": "Add four Drop Sentinels",
+   "textoEs": "Añade 4x Sentinels de Desembarco",
+   "coste": 100,
+   "costeTexto": "+100 points"
+  }
+ ],
+ "fichas": [
+  {
+   "nombre": "Elysian Supreme Commander",
+   "nombreEs": "Comandante Supremo elysiano",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Fusil láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, MA, AE(+1)"
+    }
+   ],
+   "notas": "Comandante Supremo, Teletransporte."
+  },
+  {
+   "nombre": "Elysian Commander",
+   "nombreEs": "Comandante elysiano",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Fusil láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Espadas sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto"
+    }
+   ],
+   "notas": "Comandante, Líder, Teletransporte."
+  },
+  {
+   "nombre": "Commissar",
+   "nombreEs": "Comisario",
+   "tipo": "PJ",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Armas de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, MA, AE(+1)"
+    }
+   ],
+   "notas": "Líder, Coraje, Inspirador."
+  },
+  {
+   "nombre": "Drop Troops",
+   "nombreEs": "Tropas de Desembarco",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Fusil láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Teletransporte. Un rifle de plasma por cada dos unidades. Llevan cargas de demolición (incluidas en su CC)."
+  },
+  {
+   "nombre": "Hardened Veterans",
+   "nombreEs": "Veteranos Curtidos",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Escopetas",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Infiltrador, Francotirador, Teletransporte."
+  },
+  {
+   "nombre": "Storm Troopers",
+   "nombreEs": "Tropas de Asalto",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Fusiles infernales",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Explorador, Teletransporte."
+  },
+  {
+   "nombre": "Elysian Support Squad",
+   "nombreEs": "Escuadra de Apoyo elysiana",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2x Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "Teletransporte."
+  },
+  {
+   "nombre": "Mortar Squad",
+   "nombreEs": "Escuadra de Morteros",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2x Morteros",
+     "alcance": "30cm",
+     "potencia": "AP5+, Ind"
+    },
+    {
+     "nombre": "Fusiles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Teletransporte."
+  },
+  {
+   "nombre": "Drop Sentinel",
+   "nombreEs": "Sentinel de Desembarco",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Bípode, Teletransporte."
+  },
+  {
+   "nombre": "Cyclops",
+   "nombreEs": "Cyclops",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "3+",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Carga de demolición",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT4+, DU"
+    }
+   ],
+   "notas": "Infiltrador, Teletransporte. Se retira del juego (sin marcador de Explosión) si se usa en un ataque."
+  },
+  {
+   "nombre": "Tauros",
+   "nombreEs": "Tauros",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Lanzallamas pesado",
+     "alcance": "15cm",
+     "potencia": "AP4+, IC"
+    }
+   ],
+   "notas": "Bípode, Explorador."
+  },
+  {
+   "nombre": "Tauros Venator",
+   "nombreEs": "Tauros Venator",
+   "tipo": "VL",
+   "velocidad": "35cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser acoplado",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "o Cañón láser acoplado",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Bípode, Explorador. Con cañón láser su TT es 6+."
+  },
+  {
+   "nombre": "Valkyrie",
+   "nombreEs": "Valkyrie",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2x Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    },
+    {
+     "nombre": "o 3x Cañón láser acoplado",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Gravitatorio, Explorador, Transporte (2 unidades que no sean Sentinels o 1 Tauros). Los cañones láser sustituyen al multiláser, bólters y cohetes."
+  },
+  {
+   "nombre": "Vendetta",
+   "nombreEs": "Vendetta",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "3x Cañón láser acoplado",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    }
+   ],
+   "notas": "Gravitatorio, Explorador, Transporte (2 unidades que no sean Sentinels o 1 Tauros)."
+  },
+  {
+   "nombre": "Vulture",
+   "nombreEs": "Vulture",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Autocañón acoplado",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "2x Hellstrike",
+     "alcance": "90cm",
+     "potencia": "AT2+, DU"
+    },
+    {
+     "nombre": "o Cañón Punisher acoplado",
+     "alcance": "30cm",
+     "potencia": "4x AP4+"
+    }
+   ],
+   "notas": "Gravitatorio, Explorador. El cañón Punisher sustituye a autocañones y Hellstrikes."
+  },
+  {
+   "nombre": "Valkyrie Sky Talon",
+   "nombreEs": "Valkyrie Sky Talon",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2x Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    }
+   ],
+   "notas": "Gravitatorio, Transporte (2 Sentinels de Desembarco o 1 Tauros o 1 Tauros Venator)."
+  },
+  {
+   "nombre": "Lunar Class Cruiser",
+   "nombreEs": "Crucero clase Lunar",
+   "tipo": "NE",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "n/a",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque de precisión",
+     "alcance": "n/a",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Emperor Class Battleship",
+   "nombreEs": "Acorazado clase Emperador",
+   "tipo": "NE",
+   "velocidad": "n/a",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "n/a",
+     "potencia": "8PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa: no puede usarse en los turnos 1 y 2 salvo que el escenario lo indique."
+  },
+  {
+   "nombre": "Lightning Fighter",
+   "nombreEs": "Caza Lightning",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón Lightning",
+     "alcance": "30cm",
+     "potencia": "AA5+, FxF"
+    },
+    {
+     "nombre": "Cañones láser de ala",
+     "alcance": "30cm",
+     "potencia": "AT6+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Lightning Strike Fighter",
+   "nombreEs": "Caza de Ataque Lightning",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañones láser de ala",
+     "alcance": "30cm",
+     "potencia": "AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "2x Cohetes bajo las alas",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Marauder Destroyer",
+   "nombreEs": "Marauder Destroyer",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "3x Autocañón acoplado",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "Bólters pesados acoplados",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañones de asalto acoplados",
+     "alcance": "15cm",
+     "potencia": "AA4+, Pos"
+    },
+    {
+     "nombre": "2x Cohetes bajo las alas",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "Factor de Daños 2. Impacto crítico: el aparato queda destruido."
+  },
+  {
+   "nombre": "Marauder Bomber",
+   "nombreEs": "Bombardero Marauder",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    },
+    {
+     "nombre": "Cañón láser acoplado",
+     "alcance": "45cm",
+     "potencia": "AT4+, FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado acoplado",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    }
+   ],
+   "notas": "Factor de Daños 2. Impacto crítico: el aparato queda destruido."
+  }
+ ],
+ "reglas": [
+  {
+   "id": "R.1",
+   "titulo": "Tropas de desembarco (Drop Troops)",
+   "parrafos": [
+    "Todas las unidades elysianas pueden ir transportadas en Valkyries o usar la habilidad Teletransporte."
+   ]
+  },
+  {
+   "id": "R.2",
+   "titulo": "Disciplina de hierro (Iron Discipline)",
+   "parrafos": [
+    "Las unidades elysianas (no la Armada Imperial) no sufren el -1 al reagruparse por tener enemigos a 30cm o menos."
+   ]
+  },
+  {
+   "id": "R.3",
+   "titulo": "Comisarios (Commissars)",
+   "parrafos": [
+    "Puede incluirse un Comisario por cada 500 puntos del ejército."
+   ]
+  },
+  {
+   "id": "R.4",
+   "titulo": "Notas de la lista",
+   "parrafos": [
+    "Las mejoras no son formaciones separadas: se añaden a la Compañía de Tropas de Desembarco y cuentan como parte de ella. Hasta tres por compañía, cada una solo una vez.",
+    "Compañía de Artillería de Desembarco: una como máximo por cada 3000 puntos."
+   ]
+  }
+ ]
+}
