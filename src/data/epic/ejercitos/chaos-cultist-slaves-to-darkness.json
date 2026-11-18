@@ -88,11 +88,11 @@
    "costeTexto": "275 points (+75 points each)",
    "extras": [
     {
-     "texto": "Unidad adicional (each)",
+     "texto": "Additional Daemonic Assault Engines (up to 6 in total)",
      "coste": 75,
      "porUnidad": true,
-     "max": 10,
-     "textoEs": "Unidad adicional (cada una)"
+     "max": 2,
+     "textoEs": "Máquinas Demoníacas de Asalto adicionales (hasta 6 en total)"
     }
    ],
    "nombreEs": "Máquinas Demoníacas de Asalto de Khorne",
@@ -107,10 +107,11 @@
    "costeTexto": "400 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 2 en total)",
+     "texto": "Additional Lord of Battles (up to 2 in total)",
      "coste": 400,
      "porUnidad": true,
-     "max": 1
+     "max": 1,
+     "textoEs": "Señores de las Batallas adicionales (hasta 2 en total)"
     }
    ],
    "nombreEs": "Señores de las Batallas de Khorne",
@@ -135,10 +136,11 @@
    "costeTexto": "300 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 2 en total)",
+     "texto": "Additional Plague Towers (up to 2 in total)",
      "coste": 300,
      "porUnidad": true,
-     "max": 1
+     "max": 1,
+     "textoEs": "Torres de Plaga adicionales (hasta 2 en total)"
     }
    ],
    "nombreEs": "Torres de Plaga de Nurgle",

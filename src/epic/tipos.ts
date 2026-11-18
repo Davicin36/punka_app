@@ -29,6 +29,8 @@ export interface ExtraEpic {
   coste: number;
   porUnidad?: boolean;
   max?: number;
+  /** Extras que comparten el máximo (Predators y Land Raiders adicionales: 4 entre los dos) */
+  juntos?: string;
 }
 
 export interface FormacionEpic {

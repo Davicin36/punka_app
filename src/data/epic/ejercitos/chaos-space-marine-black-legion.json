@@ -83,18 +83,20 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (por chaos predator)",
+     "texto": "Additional Chaos Predator (up to 8 vehicles in total)",
      "coste": 50,
      "porUnidad": true,
-     "max": 8,
-     "textoEs": "Unidad adicional (por Chaos Predator)"
+     "max": 4,
+     "textoEs": "Predator del Caos adicional (hasta 8 vehículos en total entre los dos tipos)",
+     "juntos": "vehiculos"
     },
     {
-     "texto": "Unidad adicional (por chaos land raider)",
+     "texto": "Additional Chaos Land Raider (up to 8 vehicles in total)",
      "coste": 75,
      "porUnidad": true,
-     "max": 8,
-     "textoEs": "Unidad adicional (por Chaos Land Raider)"
+     "max": 4,
+     "textoEs": "Land Raider del Caos adicional (hasta 8 vehículos en total entre los dos tipos)",
+     "juntos": "vehiculos"
     }
    ],
    "nombreEs": "Compañía Acorazada",
@@ -147,11 +149,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Chaos Space Marine Terminators (up to 6 in total)",
      "coste": 60,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Todas salvo Marines de Culto, Havocs, Rhinos y Vindicators"
+     "textoEs": "Exterminadores de los Marines del Caos adicionales (hasta 6 en total)"
     }
    ],
    "nombreEs": "Exterminadores del Caos",
@@ -236,11 +238,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Raptors (up to 8 in total)",
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Pacto Demoníaco"
+     "textoEs": "Raptores adicionales (hasta 8 en total)"
     }
    ],
    "nombreEs": "Culto Raptor",
@@ -317,10 +319,11 @@
    "costeTexto": "275 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 3 en total)",
+     "texto": "Additional Deathwheels (up to 3 in total)",
      "coste": 275,
      "porUnidad": true,
-     "max": 2
+     "max": 2,
+     "textoEs": "Deathwheels adicionales (hasta 3 en total)"
     }
    ],
    "unidadesEs": "Hasta tres Deathwheels"
@@ -334,10 +337,11 @@
    "costeTexto": "225 points each",
    "extras": [
     {
-     "texto": "Unidad adicional (hasta 3 en total)",
+     "texto": "Additional Decimators (up to 3 in total)",
      "coste": 225,
      "porUnidad": true,
-     "max": 2
+     "max": 2,
+     "textoEs": "Decimators adicionales (hasta 3 en total)"
     }
    ],
    "unidadesEs": "Hasta tres Decimators"

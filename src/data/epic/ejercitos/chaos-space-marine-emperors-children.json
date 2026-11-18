@@ -130,11 +130,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Emperor's Children Terminators (up to 6 in total)",
      "coste": 60,
      "porUnidad": true,
      "max": 2,
-     "textoEs": "Campeón del Caos, Señor de la Guerra del Caos, Príncipe Demonio, Pacto Demoníaco, Garras del Terror, Dreadnoughts, Portaestandarte, Land Raiders"
+     "textoEs": "Exterminadores de los Hijos del Emperador adicionales (hasta 6 en total)"
     }
    ],
    "nombreEs": "Exterminadores de los Hijos del Emperador",
@@ -158,11 +158,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Noise Marines (up to 10 in total)",
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Campeón del Caos, Pacto Demoníaco, Garras del Terror, Dreadnoughts, Portaestandarte, Land Raiders, Rhinos"
+     "textoEs": "Marines Ruidosos adicionales (hasta 10 en total)"
     }
    ],
    "nombreEs": "Marines Ruidosos",
@@ -207,11 +207,11 @@
    ],
    "extras": [
     {
-     "texto": "Unidad adicional (per extra)",
+     "texto": "Additional Raptors (up to 8 in total)",
      "coste": 35,
      "porUnidad": true,
      "max": 4,
-     "textoEs": "Pacto Demoníaco"
+     "textoEs": "Raptores adicionales (hasta 8 en total)"
     }
    ],
    "nombreEs": "Culto Raptor",
