@@ -457,13 +457,13 @@
      "coste": 10,
      "porUnidad": true,
      "texto": "+10 points each",
-     "textoEs": "+10 puntos cada uno"
+     "textoEs": "Transporte Terrestre (+10 c/u)"
     },
     {
      "coste": 25,
      "porUnidad": true,
      "texto": "+25 points each",
-     "textoEs": "+25 puntos cada uno"
+     "textoEs": "Chimera (+25 c/u)"
     }
    ],
    "nombreEs": "Transportes",

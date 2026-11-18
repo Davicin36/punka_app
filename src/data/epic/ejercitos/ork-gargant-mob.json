@@ -565,16 +565,16 @@
      "coste": 35,
      "porUnidad": false,
      "texto": "+35 points",
-     "textoEs": "+35 puntos"
+     "textoEs": "Añade un Dreadnought (+35)"
     },
     {
      "coste": 10,
      "porUnidad": false,
      "texto": "+10 points",
-     "textoEs": "+10 puntos"
+     "textoEs": "Sustituye una Lata Asesina por un Dreadnought (+10)"
     }
    ],
-   "textoEs": "Añade un Dreadnought, o… …sustituye una Lata Asesina por un Dreadnought"
+   "textoEs": "Añade un Dreadnought, o sustituye una Lata Asesina por un Dreadnought"
   },
   {
    "id": "flakwagon",

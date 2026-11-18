@@ -23,6 +23,8 @@ export interface SeccionEpic {
   unaVez?: boolean;
   /** Ninguna formación de la sección puede pasar de tantas unidades de infantería (Eldars Oscuros: 8) */
   maxInfanteria?: number;
+  /** Ninguna formación de la sección puede repetirse más veces que esta formación base (Manadas de caza ≤ Grandes Compañías) */
+  maxPorTipo?: string;
 }
 
 export interface ExtraEpic {
@@ -53,6 +55,8 @@ export interface FormacionEpic {
   coste: number;
   costeTexto: string;
   /** Máximo por ejército (0–1, individuos…) */
+  /** Mínimo por ejército (1+ Gran Compañía) */
+  min?: number;
   max?: number;
   /** Tamaños o variantes con distinto coste (Orkos, Tiránidos, Squats…) */
   tamanos?: { nombre: string; nombreEs?: string; coste: number }[];
@@ -92,6 +96,10 @@ export interface MejoraEpic {
   arma?: boolean;
   /** Solo en montura de caparazón */
   montura?: 'caparazon';
+  /** Opciones de una misma mejora («hasta dos de las siguientes, sin repetir»): comparten grupo y máximo */
+  grupo?: string;
+  grupoEs?: string;
+  grupoMax?: number;
 }
 
 export interface CompraEpic {

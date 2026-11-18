@@ -17,8 +17,9 @@
    "nombre": "Hunting Packs",
    "tipo": "nucleo",
    "nota": "You may not have more Hunting Packs of any one type than you have Great Companies.",
-   "notaEs": "No puedes tener más Hunting Packs de un mismo tipo que Great Companies.",
-   "nombreEs": "Manadas de caza"
+   "notaEs": "No puedes tener más Manadas de caza de un mismo tipo que Grandes Compañías.",
+   "nombreEs": "Manadas de caza",
+   "maxPorTipo": "companies-1-great-company"
   },
   {
    "id": "space-wolf-upgrades",
@@ -56,20 +57,25 @@
    "id": "companies-1-great-company",
    "nombre": "1+ Great Company",
    "seccion": "companies",
-   "unidades": "Six Grey Hunter units and one Hero upgrade plus transport",
+   "unidades": "Six Grey Hunter units and one Captain, Chaplain or Librarian character plus transport",
    "coste": 300,
    "costeTexto": "300 points",
    "mejoras": [
-    "Dreadnoughts",
+    "Dreadnoughts: Dreadnoughts",
+    "Dreadnoughts: Venerable Dreadnought",
     "Hunter",
     "Land Raiders",
     "Razorbacks",
-    "Space Wolves",
+    "Space Wolves: Grey Hunters",
+    "Space Wolves: Blood Claws",
+    "Space Wolves: Long Fangs",
+    "Space Wolves: Wolf Guard Terminators",
     "Vindicators",
     "Wolf Lord"
    ],
    "nombreEs": "1+ Gran Compañía",
-   "unidadesEs": "Seis unidades de Cazadores Grises y una mejora de Héroe, más transporte"
+   "unidadesEs": "Seis unidades de Cazadores Grises y un personaje Capitán, Capellán o Bibliotecario (mejora Héroe incluida), más transporte",
+   "min": 1
   },
   {
    "id": "companies-land-raider",
@@ -172,7 +178,8 @@
    "costeTexto": "200 points",
    "mejoras": [
     "Blood Claws",
-    "Dreadnoughts",
+    "Dreadnoughts: Dreadnoughts",
+    "Dreadnoughts: Venerable Dreadnought",
     "Hero",
     "Vindicators"
    ],
@@ -200,7 +207,8 @@
    "coste": 300,
    "costeTexto": "300 points",
    "mejoras": [
-    "Dreadnoughts",
+    "Dreadnoughts: Dreadnoughts",
+    "Dreadnoughts: Venerable Dreadnought",
     "Hero",
     "Hunter",
     "Land Raiders",
@@ -220,8 +228,8 @@
     "Hero",
     "Skyclaws"
    ],
-   "nombreEs": "Garras Sangrientas de Asalto",
-   "unidadesEs": "Seis Garras Sangrientas de Asalto"
+   "nombreEs": "Garras Celestes",
+   "unidadesEs": "Seis Garras Celestes"
   },
   {
    "id": "hunting-packs-swiftclaws",
@@ -244,7 +252,8 @@
    "coste": 325,
    "costeTexto": "325 points",
    "mejoras": [
-    "Dreadnoughts",
+    "Dreadnoughts: Dreadnoughts",
+    "Dreadnoughts: Venerable Dreadnought",
     "Hero",
     "Land Raiders",
     "Wolf Lord"
@@ -337,29 +346,31 @@
    "textoEs": "Añade dos Garras Sangrientas"
   },
   {
-   "id": "dreadnoughts",
-   "nombre": "Dreadnoughts",
-   "seccion": "space-wolf-upgrades",
-   "texto": "Add up to two of the following options (no option may be selected Add up to two Dreadnoughts more than once): Add up to one Venerable Dreadnoughts per army",
+   "nombre": "Dreadnoughts: Dreadnoughts",
+   "nombreEs": "Dreadnoughts",
+   "texto": "Add up to two Dreadnoughts",
+   "textoEs": "Añade hasta dos Dreadnoughts",
    "coste": 50,
-   "costeTexto": "+50 points each +75 points",
    "porUnidad": true,
    "max": 2,
-   "variantes": [
-    {
-     "coste": 50,
-     "porUnidad": true,
-     "texto": "+50 points each",
-     "textoEs": "+50 puntos cada uno"
-    },
-    {
-     "coste": 75,
-     "porUnidad": false,
-     "texto": "+75 points",
-     "textoEs": "+75 puntos"
-    }
-   ],
-   "textoEs": "Hasta dos de las siguientes opciones (sin repetir ninguna): añade hasta dos Dreadnoughts …añade hasta un Dreadnought Venerable por ejército"
+   "id": "dreadnoughts-dreadnoughts",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Dreadnoughts",
+   "grupoEs": "Dreadnoughts",
+   "grupoMax": 2
+  },
+  {
+   "nombre": "Dreadnoughts: Venerable Dreadnought",
+   "nombreEs": "Dreadnought Venerable (uno por ejército)",
+   "texto": "Add one Venerable Dreadnought (one per army)",
+   "textoEs": "Añade un Dreadnought Venerable (uno por ejército)",
+   "coste": 75,
+   "maxEjercito": 1,
+   "id": "dreadnoughts-venerable-dreadnought",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Dreadnoughts",
+   "grupoEs": "Dreadnoughts",
+   "grupoMax": 2
   },
   {
    "id": "hero",
@@ -413,8 +424,8 @@
    "texto": "Add two Skyclaws",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Garras Sangrientas de Asalto",
-   "textoEs": "Añade dos Garras Sangrientas de Asalto"
+   "nombreEs": "Garras Celestes",
+   "textoEs": "Añade dos Garras Celestes"
   },
   {
    "id": "snipers",
@@ -429,40 +440,54 @@
    "textoEs": "Da Francotirador a hasta cuatro unidades de Exploradores Lobo"
   },
   {
-   "id": "space-wolves",
-   "nombre": "Space Wolves",
-   "seccion": "space-wolf-upgrades",
-   "texto": "Add up to two of the following options (no option may be selected Two Grey Hunters more than once): Two Blood Claws Two Long Fangs Up to two Wolf Guard Terminators",
+   "nombre": "Space Wolves: Grey Hunters",
+   "nombreEs": "2x Cazadores Grises",
+   "texto": "Add two Grey Hunters",
+   "textoEs": "Añade dos Cazadores Grises",
    "coste": 75,
-   "costeTexto": "+75 points +50 points +125 points +75 points each",
-   "variantes": [
-    {
-     "coste": 75,
-     "porUnidad": false,
-     "texto": "+75 points",
-     "textoEs": "+75 puntos"
-    },
-    {
-     "coste": 50,
-     "porUnidad": false,
-     "texto": "+50 points",
-     "textoEs": "+50 puntos"
-    },
-    {
-     "coste": 125,
-     "porUnidad": false,
-     "texto": "+125 points",
-     "textoEs": "+125 puntos"
-    },
-    {
-     "coste": 75,
-     "porUnidad": true,
-     "texto": "+75 points each",
-     "textoEs": "+75 puntos cada uno"
-    }
-   ],
-   "nombreEs": "Lobos Espaciales",
-   "textoEs": "Hasta dos de las siguientes opciones (sin repetir ninguna): dos Cazadores Grises …dos Garras Sangrientas …dos Colmillos Largos …hasta dos Exterminadores de la Guardia del Lobo"
+   "id": "space-wolves-grey-hunters",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Space Wolves",
+   "grupoEs": "Lobos Espaciales",
+   "grupoMax": 2
+  },
+  {
+   "nombre": "Space Wolves: Blood Claws",
+   "nombreEs": "2x Garras Sangrientas",
+   "texto": "Add two Blood Claws",
+   "textoEs": "Añade dos Garras Sangrientas",
+   "coste": 50,
+   "id": "space-wolves-blood-claws",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Space Wolves",
+   "grupoEs": "Lobos Espaciales",
+   "grupoMax": 2
+  },
+  {
+   "nombre": "Space Wolves: Long Fangs",
+   "nombreEs": "2x Colmillos Largos",
+   "texto": "Add two Long Fangs",
+   "textoEs": "Añade dos Colmillos Largos",
+   "coste": 125,
+   "id": "space-wolves-long-fangs",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Space Wolves",
+   "grupoEs": "Lobos Espaciales",
+   "grupoMax": 2
+  },
+  {
+   "nombre": "Space Wolves: Wolf Guard Terminators",
+   "nombreEs": "Exterminadores de la Guardia del Lobo",
+   "texto": "Add up to two Wolf Guard Terminators",
+   "textoEs": "Añade hasta dos Exterminadores de la Guardia del Lobo",
+   "coste": 75,
+   "porUnidad": true,
+   "max": 2,
+   "id": "space-wolves-wolf-guard-terminators",
+   "seccion": "space-wolf-upgrades",
+   "grupo": "Space Wolves",
+   "grupoEs": "Lobos Espaciales",
+   "grupoMax": 2
   },
   {
    "id": "typhoons",
@@ -498,7 +523,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "maxEjercito": 1,
-   "nombreEs": "Señor Lobo",
+   "nombreEs": "Señor Lobo (uno por ejército)",
    "textoEs": "Sustituye un personaje Capitán por ejército por un personaje Comandante Supremo"
   }
  ],
@@ -740,7 +765,7 @@
     }
    ],
    "notas": "Retrorreactores.",
-   "nombreEs": "Garras Sangrientas de Asalto"
+   "nombreEs": "Garras Celestes"
   },
   {
    "nombre": "Swiftclaw Bikes",
@@ -1317,22 +1342,6 @@
     }
    ],
    "notas": "Caída orbital, Transporte. Puede transportar una formación compuesta solo por las siguientes unidades: Garras Sangrientas, Cazadores Grises, Colmillos Largos, Dreadnought, Dreadnought Venerable, Exterminadores de la Guardia del Lobo. Tras aterrizar la cápsula, su Viento de Muerte ataca a todas las unidades enemigas a 15 cm o menos. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego y otro adicional por cada baja. Después, las tropas que lleve la cápsula deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la cápsula. Las miniaturas de cápsula de desembarco se quitan del tablero cuando la formación que transportan ha desembarcado. Cuenta como una Cápsula de Desembarco a efectos de transporte."
-  },
-  {
-   "nombre": "Garras Sangrientas de Asalto",
-   "tipo": "INF",
-   "velocidad": "30cm",
-   "blindaje": "4+",
-   "cc": "3+",
-   "ff": "6+",
-   "armas": [
-    {
-     "nombre": "Pistolas bólter",
-     "alcance": "(15cm)",
-     "potencia": "Armas ligeras"
-    }
-   ],
-   "notas": "Retrorreactores."
   }
  ]
 }

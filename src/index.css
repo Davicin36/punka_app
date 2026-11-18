@@ -226,3 +226,9 @@ details.rules h4 { margin: 10px 0 2px; }
 .lcdel { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line);
   background: transparent; color: var(--mut); font-size: 14px; line-height: 1; cursor: pointer; padding: 0; }
 .lcdel:hover, .lcdel:focus-visible { color: #e0583a; border-color: #e0583a; }
+
+/* Opciones agrupadas de una mejora (Lobos Espaciales) */
+.grupo-mejora { margin: 10px 0 2px; font-size: 13px; color: var(--mut); font-weight: 600; letter-spacing: .02em; }
+.grupo-mejora.mal { color: #e0583a; }
+.mejora.engrupo { margin-left: 10px; border-left: 2px solid var(--line); padding-left: 8px; }
+.mejora.bloqueada { opacity: .45; }

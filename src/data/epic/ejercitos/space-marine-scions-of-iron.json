@@ -418,16 +418,16 @@
      "coste": 35,
      "porUnidad": true,
      "texto": "+35 points each",
-     "textoEs": "+35 puntos cada uno"
+     "textoEs": "Land Speeder o Land Speeder Tornado (+35 c/u)"
     },
     {
      "coste": 45,
      "porUnidad": true,
      "texto": "+45 points each",
-     "textoEs": "+45 puntos cada uno"
+     "textoEs": "Land Speeder Typhoon (+45 c/u)"
     }
    ],
-   "textoEs": "Añade hasta tres unidades cualesquiera de: Land Speeder o Land Speeder Tornado …Land Speeder Typhoon"
+   "textoEs": "Añade hasta tres unidades cualesquiera de: Land Speeder o Land Speeder Tornado Land Speeder Typhoon"
   },
   {
    "id": "razorbacks",

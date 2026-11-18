@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import type { EjercitoEpic, FormacionElegida } from './tipos';
 import { costeFormacion, costeMejora, detalleFormacion, formacionDe, maxExtra, mejorasPermitidas, monturasFormacion, problemasFormacion, repartoDeMejora, seccionDe } from './logica';
 import { Check, FilaContador } from '../components/ui';
@@ -122,8 +123,15 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
               Monturas de armas: {mo.caparazon ? `${mo.caparazon} de caparazón y ` : ''}{mo.brazo} de brazo · armas elegidas {mo.armas}/{mo.total}
             </p>}
             <div className="opts">
-              {mejoras.map(m => {
+              {mejoras.map((m, im) => {
                 const n = fe.mejoras[m.nombre] ?? 0;
+                // Cabecera de las opciones agrupadas («Lobos Espaciales: hasta 2 de estas opciones, sin repetir»)
+                const enGrupo = m.grupo ? mejoras.filter(x => x.grupo === m.grupo) : [];
+                const usadas = enGrupo.filter(x => (fe.mejoras[x.nombre] ?? 0) > 0).length;
+                const cabecera = m.grupo && mejoras.findIndex(x => x.grupo === m.grupo) === im
+                  ? <h5 key={`g-${m.grupo}`} className={`grupo-mejora${usadas > (m.grupoMax ?? 99) ? ' mal' : ''}`}>{m.grupoEs ?? m.grupo}: hasta {m.grupoMax} de estas opciones, sin repetir ({usadas}/{m.grupoMax})</h5>
+                  : null;
+                const bloqueada = !!m.grupo && !n && usadas >= (m.grupoMax ?? 99);
                 const vIdx = fe.variantes[m.nombre] ?? 0;
                 const v = m.variantes?.[vIdx];
                 const porUnidad = v ? v.porUnidad : m.porUnidad;
@@ -132,16 +140,16 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                   ? `+${m.parejas.cada} c/u o +${m.parejas.pareja} por pareja`
                   : `${precio ? `+${precio}` : 'gratis'}${porUnidad ? ' c/u' : ''}`;
                 const pares = m.parejas && n > 1 ? Math.floor(n / 2) : 0;
-                return (
-                  <div key={m.nombre} className="mejora">
+                return (<Fragment key={m.nombre}>{cabecera}
+                  <div className={`mejora${m.grupo ? ' engrupo' : ''}${bloqueada ? ' bloqueada' : ''}`}>
                     {m.arma && mo
                       ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta})`} valor={n}
                           max={Math.min(m.montura === 'caparazon' ? mo.caparazon : mo.total, n + mo.total - mo.armas)}
                           onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val))} />
                       : porUnidad
-                      ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta}${m.max ? `, máx. ${m.max}` : ''})`} valor={n} max={m.max ?? 20}
+                      ? <FilaContador nombre={<Bi es={m.nombreEs} en={m.nombre} />} nota={`(${etiqueta}${m.max ? `, máx. ${m.max}` : ''})`} valor={n} max={bloqueada ? 0 : m.max ?? 20}
                           onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val))} />
-                      : <Check nombre={<Bi es={m.nombreEs} en={m.nombre} />} coste={etiqueta} activo={n > 0} onChange={val => onChange(y => fijar(y.mejoras, m.nombre, val ? 1 : 0))} />}
+                      : <Check nombre={<Bi es={m.nombreEs} en={m.nombre} />} coste={etiqueta} activo={n > 0} onChange={val => { if (!(val && bloqueada)) onChange(y => fijar(y.mejoras, m.nombre, val ? 1 : 0)); }} />}
                     {m.texto && <small className="mtexto"><Bi n es={m.textoEs} en={m.texto} /></small>}
                     {m.parejas && n > 0 && (
                       <small className="mtexto calc">
@@ -157,7 +165,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
                       </div>
                     )}
                     {gruposDe(`m:${m.nombre}.`, `lr:m:${m.nombre}`).map(g => pintarGrupo(g))}
-                  </div>
+                  </div></Fragment>
                 );
               })}
             </div>

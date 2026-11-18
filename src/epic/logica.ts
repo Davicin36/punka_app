@@ -150,6 +150,15 @@ export function problemasFormacion(e: EjercitoEpic, fe: FormacionElegida): strin
     const max = maxExtra(f, fe, i);
     if (n > max) out.push(`Máximo ${max} en «${es(x.textoEs, x.texto).slice(0, 40)}…».`);
   });
+  // Opciones de una misma mejora (Lobos Espaciales: hasta dos, sin repetir)
+  const porGrupo = new Map<string, { n: number; max: number; nombre: string }>();
+  for (const [nombre, n] of Object.entries(fe.mejoras)) {
+    const m = n ? mejoraDe(e, nombre) : undefined;
+    if (!m?.grupo || !m.grupoMax) continue;
+    const g = porGrupo.get(m.grupo) ?? { n: 0, max: m.grupoMax, nombre: m.grupoEs ?? m.grupo };
+    g.n++; porGrupo.set(m.grupo, g);
+  }
+  for (const g of porGrupo.values()) if (g.n > g.max) out.push(`${g.nombre}: como máximo ${g.max} opciones distintas; llevas ${g.n}.`);
   const maxInf = seccionDe(e, f.seccion)?.maxInfanteria;
   if (maxInf) {
     const inf = infanteriaFormacion(e, fe);
@@ -235,6 +244,16 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
   for (const [id, n] of veces) {
     const f = formacionDe(e, id)!;
     if (f.max && n > f.max) out.push(`${nom(f)}: máximo ${f.max} por ejército.`);
+  }
+  for (const f of e.formaciones) if (f.min && (veces.get(f.id) ?? 0) < f.min) out.push(`${nom(f)}: necesitas al menos ${f.min}.`);
+  for (const s of e.secciones) {
+    if (!s.maxPorTipo) continue;
+    const base = formacionDe(e, s.maxPorTipo);
+    const hay = veces.get(s.maxPorTipo) ?? 0;
+    for (const f of e.formaciones.filter(x => x.seccion === s.id)) {
+      const n = veces.get(f.id) ?? 0;
+      if (n > hay) out.push(`${nom(f)}: llevas ${n} y no puede haber más que ${base ? nom(base) : s.maxPorTipo} (${hay}).`);
+    }
   }
   for (const [sid, n] of porSeccion) {
     const s = seccionDe(e, sid);
