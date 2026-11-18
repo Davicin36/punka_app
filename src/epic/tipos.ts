@@ -63,6 +63,10 @@ export interface FormacionEpic {
   recargo?: { unidad: string; coste: number; texto: string };
   /** Coste de cada unidad elegida cuando la formación no tiene coste base */
   costesUnidad?: Record<string, number>;
+  /** Título de la elección de tamaño cuando en realidad se elige la unidad («Elige el Titán», «Tipo de nave») */
+  tamanosTitulo?: string;
+  /** Una formación como mucho por cada unidad de este tipo elegida en la lista (Lysander por cada Warmonger) */
+  porCadaUnidad?: string;
   /** Monturas de armas de los Titanes: cada una lleva un arma */
   monturas?: { brazo: number; caparazon: number };
 }

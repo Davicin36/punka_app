@@ -359,7 +359,8 @@
     }
    ],
    "nombreEs": "Nave espacial",
-   "unidadesEs": "Un Devastation Class Cruiser o un Despoiler Class Battleship"
+   "unidadesEs": "Un Devastation Class Cruiser o un Despoiler Class Battleship",
+   "tamanosTitulo": "Tipo de nave"
   },
   {
    "id": "chaos-war-engines-ordinatus",

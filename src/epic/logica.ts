@@ -181,6 +181,13 @@ export function problemasLista(e: EjercitoEpic, l: ListaEpic): string[] {
   const total = costeLista(e, l);
   if (total > l.puntos) out.push(`Te pasas ${total - l.puntos} puntos del límite (${l.puntos}).`);
 
+  // Formaciones limitadas por unidades elegidas (un Lysander por cada Warmonger)
+  for (const f of e.formaciones.filter(x => x.porCadaUnidad)) {
+    const n = l.formaciones.filter(fe => fe.formacion === f.id).length;
+    const hay = l.formaciones.filter(fe => formacionDe(e, fe.formacion)?.tamanos?.[fe.tamano]?.nombre === f.porCadaUnidad).length;
+    if (n > hay) out.push(`${nom(f)}: llevas ${n} y solo puedes ${hay} (uno por cada Titán elegido de ese tipo).`);
+  }
+
   // Extras de uno por ejército (Barón)
   const porEjercito = new Map<string, { n: number; nombre: string }>();
   for (const fe of l.formaciones) (formacionDe(e, fe.formacion)?.extras ?? []).forEach((x, j) => {
