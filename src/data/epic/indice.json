@@ -207,7 +207,7 @@
   "nombreEs": "Orkos – Orkos Zalvajez",
   "familiaEs": "Orkos",
   "estrategia": 3,
-  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al activarse (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "ork-gargant-mob",
@@ -227,7 +227,7 @@
   "nombreEs": "Orkos – Lokoz de la Velozidad",
   "familiaEs": "Orkos",
   "estrategia": 3,
-  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al activarse (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "ork-war-horde",
@@ -237,7 +237,7 @@
   "nombreEs": "Orkos – Horda de Guerra",
   "familiaEs": "Orkos",
   "estrategia": 3,
-  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
+  "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al activarse (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor)."
  },
  {
   "id": "space-marine-codex-astartes",
@@ -326,7 +326,7 @@
   "version": "2026-02-04",
   "familiaEs": "Tau",
   "estrategia": 3,
-  "iniciativaEs": "Las formaciones de Cuadro de Armaduras Crisis y de Nave de Desembarco Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
+  "iniciativaEs": "Las formaciones de Cuerpo de Armaduras Crisis y de Nave de Despliegue Manta tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+."
  },
  {
   "id": "tyranid",

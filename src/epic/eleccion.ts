@@ -62,7 +62,7 @@ function patrones(e: EjercitoEpic) {
   if (!p) {
     // Más largos primero, para que «Land Raider Crusader» no se quede en «Land Raider»
     p = [...(e.fichas ?? [])].sort((a, b) => b.nombre.length - a.nombre.length).map(f => {
-      const base = escapar(f.nombre);
+      const base = escapar(f.nombre).replace(/['’]/g, "['’]");
       const plural = f.nombre.endsWith('y') ? `|${escapar(f.nombre.slice(0, -1))}ies`
         // «Grey Hunters» aparece en singular en los textos («Six Grey Hunter units»)
         : / [A-Z]\w+s$/.test(f.nombre) ? `|${escapar(f.nombre.slice(0, -1))}` : '';
@@ -150,7 +150,8 @@ export function gruposEleccion(e: EjercitoEpic, fe: FormacionElegida): GrupoElec
     const v = m ? grupoVariantes(e, m.texto, `lr:m:${nombre}`, `Variantes de Leman Russ (${nom(m)})`) : null;
     if (v) out.push(v);
   }
-  gruposEnTexto(e, f.unidades).forEach((g, k) =>
+  const enTamanos = new Set((f.tamanos ?? []).map(t => t.nombre));
+  gruposEnTexto(e, f.unidades).filter(g => !g.opciones.every(o => enTamanos.has(o))).forEach((g, k) =>
     out.push({ clave: `u${k}`, origen: 'Unidades', opciones: g.opciones, min: g.min, max: g.max, personaje: g.personaje }));
   (f.extras ?? []).forEach((x, j) => {
     const n = fe.extras[j] ?? 0;
@@ -229,7 +230,10 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
     const grupos = gruposEleccion(e, fe);
     const enGrupo = new Set(grupos.flatMap(g => g.opciones));
     const elegidas = new Set(grupos.flatMap(g => Object.entries(fe.reparto?.[g.clave] ?? {}).filter(([, n]) => n > 0).map(([o]) => o)));
-    const textos = [f.unidades, ...(f.extras ?? []).filter((_, j) => fe.extras[j]).map(x => x.texto)];
+    const elegido = f.tamanos?.[fe.tamano]?.nombre;
+    const quitadas = new Set<string>();
+    const textos = [elegido && f.tamanos!.some(t => fichaDe(e, t.nombre) || fichaDe(e, t.nombre.replace(/^\d+ /, '').replace(/s$/, '')))
+      ? elegido.replace(/^\d+ /, '') : f.unidades, ...(f.extras ?? []).filter((_, j) => fe.extras[j]).map(x => x.texto)];
     for (const [nombre, n] of Object.entries(fe.mejoras)) {
       if (!n) continue;
       const m = mejoraDe(e, nombre);
@@ -240,9 +244,13 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
         if ((fe.variantes[nombre] ?? 0) > 0) usadas.add('Supreme Commander');
         continue;
       }
-      textos.push(m.nombre, m.texto);
+      // «Replace one Shas’el character with a Shas’o character»: el sustituido ya no está
+      const sust = /^Replace (?:one|an?) (.+?) with /.exec(m.texto);
+      if (sust) unidadesEnTexto(e, sust[1]).forEach(u => quitadas.add(u.nombre));
+      textos.push(...(sust ? [m.texto.slice(sust[0].length)] : [m.nombre, m.texto]));
     }
     for (const t of textos) for (const u of unidadesEnTexto(e, t)) {
+      if (quitadas.has(u.nombre)) continue;
       // De las alternativas solo las escogidas (si aún no se ha escogido, todas)
       if (enGrupo.has(u.nombre) && elegidas.size && !elegidas.has(u.nombre)) continue;
       usadas.add(u.nombre);

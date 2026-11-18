@@ -10,7 +10,7 @@
    "nombre": "Red Corsair Core Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones básicas de los Corsarios Rojos"
   },
   {
    "id": "red-corsair-support-formations",
@@ -22,7 +22,7 @@
     "base": "core formation"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada formación principal.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones básicas de los Corsarios Rojos"
   },
   {
    "id": "red-corsair-upgrades",
@@ -40,7 +40,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de la Armada del Caos"
   },
   {
    "id": "daemon-pool",
@@ -222,7 +222,7 @@
     "Rhinos"
    ],
    "nombreEs": "Marines de Culto",
-   "unidadesEs": "Un personaje Señor del Caos o Señor Hechicero y ocho Berzerkers, o seis Marines del Ruido, Marines de Plaga o Mil Hijos"
+   "unidadesEs": "Un personaje Señor del Caos o Señor Hechicero y ocho Berzerkers, o seis Marines Ruidosos, Marines de Plaga o Mil Hijos"
   },
   {
    "id": "red-corsair-support-formations-daemon-knights",
@@ -243,7 +243,8 @@
    "coste": 275,
    "costeTexto": "275 points",
    "mejoras": [],
-   "unidadesEs": "Cuatro Defilers"
+   "unidadesEs": "Cuatro Profanadores del Caos",
+   "nombreEs": "Profanadores del Caos"
   },
   {
    "id": "red-corsair-support-formations-raptor-cult",
@@ -309,8 +310,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger",
-   "nombreEs": "Heraldo (Harbinger)"
+   "nombreEs": "Heraldo (Harbinger)",
+   "unidadesEs": "Un Harbinger"
   },
   {
    "id": "chaos-navy-formations-hell-blades",
@@ -371,7 +372,7 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "nombreEs": "Marines de Culto",
-   "textoEs": "Sustituye cuatro Marines Espaciales del Caos por cuatro Berzerkers, Marines del Ruido, Marines de Plaga o Mil Hijos"
+   "textoEs": "Sustituye cuatro Marines Espaciales del Caos por cuatro Berzerkers, Marines Ruidosos, Marines de Plaga o Mil Hijos"
   },
   {
    "id": "daemon-prince",
@@ -403,7 +404,8 @@
    "costeTexto": "+75 points each",
    "porUnidad": true,
    "max": 3,
-   "textoEs": "Añade hasta tres Defilers"
+   "textoEs": "Añade hasta tres Profanadores del Caos",
+   "nombreEs": "Profanadores del Caos"
   },
   {
    "id": "dreadnoughts",
@@ -538,7 +540,8 @@
     "Los ejércitos de los Corsarios Rojos pueden recibir apoyo de formaciones de la Armada del Caos. Puede gastarse en ellas hasta un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: Ciertas unidades tienen capacidades especiales descritas en Invocación mejorada (véase 5.11.1) y Foco Demoníaco (véase 5.11.2).",
     "I N I C I AT I VA FACTOR DE E STRATEGIA: 4",
-    "Las formaciones de la Armada del Caos, Drones de la Plaga, Matarifes de Sangre, Escorpiones de Bronce, Caballeros Demonio, Defilers y Torres de Plata tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Las formaciones de la Armada del Caos, Drones de la Plaga, Matarifes de Sangre, Escorpiones de Bronce, Caballeros Demonio, Profanadores del Caos y Torres de Plata tienen un valor de iniciativa de 2+.",
+    "Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• 0–1 Señor de la Guerra del Caos, 0–1 Príncipe Demonio y 0–1 Crucero de Asalto por ejército. Hasta cuatro mejoras por formación, una de cada tipo.",
     "• Los Rhinos se añaden solo para las unidades de infantería que no vayan en Land Raiders del Caos.",
@@ -627,7 +630,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Icon Bearer",
@@ -809,7 +812,7 @@
   },
   {
    "nombre": "Noise Marines",
-   "nombreEs": "Marines del Ruido",
+   "nombreEs": "Marines Ruidosos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -1050,6 +1053,7 @@
   },
   {
    "nombre": "Defiler",
+   "nombreEs": "Profanador del Caos",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
@@ -1132,12 +1136,12 @@
      "potencia": "2× AP3+/AT5+"
     },
     {
-     "nombre": "2× Cañón Fauces del In ‐",
+     "nombre": "2× Cañón Fauces del Infierno",
      "alcance": "15cm",
      "potencia": "AP4+, IC"
     },
     {
-     "nombre": "fierno",
+     "nombre": "",
      "alcance": "30cm",
      "potencia": "AP3+/AT4+, IC"
     },
@@ -1247,7 +1251,7 @@
      "potencia": "AP5+/AT5+"
     }
    ],
-   "notas": "Caída orbital, Transporte. Puede transportar una formación compuesta solo por las siguientes unidades: Berzerkers, Dreadnoughts del Caos, Elegidos, Marines Espaciales del Caos, Príncipe Demonio, Havocs, Marines del Ruido, Marines de Plaga, Mil Hijos. Tras aterrizar la cápsula, su Viento de Muerte ataca a todas las unidades enemigas a 15 cm o menos. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego y otro adicional por cada baja. Después, las tropas que lleve la cápsula deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la cápsula. Las miniaturas de cápsula de desembarco se quitan del tablero cuando la formación que transportan ha desembarcado. Cuenta como una Cápsula de Desembarco a efectos de transporte."
+   "notas": "Caída orbital, Transporte. Puede transportar una formación compuesta solo por las siguientes unidades: Berzerkers, Dreadnoughts del Caos, Elegidos, Marines Espaciales del Caos, Príncipe Demonio, Havocs, Marines Ruidosos, Marines de Plaga, Mil Hijos. Tras aterrizar la cápsula, su Viento de Muerte ataca a todas las unidades enemigas a 15 cm o menos. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego y otro adicional por cada baja. Después, las tropas que lleve la cápsula deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la cápsula. Las miniaturas de cápsula de desembarco se quitan del tablero cuando la formación que transportan ha desembarcado. Cuenta como una Cápsula de Desembarco a efectos de transporte."
   }
  ]
 }

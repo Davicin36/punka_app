@@ -10,7 +10,7 @@
    "nombre": "Companies",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Compañías"
   },
   {
    "id": "hunting-packs",
@@ -18,7 +18,7 @@
    "tipo": "nucleo",
    "nota": "You may not have more Hunting Packs of any one type than you have Great Companies.",
    "notaEs": "No puedes tener más Hunting Packs de un mismo tipo que Great Companies.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Manadas de caza"
   },
   {
    "id": "space-wolf-upgrades",
@@ -220,8 +220,8 @@
     "Hero",
     "Skyclaws"
    ],
-   "nombreEs": "Garras Celestes",
-   "unidadesEs": "Seis Garras Celestes"
+   "nombreEs": "Garras Sangrientas de Asalto",
+   "unidadesEs": "Seis Garras Sangrientas de Asalto"
   },
   {
    "id": "hunting-packs-swiftclaws",
@@ -389,11 +389,11 @@
    "costeTexto": "+75 points each +125 points per pair",
    "porUnidad": true,
    "max": 4,
-   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider, Land Raider Crusader",
    "parejas": {
     "cada": 75,
     "pareja": 125
-   }
+   },
+   "textoEs": "Añade hasta cuatro unidades cualesquiera de: Land Raider, Land Raider Crusader"
   },
   {
    "id": "razorbacks",
@@ -413,8 +413,8 @@
    "texto": "Add two Skyclaws",
    "coste": 75,
    "costeTexto": "+75 points",
-   "nombreEs": "Garras Celestes",
-   "textoEs": "Añade dos Garras Celestes"
+   "nombreEs": "Garras Sangrientas de Asalto",
+   "textoEs": "Añade dos Garras Sangrientas de Asalto"
   },
   {
    "id": "snipers",
@@ -484,11 +484,11 @@
    "costeTexto": "+50 points each +75 points per pair",
    "porUnidad": true,
    "max": 2,
-   "textoEs": "Añade hasta dos Vindicators",
    "parejas": {
     "cada": 50,
     "pareja": 75
-   }
+   },
+   "textoEs": "Añade hasta dos Vindicators"
   },
   {
    "id": "wolf-lord",
@@ -499,7 +499,7 @@
    "costeTexto": "+50 points",
    "maxEjercito": 1,
    "nombreEs": "Señor Lobo",
-   "textoEs": "Sustituye un personaje Capitán por ejército por un personaje Comandante en jefe"
+   "textoEs": "Sustituye un personaje Capitán por ejército por un personaje Comandante Supremo"
   }
  ],
  "compras": [],
@@ -517,10 +517,10 @@
     "Los ejércitos de Lobos Espaciales pueden recibir apoyo de aeronaves de la Armada Imperial, grupos de batalla de la Legión de",
     "Titanes y formaciones de aeronaves de los Lobos Espaciales. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de Lobos Espaciales (véase 5.1.1). I N I C I AT I VA FACTOR DE E STRATEGIA: 5",
-    "Las formaciones de Garras Sangrientas, Lobos de Fenris, Garras Celestes, Garras Veloces y aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+ (véase Sin sangrar). Todas las demás formaciones tienen un valor de iniciativa de 1+.",
+    "Las formaciones de Garras Sangrientas, Lobos de Fenris, Garras Sangrientas de Asalto, Garras Veloces y aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+ (véase Sin sangrar). Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• El ejército debe incluir al menos una Gran Compañía. No puedes tener más manadas de caza de un mismo tipo que Grandes Compañías.",
-    "• 0–1 Señor Lobo: sustituye un personaje Capitán por un Comandante en jefe (+50).",
+    "• 0–1 Señor Lobo: sustituye un personaje Capitán por un Comandante Supremo (+50).",
     "• Dreadnoughts: hasta un Dreadnought Venerable por ejército (+75).",
     "• Cada mejora puede adquirirse una vez por formación."
    ]
@@ -530,15 +530,15 @@
    "titulo": "Transporte de los Lobos Espaciales",
    "parrafos": [
     "Los Lobos Espaciales son un ejército muy móvil. Por ello, el coste en puntos de una formación suele incluir suficientes Rhinos para transportarla a ella y a las mejoras adquiridas. Determina el número de Rhinos necesarios una vez adquiridas todas las mejoras. El número de Rhinos será siempre el mínimo necesario: ¡no puedes llevar de más para cubrir pérdidas! Ten en cuenta que muchas formaciones no reciben Rhinos, normalmente porque no caben en ellos. Los destacamentos que incluyen Rhinos aparecen con la indicación «más transporte» en la sección de unidades. Ten en cuenta también que no estás obligado a llevar los Rhinos. Si prefieres desplegar la formación a pie, por ejemplo para que actúe como patrulla o para transportarla en una Cañonera Thunderhawk, puedes hacerlo.",
-    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco de los Lobos Espaciales. En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída orbital (véase 4.4). Necesitarás también al menos un Crucero de Asalto o una Barcaza de Batalla de Marines Espaciales desde el que lanzarlas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador de los Lobos Espaciales puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción. Si la formación tiene alguna unidad que no pueda transportarse en",
-    "Rhinos, no la cuentes al determinar el número de Rhinos necesarios."
+    "Además, puedes sustituir los Rhinos de un destacamento por Cápsulas de Desembarco de los Lobos Espaciales. En ese caso, el destacamento entrará en juego en una Cápsula de Desembarco usando las reglas de Caída orbital (véase 4.4). Necesitarás también al menos un Crucero de Asalto o una Barcaza de Batalla de Marines Espaciales desde el que lanzarlas. Antes de cada partida, una vez conocido el ejército contrario pero antes de colocar los objetivos, el jugador de los Lobos Espaciales puede elegir qué formaciones con «más transporte» se despliegan en Rhinos, en Cápsulas de Desembarco o a pie. Si la formación tiene alguna unidad que no pueda desplegarse en Cápsulas de Desembarco, no puede elegirse esa opción. Si la",
+    "formación tiene alguna unidad que no pueda transportarse en Rhinos, no la cuentes al determinar el número de Rhinos necesarios."
    ]
   },
   {
    "id": "6.26.2",
    "titulo": "Sin sangrar (Unblooded)",
    "parrafos": [
-    "Las Garras Sangrientas (Blood Claws) están ansiosas por demostrar su valía en la batalla. Todas las formaciones de Garras Sangrientas, Garras Celestes (Skyclaws) y Garras Veloces (Swiftclaws) que intenten realizar acciones de Atacar reciben un modificador de +1 a su chequeo de acción. Además, siempre deben hacer su movimiento de contra-carga completo (salvo que lleguen antes al contacto peana con peana con una unidad enemiga), siempre que sigan siendo una formación legal."
+    "Las Garras Sangrientas (Blood Claws) están ansiosas por demostrar su valía en la batalla. Todas las formaciones de Garras Sangrientas, Garras Sangrientas de Asalto (Skyclaws) y Garras Veloces (Swiftclaws) que intenten realizar acciones de Atacar reciben un modificador de +1 a su chequeo de acción. Además, siempre deben hacer su movimiento de contra-carga completo (salvo que lleguen antes al contacto peana con peana con una unidad enemiga), siempre que sigan siendo una formación legal."
    ]
   },
   {
@@ -642,7 +642,7 @@
   },
   {
    "nombre": "Supreme Commander",
-   "nombreEs": "Comandante en jefe",
+   "nombreEs": "Comandante Supremo",
    "tipo": "PJ",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -655,7 +655,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Salvación Invulnerable, Comandante en jefe."
+   "notas": "Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Blood Claws",
@@ -739,7 +739,8 @@
      "potencia": "Armas ligeras"
     }
    ],
-   "notas": "Retrorreactores."
+   "notas": "Retrorreactores.",
+   "nombreEs": "Garras Sangrientas de Asalto"
   },
   {
    "nombre": "Swiftclaw Bikes",
@@ -1316,6 +1317,22 @@
     }
    ],
    "notas": "Caída orbital, Transporte. Puede transportar una formación compuesta solo por las siguientes unidades: Garras Sangrientas, Cazadores Grises, Colmillos Largos, Dreadnought, Dreadnought Venerable, Exterminadores de la Guardia del Lobo. Tras aterrizar la cápsula, su Viento de Muerte ataca a todas las unidades enemigas a 15 cm o menos. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego y otro adicional por cada baja. Después, las tropas que lleve la cápsula deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la cápsula. Las miniaturas de cápsula de desembarco se quitan del tablero cuando la formación que transportan ha desembarcado. Cuenta como una Cápsula de Desembarco a efectos de transporte."
+  },
+  {
+   "nombre": "Garras Sangrientas de Asalto",
+   "tipo": "INF",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "3+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Pistolas bólter",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Retrorreactores."
   }
  ]
 }

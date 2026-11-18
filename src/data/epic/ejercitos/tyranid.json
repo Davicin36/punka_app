@@ -11,14 +11,14 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Individuos tiránidos"
+   "nombreEs": "Cosechadores necrones"
   },
   {
    "id": "synapse-swarm-formations",
    "nombre": "Synapse Swarm Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Formaciones de enjambres sinápticos"
+   "nombreEs": "Formaciones de enjambre sináptico"
   },
   {
    "id": "independent-swarm-formations",
@@ -30,7 +30,7 @@
     "base": "synapse swarm"
    },
    "notaEs": "Se puede desplegar un enjambre independiente por cada enjambre sináptico.",
-   "nombreEs": "Formaciones de enjambres independientes"
+   "nombreEs": "Formaciones de enjambre independiente"
   },
   {
    "id": "war-engine-formations",
@@ -38,7 +38,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Formaciones de máquinas de guerra"
+   "nombreEs": "Formaciones de Máquinas de Guerra"
   }
  ],
  "formaciones": [
@@ -477,7 +477,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe, Sinapsis (+1). Si se añade a la Dominatrix, la unidad perderá además Comandante en jefe y Sinapsis (+1) con un 6 en la tirada de Efecto de Impacto Crítico."
+   "notas": "Comandante Supremo, Sinapsis (+1). Si se añade a la Dominatrix, la unidad perderá además Comandante Supremo y Sinapsis (+1) con un 6 en la tirada de Efecto de Impacto Crítico."
   },
   {
    "nombre": "Gargoyles",
@@ -783,7 +783,7 @@
      "potencia": "AA5+, MA"
     },
     {
-     "nombre": "2× Garras de guadaña enor mes",
+     "nombre": "2× Garras de guadaña enormes",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT"
     }
@@ -799,12 +799,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Biocañón doble del Harri ‐",
+     "nombre": "Biocañón doble del Harridan",
      "alcance": "45cm",
      "potencia": "2× AP4+/AT5+, FxF"
     },
     {
-     "nombre": "dan Garras de guadaña grandes",
+     "nombre": "Garras de guadaña grandes",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
@@ -847,12 +847,12 @@
      "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Biocañón de Bio-Ti ‐",
+     "nombre": "0–1× Biocañón de Bio-Titán",
      "alcance": "45cm",
      "potencia": "3× AP4+/AT5+, Fro"
     },
     {
-     "nombre": "tán",
+     "nombre": "",
      "alcance": "45cm",
      "potencia": "4PA, Fro"
     },
@@ -872,7 +872,7 @@
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     },
     {
-     "nombre": "o 2× Garras de guadaña enor mes",
+     "nombre": "o 2× Garras de guadaña enormes",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT"
     }
@@ -894,12 +894,12 @@
      "potencia": "3PA, Fro"
     },
     {
-     "nombre": "0–1× Biocañón de Bio-Ti ‐",
+     "nombre": "0–1× Biocañón de Bio-Titán",
      "alcance": "45cm",
      "potencia": "3× AP4+/AT5+, Fro"
     },
     {
-     "nombre": "tán",
+     "nombre": "",
      "alcance": "45cm",
      "potencia": "4PA, Fro"
     },
@@ -924,7 +924,7 @@
      "potencia": "Armas de asalto, AE(+2), DP"
     },
     {
-     "nombre": "Tentáculos destripadores 2× Garras de guadaña gi gantescas",
+     "nombre": "Tentáculos destripadores 2× Garras de guadaña gigantescas",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MT(D3)"
     }

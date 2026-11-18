@@ -7,6 +7,7 @@ import { nombreArchivo } from '../logic/descargar';
 import { es, nom } from './texto';
 import { anexoReglas } from '../logic/pdfReglas';
 import { unidadesDeLista } from './eleccion';
+import { habilidadesDe } from './habilidades';
 
 type RGB = [number, number, number];
 const PAPEL: RGB = [243, 234, 211];
@@ -114,7 +115,7 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
         ['Nombre', 'Tipo', 'Vel.', 'Blind.', 'CC', 'TT', 'Armas', 'Alc.', 'Potencia de fuego', 'Notas'],
       ],
       body: fichas.map(f => [
-        { content: f.nombreEs ? `${f.nombreEs}\n(${f.nombre})` : f.nombre, styles: { fontStyle: 'bold' } },
+        { content: f.nombreEs && f.nombreEs !== f.nombre ? `${f.nombreEs}\n(${f.nombre})` : f.nombre, styles: { fontStyle: 'bold' } },
         f.tipo, f.velocidad, f.blindaje, f.cc, f.ff,
         f.armas.map(a => a.nombre || '-').join('\n') || '-',
         f.armas.map(a => a.alcance || '-').join('\n'),
@@ -134,6 +135,9 @@ export function crearPdfEpic(e: EjercitoEpic, l: ListaEpic): jsPDF {
 
   // Anexo: reglas especiales del ejército (Edición Deluxe en castellano)
   anexoReglas(doc, [{
+    titulo: 'Habilidades especiales de las unidades',
+    reglas: habilidadesDe(fichas).map(({ habilidad: h, quien }) => ({ nombre: `${h.id} ${h.titulo}`, nota: quien.join(', '), parrafos: h.parrafos })),
+  }, {
     titulo: `Reglas especiales · ${e.nombreEs ?? e.nombre}`,
     reglas: (e.reglas ?? []).map(r => ({ nombre: `${r.id} ${r.titulo}`, parrafos: r.parrafos })),
   }], {

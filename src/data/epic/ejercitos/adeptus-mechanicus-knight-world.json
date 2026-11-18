@@ -10,7 +10,7 @@
    "nombre": "Knight Households",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Casas de Caballeros"
   },
   {
    "id": "support-households",
@@ -22,7 +22,7 @@
     "base": "knight household"
    },
    "notaEs": "Se puede desplegar como máximo una casa de apoyo por cada casa de caballeros.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Casas de apoyo"
   },
   {
    "id": "support-levy",
@@ -34,7 +34,7 @@
     "base": "knight household"
    },
    "notaEs": "Se puede desplegar como máximo una leva de apoyo por cada casa de caballeros.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Casas de apoyo"
   },
   {
    "id": "imperial-navy-aircraft",
@@ -42,7 +42,7 @@
    "tipo": "tercio",
    "nota": "Up to a fourth of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta una cuarta parte de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aeronaves de la Armada Imperial"
   }
  ],
  "formaciones": [
@@ -572,7 +572,7 @@
      "potencia": "Armas ligeras, AE(+1), DP"
     }
    ],
-   "notas": "Factor de Daños 2, Coraje, Inspirador, Escudo de Caballero, Blindaje Reforzado, Comandante en jefe, Bípode. Efecto de Impacto Crítico: destruida. Armado con un Guantelete de Energía y una Lanza de Choque, o con una Lanza de Energía."
+   "notas": "Factor de Daños 2, Coraje, Inspirador, Escudo de Caballero, Blindaje Reforzado, Comandante Supremo, Bípode. Efecto de Impacto Crítico: destruida. Armado con un Guantelete de Energía y una Lanza de Choque, o con una Lanza de Energía."
   },
   {
    "nombre": "Knight Castellan",

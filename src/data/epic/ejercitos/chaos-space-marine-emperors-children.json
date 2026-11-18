@@ -10,7 +10,7 @@
    "nombre": "Emperor's Children Retinues",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Séquitos de los Hijos del Emperador"
   },
   {
    "id": "emperors-children-elite-formations",
@@ -22,7 +22,7 @@
     "base": "retinue"
    },
    "notaEs": "Se puede desplegar una formación de élite por cada séquito.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Séquitos de los Hijos del Emperador"
   },
   {
    "id": "emperors-children-support-formations",
@@ -34,7 +34,7 @@
     "base": "retinue"
    },
    "notaEs": "Se puede desplegar una formación de apoyo por cada séquito.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo de los Hijos del Emperador"
   },
   {
    "id": "emperors-children-upgrades",
@@ -165,8 +165,8 @@
      "textoEs": "Campeón del Caos, Pacto Demoníaco, Garras del Terror, Dreadnoughts, Portaestandarte, Land Raiders, Rhinos"
     }
    ],
-   "nombreEs": "Marines del Ruido",
-   "unidadesEs": "Entre seis y diez Marines del Ruido, uno con un personaje Señor del Caos o Señor Hechicero"
+   "nombreEs": "Marines Ruidosos",
+   "unidadesEs": "Entre seis y diez Marines Ruidosos, uno con un personaje Señor del Caos o Señor Hechicero"
   },
   {
    "id": "emperors-children-support-formations-armoured-company",
@@ -224,8 +224,8 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "unidadesEs": "Un Harbinger",
-   "nombreEs": "Demonio Mayor"
+   "nombreEs": "Demonio Mayor",
+   "unidadesEs": "Un Harbinger"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-blades",
@@ -234,8 +234,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Una Thunderhawk del Caos",
-   "nombreEs": "Thunderhawk"
+   "nombreEs": "Thunderhawk",
+   "unidadesEs": "Una Thunderhawk del Caos"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -244,8 +244,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Entre cuatro y seis cualesquiera de: Caminante Infernal (50 c/u), Caballero Infernal (75 c/u), Azote Infernal (90 c/u)",
-   "nombreEs": "Manada de Caballeros"
+   "nombreEs": "Manada de Caballeros",
+   "unidadesEs": "Entre cuatro y seis cualesquiera de: Caminante Infernal (50 c/u), Caballero Infernal (75 c/u), Azote Infernal (90 c/u)"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
@@ -257,12 +257,14 @@
    "max": 1,
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 150
+     "nombre": "Devastation Class Cruiser",
+     "coste": 150,
+     "nombreEs": "Crucero clase Devastación"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 250
+     "nombre": "Despoiler Class Battleship",
+     "coste": 250,
+     "nombreEs": "Acorazado clase Despoiler"
     }
    ],
    "nombreEs": "Nave espacial",
@@ -284,8 +286,8 @@
    "unidades": "One Subjugator Titan",
    "coste": 250,
    "costeTexto": "250 points",
-   "unidadesEs": "Un Titán Subyugador",
-   "nombreEs": "Subyugador"
+   "nombreEs": "Subyugador",
+   "unidadesEs": "Un Titán Subyugador"
   },
   {
    "id": "chaos-war-engines-thunderhawk",
@@ -372,8 +374,8 @@
    "costeTexto": "+5 points per unit",
    "porUnidad": true,
    "max": 10,
-   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos",
-   "nombreEs": "Garras del Terror"
+   "nombreEs": "Garras del Terror",
+   "textoEs": "Transporta en Garras del Terror una formación que solo contenga unidades de infantería y Dreadnoughts del Caos"
   },
   {
    "id": "dreadnoughts",
@@ -423,8 +425,8 @@
    "texto": "Replace two or four Chaos Space Marines with an equal number of Noise Marines",
    "coste": 25,
    "costeTexto": "+25 or +50 points",
-   "nombreEs": "Marines del Ruido",
-   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Marines del Ruido"
+   "nombreEs": "Marines Ruidosos",
+   "textoEs": "Sustituye dos o cuatro Marines Espaciales del Caos por el mismo número de Marines Ruidosos"
   },
   {
    "id": "rhinos",
@@ -573,7 +575,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Icon Bearer",
@@ -756,7 +758,7 @@
   },
   {
    "nombre": "Noise Marines",
-   "nombreEs": "Marines del Ruido",
+   "nombreEs": "Marines Ruidosos",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",

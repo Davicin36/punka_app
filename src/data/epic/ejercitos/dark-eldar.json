@@ -11,7 +11,7 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos eldars oscuros"
   },
   {
    "id": "dark-eldar-kabals",
@@ -19,7 +19,7 @@
    "tipo": "nucleo",
    "nota": "Each formation may never exceed more than eight infantry units.",
    "notaEs": "Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Cábalas eldars oscuras"
   },
   {
    "id": "dark-eldar-partisans",
@@ -31,7 +31,7 @@
     "base": "kabal"
    },
    "notaEs": "Cada kábala que incluyas en el ejército te permite desplegar dos partisanos cualesquiera. Ninguna formación puede superar nunca las ocho unidades de infantería.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Partisanos eldars oscuros"
   },
   {
    "id": "dark-eldar-upgrades",
@@ -46,7 +46,7 @@
    "nombre": "Dark Eldar Transport",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Transporte eldar oscuro"
   },
   {
    "id": "dark-eldar-aircraft-spacecraft-and-other-horrors",
@@ -54,7 +54,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aeronaves, naves espaciales y otros horrores eldars oscuros"
   }
  ],
  "formaciones": [
@@ -66,8 +66,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "unidadesEs": "Sustituye un personaje Dracon por un Archon. El Archon debe ir en la formación Kabal Coterie si hay una en el ejército.",
-   "nombreEs": "Arconte"
+   "nombreEs": "Arconte",
+   "unidadesEs": "Sustituye un personaje Dracon por un Archon. El Archon debe ir en la formación Kabal Coterie si hay una en el ejército."
   },
   {
    "id": "dark-eldar-individuals-kashnarak",
@@ -229,8 +229,8 @@
     "Reavers",
     "Sybarite"
    ],
-   "nombreEs": "Banda de Reavers",
-   "unidadesEs": "Seis Reavers"
+   "nombreEs": "Banda de Planeadores Oscuros",
+   "unidadesEs": "Seis Planeadores Oscuros"
   },
   {
    "id": "dark-eldar-partisans-scourge-flight",
@@ -243,8 +243,8 @@
     "Scourges",
     "Sybarite"
    ],
-   "nombreEs": "Vuelo de Scourges",
-   "unidadesEs": "Seis Scourges"
+   "nombreEs": "Vuelo de Azotes",
+   "unidadesEs": "Seis Azotes"
   },
   {
    "id": "dark-eldar-partisans-talos-swarm",
@@ -302,8 +302,8 @@
    "unidades": "Add up to four Raiders",
    "coste": 0,
    "costeTexto": "Free",
-   "unidadesEs": "Añade hasta cuatro Incursores",
-   "nombreEs": "Incursor (Raider)"
+   "nombreEs": "Incursor (Raider)",
+   "unidadesEs": "Añade hasta cuatro Incursores"
   },
   {
    "id": "dark-eldar-transport-slavebringer",
@@ -367,12 +367,24 @@
    "max": 1,
    "tamanos": [
     {
-     "nombre": "Opción 1",
-     "coste": 300
+     "nombre": "Torture Class Cruiser",
+     "coste": 300,
+     "nombreEs": "Crucero clase Tortura"
     },
     {
-     "nombre": "Opción 2",
-     "coste": 150
+     "nombre": "1 Corsair Class Escort",
+     "coste": 150,
+     "nombreEs": "1 Escolta clase Corsario"
+    },
+    {
+     "nombre": "2 Corsair Class Escorts",
+     "coste": 300,
+     "nombreEs": "2 Escoltas clase Corsario"
+    },
+    {
+     "nombre": "3 Corsair Class Escorts",
+     "coste": 450,
+     "nombreEs": "3 Escoltas clase Corsario"
     }
    ],
    "nombreEs": "Nave Espacial",
@@ -385,8 +397,8 @@
    "unidades": "One Tormentor Titan",
    "coste": 500,
    "costeTexto": "500 points",
-   "unidadesEs": "Un Titán Atormentador",
-   "nombreEs": "Atormentador"
+   "nombreEs": "Atormentador",
+   "unidadesEs": "Un Titán Atormentador"
   }
  ],
  "mejoras": [
@@ -406,8 +418,8 @@
    "texto": "Add one Haemonculi unit and one Grotesques unit, plus transport",
    "coste": 100,
    "costeTexto": "+100 points",
-   "textoEs": "Añade una unidad de Hemónculos y una de Grotescos, más transporte",
-   "nombreEs": "Hemónculos"
+   "nombreEs": "Hemónculos",
+   "textoEs": "Añade una unidad de Hemónculos y una de Grotescos, más transporte"
   },
   {
    "id": "hellions",
@@ -425,8 +437,8 @@
    "texto": "Add two Incubi plus transport",
    "coste": 75,
    "costeTexto": "+75 points",
-   "textoEs": "Añade dos Íncubos más transporte",
-   "nombreEs": "Íncubos"
+   "nombreEs": "Íncubos",
+   "textoEs": "Añade dos Íncubos más transporte"
   },
   {
    "id": "mandrakes",
@@ -435,8 +447,8 @@
    "texto": "Add two Mandrakes",
    "coste": 75,
    "costeTexto": "+75 points",
-   "textoEs": "Añade dos Mandrágoras",
-   "nombreEs": "Mandrágoras"
+   "nombreEs": "Mandrágoras",
+   "textoEs": "Añade dos Mandrágoras"
   },
   {
    "id": "perditors",
@@ -465,7 +477,8 @@
    "texto": "Add two Reavers",
    "coste": 50,
    "costeTexto": "+50 points",
-   "textoEs": "Añade dos Reavers"
+   "textoEs": "Añade dos Planeadores Oscuros",
+   "nombreEs": "Planeadores Oscuros"
   },
   {
    "id": "scourges",
@@ -474,7 +487,8 @@
    "texto": "Add two Scourges",
    "coste": 75,
    "costeTexto": "+75 points",
-   "textoEs": "Añade dos Scourges"
+   "textoEs": "Añade dos Azotes",
+   "nombreEs": "Azotes"
   },
   {
    "id": "sybarite",
@@ -483,8 +497,8 @@
    "texto": "Add a maximum of one Sybarite character to any unit in the formation",
    "coste": 25,
    "costeTexto": "+25 points",
-   "textoEs": "Añade como máximo un personaje Sibarita a cualquier unidad de la formación",
-   "nombreEs": "Sibarita"
+   "nombreEs": "Sibarita",
+   "textoEs": "Añade como máximo un personaje Sibarita a cualquier unidad de la formación"
   },
   {
    "id": "talos",
@@ -514,8 +528,8 @@
    "texto": "Add two Warp Beasts",
    "coste": 50,
    "costeTexto": "+50 points",
-   "nombreEs": "Bestias Disformes",
-   "textoEs": "Añade dos Bestias Disformes"
+   "nombreEs": "Bestias de la Disformidad",
+   "textoEs": "Añade dos Bestias de la Disformidad"
   },
   {
    "id": "warriors",
@@ -582,7 +596,7 @@
    "id": "6.13.3",
    "titulo": "El Kashnarak",
    "parrafos": [
-    "El Kashnarak es un animal enorme y enfurecido que se cuela por un portal de la Telaraña y se suelta en el campo de batalla al comienzo del turno que deseen los Eldars Oscuros (antes de la tirada de estrategia), y actúa como un «tercer» jugador. Siempre intentará un asalto de combate cuerpo a cuerpo, apartando a empujones, contra la formación o formaciones más cercanas, ¡incluso formaciones eldars oscuras! Si no puede llegar al contacto peana con peana, la bestia marchará hacia la formación más cercana hasta su movimiento máximo. Si llega a una zona de control enemiga, la bestia detiene su movimiento. Los movimientos de consolidación también se dirigen hacia la formación más cercana. A partir de entonces, es la primera activación de los turnos siguientes, antes de la tirada de estrategia o del teletransporte, siguiendo el patrón anterior. Un Kashnarak desmoralizado permanecerá en su sitio sobre el tablero y no intentará moverse hasta que se reorganice. Las excepciones se dan en presencia de una unidad de Brujas (Wyches). Si al comienzo de la activación del Kashnarak (véase arriba) hay una unidad de Brujas a 15 cm o menos, el jugador eldar oscuro puede dirigir su asalto o movimiento. Esto incluye una unidad de Brujas a 15 cm o menos del portal de la Telaraña del Kashnarak. Además, el Kashnarak nunca se moverá hacia una formación de Brujas ni la asaltará; en su lugar, elegirá la siguiente formación más cercana. Estas acciones dirigidas siguen teniendo lugar antes de la tirada de estrategia del turno. Independientemente de sus acciones, el Kashnarak no se considera parte de la fuerza eldar oscura a efectos de colocar formaciones, mantener objetivos, calcular fuego cruzado, ni determinar las condiciones de victoria y el desempate. No cuenta para las activaciones eldars oscuras ni para el uso de los Portales de la Telaraña. No se beneficia de las Tácticas de ataque y retirada. El Kashnarak puede disputar objetivos tanto a los Eldars Oscuros (salvo cuando está a 15 cm o menos de una unidad de Brujas) como a sus oponentes.",
+    "El Kashnarak es un animal enorme y enfurecido que se cuela por un portal de la Telaraña y se suelta en el campo de batalla al comienzo del turno que deseen los Eldars Oscuros (antes de la tirada de estrategia), y actúa como un «tercer» jugador. Siempre intentará un asalto de combate cuerpo a cuerpo, apartando a empujones, contra la formación o formaciones más cercanas, ¡incluso formaciones eldars oscuras! Si no puede llegar al contacto peana con peana, la bestia marchará hacia la formación más cercana hasta su movimiento máximo. Si llega a una zona de control enemiga, la bestia detiene su movimiento. Los movimientos de consolidación también se dirigen hacia la formación más cercana. A partir de entonces, es la primera activación de los turnos siguientes, antes de la tirada de estrategia o del teletransporte, siguiendo el patrón anterior. Un Kashnarak desmoralizado permanecerá en su sitio sobre el tablero y no intentará moverse hasta que se reorganice. Las excepciones se dan en presencia de una unidad de Brujas (Brujas). Si al comienzo de la activación del Kashnarak (véase arriba) hay una unidad de Brujas a 15 cm o menos, el jugador eldar oscuro puede dirigir su asalto o movimiento. Esto incluye una unidad de Brujas a 15 cm o menos del portal de la Telaraña del Kashnarak. Además, el Kashnarak nunca se moverá hacia una formación de Brujas ni la asaltará; en su lugar, elegirá la siguiente formación más cercana. Estas acciones dirigidas siguen teniendo lugar antes de la tirada de estrategia del turno. Independientemente de sus acciones, el Kashnarak no se considera parte de la fuerza eldar oscura a efectos de colocar formaciones, mantener objetivos, calcular fuego cruzado, ni determinar las condiciones de victoria y el desempate. No cuenta para las activaciones eldars oscuras ni para el uso de los Portales de la Telaraña. No se beneficia de las Tácticas de ataque y retirada. El Kashnarak puede disputar objetivos tanto a los Eldars Oscuros (salvo cuando está a 15 cm o menos de una unidad de Brujas) como a sus oponentes.",
     "FAQ",
     "P: ¿Necesita el Kashnarak superar un chequeo de acción?",
     "R: Sí; tiene un valor de iniciativa de 2+.",
@@ -622,7 +636,7 @@
     "Portales de la Telaraña: Los Eldars Oscuros usan estos pequeños portales tanto como los eldars. Permiten viajar con seguridad por la Disformidad; cada Portal de la Telaraña incluido en el ejército permite al jugador eldar oscuro mantener hasta tres formaciones en Commorragh. Cualquiera de estas formaciones en reserva puede entrar en juego a través de un Portal realizando una acción que le permita mover, midiendo su primer movimiento desde el portal sobre la mesa. No puede pasar más de una formación por un mismo portal en cada turno. El uso de las Portales Espectrales (Wraithgate) está limitado a formaciones compuestas exclusivamente por infantería, vehículos ligeros y vehículos blindados con la capacidad de Bípode (el temido Kashnarak es la excepción a la regla).",
     "Campos de Sombras (Shadowfields): Las Máquinas de Guerra eldars oscuras están envueltas en pantallas de energía que absorben la luz y les sirven de poderosa defensa contra los cañones masivos de sus presas acorraladas. Cada campo de sombras absorbe un impacto con éxito antes de caer; este impacto no causa Marcadores de Explosión (esto incluye el tiroteo, pero no el combate cuerpo a cuerpo). Una Máquina de Guerra al que le quede al menos un campo de sombras recobra automáticamente un campo adicional al final de la fase de reorganización de cada turno. Si los campos de sombras quedan completamente anulados, no volverán durante el resto de la partida. La Máquina de Guerra nunca puede tener más campos de sombras de los asignados originalmente. Además, un Campo de Sombras activo siempre cuenta como a cubierto (aplica el modificador de -1 por cobertura). Esto no tiene efecto en sus combates, ni en combate cuerpo a cuerpo ni en tiroteo.",
     "FAQ",
-    "P: ¿Cuentan las Brujas y las Bestias Disformes como si tuvieran blindaje 5+ cuando reciben fuego de Fuego de Supresión al hacer un movimiento de carga?",
+    "P: ¿Cuentan las Brujas y las Bestias de la Disformidad como si tuvieran blindaje 5+ cuando reciben fuego de Fuego de Supresión al hacer un movimiento de carga?",
     "R: No."
    ]
   }
@@ -643,7 +657,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Inspirador, Salvación Invulnerable, Comandante en jefe."
+   "notas": "Inspirador, Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Dracon",
@@ -769,6 +783,7 @@
   },
   {
    "nombre": "Reavers",
+   "nombreEs": "Planeadores Oscuros",
    "tipo": "INF",
    "velocidad": "40cm",
    "blindaje": "4+",
@@ -785,6 +800,7 @@
   },
   {
    "nombre": "Scourges",
+   "nombreEs": "Azotes",
    "tipo": "INF",
    "velocidad": "30cm",
    "blindaje": "6+",
@@ -806,6 +822,7 @@
   },
   {
    "nombre": "Warp Beasts",
+   "nombreEs": "Bestias de la Disformidad",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "(5+)",
@@ -839,6 +856,7 @@
   },
   {
    "nombre": "Wyches",
+   "nombreEs": "Brujas",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "(5+)",
@@ -873,7 +891,7 @@
      "potencia": "AP6+, D"
     }
    ],
-   "notas": "Gravitatorio, Transporte. Puede transportar dos unidades de infantería (excepto Bestias Disformes) sin Retrorreactores ni Montado; más una unidad de Mandrágoras. Las unidades transportadas no tienen que desembarcar para disparar o usar su tiroteo si esta unidad puede disparar, asaltar o prestar apoyo."
+   "notas": "Gravitatorio, Transporte. Puede transportar dos unidades de infantería (excepto Bestias de la Disformidad) sin Retrorreactores ni Montado; más una unidad de Mandrágoras. Las unidades transportadas no tienen que desembarcar para disparar o usar su tiroteo si esta unidad puede disparar, asaltar o prestar apoyo."
   },
   {
    "nombre": "Ravager",
@@ -1071,12 +1089,12 @@
      "potencia": "MA3+, MT"
     },
     {
-     "nombre": "2× Cañón de astillas de ca ‐",
+     "nombre": "2× Cañón de astillas de cañón",
      "alcance": "45cm",
      "potencia": "AP5+"
     },
     {
-     "nombre": "ñón largo Desolador",
+     "nombre": "largo Desolador",
      "alcance": "30cm",
      "potencia": "2PA, D"
     }
@@ -1120,12 +1138,12 @@
      "potencia": "MA3+, FxF, Baj, MT"
     },
     {
-     "nombre": "2× Cañón de astillas de ca ‐",
+     "nombre": "2× Cañón de astillas de cañón",
      "alcance": "30cm",
      "potencia": "AP5+/AA5+, FxF"
     },
     {
-     "nombre": "ñón largo Horrorfex",
+     "nombre": "largo Horrorfex",
      "alcance": "15cm",
      "potencia": "AP6+, D"
     }

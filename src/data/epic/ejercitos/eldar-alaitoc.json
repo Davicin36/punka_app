@@ -11,14 +11,14 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos del Mundo Astronave de Alaitoc"
   },
   {
    "id": "alaitoc-craftworld-warhosts",
    "nombre": "Alaitoc Craftworld Warhosts",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos del Mundo Astronave de Alaitoc"
   },
   {
    "id": "alaitoc-craftworld-troupes",
@@ -30,7 +30,7 @@
     "base": "warhost"
    },
    "notaEs": "Cada hueste que incluyas en el ejército te permite desplegar tres séquitos de guerra cualesquiera.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Troupes de Alaitoc"
   },
   {
    "id": "alaitoc-craftworld-spacecraft-aircraft-titans",
@@ -38,7 +38,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Naves espaciales, aeronaves y Titanes de Alaitoc"
   }
  ],
  "formaciones": [
@@ -60,8 +60,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego.",
-   "nombreEs": "Portal Espectral"
+   "nombreEs": "Portal Espectral",
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego."
   },
   {
    "id": "alaitoc-craftworld-warhosts-guardian",
@@ -274,8 +274,8 @@
    "unidades": "One Phantom Titan",
    "coste": 750,
    "costeTexto": "750 points",
-   "unidadesEs": "Un Titán Fantasma",
-   "nombreEs": "Fantasma"
+   "nombreEs": "Fantasma",
+   "unidadesEs": "Un Titán Fantasma"
   },
   {
    "id": "alaitoc-craftworld-spacecraft-aircraft-titans-phoenix",
@@ -284,8 +284,8 @@
    "unidades": "Three Phoenix Bombers",
    "coste": 325,
    "costeTexto": "325 points",
-   "unidadesEs": "Tres Bombarderos Fénix",
-   "nombreEs": "Fénix"
+   "nombreEs": "Fénix",
+   "unidadesEs": "Tres Bombarderos Fénix"
   },
   {
    "id": "alaitoc-craftworld-spacecraft-aircraft-titans-revenants",
@@ -305,7 +305,19 @@
    "costeTexto": "150 points 300 points",
    "max": 1,
    "nombreEs": "Nave Espacial",
-   "unidadesEs": "Una de: Nave Espectral (150) o Nave Dragón (300)"
+   "unidadesEs": "Una de: Nave Espectral (150) o Nave Dragón (300)",
+   "tamanos": [
+    {
+     "nombre": "Wraithship",
+     "coste": 150,
+     "nombreEs": "Nave Espectral"
+    },
+    {
+     "nombre": "Dragonship",
+     "coste": 300,
+     "nombreEs": "Nave Dragón"
+    }
+   ]
   },
   {
    "id": "alaitoc-craftworld-spacecraft-aircraft-titans-vampire",
@@ -324,8 +336,8 @@
    "coste": 850,
    "costeTexto": "850 points",
    "max": 1,
-   "unidadesEs": "Un Titán Brujo",
-   "nombreEs": "Brujo"
+   "nombreEs": "Brujo",
+   "unidadesEs": "Un Titán Brujo"
   }
  ],
  "mejoras": [],
@@ -343,8 +355,8 @@
     "Reglas especiales: La regla Tácticas de ataque y retirada se aplica a todas las formaciones eldars (véase 5.6.2). Además, ciertas unidades y armas tienen capacidades especiales descritas en Videncia (véase 5.6.1) y Tecnología Eldar (véase 5.6.3). I N I C I AT I VA FACTOR DE E STRATEGIA: 4",
     "Las formaciones de Avatar, Guerreros Aspecto, Fantasma, Revenants y Brujo tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
-    "• Avatar (0–1 por ejército, gratis): en la fase de estrategia de cualquier turno, coloca el Avatar a 15 cm o menos de un Vidente antes de hacer la tirada de estrategia. El Avatar cuenta como formación propia y solo puede entrar en juego de este modo. En la fase de finalización de ese turno, quita el Avatar",
-    "antes de reorganizar formaciones. Una vez retirado, no puede volver.",
+    "• Avatar (0–1 por ejército, gratis): en la fase de estrategia de cualquier turno, coloca el Avatar a 15 cm o menos de un Vi‐",
+    "dente antes de hacer la tirada de estrategia. El Avatar cuenta como formación propia y solo puede entrar en juego de este modo. En la fase de finalización de ese turno, quita el Avatar antes de reorganizar formaciones. Una vez retirado, no puede volver.",
     "• Portal Espectral (Wraithgate) (0–1 por ejército, +50 puntos): al empezar la partida, antes de colocar naves espaciales y patrullas, designa un objetivo de tu mitad de la mesa como Portal Espectral. Funciona a la vez como Portal de la Telaraña y como objetivo a efectos de reglas, y no puede ser destruido. Solo pueden usarlo para entrar en juego las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con Bípode.",
     "• Guerreros Aspecto: pueden añadir hasta un personaje Autarca por ejército (+75) o un Exarca (+25)."
    ]
@@ -412,17 +424,17 @@
    "ff": "n/a",
    "armas": [
     {
-     "nombre": "Arma a distancia del Autar ‐",
+     "nombre": "Arma a distancia del Autarca",
      "alcance": "(15cm)",
      "potencia": "Armas ligeras, AE(+1)"
     },
     {
-     "nombre": "ca Arma de combate del Au tarca",
+     "nombre": "Arma de combate del Au tarca",
      "alcance": "(peana)",
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Inspirador, Salvación Invulnerable, Comandante en jefe."
+   "notas": "Inspirador, Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Exarch",
@@ -632,6 +644,7 @@
   },
   {
    "nombre": "Shining Spears",
+   "nombreEs": "Lanzas Brillantes",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -993,12 +1006,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Láser de pulsos Reve ‐",
+     "nombre": "2× Láser de pulsos Revenant",
      "alcance": "45cm",
      "potencia": "2× MA3+"
     },
     {
-     "nombre": "nant 2× Lanzamisiles eldar",
+     "nombre": "2× Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     }
@@ -1036,12 +1049,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Láser de pulsos de la Ser ‐",
+     "nombre": "Láser de pulsos de la Serpiente",
      "alcance": "45cm",
      "potencia": "2× AT3+"
     },
     {
-     "nombre": "piente de Tormenta Láser de dispersión",
+     "nombre": "de Tormenta Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }

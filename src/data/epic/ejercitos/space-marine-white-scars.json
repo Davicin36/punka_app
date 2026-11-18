@@ -10,7 +10,7 @@
    "nombre": "White Scar Detachments",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Destacamentos de las Cicatrices Blancas"
+   "nombreEs": "Formaciones aliadas imperiales y de aeronaves"
   },
   {
    "id": "white-scar-upgrades",
@@ -272,13 +272,13 @@
      "coste": 10,
      "porUnidad": true,
      "texto": "+10 points each",
-     "textoEs": "+10 puntos cada uno"
+     "textoEs": "Sustituye hasta siete Motos de Ataque por el mismo número de Motocicletas de las Cicatrices Blancas o Motos de Ataque con Multifusión (+10 c/u)"
     },
     {
      "coste": 75,
      "porUnidad": false,
      "texto": "+75 points",
-     "textoEs": "+75 puntos"
+     "textoEs": "Sustituye ocho Motos de Ataque por ocho Motocicletas de las Cicatrices Blancas o Motos de Ataque con Multifusión (+75)"
     }
    ],
    "nombreEs": "Motocicletas",
@@ -306,7 +306,7 @@
     }
    ],
    "nombreEs": "Comandante",
-   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Capitán, Capellán, Bibliotecario 0–1 Comandante en jefe por ejército"
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Capitán, Capellán, Bibliotecario 0–1 Comandante Supremo por ejército"
   },
   {
    "id": "hunter",
@@ -360,11 +360,11 @@
    "costeTexto": "+50 points each +75 points per pair",
    "porUnidad": true,
    "max": 2,
-   "textoEs": "Añade hasta dos Vindicators de las Cicatrices Blancas",
    "parejas": {
     "cada": 50,
     "pareja": 75
-   }
+   },
+   "textoEs": "Añade hasta dos Vindicators de las Cicatrices Blancas"
   }
  ],
  "compras": [],
@@ -385,7 +385,7 @@
     "Las formaciones de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Cada mejora puede adquirirse una vez por destacamento.",
-    "• Comandante (+50): añade un personaje Capitán, Capellán o Bibliotecario a cualquier unidad de la formación. 0–1 Comandante en jefe por ejército (+100).",
+    "• Comandante (+50): añade un personaje Capitán, Capellán o Bibliotecario a cualquier unidad de la formación. 0–1 Comandante Supremo por ejército (+100).",
     "• 0–1 Crucero de Asalto por ejército (puede sustituirse por una Barcaza de Batalla).",
     "• Motocicletas: sustituye hasta siete Motos de Ataque por Motocicletas de las Cicatrices Blancas o Motos de Ataque con Multifusión (+10 c/u), o las ocho por +75 puntos.",
     "• Como aliados de la Legión de Titanes solo pueden elegirse Warhound o Manada Warhound."
@@ -507,7 +507,7 @@
   },
   {
    "nombre": "Supreme Commander",
-   "nombreEs": "Comandante en jefe",
+   "nombreEs": "Comandante Supremo",
    "tipo": "PJ",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -520,7 +520,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Salvación Invulnerable, Comandante en jefe."
+   "notas": "Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Assault",

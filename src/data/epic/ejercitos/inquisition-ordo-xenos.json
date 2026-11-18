@@ -10,7 +10,7 @@
    "nombre": "Deathwatch Detachments",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones aliadas imperiales y de aeronaves"
   },
   {
    "id": "inducted-imperial-guard-and-inquisitorial-support-formations",
@@ -22,7 +22,7 @@
     "base": "Deathwatch detachment"
    },
    "notaEs": "Se puede desplegar una formación de apoyo de Inducted Imperial Guard o inquisitorial por cada destacamento de Deathwatch.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales"
   },
   {
    "id": "ordo-xenos-upgrades",
@@ -357,7 +357,7 @@
     }
    ],
    "nombreEs": "Comandante",
-   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Capitán, Capellán, Bibliotecario 0–1 Comandante en jefe por ejército"
+   "textoEs": "Añade uno de estos personajes a cualquier unidad de la formación: Capitán, Capellán, Bibliotecario 0–1 Comandante Supremo por ejército"
   },
   {
    "id": "commissar",
@@ -409,11 +409,11 @@
    "costeTexto": "+75 points each +125 points per pair",
    "porUnidad": true,
    "max": 20,
-   "textoEs": "Añade Land Raiders, hasta el número necesario para transportar la formación",
    "parejas": {
     "cada": 75,
     "pareja": 125
-   }
+   },
+   "textoEs": "Añade Land Raiders, hasta el número necesario para transportar la formación"
   },
   {
    "id": "inquisitor-lord",
@@ -460,14 +460,15 @@
    "parrafos": [
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.35, 5.3 y 5.4.",
     "Uso de la lista de ejército: Esta lista permite desplegar un ejército basado en el Ordo Xenos de la Inquisición.",
-    "Las formaciones del Ordo Xenos son de dos tipos: destacamentos Deathwatch y formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales. Cada destacamento que incluyas en el ejército te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un destacamento, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejoras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
+    "Las formaciones del Ordo Xenos son de dos tipos: destacamentos Deathwatch y formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales. Cada destacamento que incluyas en el ejército te permite desplegar una formación de apoyo cualquiera. Aunque solo puedes llevar una formación de apoyo si antes llevas un destacamento, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las formaciones pueden recibir mejoras. Cada tipo de mejora solo puede adquirirse una vez por formación. Las mejo‐",
+    "ras se añaden a la formación y no son una formación independiente. Cada mejora adquirida se suma al coste de la formación, según la tabla de mejoras.",
     "Los ejércitos del Ordo Xenos pueden recibir apoyo de formaciones de aeronaves de la Armada Imperial, grupos de batalla de la Legión de Titanes o aeronaves Deathwatch. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército.",
     "Reglas especiales: La regla No Conocerán el Miedo se aplica a todas las formaciones de destacamento Deathwatch (véase 5.1.1).",
     "I N I C I AT I VA FACTOR DE E STRATEGIA: 5",
     "Las formaciones de apoyo de Guardia Imperial reclutada e Inquisitoriales y las de aeronaves de la Armada Imperial tienen un valor de iniciativa de 2+. Todas las demás formaciones tienen un valor de iniciativa de 1+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• Puede desplegarse una formación de apoyo de Guardia Imperial reclutada o Inquisitorial por cada destacamento Deathwatch.",
-    "• 0–1 Comandante en jefe, 0–1 Lord Inquisidor (se añade a una unidad de Inquisidor del Ordo Xenos) y 0–1 Crucero de Asalto por ejército."
+    "• 0–1 Comandante Supremo, 0–1 Lord Inquisidor (se añade a una unidad de Inquisidor del Ordo Xenos) y 0–1 Crucero de Asalto por ejército."
    ]
   },
   {
@@ -482,8 +483,7 @@
    "id": "6.35.2",
    "titulo": "Reglas especiales de torneo del Ordo",
    "parrafos": [
-    "Xenos Las Lanzaderas de Desembarco (Landing Craft) y las Cañoneras Thunderhawk solo pueden transportar destacamentos Deathwatch. No están configuradas para transportar vehículos de la Guardia Imperial reclutada, ni los Guardias Imperiales ni los agentes inquisitoriales están entrenados en los procedimien‐",
-    "tos de embarque adecuados para las aeronaves del Adeptus Astartes."
+    "Xenos Las Lanzaderas de Desembarco (Landing Craft) y las Cañoneras Thunderhawk solo pueden transportar destacamentos Deathwatch. No están configuradas para transportar vehículos de la Guardia Imperial reclutada, ni los Guardias Imperiales ni los agentes inquisitoriales están entrenados en los procedimientos de embarque adecuados para las aeronaves del Adeptus Astartes."
    ]
   },
   {
@@ -619,7 +619,7 @@
   },
   {
    "nombre": "Supreme Commander",
-   "nombreEs": "Comandante en jefe",
+   "nombreEs": "Comandante Supremo",
    "tipo": "PJ",
    "velocidad": "—",
    "blindaje": "n/a",
@@ -632,7 +632,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Salvación Invulnerable, Comandante en jefe."
+   "notas": "Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Deathwatch Assault",

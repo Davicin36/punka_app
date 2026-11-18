@@ -10,7 +10,7 @@
    "nombre": "Ork Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones orkas"
   },
   {
    "id": "ork-aircraft-formations",
@@ -18,7 +18,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones orkas de aeronaves"
   }
  ],
  "formaciones": [
@@ -51,21 +51,21 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+25 c/u: Boyz, Guntrukk, Skorcha, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Chicoz, Kamión Kañonero, Skorcha, Motos Orkas, Buggie de Guerra"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+35 c/u: Deth Kopta, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Koptero, Flakwagon, Kamión"
     },
     {
      "texto": "Add up to one of the following units for +35 points each: Nobz (and a Trukk), Nob Warbikes",
      "coste": 35,
      "porUnidad": true,
      "max": 1,
-     "textoEs": "Hasta uno de Nobz (y un Trukk) o Nob Warbikes por +35"
+     "textoEs": "Hasta uno de Noblez (y un Trukk) o Noblez en Moto de Guerra por +35"
     },
     {
      "texto": "Add up to one Mekboy Speedsta for +50 points",
@@ -81,7 +81,7 @@
     }
    ],
    "nombreEs": "Brigada Blitz",
-   "unidadesEs": "Cuatro cualesquiera de: Deth Kopta, Flakwagon, Gunwagon"
+   "unidadesEs": "Cuatro cualesquiera de: Koptero, Flakwagon, Kamión"
   },
   {
    "id": "ork-formations-fortress-mob",
@@ -112,7 +112,7 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+25 c/u: Boyz"
+     "textoEs": "+25 c/u: Chicoz"
     },
     {
      "texto": "Add any number of Flakwagons for +35 points each",
@@ -126,7 +126,7 @@
      "coste": 35,
      "porUnidad": true,
      "max": 1,
-     "textoEs": "Hasta uno de Nobz (y un Trukk) o Nob Warbikes por +35"
+     "textoEs": "Hasta uno de Noblez (y un Trukk) o Noblez en Moto de Guerra por +35"
     },
     {
      "texto": "Add any number of Battlefortresses for +115 points each",
@@ -192,19 +192,19 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+25 c/u: Guntrukk, Skorcha, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Kamión Kañonero, Skorcha, Motos Orkas, Buggie de Guerra"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Deth Kopta, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+35 c/u: Deth Kopta, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Koptero, Flakwagon, Kamión"
     },
     {
      "texto": "Add up to one Nob Warbikes for +35 points",
      "coste": 35,
-     "textoEs": "Hasta un Nob Warbikes por +35"
+     "textoEs": "Hasta una unidad de Noblez en Moto de Guerra por +35"
     },
     {
      "texto": "Add up to one Mekboy Speedsta for +50 points",
@@ -213,7 +213,7 @@
     }
    ],
    "nombreEs": "Kulto de la Velocidad",
-   "unidadesEs": "Ocho cualesquiera de: Guntrukk, Skorcha, Warbikes, Warbuggy"
+   "unidadesEs": "Ocho cualesquiera de: Kamión Kañonero, Skorcha, Motos Orkas, Buggie de Guerra"
   },
   {
    "id": "ork-formations-warband",
@@ -244,19 +244,19 @@
      "coste": 25,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+25 c/u: Big Gunz, Boyz y un Trukk, Guntrukk, Skorcha, Stormboyz, Warbikes, Warbuggy"
+     "textoEs": "+25 c/u: Zakeadores Orkos, Chicoz y un Trukk, Kamión Kañonero, Skorcha, Tropas de Asalto, Motos Orkas, Buggie de Guerra"
     },
     {
      "texto": "Add any number of the following units for +35 points each: Battlewagon, Deth Kopta, Flakwagon, Gunwagon",
      "coste": 35,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "+35 c/u: Battlewagon, Deth Kopta, Flakwagon, Gunwagon"
+     "textoEs": "+35 c/u: Karro de Guerra, Koptero, Flakwagon, Kamión"
     },
     {
      "texto": "Add up to one Nobz (and a Trukk) for +35 points",
      "coste": 35,
-     "textoEs": "Hasta un Nobz (y un Trukk) por +35"
+     "textoEs": "Hasta una unidad de Noblez (y un Trukk) por +35"
     },
     {
      "texto": "Add up to one Mekboy Speedsta for +50 points",
@@ -268,11 +268,11 @@
      "coste": 0,
      "porUnidad": true,
      "max": 20,
-     "textoEs": "Sustituye cualquier número de Nobz (y Trukk) por el mismo número de Nob Warbikes gratis"
+     "textoEs": "Sustituye cualquier número de Noblez (y Trukk) por el mismo número de Noblez en Moto de Guerra gratis"
     }
    ],
    "nombreEs": "Partida de Guerra",
-   "unidadesEs": "Un Nobz, tres Boyz y cuatro Trukks, más cuatro cualesquiera de: Guntrukk, Skorcha, Warbikes, Warbuggy"
+   "unidadesEs": "Un Noblez, tres Chicoz y cuatro Trukks, más cuatro cualesquiera de: Kamión Kañonero, Skorcha, Motos Orkas, Buggie de Guerra"
   },
   {
    "id": "ork-formations-warbike-outriders",
@@ -299,8 +299,8 @@
    ],
    "nota": "All units in the formation have Scout",
    "notaEs": "Todas las unidades de la formación tienen Scout",
-   "nombreEs": "Batidores en Warbikes",
-   "unidadesEs": "Cinco Warbikes. Nota: todas las unidades de la formación tienen Explorador"
+   "nombreEs": "Batidores en Motos Orkas",
+   "unidadesEs": "Cinco Motos Orkas. Nota: todas las unidades de la formación tienen Explorador"
   },
   {
    "id": "ork-aircraft-formations-fighta-sqwadron",
@@ -326,13 +326,13 @@
  "compras": [],
  "fraccionAliados": 0.3333333333333333,
  "nombreEs": "Orkos – Lokoz de la Velozidad",
- "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor).",
+ "iniciativaEs": "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al activarse (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor).",
  "reglas": [
   {
    "id": "6.10",
    "titulo": "Lista de ejército de los Lokoz de la Velozidad de la Muerte Ardiente",
    "parrafos": [
-    "Abajo había una especie de depósito de suministros humano, con pilas de cajas y barriles, y guardias imperiales correteando para apagar incendios. Skargrim sonrió e hizo sonar el cuerno del ¡Waaagh! antes de dar una patada a su conductor para que fuera más deprisa. A su alrededor, los vehículos en masa del Kulto de la Velocidad se lanzaron a toda máquina contra los atónitos humanos. Buggies de guerra competían con motos y Traks por cubrir terreno más rápido, y camiones repletos de Boyz se embestían entre sí por adelantarse, mientras los gritos de los pielesverdes se perdían en el estruendo de los motores. La columna de vehículos destartalados y rugientes serpenteaba como un ser vivo al converger sobre su presa.",
+    "Abajo había una especie de depósito de suministros humano, con pilas de cajas y barriles, y guardias imperiales correteando para apagar incendios. Skargrim sonrió e hizo sonar el cuerno del ¡Waaagh! antes de dar una patada a su conductor para que fuera más deprisa. A su alrededor, los vehículos en masa del Kulto de la Velocidad se lanzaron a toda máquina contra los atónitos humanos. Buggies de guerra competían con motos y Traks por cubrir terreno más rápido, y camiones repletos de Chicoz se embestían entre sí por adelantarse, mientras los gritos de los pielesverdes se perdían en el estruendo de los motores. La columna de vehículos destartalados y rugientes serpenteaba como un ser vivo al converger sobre su presa.",
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.10.",
     "Uso de la lista de ejército: Las formaciones orkas varían mucho en tamaño y composición. Los tipos de formación que puedes elegir se muestran en la lista que sigue, con la misma in‐",
     "formación que en 6.5 (Tipo, Unidades principales, Coste y Unidades adicionales). El jugador orko puede duplicar o triplicar las unidades principales de una formación: con el doble es una formación grande (big) y con el triple, una enorme (’uge); si una formación solo tiene un coste, no puede aumentarse de tamaño. Si hay un límite de unidades adicionales, se duplica en una formación grande y se triplica en una enorme. Todas las unidades principales, adicionales y gratuitas de una formación orka cuentan como parte de una única formación, y las unidades no pueden separarse para moverse por su cuenta. Puede gastarse en aeronaves y Gargantes hasta un tercio de los puntos disponibles de un ejército orko.",
@@ -340,8 +340,8 @@
     "Todas las formaciones tienen un valor de iniciativa de 3+, pero reciben modificadores según la acción elegida al hacer una tirada de acción (véase El Poder del ¡Waaagh!) o según el tamaño de la formación al reorganizarse (véase Cuantoz máz mejor).",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
     "• 0–1 Kill Kroozer por ejército.",
-    "• Batidores en Warbikes: todas las unidades de la formación tienen Explorador.",
-    "• En la Partida de Guerra pueden sustituirse gratis Nobz (y su Trukk) por Nob Warbikes.",
+    "• Batidores en Motos Orkas: todas las unidades de la formación tienen Explorador.",
+    "• En la Partida de Guerra pueden sustituirse gratis Noblez (y su Trukk) por Noblez en Moto de Guerra.",
     "• Mekániko Speedsta: hasta uno por formación, y solo en la Brigada Blitz, el Kulto de la Velocidad y la Partida de Guerra."
    ]
   },
@@ -349,7 +349,7 @@
    "id": "6.10.1",
    "titulo": "Reglas especiales de torneo de los Lokoz de la Velozidad",
    "parrafos": [
-    "Todo ejército orko Speed Freek debe incluir una unidad de Mekboy Bad Ork Bikerboy. La unidad es gratuita, no tienes que pagar puntos por él, y puede añadirse a cualquier formación del ejército. Toda unidad de un ejército Speed Freek debe tener una velocidad de 30 cm o más, o ir transportada en una unidad con velocidad de 30 cm o más. Es decir, las formaciones no pueden incluir unidades con velocidad inferior a 30 cm salvo que tengan también un vehículo de transporte capaz de llevarlas. Los ejércitos de Lokoz de la Velozidad de la Muerte Ardiente pueden desplegar una formación de Batidores en Moto de Guerra (Warbike Outriders). Todas las unidades de la formación tienen Explorador."
+    "Todo ejército orko Speed Freek debe incluir una unidad de Mekboy Bad Ork Bikerboy. La unidad es gratuita, no tienes que pagar puntos por él, y puede añadirse a cualquier formación del ejército. Toda unidad de un ejército Speed Freek debe tener una velocidad de 30 cm o más, o ir transportada en una unidad con velocidad de 30 cm o más. Es decir, las formaciones no pueden incluir unidades con velocidad inferior a 30 cm salvo que tengan también un vehículo de transporte capaz de llevarlas. Los ejércitos de Lokoz de la Velozidad de la Muerte Ardiente pueden desplegar una formación de Batidores en Moto de Guerra (Moto Orka Outriders). Todas las unidades de la formación tienen Explorador."
    ]
   },
   {
@@ -357,7 +357,7 @@
    "titulo": "Cuantoz máz mejor (Mob Rule)",
    "parrafos": [
     "Los orkos creen que, mientras haya un montón de ellos luchando juntos (algo más de los que saben contar es lo ideal), siempre existe la posibilidad de imponerse, por desfavorables que sean las circunstancias. Para representarlo, las formaciones orkas con más de cinco unidades (es decir, demasiadas para contarlas con los dedos de una mano), sin contar las unidades",
-    "de Gretchin o Big Gunz, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de 10 unidades de ese tipo reciben un +2. A efectos de esta regla, las Máquinas de Guerra cuentan cada punto de factor de daños inicial como una unidad."
+    "de Gretchin o Zakeadores Orkos, reciben un modificador de +1 a sus tiradas de reorganización, y las formaciones con más de 10 unidades de ese tipo reciben un +2. A efectos de esta regla, las Máquinas de Guerra cuentan cada punto de factor de daños inicial como una unidad."
    ]
   },
   {
@@ -371,6 +371,7 @@
  "fichas": [
   {
    "nombre": "Big Gunz",
+   "nombreEs": "Zakeadores Orkos",
    "tipo": "INF",
    "velocidad": "10cm",
    "blindaje": "-",
@@ -387,6 +388,7 @@
   },
   {
    "nombre": "Boyz",
+   "nombreEs": "Chicoz",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "6+",
@@ -426,10 +428,11 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Salvación Invulnerable, Montado, Comandante en jefe."
+   "notas": "Salvación Invulnerable, Montado, Comandante Supremo."
   },
   {
    "nombre": "Nob Warbikes",
+   "nombreEs": "Noblez en Moto de Guerra",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -451,6 +454,7 @@
   },
   {
    "nombre": "Nobz",
+   "nombreEs": "Noblez",
    "tipo": "INF",
    "velocidad": "15cm",
    "blindaje": "4+",
@@ -472,6 +476,7 @@
   },
   {
    "nombre": "Stormboyz",
+   "nombreEs": "Tropas de Asalto",
    "tipo": "INF",
    "velocidad": "30cm",
    "blindaje": "6+",
@@ -488,7 +493,7 @@
   },
   {
    "nombre": "Warbikes",
-   "nombreEs": "Motos de Guerra",
+   "nombreEs": "Motos Orkas",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -505,6 +510,7 @@
   },
   {
    "nombre": "Deth Kopta",
+   "nombreEs": "Koptero",
    "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -521,6 +527,7 @@
   },
   {
    "nombre": "Guntrukk",
+   "nombreEs": "Kamión Kañonero",
    "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -565,10 +572,11 @@
      "potencia": ""
     }
    ],
-   "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado. Salvo los Big Gunz, las unidades transportadas no tienen que desembarcar para disparar o usar su tiroteo si esta unidad puede disparar, asaltar o prestar apoyo."
+   "notas": "Transporte. Puede transportar una unidad de infantería sin Retrorreactores ni Montado. Salvo los Zakeadores Orkos, las unidades transportadas no tienen que desembarcar para disparar o usar su tiroteo si esta unidad puede disparar, asaltar o prestar apoyo."
   },
   {
    "nombre": "Warbuggy",
+   "nombreEs": "Buggie de Guerra",
    "tipo": "VL",
    "velocidad": "35cm",
    "blindaje": "5+",
@@ -585,6 +593,7 @@
   },
   {
    "nombre": "Battlewagon",
+   "nombreEs": "Karro de Guerra",
    "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
@@ -597,7 +606,7 @@
      "potencia": "AP5+/AT6+"
     }
    ],
-   "notas": "Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado (solo una de ellas puede ser Big Gunz); más una unidad de Grotz."
+   "notas": "Transporte. Puede transportar dos unidades de infantería sin Retrorreactores ni Montado (solo una de ellas puede ser Zakeadores Orkos); más una unidad de Gretchins."
   },
   {
    "nombre": "Flakwagon",
@@ -617,6 +626,7 @@
   },
   {
    "nombre": "Gunwagon",
+   "nombreEs": "Kamión",
    "tipo": "VB",
    "velocidad": "30cm",
    "blindaje": "5+",
@@ -730,7 +740,7 @@
      "potencia": "AT4+, FxF"
     }
    ],
-   "notas": "Factor de Daños 3, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar diez unidades de infantería (excepto Big Gunz), unidades de vehículo ligero, Killa Kans o Dreadnoughts; más cuatro unidades de Grotz. Los vehículos ligeros y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
+   "notas": "Factor de Daños 3, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar diez unidades de infantería (excepto Zakeadores Orkos), unidades de vehículo ligero, Latas Asesinas o Dreadnoughts; más cuatro unidades de Gretchins. Los vehículos ligeros y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
   }
  ]
 }

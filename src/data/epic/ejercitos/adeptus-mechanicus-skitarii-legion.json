@@ -10,7 +10,7 @@
    "nombre": "Demi-Century Formations",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de semicenturia"
   },
   {
    "id": "ordinatus-formations",
@@ -22,7 +22,7 @@
     "base": "demi-century"
    },
    "notaEs": "Se puede desplegar una formación ordinatus por cada demi-centuria.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de semicenturia"
   },
   {
    "id": "support-formations",
@@ -34,7 +34,7 @@
     "base": "demi-century"
    },
    "notaEs": "Se pueden desplegar dos formaciones de apoyo por cada demi-centuria.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Formaciones de apoyo"
   },
   {
    "id": "demi-century-upgrades",
@@ -44,7 +44,7 @@
    "maxPorFormacion": 3,
    "unaVez": true,
    "notaEs": "Se pueden tomar hasta tres mejoras de demi-centuria, cada una una vez por demi-centuria.",
-   "nombreEs": "Mejoras de demi-centuria"
+   "nombreEs": "Mejoras de semicenturia"
   },
   {
    "id": "mechanicus-allies",
@@ -52,7 +52,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aliados del Mechanicus"
   },
   {
    "id": "battle-titan-weapons",
@@ -573,8 +573,8 @@
    "titulo": "Lista de ejército de la Legión Skitarii de Gryphonne IV",
    "parrafos": [
     "Fuerzas: Esta lista usa las perfiles de atributos de 5.32.",
-    "Uso de la lista de ejército: Esta lista permite desplegar un ejército del Adeptus Mechanicus basado en una Legión Skitarii de Gryphonne IV. También puede usarse como lista «sustituta» para otras Legiones Skitarii. Las formaciones de la Legión Skitarii de Gryphonne IV son de tres tipos: semicenturias (demi-century), ordinatus y formaciones de apoyo. Cada semicenturia que incluyas en el ejército te permite desplegar una formación ordinatus cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación ordinatus o de apoyo si antes llevas una",
-    "semicenturia, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las semicenturias pueden recibir hasta tres mejoras. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones ordinatus y de apoyo no pueden recibir mejoras de compañía (aunque las formaciones de Ordinatus Minorus deben recibir Mejoras de Armas de Titán de Batalla). Cada mejora adquirida se suma al coste de la semicenturia, según la tabla de mejoras. Los ejércitos del Adeptus Mechanicus de la Legión Skitarii de Gryphonne IV pueden recibir apoyo de aliados del Mechanicus. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. Además, ciertas formaciones de aliados del Mechanicus pueden recibir mejoras de Titán. Las mejoras de Titán que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora de Titán adquirida se suma al coste de la formación, según la tabla de mejoras de Titán.",
+    "Uso de la lista de ejército: Esta lista permite desplegar un ejército del Adeptus Mechanicus basado en una Legión Skitarii de Gryphonne IV. También puede usarse como lista «sustituta» para otras Legiones Skitarii.",
+    "Las formaciones de la Legión Skitarii de Gryphonne IV son de tres tipos: semicenturias (demi-century), ordinatus y formaciones de apoyo. Cada semicenturia que incluyas en el ejército te permite desplegar una formación ordinatus cualquiera y dos formaciones de apoyo cualesquiera. Aunque solo puedes llevar una formación ordinatus o de apoyo si antes llevas una semicenturia, se tratan como formaciones independientes durante la batalla y no tienen que moverse juntas. Además, las semicenturias pueden recibir hasta tres mejoras. Cada tipo de mejora solo puede adquirirse una vez por compañía. Las mejoras se añaden a la compañía y no son una formación independiente. Las formaciones ordinatus y de apoyo no pueden recibir mejoras de compañía (aunque las formaciones de Ordinatus Minorus deben recibir Mejoras de Armas de Titán de Batalla). Cada mejora adquirida se suma al coste de la semicenturia, según la tabla de mejoras. Los ejércitos del Adeptus Mechanicus de la Legión Skitarii de Gryphonne IV pueden recibir apoyo de aliados del Mechanicus. Puede gastarse en estas formaciones un máximo de un tercio de los puntos disponibles para el ejército. Además, ciertas formaciones de aliados del Mechanicus pueden recibir mejoras de Titán. Las mejoras de Titán que puede recibir cada formación figuran en la columna «mejoras». Se añaden a la formación y no son una formación independiente. Cada mejora de Titán adquirida se suma al coste de la formación, según la tabla de mejoras de Titán.",
     "I N I C I AT I VA FACTOR DE E STRATEGIA: 2",
     "Todas las formaciones aliadas del Mechanicus, salvo los Cataphractii, tienen un valor de iniciativa de 1+. Todas las demás formaciones tienen un valor de iniciativa de 2+.",
     "Notas de la lista (reglas que el original recoge en las notas de sus tablas)",
@@ -763,7 +763,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Coraje, Salvación Invulnerable, Comandante en jefe."
+   "notas": "Coraje, Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Melta Cannon",
@@ -1332,12 +1332,12 @@
    "ff": "5+",
    "armas": [
     {
-     "nombre": "Montura de armas de capa ‐",
+     "nombre": "Montura de armas de caparazón",
      "alcance": "-",
      "potencia": "FxF, WM"
     },
     {
-     "nombre": "razón 2× Bólter pesado",
+     "nombre": "2× Bólter pesado",
      "alcance": "30cm",
      "potencia": "AP5+/AA6+"
     }

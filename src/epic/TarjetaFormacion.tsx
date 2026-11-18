@@ -80,7 +80,7 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
           </>}
 
           {f.tamanos && f.tamanos.length > 1 && <>
-            <h4>Tamaño</h4>
+            <h4>{f.nombre === 'Spacecraft' ? 'Tipo de nave' : 'Tamaño'}</h4>
             <div className="opts">
               {f.tamanos.map((t, j) => (
                 <Check key={t.nombre + j} radio grupo={`t-${fe.uid}`} nombre={<Bi es={t.nombreEs} en={t.nombre} />} coste={`${t.coste} pts`} activo={fe.tamano === j}

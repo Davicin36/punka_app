@@ -11,7 +11,7 @@
    "tipo": "individuos",
    "nota": "Up to one of each type of individual may be taken per army.",
    "notaEs": "Se puede tomar como máximo uno de cada tipo de individuo por ejército.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos del Mundo Astronave de Iyanden"
   },
   {
    "id": "iyanden-craftworld-warhosts",
@@ -19,7 +19,7 @@
    "tipo": "nucleo",
    "nota": "You may not have more Wraithlord formations than Ghost Warrior formations.",
    "notaEs": "No puedes tener más formaciones de Wraithlords que de Ghost Warriors.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Individuos del Mundo Astronave de Iyanden"
   },
   {
    "id": "iyanden-craftworld-troupes",
@@ -31,7 +31,7 @@
     "base": "warhost"
    },
    "notaEs": "Cada hueste que incluyas en el ejército te permite desplegar dos séquitos de guerra cualesquiera.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Troupes de Iyanden"
   },
   {
    "id": "iyanden-craftworld-spacecraft-aircraft-titans",
@@ -39,7 +39,7 @@
    "tipo": "tercio",
    "nota": "Up to a third of the points available may be spent on these formations.",
    "notaEs": "Se puede gastar hasta un tercio de los puntos disponibles en estas formaciones.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Troupes de Iyanden"
   }
  ],
  "formaciones": [
@@ -61,8 +61,8 @@
    "coste": 50,
    "costeTexto": "+50 points",
    "max": 1,
-   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego.",
-   "nombreEs": "Portal Espectral"
+   "nombreEs": "Portal Espectral",
+   "unidadesEs": "Al inicio de la partida, designa un objetivo en tu mitad de la mesa como Wraithgate antes de desplegar naves y guarniciones. El Wraithgate funciona como Webway Portal y como objetivo a efectos de reglas. No puede ser destruido. Solo las formaciones compuestas por completo de infantería, vehículos ligeros o vehículos blindados con la habilidad Walker pueden usar el Wraithgate para entrar en juego."
   },
   {
    "id": "iyanden-craftworld-warhosts-ghost-warrior",
@@ -130,8 +130,8 @@
      "textoEs": "Sustituye un personaje Vidente Espiritual por ejército por un Vidente Espectral por +100 puntos"
     }
    ],
-   "unidadesEs": "Seis Señores Espectrales, uno con un Vidente Espiritual",
-   "nombreEs": "Señores Espectrales"
+   "nombreEs": "Señores Espectrales",
+   "unidadesEs": "Seis Señores Espectrales, uno con un Vidente Espiritual"
   },
   {
    "id": "iyanden-craftworld-troupes-aspect-warrior",
@@ -324,8 +324,8 @@
    "unidades": "One Phantom Titan",
    "coste": 750,
    "costeTexto": "750 points",
-   "unidadesEs": "Un Titán Fantasma",
-   "nombreEs": "Fantasma"
+   "nombreEs": "Fantasma",
+   "unidadesEs": "Un Titán Fantasma"
   },
   {
    "id": "iyanden-craftworld-spacecraft-aircraft-titans-phoenix",
@@ -334,8 +334,8 @@
    "unidades": "Three Phoenix Bombers",
    "coste": 325,
    "costeTexto": "325 points",
-   "unidadesEs": "Tres Bombarderos Fénix",
-   "nombreEs": "Fénix"
+   "nombreEs": "Fénix",
+   "unidadesEs": "Tres Bombarderos Fénix"
   },
   {
    "id": "iyanden-craftworld-spacecraft-aircraft-titans-revenants",
@@ -355,7 +355,19 @@
    "costeTexto": "150 points 300 points",
    "max": 1,
    "nombreEs": "Nave Espacial",
-   "unidadesEs": "Una de: Nave Espectral (150) o Nave Dragón (300)"
+   "unidadesEs": "Una de: Nave Espectral (150) o Nave Dragón (300)",
+   "tamanos": [
+    {
+     "nombre": "Wraithship",
+     "coste": 150,
+     "nombreEs": "Nave Espectral"
+    },
+    {
+     "nombre": "Dragonship",
+     "coste": 300,
+     "nombreEs": "Nave Dragón"
+    }
+   ]
   },
   {
    "id": "iyanden-craftworld-spacecraft-aircraft-titans-vampire",
@@ -374,8 +386,8 @@
    "coste": 850,
    "costeTexto": "850 points",
    "max": 1,
-   "unidadesEs": "Un Titán Brujo",
-   "nombreEs": "Brujo"
+   "nombreEs": "Brujo",
+   "unidadesEs": "Un Titán Brujo"
   }
  ],
  "mejoras": [],
@@ -512,7 +524,7 @@
      "potencia": "Armas de asalto, AE(+1), MA"
     }
    ],
-   "notas": "Videncia, Salvación Invulnerable, Comandante en jefe."
+   "notas": "Videncia, Salvación Invulnerable, Comandante Supremo."
   },
   {
    "nombre": "Dark Reapers",
@@ -683,6 +695,7 @@
   },
   {
    "nombre": "Shining Spears",
+   "nombreEs": "Lanzas Brillantes",
    "tipo": "INF",
    "velocidad": "35cm",
    "blindaje": "4+",
@@ -1061,12 +1074,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "2× Láser de pulsos Reve ‐",
+     "nombre": "2× Láser de pulsos Revenant",
      "alcance": "45cm",
      "potencia": "2× MA3+"
     },
     {
-     "nombre": "nant 2× Lanzamisiles eldar",
+     "nombre": "2× Lanzamisiles eldar",
      "alcance": "45cm",
      "potencia": "AP5+/AT6+/AA6+"
     }
@@ -1104,12 +1117,12 @@
    "ff": "4+",
    "armas": [
     {
-     "nombre": "Láser de pulsos de la Ser ‐",
+     "nombre": "Láser de pulsos de la Serpiente",
      "alcance": "45cm",
      "potencia": "2× AT3+"
     },
     {
-     "nombre": "piente de Tormenta Láser de dispersión",
+     "nombre": "de Tormenta Láser de dispersión",
      "alcance": "30cm",
      "potencia": "AP5+/AT5+"
     }

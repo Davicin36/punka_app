@@ -10,7 +10,7 @@
    "nombre": "Stigmatus Covenant Covens",
    "tipo": "nucleo",
    "nota": "",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Aquelarres del Culto Stigmatus"
   },
   {
    "id": "stigmatus-covenant-upgrades",
@@ -19,7 +19,7 @@
    "nota": "Each upgrade may be taken once per coven.",
    "unaVez": true,
    "notaEs": "Cada mejora puede tomarse una vez por aquelarre.",
-   "nombreEs": "Mejoras del Pacto Stigmatus"
+   "nombreEs": "Mejoras del Culto Stigmatus"
   },
   {
    "id": "daemon-engine",
@@ -32,7 +32,7 @@
    },
    "grupo": "support-covens",
    "notaEs": "Las formaciones de Daemon Engine deben ser aliadas del Caos Absoluto o del mismo dios del Caos que este aquelarre. Se puede desplegar un aquelarre de apoyo por cada aquelarre.",
-   "nombreEs": "Lista de ejército"
+   "nombreEs": "Mejoras del Culto Stigmatus"
   },
   {
    "id": "traitor-navy-aircraft",
@@ -93,8 +93,8 @@
    "unidades": "Four Defilers",
    "coste": 250,
    "costeTexto": "250 points",
-   "nombreEs": "Defilers del Caos Indiviso",
-   "unidadesEs": "Cuatro Defilers"
+   "nombreEs": "Profanadores del Caos Indiviso",
+   "unidadesEs": "Cuatro Profanadores del Caos"
   },
   {
    "id": "daemon-engine-chaos-undivided-hellfire-cannons",
@@ -586,7 +586,7 @@
      "potencia": ""
     }
    ],
-   "notas": "Comandante en jefe."
+   "notas": "Comandante Supremo."
   },
   {
    "nombre": "Icon Bearer",
@@ -1049,6 +1049,7 @@
   },
   {
    "nombre": "Defiler",
+   "nombreEs": "Profanador del Caos",
    "tipo": "VB",
    "velocidad": "20cm",
    "blindaje": "4+",
