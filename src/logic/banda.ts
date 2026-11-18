@@ -137,7 +137,7 @@ export function problemasBanda(b: Banda, ajustes: Ajustes): string[] {
       }
       case 'noMasQueResto': {
         const c = cuenta(l.unidad);
-        if (c > total - c) out.push(`Hay ${c}x ${nombreUnidad(l.unidad)} y solo ${total - c} miniatura${total - c === 1 ? '' : 's'} más: no pueden superar al resto de la banda.`);
+        if (c > total - c) out.push(`Hay ${c} × ${nombreUnidad(l.unidad)} y solo ${total - c} miniatura${total - c === 1 ? '' : 's'} más: no pueden superar al resto de la banda.`);
         break;
       }
       case 'porPuntos': {
@@ -195,7 +195,7 @@ export function problemasBanda(b: Banda, ajustes: Ajustes): string[] {
   return out;
 }
 
-const listaElegidas = (r: Record<string, number>) => Object.entries(r).filter(([, q]) => q > 0).map(([n, q]) => (q > 1 ? `${q}x ${n}` : n));
+const listaElegidas = (r: Record<string, number>) => Object.entries(r).filter(([, q]) => q > 0).map(([n, q]) => (q > 1 ? `${n} ×${q}` : n));
 
 /** Equipo de una miniatura en texto legible (lo usan la vista de texto y el PDF). */
 export function detalleMiniatura(m: Miniatura) {
@@ -204,7 +204,7 @@ export function detalleMiniatura(m: Miniatura) {
     armas: u.armas ? listaElegidas(m.armas).join(', ') : u.armasFijas ?? '',
     blindaje: m.blindaje >= 0 ? u.blindaje.opciones[m.blindaje].nombre : u.blindaje.base,
     equipo: [u.equipo?.incluido, ...listaElegidas(m.equipo), ...listaElegidas(m.equipoGenerico), ...listaElegidas(m.equipoFaccion),
-      ...listaElegidas(m.extras), m.armasIncrustadas ? `${m.armasIncrustadas}x Arma incrustada` : '',
+      ...listaElegidas(m.extras), m.armasIncrustadas ? `Arma incrustada ×${m.armasIncrustadas}` : '',
       ...(m.reliquias ?? []), m.balas ? `${m.balas} balas` : '', m.fieras ? `${m.fieras} fieras` : ''].filter(Boolean).join(', '),
     mutaciones: m.mutaciones.join(', '),
     articulos: m.articulos.join(', '),

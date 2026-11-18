@@ -133,7 +133,7 @@ export function crearPdfBanda(b: Banda, ajustes: Ajustes): jsPDF {
         continue;
       }
       fuente('normal', 8.5);
-      doc.text(recortar((a.cantidad > 1 ? `${a.cantidad}x ` : '') + a.nombre, wW - 14), xw + 11, yW + 4.2);
+      doc.text(recortar(a.nombre + (a.cantidad > 1 ? ` ×${a.cantidad}` : ''), wW - 14), xw + 11, yW + 4.2);
       if (!a.arma) {
         fuente('normal', 7.5, SUAVE); doc.text('Perfil en las reglas de la miniatura.', xw + 4, yW + 8.4);
         continue;
