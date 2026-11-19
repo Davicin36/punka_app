@@ -171,6 +171,15 @@ export function TarjetaFormacion({ e, fe, i, abierta, onToggle, onChange, onDupl
             </div>
           </>}
 
+          {e.comisarios && seccionDe(e, f.seccion)?.tipo !== 'tercio' && <>
+            <h4>Comisario</h4>
+            <div className="opts">
+              <Check nombre={<Bi es="Añadir un Comisario a la formación" en="Commissar" />} coste="gratis" activo={!!fe.comisario}
+                onChange={v => onChange(y => { y.comisario = v || undefined; })} />
+              <small className="mtexto">Uno por cada {e.comisarios.cada} puntos de la partida y como mucho uno por formación; el primero, con el Comandante Supremo.</small>
+            </div>
+          </>}
+
           <div className="mfoot">
             <input className="nick" placeholder="Nota (opcional)" maxLength={80} value={fe.nota}
               onChange={ev => onChange(y => { y.nota = ev.target.value; })} />

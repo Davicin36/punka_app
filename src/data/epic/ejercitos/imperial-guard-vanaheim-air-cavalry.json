@@ -1,0 +1,824 @@
+{
+ "id": "imperial-guard-vanaheim-air-cavalry",
+ "nombre": "Imperial Guard – Vanaheim Air Cavalry",
+ "nombreEs": "Guardia Imperial – Caballería Aérea de Vanaheim",
+ "version": "Codex Imperial Guard 2010-06-25",
+ "estrategia": 2,
+ "iniciativa": "All Vanaheim Air Cavalry Imperial Guard and Imperial Navy formations have an initiative rating of 2+.",
+ "iniciativaEs": "Todas las formaciones de la Caballería Aérea de Vanaheim y de la Armada Imperial tienen un valor de iniciativa de 2+.",
+ "fraccionAliados": 0.3333333333333333,
+ "compras": [],
+ "secciones": [
+  {
+   "id": "vanaheim-companies",
+   "nombre": "Vanaheim Air Cavalry Companies",
+   "nombreEs": "Compañías de la Caballería Aérea de Vanaheim",
+   "tipo": "nucleo",
+   "nota": ""
+  },
+  {
+   "id": "vanaheim-support-formations",
+   "nombre": "Vanaheim Air Cavalry Support Formations",
+   "nombreEs": "Formaciones de apoyo de la Caballería Aérea de Vanaheim",
+   "tipo": "apoyo",
+   "porCada": {
+    "cantidad": 2,
+    "base": "company"
+   },
+   "nota": "Up to two for each company taken.",
+   "notaEs": "Hasta dos por cada compañía."
+  },
+  {
+   "id": "vanaheim-company-upgrades",
+   "nombre": "Vanaheim Air Cavalry Company Upgrades",
+   "nombreEs": "Mejoras de compañía de la Caballería Aérea de Vanaheim",
+   "tipo": "mejoras",
+   "maxPorFormacion": 2,
+   "unaVez": true,
+   "nota": "",
+   "notaEs": "Hasta dos por compañía; cada mejora solo una vez por compañía."
+  },
+  {
+   "id": "vanaheim-imperial-navy",
+   "nombre": "Imperial Navy",
+   "nombreEs": "Armada Imperial",
+   "tipo": "tercio",
+   "nota": "",
+   "notaEs": "Hasta un tercio de los puntos."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "vanaheim-companies-0-1-regimental-hq",
+   "nombre": "0-1 Regimental HQ",
+   "nombreEs": "0–1 Cuartel General Regimental",
+   "seccion": "vanaheim-companies",
+   "unidades": "One Vanaheim Supreme Commander, seven Vanaheim Infantry and four Valkyries",
+   "unidadesEs": "1x Comandante Supremo de Vanaheim, 7x Infantería de Vanaheim y 4x Valkyries",
+   "coste": 375,
+   "costeTexto": "375 points",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Replace up to two Valkyries with Vendettas",
+     "textoEs": "Sustituye hasta 2 Valkyries por Vendettas",
+     "coste": 0,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "mejoras": [
+    "Fire Support Platoon",
+    "Mortar Platoon",
+    "Infantry Platoon",
+    "Sniper Platoon"
+   ]
+  },
+  {
+   "id": "vanaheim-companies-air-cavalry-company",
+   "nombre": "Air Cavalry Company",
+   "nombreEs": "Compañía de Caballería Aérea",
+   "seccion": "vanaheim-companies",
+   "unidades": "One Vanaheim Commander, seven Vanaheim Infantry and four Valkyries",
+   "unidadesEs": "1x Comandante de Vanaheim, 7x Infantería de Vanaheim y 4x Valkyries",
+   "coste": 325,
+   "costeTexto": "325 points",
+   "extras": [
+    {
+     "texto": "Replace up to two Valkyries with Vendettas",
+     "textoEs": "Sustituye hasta 2 Valkyries por Vendettas",
+     "coste": 0,
+     "porUnidad": true,
+     "max": 2
+    }
+   ],
+   "mejoras": [
+    "Fire Support Platoon",
+    "Mortar Platoon",
+    "Infantry Platoon",
+    "Sniper Platoon"
+   ]
+  },
+  {
+   "id": "vanaheim-support-formations-vulture-squadron",
+   "nombre": "Vulture Squadron",
+   "nombreEs": "Escuadrón Vulture",
+   "seccion": "vanaheim-support-formations",
+   "unidades": "Four Vultures",
+   "unidadesEs": "4x Vultures",
+   "coste": 300,
+   "costeTexto": "300 points"
+  },
+  {
+   "id": "vanaheim-support-formations-sentinel-squadron",
+   "nombre": "Sentinel Squadron",
+   "nombreEs": "Escuadrón Sentinel",
+   "seccion": "vanaheim-support-formations",
+   "unidades": "Four Light Sentinels",
+   "unidadesEs": "4x Sentinels Ligeros",
+   "coste": 100,
+   "costeTexto": "100 points",
+   "extras": [
+    {
+     "texto": "Upgrade two Light Sentinels to Support Sentinels",
+     "textoEs": "Mejora 2x Sentinels Ligeros a Sentinels de Apoyo",
+     "coste": 25,
+     "juntos": "sentinels",
+     "max": 1
+    },
+    {
+     "texto": "Upgrade four Light Sentinels to Support Sentinels",
+     "textoEs": "Mejora 4x Sentinels Ligeros a Sentinels de Apoyo",
+     "coste": 50,
+     "juntos": "sentinels",
+     "max": 1
+    },
+    {
+     "texto": "Add two Valkyries",
+     "textoEs": "Añade 2x Valkyries",
+     "coste": 100
+    }
+   ]
+  },
+  {
+   "id": "vanaheim-support-formations-storm-trooper-platoon",
+   "nombre": "Storm Trooper Platoon",
+   "nombreEs": "Pelotón de Tropas de Asalto",
+   "seccion": "vanaheim-support-formations",
+   "unidades": "Eight Storm Troopers and four Valkyries",
+   "unidadesEs": "8x Tropas de Asalto y 4x Valkyries",
+   "coste": 350,
+   "costeTexto": "350 points"
+  },
+  {
+   "id": "vanaheim-imperial-navy-thunderbolt-fighters",
+   "nombre": "Thunderbolt Fighters",
+   "nombreEs": "Escuadrón Thunderbolt",
+   "seccion": "vanaheim-imperial-navy",
+   "unidades": "Two or three Thunderbolt Fighters",
+   "unidadesEs": "2 o 3x Cazas Thunderbolt",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "tamanos": [
+    {
+     "nombre": "2 Thunderbolt Fighter",
+     "nombreEs": "2x Caza Thunderbolt",
+     "coste": 150
+    },
+    {
+     "nombre": "3 Thunderbolt Fighter",
+     "nombreEs": "3x Caza Thunderbolt",
+     "coste": 225
+    }
+   ],
+   "tamanosTitulo": "Cuántos"
+  },
+  {
+   "id": "vanaheim-imperial-navy-lightning-strike-fighters",
+   "nombre": "Lightning Strike Fighters",
+   "nombreEs": "Escuadrón Lightning",
+   "seccion": "vanaheim-imperial-navy",
+   "unidades": "Two or three Lightning Strike Fighters",
+   "unidadesEs": "2 o 3x Cazas de Ataque Lightning",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "tamanos": [
+    {
+     "nombre": "2 Lightning Strike Fighter",
+     "nombreEs": "2x Caza de Ataque Lightning",
+     "coste": 150
+    },
+    {
+     "nombre": "3 Lightning Strike Fighter",
+     "nombreEs": "3x Caza de Ataque Lightning",
+     "coste": 225
+    }
+   ],
+   "tamanosTitulo": "Cuántos"
+  },
+  {
+   "id": "vanaheim-imperial-navy-marauder-bombers",
+   "nombre": "Marauder Bombers",
+   "nombreEs": "Escuadrón Marauder",
+   "seccion": "vanaheim-imperial-navy",
+   "unidades": "Two Marauder Bombers",
+   "unidadesEs": "2x Bombarderos Marauder",
+   "coste": 250,
+   "costeTexto": "250 points"
+  },
+  {
+   "id": "vanaheim-imperial-navy-marauder-destroyers",
+   "nombre": "Marauder Destroyers",
+   "nombreEs": "Escuadrón Marauder Destroyer",
+   "seccion": "vanaheim-imperial-navy",
+   "unidades": "Two Marauder Destroyers",
+   "unidadesEs": "2x Marauder Destroyers",
+   "coste": 275,
+   "costeTexto": "275 points"
+  },
+  {
+   "id": "vanaheim-imperial-navy-0-1-orbital-support",
+   "nombre": "0-1 Orbital Support",
+   "nombreEs": "0–1 Apoyo Orbital",
+   "seccion": "vanaheim-imperial-navy",
+   "unidades": "One Lunar Class Cruiser or one Emperor Class Battleship",
+   "unidadesEs": "Un Crucero clase Lunar o un Acorazado clase Emperador",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Lunar Class Cruiser",
+     "nombreEs": "Crucero clase Lunar",
+     "coste": 150
+    },
+    {
+     "nombre": "Emperor Class Battleship",
+     "nombreEs": "Acorazado clase Emperador",
+     "coste": 200
+    }
+   ],
+   "tamanosTitulo": "Tipo de nave"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "fire-support-platoon",
+   "nombre": "Fire Support Platoon",
+   "nombreEs": "Pelotón de Apoyo de Fuego",
+   "seccion": "vanaheim-company-upgrades",
+   "texto": "Add two Vanaheim Fire Support units and one Valkyrie",
+   "textoEs": "Añade 2x Apoyo de Fuego de Vanaheim y 1x Valkyrie",
+   "coste": 100,
+   "costeTexto": "+100 points"
+  },
+  {
+   "id": "mortar-platoon",
+   "nombre": "Mortar Platoon",
+   "nombreEs": "Pelotón de Morteros",
+   "seccion": "vanaheim-company-upgrades",
+   "texto": "Swap two Vanaheim Infantry for two Mortar Support, or add two Mortar Support and one Valkyrie",
+   "textoEs": "Cambia 2x Infantería de Vanaheim por 2x Apoyo de Morteros, o añade 2x Apoyo de Morteros y 1x Valkyrie",
+   "coste": 0,
+   "costeTexto": "+0 points",
+   "variantes": [
+    {
+     "coste": 0,
+     "porUnidad": false,
+     "texto": "Swap two Vanaheim Infantry for two Mortar Support",
+     "textoEs": "Cambia 2 Infantería por 2 Apoyo de Morteros (gratis)"
+    },
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "Add two Mortar Support and one Valkyrie",
+     "textoEs": "Añade 2 Apoyo de Morteros y 1 Valkyrie (+75)"
+    }
+   ]
+  },
+  {
+   "id": "infantry-platoon",
+   "nombre": "Infantry Platoon",
+   "nombreEs": "Pelotón de Infantería",
+   "seccion": "vanaheim-company-upgrades",
+   "texto": "Add two Vanaheim Infantry and one Valkyrie, or four Vanaheim Infantry and two Valkyries",
+   "textoEs": "Añade 2x Infantería de Vanaheim y 1x Valkyrie, o 4x Infantería y 2x Valkyries",
+   "coste": 75,
+   "costeTexto": "+75 points",
+   "variantes": [
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "Two Vanaheim Infantry and one Valkyrie",
+     "textoEs": "2x Infantería y 1x Valkyrie (+75)"
+    },
+    {
+     "coste": 125,
+     "porUnidad": false,
+     "texto": "Four Vanaheim Infantry and two Valkyries",
+     "textoEs": "4x Infantería y 2x Valkyrie (+125)"
+    }
+   ]
+  },
+  {
+   "id": "sniper-platoon",
+   "nombre": "Sniper Platoon",
+   "nombreEs": "Pelotón de Francotiradores",
+   "seccion": "vanaheim-company-upgrades",
+   "texto": "Swap two Vanaheim Infantry for two Snipers, or add two Snipers and one Valkyrie",
+   "textoEs": "Cambia 2x Infantería de Vanaheim por 2x Francotiradores, o añade 2x Francotiradores y 1x Valkyrie",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "variantes": [
+    {
+     "coste": 25,
+     "porUnidad": false,
+     "texto": "Swap two Vanaheim Infantry for two Snipers",
+     "textoEs": "Cambia 2 Infantería por 2 Francotiradores (+25)"
+    },
+    {
+     "coste": 100,
+     "porUnidad": false,
+     "texto": "Add two Snipers and one Valkyrie",
+     "textoEs": "Añade 2 Francotiradores y 1 Valkyrie (+100)"
+    }
+   ]
+  }
+ ],
+ "fichas": [
+  {
+   "nombreEs": "Comandante Supremo de Vanaheim",
+   "nombre": "Vanaheim Supreme Commander",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "4+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Comandante Supremo.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 61
+  },
+  {
+   "nombreEs": "Comandante de Vanaheim",
+   "nombre": "Vanaheim Commander",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "6+",
+   "cc": "5+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Espadas sierra",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto"
+    }
+   ],
+   "notas": "Comandante.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Infantería de Vanaheim",
+   "nombre": "Vanaheim Infantry",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles láser",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Apoyo de Fuego de Vanaheim",
+   "nombre": "Vanaheim Fire Support",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "2x Lanzamisiles",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Apoyo de Morteros",
+   "nombre": "Mortar Support",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Morteros",
+     "alcance": "30cm",
+     "potencia": "1PA, Ind"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Sentinel Ligero",
+   "nombre": "Light Sentinel",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Bípode.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Sentinel de Apoyo",
+   "nombre": "Support Sentinel",
+   "tipo": "VL",
+   "velocidad": "20cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multifusión",
+     "alcance": "15cm",
+     "potencia": "MA5+"
+    },
+    {
+     "nombre": "y Multifusión",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras, MA"
+    }
+   ],
+   "notas": "Explorador, Bípode.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Vendetta",
+   "nombre": "Vendetta",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "3x Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante Supremo de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Francotiradores, Apoyo de Morteros).",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Francotiradores",
+   "nombre": "Snipers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Rifles de francotirador",
+     "alcance": "30cm",
+     "potencia": "AP5+, S"
+    }
+   ],
+   "notas": "Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Tropas de Asalto",
+   "nombre": "Storm Troopers",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "5+",
+   "cc": "5+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Rifles infernales",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Rifles de plasma",
+     "alcance": "15cm",
+     "potencia": "AP5+/AT5+"
+    }
+   ],
+   "notas": "Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Valkyrie",
+   "nombre": "Valkyrie",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "2x Vaina de cohetes",
+     "alcance": "30cm",
+     "potencia": "1PA, D, DU"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio, Transporte (puede llevar hasta dos de: Tropas de Asalto, Comandante Supremo de Vanaheim, Comandante de Vanaheim, Infantería de Vanaheim, Apoyo de Fuego de Vanaheim, Apoyo de Morteros, Francotiradores, Sentinel Ligero o Sentinel de Apoyo).",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Vulture",
+   "nombre": "Vulture",
+   "tipo": "VB",
+   "velocidad": "35cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Autocañón doble",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+"
+    },
+    {
+     "nombre": "2x Misil Hellstrike",
+     "alcance": "120cm",
+     "potencia": "AT2+, DU"
+    }
+   ],
+   "notas": "Explorador, Gravitatorio.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Comisario",
+   "nombre": "Commissar",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Inspirador, Líder.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Caza Thunderbolt",
+   "nombre": "Thunderbolt Fighter",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bólters de asalto",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Caza de Ataque Lightning",
+   "nombre": "Lightning Strike Fighter",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+/AA5+, FxF"
+    },
+    {
+     "nombre": "2x Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Bombardero Marauder",
+   "nombre": "Marauder Bomber",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "3+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Soportes de bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Marauder Destroyer",
+   "nombre": "Marauder Destroyer",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "3+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañón de asalto doble",
+     "alcance": "15cm",
+     "potencia": "AA4+, Pos"
+    },
+    {
+     "nombre": "3x Autocañón doble",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+, FxF"
+    },
+    {
+     "nombre": "2x Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Crucero clase Lunar",
+   "nombre": "Lunar Class Cruiser",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  },
+  {
+   "nombreEs": "Acorazado clase Emperador",
+   "nombre": "Emperor Class Battleship",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa: no puede usarse en los turnos uno y dos salvo que el escenario indique lo contrario.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 62
+  }
+ ],
+ "reglas": [
+  {
+   "id": "R.1",
+   "titulo": "Comisarios (Commissars)",
+   "parrafos": [
+    "Los Comisarios son personajes que se añaden gratis a las formaciones. Un Comisario debe ir en la formación del Comandante Supremo; el resto puede añadirse a cualquier otra formación, como máximo uno por formación."
+   ]
+  },
+  {
+   "id": "R.2",
+   "titulo": "Guarnición en PAC (CAP Garrison)",
+   "parrafos": [
+    "En vez de poner una guarnición en fuego defensivo, el ejército puede poner una formación de cazas en Patrulla Aérea de Combate. Puede seguir desplegando todas las demás guarniciones que permita el ejército, pero solo una puede empezar en fuego defensivo. Los cazas siguen las reglas de PAC, pero se colocan durante la fase de guarniciones."
+   ]
+  },
+  {
+   "id": "R.3",
+   "titulo": "Notas de la lista",
+   "parrafos": [
+    "Cada mejora permitida puede tomarse una vez por compañía (hasta dos por compañía).",
+    "Hasta un tercio de los puntos puede gastarse en formaciones de la Armada Imperial."
+   ]
+  }
+ ],
+ "comisarios": {
+  "cada": 500,
+  "ficha": "Commissar"
+ }
+}

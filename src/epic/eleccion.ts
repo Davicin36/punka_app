@@ -339,6 +339,7 @@ export function unidadesDeLista(e: EjercitoEpic, formaciones: FormacionElegida[]
       usadas.add(u.nombre);
       deEsta.add(u.nombre);
     }
+    if (fe.comisario && e.comisarios) usadas.add(e.comisarios.ficha);
     const fijas = armasFijas(e, fe);
     fijas.forEach(u => elegidas.add(u));
     elegidas.forEach(u => usadas.add(u));

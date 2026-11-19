@@ -131,6 +131,8 @@ export interface EjercitoEpic {
   reglas?: ReglaEjercito[];
   /** Hojas de datos (estadísticas) de las unidades */
   fichas?: FichaEpic[];
+  /** Comisarios gratis: uno por cada «cada» puntos completos de la partida */
+  comisarios?: { cada: number; ficha: string };
 }
 
 export interface ArmaEpic {
@@ -189,6 +191,8 @@ export interface FormacionElegida {
   variantes: Record<string, number>;
   /** Reparto elegido en cada grupo de opciones («2 Predator Annihilator y 2 Destructor», «Chaplain»…): clave del grupo → unidad → cantidad */
   reparto?: Record<string, Record<string, number>>;
+  /** Lleva un Comisario (Guardia Imperial: uno por cada 500 puntos, como mucho uno por formación) */
+  comisario?: boolean;
   nota: string;
 }
 

@@ -1,0 +1,919 @@
+{
+ "id": "imperial-guard-ulani-tank-regiment",
+ "nombre": "Imperial Guard – Ulani Tank Regiment",
+ "nombreEs": "Guardia Imperial – Regimiento de Tanques Ulani",
+ "version": "Codex Imperial Guard 2010-06-25",
+ "estrategia": 2,
+ "iniciativa": "All Ulani Tank Regiment Imperial Guard and Imperial Navy formations have an initiative rating of 2+.",
+ "iniciativaEs": "Todas las formaciones del Regimiento de Tanques Ulani y de la Armada Imperial tienen un valor de iniciativa de 2+.",
+ "fraccionAliados": 0.3333333333333333,
+ "compras": [],
+ "secciones": [
+  {
+   "id": "ulani-tank-regiment-companies",
+   "nombre": "Ulani Tank Regiment Companies",
+   "nombreEs": "Compañías del Regimiento de Tanques Ulani",
+   "tipo": "nucleo",
+   "nota": ""
+  },
+  {
+   "id": "ulani-conqueror-companies",
+   "nombre": "Ulani Tank Regiment Conqueror Companies",
+   "nombreEs": "Compañías Conqueror del Regimiento de Tanques Ulani",
+   "tipo": "nucleo",
+   "nota": ""
+  },
+  {
+   "id": "ulani-support-formations",
+   "nombre": "Ulani Tank Regiment Support Formations",
+   "nombreEs": "Formaciones de apoyo del Regimiento de Tanques Ulani",
+   "tipo": "apoyo",
+   "porCada": {
+    "cantidad": 2,
+    "base": "company"
+   },
+   "nota": "Up to two for each company taken.",
+   "notaEs": "Hasta dos por cada Compañía de Tanques o Compañía Conqueror."
+  },
+  {
+   "id": "ulani-company-upgrades",
+   "nombre": "Ulani Tank Regiment Company Upgrades",
+   "nombreEs": "Mejoras de compañía del Regimiento de Tanques Ulani",
+   "tipo": "mejoras",
+   "maxPorFormacion": 3,
+   "unaVez": true,
+   "nota": "",
+   "notaEs": "Hasta tres por compañía; cada mejora solo una vez por compañía."
+  },
+  {
+   "id": "ulani-imperial-navy",
+   "nombre": "Imperial Navy",
+   "nombreEs": "Armada Imperial",
+   "tipo": "tercio",
+   "nota": "",
+   "notaEs": "Hasta un tercio de los puntos."
+  }
+ ],
+ "formaciones": [
+  {
+   "id": "ulani-tank-regiment-companies-0-1-regimental-hq",
+   "nombre": "0-1 Regimental HQ",
+   "nombreEs": "0–1 Cuartel General Regimental",
+   "seccion": "ulani-tank-regiment-companies",
+   "unidades": "One Ulani HQ Command Tank and any six of the following units: Leman Russ Executioner, Leman Russ, Leman Russ Demolisher",
+   "unidadesEs": "1x Tanque de Mando del CG Ulani y 6 tanques a elegir entre: Leman Russ Executioner, Tanque de Batalla Leman Russ, Leman Russ Demolisher",
+   "coste": 525,
+   "costeTexto": "525 points",
+   "max": 1,
+   "extras": [
+    {
+     "texto": "Add any three of the following units: Leman Russ Demolisher, Leman Russ Executioner, Leman Russ",
+     "textoEs": "Añade 3 tanques a elegir entre: Leman Russ Demolisher, Leman Russ Executioner, Tanque de Batalla Leman Russ",
+     "coste": 175
+    }
+   ],
+   "mejoras": [
+    "Flak",
+    "Griffon Battery",
+    "Hellhound Squadron",
+    "Tank Rider Platoon",
+    "Tank Squadron"
+   ]
+  },
+  {
+   "id": "ulani-tank-regiment-companies-ulani-tank-company",
+   "nombre": "Ulani Tank Company",
+   "nombreEs": "Compañía de Tanques Ulani",
+   "seccion": "ulani-tank-regiment-companies",
+   "unidades": "Any six of the following units: Leman Russ Demolisher, Leman Russ Executioner, Leman Russ",
+   "unidadesEs": "6 tanques a elegir entre: Leman Russ Demolisher, Leman Russ Executioner, Tanque de Batalla Leman Russ",
+   "coste": 400,
+   "costeTexto": "400 points",
+   "extras": [
+    {
+     "texto": "Add one Ulani Command Tank",
+     "textoEs": "Añade 1x Tanque de Mando Ulani",
+     "coste": 75
+    },
+    {
+     "texto": "Add any three of the following units: Leman Russ Demolisher, Leman Russ Executioner, Leman Russ",
+     "textoEs": "Añade 3 tanques a elegir entre: Leman Russ Demolisher, Leman Russ Executioner, Tanque de Batalla Leman Russ",
+     "coste": 175
+    }
+   ],
+   "mejoras": [
+    "Flak",
+    "Griffon Battery",
+    "Hellhound Squadron",
+    "Tank Rider Platoon",
+    "Tank Squadron"
+   ]
+  },
+  {
+   "id": "ulani-conqueror-companies-conqueror-company",
+   "nombre": "Conqueror Company",
+   "nombreEs": "Compañía Conqueror",
+   "seccion": "ulani-conqueror-companies",
+   "unidades": "Six Ulani Leman Russ Conquerors",
+   "unidadesEs": "6x Leman Russ Conqueror Ulani",
+   "coste": 250,
+   "costeTexto": "250 points",
+   "mejoras": []
+  },
+  {
+   "id": "ulani-support-formations-anti-tank-support",
+   "nombre": "Anti Tank Support",
+   "nombreEs": "Apoyo Antitanque",
+   "seccion": "ulani-support-formations",
+   "unidades": "Three Leman Russ Tank Destroyers",
+   "unidadesEs": "3x Leman Russ Destructores de Tanques",
+   "coste": 200,
+   "costeTexto": "200 points"
+  },
+  {
+   "id": "ulani-support-formations-flak-support",
+   "nombre": "Flak Support",
+   "nombreEs": "Apoyo Antiaéreo",
+   "seccion": "ulani-support-formations",
+   "unidades": "Three Hydras",
+   "unidadesEs": "3x Hydras",
+   "coste": 150,
+   "costeTexto": "150 points"
+  },
+  {
+   "id": "ulani-support-formations-hellhound-support",
+   "nombre": "Hellhound Support",
+   "nombreEs": "Apoyo Hellhound",
+   "seccion": "ulani-support-formations",
+   "unidades": "Three Hellhounds",
+   "unidadesEs": "3x Hellhounds",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "extras": [
+    {
+     "texto": "Add three Hellhounds",
+     "textoEs": "Añade 3x Hellhounds",
+     "coste": 100
+    }
+   ]
+  },
+  {
+   "id": "ulani-support-formations-light-artillery-support",
+   "nombre": "Light Artillery Support",
+   "nombreEs": "Apoyo de Artillería Ligera",
+   "seccion": "ulani-support-formations",
+   "unidades": "Three Griffons",
+   "unidadesEs": "3x Griffons",
+   "coste": 100,
+   "costeTexto": "100 points"
+  },
+  {
+   "id": "ulani-support-formations-medium-artillery-support",
+   "nombre": "Medium Artillery Support",
+   "nombreEs": "Apoyo de Artillería Media",
+   "seccion": "ulani-support-formations",
+   "unidades": "Three Basilisks",
+   "unidadesEs": "3x Basilisks",
+   "coste": 225,
+   "costeTexto": "225 points"
+  },
+  {
+   "id": "ulani-support-formations-recon-support",
+   "nombre": "Recon Support",
+   "nombreEs": "Apoyo de Reconocimiento",
+   "seccion": "ulani-support-formations",
+   "unidades": "Six Salamander Scout Tanks",
+   "unidadesEs": "6x Tanques Explorador Salamandra",
+   "coste": 200,
+   "costeTexto": "200 points"
+  },
+  {
+   "id": "ulani-support-formations-super-heavy-tank-platoon",
+   "nombre": "Super Heavy Tank Platoon",
+   "nombreEs": "Pelotón de Tanques Superpesados",
+   "seccion": "ulani-support-formations",
+   "unidades": "Any one of the following units: Baneblade, Shadowsword, Stormblade",
+   "unidadesEs": "1 tanque superpesado a elegir entre: Baneblade, Shadowsword, Stormblade",
+   "coste": 200,
+   "costeTexto": "200 points"
+  },
+  {
+   "id": "ulani-imperial-navy-thunderbolt-squadron",
+   "nombre": "Thunderbolt Squadron",
+   "nombreEs": "Escuadrón Thunderbolt",
+   "seccion": "ulani-imperial-navy",
+   "unidades": "Two Thunderbolt Fighters",
+   "unidadesEs": "2x Cazas Thunderbolt",
+   "coste": 150,
+   "costeTexto": "150 points"
+  },
+  {
+   "id": "ulani-imperial-navy-marauder-squadron",
+   "nombre": "Marauder Squadron",
+   "nombreEs": "Escuadrón Marauder",
+   "seccion": "ulani-imperial-navy",
+   "unidades": "Two Marauder Bombers",
+   "unidadesEs": "2x Bombarderos Marauder",
+   "coste": 250,
+   "costeTexto": "250 points"
+  },
+  {
+   "id": "ulani-imperial-navy-0-1-orbital-support",
+   "nombre": "0-1 Orbital Support",
+   "nombreEs": "0–1 Apoyo Orbital",
+   "seccion": "ulani-imperial-navy",
+   "unidades": "One Lunar Class Cruiser or one Emperor Class Battleship",
+   "unidadesEs": "Un Crucero clase Lunar o un Acorazado clase Emperador",
+   "coste": 150,
+   "costeTexto": "150 points",
+   "max": 1,
+   "tamanos": [
+    {
+     "nombre": "Lunar Class Cruiser",
+     "nombreEs": "Crucero clase Lunar",
+     "coste": 150
+    },
+    {
+     "nombre": "Emperor Class Battleship",
+     "nombreEs": "Acorazado clase Emperador",
+     "coste": 200
+    }
+   ],
+   "tamanosTitulo": "Tipo de nave"
+  }
+ ],
+ "mejoras": [
+  {
+   "id": "flak",
+   "nombre": "Flak",
+   "nombreEs": "Antiaéreo",
+   "seccion": "ulani-company-upgrades",
+   "texto": "Add one Hydra",
+   "textoEs": "Añade 1x Hydra",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "griffon-battery",
+   "nombre": "Griffon Battery",
+   "nombreEs": "Batería Griffon",
+   "seccion": "ulani-company-upgrades",
+   "texto": "Add three Griffons",
+   "textoEs": "Añade 3x Griffons",
+   "coste": 50,
+   "costeTexto": "+50 points"
+  },
+  {
+   "id": "hellhound-squadron",
+   "nombre": "Hellhound Squadron",
+   "nombreEs": "Escuadrón Hellhound",
+   "seccion": "ulani-company-upgrades",
+   "texto": "Add three Hellhounds",
+   "textoEs": "Añade 3x Hellhounds",
+   "coste": 100,
+   "costeTexto": "+100 points"
+  },
+  {
+   "id": "tank-rider-platoon",
+   "nombre": "Tank Rider Platoon",
+   "nombreEs": "Pelotón de Jinetes de Tanque",
+   "seccion": "ulani-company-upgrades",
+   "texto": "Add Tank Rider Infantry units: two, four or six",
+   "textoEs": "Añade unidades de Infantería Jinete de Tanque: 2, 4 o 6",
+   "coste": 25,
+   "costeTexto": "+25 points",
+   "variantes": [
+    {
+     "coste": 25,
+     "porUnidad": false,
+     "texto": "Two Tank Rider Infantry +25",
+     "textoEs": "2x Infantería Jinete de Tanque (+25)"
+    },
+    {
+     "coste": 50,
+     "porUnidad": false,
+     "texto": "Four Tank Rider Infantry +50",
+     "textoEs": "4x Infantería Jinete de Tanque (+50)"
+    },
+    {
+     "coste": 75,
+     "porUnidad": false,
+     "texto": "Six Tank Rider Infantry +75",
+     "textoEs": "6x Infantería Jinete de Tanque (+75)"
+    }
+   ]
+  },
+  {
+   "id": "tank-squadron",
+   "nombre": "Tank Squadron",
+   "nombreEs": "Escuadrón de Tanques",
+   "seccion": "ulani-company-upgrades",
+   "texto": "Add any three of the following units: Leman Russ Demolisher, Leman Russ Executioner, Leman Russ",
+   "textoEs": "Añade 3 tanques a elegir entre: Leman Russ Demolisher, Leman Russ Executioner, Tanque de Batalla Leman Russ",
+   "coste": 175,
+   "costeTexto": "+175 points"
+  }
+ ],
+ "fichas": [
+  {
+   "nombreEs": "Tanque de Mando del CG Ulani",
+   "nombre": "Ulani HQ Command Tank",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    },
+    {
+     "nombre": "Arma de afuste",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    }
+   ],
+   "notas": "Blitzkrieg, Blindaje Reforzado, Comandante Supremo.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Tanque de Mando Ulani",
+   "nombre": "Ulani Command Tank",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón Vanquisher",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT2+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blitzkrieg, Comandante, Blindaje Reforzado.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Leman Russ Executioner",
+   "nombre": "Leman Russ Executioner",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Destructor de plasma",
+     "alcance": "60cm",
+     "potencia": "MA4+, Baj"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Leman Russ Conqueror Ulani",
+   "nombre": "Ulani Leman Russ Conqueror",
+   "tipo": "VB",
+   "velocidad": "25cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Conqueror",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT5+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Blitzkrieg, Blindaje Reforzado.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Leman Russ Destructor de Tanques",
+   "nombre": "Leman Russ Tank Destroyer",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "6+",
+   "armas": [
+    {
+     "nombre": "Destructor láser",
+     "alcance": "75cm",
+     "potencia": "AT2+, S"
+    }
+   ],
+   "notas": "Blindaje Reforzado, Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Infantería Jinete de Tanque",
+   "nombre": "Tank Rider Infantry",
+   "tipo": "INF",
+   "velocidad": "15cm",
+   "blindaje": "-",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autorrifles",
+     "alcance": "(15cm)",
+     "potencia": "Armas ligeras"
+    },
+    {
+     "nombre": "Ametralladora pesada",
+     "alcance": "30cm",
+     "potencia": "AP6+"
+    }
+   ],
+   "notas": "Jinetes de Tanque.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Tanque Explorador Salamandra",
+   "nombre": "Salamander Scout Tank",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Explorador.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Stormblade",
+   "nombre": "Stormblade",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón bláster de plasma",
+     "alcance": "45cm",
+     "potencia": "3x MA2+, Baj, FxF"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+, FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "2x Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: estallan las bobinas de energía del cañón bláster de plasma; el Stormblade queda destruido y toda unidad a 5 cm o menos sufre un impacto con un 6 en 1D6.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Tanque de Batalla Leman Russ",
+   "nombre": "Leman Russ",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Blindaje Reforzado.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Leman Russ Demolisher",
+   "nombre": "Leman Russ Demolisher",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    },
+    {
+     "nombre": "Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    },
+    {
+     "nombre": "2x Cañón de plasma",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+, Baj"
+    }
+   ],
+   "notas": "Blindaje Reforzado.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Hellhound",
+   "nombre": "Hellhound",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón Inferno",
+     "alcance": "30cm",
+     "potencia": "AP3+, IC"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Hydra",
+   "nombre": "Hydra",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "2x Autocañón doble Hydra",
+     "alcance": "45cm",
+     "potencia": "AP4+/AT5+/AA5+"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Griffon",
+   "nombre": "Griffon",
+   "tipo": "VB",
+   "velocidad": "30cm",
+   "blindaje": "6+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Mortero pesado",
+     "alcance": "30cm",
+     "potencia": "1PA, Ind"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Basilisk",
+   "nombre": "Basilisk",
+   "tipo": "VB",
+   "velocidad": "20cm",
+   "blindaje": "5+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Earthshaker",
+     "alcance": "120cm",
+     "potencia": "AP4+/AT4+"
+    },
+    {
+     "nombre": "o",
+     "alcance": "120cm",
+     "potencia": "1PA, Ind"
+    },
+    {
+     "nombre": "Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Puede disparar normalmente o hacer un disparo de artillería; solo puede usar Fuego Indirecto cuando dispara un disparo de artillería.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Baneblade",
+   "nombre": "Baneblade",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "3+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla Baneblade",
+     "alcance": "75cm",
+     "potencia": "2x AP3+/AT3+"
+    },
+    {
+     "nombre": "Autocañón",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+"
+    },
+    {
+     "nombre": "Cañón Demolisher",
+     "alcance": "30cm",
+     "potencia": "AP3+/AT4+, IC"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+, FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+"
+    },
+    {
+     "nombre": "2x Cañón láser",
+     "alcance": "45cm",
+     "potencia": "AT5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: explosión del polvorín; el Baneblade sufre un punto de daño adicional.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 58
+  },
+  {
+   "nombreEs": "Shadowsword",
+   "nombre": "Shadowsword",
+   "tipo": "MG",
+   "velocidad": "15cm",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "5+",
+   "armas": [
+    {
+     "nombre": "Cañón Volcán",
+     "alcance": "90cm",
+     "potencia": "MA2+, MT(D3), FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado",
+     "alcance": "30cm",
+     "potencia": "AP5+"
+    }
+   ],
+   "notas": "Factor de Daños 3. Blindaje Reforzado. Efecto de daño crítico: estallan las bobinas de energía del cañón Volcán; el Shadowsword queda destruido y toda unidad a 5 cm o menos sufre un impacto con un 6 en 1D6.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  },
+  {
+   "nombreEs": "Comisario",
+   "nombre": "Commissar",
+   "tipo": "PJ",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Arma de energía",
+     "alcance": "(peana)",
+     "potencia": "Armas de asalto, AE(+1), MA"
+    }
+   ],
+   "notas": "Coraje, Inspirador, Líder.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  },
+  {
+   "nombreEs": "Caza Thunderbolt",
+   "nombre": "Thunderbolt Fighter",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bólters de asalto",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Multiláser",
+     "alcance": "30cm",
+     "potencia": "AP5+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Cohetes subalares",
+     "alcance": "30cm",
+     "potencia": "AT4+, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  },
+  {
+   "nombreEs": "Bombardero Marauder",
+   "nombre": "Marauder Bomber",
+   "tipo": "AN",
+   "velocidad": "Bombardero",
+   "blindaje": "3+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AA5+"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "45cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Soportes de bombas",
+     "alcance": "15cm",
+     "potencia": "3PA, FxF"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  },
+  {
+   "nombreEs": "Crucero clase Lunar",
+   "nombre": "Lunar Class Cruiser",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "3PA, MA"
+    },
+    {
+     "nombre": "Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": "",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  },
+  {
+   "nombreEs": "Acorazado clase Emperador",
+   "nombre": "Emperor Class Battleship",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa: no puede usarse en los turnos uno y dos salvo que el escenario indique lo contrario.",
+   "capitulo": "Lista de ejército de la Guardia Imperial de la Korps de la Muerte de Krieg L 2",
+   "pagina": 59
+  }
+ ],
+ "reglas": [
+  {
+   "id": "R.1",
+   "titulo": "Comisarios (Commissars)",
+   "parrafos": [
+    "Los Comisarios son personajes que se añaden gratis a las formaciones. Un Comisario debe ir en la formación del Comandante Supremo; el resto puede añadirse a cualquier otra formación, como máximo uno por formación."
+   ]
+  },
+  {
+   "id": "R.2",
+   "titulo": "Jinetes de Tanque (Tank Riders)",
+   "parrafos": [
+    "Las unidades con Jinetes de tanque pueden ir montadas en cualquier Leman Russ (de cualquier variante) de su formación: cada Leman Russ de una formación con Jinetes de tanque tiene Transporte (una unidad con Jinetes de tanque).",
+    "Una formación con Leman Russ no recibe marcadores de Explosión por las unidades con Jinetes de tanque destruidas."
+   ]
+  },
+  {
+   "id": "R.3",
+   "titulo": "Blitzkrieg",
+   "parrafos": [
+    "Las formaciones con alguna unidad con Blitzkrieg tienen +1 a la tirada de acción cuando intentan una acción Doble."
+   ]
+  },
+  {
+   "id": "R.4",
+   "titulo": "Notas de la lista",
+   "parrafos": [
+    "Cada mejora permitida puede tomarse una vez por compañía.",
+    "Hasta un tercio de los puntos puede gastarse en formaciones de la Armada Imperial."
+   ]
+  }
+ ],
+ "comisarios": {
+  "cada": 500,
+  "ficha": "Commissar"
+ }
+}
