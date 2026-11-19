@@ -277,7 +277,7 @@
    "id": "raven-guard-aircraft-storm-talon-squadron",
    "nombre": "Storm Talon Squadron",
    "seccion": "raven-guard-aircraft",
-   "unidades": "Two Storm Talons",
+   "unidades": "Two Storm Talon Gunships",
    "coste": 200,
    "costeTexto": "200 points",
    "nombreEs": "Escuadrón Storm Talon",
@@ -1154,6 +1154,94 @@
     }
    ],
    "notas": "Factor de Daños 8, Coraje, Blindaje Reforzado, Blindaje adicional posterior, 6 Pantallas de Vacío, Bípode. Puede pasar por encima de unidades y elementos de terreno más bajos que las rodillas de la unidad y de menos de 2 cm de ancho. Efecto de Impacto Crítico: el reactor de plasma de la unidad sufre una brecha. Tira un D6 por cada brecha de la unidad en la fase de finalización de cada turno. Con un 1 la unidad queda destruida y todas las unidades a 5 cm o menos sufren un impacto con 4+; con un 4–6 la brecha queda reparada. Cada brecha no reparada causa un punto de daño."
+  },
+  {
+   "nombre": "Strike Cruiser",
+   "nombreEs": "Crucero de Asalto",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "5PA, MA"
+    }
+   ],
+   "notas": "Transporte. Puede transportar 20 unidades de infantería, Motos de Ataque o Dreadnoughts; más 20 vehículos ligeros o blindados (excepto Motos de Ataque y Dreadnoughts); más seis Cañoneras Thunderhawk y suficientes Cápsulas de Desembarco o Lanzaderas de Desembarco para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Battle Barge",
+   "nombreEs": "Barcaza de Batalla",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "14PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa, Transporte. Puede transportar 60 unidades de infantería, Motos de Ataque o Dreadnoughts; más 60 vehículos blindados (excepto Dreadnoughts); más nueve Cañoneras Thunderhawk y suficientes Cápsulas de Desembarco o Lanzaderas de Desembarco para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Thunderhawk Gunship",
+   "nombreEs": "Cañonera Thunderhawk",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Izq."
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Der."
+    }
+   ],
+   "notas": "Factor de Daños 2, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar ocho unidades de infantería, Motos de Ataque o Dreadnoughts; los Exterminadores y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
+  },
+  {
+   "nombre": "Storm Talon Gunship",
+   "nombreEs": "Cañonera Storm Talon",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "5+",
+   "cc": "-",
+   "ff": "-",
+   "armas": [
+    {
+     "nombre": "Cañón de asalto doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT4+/AA5+, Fro"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
   }
  ]
 }

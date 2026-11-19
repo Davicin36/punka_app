@@ -832,7 +832,7 @@
    "notas": "Factor de Daños 2, Coraje, Blindaje Reforzado, Tunelador. Efecto de Impacto Crítico: destruida."
   },
   {
-   "nombre": "Hierodule Bio- Titan",
+   "nombre": "Hierodule Bio-Titan",
    "nombreEs": "Bio-Titán Hierodule",
    "tipo": "MG",
    "velocidad": "25cm",
@@ -879,7 +879,7 @@
    "notas": "Factor de Daños 4, Coraje, Salvación Invulnerable, Regeneración, Blindaje Reforzado. Puede pasar por encima de unidades y elementos de terreno más bajos que el abdomen de la unidad y de menos de 2 cm de ancho. Armado con dos armas elegidas de la lista siguiente (solo la Garra afilada puede elegirse dos veces): Lanzador de bilis, Biocañón de Bio-Titán, Espinas de racimo, Rociado piroácido, Garra afilada. Efecto de Impacto Crítico: la unidad sufre un punto de daño. Tira un D6: con un 1, todas las unidades a 5 cm o menos sufren un impacto con 6+; con un 6, la unidad pierde otro punto de daño."
   },
   {
-   "nombre": "Hierophant Bio- Titan",
+   "nombre": "Hierophant Bio-Titan",
    "nombreEs": "Bio-Titán Hierophant",
    "tipo": "MG",
    "velocidad": "25cm",

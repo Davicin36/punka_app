@@ -67,7 +67,7 @@ function patrones(e: EjercitoEpic) {
       const base = escapar(f.nombre).replace(/['’]/g, "['’]");
       const plural = f.nombre.endsWith('y') ? `|${escapar(f.nombre.slice(0, -1))}ies`
         // «Grey Hunters» aparece en singular en los textos («Six Grey Hunter units»)
-        : / [A-Z]\w+s$/.test(f.nombre) ? `|${escapar(f.nombre.slice(0, -1))}` : '';
+        : /[A-Z]\w*[^s]s$/.test(f.nombre) ? `|${escapar(f.nombre.slice(0, -1))}` : '';
       return { nombre: f.nombre, re: new RegExp(`(?<![\\w-])(?:${base}(?:s|es)?${plural})(?![\\w-])`, 'g') };
     });
     cacheRe.set(e, p);

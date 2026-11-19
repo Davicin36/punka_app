@@ -329,7 +329,7 @@
    "id": "saim-hann-craftworld-spacecraft-aircraft-titans-spacecraft",
    "nombre": "Spacecraft",
    "seccion": "saim-hann-craftworld-spacecraft-aircraft-titans",
-   "unidades": "Any one of the following units: Wraithship Dragonship",
+   "unidades": "Any one of the following units: Wraithship, Dragonship",
    "coste": 150,
    "costeTexto": "150 points 300 points",
    "max": 1,
@@ -1059,6 +1059,50 @@
     }
    ],
    "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida."
+  },
+  {
+   "nombre": "Wraithship",
+   "nombreEs": "Nave Espectral",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1x Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "4PA, MA"
+    },
+    {
+     "nombre": "0–1x Ataque localizado",
+     "alcance": "—",
+     "potencia": "MA2+, MT(D3)"
+    }
+   ],
+   "notas": "Armado con Bombardeo Orbital o con Ataque de Precisión."
+  },
+  {
+   "nombre": "Dragonship",
+   "nombreEs": "Nave Dragón",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "0–1x Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "8PA, MA"
+    },
+    {
+     "nombre": "0–1x Ataques localizados",
+     "alcance": "—",
+     "potencia": "2x MA2+, MT(D3)"
+    }
+   ],
+   "notas": "Transporte. Puede transportar doce Vampire Raiders y las unidades que lleven. Armado con Bombardeo Orbital o con Ataques de Precisión."
   }
  ],
  "nombreEs": "Eldars – Mundo Astronave Saim-Hann"

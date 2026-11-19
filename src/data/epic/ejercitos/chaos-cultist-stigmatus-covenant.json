@@ -178,7 +178,7 @@
    "id": "daemon-engine-slaanesh-daemon-scout-titans",
    "nombre": "Slaanesh Daemon Scout Titans",
    "seccion": "daemon-engine",
-   "unidades": "Up to any two of the following units: Questor Subjugator",
+   "unidades": "Up to any two of the following units: Questor Titan, Subjugator Titan",
    "coste": 275,
    "costeTexto": "275 points each 225 points each",
    "nombreEs": "Titanes Demonio de Exploración de Slaanesh",
@@ -1010,7 +1010,7 @@
    "notas": "Coraje, Salvación Invulnerable."
   },
   {
-   "nombre": "Daemon Assault Engine",
+   "nombre": "Daemonic Assault Engine",
    "nombreEs": "Máquina Demoníaco de Asalto",
    "tipo": "VB",
    "velocidad": "25cm",

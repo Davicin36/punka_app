@@ -259,7 +259,7 @@
    "id": "imperial-fist-aircraft-storm-talon-squadron",
    "nombre": "Storm Talon Squadron",
    "seccion": "imperial-fist-aircraft",
-   "unidades": "Two Storm Talons",
+   "unidades": "Two Storm Talon Gunships",
    "coste": 200,
    "costeTexto": "200 points",
    "nombreEs": "Escuadrón Storm Talon",
@@ -1411,6 +1411,72 @@
     }
    ],
    "notas": "Factor de Daños 2, Blindaje Reforzado. Efecto de Impacto Crítico: destruida."
+  },
+  {
+   "nombre": "Strike Cruiser",
+   "nombreEs": "Crucero de Asalto",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "5PA, MA"
+    }
+   ],
+   "notas": "Transporte. Puede transportar 20 unidades de infantería, Motos de Ataque o Dreadnoughts; más 20 vehículos ligeros o blindados (excepto Motos de Ataque y Dreadnoughts); más seis Cañoneras Thunderhawk y suficientes Cápsulas de Desembarco o Lanzaderas de Desembarco para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Battle Barge",
+   "nombreEs": "Barcaza de Batalla",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "14PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa, Transporte. Puede transportar 60 unidades de infantería, Motos de Ataque o Dreadnoughts; más 60 vehículos blindados (excepto Dreadnoughts); más nueve Cañoneras Thunderhawk y suficientes Cápsulas de Desembarco o Lanzaderas de Desembarco para transportar al resto de unidades."
+  },
+  {
+   "nombre": "Thunderhawk Gunship",
+   "nombreEs": "Cañonera Thunderhawk",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "4+",
+   "cc": "6+",
+   "ff": "4+",
+   "armas": [
+    {
+     "nombre": "Cañón de batalla",
+     "alcance": "75cm",
+     "potencia": "AP4+/AT4+, FxF"
+    },
+    {
+     "nombre": "2x Bólter pesado doble",
+     "alcance": "30cm",
+     "potencia": "AP4+/AA5+, FxF"
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Izq."
+    },
+    {
+     "nombre": "Bólter pesado doble",
+     "alcance": "15cm",
+     "potencia": "AP4+/AA5+, Der."
+    }
+   ],
+   "notas": "Factor de Daños 2, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar ocho unidades de infantería, Motos de Ataque o Dreadnoughts; los Exterminadores y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
   }
  ]
 }

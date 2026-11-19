@@ -228,7 +228,7 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "nombreEs": "Demonio Mayor",
+   "nombreEs": "Heraldo (Harbinger)",
    "unidadesEs": "Un Harbinger"
   },
   {
@@ -238,8 +238,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Thunderhawk",
-   "unidadesEs": "Una Thunderhawk del Caos"
+   "nombreEs": "Hell Blades",
+   "unidadesEs": "Tres Hell Blades"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -248,8 +248,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "nombreEs": "Manada de Caballeros",
-   "unidadesEs": "Entre cuatro y seis cualesquiera de: Caminante Infernal (50 c/u), Caballero Infernal (75 c/u), Azote Infernal (90 c/u)"
+   "nombreEs": "Hell Talons",
+   "unidadesEs": "Dos Hell Talons"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
@@ -307,12 +307,17 @@
    "id": "chaos-war-engines-knight-pack",
    "nombre": "Knight Pack",
    "seccion": "chaos-war-engines",
-   "unidades": "Between four and Hell-Strider six of any of the Hell-Knight following units: Hell-Scourge",
-   "coste": 50,
-   "costeTexto": "50 points each 75 points each 90 points each",
+   "unidades": "Between four and six of any of the following units: Hell Strider, Hell-Knight, Hell-Scourge",
+   "coste": 0,
+   "costeTexto": "50/75/90 points each",
    "max": 1,
-   "nombreEs": "Manada de Caballeros",
-   "unidadesEs": "Entre cuatro y seis de cualquiera de estas unidades: Hell-Strider, Hell-Knight, Hell-Scourge"
+   "nombreEs": "0–1 Manada de Caballeros",
+   "unidadesEs": "Entre 4 y 6 cualesquiera de: Caminante Infernal (50 c/u), Caballero Infernal (75 c/u), Azote Infernal (90 c/u)",
+   "costesUnidad": {
+    "Hell Strider": 50,
+    "Hell-Knight": 75,
+    "Hell-Scourge": 90
+   }
   }
  ],
  "mejoras": [

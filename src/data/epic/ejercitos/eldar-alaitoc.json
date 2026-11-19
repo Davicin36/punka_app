@@ -113,9 +113,18 @@
    "costeTexto": "200 points",
    "extras": [
     {
-     "texto": "Replace four Rangers with three War Walkers for free or four Falcons for +200 points",
+     "texto": "Replace four Rangers with three War Walkers",
+     "textoEs": "Sustituye cuatro Rangers por tres Bípodes de Guerra (gratis)",
+     "coste": 0,
+     "juntos": "rangers",
+     "max": 1
+    },
+    {
+     "texto": "Replace four Rangers with four Falcons",
+     "textoEs": "Sustituye cuatro Rangers por cuatro Falcons",
      "coste": 200,
-     "textoEs": "Sustituye cuatro Rangers por tres Bípodes de Guerra gratis o por cuatro Falcons por +200 puntos"
+     "juntos": "rangers",
+     "max": 1
     }
    ],
    "nombreEs": "Rangers",

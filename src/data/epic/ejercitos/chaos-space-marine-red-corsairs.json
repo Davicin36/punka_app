@@ -308,7 +308,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Tres Hell Blades"
+   "unidadesEs": "Tres Hell Blades",
+   "nombreEs": "Hell Blades"
   },
   {
    "id": "chaos-navy-formations-hell-talons",
@@ -317,7 +318,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Dos Hell Talons"
+   "unidadesEs": "Dos Hell Talons",
+   "nombreEs": "Hell Talons"
   }
  ],
  "mejoras": [
@@ -1239,6 +1241,79 @@
     }
    ],
    "notas": "Caída orbital, Transporte. Puede transportar una formación compuesta solo por las siguientes unidades: Berzerkers, Dreadnoughts del Caos, Elegidos, Marines Espaciales del Caos, Príncipe Demonio, Havocs, Marines Ruidosos, Marines de Plaga, Mil Hijos. Tras aterrizar la cápsula, su Viento de Muerte ataca a todas las unidades enemigas a 15 cm o menos. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego y otro adicional por cada baja. Después, las tropas que lleve la cápsula deben desembarcar a 5 cm o menos de ella o de otra unidad de su formación que ya haya aterrizado, siempre que todas queden a 15 cm o menos de la cápsula. Las miniaturas de cápsula de desembarco se quitan del tablero cuando la formación que transportan ha desembarcado. Cuenta como una Cápsula de Desembarco a efectos de transporte."
+  },
+  {
+   "nombre": "Harbinger",
+   "tipo": "AN/MG",
+   "velocidad": "Bombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "30cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    },
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Izq."
+    },
+    {
+     "nombre": "Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, Der."
+    },
+    {
+     "nombre": "Bombas incendiarias",
+     "alcance": "15cm",
+     "potencia": "6PA, FxF, IC"
+    }
+   ],
+   "notas": "Factor de Daños 4, Salvación Invulnerable, Blindaje Reforzado. Efecto de Impacto Crítico: la unidad queda destruida."
+  },
+  {
+   "nombre": "Hell Blade",
+   "tipo": "AN",
+   "velocidad": "Caza",
+   "blindaje": "6+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "2x Autocañón Segador",
+     "alcance": "15cm",
+     "potencia": "AP4+/AT6+/AA5+, FxF"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Hell Talon",
+   "tipo": "AN",
+   "velocidad": "Cazabombardero",
+   "blindaje": "5+",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombas",
+     "alcance": "15cm",
+     "potencia": "2PA, FxF, IC"
+    },
+    {
+     "nombre": "Cañón láser doble",
+     "alcance": "30cm",
+     "potencia": "AT4+/AA4+, FxF"
+    },
+    {
+     "nombre": "Lanzador Havoc",
+     "alcance": "45cm",
+     "potencia": "AP5+/AT6+, FxF"
+    }
+   ],
+   "notas": ""
   }
  ]
 }
