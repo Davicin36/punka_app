@@ -328,7 +328,7 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "nombreEs": "Herrero de Guerra",
+   "nombreEs": "Heraldo (Harbinger)",
    "unidadesEs": "Un Harbinger"
   },
   {
@@ -338,7 +338,8 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "unidadesEs": "Tres Hell Blades"
+   "unidadesEs": "Tres Hell Blades",
+   "nombreEs": "Hell Blades"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-hell-talons",
@@ -347,7 +348,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "unidadesEs": "Dos Hell Talons"
+   "unidadesEs": "Dos Hell Talons",
+   "nombreEs": "Hell Talons"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",

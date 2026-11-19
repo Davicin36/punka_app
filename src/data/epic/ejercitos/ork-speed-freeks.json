@@ -312,7 +312,7 @@
    "id": "ork-aircraft-formations-fighta-sqwadron",
    "nombre": "Fighta Sqwadron",
    "seccion": "ork-aircraft-formations",
-   "unidades": "Three Fighter Bombers",
+   "unidades": "Three Fighta Bommers",
    "coste": 150,
    "costeTexto": "Normal 150",
    "nombreEs": "Eskuadrón Fighta",
@@ -746,6 +746,38 @@
     }
    ],
    "notas": "Factor de Daños 3, Caída orbital, Blindaje Reforzado, Transporte. Puede transportar diez unidades de infantería (excepto Zakeadores Orkos), unidades de vehículo ligero, Latas Asesinas o Dreadnoughts; más cuatro unidades de Gretchins. Los vehículos ligeros y los Dreadnoughts cuentan como dos unidades cada uno. Efecto de Impacto Crítico: la unidad y todas las unidades transportadas quedan destruidas."
+  },
+  {
+   "nombre": "Kill Kroozer",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "D6+1PA, MA"
+    }
+   ],
+   "notas": ""
+  },
+  {
+   "nombre": "Battlekroozer",
+   "tipo": "NE",
+   "velocidad": "—",
+   "blindaje": "n/a",
+   "cc": "n/a",
+   "ff": "n/a",
+   "armas": [
+    {
+     "nombre": "Bombardeo orbital",
+     "alcance": "—",
+     "potencia": "D6+3PA, MA"
+    }
+   ],
+   "notas": "Lenta y tediosa, Transporte. Puede transportar doce Landas y las unidades que lleven."
   }
  ]
 }

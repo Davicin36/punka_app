@@ -244,7 +244,7 @@
    "unidades": "One Harbinger",
    "coste": 400,
    "costeTexto": "400 points",
-   "nombreEs": "Demonio Mayor",
+   "nombreEs": "Heraldo (Harbinger)",
    "unidadesEs": "Un Harbinger"
   },
   {
@@ -254,7 +254,7 @@
    "unidades": "Three Hell Blades",
    "coste": 200,
    "costeTexto": "200 points",
-   "nombreEs": "Demonio Menor",
+   "nombreEs": "Hell Blades",
    "unidadesEs": "Tres Hell Blades"
   },
   {
@@ -264,8 +264,8 @@
    "unidades": "Two Hell Talons",
    "coste": 225,
    "costeTexto": "225 points",
-   "nombreEs": "Decimators",
-   "unidadesEs": "Hasta tres Decimators"
+   "nombreEs": "Hell Talons",
+   "unidadesEs": "Dos Hell Talons"
   },
   {
    "id": "chaos-navy-and-war-engine-formations-chaos-navy-spacecraft",
